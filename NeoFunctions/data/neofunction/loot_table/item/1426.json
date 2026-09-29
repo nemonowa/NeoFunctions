@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azure_bluet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "アネモネ",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「遠ざかる希望」",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1426
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

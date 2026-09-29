@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/198",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：【異能】侵食領域【ワールド・イロージョン】 -[Supernatural Ability] Invasion Domain [World Erosion]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:199)の習得\n§3報酬：§r経験値×32\n§9説明：§r自身の世界の理(ことわり)で、世界の理(ことわり)を自由に改変(塗りつぶす)する最終奥義。自身の理(ルール)が強制する領域(せかい)を作り出し、領域内では基本的に無敵。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                199
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "curry",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "艦兵ライスカレイ",
+                  "color": "#D97822",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "🍚🐠",
+                  "color": "gold",
+                  "obfuscated": false
+                },
+                {
+                  "text": "curry",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "艦の兵食に定められている特製のカレーライス🍛",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "不動の人気第一位にして",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "カフェテリア",
+                    "color": "dark_blue",
+                    "bold": true
+                  },
+                  {
+                    "text": "の最古参メニューである",
+                    "color": "gold"
+                  }
+                ],
+                [
+                  {
+                    "text": "王道にして覇道、追随を許さない",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "至高の味",
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "は然ることながら",
+                    "color": "gold"
+                  }
+                ],
+                [
+                  {
+                    "text": "実体を持たない",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "アストラル",
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "から星喰いの",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "テライーター",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": "まで",
+                    "color": "gold"
+                  }
+                ],
+                [
+                  {
+                    "text": "覇帝無く満足される",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "魔性の定食",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "である。",
+                    "color": "gold"
+                  }
+                ],
+                [
+                  {
+                    "text": "また艦内には",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "「金曜カレー過激派」",
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "という組織があり",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "党派員の熱烈なプッシュにより",
+                  "color": "gold",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "金曜日",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ならどの師団どの種族どの作戦域であろうとも",
+                    "color": "gold",
+                    "bold": false
+                  }
+                ],
+                [
+                  {
+                    "text": "「食べたい」と思うだけで無償かつ無障で",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  {
+                    "text": "即時提供",
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "される",
+                    "color": "gold"
+                  }
+                ]
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  990
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14252066,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 300
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

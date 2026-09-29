@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ピンチボウ",
+                "color": "#C28D48",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "湾曲した殻を反らせた独特な構造の弓。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 狙いが定まれば、重く鋭い一矢を放つ。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:power": 3,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:035106b1-cca2-437d-b3a9-942e716eecd4",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1102
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

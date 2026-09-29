@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sponge",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:aqua_affinity": 11,
+                "minecraft:depth_strider": 11
+              },
+              "minecraft:custom_name": [
+                {
+                  "text": "逸般の誤家庭用",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "スポンジ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  85
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

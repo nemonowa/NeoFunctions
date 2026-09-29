@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:c265f8d0-38f1-463a-be07-b432080c2478",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:bad1bf9d-63c6-4534-a63a-2d44676a58b6",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:1098d746-8341-4d54-a306-5bea59b60d65",
+                  "amount": -0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 鋼鉄の盾 ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  188
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

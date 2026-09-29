@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/104",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：ライムの滝 -Lime Falls-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:105)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r静かに落ちる水音が、訪れる者の心を浄化するという聖域。\n滝壺には、水の精霊が棲み、時に青き奇跡「ブルーライム」が姿を現す。\n澄みきった流れに、かすかな神意が宿る。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/105": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

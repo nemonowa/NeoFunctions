@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "雑魚乙ｗ",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "> 精神攻撃は基本。",
+                  "color": "white"
+                },
+                {
+                  "text": "produced by GGEZ",
+                  "color": "dark_gray"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  393
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

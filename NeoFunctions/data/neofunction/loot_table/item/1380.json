@@ -1,0 +1,683 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "暗殺士官【ASSASIN】",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "対象の覚えられるスキルが書いてある本",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1380
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "奇襲体勢と呪印について\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "暗殺士官【ASSASSIN】が扱う2つの特殊なシステムについて説明する。\n\n"
+                    },
+                    {
+                      "text": "→次ページ以降で解説",
+                      "italic": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "奇襲体勢\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "暗殺士官のパッシブ、または影打ちのトリガー・虚影潜伏・幻脚のいずれかを発動すると得られる状態。\n\n"
+                    },
+                    {
+                      "text": "この状態の間は、影打ちの「対象が自身を標的にしていない」という発動条件を無視し、確定で影打ちを命中させることができる。\n\n"
+                    },
+                    {
+                      "text": "発動と同時に消費される。"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "呪印\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "影打ち・深蝕苦無・影杭などのスキルが対象に命中、あるいは設置した際に刻まれる印。\n\n"
+                    },
+                    {
+                      "text": "呪印が刻まれた相手には、\n・影縫乱舞発動時に固定+25ダメージ\n・終影審判発動時に固定+75ダメージ\nが追加され、それぞれ命中と同時に呪印を消費する。"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "暗殺士官【ASSASSIN】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "パッシブ\nスニーク時、自身に透明化と移動速度上昇を付与する\n\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "255(虚影潜伏)を習得していると、このパッシブ発動中に再生能力も追加で得られる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "トリガー\n発動すると3分間の透明化と、次の一撃を確定奇襲にする「奇襲体勢」を得る\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "透明化：180秒／奇襲体勢：3秒（影打ちの対象認識判定を無視して確定発動できる）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "影刃生成\n【クリエイト・シャドウ】\n\n暗殺士官が無から短剣を錬成するスキル。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・影の短剣を生成\n・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "影打ち【シャドウ・ストライク】",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n発動時、自身を標的として認識していない敵に対し、致命的な一撃を放つ。命中した相手には呪印を刻む。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：単体（5m以内）\n"
+                    },
+                    {
+                      "text": "・条件\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象が使用者を標的にしていない（奇襲体勢中はこの判定を無視して確定発動する）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10/30/50/70/90レベル = 30/60/120/240/480"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "命中した相手に呪印を刻む（254・259の追加ダメージの起点になる）。発動と同時に奇襲体勢を消費する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：15"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "深蝕苦無【ディープヴェノム】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "8m以内の敵に蝕む毒を与える苦無を投擲する。命中した相手には呪印も刻む。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内の敵 最大3体"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "基礎ダメージ5、自身のレベルが10上がる毎に5ダメージずつ加算（最大45）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・毒（ウィザー効果）\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10/30/50/70/90レベル = 効果レベル1/2/3/3/3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "命中した相手に呪印を刻む（254・259の追加ダメージの起点になる）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：5"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "影縫乱舞【シャドウ・ランページ】\n\n影の刃を乱舞させ、周囲の敵を斬り裂く。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内の敵（人数無制限）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "基礎ダメージ25、10レベル毎に15ダメージ加算"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・距離減衰\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0〜3m：100%\n3〜6m：60%\n6〜8m：20%"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "呪印を刻まれた相手には固定+25ダメージが追加で入り、その呪印を消費する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "虚影潜伏【ヴォイド・ハイド】\n\n虚無の影に身を潜め、姿を隠しながら傷を癒す。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "透明化／再生能力（10レベル毎に効果レベル+1、最大レベル8）／奇襲体勢"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10秒（効果中に被弾すると即座に解除される）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "このスキルを習得している場合、暗殺士官【ASSASSIN】のパッシブ発動時にも再生能力を獲得できる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20\n"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "幻脚【ファントム・ステップ】\n\n影のような軽やかな動きで戦場を駆け抜ける。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "移動速度上昇／跳躍力上昇（10レベル毎に効果レベル+1、最大レベル9）／奇襲体勢"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "3秒"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20\n"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "影杭【シャドウ・ピラー】\n\n地面に影の杭を打ち込み、周囲の敵の動きを鈍らせる\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "25"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・発生位置\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自座標"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "杭の周囲8mの敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "弱体化（レベル2）／鈍足（レベル1）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "設置した瞬間、周囲8m以内の敵にまとめて呪印を刻む"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：1分\n"
+                    },
+                    {
+                      "text": "・消費SP：40"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "影潜【シャドウ・ディセント】\n\n影に溶け込むことで、周囲の敵の注意を一時的に逸らす。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "周囲16m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "敵対状態を解除"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1秒間、敵対されなくなる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：15"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "終影審判【エンド・オブ・シャドウ】\n\n影を駆け巡り、敵の背後から無数の斬撃を叩き込む暗殺士官の奥義。\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "16m以内の敵。命中の度に対象を切り替え、全員を巡回してから1周目に戻る"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・攻撃間隔\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0.1秒（2t）ごとに1回、最大20回（＝約2秒間）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・攻撃方法\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "その時点の対象の背後へ瞬間移動して斬撃"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10/30/50/70/90レベル = 1発につき10/20/40/80/160"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "呪印を刻まれた相手がいる場合、発動と同時に固定+75ダメージで呪印を刈り取る"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：100"
+                    }
+                  ]
+                ],
+                "title": "暗殺士官【ASSASSIN】",
+                "author": "System",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

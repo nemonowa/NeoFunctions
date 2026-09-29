@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_dye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "湧流の証",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "流れと癒しの試練を乗り越えた証。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "静かな水は、持つ者の傷と心を映し出す。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:65717a57-d359-48fe-83e6-908d0ed203ef",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1330
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

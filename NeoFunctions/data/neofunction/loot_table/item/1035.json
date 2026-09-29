@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "魔獣ホットウィング",
+                "color": "dark_red",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「魔獣の羽」と称される手羽先を",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スパイスたっぷりのタレに漬け込み",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "炎で炙った一品。1口食べるごとに熱さと旨味が駆け巡る。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "効果：HP中回復＋火属性耐性UP（5分間）。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1035
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

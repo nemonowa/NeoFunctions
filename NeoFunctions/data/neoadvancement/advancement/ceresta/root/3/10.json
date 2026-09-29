@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:ceresta/root/3/9",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "集落：ルクスイーファに到達する。",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域の活動拠点に到達する。\n§3§l報酬：§f経験値×16\n§9§l説明：§7風に揺れる§e小麦畑§7、規則正しく回る§a風車§7。豊穣に満ちたその光景は、まさに理想郷……のはずだった。§c§lだがその瞬間、ぬるぬるした悪意が大地を蝕んだ。§7地下より溢れ出した§2昏き水脈に潜む影§7は、統率された群れとなって集落へ侵攻を開始する。ルクスイーファの平穏は今、かつてない飢えの脅威に晒されていた。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 600,
+                  "max": 850
+                },
+                "z": {
+                  "min": 2100,
+                  "max": 2300
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:asset/event/quest/c-3-10"
+  }
+}

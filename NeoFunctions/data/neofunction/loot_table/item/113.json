@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c01b1e35-bca5-40f0-b91c-3ac2ad1596a6",
+                  "amount": -77,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:fdf74698-27d7-4514-822b-e37b79f01f16",
+                  "amount": 77,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:b38c75f5-d22b-4cf5-a3ec-b5995f0cffbd",
+                  "amount": 77,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:custom_name": {
+                "text": "考えるのをやめた。",
+                "color": "dark_gray",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  113
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

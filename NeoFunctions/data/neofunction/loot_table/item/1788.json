@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 10,
+                "minecraft:knockback": 10,
+                "minecraft:sharpness": 50
+              },
+              "minecraft:lore": [
+                {
+                  "text": "皆が求める夢の断片",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_red",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "黄金の欠片",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "bold": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1788
+                ]
+              },
+              "minecraft:custom_data": {
+                "legacy": 1,
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

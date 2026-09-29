@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "無刀",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "柄しかないがよく切れる",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 7,
+                "minecraft:sharpness": 77
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5f137cf0-4ffc-44f8-9104-bd128634ff09",
+                  "amount": -7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:85004e90-a93e-42e3-96d5-22bb0d6378b7",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  950
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

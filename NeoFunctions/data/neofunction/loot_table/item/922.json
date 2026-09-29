@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ネザライトの剣",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "猛者は剣を使わないって？ ",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "私は「釣竿」よ。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 3,
+                "minecraft:impaling": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:debb7684-c354-4586-b11d-884a82219bef",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:6a292572-d553-45b6-b77e-8fdfd1ffa5dc",
+                  "amount": 0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  922
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

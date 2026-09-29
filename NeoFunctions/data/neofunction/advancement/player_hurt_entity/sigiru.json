@@ -1,0 +1,31 @@
+{
+  "parent": "neofunction:.clock/3s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/215": true
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{active_effects:[{id:\"minecraft:glowing\",amplifier:118b}]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/player_hurt_entity/sigiru"
+  }
+}

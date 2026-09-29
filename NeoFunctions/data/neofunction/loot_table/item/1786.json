@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "フロッグハントチケット",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "軍隊ガエル討伐競技専用の参加チケット。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "より多くの軍隊ガエルを討伐し、最高スコアと豪華報酬を目指そう！",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "投げ捨てることで開始できます！同時にプレイできる人は一人まで。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "Story:",
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "*",
+                    "color": "#FFE33B",
+                    "obfuscated": true
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1786
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "check": 1,
+                "quest": 101,
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

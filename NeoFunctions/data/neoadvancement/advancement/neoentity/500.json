@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/499",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：ランダムイベント                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:500)の発見\n§3報酬：§r経験値×16\n§9説明：§r嫌な予感は外れることも多く、的中してもプレイヤーに対し有用なものもある。島攻略率によって的中率は上がるが、ごく低確率で攻略率0%でも終盤ですら対処困難なモンスターが現れる場合もあるので祈りを捧げよう。装備やスキルが整っているならネザースターや有用なアイテムのドロップイベントでもある。ただ作業中や放置中に発生すると面倒なことになる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/500\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

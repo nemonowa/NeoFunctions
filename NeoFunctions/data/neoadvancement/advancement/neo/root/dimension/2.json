@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 16711680
+      }
+    },
+    "title": [
+      {
+        "translate": "次元侵攻：烈火の灼熱地獄-TheNether-～～～",
+        "color": "dark_red",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【ネザー】に到達する。\n§3§l報酬：§f進捗タブ「烈火の灼熱地獄」の解放\n§9§l説明：§7マグマに覆われた地底世界。水は干上がり空も見えない。古代の遺跡に煌めく財宝。\n§c§l転移方法：§f黒曜石の「ゲート」を作り、着火して開通する。またはNEXUSから転移する。"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    }
+  }
+}

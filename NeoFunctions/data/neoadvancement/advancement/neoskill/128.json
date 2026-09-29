@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/127",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：雪玉生成【クリエイト・スリケン】 -Snowball Generation [Create Shuriken]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:128)の習得\n§3報酬：§r経験値×32\n§9説明：§r武器にも建材にもなる雪玉を生成する",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                128
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

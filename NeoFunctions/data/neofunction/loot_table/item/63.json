@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "+|+|",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ハイ",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ウィル",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ポーション",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|+|+",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "SP +100",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "SP",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を即座に回復するポーション",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "マナの力は",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "意志",
+                    "color": "dark_aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "の力。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  63
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 1245064,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 111,
+                    "duration": 20,
+                    "show_particles": false
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

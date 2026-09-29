@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/849",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：原始のホープスター -Primitive Hopestar-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:850)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r本来、ネザースターは単なるビーコンの素材ではない\nそれは希望の結晶体。冀望を現実に確定させる力の\n【冀求力】を強化する願いの集合体、ホープスターである\nもし君に結末を変えようと願う【強い想い】があるのなら\n希望の星は君の全身に流れ込み、\n願いを実現するための異能に目醒めてゆくだろう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  850
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

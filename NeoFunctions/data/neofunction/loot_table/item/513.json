@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "💠時間結晶💠",
+                "color": "#8282FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "全く同じ物理条件でエネルギーを加えているにもかかわらず",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "時間（試行回数）によって結果が変化する現象。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ここでいう結晶とは物質ではなく状態をさす物理学上の用語であり",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "対称性が破れている現象もしくは状態をいう。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  513
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

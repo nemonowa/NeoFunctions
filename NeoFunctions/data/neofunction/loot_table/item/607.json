@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "骨の剣",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:fb74338c-7422-4d84-b32a-1ea5118a6e7b",
+                  "amount": -0.35,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ee94056f-f6df-4bc8-85c6-75d566a319d1",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  607
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "chairstand"
+                },
+                "DisabledSlots": 4144959,
+                "Invisible": 1,
+                "Marker": 1,
+                "NoBasePlate": 1,
+                "Small": 1,
+                "Tags": [
+                  "chair",
+                  "limit"
+                ],
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "設置した場所に座れるようになる椅子スタンド",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "設置した場所から5m以内に近づくとパーティクルがあらわれ、",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "設置した場所から0.5m以内に近づくと座れる。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 高さの微調整は「雪」などがおすすめ！",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "撤去の際は1m以内にもう一個設置すると数秒後消える。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルスタンド=サモン【チェアー】",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  20
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

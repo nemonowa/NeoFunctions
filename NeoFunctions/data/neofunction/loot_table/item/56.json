@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "打首獄門同窓会",
+                "color": "#5E2738",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "☆レッツ！拷問パーティー☆",
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                {
+                  "text": "「拷問なら何か聞け！！」",
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                {
+                  "text": "「何も聞かずに爪を剥がす奴があるか！！」",
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                {
+                  "text": "などと被告人は供述しております…",
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                {
+                  "text": "可愛いですね。",
+                  "color": "dark_gray",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  56
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 6170424,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": -1,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:unluck",
+                    "amplifier": 9,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 9,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

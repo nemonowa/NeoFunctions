@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "中位の魔法が込められた不思議な矢",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "射られた対象はフリーズしダメージを受ける",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "氷縛の付呪矢",
+                "color": "#BAFFFA",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  917
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12255226,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 5,
+                    "duration": 60
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 3,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/621\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/player_killed_entity/621"
+  }
+}

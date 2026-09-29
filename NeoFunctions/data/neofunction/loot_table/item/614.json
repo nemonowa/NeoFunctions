@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ロングボウ-DMR ",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "一般的な長弓",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "イシユミのような鈍間な弾速だが",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "そこそこの威力で横から殴られると不快",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "正面切っての撃ち合いならいい的である",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:looting": 1,
+                "minecraft:sharpness": 4,
+                "minecraft:power": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:8e937815-112b-4b34-8064-d4a776f4578e",
+                  "amount": -1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  614
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

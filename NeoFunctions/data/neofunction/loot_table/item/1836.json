@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "もやい縄",
+                "color": "#D8F6F2",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "船を岸や桟橋につなぎ留めるための縄。",
+                  "color": "#B8D9D6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "輪を作り、杭や柱に通して船を固定する。",
+                  "color": "#A8C9C7",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "強く引かれても簡単にはほどけない一方、",
+                  "color": "#96BAB9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "必要な時には素早く解けるのが特徴。",
+                  "color": "#84AAA9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "船乗りなら一本は持っておきたい、",
+                  "color": "#739998",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ごくありふれた船具のひとつ。",
+                  "color": "#658887",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1836
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:impaling": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:45fed42d-c829-4979-85fd-88f0e6596ed2",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:50e68de0-67b0-493a-8d2b-aad7d3c62a7b",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "清流の護符【雫】",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "小さな雫に宿る命のちから。かすかに体を潤す。",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンド装備時体力を引き上げる",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:aqua_affinity": 1,
+                "minecraft:depth_strider": 1,
+                "minecraft:respiration": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:06847e06-cdc0-4c03-a6fe-d4acdcdfbdb9",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d818e407-68a1-4c19-95a6-86e759ddd4eb",
+                  "amount": 0.03,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1110
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/69",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：煮沸した水入りの瓶 （元汚水100%!!） -A bottle filled with boiled water (100% former sewage!!)-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:70)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r煮沸して病気の心配の無くなった水\n「（土地の）水を飲んだら、儀礼に従う」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  70
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

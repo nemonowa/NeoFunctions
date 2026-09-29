@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lever",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "消えゆく灯【ダイングライト】",
+                "color": "#A38524",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "luck",
+                  "id": "neofunction:7b422bcd-cabc-4946-8503-9fbda3afe192",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  284
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

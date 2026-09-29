@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "効果：Ifの終わりを示す",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルール：§lIfend",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1722
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

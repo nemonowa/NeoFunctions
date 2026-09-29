@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "۞-錬成手",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "裏",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "剣-۞"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "暗殺士官が錬成した即席の手裏剣",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "いくつかの異能が込められている",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 7
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  130
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

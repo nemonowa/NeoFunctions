@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ミエル・クラウド",
+                "color": "#F5FFF9",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "雲のようにふわふわな砂糖菓子を、魔力の熱でゆっくり溶かして固めた逸品。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "舌の上でとろけるほどの軽さで、ほんのりミルクの香りが残る。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "溶けたあと、体に少し暖かい魔力が巡る感覚があると言われている。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "天気の悪い日限定で販売されていたが人気過ぎて普通に売られている",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「雲って食べると甘いのよ？　ちゃんと、ふわっとね！」",
+                  "color": "#BDFBFF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1239
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

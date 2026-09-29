@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "骨喰",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "藤",
+                  "color": "#7C34F9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "四郎",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 77
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:775d2437-2223-4568-83bb-1e3aeb79b5f8",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  455
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

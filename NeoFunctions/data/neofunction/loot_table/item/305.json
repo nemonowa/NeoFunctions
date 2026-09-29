@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "モロトフ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "カクテル",
+                  "color": "#B017FC",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "火属性の継続ダメージを与える。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  305
+                ]
+              },
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:potion_contents": {
+                "custom_color": 16531263
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

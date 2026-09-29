@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "黒い骨を煮込んだ滋養スープ。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "身体の芯から温まる。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "身体の芯から黒く染まる。",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "イカ骨スープ",
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1324
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

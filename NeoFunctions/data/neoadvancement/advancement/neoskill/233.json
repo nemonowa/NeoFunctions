@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/232",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：召雪像【サモン・スノーゴーレム】 -Summoning Snow Golem-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:233)の習得\n§3報酬：§r経験値×32\n§9説明：§rスノーゴーレムの使い魔を1体召喚。射程内の敵へ自動で雪玉を投げ、遠距離から継続的に牽制を行う。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                233
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/empty"
+  }
+}

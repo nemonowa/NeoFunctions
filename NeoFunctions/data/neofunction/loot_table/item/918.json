@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "中位の魔法が込められた不思議な矢",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "射られた対象は穏やかに浮遊する",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "風船の付呪矢",
+                "color": "#FFBB78",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  918
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16759672,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:levitation",
+                    "amplifier": 1,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

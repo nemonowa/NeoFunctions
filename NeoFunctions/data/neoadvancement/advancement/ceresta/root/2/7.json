@@ -1,0 +1,108 @@
+{
+  "parent": "neoadvancement:ceresta/root/2/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "異能：周辺の固有スキルを習得する～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域の目標スキルを習得する。\n§3§l報酬：§f経験値×16\n§9§l説明：§7習得可能リスト（計5種）\n結界術【剛撃陣】\n結界術【硬化陣】\n結界術【再生陣】\n結界術【加速陣】\nアースルート",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/54": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/49": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/50": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/51": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/52": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/8"
+  }
+}

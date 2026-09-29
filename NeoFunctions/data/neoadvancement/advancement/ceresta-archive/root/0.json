@@ -1,0 +1,179 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmOGJlOTk3Yzc2OGMxZGE2MjYwZThkMjhjMjI0ODYzYWI1MGJkMmIzYzNmYTlkNTM4OGU0YWEzYTU5YTU2YSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "§b§k§l>>§a§k§l>>§r 𝐂𝐄𝐑𝐄𝐒𝐓𝐀 𝐀𝐑𝐂𝐇𝐈𝐕𝐄 §r§a§k§l<<§b§k§l<<§r       ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§l説明：この進捗タブではセレスタフェスタにおける様々な記録を確認できる。\n§2§l条件：各記録項目の達成§r\n§l記憶§r：豊穣の大自然島を巡る中で、貴方は数多の足跡を残してきた。\n \n時に悩みを抱える島民の助けとなり\n時に§d§lスペルアイテム§rを解き放ち\n時に世界に散らばる§f夢の断片§rを集め\n時に潜む魔物と対峙する\n \nその§b寄り道の断片§rがやがて島全体の記憶となり貴方が紡いでいく“§l§3小さな奇跡§r”の記録である",
+      "color": "#C3D825"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/1/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/2/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/3/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/4/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/5/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/6/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/7/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/8/0": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root/9/0": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

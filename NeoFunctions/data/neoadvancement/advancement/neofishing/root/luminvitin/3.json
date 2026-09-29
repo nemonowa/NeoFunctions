@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/luminvitin/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1463
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "凍殻蟹（とうかくがに）            ",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:3)を観測する。\n§9説明：§r白銀大陸の氷の隙間に潜むに生息する中型の蟹\n体表は硬質の氷でできた殻に覆われている\n中身は濃厚で、殻ごと煮ることで出汁も取れる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1463
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

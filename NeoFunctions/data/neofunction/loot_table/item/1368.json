@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "風に乗れるようになる、移動速度が短時間上昇",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "風の爽快ソーダ ",
+                "color": "#C7FFD4",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1368
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13107156,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 600
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

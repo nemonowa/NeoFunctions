@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/109",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：不死者の接触【タッチオブアンデス】 -Contact with the Undead [Touch of the Andes]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:110)の習得\n§3報酬：§r経験値×32\n§9説明：§r麻痺、盲目、移動速度低下など複数の致命的デバフを与える",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                110
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

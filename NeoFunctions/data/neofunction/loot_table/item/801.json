@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trapped_chest",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:container_loot": {
+                "loot_table": "neofunction:chest/1"
+              },
+              "minecraft:block_entity_data": {
+                "CustomName": [
+                  {
+                    "text": "neo",
+                    "color": "white",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " ✯1 Common Random LootTable ",
+                    "color": "white",
+                    "bold": true,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "neo",
+                    "color": "white",
+                    "bold": true,
+                    "underlined": false,
+                    "obfuscated": true
+                  }
+                ],
+                "id": "minecraft:trapped_chest"
+              },
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "obsidian"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "neo",
+                  "color": "white",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ✯1 Common Random LootTable ",
+                  "color": "white",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "neo",
+                  "color": "white",
+                  "bold": true,
+                  "underlined": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  801
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

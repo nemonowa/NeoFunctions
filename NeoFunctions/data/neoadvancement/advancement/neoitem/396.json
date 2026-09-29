@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/395",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：シルバー・フライパン -Silver frying pan-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:396)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r軽量にして万能の個人兵装\n一流のシェフ(自称)がこぞって使うという純銀のフライパン\n実は純銀製ではなく、通常のフライパンにメッキを施しただけの代物\nその割に値段がやたら高い。性能は「フライパン」と何ら変わらない。\nまあこれで作られた料理はどことなく特別感があるかもしれない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  396
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

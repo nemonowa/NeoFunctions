@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/245",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：乾闥婆                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:246)の発見\n§3報酬：§r経験値×16\n§9説明：§r乾闥婆（Gandharva、けんだつば）香を食べるとされ、神々の酒ソーマの守り神とも言う。仏教では帝釈天の眷属の音楽神とされている。インド神話におけるガンダルヴァである。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/246\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/6"
+  }
+}

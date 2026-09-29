@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ワイトもそう思います。",
+                "color": "#5338FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ワイトもそう思います。",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:fire_aspect": 9,
+                "minecraft:smite": 3,
+                "minecraft:mending": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:b7ad327d-6586-4980-9d26-80d1c42fa198",
+                  "amount": 0.35,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:1a6dce94-ec47-42cb-bf61-499df69b338f",
+                  "amount": -5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:27d0b6a2-b247-43ca-9266-9ddb8b16b83a",
+                  "amount": -0.025,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:3d9361df-41a8-40de-9bba-c00469643083",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:c2f999b5-7801-4674-b175-8046025e15d1",
+                  "amount": -0.35,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:3663900c-b1a2-4803-9715-721eaa5b5c36",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:0d129988-cee9-464a-9402-144507e63d75",
+                  "amount": 0.025,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:494bc3d9-b470-4e0a-a082-56a8e63fb308",
+                  "amount": -8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:stored_enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:efficiency": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  114
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

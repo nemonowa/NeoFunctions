@@ -1,0 +1,37 @@
+{
+  "parent": "neoadvancement:ceresta/root/1/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "ボス討伐：亡霊処刑人サラザール～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域のエリアボスを討伐する。\n§3§l報酬：§f波葬エル・マタドール\n§9§l説明：§7その§3海域§7には様々な者が流れ着く。しかし海賊たちの亡霊はセレスタの円環に還れずに§cスカルリメイン§7に流れ着くという。エル・マタドール・デル・マール。§4海の処刑人サラザール§7から彼らの魂を解放しよう。きっと難破船入江の最奥には§e沢山の財宝§7と§d処刑人の魔導具§7が眠っているはずだから...\n§1§o§l§n伝承「海賊の秘宝」より。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/604\"}"
+          }
+        }
+      }
+    }
+  }
+}

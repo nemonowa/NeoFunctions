@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "「星を継ぐもの」",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "...ならば行って我々の正当な遺産を要求しようではないか。",
+                  "color": "white"
+                },
+                {
+                  "text": "我々の伝統には敗北の概念はない。",
+                  "color": "white"
+                },
+                {
+                  "text": "今日は恒星を、明日は銀河系外星雲を。",
+                  "color": "white"
+                },
+                {
+                  "text": "宇宙のいかなる力も我々を止めることはできないのだ。",
+                  "color": "white"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:looting": 21,
+                "minecraft:fortune": 21
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1612
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

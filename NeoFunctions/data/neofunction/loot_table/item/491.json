@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ブラフマンの短剣",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "-Brahman-",
+                  "color": "gold",
+                  "bold": true
+                },
+                {
+                  "text": "(印)根本的、全体的存在原理。抽象的な存在そのもの",
+                  "bold": true
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:fcc4fb5e-9ab7-441d-9152-96876ecf83bb",
+                  "amount": 256,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:987908cc-ccd3-4855-8698-f10a5cbddf9f",
+                  "amount": -0.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ab5aafb9-6bc6-4c10-b14f-99c6cb45136d",
+                  "amount": 9.99,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  491
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

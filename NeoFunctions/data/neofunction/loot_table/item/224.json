@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "vs対",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "若人",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "用【仕込み杖】"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "年端も行かぬ小童どもを理解らせる為のステッキ",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:d3f54c70-4cc1-4979-be72-d8c54e242ed3",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:655d2503-e2d5-4d9a-be3d-a8deb5917fa8",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a8a5478c-297a-4cf4-8750-6439754cb594",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  224
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

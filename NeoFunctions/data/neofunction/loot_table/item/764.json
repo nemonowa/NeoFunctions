@@ -1,0 +1,175 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "never",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 煌鐡の不壊鎧 ",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "break",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "決して傷つくことのない",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "不壊",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "【ふえ】",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の鎧",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "伝説級の素材である",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "不朽の魔晶石",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "【invulnium】",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "伝説級の鍛冶職が鍛えることで成立する",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "煌鐡",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "【こうてつ】",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "でできた",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "究極の武装",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:42450846-d1c9-420a-a79d-65a733ce8416",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:1732a7c7-252f-448a-95e4-c60076d9afa4",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:211b6d89-c248-4592-8ac1-b04b3a2c13b7",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  764
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

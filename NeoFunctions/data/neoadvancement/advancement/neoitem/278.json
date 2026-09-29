@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/277",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：SNSを見ろ！情報弱者め！ -A chest that exists solely on the condition of 30 hours of training per day—a contradiction in itself.-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:278)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r独立記念日。13州→50州。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  278
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

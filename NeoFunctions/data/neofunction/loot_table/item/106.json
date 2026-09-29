@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "正気度を回復する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "オーバードーズ",
+                "color": "#5F6894",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  106
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 6252692,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:unluck",
+                    "amplifier": 0,
+                    "duration": 600
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

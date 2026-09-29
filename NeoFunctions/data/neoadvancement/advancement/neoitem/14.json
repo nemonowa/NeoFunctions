@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/13",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：小容量の魔力瓶 -Small-capacity magic bottle-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:14)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rモンスターの経験値などの魔力を吸収し貯蓄する鉱石\n日用品として流通しており、生活者には魔法道具の動力源として、冒険者には魔力を吸収させ販売するための収入源とされている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  14
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

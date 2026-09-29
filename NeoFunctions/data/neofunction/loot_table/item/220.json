@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "疾風のマフラー",
+                "color": "#FF9100",
+                "bold": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で頭に装備可能！",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:18e458d3-5c0a-4dc4-b52c-f1f8e9386d22",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  220
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

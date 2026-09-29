@@ -1,0 +1,48 @@
+{
+    "parent": "neofunction:.clock/1s",
+    "criteria": {
+        "": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type": "all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:nbt": "{Tags:[\"froggame\"]}"
+                            }
+                        },
+                        {
+                            "type": "inverted",
+                            "term": {
+                                "type": "location_check",
+                                "predicate": {
+                                    "dimension": "neodimension:ceresta_festa",
+                                    "position": {
+                                        "x": {
+                                            "max": 1029,
+                                            "min": 996
+                                        },
+                                        "y": {
+                                            "max": 47,
+                                            "min": 43
+                                        },
+                                        "z": {
+                                            "max": 2170,
+                                            "min": 2144
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/location/ceresta/froggame"
+    }
+}

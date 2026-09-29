@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "風精霊の羽衣",
+                "color": "#73FF9D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【漂風の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "身に纏う者の重さを、わずかに薄める装束。 ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "足取りは軽く、攻撃を受けた衝撃も流されやすい。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "装備時移動速度上昇2を15秒間得る",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "CD:60s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 7602077,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:014e61c9-5324-4905-b620-02cb787ff717",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1295
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

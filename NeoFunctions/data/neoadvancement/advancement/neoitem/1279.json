@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1278",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：🍀｜豊穣の大自然島 -CerestaFesta- -🍀｜A Bountiful Natural Island -CerestaFesta--",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1279)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rプロローグ【prologue】\n①演劇で、前口上。序幕。⇔エピローグ。\n②詩歌・小説・戯曲などの文学作品で、\n本筋の展開に先だつ前置きの部分。序章。\nまた、物事の始まり。発端。⇔エピローグ。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1279
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

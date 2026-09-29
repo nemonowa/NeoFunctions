@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "土精霊の羽衣",
+                "color": "#9C9648",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【土の抱擁】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "硬い岩場でも滑らず歩ける精霊の加護。 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "旅人の足を静かに守る。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "装備時、耐性IIIを5秒間得る",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "クールダウン:60s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 10262088,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:f92c6716-baae-4df9-85b5-2b2375b6409d",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:sentry"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1098
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

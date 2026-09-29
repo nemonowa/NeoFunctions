@@ -1,0 +1,44 @@
+{
+  "parent": "neoadvancement:nexus/root/2/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzM4MDU3MDY0NywKICAicHJvZmlsZUlkIiA6ICIwMGNjZjIzYWM4NDQ0OWE4OTM0Y2QxMzk1Y2M2NjFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmdvbmF1dGVfbmVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MGFiZDljMjQyNTA4MDE0ZjFlMzBkOTJkNGU2MzcwNzM2MmZmZWVlNjg1MWUwYWRlODY1MmRmZTFkZmFkOWIwIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "職業：暗殺士官【ASSASIN】",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：職業説明を確認する。\n§9§l説明：§7近距離奇襲型。敵から隠れてやり過ごしたり、背後からの奇襲に特化した職業。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

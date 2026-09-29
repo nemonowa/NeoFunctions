@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "0"
+              },
+              "minecraft:custom_name": {
+                "text": "カスタムトリムアーマーテンプレート",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  976
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

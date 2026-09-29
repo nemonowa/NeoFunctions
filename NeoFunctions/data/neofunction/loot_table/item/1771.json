@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:short_grass"
+                },
+                {
+                  "blocks": "minecraft:tall_grass"
+                },
+                {
+                  "blocks": "minecraft:fern"
+                },
+                {
+                  "blocks": "minecraft:large_fern"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "【雑草用】",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "破壊可能:",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "・草、シダ、背の高い草",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "草カッター100",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1771
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

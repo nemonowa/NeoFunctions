@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:milk_bucket",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "実は言ってない"
+                },
+                {
+                  "text": "(飲むことでエフェクトを全解除！)"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "素人は黙っとれ牛乳",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1654
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

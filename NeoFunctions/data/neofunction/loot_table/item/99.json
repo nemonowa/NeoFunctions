@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:38ae0b55-2419-4c2c-b0b8-ad826137b1b6",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 5
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "そこらへんの",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "アイアン",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を触媒とした杖",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "アイアンロッド",
+                "color": "gray",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  99
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

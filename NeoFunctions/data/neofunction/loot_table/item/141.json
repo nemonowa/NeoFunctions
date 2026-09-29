@@ -1,0 +1,712 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  141
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:bundle_contents": [
+                {
+                  "count": 1,
+                  "Slot": 0,
+                  "id": "minecraft:leather_helmet",
+                  "components": {
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:c5f299c3-0e97-483d-900e-aaf3fe7d5f69",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "head"
+                      },
+                      {
+                        "type": "max_health",
+                        "id": "neofunction:3bd3fc79-5395-48d9-b35d-ef2d526de35b",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "head"
+                      },
+                      {
+                        "type": "attack_damage",
+                        "id": "neofunction:2d191366-6369-46bd-82b2-c8615975b74d",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "head"
+                      }
+                    ],
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        840
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 2,
+                      "minecraft:fire_protection": 8,
+                      "minecraft:unbreaking": 4
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone",
+                      "pattern": "minecraft:spire"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【炎鼠の皮衣】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "定期的に火炎耐性を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "「名残なく燃ゆとしりせば皮衣",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "思ひの外にをきて見ましを」",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "Rare:",
+                        "extra": [
+                          {
+                            "text": "✯",
+                            "extra": [
+                              {
+                                "text": "✯",
+                                "color": "#FFCC38"
+                              }
+                            ],
+                            "italic": false,
+                            "color": "#FFE33B"
+                          }
+                        ],
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " 炎鼠の皮衣 ",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:dyed_color": 15552277,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "check": 1,
+                      "rare": 2
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 1,
+                  "id": "minecraft:leather_chestplate",
+                  "components": {
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:a009177f-3ccb-410f-81a3-9dcd36abd917",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      },
+                      {
+                        "type": "max_health",
+                        "id": "neofunction:ebc1615f-b89e-4eef-9c37-684c90bdde35",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      },
+                      {
+                        "type": "attack_damage",
+                        "id": "neofunction:32a110e8-8803-4b4f-bf03-d5dc64bd902b",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      }
+                    ],
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        841
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 2,
+                      "minecraft:fire_protection": 8,
+                      "minecraft:unbreaking": 4
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone",
+                      "pattern": "minecraft:spire"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【炎鼠の皮衣】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "定期的に火炎耐性を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "「名残なく燃ゆとしりせば皮衣",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "思ひの外にをきて見ましを」",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "Rare:",
+                        "extra": [
+                          {
+                            "text": "✯",
+                            "extra": [
+                              {
+                                "text": "✯",
+                                "color": "#FFCC38"
+                              }
+                            ],
+                            "italic": false,
+                            "color": "#FFE33B"
+                          }
+                        ],
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " 炎鼠の皮衣 ",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:dyed_color": 15552277,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "check": 1,
+                      "rare": 2
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 2,
+                  "id": "minecraft:leather_leggings",
+                  "components": {
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:e6d9a724-72d3-456b-acd6-b361668e8e48",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      },
+                      {
+                        "type": "max_health",
+                        "id": "neofunction:1f488af8-2d07-4b9f-870b-74ac3a133e2a",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      },
+                      {
+                        "type": "attack_damage",
+                        "id": "neofunction:92015bd5-7bfb-4b03-bdeb-cc72597fbd46",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      }
+                    ],
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        842
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 2,
+                      "minecraft:fire_protection": 8,
+                      "minecraft:unbreaking": 4
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone",
+                      "pattern": "minecraft:spire"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【炎鼠の皮衣】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "定期的に火炎耐性を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "「名残なく燃ゆとしりせば皮衣",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "思ひの外にをきて見ましを」",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "Rare:",
+                        "extra": [
+                          {
+                            "text": "✯",
+                            "extra": [
+                              {
+                                "text": "✯",
+                                "color": "#FFCC38"
+                              }
+                            ],
+                            "italic": false,
+                            "color": "#FFE33B"
+                          }
+                        ],
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " 炎鼠の皮衣 ",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:dyed_color": 15552277,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "check": 1,
+                      "rare": 2
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 3,
+                  "id": "minecraft:leather_boots",
+                  "components": {
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:6aca557f-c08c-4226-baf8-563f26039691",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "max_health",
+                        "id": "neofunction:78927032-b3d8-4af6-9191-d6b18e6dd7f9",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "attack_damage",
+                        "id": "neofunction:585fae2f-be0e-4719-92dc-e25bb3f119e3",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      }
+                    ],
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        843
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 2,
+                      "minecraft:fire_protection": 8,
+                      "minecraft:unbreaking": 4
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:redstone",
+                      "pattern": "minecraft:spire"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【炎鼠の皮衣】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "定期的に火炎耐性を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "「名残なく燃ゆとしりせば皮衣",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "思ひの外にをきて見ましを」",
+                        "color": "#ED4F15",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "Rare:",
+                        "extra": [
+                          {
+                            "text": "✯",
+                            "extra": [
+                              {
+                                "text": "✯",
+                                "color": "#FFCC38"
+                              }
+                            ],
+                            "italic": false,
+                            "color": "#FFE33B"
+                          }
+                        ],
+                        "italic": false,
+                        "color": "aqua",
+                        "bold": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " 炎鼠の皮衣 ",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "fire",
+                        "color": "#ED4F15",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:dyed_color": 15552277,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "check": 1,
+                      "rare": 2
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 4,
+                  "id": "minecraft:bat_spawn_egg",
+                  "components": {
+                    "minecraft:can_place_on": [
+                      {
+                        "blocks": "#neofunction:all"
+                      }
+                    ],
+                    "minecraft:enchantment_glint_override": true,
+                    "minecraft:entity_data": {
+                      "CustomName": {
+                        "text": "即時複製式高次元門",
+                        "color": "dark_blue",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                      },
+                      "Delay": 0,
+                      "DisplayState": {
+                        "Name": "minecraft:air"
+                      },
+                      "Glowing": 0,
+                      "Invulnerable": 1,
+                      "MaxSpawnDelay": 72000,
+                      "MinSpawnDelay": 72000,
+                      "Motion": [
+                        0,
+                        2,
+                        0
+                      ],
+                      "NoGravity": 1,
+                      "PortalCooldown": 10,
+                      "RequiredPlayerRange": 64,
+                      "Silent": 1,
+                      "SpawnCount": 1,
+                      "SpawnData": {
+                        "entity": {
+                          "Age": 5990,
+                          "Passengers": [
+                            {
+                              "CustomName": {
+                                "text": "火鼠",
+                                "color": "red",
+                                "bold": true
+                              },
+                              "DeathLootTable": "neofunction:asset/summon/329",
+                              "Tags": [
+                                "lv2",
+                                "soul1"
+                              ],
+                              "id": "minecraft:silverfish",
+                              "equipment": {
+                                "mainhand": {
+                                  "count": 1,
+                                  "id": "minecraft:blaze_rod",
+                                  "components": {
+                                    "minecraft:enchantments": {
+                                      "minecraft:fire_aspect": 5
+                                    },
+                                    "minecraft:custom_name": {
+                                      "text": "燃え盛る牙",
+                                      "color": "red",
+                                      "bold": true
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "id": "minecraft:experience_orb"
+                        }
+                      },
+                      "SpawnRange": 1,
+                      "id": "minecraft:spawner_minecart"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "スペルエッグ=サモン【封印式】",
+                        "color": "dark_purple",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": true,
+                        "strikethrough": false,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "火属性もちのシルバーフィッシュ",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": false,
+                        "strikethrough": false,
+                        "obfuscated": false
+                      }
+                    ],
+                    "minecraft:custom_name": {
+                      "text": "火鼠",
+                      "color": "dark_purple",
+                      "bold": true,
+                      "italic": false,
+                      "underlined": false,
+                      "strikethrough": false,
+                      "obfuscated": false
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": "EX"
+                    }
+                  }
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "セット効果のある装備のセット",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 炎鼠皮衣バンドル ",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

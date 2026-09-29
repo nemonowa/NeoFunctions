@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1841
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "色彩の神殿へようこそ！ルールは与えられた",
+                      "color": "black",
+                      "bold": true
+                    },
+                    {
+                      "text": "弓と矢を使って的を射抜くたびにブロックが出現したり消失する",
+                      "color": "gold",
+                      "bold": true
+                    },
+                    {
+                      "text": "ので、タイミングを考えて進みましょう。ステージは3つあり段階的に",
+                      "color": "black",
+                      "bold": true
+                    },
+                    {
+                      "text": "難易度",
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "は上昇していきます。それぞれのステージには",
+                      "color": "black",
+                      "bold": true
+                    },
+                    {
+                      "text": "満腹度を回復できるスポット",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "と",
+                      "color": "black",
+                      "bold": true
+                    },
+                    {
+                      "text": "ショートカット",
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "が設置されているので忘れずに！",
+                      "color": "black",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "このダンジョンは",
+                      "bold": true
+                    },
+                    {
+                      "text": "初回クリア時報酬",
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "とダンジョンをクリアする度に入手できる",
+                      "bold": true
+                    },
+                    {
+                      "text": "無限報酬",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "が別に配置されています。ダンジョンから退出したいときは",
+                      "bold": true
+                    },
+                    {
+                      "text": "各レベルの看板を右クリック",
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "することで入口に戻れます。",
+                      "bold": true
+                    },
+                    {
+                      "text": "※入口に戻るとダンジョンの進行状況はリセットされます。（ショートカットや無限報酬等）",
+                      "color": "dark_green",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "このダンジョンはパルクールメインのダンジョンのため、アイテムの持ち込みが禁止されています。",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "ダンジョン進入時に一時的にプレイヤーのアイテムは回収されます。ダンジョンを離脱したり、クリアした場合返却されます。",
+                      "color": "dark_red",
+                      "bold": true,
+                      "underlined": true
+                    }
+                  ]
+                ],
+                "title": "ColorofSanctuary",
+                "author": "Princess_Melody",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1223",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：日蝕の剣 / Falling Sun -Eclipse Sword / Falling Sun-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1224)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r非常に扱いにくい大剣。器用さと筋力のスキルを兼ね備える必要があり、使用している本人が誤って死ぬことも多々あるため、「自殺刀」とも呼ばれている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1224
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

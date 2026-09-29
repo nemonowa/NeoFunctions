@@ -1,0 +1,5 @@
+# 命名：弓精霊CLS
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/800
+
+summon skeleton ~ ~ ~ {Silent:1b,CustomNameVisible:0b,CustomName:{"text":"弓精霊CLS","color":"#21B9C4"},active_effects:[{id:"minecraft:fire_resistance",amplifier:1b,duration:-1},{id:"minecraft:water_breathing",amplifier:1b,duration:-1},{id:"minecraft:invisibility",amplifier:1b,duration:-1}],Tags:[lv1,],DeathLootTable:"neofunction:asset/summon/800",equipment:{mainhand:{id:"minecraft:bow",count:1,components:{"minecraft:custom_name":{"text":"マジックアロー","color":"#21B9C4","italic":false}}},offhand:{id:"minecraft:wheat",count:1,components:{"minecraft:custom_name":{"text":"セレスタムギ"},"minecraft:enchantments":{"minecraft:looting":1}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":2210244,"minecraft:trim":{material:"minecraft:quartz",pattern:"minecraft:vex"}}},head:{id:"minecraft:light_blue_stained_glass",count:1,components:{"minecraft:enchantments":{"minecraft:protection":1}}}}}

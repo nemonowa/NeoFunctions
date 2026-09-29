@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/767",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：赤糸威大鎧 -Red Silk Great Armor-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:768)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「あかいとおどしのよろい」\n茜（あかね）染めで濃い赤色に仕上げた\n太組の糸を用いた豪壮な1領\n江戸幕府8代将軍「徳川吉宗」も上覧した名甲冑",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  768
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

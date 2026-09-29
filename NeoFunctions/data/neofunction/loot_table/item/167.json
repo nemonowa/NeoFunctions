@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "緑色",
+                  "color": "#08CC43",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "のしゅわしゅわ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "強刺激の喉越し爽やかな飲み物。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "貴様も",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「幸せスパイラル」",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "にならないか？"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  167
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 576579,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 9,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 9,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 5,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 5,
+                    "duration": 10
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

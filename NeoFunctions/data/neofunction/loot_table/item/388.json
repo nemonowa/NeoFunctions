@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:end_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "～統合版の謎翻訳シリーズ～",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "果てのロッド",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  388
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

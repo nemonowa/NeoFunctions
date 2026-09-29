@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1001
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "純魂焔の赤晶鍵 -Red Crystal-                                 ",
+        "color": "red",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§kxx§r Arcus Ark Crystal Key §kxx§r\n",
+      "color": "red",
+      "bold": true,
+      "italic": false,
+      "underlined": true,
+      "extra": [
+        {
+          "translate": "説明：それは赤色に燃えゆく決意の純炎。強力無比なキーアイテムであり、世界に散らばり、海や山、国や城、個や物に取り込まれ、超常の力の源となっている。",
+          "color": "white",
+          "bold": false,
+          "underlined": false,
+          "extra": [
+            {
+              "translate": "\n条件：硝煙の火山帝国-VolValRose-を制覇する\n報酬：Rune of Red Crystal Monument",
+              "color": "red",
+              "bold": false,
+              "underlined": true
+            }
+          ]
+        }
+      ]
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "neoadvancement:0/root",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "item_frame",
+            "minecraft:nbt": "{Tags:[\"cmd1001\"],Item:{components:{\"minecraft:custom_model_data\":{floats:[1001.0f]}}}}"
+          }
+        }
+      }
+    }
+  }
+}

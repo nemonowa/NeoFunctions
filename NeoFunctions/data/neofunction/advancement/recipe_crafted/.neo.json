@@ -1,0 +1,14 @@
+{
+  "neo": "なんでもいいからなんかクラフトしたことを検知しいが、特定のものをクラフトしたことしか検知できないぽい。おのれもやん",
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipes": "neofunction:.neo"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/recipe_crafted/.neo"
+  }
+}

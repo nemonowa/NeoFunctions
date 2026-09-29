@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "雪だるまのカケラちゃん",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "君と世界の果てまで見たいんだ！",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "私を今すぐ連れ出して！",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "My hot, hot master!!",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:profile": {
+                "id": [
+                  1542459628,
+                  -2063121589,
+                  -1632671036,
+                  98729520
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UxZWEyNDNlNGEwOWI0ZTRkZTg0YmVlM2EzYWY2NDA5ZmIwNTk3ZjM3ODg4MDI1ODllYjhiZGE5MjBjM2E1ZiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  525
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

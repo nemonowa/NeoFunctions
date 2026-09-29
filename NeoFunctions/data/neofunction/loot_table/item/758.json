@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "❍翡翠の福音書❍",
+                "color": "green",
+                "bold": false,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "終焉の至玉を信奉する集団の聖典",
+                  "color": "gray"
+                },
+                {
+                  "text": "移動、速攻、復帰、予約",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "慣性、時差、張付",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "壁抜、浮遊上昇、密着降下...",
+                  "color": "dark_gray"
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d415930f-76ab-4b8b-9376-8433a2d790e0",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:006c0214-abee-4ac9-92fd-c9876013e0f2",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5623b65f-610a-4bad-970f-2467f0c2630d",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:b23064d2-8d3c-4835-a478-05e7ffa7e4a5",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  758
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

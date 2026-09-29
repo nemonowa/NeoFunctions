@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "チルジジイ",
+                "color": "#0077FF",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "甘い汁だけ啜りHPが大回復する",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1849
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 30719,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 9,
+                    "duration": 180
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 9,
+                    "duration": 180
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

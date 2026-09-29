@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "見習いの剣",
+                "color": "aqua",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:repair_cost": 1,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:smite": 5,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  920
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

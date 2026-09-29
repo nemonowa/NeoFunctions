@@ -1,0 +1,138 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "💪",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "よっ！冷蔵庫！",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "🤜",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "デカすぎて！固定資産税！！かかりそう！！！",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "（肉の俳句!!!SIXPACK!!!）",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 6
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ad5c364d-18b7-4f97-9675-92664b5a54c2",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ee9eb698-3732-4c65-a32d-3dd5066a5559",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:39ec2b05-a6b8-4fd0-a570-0922f90165c5",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b1539795-559e-4dbf-923a-a0532643c37f",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:61fdd694-edc0-4f0a-a314-92c0b3a48d21",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:9c8edd17-2e5d-4034-b3c3-c132724215f8",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                }
+              ],
+              "minecraft:base_color": "light_blue",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  274
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

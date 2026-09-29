@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ルクスアップルパイ",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ルクス近郊で採れた甘いリンゴを使った焼きたてパイ。 ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "町の子どもから冒険者まで大人気。",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 「あま～～～～い！！！」",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "幸運Ⅰ（01:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1745
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

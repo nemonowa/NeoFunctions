@@ -1,0 +1,148 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "never",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 赤糸威大鎧 ",
+                  "color": "#B7282E",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "armor",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「あかいとおどしのよろい」",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "茜（あかね）",
+                    "color": "#B7282E",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "染めで",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "濃い赤色",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に仕上げた",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "太組の糸を用いた豪壮な1領",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "江戸幕府8代将軍「徳川吉宗」も上覧した",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "名甲冑",
+                    "color": "#B7282E",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:dyed_color": 12003374,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 6,
+                "minecraft:feather_falling": 6,
+                "minecraft:fire_protection": 6,
+                "minecraft:projectile_protection": 6,
+                "minecraft:protection": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:7c2c37b6-0249-4f01-b37a-0ab947789178",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:62570458-7728-44b3-8df0-4dd2c94fd3c5",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:c2bbaeae-63e5-42e8-bf59-e3f1a7fce498",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  768
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

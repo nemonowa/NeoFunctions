@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "極寒の氷結鞭 ",
+                  "color": "#4A78A8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#80CFFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "フロスト",
+                  "color": "#A8E6FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "バイト",
+                  "color": "#FFFFFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#9DD9FF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "分厚い氷を",
+                    "color": "#5B8DB8",
+                    "italic": false
+                  },
+                  {
+                    "text": "削り出した",
+                    "color": "#9DD9FF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "竿。",
+                    "color": "#D9F4FF",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "その重量ゆえ、",
+                    "color": "#7FA6C4",
+                    "italic": false
+                  },
+                  {
+                    "text": "動きは鈍い。",
+                    "color": "#B8DFF2",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "触れたものすら凍てつかせるような、",
+                  "color": "#88CFFF",
+                  "italic": false
+                },
+                {
+                  "text": "絶対零度の気配を纏う。",
+                  "color": "#E8FAFF",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:frost_walker": 10,
+                "minecraft:respiration": 10,
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:sharpness": 5,
+                "minecraft:smite": 3,
+                "minecraft:sweeping_edge": 2,
+                "minecraft:impaling": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:043d948a-0397-4398-a166-1b3e499af60f",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:142aad2f-1660-4e8d-bedf-cf5d9698dadb",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1827
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

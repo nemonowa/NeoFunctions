@@ -1,0 +1,12 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "effects_changed"
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/effects_changed/.all"
+  }
+}
+

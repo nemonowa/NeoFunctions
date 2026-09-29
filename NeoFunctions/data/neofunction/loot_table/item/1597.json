@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "日本の勝利である。",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "（大本営発表）",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:0c443dc7-8c78-4590-a206-4c6d45ef0965",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1597
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

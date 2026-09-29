@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "反重力スカート"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "どんな激しい動きをしても決して捲れない特別製"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

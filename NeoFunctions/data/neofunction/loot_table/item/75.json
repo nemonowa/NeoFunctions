@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "メインハンドのアイテムを",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "頭部",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に装備できる。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "> ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "keybind": "key.use",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " to EQUIP",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "マッシュル・ロッド",
+                "color": "white",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  75
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

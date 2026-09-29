@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:22b0ec20-6fb0-4b70-86cf-8bd6571414d9",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:c0ccad07-6517-4e1b-9172-5d3473ce667f",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1,
+                "minecraft:sharpness": 9,
+                "minecraft:bane_of_arthropods": 9,
+                "minecraft:piercing": 1
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "アメシスト",
+                    "color": "#8C73D1",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を触媒とした杖",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "希少な素材で制作されているため高価だが",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "高い",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ソウル精製率",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を誇る逸品",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "アメシストロッド",
+                "color": "#8C73D1",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  91
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

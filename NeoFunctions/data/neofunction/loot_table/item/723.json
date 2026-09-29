@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "重要事項",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "第三改定版",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  723
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "①必読テキスト\n",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "「README」",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "をよく確認し同意のもとで最大限楽しんでください！\n\n②同梱データパック\n"
+                    },
+                    {
+                      "text": "「NeoFunctions」",
+                      "color": "dark_green"
+                    },
+                    {
+                      "text": "を導入が必須です。\n\n③同梱リソースパック\n"
+                    },
+                    {
+                      "text": "「NeoTexture」",
+                      "color": "green"
+                    },
+                    {
+                      "text": "を導入を強く推奨します。"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray",
+                      "italic": false,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックすると公式「DISCORD」サーバーへリンク"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "open_url",
+                        "url": "https://discord.gg/JD6JFJfG"
+                      }
+                    },
+                    {
+                      "text": "④攻略やサポートのための"
+                    },
+                    {
+                      "text": "「Discord」",
+                      "color": "blue"
+                    },
+                    {
+                      "text": "サーバーでお待ちしております。\n\n⑤スクリーンショットや動画のSNSへの公開は大歓迎ですが、我々は"
+                    },
+                    {
+                      "text": "「初見の感覚」",
+                      "color": "gold"
+                    },
+                    {
+                      "text": "を大切にしている都合上、過度なネタバレを嫌います。投稿の際には"
+                    },
+                    {
+                      "text": "「#twow」",
+                      "color": "aqua"
+                    },
+                    {
+                      "text": "のタグを忘れずに！"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "⑥",
+                      "color": "dark_gray",
+                      "italic": false
+                    },
+                    {
+                      "text": "こまめにバックアップを取りましょう。",
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "風紀委員会",
+                "generation": 1,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

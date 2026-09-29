@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "farmland"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "wheat"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7の§a§l種§7。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "黄金麦の種",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1584
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

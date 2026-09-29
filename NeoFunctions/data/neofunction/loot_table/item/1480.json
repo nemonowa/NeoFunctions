@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1480
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "虚無の魔力を帯びた平魚。その周囲では力が抜け、動きが鈍くなる。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：虚無のポーション（移動速度低下レベル1 1:00/弱体化レベル3 1:30/採掘速度低下レベル3 1:30）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Legacy:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ヴォイドマンタ",
+                "color": "#521978",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 1800,
+                    "id": "slowness"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 1800,
+                    "id": "weakness"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 1800,
+                    "id": "mining_fatigue"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"虚無の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

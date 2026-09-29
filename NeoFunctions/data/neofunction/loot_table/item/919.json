@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "みんな！",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「丸太」",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "は持ったな！！",
+                  "color": "aqua"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "??? 「これは…いい丸太だな…。」",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 5,
+                "minecraft:unbreaking": 1,
+                "minecraft:fortune": 1,
+                "minecraft:power": 1,
+                "minecraft:flame": 1,
+                "minecraft:infinity": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:410705cb-5966-4421-a803-640dc40eca1f",
+                  "amount": -0.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:0a943146-f92d-4fa4-915a-afd2a794a2c5",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:853139e9-c177-4baa-a4de-efd9025eeba0",
+                  "amount": 7.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:3e43f0a2-5a42-4ed3-a48c-e5a9059e9390",
+                  "amount": 0.025,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:cf048ad7-54d5-46b3-a5fc-f80493cbfb0e",
+                  "amount": -0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  919
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

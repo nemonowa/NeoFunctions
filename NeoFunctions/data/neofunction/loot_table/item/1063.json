@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "アースパウダー",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "素手で触れると、わずかに脈打つような感覚がある",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "まるで生きているかのような粉。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 5,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1063
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

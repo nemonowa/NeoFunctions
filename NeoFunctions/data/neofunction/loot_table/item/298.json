@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "۝",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "-コスの印-",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "۝",
+                  "color": "light_purple"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "次元の門を封じる為の印",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "luck",
+                  "id": "neofunction:e8d79794-608b-4e62-a20c-2126d9fcc7d2",
+                  "amount": 0.06,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  298
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

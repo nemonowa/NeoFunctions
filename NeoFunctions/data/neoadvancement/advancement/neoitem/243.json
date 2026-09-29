@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/242",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：【慈翼】破寝路貘断叔母家 -[Ciyoku] Broken Sleep Road, Baku Cut Aunt's House-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:243)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rボロボロで寝てる老婆の人形\nボロボロなので扱うことも難しく、触っただけで壊れそうだ。\n\n\nはるか昔。名前もわからない村が焼けたらしい。\nそこには爆破で吹き飛んだかのように\nボロボロな見た目の女の人がいた。\n話を聞くに原因は家族による物のだったらしい。\nその女は全く記憶がなく、人形を手渡してきた。\nこの人形は死んだ家族のたった一つしかない遺品らしい・・・\n慈悲の心から私は人形を預かった。\nふと気づいたら女の人はいなかった。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  243
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

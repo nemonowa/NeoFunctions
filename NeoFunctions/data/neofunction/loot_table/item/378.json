@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:da40b6b0-afdb-4533-8f1d-382b5235b11c",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:c574ff27-1555-4794-8624-60e497d0673c",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:0d34fc61-d4e0-49b5-ac9d-d67764d3ab6e",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 5,
+                "minecraft:feather_falling": 5,
+                "minecraft:blast_protection": 5,
+                "minecraft:projectile_protection": 5,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:custom_name": {
+                "text": "ペンタ・コア・アーマー",
+                "color": "aqua",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  378
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

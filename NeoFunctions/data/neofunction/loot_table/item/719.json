@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  719
+                ]
+              },
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "BlockState": {
+                  "Name": "minecraft:crimson_sign"
+                },
+                "TileEntityData": {
+                  "back_text": {
+                    "color": "black",
+                    "has_glowing_text": 0,
+                    "messages": [
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  },
+                  "front_text": {
+                    "color": "black",
+                    "has_glowing_text": 0,
+                    "messages": [
+                      {
+                        "bold": true,
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/item modify entity @s weapon.mainhand neofunction:set_damage/1"
+                        },
+                        "color": "light_purple",
+                        "italic": false,
+                        "text": "۞スペルサイン۞",
+                        "underlined": true
+                      },
+                      {
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/particle minecraft:enchant ~ ~ ~ 0.2 0.2 0.2 0.1 100 force"
+                        },
+                        "color": "blue",
+                        "text": "「耐久値回復」"
+                      },
+                      {
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/playsound minecraft:entity.arrow.hit_player record @a[distance=..16] ~ ~ ~ 1 2 1"
+                        },
+                        "text": "100%"
+                      },
+                      {
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "./setblock ~ ~ ~ minecraft:air replace"
+                        },
+                        "text": "メインハンド"
+                      }
+                    ]
+                  },
+                  "is_waxed": 0,
+                  "allow_op_features": 1
+                },
+                "id": "minecraft:falling_block"
+              },
+              "minecraft:custom_name": {
+                "text": "۞リペアキット۞",
+                "color": "blue",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ=サイン【リペアキット】",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "使用した場所にスペルサインを設置する",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "スペルサインは一度だけ以下の効果を使用できる",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "メインハンドのツールの耐久値を全回復する",
+                  "color": "dark_gray"
+                }
+              ],
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

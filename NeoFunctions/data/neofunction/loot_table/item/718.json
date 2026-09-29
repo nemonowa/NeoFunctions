@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dandelion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "セレウィ",
+                "color": "yellow",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ハロー！",
+                  "bold": true
+                },
+                [
+                  {
+                    "text": "ボクは",
+                    "bold": true
+                  },
+                  {
+                    "text": "セレウィ",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "。"
+                  }
+                ],
+                {
+                  "text": "おはなのセレウィさ！",
+                  "color": "yellow",
+                  "bold": true
+                },
+                {
+                  "text": "キミは…",
+                  "bold": true
+                },
+                {
+                  "text": "このセレスタフェスタにきたばかりだね？",
+                  "bold": true
+                },
+                {
+                  "text": "そっかじゃあさぞかしとまどってるだろうね。",
+                  "bold": true
+                },
+                {
+                  "text": "このせかいのルールもしらないでしょ？",
+                  "bold": true
+                },
+                {
+                  "text": "それならボクがおしえてあげよう。",
+                  "bold": true
+                },
+                {
+                  "text": "じゅんびはいい？",
+                  "bold": true
+                },
+                {
+                  "text": "いくよ！",
+                  "bold": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:54a185c8-18b9-460d-b6bb-b22bcda2f141",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  718
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

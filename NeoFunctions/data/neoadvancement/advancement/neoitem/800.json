@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/799",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：MRE【コンバットレーションサイン】 -MRE (Combat Ration Sign)-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:800)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rコンバット・レーションを設置する\n満腹度が3つ回復する食べられる看板\n４回まで齧ることができる戦闘食\nとても不味い。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:armor_stand"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  800
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/2"
+  }
+}

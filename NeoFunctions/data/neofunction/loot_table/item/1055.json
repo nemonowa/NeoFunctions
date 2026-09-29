@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ライム×リーフ・アーマー",
+                "color": "#14E390",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セレスタ全域に存在するスライムの粘膜（大）を",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "リーフアーマーに塗りたくった防具（？）",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "セットスペル🔯【弾性の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に跳躍エフェクトを得る",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 1368976,
+              "minecraft:enchantments": {
+                "minecraft:feather_falling": 2,
+                "minecraft:protection": 2,
+                "minecraft:swift_sneak": 2,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:6910efee-2a17-47a4-a026-7ab9ab9d46bd",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:eye"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1055
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest11]}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:zombie",
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/348\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/quest/counter/1"
+  }
+}

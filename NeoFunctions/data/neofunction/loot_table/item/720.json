@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "不墜の矢バンドル",
+                "color": "#6D00FC",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "重力の影響を受けない特殊弾の詰め合わせ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tipped_arrow",
+                  "count": 32,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "不墜の矢",
+                      "color": "#6D00FC",
+                      "bold": true,
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "スペルアイテム🔯【松明弾】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false
+                      },
+                      {
+                        "text": "> 重力の影響を受けない特殊弾",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:enchantments": {
+                      "minecraft:mending": 1
+                    },
+                    "minecraft:potion_contents": {
+                      "custom_color": 7143676
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:enchantments",
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  720
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

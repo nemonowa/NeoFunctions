@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:744db442-8918-4d86-89cc-f0dc9336646d",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:f87ea446-8c8f-4fd1-85a0-fa06a2e86231",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 1,
+                "minecraft:flame": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "── 微かに揺らめく熱気。ごく短い時間だけ力が灯る。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンド装備時攻撃力を引き上げる",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "陽炎の護符【微】",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1070
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

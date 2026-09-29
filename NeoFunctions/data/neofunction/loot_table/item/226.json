@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "感染（100%）",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "主にゾンビに近づきすぎることで感染し、感染後は時間経過でも悪化する。"
+                },
+                {
+                  "text": "感染すると段階的にHPの減少し、吐き気に襲われる。"
+                },
+                {
+                  "text": "感染率が低い場合は蜂蜜やシャワーで治るが"
+                },
+                {
+                  "text": "悪化すると特殊な治療薬がないとゾンビ化してしまう。"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "Z-ウイルス",
+                "color": "#B44420",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  226
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 11813920,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 0,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

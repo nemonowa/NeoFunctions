@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 解呪の血清 ",
+                  "color": "#35E3F0",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "解呪の禊",
+                  "color": "blue",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "【メメント・モリ】",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "などの致死性の状態異常を解呪する",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "第十師団・研究課の枝垂局長が開発した",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "情報血清",
+                    "color": "#35E3F0",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "古典的な「祟り」から情報的な「ミームス」まで効く",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "「呪い」",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "が",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "「死」",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "に至るまでのメインバイパスを",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "分断する仕組みで多種類の「呪術」を無力化するらしい",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:soul_speed": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  200
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 3531760,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:luck",
+                    "amplifier": 127,
+                    "duration": 0
+                  },
+                  {
+                    "id": "minecraft:unluck",
+                    "amplifier": 127,
+                    "duration": 0
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

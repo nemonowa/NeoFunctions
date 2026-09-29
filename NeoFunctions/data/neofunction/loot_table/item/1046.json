@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Wooden Sandals / 下駄",
+                "color": "#666666",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "昔ながらの木製サンダル",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "慣れるまでしばらくかかるが、",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "砂地で走るのに向いている。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "銘：ネザーの名匠「小匠」製作",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "格：傑作",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:soul_speed": 1,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:cc328b1e-8ca0-4779-a47f-04ba5aabbe43",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:cab0c953-a9e5-485f-a14a-0fba559f2e83",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1046
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

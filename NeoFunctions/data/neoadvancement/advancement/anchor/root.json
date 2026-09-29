@@ -1,0 +1,43 @@
+{
+  ".neo": "この進捗のroot/0以下はディメンション移動時にリセットがかかるのでannounce_to_chatはfalse",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0OTY3NzU2NzQ2NCwKICAicHJvZmlsZUlkIiA6ICIwMGNjZjIzYWM4NDQ0OWE4OTM0Y2QxMzk1Y2M2NjFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmdvbmF1dGVfbmVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTEzYjRmOWU0NWQ2MDUxMDY2MDk2MGY2NDFhMDM4MGRhZDZiNzllYTRiNjRiZWU3MTE2ZjhmYTBhMGE3NjdiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            }
+          ]
+        },
+        "minecraft:custom_data": {
+          ".CustomModelData": 1
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の航海記：アンカー百科全書～～",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l説明：この進捗タブでは現在の次元の「アンカーポイント」解析率を確認できる。\n§3§l報酬：§f新アンカー解析ごとに経験値x32\n§9§l記憶：§7特定の座標に「ポスアンカー」を配置することで、ネクサスとの往来が可能となる重要な目標地点。各地に点在するアンカーを解析し、移動の自由を手に入れよう。"
+    },
+    "background": "minecraft:block/sculk_sensor_top",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

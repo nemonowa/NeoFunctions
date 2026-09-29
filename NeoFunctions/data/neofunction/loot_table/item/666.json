@@ -1,0 +1,185 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "雷上動",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "χ",
+                  "color": "#6361FF",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ノックバック χ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "パンチ χ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "【紫電】",
+                    "color": "#6361FF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "火疾走る",
+                    "color": "white"
+                  },
+                  {
+                    "text": "雷上動",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "の",
+                    "color": "white"
+                  },
+                  {
+                    "text": "新",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "たな",
+                    "color": "white"
+                  },
+                  {
+                    "text": "姿",
+                    "color": "dark_aqua"
+                  }
+                ],
+                {
+                  "text": "艦長専用の最適化が施された固有武器であり",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "雷",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "速を",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "上",
+                    "color": "yellow",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "回り",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "動",
+                    "color": "yellow",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "く加速と",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "神",
+                    "color": "gold",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "すら弾く",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "雷",
+                    "color": "#6361FF",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "撃を",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "操",
+                    "color": "dark_aqua",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "る",
+                    "color": "white",
+                    "obfuscated": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 10,
+                "minecraft:punch": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:8f107f1e-bed3-4a1f-8e9a-525002ebc68b",
+                  "amount": 10,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:9092ed23-a22c-4ac2-80aa-294108dc983d",
+                  "amount": 10,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  666
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

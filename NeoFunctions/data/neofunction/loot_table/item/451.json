@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 銀 彗 星 ",
+                  "color": "#3B68FF",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "銀気を無尽蔵に生み出す外部生成器官",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使い手を100%の状態まで押し上げる剣",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:69d98770-c1c5-4839-a123-712ba59a831d",
+                  "amount": 9.99,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  451
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

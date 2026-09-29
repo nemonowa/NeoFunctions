@@ -1,0 +1,203 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "time",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 時止めの盾 ",
+                  "color": "dark_aqua",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "time"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "時よ止まれ、汝は美しい",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 12,
+                "minecraft:sharpness": 12,
+                "minecraft:unbreaking": 12
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:51c4dc2f-dc2e-4999-963b-95b80afff0d4",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5b37618b-e271-417a-a14d-c887dec47620",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:9b3caae7-c08d-4e11-97a2-17acbda85404",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:8aeb05f6-e467-4dde-818a-8d18c2149e47",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:70cc13e5-0f8d-4b17-8dfd-705fa1ea2c5e",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:9c06c5bf-2eb5-49fb-9e59-818eb2a0b0cc",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:4dc1dd29-8cbc-4ce9-9bd0-10ae6ccf55c0",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:6d077b47-7ed9-4a20-bada-9cc8b243ab59",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:d0f5add5-674a-41b3-be54-31967f3eed29",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:2a3b2464-1703-4e6d-8cb8-ed3787e3b604",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:4fa7c76f-057f-40ab-9f2c-3e4e3d41eaf4",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:804f9eb0-8c4b-42f8-8930-45d431bde6ce",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:stripe_downleft",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:stripe_downright",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "black"
+                }
+              ],
+              "minecraft:base_color": "gray",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  531
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "legacy": 1,
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

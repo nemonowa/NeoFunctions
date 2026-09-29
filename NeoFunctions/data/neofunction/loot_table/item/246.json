@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "「",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "覚悟完了！！",
+                  "color": "#F08011",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "」の",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "クスリ",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "当方に迎撃の用意あり…",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "覚悟完了。",
+                    "color": "#F08011",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "10秒間、血中”KAKUGO”濃度が高まり",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "痛みを感じなくなり肉体は高速回復する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "15秒間、行動不能になる。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "人類の範疇を遥かに超えているクスリ。",
+                  "color": "#F08011",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  246
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 15761425,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 15,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "amplifier": 15,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 4,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 15,
+                    "duration": 300
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

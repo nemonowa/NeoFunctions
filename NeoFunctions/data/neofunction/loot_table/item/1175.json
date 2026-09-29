@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "全能ノ終",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "無限を堕とす深淵の月鎌",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "其の闇に呑まれたものはただ霧散する",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "氷獄の封印を経て尚君を呼ぶ引力",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "破壊可能：",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "封印",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 1530,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 99,
+                "minecraft:fire_aspect": 99,
+                "minecraft:knockback": 99,
+                "minecraft:looting": 9,
+                "minecraft:fortune": 9,
+                "minecraft:efficiency": 9
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1175
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

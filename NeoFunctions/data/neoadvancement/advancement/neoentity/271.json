@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/270",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：ショゴス【Shoggoth】                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:271)の発見\n§3報酬：§r経験値×16\n§9説明：§r位階：✯✯✯✯✯\n種族：スライム・アーキス\nID:2 HP:65 ATK:10 DEX:3\n## 説明\nショゴスは、不定形の巨大な原形質の塊です。彼らは地球生命の始祖「ウボ＝サスラ」の細胞より奴隷として生み出された奉仕種族だったが、自制心と知性が増し、最終的には主人に反逆し、その文明を破壊した。現代この知的な子孫たちが、人間の姿をまねることで生活している。人間の姿と怪物の姿を自由に切り替えることができるが、どこかぎこちなさもあり、感情の制御を失ったり怒ったりすると、急速に本来の姿に戻ってしまう。\n## 行動(1d6)\n1:触手\n2:かぎ爪\n3:押しつぶし\n4:巻き込み\n5:テケリ・リ！テケリ・リ！\n6:||会話する||\n## 特殊\n・登場時、SANチェック(1D6/1D20)\n・物理攻撃は、命中した場合、1点のダメージのみ。\n・炎と電気の攻撃は通常の半分のダメージ。\n・1ターンごとに 1HP再生。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/271\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/5"
+  }
+}

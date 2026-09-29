@@ -1,0 +1,249 @@
+{
+  "parent": "neoadvancement:ceresta/root/2/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "交流：周辺の商人全員と会話する～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域の全商人に話しかける。\n§3§l報酬：§f経験値×16\n§9§l説明：§7交易可能リスト（計13名）\n§a碧天のシエラ（キーパーソン）§7\nセレナ、リーリャ、エルミア、ルミス、ルミエル、イルカちゃん！、ルーク、メル・クラフティ、アオト、ヴァルム、リーネ\n(異邦の製図家、異邦の馬商人、セレベリの伝道師)",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/102\"}"
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/625\"}"
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/627\"}"
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/628\"}"
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/629\"}"
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/630\"}"
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/631\"}"
+          }
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/632\"}"
+          }
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/626\"}"
+          }
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/634\"}"
+          }
+        }
+      }
+    },
+    "11": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/635\"}"
+          }
+        }
+      }
+    },
+    "12": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/636\"}"
+          }
+        }
+      }
+    },
+    "13": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/637\"}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/8"
+  }
+}

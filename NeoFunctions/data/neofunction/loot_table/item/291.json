@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Suica割りしようぜ！お前スイカな！",
+                "color": "red"
+              },
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 30
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  291
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

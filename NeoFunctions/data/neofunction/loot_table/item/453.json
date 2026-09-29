@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:4ebdad0e-f8da-40d2-9976-93f54680d95d",
+                  "amount": 35,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:a41d7ac2-6539-4d1c-b0a8-4d72c4e3a604",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:repair_cost": 0,
+              "minecraft:custom_name": [
+                {
+                  "text": "「",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "蓮",
+                  "color": "#E55EA6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "」一紋字",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  453
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

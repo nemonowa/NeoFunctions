@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:anchor/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 5724133
+      }
+    },
+    "title": [
+      {
+        "translate": "🌸｜異空の並行世界【NEXUS】　　　　　",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【ネクサス】に到達する。\n§3§l難度：§f✭✭✭✭✭（脅威レベル0～9：不沈)\n§9§l記憶：§7彼方、貴官の所属する§e組織§7が提供する未知の超空間。§5NEXUS§7は§k＊＊§7の同志に武器と力を供与する§c亜空旅団§7の§a活動拠点§7であり、あらゆる§d異次元間を繋ぐ【バックドア】§7である。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:nexus"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  }
+}

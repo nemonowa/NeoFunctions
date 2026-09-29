@@ -1,0 +1,331 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "四式",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "-ダイヤ-",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "圧縮装備.zip",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "使い切りの",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ダイヤ防具",
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "フルセットが",
+                    "color": "white"
+                  },
+                  {
+                    "text": "圧縮",
+                    "color": "blue",
+                    "bold": true
+                  },
+                  {
+                    "text": "されている",
+                    "color": "white"
+                  }
+                ],
+                [
+                  {
+                    "text": "圧縮率の関係で",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "エンチャント",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "に",
+                    "color": "white"
+                  }
+                ],
+                [
+                  {
+                    "text": "制限がついているが",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "素材や性能は本物",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  }
+                ],
+                {
+                  "text": "解凍形式はスペルスタンド.zip",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "Silent": 1,
+                "HasVisualFire": 0,
+                "ShowArms": 1,
+                "Health": 0.01,
+                "id": "minecraft:armor_stand",
+                "equipment": {
+                  "feet": {
+                    "id": "minecraft:diamond_boots",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "解凍四式ダイヤ装備",
+                        "color": "aqua",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "圧縮率の関係でエンチャントに",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "制限がついているが素材や性能は本物",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "解凍形式はスペルスタンド.zip",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": true
+                        }
+                      ],
+                      "minecraft:repair_cost": 2147483647,
+                      "minecraft:enchantments": {
+                        "minecraft:protection": 4,
+                        "minecraft:vanishing_curse": 1
+                      },
+                      "minecraft:trim": {
+                        "material": "minecraft:gold",
+                        "pattern": "minecraft:eye"
+                      },
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:trim"
+                        ]
+                      }
+                    }
+                  },
+                  "legs": {
+                    "id": "minecraft:diamond_leggings",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "解凍四式ダイヤ装備",
+                        "color": "aqua",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "圧縮率の関係でエンチャントに",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "制限がついているが素材や性能は本物",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "解凍形式はスペルスタンド.zip",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": true
+                        }
+                      ],
+                      "minecraft:repair_cost": 2147483647,
+                      "minecraft:enchantments": {
+                        "minecraft:protection": 4,
+                        "minecraft:vanishing_curse": 1
+                      },
+                      "minecraft:trim": {
+                        "material": "minecraft:gold",
+                        "pattern": "minecraft:eye"
+                      },
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:trim"
+                        ]
+                      }
+                    }
+                  },
+                  "chest": {
+                    "id": "minecraft:diamond_chestplate",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "解凍四式ダイヤ装備",
+                        "color": "aqua",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "圧縮率の関係でエンチャントに",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "制限がついているが素材や性能は本物",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "解凍形式はスペルスタンド.zip",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": true
+                        }
+                      ],
+                      "minecraft:repair_cost": 2147483647,
+                      "minecraft:enchantments": {
+                        "minecraft:protection": 4,
+                        "minecraft:vanishing_curse": 1
+                      },
+                      "minecraft:trim": {
+                        "material": "minecraft:gold",
+                        "pattern": "minecraft:eye"
+                      },
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:trim"
+                        ]
+                      }
+                    }
+                  },
+                  "head": {
+                    "id": "minecraft:diamond_helmet",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "解凍四式ダイヤ装備",
+                        "color": "aqua",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "圧縮率の関係でエンチャントに",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "制限がついているが素材や性能は本物",
+                          "color": "white",
+                          "bold": false,
+                          "italic": true
+                        },
+                        {
+                          "text": "解凍形式はスペルスタンド.zip",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": true
+                        }
+                      ],
+                      "minecraft:repair_cost": 2147483647,
+                      "minecraft:enchantments": {
+                        "minecraft:protection": 4,
+                        "minecraft:vanishing_curse": 1
+                      },
+                      "minecraft:trim": {
+                        "material": "minecraft:gold",
+                        "pattern": "minecraft:eye"
+                      },
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:trim"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "drop_chances": {
+                  "feet": 2,
+                  "legs": 2,
+                  "chest": 2,
+                  "head": 2
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  330
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "parent": "neoadvancement:neofishing/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:bat_spawn_egg",
+      "components": {
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "最終目標：全ての魚類を発見する　　　　　　　　　　　　　",
+      "color": "white",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b§l条件：この世界に存在するすべての魚類を発見・収集する。\n§3§l報酬：§r§f称号【潮流の観測者】\n§9§l説明：§r§7この進捗は、以降に存在する§eすべての魚図鑑項目§7を達成することで§c解放§7される。\n§7千の潮流も一滴から。まずは身近な水辺に糸を垂らし、未知の魚影を追え。\n§7やがて貴官は、それぞれの魚が持つ異質な力と法則を理解するための§a鍵§7を手にするだろう。",
+      "color": "white"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/overworld": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/nether": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/end": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/luminvitin": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/ceresta": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neofishing/root/nexus": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

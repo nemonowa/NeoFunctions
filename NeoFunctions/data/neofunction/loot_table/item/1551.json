@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:fe6048e0-35c7-4d4b-9d22-46b6c8050cc8",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2e2f77d4-5d4c-4058-b5e8-1ba64070f54c",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "軽量な蛙骨を加工して作られた杖",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ケロ☆ロッド",
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1551
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# 命名：thanks1
+# 説明：（説明未記載）
+# >/function neofunction:system/adv/tick/quest/30/end
+# =/function neofunction:system/adv/tick/quest/30/thanks1
+
+#バージョンを上げたらこれ消しといて
+data modify storage neofunction:main_story Talks set value [{Text:'[{"text":"✨ 「セレスタフェスタ」をプレイしていただきありがとうございます！\\n\\n今バージョンでお楽しみいただけるのは 【第3章まで】 となります。","bold":true}]',Sound:{Sound:"block.amethyst_block.break",Pitch:1.2}},{Text:'[{"text":"💬 感想・写真のお願い\\n","bold":true},{"text":"公式Discord","color":"blue","bold":true,"italic":false,"underlined":true,"hoverEvent":{"action":"show_text","value":[{"text":"公式Discordの招待リンクはこちら！"}]},"clickEvent":{"action":"open_url","value":"https://discord.gg/nqx8esTwzS"}},{"text":"にて感想を書いていただけると、制作の大きな励みになります\\n「記念撮影所」で撮ったお写真は、ぜひ#宣戦布告チャンネルへご投稿ください📷✨","bold":true}]',Sound:{Sound:"block.amethyst_block.break",Pitch:1.2}},{Text:'[{"text":"🤝 開発スタッフ募集中！\\nセレスタフェスタの世界をともに作っていきたいという有志も常に募集しています！ご興味がありましたら、","bold":true},{"text":"公式Discord","color":"blue","bold":true,"italic":false,"underlined":true,"hoverEvent":{"action":"show_text","value":[{"text":"公式Discordの招待リンクはこちら！"}]},"clickEvent":{"action":"open_url","value":"https://discord.gg/nqx8esTwzS"}},{"text":"の#チケットチャネルまでご連絡ください！","bold":true}]',Sound:{Sound:"block.amethyst_block.break",Pitch:1.2}},{Text:'[{"text":"セレスタフェスタの冒険はまだまだ続きます！今後の展開も乞うご期待🎉","bold":true}]',Sound:{Sound:"block.amethyst_block.break",Pitch:1.2}},{Text:'[{"text":"Thank you for playing!!","color":"green","bold":true,"italic":true,"underlined":true}]',Sound:{Sound:"block.amethyst_block.break",Pitch:1.2},Command:"function neofunction:system/adv/tick/quest/30/thanks2"}]
+execute as @a at @s run function neofunction:asset/event/talk/.neo {Path:"neofunction:main_story Talks"} 

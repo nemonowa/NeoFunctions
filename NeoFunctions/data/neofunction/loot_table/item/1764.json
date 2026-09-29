@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "スペルブック🔯【フロッグボルト】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "異能秘術書",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1764
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "۞ スペルブック ۞\n",
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "名称：フロッグボルト\n説明：近くの敵1体に雷を落とし、30ダメージ与える\n自身が水に浸かっていると対象が範囲内の敵すべてになる\n\n消費SP：30\n\n"
+                    },
+                    {
+                      "text": "⌖習得【インストール】",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックでスキルをインストールする！"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 326"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "蛙王グラズ=ヴェル",
+                "generation": 0,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

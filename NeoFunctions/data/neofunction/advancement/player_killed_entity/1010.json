@@ -1,0 +1,58 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1010
+                    ]
+                  }
+                }
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1011
+                    ]
+                  }
+                }
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1012
+                    ]
+                  }
+                }
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1013
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/player_killed_entity/1010"
+  }
+}

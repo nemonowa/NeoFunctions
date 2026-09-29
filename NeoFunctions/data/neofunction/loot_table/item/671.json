@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "血を啜り肉を喰む",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:4ae34e66-45e5-426b-961f-599f3140fa56",
+                  "amount": 64,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  671
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

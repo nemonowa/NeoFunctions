@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "モンスタータコス",
+                "color": "dark_red",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「噛み応え抜群！」がウリのタコス。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "モンスター肉とシャキシャキ野菜",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "そして激辛ソースが渾然一体となった味わい。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "口の中が戦場のようになること請け合い。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "効果：一時的に攻撃速度UP（3分間）。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1031
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

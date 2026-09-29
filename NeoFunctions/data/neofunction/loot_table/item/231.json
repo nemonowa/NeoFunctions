@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:spawner"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "BLACK La GOOBWEB",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「コイツにかかった敵の焼き方はレアでもウェルダンでも御自由だ。」",
+                  "color": "dark_blue",
+                  "bold": false
+                },
+                {
+                  "text": "「連中が泣いて、喚いて、チビってるところを大笑いしながら眺めてぇだろ？」",
+                  "color": "dark_blue",
+                  "bold": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  231
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

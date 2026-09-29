@@ -1,0 +1,927 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:can_place_on": [
+                  {
+                    "blocks": "minecraft:lodestone"
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": [
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " 運命",
+                    "color": "#FEEEED",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "䂖",
+                    "color": "#FFC6AB",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "の航✯記 ",
+                    "color": "#FEEEED",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.1",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "keybind": "key.attack",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "攻撃対象を解析",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.use",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "徽章端末を操作",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.playerlist",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "現在のレベルを確認できる",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.advancements",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "カスタム進捗画面を開く",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.drop",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "兵装変形および情報更新",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "「この譚は誰かのものではない。選び創り進み続ける君の航海記。」",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "minecraft:written_book_content": {
+                  "pages": [
+                    [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "text": "|",
+                        "color": "#FFFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#7FFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF7F",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#7FFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#FFFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " 運命䂖の航✯記 ",
+                        "color": "#FFC6AB",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#FFFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#7FFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF7F",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#00FF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#7FFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "|",
+                        "color": "#FFFF00",
+                        "bold": true,
+                        "italic": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "名称: "
+                      },
+                      {
+                        "selector": "@s",
+                        "color": "black",
+                        "bold": true
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "称号: "
+                      },
+                      {
+                        "text": "制作者"
+                      },
+                      {
+                        "text": " 階級: "
+                      },
+                      {
+                        "text": "大佐"
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "現在Lv: "
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "LVL"
+                        },
+                        "color": "black"
+                      },
+                      {
+                        "text": " 保有Lv: "
+                      },
+                      {
+                        "score": {
+                          "name": "0-0-0-0-1",
+                          "objective": "LVL"
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "達成目標: "
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "CRT"
+                        }
+                      },
+                      {
+                        "text": "/100"
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "格納能力",
+                        "bold": true
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "スキル: 位階表示",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "【ステータスオープン】"
+                            }
+                          ]
+                        },
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/trigger status"
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "スキル: 存在解析",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "【アナライズエンティティ】"
+                            }
+                          ]
+                        },
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/trigger analyze"
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "スキル: 技能選択",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "【トリガーセット】"
+                            }
+                          ]
+                        },
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/trigger menu"
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      },
+                      {
+                        "text": "スキル: 技能行使",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "【トリガーオン】"
+                            }
+                          ]
+                        },
+                        "click_event": {
+                          "action": "run_command",
+                          "command": "/trigger on"
+                        }
+                      },
+                      {
+                        "text": "\n"
+                      }
+                    ],
+                    [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "text": "戦闘ログ",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "\n\n"
+                      },
+                      {
+                        "text": "死亡回数: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "deathCount"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "deathCount"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "deathCount"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n交易回数: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "traded_with_villager"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "traded_with_villager"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "traded_with_villager"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n跳躍回数: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "jump"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "jump"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "jump"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n走破距離: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "dush"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "dush"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "dush"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n討伐回数: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "totalKillCount"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "totalKillCount"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "totalKillCount"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n与ダメージ: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageDealt"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "DamageDealt"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageDealt"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n被ダメージ: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageAbsorbed"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "DamageAbsorbed"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageAbsorbed"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\n軽減したダメージ: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageResisted"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "DamageResisted"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "DamageResisted"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "text": "\nスポナー破壊総数: ",
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "minedSpawner"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "score": {
+                          "name": "@s",
+                          "objective": "minedSpawner"
+                        },
+                        "hover_event": {
+                          "action": "show_text",
+                          "value": [
+                            {
+                              "text": "minedSpawner"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  ],
+                  "title": "",
+                  "author": ""
+                },
+                "minecraft:custom_data": {
+                  "rare": "ST"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "世界線座標 > [The World of Wonders]",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "現在次元 > [",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "Dimension",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": "]",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "接続座標 > [",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "SpawnX",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": ",",
+                          "color": "#fef4f4",
+                          "bold": false,
+                          "italic": false,
+                          "extra": [
+                            {
+                              "nbt": "SpawnY",
+                              "entity": "@s",
+                              "color": "#fef4f4",
+                              "bold": false,
+                              "italic": false,
+                              "extra": [
+                                {
+                                  "text": ",",
+                                  "color": "#fef4f4",
+                                  "bold": false,
+                                  "italic": false,
+                                  "extra": [
+                                    {
+                                      "nbt": "SpawnX",
+                                      "entity": "@s",
+                                      "bold": false,
+                                      "italic": false,
+                                      "extra": [
+                                        {
+                                          "text": "]",
+                                          "color": "#fef4f4",
+                                          "bold": false,
+                                          "italic": false
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "現在座標 > ",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "Pos",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "汎用一意識別子 > ",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "UUID",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

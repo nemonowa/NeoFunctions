@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/anchor/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": [
+      {
+        "translate": "生存証明：生還の冒険者（10a）～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：§fアンカーを10機配置する。\n§9§l報酬：§f経験値 +称号"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "neoadvancement:logbook/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "logAnchor": {
+              "min": 10
+            }
+          }
+        }
+      }
+    }
+  }
+}

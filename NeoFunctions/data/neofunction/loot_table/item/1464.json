@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "雪蝙蝠の肉",
+                "color": "#F4FBFE",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "白銀大陸",
+                    "color": "#F4FBFE",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "極寒の洞窟や氷壁",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "に生息する小型の蝙蝠",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "白く薄い",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "皮膜の翼",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "を持ち、雪に紛れて身を隠す"
+                  }
+                ],
+                {
+                  "text": "吸血牙を持ち少し危険だが貴重なタンパク質",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1464
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

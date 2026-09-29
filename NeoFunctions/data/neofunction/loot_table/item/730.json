@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:fe62ae9a-ed8f-4bee-99ca-4aad6bb61f0e",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:28301dd9-aedf-426a-88cf-dd2c4c664a4a",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:4078b018-5be9-4cdf-8cf7-06de498b7dfa",
+                  "amount": -0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:shaper"
+              },
+              "minecraft:custom_name": {
+                "text": "骨の靴",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:dyed_color": 16315622,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  730
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

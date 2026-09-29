@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "-",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "銅の剣",
+                  "color": "#B06E43",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "-",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:c3da20b3-8bbd-4617-a4e8-b4d5d0c4bcf9",
+                  "amount": 5.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:6b29c099-6a1b-4ef2-ad3a-eb5459a92ad7",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  402
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

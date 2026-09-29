@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/186",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：思考の瞳 -Eyes of Thought-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:187)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r有形無形の上位存在が遺した叡智の断片。これらを理解できてしまうと「開眼」すると伝えられている。目を凝らすと随所に走り書きが読み取れる…「我々は思考の次元が低すぎた。もっと瞳が必要なのだ。」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  187
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

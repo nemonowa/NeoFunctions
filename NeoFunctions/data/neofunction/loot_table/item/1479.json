@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1479
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "帯模様に沿って電流のような魔力が走る魚。その刺激は身体能力を引き上げる。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：フォーチュンラッシュのポーション（移動速度上昇レベル3 1:30/採掘力上昇レベル1 1:30/幸運レベル4 1:30）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Rare:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "サンダーストライプフィッシュ",
+                "color": "#387AFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 3,
+                    "duration": 1800,
+                    "id": "speed"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 1800,
+                    "id": "haste"
+                  },
+                  {
+                    "amplifier": 3,
+                    "duration": 1800,
+                    "id": "luck"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"フォーチュンラッシュの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

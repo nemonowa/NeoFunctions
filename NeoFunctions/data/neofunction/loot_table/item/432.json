@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "小",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "竜",
+                  "color": "#24781A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "景光",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 30
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:2e2b657b-1e1b-4ce1-bedb-05da3df12e76",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  432
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

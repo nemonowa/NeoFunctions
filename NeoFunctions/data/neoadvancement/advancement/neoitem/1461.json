@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1460",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：雪鉄魚（せつてつうぉー） -Voynich Manuscript-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1461)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r白銀大陸の極寒水域に生息する小型の魚\n体表は金属光沢を帯びた鱗に覆われ\n凝固しにくい脂質と凍結を防ぐ性質の体液を有する\n少量でも高いエネルギー補給が可能な基礎食材",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1461
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/se"
+  }
+}

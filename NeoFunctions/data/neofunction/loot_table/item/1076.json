@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_brick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "大地の護符【根】",
+                "color": "#929468",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "── 根を張るように地に力を得る。持ち主を僅かに支える。",
+                  "color": "#8F9166",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンドに装備時耐久力を引き上げる",
+                  "color": "#8F9166",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 2,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d6214d10-776b-4365-97f4-b8b47b3bf158",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:d3b1851b-7724-42cd-98dd-e259a75001ff",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1076
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

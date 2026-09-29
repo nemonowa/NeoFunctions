@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "単話『翡翠色の計画書』",
+                "color": "#38b48b",
+                "bold": true,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1626
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "白銀の氷城に単騎で乗り込み、バリアを砕き、門衛を屠り、その尽くを根絶せしめんとする怪物がいた。\n程なく彼は最凶と名高い『魔弾の皇子』と対峙する。皇子の対物ライフルは何度となく命中し彼を退けていた。\nしかし撃退を祝う間もなく、怪物は新品の同じ装備で現れる、何度でも。",
+                    "color": "#38B48B",
+                    "bold": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "Click"
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "open_url",
+                      "url": "https://www.nicovideo.jp/watch/sm43135133"
+                    }
+                  },
+                  [
+                    {
+                      "text": "決死の抵抗を見せた最後の防衛戦も怪物単騎の圧倒的な物量に押しつぶされ崩壊していく。\n城は制圧され、静寂と戦利品を前に彼は言う。",
+                      "color": "#38B48B",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n「いいね。いずれ皇子の根城も観光地にして、遺品とかお土産に売り捌いてやるのだ。」\n\n",
+                      "color": "green"
+                    },
+                    {
+                      "text": "その蛮族は『強欲』で武装していた"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

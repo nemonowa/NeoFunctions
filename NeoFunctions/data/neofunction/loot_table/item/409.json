@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "XXX",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "コモン・ソード",
+                  "color": "dark_gray",
+                  "obfuscated": false
+                },
+                {
+                  "text": "XXX"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "☆1 ATK1〜5"
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:af4eb809-aa15-452d-8ea3-3e4b5fb0c954",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:370ab296-3ea8-4aa4-9da3-77d100f219e3",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  409
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

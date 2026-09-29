@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "オーバースタックアイテムについて",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  501
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "この世界では、ポーション等の本来スタックできないアイテムが過剰にスタックされていることがあります。",
+                    "bold": true
+                  },
+                  {
+                    "text": "カーソルで持ってインベントリ内を移動させることはできませんが、地面に投げたり、入れたいホットキーを直接入力したり、シフト+左クリックで移動できます。",
+                    "bold": true
+                  },
+                  {
+                    "text": "同じ種類のアイテムは最大64個まで重ねられます。方法はまた2個以上のスタックされたアイテムをさらに同じ位置に重ねることでまとめることができます。（端数の1個は分離します）",
+                    "bold": true
+                  },
+                  {
+                    "text": "これらのアイテムはシュルカーボックスやエンダーチェストの中に入れることはおすすめしません。",
+                    "bold": true
+                  }
+                ],
+                "title": "",
+                "author": "風紀委員会",
+                "generation": 2
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

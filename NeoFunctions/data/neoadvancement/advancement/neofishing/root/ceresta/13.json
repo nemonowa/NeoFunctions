@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/ceresta/12",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1478
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "魚類観測：ラブリーフィン",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:13)を観測する。\n§9説明：§r花のように鮮やかな体色を持つ魚。その鱗には生命の魔力が宿っている。\n§2条件：再生エフェクト かつ 緩衝体力を所持",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1478
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:118563d2-4163-4c01-9073-ba0576f9599d",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:a3d7b578-0a18-4f41-9c1b-b92aba33c0f7",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:40161c0c-bf5e-4dbe-9be0-86a9b7967a24",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:looting": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水の流れを刃に宿し、安定した斬撃を生む剣。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "水相の剣",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1360
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

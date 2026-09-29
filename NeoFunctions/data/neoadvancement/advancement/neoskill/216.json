@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/215",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴回帰【レゾナンス・リカバリー】 -Resonance Recovery-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:216)の習得\n§9説明：§rトリガーすると自身に共鳴回帰を3分間付与する。共鳴回帰の効果中は周囲にいる刻印持ちの数に応じてSP回復が促進される。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                216
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

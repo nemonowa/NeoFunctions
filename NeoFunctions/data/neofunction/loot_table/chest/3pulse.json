@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 8,
+              "max": 16
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "value": "neofunction:rare/3"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:rare/4"
+        }
+      ]
+    }
+  ]
+}

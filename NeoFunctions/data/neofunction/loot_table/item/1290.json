@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "反重の杖",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【反重の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "重力は世界を繋ぎ止める鎖。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "この杖はその枷を解き放ち ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "触れた者から大地を奪い去る",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "メインハンド攻撃時、2秒間の浮遊効果を与える",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "CD:30s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:944fcdaa-6a79-4d24-9e70-2a7776482537",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1290
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "凍殻蟹（とうかくがに",
+                "color": "#F4FBFE",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "白銀大陸",
+                    "color": "#F4FBFE",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "氷の隙間に潜む",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "に生息する中型の蟹",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "体表は",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "硬質の氷",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "でできた殻に覆われている"
+                  }
+                ],
+                {
+                  "text": "中身は濃厚で、殻ごと煮ることで出汁も取れる。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1463
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

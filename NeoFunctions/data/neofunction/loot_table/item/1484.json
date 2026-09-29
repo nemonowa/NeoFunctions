@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1484
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "氷河のような鱗を持つ魚。その冷気は時間すら遅らせるかのようだ。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：極寒のポーション（鈍足レベル4 1:00/盲目レベル1 1:00/ウィザーレベル2 1:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Legacy:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "グレイシャースケイル",
+                "color": "#0DEFFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 3,
+                    "duration": 1200,
+                    "id": "slowness"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 1200,
+                    "id": "blindness"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 1200,
+                    "id": "wither"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"極寒の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:short_grass"
+                },
+                {
+                  "blocks": "minecraft:tall_grass"
+                },
+                {
+                  "blocks": "minecraft:fern"
+                },
+                {
+                  "blocks": "minecraft:large_fern"
+                },
+                {
+                  "blocks": "minecraft:dandelion"
+                },
+                {
+                  "blocks": "minecraft:poppy"
+                },
+                {
+                  "blocks": "minecraft:blue_orchid"
+                },
+                {
+                  "blocks": "minecraft:allium"
+                },
+                {
+                  "blocks": "minecraft:azure_bluet"
+                },
+                {
+                  "blocks": "minecraft:red_tulip"
+                },
+                {
+                  "blocks": "minecraft:orange_tulip"
+                },
+                {
+                  "blocks": "minecraft:white_tulip"
+                },
+                {
+                  "blocks": "minecraft:pink_tulip"
+                },
+                {
+                  "blocks": "minecraft:oxeye_daisy"
+                },
+                {
+                  "blocks": "minecraft:cornflower"
+                },
+                {
+                  "blocks": "minecraft:lily_of_the_valley"
+                },
+                {
+                  "blocks": "minecraft:wither_rose"
+                },
+                {
+                  "blocks": "minecraft:sunflower"
+                },
+                {
+                  "blocks": "minecraft:lilac"
+                },
+                {
+                  "blocks": "minecraft:rose_bush"
+                },
+                {
+                  "blocks": "minecraft:peony"
+                },
+                {
+                  "blocks": "minecraft:dead_bush"
+                },
+                {
+                  "blocks": "minecraft:lily_pad"
+                },
+                {
+                  "blocks": "minecraft:pink_petals"
+                },
+                {
+                  "blocks": "minecraft:vine"
+                },
+                {
+                  "blocks": "minecraft:glow_lichen"
+                },
+                {
+                  "blocks": "minecraft:weeping_vines"
+                },
+                {
+                  "blocks": "minecraft:weeping_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:twisting_vines"
+                },
+                {
+                  "blocks": "minecraft:twisting_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:cave_vines"
+                },
+                {
+                  "blocks": "minecraft:cave_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:crimson_fungus"
+                },
+                {
+                  "blocks": "minecraft:warped_fungus"
+                },
+                {
+                  "blocks": "minecraft:crimson_roots"
+                },
+                {
+                  "blocks": "minecraft:warped_roots"
+                },
+                {
+                  "blocks": "minecraft:oak_leaves"
+                },
+                {
+                  "blocks": "minecraft:spruce_leaves"
+                },
+                {
+                  "blocks": "minecraft:birch_leaves"
+                },
+                {
+                  "blocks": "minecraft:jungle_leaves"
+                },
+                {
+                  "blocks": "minecraft:acacia_leaves"
+                },
+                {
+                  "blocks": "minecraft:dark_oak_leaves"
+                },
+                {
+                  "blocks": "minecraft:mangrove_leaves"
+                },
+                {
+                  "blocks": "minecraft:cherry_leaves"
+                },
+                {
+                  "blocks": "minecraft:azalea_leaves"
+                },
+                {
+                  "blocks": "minecraft:flowering_azalea_leaves"
+                },
+                {
+                  "blocks": "minecraft:moss_block"
+                },
+                {
+                  "blocks": "minecraft:moss_carpet"
+                },
+                {
+                  "blocks": "minecraft:bamboo"
+                },
+                {
+                  "blocks": "minecraft:bamboo_sapling"
+                },
+                {
+                  "blocks": "minecraft:sugar_cane"
+                },
+                {
+                  "blocks": "minecraft:big_dripleaf"
+                },
+                {
+                  "blocks": "minecraft:big_dripleaf_stem"
+                },
+                {
+                  "blocks": "minecraft:small_dripleaf"
+                },
+                {
+                  "blocks": "minecraft:mangrove_roots"
+                },
+                {
+                  "blocks": "minecraft:hanging_roots"
+                },
+                {
+                  "blocks": "minecraft:nether_wart"
+                },
+                {
+                  "blocks": "minecraft:cocoa"
+                },
+                {
+                  "blocks": "minecraft:kelp"
+                },
+                {
+                  "blocks": "minecraft:kelp_plant"
+                },
+                {
+                  "blocks": "minecraft:seagrass"
+                },
+                {
+                  "blocks": "minecraft:tall_seagrass"
+                },
+                {
+                  "blocks": "minecraft:chorus_plant"
+                },
+                {
+                  "blocks": "minecraft:chorus_flower"
+                },
+                {
+                  "blocks": "minecraft:sweet_berry_bush"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 5,
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "【森林開拓用】",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "破壊可能:",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "・草花、葉、苔、ツツジ全般",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ツタ、ネザーの菌・根",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・竹、サトウキビ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ドリップリーフ全般",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・マングローブの根",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ネザーウォート、カカオ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・コンブ、海草、コーラス",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "あらゆる植物系ブロックに対応",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "草カッター1000 Ultra",
+                "color": "gold",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1775
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warden_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "～統合版の謎翻訳シリーズ～",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "「音響的に帯電した叫び声によって消し去られました」",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  379
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

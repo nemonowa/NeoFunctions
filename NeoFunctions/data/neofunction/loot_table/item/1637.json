@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "ALT＋F4は、あなたのすべてを解決するでしょう(笑)"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ALT＋F4",
+                "color": "white",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1637
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

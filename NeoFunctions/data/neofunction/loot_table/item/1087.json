@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ゾンビの腕",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "もがれた腕を、そのままぶん回すという狂気の選択",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "未練が宿るのか、たまにびくりと動くことがある。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "重い一撃だが、手にした時点でいろいろと終わっている。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:bbb6d720-6a53-4914-a1c9-ce77052dc3ff",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:3e6e4912-2411-4d5d-9da0-46cec411db44",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:d7942e3f-7c47-4802-a3ad-352f6e174c64",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1087
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

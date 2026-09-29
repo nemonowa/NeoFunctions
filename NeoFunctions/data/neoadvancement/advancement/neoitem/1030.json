@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1029",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：くるくる回る串焼きタワー -A spinning skewer tower-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1030)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r特製の縦型串に肉や野菜をくるくる巻いて焼き上げた、屋台名物料理。1本食べ終わる頃には次の串が目の前に現れる仕掛けで、食欲をそそる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1030
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

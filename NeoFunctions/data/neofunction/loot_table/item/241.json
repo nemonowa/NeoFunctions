@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "ちっちゃくてかわいいおばけのにんぎょう",
+                  "color": "white",
+                  "bold": true
+                },
+                {
+                  "text": "たいせつにあつかってね！",
+                  "color": "white",
+                  "bold": true
+                },
+                {
+                  "text": "ぜったいこわしたらだめだよ！",
+                  "color": "white",
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "昔とある村が焼けた",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "そこには幸せな家庭を築く家族がいた",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "この人形はその家族の子供が持っていた",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "この人形には怨霊が付いてるとか",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "憑いてないとか・・・",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "【守術】はねるばくだんおばけ"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  241
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

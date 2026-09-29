@@ -1,0 +1,30 @@
+{
+  "parent": "neofunction:.clock/30s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "chest": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1289
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/cmd/1311"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:entity_type": "player",
+                  "minecraft:nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{check:1}}}}"
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "player",
+                "minecraft:nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{custom:[{id:\"vulnerable\",lvl:1b}]}}}}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/item/vulnerable"
+  }
+}

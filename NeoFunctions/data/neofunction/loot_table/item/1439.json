@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "超巨大高速潜水艦ノーチラス",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "並行世界",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "超流体生金属",
+                    "color": "blue"
+                  },
+                  {
+                    "text": "で育った超弩級の魚",
+                    "color": "gray"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1439
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

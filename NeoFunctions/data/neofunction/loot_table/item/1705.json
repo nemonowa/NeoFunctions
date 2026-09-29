@@ -1,0 +1,294 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "⚡◆◇ ",
+                  "color": "aqua",
+                  "bold": true
+                },
+                {
+                  "text": "フ",
+                  "color": "#FFFFFF",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ァ",
+                  "color": "#E6F4FE",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ン",
+                  "color": "#CCE9FD",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "タ",
+                  "color": "#B3DFFC",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ズ",
+                  "color": "#99D4FB",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ム",
+                  "color": "#80CAFA",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "・",
+                  "color": "#66C0F9",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ボ",
+                  "color": "#4DB5F8",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ル",
+                  "color": "#33ABF7",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ト",
+                  "color": "#1AA0F6",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": " ◇◆⚡"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "⚡◆◇ ",
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "フ",
+                    "color": "#FFFFFF",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ァ",
+                    "color": "#E6F4FE",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ン",
+                    "color": "#CCE9FD",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "タ",
+                    "color": "#B3DFFC",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ズ",
+                    "color": "#99D4FB",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ム",
+                    "color": "#80CAFA",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "・",
+                    "color": "#66C0F9",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ボ",
+                    "color": "#4DB5F8",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ル",
+                    "color": "#33ABF7",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "ト",
+                    "color": "#1AA0F6",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": " ◇◆⚡"
+                  }
+                ],
+                {
+                  "text": "蒼き雷光を纏う、実体を持たぬ氷のように冷たい魔弾を放つ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "スペルアイテム🔯【雪蒼の電閃】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "「雷鳴が轟いた時、すでに勝負は決している。」",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:6",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:矢",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:単発",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:908ab588-af40-4728-b802-127e54f24034",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:416a5493-cacc-4824-b38e-2be829f39ad9",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 1
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1705
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 6,
+                "ammotype": {
+                  "id": "minecraft:arrow"
+                },
+                "damage": 6,
+                "firerate": 14,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 6,
+                "maxreloadingtime": 120,
+                "recoil": -2,
+                "reloading": 0,
+                "speed": 2,
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

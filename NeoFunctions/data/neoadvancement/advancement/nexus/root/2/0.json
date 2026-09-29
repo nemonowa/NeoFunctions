@@ -1,0 +1,185 @@
+{
+  "parent": "neoadvancement:nexus/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0NjA2NTc4NjE3OSwKICAicHJvZmlsZUlkIiA6ICIwMGNjZjIzYWM4NDQ0OWE4OTM0Y2QxMzk1Y2M2NjFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmdvbmF1dGVfbmVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYzgxNDYyYzQwOGVmNmZhNzdlZTVlMjdlOTI1YzRmZDM5ZmViOGE3ZDViNzYxZDViMTU2OTFlYTMwZDk4MmFlIgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "第二章：天賦回想のマイスターツリー～～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：第2章の進捗をすべて達成する。\n§3§l報酬：§f任意の兵科になれる\n§9§l記憶：§7ターミナルロビーは冀求力を知覚した知性体が始めに辿り着く終着駅であり、迎官室である。\n終わりを否定するほどの強い想いは、やがて生死を超越し、我々は貴官を招待する。無数の星が煌めく異空の下、流れ星に立ち止まった同航の志よ。異空機関は祝砲をもって「君」を迎える。\n歓迎しよう、新たなクルーの新たな船出を。",
+      "color": "white"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/1": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/2": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/3": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/4": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/5": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/6": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/7": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/8": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:nexus/root/2/9": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "マスケット銃【ゆるふわ】"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "フリントロック式のマスケット銃　（燧発式）\n装填時の暴発を防止するハーフコックの機能を備えたマスケット銃。点火方法はフリントロック式（燧石式）"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

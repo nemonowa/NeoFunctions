@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2680c715-89da-4632-ac29-c1fd5285998e",
+                  "amount": -0.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:6e045ad4-5f33-44cc-976f-539ddcd0ebc6",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:container_loot": {
+                "loot_table": "neofunction:item/mamon/potrandom"
+              },
+              "minecraft:pot_decorations": {
+                "back": {
+                  "id": "minecraft:plenty_pottery_sherd"
+                },
+                "left": {
+                  "id": "minecraft:plenty_pottery_sherd"
+                },
+                "right": {
+                  "id": "minecraft:plenty_pottery_sherd"
+                },
+                "front": {
+                  "id": "minecraft:plenty_pottery_sherd"
+                }
+              },
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "壊すと通貨をドロップする飾り壺。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-強欲の壺-",
+                  "color": "dark_aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  365
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

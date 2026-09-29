@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/ceresta/32",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1498
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "魚類観測：サイレンスガーディアン",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:33)を観測する。\n§9説明：§r鋭い棘と紫の輝きであらゆる干渉を拒み、近づく者の精神を掻き乱す孤独なる拒絶の化身。\n§2条件：盲目 かつ スニーク かつ 棘の鎧エンチャを装備時",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1498
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

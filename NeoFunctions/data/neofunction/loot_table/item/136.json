@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "マグロ・ドンブリ",
+                "color": "aqua",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "炊いたバイオ米に合法マグロを乗せた料理",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "備え付けられたショーユ・ワサビのサーバーをプッシュして味を調える",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "使われている合法マグロは七色に光り輝き、",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その上シャリの蒸気で熱されると異臭を放つという凄まじい代物。",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ショーユとワサビはいくらかけても",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ｼﾞｯｻｲ、無料だがこれは決してサービスではなく、",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "異臭をごまかすために大量のショーユとワサビをぶっかけを奨励のため。",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "無軌道なヨタモノやモヒカン労働者が命をつなぐために食される、",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ネオン・サイタマでも最低の料理。",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ｼﾞｯｻｲ、古くなったりとかで問題のある刺身は虹色光沢を放つので、",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ネオン・サイタマのマグロが七色に輝いてももんだいはない。ｲｲﾈ?",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  136
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:levitation",
+                    "duration": 20
+                  }
+                ],
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

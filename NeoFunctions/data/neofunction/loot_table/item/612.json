@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "脊髄液入り",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "骨スープ",
+                  "color": "white"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "骨を素材とし、隠し味には骨を使ったスープ。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  612
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 300
+                  }
+                ],
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

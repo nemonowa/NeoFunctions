@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "即席の大剣",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "大剣",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sweeping_edge": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:3733c9ea-5993-4005-bfea-c8040f682725",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:b9cce788-13c5-43ec-9d9f-db7ec6befc1e",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:d2ce090f-9407-4a37-a412-c9eb3e686f9c",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:bc1cfe01-549a-4a4f-9322-a4be972e72b6",
+                  "amount": -3.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  410
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:acacia_boat",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ロードローラーだｯｯｯ‼︎",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "残念だったな、トラックだよ。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1219
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

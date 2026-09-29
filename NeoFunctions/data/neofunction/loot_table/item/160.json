@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "稲生物怪録",
+                "color": "red",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔王「山ン本五郎左衛門」について",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  160
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "寛延2年、備後国三次において三次藩士の稲生平太郎は30日間におよび様々な怪異に襲われた。しかし平太郎は強靭な精神力を持ってこれに耐えつづけた。すると、一ヶ月目の7月30日にこれまでの怪異の元凶で「山ン本五郎左衛門」と名乗る、裃を着た40歳ほどの武士が姿を現した。",
+                      "bold": true
+                    }
+                  ],
+                  {
+                    "text": "自分は神野悪五郎と魔王の頭の座をかけて勇気ある少年を100人驚かせるという賭けをしていたことを語った。",
+                    "bold": true
+                  },
+                  {
+                    "text": "そしてインド、中国、日本と渡り歩いて、86人目に平太郎を驚かそうとしたが、平太郎がどうしても驚かなかったため自分の負けとなり、自分はまた最初からやり直しをせねばならないと言って、平太郎の気丈さを褒めたたえた。",
+                    "bold": true
+                  },
+                  {
+                    "text": "もう怪異を起こすことはないが、今後、平太郎が悪五郎に襲われた場合には、これを打ち鳴らせば自分が現れて力を貸すと言って、木槌を平太郎に与え、妖怪たちを引き連れて去って行った。",
+                    "bold": true
+                  },
+                  {
+                    "text": "この木槌は広島市東区の國前寺に寺宝として後に伝えられている。ーーー「稲生物怪録」より",
+                    "bold": true
+                  }
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

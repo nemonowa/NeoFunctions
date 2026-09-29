@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "-",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "勇者の剣",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "-",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「偽物の剣であっても魔王を倒せば本物も偽物も関係ない」",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:smite": 6
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  403
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

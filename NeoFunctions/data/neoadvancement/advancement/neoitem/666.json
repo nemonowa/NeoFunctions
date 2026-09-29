@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/665",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：雷上動χ -ray over move χ-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:666)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r【紫電】火疾走る雷上動の新たな姿\n艦長専用の最適化が施された固有武器であり\n雷速を上回り動く加速と神すら弾く雷撃を操る",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  666
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/9"
+  }
+}

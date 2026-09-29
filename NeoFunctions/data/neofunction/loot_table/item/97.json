@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "命を",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "刈",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "り取る鎌"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "メメント・モリ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「死」を誘う霧",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「死」を運ぶ風",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "THANATOS, of the DEATH.",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:93521d7f-b5e8-4c5a-a40f-ec92fb85c675",
+                  "amount": 44,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:39a74370-ac85-4377-b884-d792d8014a51",
+                  "amount": 0.44,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:faf6b178-c64d-431c-8983-a7ee58487107",
+                  "amount": -0.44,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:cb2e9e83-cf39-4bd8-9b5b-823e392f405b",
+                  "amount": -0.44,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  97
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

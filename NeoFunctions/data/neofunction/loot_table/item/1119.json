@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "疾風の護符【翔】",
+                "color": "#47AD40",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "空を駆けるような風の祝福。地を踏まずとも進めそうだ。",
+                  "color": "#47AD40",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンド装備時移動速度を引き上げる",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 5,
+                "minecraft:soul_speed": 5,
+                "minecraft:swift_sneak": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5ecd8f2b-8428-4c9d-a83f-257b871bbcd7",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1119
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

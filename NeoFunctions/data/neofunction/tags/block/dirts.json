@@ -1,0 +1,11 @@
+{
+    "values": [
+        "dirt",
+        "dirt_path",
+        "grass_block",
+        "coarse_dirt",
+        "rooted_dirt",
+        "podzol",
+        "mycelium"
+    ]
+}

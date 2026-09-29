@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ジャンクウィップ",
+                  "color": "#777777",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#999999",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "なんか",
+                  "color": "#AAAAAA",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "それっぽい",
+                  "color": "#CCCCCC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "棒",
+                  "color": "#888888",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#999999",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "拾った棒切れを",
+                    "color": "#555555",
+                    "italic": false
+                  },
+                  {
+                    "text": "ガムテープ",
+                    "color": "#C99A5A",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で固定しただけ。",
+                    "color": "#777777",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "鞭としての性能は",
+                    "color": "#777777",
+                    "italic": false
+                  },
+                  {
+                    "text": "ほぼ無い。でも痛いよ？人に向けないでね？",
+                    "color": "#555555",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "一度装備すると外れなくなる。",
+                  "color": "#AA2222",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "とか言ってるけど実際はべたべたしてるだけ。",
+                  "color": "#777777",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "はっきり言って小学生の夏休みの作品",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 7
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "luck",
+                  "id": "neofunction:7d40cd6e-4540-4b6f-acfe-a8c20e1a1dfb",
+                  "amount": -6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1825
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

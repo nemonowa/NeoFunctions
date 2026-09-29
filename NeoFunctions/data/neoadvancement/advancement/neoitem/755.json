@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/754",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：極光の虹翼 -Rainbow Wings of the Aurora-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:755)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r幾千の閃光を束ねた虹色の翼\n彼らの意志はどんな理不尽にも折れることはなく\n彼らの軌跡はどんな大空にも鮮やかな虹を翔ける\n= 決意 調和 勇気 冀望 覚悟 高潔 矜持 =\n万象、纏い。虹を成す。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  755
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/8"
+  }
+}

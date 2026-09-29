@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/276",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：無貌の神【Nyarlathotep】                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:277)の発見\n§3報酬：§r経験値×16\n§9説明：§r位階：✯✯✯✯✯✯✯✯\n種族：アウター・ゴッド\nID:2 HP:∞ ATK:∞ DEX:20\n## 説明\nニャルラトホテプは、人類の存在を理解し、利用しようとする特異な存在である。人間に変身することもでき、何度も人類の歴史に介入し、旧神の封印から旧支配者と呼ばれる邪神たちを復活させるべく暗躍してきた。\n## 行動(1d6)\n1:||飽きる。1d2で生還||\n2:無貌の神。SANチェック(1d10/1d100)\n3:闇の跳梁者。\n4:暗黒の使者。\n5:「夢」を見ている。\n6:||這い寄る混沌 ダメージ(1d100)||\n## 特殊\n・登場時、SANチェック(1d10/1d100)",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/277\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/2"
+  }
+}

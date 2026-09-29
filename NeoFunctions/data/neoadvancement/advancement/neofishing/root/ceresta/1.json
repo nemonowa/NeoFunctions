@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/ceresta",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1466
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "魚類観測：火霊魚",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:1)を観測する。\n§9説明：§r火属性のマナを沢山受けて育った魚",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1466
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

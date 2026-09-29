@@ -1,0 +1,30 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "position": {
+                  "y": {
+                    "min": -63,
+                    "max": 319
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/location/.neo/limit"
+  }
+}

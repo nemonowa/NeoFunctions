@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:f0421341-2503-451b-baec-3f01cff49995",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:cf1041f1-7ad5-419f-a32c-d9eb683538b0",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "蛙骨杖",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の刀身を",
+                    "color": "#4D4B3F",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙油",
+                    "color": "#FFDA73"
+                  },
+                  {
+                    "text": "で加工し"
+                  }
+                ],
+                {
+                  "text": "より軽く振れるようになった強化杖。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ケロボーンロッド",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1552
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

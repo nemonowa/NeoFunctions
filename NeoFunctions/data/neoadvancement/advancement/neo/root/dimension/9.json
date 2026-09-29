@@ -1,0 +1,38 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "次元彷徨：到達不能極 -PointNemo-               ",
+        "color": "dark_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【√87°03′N √173°51′W】に到達する。\n§3§l報酬：§f進捗タブ「到達不能極」の解放\n§9§l説明：§7MissingNo\n§c§l転移方法：§f？？？？？"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:point_nemo"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/64"
+  }
+}

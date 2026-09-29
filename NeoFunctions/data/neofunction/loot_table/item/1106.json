@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ウォーターパウダー",
+                "color": "#18C9D6",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水精霊が精製した、純粋な水の力を凝縮した粉。",
+                  "color": "#536BE6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "水系の魔法やアイテムに使用される。",
+                  "color": "#536BE6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "液体なのか粉末なのか分からない不思議な感覚",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 5,
+                "minecraft:aqua_affinity": 5
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1106
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

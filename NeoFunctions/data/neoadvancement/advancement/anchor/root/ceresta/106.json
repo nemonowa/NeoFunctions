@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/105",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：生鎧の地下聖堂 -Armor-filled underground ruins-                         ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:106)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r長き眠りから覚めた鎧たちが、誰の命令もなく徘徊する地下空間。\n戦場の亡霊が今なお使命を果たし続けているのか、それとも──\n錆びた鉄音が、侵入者を拒むように響く。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/106": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

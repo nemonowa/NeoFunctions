@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/256",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：影杭【シャドウ・ピラー】 --                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:257)の習得\n§9説明：§r発動時、自身の位置に影の杭を打ち込む。影の杭は周辺の敵に弱体化と鈍足を与え続け、設置した瞬間に周囲の敵へ呪印も刻む（SP40消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                257
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

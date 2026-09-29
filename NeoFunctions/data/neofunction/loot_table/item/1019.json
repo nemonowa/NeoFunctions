@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1019
+                ]
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:respiration": 1,
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "4"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【豊穣装甲】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "インベントリ内に存在する",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ルクスの黄金麦2st毎に防具値を1獲得する。",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "被弾すると自分の所持している小麦を少しばらまく",
+                  "color": "#8C4F59",
+                  "underlined": true,
+                  "italic": false
+                },
+                {
+                  "text": "ルクスの黄金麦で編まれた外套",
+                  "color": "#FF9A03",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "黄金麦の外套",
+                "color": "#FF9A03",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0OTY3NzAyMzAyNSwKICAicHJvZmlsZUlkIiA6ICIwMGNjZjIzYWM4NDQ0OWE4OTM0Y2QxMzk1Y2M2NjFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmdvbmF1dGVfbmVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYTJjMzliZTg0NDc0MzllMjEzYzdjN2Y0ZDE3NTcwYWNkMmRhN2NjZjY3YjNjNmY2ZDYxYTUxYTJkMDU4ZmRkIgogICAgfQogIH0KfQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の航海記：スキル異能百科全書～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l説明：この進捗タブでは「スキル」の習得率を確認できる。\n§3§l条件：§r§fホープスターを吸収し異能に目覚める。\n§9§l説明：§7スキルとはバニラにはない特異能力の総称。発動には冀求力【ソウル】など相応のリソースを消費する。\nスキルとは自身の「冀求力」で世界の理を一部改変し、自身の願いを実現させるための技術である。\nお気に召すままに魔法も使えるよ！君は「自由」なんだから！",
+      "color": "white"
+    },
+    "background": "minecraft:entity/end_portal",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:nether_star"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:start/test"
+  }
+}

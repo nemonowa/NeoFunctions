@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "執政官の鎖鞭 ",
+                  "color": "#C9A227",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#A67C00",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "グラディエーターズ・",
+                  "color": "#DDBB55",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "チェイン",
+                  "color": "#FFF0A6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#A67C00",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "執政官が振るう、",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": "統治と命令の象徴。",
+                    "color": "#D4AF37",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "鞭が鳴る。",
+                    "color": "#C9A227",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "それが、命令の合図だった。",
+                    "color": "#AAAAAA",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "逆らう者に与えられるのは、",
+                  "color": "#777777",
+                  "italic": false
+                },
+                {
+                  "text": "ただ一つの裁定。",
+                  "color": "#E0B84F",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 1,
+                "minecraft:sharpness": 22
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:dbb82513-e1b6-47ad-adbe-b04c70c0c7d8",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:e4d67508-e1f3-4a30-bad6-7614fde9f7ad",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1830
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

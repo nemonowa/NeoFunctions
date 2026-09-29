@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/141",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：火鼠 -Fire Rat-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:142)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rスペルエッグ=サモン【封印式】\nそれは昼・夜どおしで火が燃えており\n風で発火（異読：火が猛ける）ことも\n雨で消えることもなく\nその火の中に鼠が住んでいる\n火属性もちのシルバーフィッシュ",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bat_spawn_egg"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  142
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

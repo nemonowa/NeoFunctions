@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/618",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：♐サジタリウス♐ -♐Sagittarius♐-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:619)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r実体の無い矢を射出する凡庸な弓\n静音性や携帯性が異界との相性が良く\nあらゆる伝説の弓や銃火器を差し置いて\n射撃騎士オヌヌメ兵装として採用されている",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  619
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/2"
+  }
+}

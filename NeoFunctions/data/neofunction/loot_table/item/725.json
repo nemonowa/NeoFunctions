@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ロボット太砲台",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "7d2d"
+                }
+              ],
+              "minecraft:entity_data": {
+                "NoGravity": 1,
+                "Silent": 1,
+                "Glowing": 1,
+                "Team": "white",
+                "Tags": [
+                  "lv0"
+                ],
+                "CustomName": {
+                  "text": "ロボット太砲台",
+                  "color": "dark_blue",
+                  "bold": true
+                },
+                "active_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ],
+                "id": "minecraft:blaze",
+                "equipment": {
+                  "head": {
+                    "id": "minecraft:observer",
+                    "count": 1,
+                    "components": {
+                      "minecraft:enchantments": {
+                        "minecraft:blast_protection": 1
+                      }
+                    }
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  725
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

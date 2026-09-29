@@ -1,0 +1,30 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": [
+      {
+        "translate": "付呪：アイテム・エンチャンター～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標エンチャントを付与する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7耐久、幸運、招雷、無限、修繕、氷渡り、ダメージ増加、ダメージ軽減、シルクタッチ"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

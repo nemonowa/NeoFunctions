@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_boat",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "トトの漁船",
+                "color": "blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "トトが普段使っている漁船。 ",
+                  "color": "#FFAF24",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "安定性を重視して作られている。",
+                  "color": "#FFAF24",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1758
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

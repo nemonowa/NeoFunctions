@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "✜",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 包帯 ",
+                  "color": "white"
+                },
+                {
+                  "text": "✜"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "体力回復 (♡x4)",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "胴体に装備して使用",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "最大体力を小回復する",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 16777215,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:rib"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  736
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

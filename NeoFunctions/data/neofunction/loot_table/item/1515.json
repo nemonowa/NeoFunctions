@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ラピラビのお面",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:ed562731-c6e5-43d2-bc11-36fa13b494a8",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:e45cdd5e-586d-4048-bf21-c7f329edcd39",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  -911099631,
+                  -1947647265,
+                  -2099968916,
+                  -1854549729
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzYwZDM3YWQyOWE0MDhmOGNkMmJhYWM1MTBlNTQwOGNiN2I3MTVkMjVkZTYxMzM0MmExY2I1YzNkMTA1ZTM0ZiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:note_block_sound": "minecraft:music.game",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1515
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

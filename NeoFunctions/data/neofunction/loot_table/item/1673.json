@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "致命的な呪い（ダメージ）を完全に肩代わりし、肉体の崩壊を防ぐために調整された特製の生体パーツ。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "オフハンドに持った状態で死亡する際、あなたは一時的な無敵と引き換えに、人間性(カルマ)を少しだけ喪失する。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "「一体この箱の中には何が詰められているのだろうか」",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "abyss",
+                  "color": "red",
+                  "obfuscated": true
+                },
+                {
+                  "text": "カートリッジ",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "abyss",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1673
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

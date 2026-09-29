@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星の泡酒",
+                "color": "#DCE829",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "気泡が光る幻想的な果実酒。祝祭時に飲まれる。",
+                  "color": "#D4E028",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "しばらく口の中に残るほどの苦さ",
+                  "color": "#D4E028",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1131
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13951016,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 1,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 1,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 1,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:levitation",
+                    "amplifier": 60,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

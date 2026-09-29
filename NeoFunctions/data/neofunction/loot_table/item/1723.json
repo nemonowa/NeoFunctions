@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "引数：A",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "効果：A文字目までジャンプする",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルール：§lGoto",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1723
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

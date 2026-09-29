@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/110",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：らいむのナワバリ -Lime's Territory-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:111)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r波間に浮かび上がるという。幾重にも重なった海の記憶が眠る場所。潮が引くたび、古い出来事や失われた残響が",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/111": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

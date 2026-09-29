@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "スペルブック🔯【うま吸い】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "説明：馬にインタラクトかトリガーすると",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "付近128m以内の鞍のついた馬を呼び寄せるスキル",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "条件：NPCから購入",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "【スペルブック：読むとスキルを習得できる魔導書】",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1370
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "۞ スペルブック ۞\n",
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "名称:【うま吸い】\n説明:馬にインタラクトかトリガーすると、付近128m以内の鞍のついた馬を呼びよせるスキル\n\n"
+                    },
+                    {
+                      "text": "⌖習得【インストール】",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックでスキルをインストールする！"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 316"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "ビリー",
+                "resolved": true
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:written_book_content"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

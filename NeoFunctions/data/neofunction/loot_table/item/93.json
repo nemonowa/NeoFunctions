@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ラピスラズリロッド",
+                "color": "#295BFF",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "ラピスラズリ",
+                    "color": "#295BFF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を触媒とした杖",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 6,
+                "minecraft:looting": 3,
+                "minecraft:sharpness": 6
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:fd73ffc6-3d7d-4c5b-80a2-700518e0410b",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:f9364ad2-0f63-45ef-985c-311ba4552369",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:fa06f16e-bdd8-4f65-a0a2-c9850a6c4fe8",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:d67e54b9-0f47-467f-bc36-ffb32711fe0a",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  93
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

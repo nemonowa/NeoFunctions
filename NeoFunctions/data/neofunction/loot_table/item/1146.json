@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                },
+                {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Getting ",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "Over ",
+                  "color": "blue"
+                },
+                {
+                  "text": " Chance!",
+                  "color": "yellow"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【確率の先】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "行動を起こした時、あなたは",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "確率",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を目撃するだろう"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 59,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:21954027-1bd4-4e6c-b590-dee69d71ded1",
+                  "amount": -0.99,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:d765e60f-56cc-443e-9355-75dd00cf7114",
+                  "amount": -0.99,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1146
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

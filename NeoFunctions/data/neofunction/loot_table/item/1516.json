@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "サメラーのお面",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5ea34b6f-c96d-4e19-8320-6b570d73e6b9",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:bc51f402-81e1-4700-8db9-b2cd613a8e93",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  1898240481,
+                  -1940175008,
+                  -1486160873,
+                  -1958022693
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDczM2U5ODJhZDg3OGU0OTAxZmViNGE0ZjM0ZGEwNDdhYjNiZGRkZGVjMGQ3YzE3MGQ0MTVmZGNhZWUyZjFjMCJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:note_block_sound": "minecraft:music.end",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1516
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

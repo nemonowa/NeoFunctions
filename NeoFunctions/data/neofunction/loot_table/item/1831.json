@@ -1,0 +1,134 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "呪茨鞭",
+                  "color": "#54105F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#7B237D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ヘクセン・ソーン",
+                  "color": "#C14BAA",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#7B237D",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "茨には棘がある。",
+                  "color": "#4A164F",
+                  "italic": false
+                },
+                {
+                  "text": "呪いには――",
+                  "color": "#6E1B78",
+                  "italic": false
+                },
+                {
+                  "text": "その棘を、抜く術がない。",
+                  "color": "#A42E8C",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "魔女が己の髪を編み込み、",
+                  "color": "#68205F",
+                  "italic": false
+                },
+                {
+                  "text": "一本ごとに呪詛を縫い込んだ黒い鞭。",
+                  "color": "#81266F",
+                  "italic": false
+                },
+                {
+                  "text": "振るうたび、呪いは獲物の中へ沈んでいく。",
+                  "color": "#A02C83",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "代わりに、持ち主から何かを奪いながら。",
+                  "color": "#C044A5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "幸運か。",
+                  "color": "#8E3D91",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "寿命か。",
+                  "color": "#8E3D91",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "それとも、もっと大切な何かか.....",
+                  "color": "#D58BCF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1831
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 1,
+                "minecraft:sharpness": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:68f14fc7-36e6-44c4-b1d0-1cdb58085966",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:0c66403d-d2ab-4ba4-961b-dc9592978b6d",
+                  "amount": -7.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

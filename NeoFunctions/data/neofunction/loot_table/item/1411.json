@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "#neofunction:crops"
+                }
+              ],
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:dirts"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 2,
+                "minecraft:fortune": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "耐久性が上がった桑。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "作物の収穫量が§f§l少し§r§7多くなる。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "一般の桑",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1411
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_break",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

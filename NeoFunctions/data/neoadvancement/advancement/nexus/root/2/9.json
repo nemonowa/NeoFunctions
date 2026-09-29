@@ -1,0 +1,101 @@
+{
+  "parent": "neoadvancement:nexus/root/2/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "祝砲：着任式　　　　　　　　　　　　　　",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：何れかの職業に就く\n§3§l報酬：§f経験値×16\n§9§l説明：§7兵科は戦闘スタイルを分かち、主武装やスキルを決定づける",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:any_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/200": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/210": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/220": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/230": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/240": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neoskill/250": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

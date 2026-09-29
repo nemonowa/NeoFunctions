@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "<o>",
+      "bold": true
+    },
+    "minecraft:charged_projectiles": [
+      {
+        "id": "minecraft:arrow",
+        "count": 1
+      }
+    ],
+    "minecraft:custom_data": {
+      "gun": 2
+    }
+  }
+}

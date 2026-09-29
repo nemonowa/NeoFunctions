@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1040",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ハビアット焼きそばまんじゅう -Habiat Yakisoba Manju-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1041)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「まんじゅうの中に焼きそば」という大胆な発想で生まれた一品。もちもちの皮と焼きそばのソースが絡み合い、意外にも相性抜群。\n効果：スタミナ回復＋物理攻撃力微増（3分間）。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1041
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

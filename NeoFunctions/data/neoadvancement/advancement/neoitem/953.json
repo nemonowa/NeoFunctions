@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/952",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：アルコール -alcohol-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:953)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r試薬、化合物の合成原料、洗浄剤、工業用溶剤、有機溶媒、燃料、消毒液、医薬品、香水、植物エッセンスの溶媒、飲用などとして広く使用されている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  953
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

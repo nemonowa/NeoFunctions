@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/117",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：元素の祭壇 -Elemental Altar-                         ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:118)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r火・水・風・土、四大元素が交わる中心。調和すれば奇跡を生み、乱れれば世界に歪みを残す。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/118": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

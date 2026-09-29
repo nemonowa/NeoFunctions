@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "オーガ",
+                "color": "red",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "とある武人が愛用した戦斧"
+                }
+              ],
+              "minecraft:damage": 1000,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 10,
+                "minecraft:fortune": 3,
+                "minecraft:silk_touch": 1,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  700
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

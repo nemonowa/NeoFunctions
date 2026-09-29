@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "流体コーラル",
+                "color": "#E8238C",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ボルバロッサで採掘される万能物質。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "強力なエネルギー資源であり、",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "様々な物質に変質しうる代替特性をもつ。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "さらには、生物が食べることもできるが、",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "高い中毒性を持ち、脳を焼かれる。",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                  "text": "その正体は自己増殖する生体物質とされる。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1214
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 15213452,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 1,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 0,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 2,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

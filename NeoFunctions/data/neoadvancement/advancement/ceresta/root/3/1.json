@@ -1,0 +1,28 @@
+{
+  "parent": "neoadvancement:ceresta/root/3/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "物語：メインクエストを達成する。～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：メインクエストを達成する。\n§3§l報酬：§f黄金色のセレスティアルクリスタル\n§9§l説明：§7黄金麦とフェスタ\n§7土に種を蒔き、黄金を収穫し、また種を植えなおす。\n「それは農業家の鉄の掟であり、この世界の変わらぬ営みである。\nだが、昏き水脈に潜む影は、その輪廻すらも食い尽くす。\nやつらとの戦いの果てに、あなたはこの世界の理を識ることになる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

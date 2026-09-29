@@ -1,0 +1,6 @@
+# 命名：特攻小隊
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/696
+
+summon area_effect_cloud ~ ~ ~ {Duration:3,Passengers:[{id:"spawner_minecart",RequiredPlayerRange:99s,Delay:1s,MaxNearbyEntities:32767s,MinSpawnDelay:32767s,MaxSpawnDelay:32767s,Invulnerable:1b,CustomDisplayTile:1b,DisplayState:{id:"pearlescent_froglight"},Tags:["upper"],SpawnData:{entity:{id:"minecraft:item",Item:{id:"minecraft:paper",count:1,NoGravity:1b,PickupDelay:-1s,Age:5900,Invulnerable:1b,components:{"minecraft:custom_name":{"text":"SummonScroll"},"minecraft:custom_data":{summon:684}}}}},SpawnCount:2s},{id:"spawner_minecart",RequiredPlayerRange:99s,Delay:1s,MaxNearbyEntities:32767s,MinSpawnDelay:32767s,MaxSpawnDelay:32767s,Invulnerable:1b,CustomDisplayTile:1b,DisplayState:{id:"pearlescent_froglight"},Tags:["upper"],SpawnData:{entity:{id:"minecraft:item",Item:{id:"minecraft:paper",count:1,NoGravity:1b,PickupDelay:-1s,Age:5900,Invulnerable:1b,components:{"minecraft:custom_name":{"text":"SummonScroll"},"minecraft:custom_data":{summon:690}}}}},SpawnCount:5s}],Tags:[lv2,],DeathLootTable:"neofunction:asset/summon/696"}

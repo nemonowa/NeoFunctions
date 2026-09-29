@@ -1,0 +1,124 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "attributes": {
+    "minecraft:visual/sky_color": "#c7ffb8",
+    "minecraft:visual/fog_color": "#ffeccc",
+    "minecraft:visual/water_fog_color": "#302a5a",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "cherry_leaves"
+          },
+          "probability": 2.0E-4
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:entity.player.levelup",
+        "tick_delay": 2880000,
+        "block_search_extent": 0,
+        "offset": 0
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "weight": 12,
+              "count": 4
+            },
+            {
+              "type": "minecraft:pig",
+              "weight": 10,
+              "count": 4
+            },
+            {
+              "type": "minecraft:chicken",
+              "weight": 10,
+              "count": 4
+            },
+            {
+              "type": "minecraft:cow",
+              "weight": 8,
+              "count": 4
+            },
+            {
+              "type": "minecraft:horse",
+              "weight": 5,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 6
+              }
+            },
+            {
+              "type": "minecraft:donkey",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            }
+          ],
+          "misc": [],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "weight": 100,
+              "count": 4
+            },
+            {
+              "type": "minecraft:zombie",
+              "weight": 100,
+              "count": 4
+            },
+            {
+              "type": "minecraft:skeleton",
+              "weight": 100,
+              "count": 4
+            },
+            {
+              "type": "minecraft:magma_cube",
+              "weight": 100,
+              "count": 4
+            },
+            {
+              "type": "minecraft:enderman",
+              "weight": 10,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 4
+              }
+            },
+            {
+              "type": "minecraft:witch",
+              "weight": 5,
+              "count": 1
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    },
+    "minecraft:gameplay/creature_world_gen_spawn_probability": 0.03
+  },
+  "effects": {
+    "water_color": "#57b6ff",
+    "grass_color": "#dae297",
+    "foliage_color": "#fdbff0"
+  },
+  "carvers": [],
+  "features": []
+}

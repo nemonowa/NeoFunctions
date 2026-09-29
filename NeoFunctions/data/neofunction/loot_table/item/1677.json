@@ -1,0 +1,323 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "村人ソード",
+                "color": "gold",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "数多のプレイヤーに虐げられてきた村人。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "ゴーレムトラップの湧き層に一生固定されたり、",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "用が済んだら溶岩で処理されたり・・・・",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "あまつさえプレイヤーによって意図的にゾンビに襲われ、",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "死の淵から蘇生されて売値を脅し取られるなんて、誰が想像できただろうか。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "こんなことがまかり通ってはいけない。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "村人は安住の地エルドラドを求めて豊穣の大地セレスタフェスタに",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "漂流してきたが、その末路がこれとは...。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "天、非情にして——",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "██████",
+                    "color": "#BE886C",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  }
+                ],
+                [
+                  {
+                    "text": "██",
+                    "color": "#BE886C",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  },
+                  {
+                    "text": "████",
+                    "color": "#BE886C"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  }
+                ],
+                [
+                  {
+                    "text": "██",
+                    "color": "#BE886C",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█████",
+                    "color": "#BE886C"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#B78272",
+                    "italic": false
+                  },
+                  {
+                    "text": "██████",
+                    "color": "#BE886C"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  }
+                ],
+                [
+                  {
+                    "text": "██",
+                    "color": "#B78272",
+                    "italic": false
+                  },
+                  {
+                    "text": "████",
+                    "color": "#BE886C"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#B78272"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#B78272",
+                    "italic": false
+                  },
+                  {
+                    "text": "██████",
+                    "color": "#332411"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#BE886C",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#009611"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#009611"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#BE886C"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#905E43",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B78272"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#905E43"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#BE886C"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#905E43"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#905E43",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#774235"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#905E43"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#774235"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#905E43"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#905E43",
+                    "italic": false
+                  },
+                  {
+                    "text": "██",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#905E43"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#B37B62"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#905E43"
+                  }
+                ],
+                [
+                  {
+                    "text": "███",
+                    "color": "#000000",
+                    "italic": false
+                  },
+                  {
+                    "text": "██",
+                    "color": "#905E43"
+                  },
+                  {
+                    "text": "███",
+                    "color": "#000000"
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5cb17fa2-d9d4-4a94-88da-8689b9689a2e",
+                  "amount": 13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:9ee9261d-83f4-461b-aef6-8f655e3870c5",
+                  "amount": -3.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1677
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

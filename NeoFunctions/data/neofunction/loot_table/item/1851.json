@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "苦渋",
+                "color": "#317022",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "とても苦く渋い汁だが微かにHPが回復する",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1851
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 3239970,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 9,
+                    "duration": 180
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 180
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 9,
+                    "duration": 180
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

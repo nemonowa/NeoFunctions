@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:25a06bab-1909-418f-8725-a1b2b4f66c76",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 4,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "平べったいじゃんとか言うなよ",
+                  "color": "black",
+                  "strikethrough": true
+                },
+                {
+                  "text": "後でテクスチャを割り当てるんだからな",
+                  "color": "black",
+                  "strikethrough": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ノームのとんがり帽子",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 3559988,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1681
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

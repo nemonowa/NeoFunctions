@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:crafting_table"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "メカニカル・ステーション",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "新たなるクラフトを可能にする作業台",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "スペル🔯スタンド",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:entity_data": {
+                "Marker": 1,
+                "Invisible": 1,
+                "Tags": [
+                  "spellsign",
+                  "neoMechanicalStation"
+                ],
+                "CustomName": {
+                  "text": "neoMechanicalStation"
+                },
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1435
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

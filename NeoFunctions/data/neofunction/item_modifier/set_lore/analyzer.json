@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "⌖ (Analyzed：解析済み) ⌖",
+      "color": "aqua",
+      "italic": false
+    }
+  ],
+  "mode": "append"
+}

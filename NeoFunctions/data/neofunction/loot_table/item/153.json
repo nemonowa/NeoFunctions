@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ダイヤモンドは砕けない",
+                "color": "aqua",
+                "bold": false,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 100,
+                "minecraft:infinity": 100,
+                "minecraft:unbreaking": 100
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  153
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

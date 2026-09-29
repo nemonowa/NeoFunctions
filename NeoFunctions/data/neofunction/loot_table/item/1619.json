@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crimson_trapdoor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "アイゴアが殺す！",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "※剣士大陸に伝わる一般的で気さくな挨拶。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:53b0a198-1a50-44cc-964a-f8a224805d27",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1619
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

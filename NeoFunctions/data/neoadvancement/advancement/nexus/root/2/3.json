@@ -1,0 +1,44 @@
+{
+  "parent": "neoadvancement:nexus/root/2/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU4MzlhOTY4NzFjMDljNTIzYzg5MzZhODRhMTRmZDQzNzljMTc3MTM0YzMyOWEyODMxMmM3ZDhmMzhlYzVlMCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "職業：共鳴士官【ARIA】                                    ",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：職業説明を確認する。\n§9§l説明：§7刻印した共鳴印《シギル》を媒介に、遅れて発動する力で戦場を支配する中距離型。即応性には欠けるが、準備が整った時の対応力は極めて高い。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

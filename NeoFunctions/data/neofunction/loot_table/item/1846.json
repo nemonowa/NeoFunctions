@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Every tail has a tale",
+                "color": "#E6C36B",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "キツネ",
+                    "color": "#E8823C",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、",
+                    "color": "#AAAAAA",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "オオカミ",
+                    "color": "#7C8FA6",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、",
+                    "color": "#AAAAAA",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ネコ",
+                    "color": "#B983C4",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、",
+                    "color": "#AAAAAA",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ウマ",
+                    "color": "#C89B6D",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "―――――――",
+                    "color": "#666666",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "百獣の",
+                    "color": "#B3B3B3",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "尾",
+                    "color": "#D4C45D",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "には",
+                    "color": "#B3B3B3",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「物語」",
+                    "color": "#D94E4E",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が刻まれている。",
+                    "color": "#9C9C9C",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 19,
+                "minecraft:sweeping_edge": 1,
+                "minecraft:punch": 10,
+                "minecraft:lure": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ba9b7141-bf64-4c0f-abce-289989b6dc31",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1846
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

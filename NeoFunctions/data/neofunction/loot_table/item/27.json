@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "血の医療で使用される特別な血液。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ブラボー独特の血の医療を受けたものは",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "以後、同様の輸血により生きる力、その感覚を得る",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "故にブラボーの民の多くは、血の常習者である",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "輸血液",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  27
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 9703949,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  897
+                ]
+              },
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "即時複製式高次元門",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                "Delay": 0,
+                "DisplayState": {
+                  "Name": "minecraft:air"
+                },
+                "Glowing": 0,
+                "Invulnerable": 1,
+                "MaxSpawnDelay": 72000,
+                "MinSpawnDelay": 72000,
+                "Motion": [
+                  0,
+                  2,
+                  0
+                ],
+                "NoGravity": 1,
+                "PortalCooldown": 10,
+                "RequiredPlayerRange": 64,
+                "Silent": 1,
+                "SpawnCount": 1,
+                "SpawnData": {
+                  "entity": {
+                    "Age": 5990,
+                    "Passengers": [
+                      {
+                        "CustomName": [
+                          {
+                            "text": "B",
+                            "color": "light_purple",
+                            "bold": true,
+                            "italic": false,
+                            "obfuscated": true
+                          },
+                          {
+                            "text": "U",
+                            "color": "black",
+                            "bold": true,
+                            "italic": false,
+                            "obfuscated": true
+                          },
+                          {
+                            "text": "G",
+                            "color": "light_purple",
+                            "bold": true,
+                            "italic": false,
+                            "obfuscated": true
+                          },
+                          {
+                            "text": "-",
+                            "color": "black",
+                            "bold": true,
+                            "italic": false,
+                            "obfuscated": true
+                          },
+                          {
+                            "text": "R",
+                            "color": "light_purple",
+                            "bold": true,
+                            "italic": false,
+                            "obfuscated": true
+                          }
+                        ],
+                        "DeathLootTable": "neofunction:asset/summon/167",
+                        "Passengers": [
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 1,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 0,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 2,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 3,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 4,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Viruscode=badlion",
+                              "color": "light_purple",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "Facing": 5,
+                            "Fixed": 1,
+                            "Invisible": 1,
+                            "Item": {
+                              "count": 1,
+                              "id": "minecraft:jigsaw",
+                              "components": {
+                                "minecraft:custom_name": {
+                                  "text": "Viruscode=badlion",
+                                  "color": "light_purple",
+                                  "bold": true,
+                                  "italic": false
+                                }
+                              }
+                            },
+                            "ItemDropChance": 0,
+                            "ItemRotation": 1,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:item_frame"
+                          },
+                          {
+                            "CustomName": [
+                              {
+                                "text": "B",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false,
+                                "obfuscated": true
+                              },
+                              {
+                                "text": "U",
+                                "color": "black",
+                                "bold": true,
+                                "italic": false,
+                                "obfuscated": true
+                              },
+                              {
+                                "text": "G",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false,
+                                "obfuscated": true
+                              },
+                              {
+                                "text": "-",
+                                "color": "black",
+                                "bold": true,
+                                "italic": false,
+                                "obfuscated": true
+                              },
+                              {
+                                "text": "R",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false,
+                                "obfuscated": true
+                              }
+                            ],
+                            "CustomNameVisible": 1,
+                            "Duration": 20,
+                            "custom_particle": {
+                              "type": "minecraft:block jigsaw"
+                            },
+                            "Radius": 0.6,
+                            "Tags": [
+                              "upper"
+                            ],
+                            "id": "minecraft:area_effect_cloud",
+                            "potion_contents": {
+                              "custom_effects": [
+                                {
+                                  "amplifier": 11,
+                                  "duration": 20,
+                                  "id": "minecraft:conduit_power",
+                                  "show_particles": false
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "CustomName": {
+                              "text": "Grumm"
+                            },
+                            "CustomNameVisible": 0,
+                            "IsBaby": 1,
+                            "Silent": 1,
+                            "Tags": [
+                              "roll"
+                            ],
+                            "active_effects": [
+                              {
+                                "amplifier": 127,
+                                "duration": -1,
+                                "id": "minecraft:invisibility",
+                                "show_particles": false
+                              }
+                            ],
+                            "id": "minecraft:zombie",
+                            "equipment": {
+                              "mainhand": {
+                                "count": 1,
+                                "id": "minecraft:jigsaw",
+                                "components": {
+                                  "minecraft:custom_name": {
+                                    "text": "Viruscode=badlion",
+                                    "color": "light_purple",
+                                    "bold": true,
+                                    "italic": false
+                                  }
+                                }
+                              },
+                              "offhand": {
+                                "count": 1,
+                                "id": "minecraft:jigsaw",
+                                "components": {
+                                  "minecraft:custom_name": {
+                                    "text": "Viruscode=badlion",
+                                    "color": "light_purple",
+                                    "bold": true,
+                                    "italic": false
+                                  }
+                                }
+                              },
+                              "head": {
+                                "count": 1,
+                                "id": "minecraft:jigsaw",
+                                "components": {
+                                  "minecraft:enchantment_glint_override": true,
+                                  "minecraft:custom_name": {
+                                    "text": "Viruscode=badlion",
+                                    "color": "light_purple",
+                                    "bold": true,
+                                    "italic": false
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "Silent": 1,
+                        "Tags": [
+                          "EX",
+                          "BUG-R"
+                        ],
+                        "active_effects": [
+                          {
+                            "amplifier": 0,
+                            "duration": -1,
+                            "id": "minecraft:invisibility"
+                          }
+                        ],
+                        "id": "minecraft:vex",
+                        "equipment": {
+                          "mainhand": {
+                            "count": 1,
+                            "id": "minecraft:jigsaw",
+                            "components": {
+                              "minecraft:custom_name": {
+                                "text": "Viruscode=badlion",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              }
+                            }
+                          },
+                          "offhand": {
+                            "count": 1,
+                            "id": "minecraft:jigsaw",
+                            "components": {
+                              "minecraft:custom_name": {
+                                "text": "Viruscode=badlion",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              }
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "id": "minecraft:experience_orb"
+                  }
+                },
+                "SpawnRange": 1,
+                "id": "minecraft:spawner_minecart"
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "壮大な",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "PvE",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "世界の",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "可能性",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": " ボスラッシュ ",
+                "color": "#EB5631",
+                "bold": true,
+                "underlined": true,
+                "obfuscated": false
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dolphin_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Q「お前を消す方法」",
+                "color": "aqua",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「あの時消されたイルカです。」",
+                  "color": "black"
+                }
+              ],
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "カイルくん"
+                },
+                "id": "minecraft:dolphin"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  626
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

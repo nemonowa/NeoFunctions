@@ -1,0 +1,627 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "対象の覚えられるスキルが書いてある本",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "白刃士官【KNIGHT】",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1374
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "白刃士官【KNIGHT】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "連携システムについて\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "複数のスキルに存在する追撃コンボ。詳細は次ページ。",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "特定のスキルで敵に付与した状態に対し、対応するスキルで追撃すると追加ダメージが入る"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "連携ボーナス一覧\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "・空脚→白刃一閃\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "空脚(203)で滞空中に白刃一閃(202)を発動すると+40ダメージ"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・デコイ→白刃一閃\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "デコイ(208)で晒した敵に3秒以内に白刃一閃(202)を当てると+40ダメージ"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・剛刃草薙→天地断裂\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "剛刃草薙(204)で打ち上げた敵に3秒以内に天地断裂(209)を当てると+200ダメージ"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・デコイ→天地断裂\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "デコイ(208)で晒した敵に3秒以内に天地断裂(209)を当てると+200ダメージ"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "パッシブ\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "発動効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "攻撃力上昇レベル1を3分間付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "魔剣錬成【クリエイト・ソード】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "白刃騎士が無から剣を錬成するスキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "剣を生成"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "白刃一閃【スラッシュ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "一瞬の踏み込みから放たれる神速の斬撃。発動後しばらく行動不能となる。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5m以内の敵単体"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/30/50/70/90レベル = 30/60/120/240/480"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1/6の確率で相手のメインハンドを破壊する。発動後2秒間行動が大幅に鈍くなる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：15"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "空脚【エアステップ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "地面を蹴って前方へ跳躍し、着地時に衝撃波ダメージを与える。滞空中は白刃一閃と連携可能。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "着地地点から5m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "前方に最大5m移動（障害物があれば手前で止まる）、低速落下を1秒間得る"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "剛刃草薙【スマッシャー】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "強力な横薙ぎで周囲の敵を打ち上げる。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/30/50/70/90レベル = 30/60/120/240/480"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ヒットした敵に浮遊レベル99を0.15秒間付与し、3秒間「打ち上げ状態」にする（天地断裂の追撃ボーナス対象）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "反応回復【リアクティブ・ヒール】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "受けた痛みを糧に、不屈の精神で肉体を立て直す。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ダメージを受けた時にSP10を消費して♡×4回復する（SPが0でも回復自体は継続する）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・トリガーしたとき\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ON/OFFを切り替える"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "鋼刃結界【スチール・ドミニオン】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "トリガーすると周囲のプレイヤーに攻撃力上昇と耐性を付与する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "25"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内のプレイヤー"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "攻撃力上昇レベル1と耐性レベル1を1分間得る"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "不動【フォートレス】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "自身にノックバック無効を付与し、周囲の敵を足止めする。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "25"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "2分間ノックバック無効化。効果中は8m以内の敵に毎秒鈍足を付与して足止めする"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果終了時\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "周囲4m以内の敵に衝撃波ダメージ15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "陽動偏向【デコイ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "強烈な威圧で敵の注意を引き寄せ、自身へと誘導する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "16m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自身の座標にワープさせ、自身をターゲットに取らせる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "引き寄せた敵は3秒間「隙」状態になり、白刃一閃や天地断裂の追撃ボーナス対象になる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "天地断裂【グランドクロス】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "大地と天空を断ち裂く一撃を放つ、白刃騎士が振るう決戦の奥義。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40/60/80/100レベル = 130/260/520/1040"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "発動から0.5秒のタメを経て着弾。剛刃草薙で打ち上げた敵・デコイで晒した敵には+200の追撃ボーナス"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：100"
+                    }
+                  ]
+                ],
+                "title": "白刃士官【KNIGHT】",
+                "author": "",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

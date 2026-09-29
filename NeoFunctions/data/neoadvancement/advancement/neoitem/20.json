@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/19",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：スペルスタンド=サモン【チェアー】 -Spellstand = Summon [Chair]-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:20)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r設置した場所に座れるようになる椅子スタンド。\n設置した場所から5m以内に近づくとパーティクルがあらわれ\n設置した場所から0.5m以内に近づくと座れる。\n高さの微調整は「雪」などがおすすめ\n撤去の際は1m以内にもう一個設置すると数秒後消える。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:armor_stand"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  20
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

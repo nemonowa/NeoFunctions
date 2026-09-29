@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "レッドゼリー",
+                "color": "#940C0C",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "それは命のなりそこない。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  184
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 9702412,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 2,
+                    "duration": 2400
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 127,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 127,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

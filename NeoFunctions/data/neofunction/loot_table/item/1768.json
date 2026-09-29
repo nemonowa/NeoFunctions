@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "呪綴の祭杖《ヴァレリカ》",
+                "color": "#64426B",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【呪綴】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "通常攻撃命中時、15秒間『毒』『弱体化』『鈍足』のいずれかを付与する。 ",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "クールダウン：5秒",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "「安心なさい。その苦しみも、やがて何も感じなくなります。」",
+                  "color": "#758536",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:a37bdb15-897e-408c-b7c5-4b22b4be0fdb",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:14241040-46be-47bc-8d33-00cca3d3ee7a",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:8ff7a936-59f8-4f4b-82d9-db10858c784c",
+                  "amount": -0.4,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:adfedb7d-8533-4213-9efc-f7b5ebda5f9d",
+                  "amount": -0.6,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1768
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

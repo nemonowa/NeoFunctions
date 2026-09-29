@@ -1,0 +1,10 @@
+{
+  "type": "neodimension:nexus",
+  "generator": {
+    "type": "minecraft:debug",
+    "settings": {
+      "biome": "neodimension:pointnemo",
+      "layers": []
+    }
+  }
+}

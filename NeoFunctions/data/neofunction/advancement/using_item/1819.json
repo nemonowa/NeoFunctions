@@ -1,0 +1,25 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "has_in_mainhand": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:block_display"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/using_item/1819"
+  }
+}

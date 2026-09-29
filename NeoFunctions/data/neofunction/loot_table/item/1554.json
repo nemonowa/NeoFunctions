@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b0ad50a8-df48-4cac-8565-5ae77f3374ac",
+                  "amount": 18,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "高密度に圧縮された",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙水結晶",
+                    "color": "#C92DCF"
+                  },
+                  {
+                    "text": "をシャフトの核に据えた"
+                  },
+                  {
+                    "text": "魔杖",
+                    "color": "#755468"
+                  }
+                ],
+                {
+                  "text": "振るうたびに濁流の魔力を解き放ち、敵の動きを奪う。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【淀みの支配】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃した敵の足元に淀み水を発生させ、継続ダメージと鈍足を与える。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "クールダウン：20s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ハイケロクリスタルロッド",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1554
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

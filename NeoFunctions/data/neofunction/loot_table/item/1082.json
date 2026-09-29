@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ボイド・チャーム ",
+                  "color": "light_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "あの異空間に魅入られた者のみが知る共感覚",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【虚無の糸帯】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンド装備時、低速落下付与",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:mending": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2a8e9b4b-8bbd-45c7-87ad-387b9c081ef1",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:492e24d1-f2fd-495c-9696-e4213de3453d",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1082
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_torch",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Adv.",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ライムトーチ",
+                  "color": "dark_aqua"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "アドベンチャーモードでも設置できる。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ライムジェルを素材に作った松明",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ブルーライムの魂が燃えている",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:loyalty": 5
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1198
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

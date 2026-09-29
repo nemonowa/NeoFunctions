@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1027",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：揚げ尽くし串 -Deep-fried skewers-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1028)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「揚げすぎもまたご馳走」\n肉、魚、野菜を串に刺して豪快に揚げたハービットの屋台飯。\n外はサクサク、中はジューシーな旨味が溢れる。\n串1本で何でも食べられる究極の手軽さ。\n効果：HP小回復＋耐久力上昇",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1028
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

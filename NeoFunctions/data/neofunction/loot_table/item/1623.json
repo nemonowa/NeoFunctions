@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "カウンターアイデンティティ"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "世界の創造主に流れる通奏低音"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

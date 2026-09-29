@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:block_entity_data": {
+                "Command": "/data merge block ~ ~-1 ~ {CustomName:'{\"text\":\"§6§l§nソロモンの鍵§r\"}',Lock:\"§6§l§nソロモンの鍵§r\"}",
+                "auto": 1,
+                "conditionMet": 1,
+                "id": "minecraft:command_block",
+                "powered": 0
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "真下の匣をこの",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "鍵",
+                    "color": "yellow",
+                    "bold": true
+                  },
+                  {
+                    "text": "を所持していないと開けなくする鍵"
+                  }
+                ],
+                [
+                  {
+                    "text": "世界の「",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "裏",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "」まで探求する者へ。"
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "§6§l§nソロモンの鍵§r"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1627
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

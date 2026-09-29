@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "雷鳴鞭【ヴォルト・レヴナント】",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "雷を鞭にすることはできない。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "少なくとも、普通の人間には。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "振るうたびに空気が震え、",
+                  "color": "yellow",
+                  "italic": false
+                },
+                {
+                  "text": "紫電が鞭の芯を走る。",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "研究者曰く、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "「雷ではない。",
+                  "color": "#FDFFD1",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "たぶん、ものすごく強い静電気だ。」",
+                  "color": "#FDFFD1",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 26,
+                "minecraft:knockback": 16,
+                "minecraft:sharpness": 55,
+                "minecraft:sweeping_edge": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:4c233f47-be30-4764-a689-41d2b6f7d48f",
+                  "amount": 44,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:2fe9e950-04d2-4330-a1f6-a17748399b26",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f2e4a953-1adb-487c-86b0-c177562921c3",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1838
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

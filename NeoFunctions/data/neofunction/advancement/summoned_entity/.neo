@@ -1,0 +1,15 @@
+{
+  ".neo": "ゴーレムくらいしか検知できないゴミ",
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:test"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "竜尾",
+                  "color": "#7A0B0B",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "・",
+                  "color": "#B51E16",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "断罪鞭",
+                  "color": "#FF7A1A",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "竜は死してなお、尾を振るう。",
+                  "color": "#D12A18",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その伝承を追った鍛冶師は、",
+                  "color": "#B51E16",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "竜骨と鋼を幾重にも重ね、この鞭を打ち上げた。",
+                  "color": "#D9471B",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "振るうたび、空気が裂ける。",
+                  "color": "#E85D1C",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "逃げる者を追う必要などない。",
+                  "color": "#F07820",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ただ一度、届けばいい。",
+                  "color": "#FF9A24",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その一撃に、竜の最期を刻む。",
+                  "color": "#B51E16",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 5,
+                "minecraft:sharpness": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:cfb7fa97-2832-4c91-9c1f-9a3251119c09",
+                  "amount": 26,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:5aa4e91b-6b1a-40dc-8c87-c6b8195bd444",
+                  "amount": -0.95,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:e846660e-c45a-4cfc-ba19-7ff0d6b05e63",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:f71fcc92-499b-4dca-aba8-2689765eb23b",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1832
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

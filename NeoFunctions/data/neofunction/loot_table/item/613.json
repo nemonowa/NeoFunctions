@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "骨の盾",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2f94947c-0f73-43ff-bd91-2d151d35bd77",
+                  "amount": -0.35,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7ba2b4b8-cb3b-4ee8-95b6-4d0a7188d073",
+                  "amount": -0.35,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:skull",
+                  "color": "white"
+                }
+              ],
+              "minecraft:base_color": "black",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  613
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

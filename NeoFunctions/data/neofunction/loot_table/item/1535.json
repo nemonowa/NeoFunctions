@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "カエル☆コスチューム",
+                "color": "#39523D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "湿地や下水道での活動を想定して作られた軽装防具 ",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "水気に強く、足場の悪い場所でも動きやすい",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 2711852,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:respiration": 1,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:1facbcb4-d767-4c1a-bae3-6c68030faa15",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f5c5416f-bbe5-4d6e-8952-4a06368efa62",
+                  "amount": 0.03,
+                  "operation": "add_multiplied_base",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:wild"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1535
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

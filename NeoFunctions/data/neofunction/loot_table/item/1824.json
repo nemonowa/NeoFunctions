@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "稽古鞭",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "竹を細く割り、何重にも束ねて作られた稽古用の鞭。",
+                  "color": "#A4AD8C",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "軽くて扱いやすく、虫を追い払うにはちょうどいい。",
+                  "color": "#9DA681",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "某道場では、稽古のついでに庭の虫まで追い払っていたという。",
+                  "color": "#929B78",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "壊れても竹を替えればすぐ直せる、庶民的な一品。",
+                  "color": "#858F6D",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1824
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:knockback": 1,
+                "minecraft:sharpness": 3
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

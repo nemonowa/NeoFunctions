@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " スペル・ワンド ",
+                  "color": "aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "武器としての性能を付加した杖",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "なお術師師たちの意見は賛否両論",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・魔法打てれば何でもいい派",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・雑魚散らしor撲殺用杖もつ派",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 3,
+                "minecraft:smite": 1,
+                "minecraft:bane_of_arthropods": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:cff08037-b2d3-40ae-ac4c-a106b9a1c89c",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e4bac1b3-4ca7-43f9-b6a1-395abc7a0dc0",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  421
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spruce_sapling",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "㍆㌋㌉㌏㌉㌸㌾㌋㌞㌹㌅",
+                "color": "dark_red",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 24,
+                "minecraft:thorns": 12
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:fe961002-4271-481e-a196-c8e4cb8c2030",
+                  "amount": 0.1224,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:08ce6d17-014e-4d21-bc4b-d7e659d460da",
+                  "amount": 0.1224,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:d24b919a-0759-4283-ac28-9594e3370708",
+                  "amount": 0.1224,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:7c8b7df4-4526-40f2-aa03-95c6d7a7a579",
+                  "amount": 0.1224,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:6e6c8d80-8066-419d-b88e-717608080936",
+                  "amount": -0.1224,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  121
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "stage": "1"
+                },
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

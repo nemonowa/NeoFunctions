@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  596
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 3
+              },
+              "minecraft:lore": [
+                {
+                  "text": "☣劇物につき取り扱い注意☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ウィザーウイルスが密封されたアンプル",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "服用すると、ウイルスは宿主を蝕み",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "自らと似た性質に改変する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その効果は死ぬまで持続する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "不要な効果はより強い毒で打ち消せばよい。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "Evo変異型ウイルス【W】",
+                  "color": "#201630",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:potion_contents": {
+                "custom_color": 2102832,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 2,
+                    "duration": -1,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 2,
+                    "duration": -1,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 2,
+                    "duration": -1,
+                    "show_particles": true
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

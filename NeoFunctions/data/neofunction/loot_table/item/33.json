@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "一時的に脚力を向上させる",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "天色",
+                    "color": "#2CA9E1",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "の液体。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "段差越えや慣性エンパ、緊急退避に高速離陸...",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "スカイキック",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "Ⅲ",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  33
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:water",
+                "custom_color": 65437,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 30,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

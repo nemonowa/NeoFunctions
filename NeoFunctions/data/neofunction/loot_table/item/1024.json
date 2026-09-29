@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "持ち出し禁止を知らせるゴミ",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "持つと一度だけ不正検知演出をコールする",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "特殊演出のおもちゃ枠",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1024
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "loot": 1,
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

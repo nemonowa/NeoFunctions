@@ -1,0 +1,127 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:purple_banner",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:end_gateway"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:barrier"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "孤高の軍旗",
+                "color": "dark_red",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "THE ONE is not here.",
+                  "color": "dark_green"
+                },
+                {
+                  "text": "There was free campus.",
+                  "color": "dark_gray"
+                },
+                [
+                  {
+                    "text": "I wanna ask your",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": " COLORS",
+                    "bold": true
+                  }
+                ],
+                {
+                  "text": "The purple that characterizes the one?",
+                  "color": "light_purple"
+                },
+                [
+                  {
+                    "text": "Passionate red?",
+                    "color": "red"
+                  },
+                  {
+                    "text": " Sorrowful blue?",
+                    "color": "blue"
+                  }
+                ],
+                {
+                  "text": "What color...",
+                  "bold": true
+                },
+                {
+                  "text": "Thats probably a meaningless question.",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "It is not monochromatic.",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "My gray look of deep sedimentation that every emotion.",
+                  "color": "gray"
+                },
+                {
+                  "text": "I completely hate and love you.",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Follow next FULL COLOR!!",
+                  "color": "blue"
+                },
+                {
+                  "text": "Im sure it wont make much difference, but... Still ",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Continued！",
+                  "color": "gold"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:fire_aspect": 1,
+                "minecraft:efficiency": 1,
+                "minecraft:silk_touch": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  405
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:banner_patterns",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

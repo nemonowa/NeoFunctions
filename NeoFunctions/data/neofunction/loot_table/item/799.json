@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:command_block"
+                },
+                {
+                  "blocks": "minecraft:chain_command_block"
+                },
+                {
+                  "blocks": "minecraft:repeating_command_block"
+                },
+                {
+                  "blocks": "minecraft:bedrock"
+                },
+                {
+                  "blocks": "minecraft:redstone_block"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルサイン【RepeatCommandBlock解放】",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔板設置 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "名前に対応する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ブロック",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "広範囲に破壊するスペルサインを設置する",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "設置後1回、周囲5立方mの名前に対応した",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "破壊不能ブロックを黒曜石に置き換える",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "※要注意！不正利用は自己責任です。",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "全解体の野望に答えます！",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "Tags": [
+                  "spellsign",
+                  "repeatingcommandblock"
+                ],
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  799
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

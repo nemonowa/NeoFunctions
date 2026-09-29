@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "圧縮ダイヤモンド",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ダイヤを圧縮した高次元のダイヤ",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "耐久力が高く上質な道具の素材となる",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ちなむとフラーレンではない。",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  497
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

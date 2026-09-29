@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "鉄扇",
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "親骨を鉄で作った戦闘用の扇子",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:daff3f35-0d81-42ce-b094-40bac4f56ddb",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c7919be7-b71c-4867-958e-dab74caa0c2b",
+                  "amount": -0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:4e3c26b6-27d2-4bc3-98db-ffa081ac8de9",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:9a2be52d-2054-4c7a-8d86-898ffa0167e3",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:8013c63d-884e-461c-bd62-9d2834acfb83",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:663d132f-64d8-45d6-9a8c-6eccb1e7236e",
+                  "amount": -0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:a4b7363f-7093-4764-8f4e-ef3f81cf6c21",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:5a045738-9794-4e7c-aea7-c8bf6cbf1ef3",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  533
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

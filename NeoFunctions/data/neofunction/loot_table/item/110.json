@@ -1,0 +1,150 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "SP",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "が回復し、少しだけ",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "採掘",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "が早くなる",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "お酒。",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "キューバ独立を支援するアメリカ陸軍",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "通信部隊ラッセル大尉のレシピで",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "彼の乾杯の言葉「",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "Cuba Libre",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "」",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "（キューバの自由のために）が",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "カクテル",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "名の由来。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "Cheers！My crew. Enjoy MINECRAFT libre！",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "キューバリブレ",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  110
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8860446,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

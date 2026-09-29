@@ -1,0 +1,18 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:nbt": "{Tags:[chair]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/entity_hurt_player/chair"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/ceresta/25",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1491
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "魚類観測：ヴォイドリーパー",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:26)を観測する。\n§9説明：§r虚無の底で怨念を喰らい、ただ一点、赤く爛れた眼光で生者の魂を捉える深淵の処刑魚。\n§2条件：夜 かつ 盲目エフェクトを所持 かつ Y座標0~40",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1491
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

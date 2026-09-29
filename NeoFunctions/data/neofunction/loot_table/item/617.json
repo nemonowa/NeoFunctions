@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "🐢ウミガメのスープ🐢",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "絶体絶命の大ピンチで彼は笑っていました。",
+                  "color": "dark_green"
+                },
+                {
+                  "text": "それはなぜ？",
+                  "color": "dark_green"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  617
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:slowness",
+                    "duration": 36000
+                  }
+                ],
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

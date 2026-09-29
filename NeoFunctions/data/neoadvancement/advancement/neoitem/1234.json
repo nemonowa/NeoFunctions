@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1233",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：碧天ミルクパイ -Blue Sky Milk Pie-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1234)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r牧場で搾ったばかりのミルクを、香る風のバターと一緒に包んで焼いた特製パイ。\nサクサクの層を割ると、温かいミルクの香りがふんわりと広がる。\n一口食べるたびに、春風のように優しい甘みが口いっぱいに満ちていく。\n朝焼けの下で食べると、なぜか少し勇気が出るお菓子。\n\nメルのコメント：\n\n「風が運ぶミルクの香り…幸せの匂いって、こんな感じだと思うの！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_pie"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1234
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 骨装備バンドル ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "骨でできた装備のセット",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:leather_helmet",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "骨の帽子",
+                      "color": "white",
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      [
+                        {
+                          "text": "Common:",
+                          "color": "white",
+                          "bold": true,
+                          "italic": false
+                        },
+                        {
+                          "text": "✯",
+                          "color": "#FFE33B",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:dyed_color": 16315622,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:vanishing_curse": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:ed294c89-2d15-4043-a8a8-cf49321a6e06",
+                        "amount": 1.5,
+                        "operation": "add_value",
+                        "slot": "head"
+                      },
+                      {
+                        "type": "armor_toughness",
+                        "id": "neofunction:24d44cdb-539c-45e7-99c7-877c927da1f5",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "head"
+                      },
+                      {
+                        "type": "movement_speed",
+                        "id": "neofunction:eef08de9-453a-4321-bcfd-eb092a595882",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_total",
+                        "slot": "head"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:shaper"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_chestplate",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "骨の胸当て",
+                      "color": "white",
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      [
+                        {
+                          "text": "Common:",
+                          "color": "white",
+                          "bold": true,
+                          "italic": false
+                        },
+                        {
+                          "text": "✯",
+                          "color": "#FFE33B",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:dyed_color": 16315622,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:vanishing_curse": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:28bc620b-ca48-4501-8b01-ce6a1928e01b",
+                        "amount": 4,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      },
+                      {
+                        "type": "armor_toughness",
+                        "id": "neofunction:465e83cf-772f-401b-9325-d96fddd50779",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      },
+                      {
+                        "type": "movement_speed",
+                        "id": "neofunction:af70a9bb-df66-44b9-93d2-367c8e8bf822",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_total",
+                        "slot": "chest"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:shaper"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_boots",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "骨の靴",
+                      "color": "white",
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      [
+                        {
+                          "text": "Common:",
+                          "color": "white",
+                          "bold": true,
+                          "italic": false
+                        },
+                        {
+                          "text": "✯",
+                          "color": "#FFE33B",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:dyed_color": 16315622,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:vanishing_curse": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:fcf3e40c-82c6-47e1-8181-13be665c751d",
+                        "amount": 1.5,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "armor_toughness",
+                        "id": "neofunction:8b425806-8ab1-4369-b3cc-4492ae13dde2",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "movement_speed",
+                        "id": "neofunction:97593fa2-1b7c-4325-b438-d1f8b16b2687",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_total",
+                        "slot": "feet"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:shaper"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_leggings",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "骨の腰巻き",
+                      "color": "white",
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      [
+                        {
+                          "text": "Common:",
+                          "color": "white",
+                          "bold": true,
+                          "italic": false
+                        },
+                        {
+                          "text": "✯",
+                          "color": "#FFE33B",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:dyed_color": 16315622,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:vanishing_curse": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "neofunction:117c8a03-deb2-4757-8006-d72959784f5c",
+                        "amount": 3.5,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      },
+                      {
+                        "type": "armor_toughness",
+                        "id": "neofunction:c3c0c389-c6a3-44d3-8cae-32a829ac5f18",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      },
+                      {
+                        "type": "movement_speed",
+                        "id": "neofunction:cb71badd-b7c8-4594-8751-20d84dd5a47b",
+                        "amount": -0.03,
+                        "operation": "add_multiplied_total",
+                        "slot": "legs"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:shaper"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  46
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

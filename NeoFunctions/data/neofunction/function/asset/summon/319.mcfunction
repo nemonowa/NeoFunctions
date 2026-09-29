@@ -1,0 +1,5 @@
+# 命名：苔むした屍
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/319
+
+summon zombie ~ ~ ~ {OnGround:1b,CustomNameVisible:0b,LeftHanded:1b,Passengers:[{id:"minecraft:potion",Item:{id:"minecraft:small_dripleaf",count:1,components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:weakness",amplifier:0b,duration:600}]}}}}],CustomName:{"text":"苔むした屍","color":"gray"},Tags:[lv0,],DeathLootTable:"neofunction:asset/summon/319",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-470346677,-242982980,-1202573121,180282034],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMwNzI3YmIzNzYwNjA2ZTE4YjU5NzAwNTgzNGQ3OTIwZGE1MDgxOGIwODI5YjlkYjQ0YTYyYWJkMDdlOTU0YyJ9fX0="}]}}}}}

@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "臨界の蹄鉄",
+                "color": "#FF5024",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "特殊な魔鉱石から鍛造された真紅の蹄鉄。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "装着した馬に「臨界の加護」を付与する。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用すると加護は消費される。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【臨界の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "馬は敵を爆破しながら突進ができるようになる。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 16732196,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1696
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

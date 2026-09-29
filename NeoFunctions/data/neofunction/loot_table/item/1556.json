@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c988ca50-c2aa-4b11-8e67-2b3d39e5e0cb",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5e2adc46-e8e2-47d0-af4f-168e0c7fe2c1",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1556
+                ]
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:power": 2,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "蛙骨弓",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のフレームを",
+                    "color": "#4D4B3F",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙油",
+                    "color": "#FFDA73"
+                  },
+                  {
+                    "text": "で加工し"
+                  }
+                ],
+                {
+                  "text": "骨素材の摩耗を抑えた強化弓",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ケロボーンボウ",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

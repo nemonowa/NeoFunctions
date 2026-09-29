@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "牧場ミルク",
+                "color": "#EB9E2A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "朝搾りの新鮮なミルク。子どもや冒険前にも人気。",
+                  "color": "#66645E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1754
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16777215,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 1,
+                    "duration": 1800
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

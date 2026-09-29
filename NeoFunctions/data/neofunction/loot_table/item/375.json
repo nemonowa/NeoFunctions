@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beacon",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:1da10132-2d68-4e86-b695-e8a4362b2123",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:984590e7-6275-4e84-b274-7772a80aa3b7",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:bec51982-8ad1-4316-90bb-18cfd577d03f",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "香ばしくジューシーな雰囲気のビーコン",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "溶けるような肉の旨味とサクサクの食感が絶妙に調和し、",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "口の中で広がる至福の味わい。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ペンタ・コア・ベーコン",
+                "color": "#A8632D",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  375
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

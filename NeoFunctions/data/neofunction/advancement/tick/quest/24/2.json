@@ -1,0 +1,96 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest24]}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/710\"}"
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest24]}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/711\"}"
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest24]}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/712\"}"
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest24]}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:piglin",
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/713\"}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  ],
+  "rewards": {
+    "function": "neofunction:system/adv/tick/quest/counter/1"
+  }
+}

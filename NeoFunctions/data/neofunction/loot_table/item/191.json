@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "召喚の儀",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "このスクロールが解き放たれると",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "真祖の不死者【トゥルーアンデット】",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "が召喚されてしまう。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルスクロール=サモン【No54】",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  191
+                ]
+              },
+              "minecraft:custom_data": {
+                "summon": 54,
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

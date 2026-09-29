@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:4bbf6cdc-36f9-4590-9f6f-42ad460553fc",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1315
+                ]
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 3,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【反重の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "被弾時、4m以内の3体までの敵に浮遊を2秒間与える(CD30s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "重力は世界を繋ぎ止める鎖",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "この法衣はその枷を断ち",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "触れた者から大地を奪い去る",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "反重の法衣",
+                "color": "#8EDE16",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 9362966,
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

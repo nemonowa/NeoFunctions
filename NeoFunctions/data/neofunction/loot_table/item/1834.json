@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "道化王",
+                  "color": "#FFF0B5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "の",
+                  "color": "#FFD34E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "怪鞭",
+                  "color": "#E88A20",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「さあ、ショーの始まりだ。」",
+                  "color": "#FFF3C4",
+                  "italic": true
+                },
+                {
+                  "text": "パァンッ！",
+                  "color": "#FFD34E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "一度鳴れば、観客は笑う。",
+                  "color": "#FFE27A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "二度鳴れば、獲物は逃げる。",
+                  "color": "#FFC83D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "三度鳴れば――",
+                  "color": "#F6A62A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "舞台の上には、誰も残らない。",
+                  "color": "#E97824",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "王都を熱狂させた、伝説の道化王が愛用した芸鞭。",
+                  "color": "#E5A52E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "笑いも、悲鳴も、歓声も。",
+                  "color": "#F2C85B",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "すべては彼にとって、最高の喝采だった。",
+                  "color": "#FFD96A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "――最後まで観客を退屈させない。それが王の流儀だ。",
+                  "color": "#C96B20",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:fire_aspect": 1,
+                "minecraft:knockback": 1,
+                "minecraft:smite": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:c13258c6-924b-4ebb-ba71-76ca4d4183fa",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ab851e45-a799-45b8-8b0d-a15978291bd0",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1834
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

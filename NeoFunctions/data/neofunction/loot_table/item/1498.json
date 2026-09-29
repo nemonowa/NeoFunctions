@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1498
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "鋭い棘と紫の輝きであらゆる干渉を拒み、近づく者の精神を掻き乱す孤独なる拒絶の化身。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：孤絶のポーション（即時ダメージレベル4 /盲目レベル4 10:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Super:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "extra": [
+                                    {
+                                      "text": "✯",
+                                      "color": "#FF602C"
+                                    }
+                                  ],
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "サイレンスガーディアン",
+                "color": "#3A8A67",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 3,
+                    "duration": 1,
+                    "id": "instant_damage"
+                  },
+                  {
+                    "amplifier": 3,
+                    "duration": 4800,
+                    "id": "blindness"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"孤絶の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

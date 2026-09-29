@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/769",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：紺糸威大鎧 -Konjima Great Armor-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:770)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「こんいとおどしおおよろい」\n特徴的な大鎧で裾広がりの形状をしており\n馬上で弓矢を射合う戦法の下で発達した大鎧\n平安時代末期の武将「河野通信」が納めた名甲冑",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  770
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

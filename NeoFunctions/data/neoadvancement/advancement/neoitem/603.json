@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/602",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：Adv.アックス -Yellow Dent-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:603)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r硝煙の火山帝国 -VolValRose-で採掘される\nAdvinum鉱石を素材とした、通常では壊せない制限を一部改変し\n採掘するスキルが内蔵されているスペルアイテム\nアドベンチャーモードでも下記のブロックを破壊できる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_axe"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  603
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

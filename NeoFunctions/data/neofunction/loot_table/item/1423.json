@@ -1,0 +1,2754 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "小麦に関する改良型作業台のレシピが記されている。",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1423
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%5$s%1$s\"%10$s\n %11$s%15$s%11$s    %20$s\n %5$s%5$s%5$s\n %15$s%15$s%15$s\n\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n %1$s%1$s%1$s\"%30$s\n %11$s%11$s%11$s    %40$s\n %1$s%1$s%1$s\n %11$s%11$s%11$s",
+                    "with": [
+                      {
+                        "text": "@",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "A",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_helmet",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1418
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "頭に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "head"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": " 10",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_helmet",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1418
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "頭に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "head"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "B",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_chestplate",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1419
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "胴体に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "chest"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_chestplate",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1419
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "胴体に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "chest"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  },
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%5$s%1$s\"%10$s\n %11$s%15$s%11$s    %20$s\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n %1$s%5$s%1$s\"%30$s\n %11$s%15$s%11$s    %40$s\n %5$s%5$s%5$s\n %15$s%15$s%15$s",
+                    "with": [
+                      {
+                        "text": "@",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "C",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_leggings",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1420
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "脚に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "legs"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": " 10",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_leggings",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1420
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "脚に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "legs"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "D",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_boots",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1421
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "足に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "feet"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_boots",
+                          "components": {
+                            "minecraft:attribute_modifiers": [],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1421
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "足に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +0.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16704366,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 0.5,
+                                "Slot": "feet"
+                              },
+                              "rare": 1
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  },
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%5$s%1$s\"%10$s\n %11$s%15$s%11$s    %20$s\n %1$s%1$s%1$s\n %11$s%11$s%11$s\n\n %1$s%1$s%1$s\n %31$s%31$s%31$s\n %10$s%1$s%10$s\"%30$s\n %20$s%31$s%20$s    %40$s\n %1$s%1$s%1$s\n %31$s%31$s%31$s",
+                    "with": [
+                      {
+                        "text": "@",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "\u0002E\u0002",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1415
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で3m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier I",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "offhand"
+                              },
+                              "rare": 2
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": "  \u00028",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1415
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で3m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier I",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "offhand"
+                              },
+                              "rare": 2
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "\u0002E\u0002",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1416
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で5m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier II",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1.5,
+                                "Slot": "offhand"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 3
+                        }
+                      },
+                      {
+                        "text": " 16",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1416
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で5m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier II",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1.5,
+                                "Slot": "offhand"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 3
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  },
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %4$s%1$s%4$s\"%10$s\n %14$s%11$s%14$s    %20$s\n %1$s%1$s%1$s\n %11$s%11$s%11$s\n\n %1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%1$s%1$s\"%30$s\n %11$s%11$s%11$s    %40$s\n %1$s%1$s%1$s\n %11$s%11$s%11$s",
+                    "with": [
+                      {
+                        "text": "@",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      {
+                        "text": "\u0002E\u0002",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1416
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で5m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier II",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1.5,
+                                "Slot": "offhand"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 3
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "\u0002E\u0002",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1417
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で7m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +2",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier III",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 2,
+                                "Slot": "offhand"
+                              },
+                              "rare": 4
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": " 64",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:wheat",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1422
+                              ]
+                            },
+                            "minecraft:lore": [
+                              {
+                                "text": "§a§lルクスイーファ§7の名産品である§6§l上質な小麦§7。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "ルクスの黄金麦",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 1
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1416
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で5m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1.5",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier II",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1.5,
+                                "Slot": "offhand"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 3
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:gold_nugget",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1417
+                              ]
+                            },
+                            "minecraft:enchantment_glint_override": true,
+                            "minecraft:lore": [
+                              {
+                                "text": "スペルアイテム🔯【農家の証】",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "オフハンドに持った時発動",
+                                "color": "light_purple",
+                                "bold": true,
+                                "italic": false
+                              },
+                              {
+                                "text": "自動で7m四方の小麦の回収・植えなおしを行う。",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "幸運[農業]によって収穫量が増える。",
+                                "bold": true,
+                                "italic": false,
+                                "color": "light_purple"
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "オフハンドに持った時：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +2",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "農家の証--小麦-- Tier III",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 2,
+                                "Slot": "offhand"
+                              },
+                              "rare": 4
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "F",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  },
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%5$s%1$s\"%10$s\n %11$s%15$s%11$s    %20$s\n %5$s%5$s%5$s\n %15$s%15$s%15$s\n\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n %1$s%1$s%1$s\"%30$s\n %11$s%11$s%11$s    %40$s\n %1$s%1$s%1$s\n %11$s%11$s%11$s",
+                    "with": [
+                      {
+                        "text": "F",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "G",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_helmet",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:e0f6e035-6f42-40ec-8679-39b7809fcaef",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "head"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1593
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "頭に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "head"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_helmet",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:e0f6e035-6f42-40ec-8679-39b7809fcaef",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "head"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1593
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "頭に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "head"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "H",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_chestplate",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:b8e8c605-73e6-4353-9017-7ed783576c4f",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "chest"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1594
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "胴体に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "chest"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_chestplate",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:b8e8c605-73e6-4353-9017-7ed783576c4f",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "chest"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1594
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "胴体に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "chest"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  },
+                  {
+                    "translate": "! \u0002\u0002%1$s%1$s%1$s\n %11$s%11$s%11$s\n %1$s%5$s%1$s\"%10$s\n %11$s%15$s%11$s    %20$s\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n\n %1$s%5$s%1$s\n %11$s%15$s%11$s\n %1$s%5$s%1$s\"%30$s\n %11$s%15$s%11$s    %40$s\n %5$s%5$s%5$s\n %15$s%15$s%15$s",
+                    "with": [
+                      {
+                        "text": "F",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "I",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_leggings",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:bf1c84dc-7873-424f-81c1-804b0671ecf9",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "legs"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1595
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "脚に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "legs"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:hay_block",
+                          "components": {
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1591
+                              ]
+                            },
+                            "minecraft:enchantments": {
+                              "minecraft:efficiency": 1
+                            },
+                            "minecraft:lore": [
+                              {
+                                "translate": "%1$sが大量に圧縮されてできた俵。",
+                                "color": "gray",
+                                "italic": false,
+                                "with": [
+                                  {
+                                    "text": "黄金麦",
+                                    "color": "gold",
+                                    "bold": true
+                                  }
+                                ]
+                              },
+                              {
+                                "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                                "color": "gray",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "黄金麦の圧縮俵",
+                              "color": "gold",
+                              "bold": true,
+                              "italic": false
+                            },
+                            "minecraft:custom_data": {
+                              "rare": 3
+                            }
+                          }
+                        },
+                        "click_event": {
+                          "action": "change_page",
+                          "page": 4
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_leggings",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:bf1c84dc-7873-424f-81c1-804b0671ecf9",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "legs"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1595
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "脚に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "legs"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "P",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_boots",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:4c1f0627-ceb9-4edd-be89-183ffd5ca755",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "feet"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1596
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "足に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "feet"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      },
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      "    ",
+                      {
+                        "text": "    ",
+                        "hover_event": {
+                          "action": "show_item",
+                          "id": "minecraft:leather_boots",
+                          "components": {
+                            "minecraft:attribute_modifiers": [
+                              {
+                                "type": "movement_speed",
+                                "id": "neofunction:4c1f0627-ceb9-4edd-be89-183ffd5ca755",
+                                "amount": 0.02,
+                                "operation": "add_value",
+                                "slot": "feet"
+                              }
+                            ],
+                            "minecraft:custom_model_data": {
+                              "floats": [
+                                1596
+                              ]
+                            },
+                            "minecraft:damage": 0,
+                            "minecraft:lore": [
+                              {
+                                "text": "小麦を固めてできた防具。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "戦闘に使うには心もとない。",
+                                "color": "gray",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "セットスペル🔯【農家の心得】",
+                                "color": "light_purple",
+                                "italic": false,
+                                "bold": true
+                              },
+                              {
+                                "text": "四部位フルセットで装備すると",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "畑を踏み荒らさなくなり",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": ""
+                              },
+                              {
+                                "text": "足に装備したとき：",
+                                "color": "gray",
+                                "italic": false
+                              },
+                              {
+                                "text": "幸運[農業] +1",
+                                "color": "blue",
+                                "italic": false
+                              }
+                            ],
+                            "minecraft:custom_name": {
+                              "text": "濃縮小麦アーマー",
+                              "color": "gold",
+                              "italic": false,
+                              "bold": true
+                            },
+                            "minecraft:dyed_color": 16562738,
+                            "minecraft:tooltip_display": {
+                              "hidden_components": [
+                                "minecraft:dyed_color"
+                              ]
+                            },
+                            "minecraft:custom_data": {
+                              "FarmingFortune": {
+                                "Amount": 1,
+                                "Slot": "feet"
+                              },
+                              "rare": 3
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "font": "minecraft:recipe",
+                    "color": "white"
+                  }
+                ],
+                "title": "農業の書--小麦--",
+                "author": "農業王コンチネンタル",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/989",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：艦兵ライスカレイ🍚🐠 -Sailor Rice Curry 🍚🐠-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:990)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r艦の兵食に定められている特製のカレーライス🍛\n不動の人気第一位にしてカフェテリアの最古参メニューである\n王道にして覇道、追随を許さない至高の味は然ることながら\n実体を持たないアストラルから星喰いのテライーターまで\n覇帝無く満足される魔性の定食である。\nまた艦内には「金曜カレー過激派」という組織があり\n党派員の熱烈なプッシュにより\n金曜日ならどの師団どの種族どの作戦域であろうとも\n「食べたい」と思うだけで無償かつ無障で即時提供される",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  990
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

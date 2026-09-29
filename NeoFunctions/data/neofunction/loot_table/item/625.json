@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "放火魔の",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "すゝめ",
+                  "color": "gold"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "これから毎日",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「島」",
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "を焼こうぜ？"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 1000000000,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 15,
+                "minecraft:sharpness": 5,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:aaae4b5f-c17f-4f76-8e22-c2fbc108c803",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  625
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

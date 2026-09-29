@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "彷徨ってた鎧の斧",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「彷徨う鎧」の依代となっていた装備",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "まだ魔力が残っており、たまに勝手に動いている気がする。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "white"
+                }
+              ],
+              "minecraft:base_color": "brown",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1177
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "第三段階国民行動栄養食物",
+                "color": "#C37854",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "荒廃する世界最後の法治政府が",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                [
+                  {
+                    "text": "自国民の為に開発した",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "完全栄養食",
+                    "color": "#C37854",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                {
+                  "text": "空腹感を遮断する効果もある。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "カ ベ ノ ア ジ ガ ス ル",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  181
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 10588250,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 127,
+                    "duration": 0
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 19,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

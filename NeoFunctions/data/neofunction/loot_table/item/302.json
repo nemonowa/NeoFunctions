@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:creeper_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "チンしてやったぜ。",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                "DeathLootTable": "empty",
+                "DeathTime": 19,
+                "Tags": [
+                  "check"
+                ],
+                "ExplosionRadius": 1,
+                "Fuse": -1,
+                "Silent": 1,
+                "id": "minecraft:creeper"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ＝サモン【クリーパー】",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "右クリックで即時起爆する",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "特殊な緑色生物が封入されている。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "⚠",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "爆発物につき取扱注意",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "⚠",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  }
+                ],
+                {
+                  "text": "返品、交換、損害補償は一切受け付けておりません。",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "ミニ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "※クリーパルス※",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "グレネード",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  302
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/5",
+  "display": {
+    "icon": {
+      "id": "minecraft:stone_hoe"
+    },
+    "title": [
+      {
+        "translate": "生産：アドバンスド・クリエイター～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標アイテムを獲得する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7＜ここにいい感じの説明を挿入＞"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

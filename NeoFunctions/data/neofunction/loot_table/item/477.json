@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ねもふぁーの最終定理",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  477
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "….私はこのコマンドについて真に驚くべき証明を発見したが、ここに記すには余白が狭すぎる。"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

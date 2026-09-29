@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:burn_pottery_sherd",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "～統合版の謎翻訳シリーズ～",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "陶磁器の破片を燃やす",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  380
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

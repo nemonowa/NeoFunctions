@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "それは『",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "雑魚の思考",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "』だ"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "音量上げろ！生前葬だ！！",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:mending": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1389
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

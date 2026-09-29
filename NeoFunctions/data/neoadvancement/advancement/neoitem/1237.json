@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1236",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：風渡りのシフォン -Chiffon of the Wind-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1237)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「風が通り抜けるような軽さ」と言われるふわふわのシフォンケーキ。\n焼き立てを切ると、花蜜の甘い香りがやさしく広がる。\n空気のように軽く、口に入れた瞬間にふわりと溶けていく食感が特徴。\n牧場の休憩小屋では、午後の紅茶とともに提供されている。\n\nメルのコメント：\n\n「食べると“風の音”がするの。ほんとよ？　ちゃんと耳をすましてみて！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_pie"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1237
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

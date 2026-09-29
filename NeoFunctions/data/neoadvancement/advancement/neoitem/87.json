@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/86",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ロッドキャロット -Rod Carrot-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:87)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r採れたての人参を魔術の触媒とした杖\n通常、ソウルの精製には宝石や結晶を用いられるが\n良質な人参と天然の木材を活かした精巧な作りの杖のため\n魔法の伝導、精製、操作・調整、指向性付与を十分に果たす\n殴ってもそれなりに強く、鈍器（メイス）としても優秀",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  87
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

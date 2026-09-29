@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1246",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：スポナー破壊クレジット -Spawner destruction credits-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1247)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rクレジットと1:1で交換できる通貨\n主に調達室【アーセナル】での取引に使う\n食べる事もできるが転移してしまい\nSAN値【冀求力】が減るほど不味いらしい...",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_fruit"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1247
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

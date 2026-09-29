@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "臨界の杖",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【臨界の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "触れた力は均衡を越え、臨界へと至る。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "この杖は生じた揺らぎで周囲を侵し、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "破壊の奔流として顕現する。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "メインハンド攻撃時に追加の範囲爆発ダメージを与える",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "CD:30s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:depth_strider": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:676bdc82-1c6e-41a8-bd1e-408df1907686",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1284
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

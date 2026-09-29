@@ -1,0 +1,58 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wheat",
+                    "modifier": {
+                        "type": "set_count",
+                        "count": {
+                            "type": "minecraft:floor_div",
+                            "left": {
+                                "type": "minecraft:add",
+                                "inputs": [
+                                    {
+                                        "type": "score",
+                                        "score": "temp",
+                                        "target": "this"
+                                    },
+                                    50
+                                ]
+                            },
+                            "right": 100
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wheat_seeds",
+                    "modifier": {
+                        "type": "set_count",
+                        "count": {
+                            "type": "minecraft:floor_div",
+                            "left": {
+                                "type": "minecraft:add",
+                                "inputs": [
+                                    {
+                                        "type": "score",
+                                        "score": "temp",
+                                        "target": "this"
+                                    },
+                                    50
+                                ]
+                            },
+                            "right": 100
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

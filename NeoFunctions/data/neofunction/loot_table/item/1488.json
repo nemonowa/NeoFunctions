@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1488
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "沈没船の鋼を喰らい、荒れ狂う波を鎧に変えて泳ぐ寡黙な“鉄壁の回遊者”。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：アイギスガードのポーション（移動速度低下レベル2 3:00/耐性レベル2 3:00/採掘速度上昇レベル2 3:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Legacy:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アイギスシャーク",
+                "color": "#706E78",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 1,
+                    "duration": 3600,
+                    "id": "resistance"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 3600,
+                    "id": "slowness"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 3600,
+                    "id": "haste"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"アイギスガードの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

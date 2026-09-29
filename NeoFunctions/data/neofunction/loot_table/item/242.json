@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "でかくて恐ろしい化け物の人形",
+                  "color": "white",
+                  "bold": true
+                },
+                {
+                  "text": "粗末に扱え、 見つけ次第早急にぶち壊せ！",
+                  "color": "white",
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "今日村が焼けた",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "でかくて恐ろしい化け物の人形",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "犯人はその家の子供だった",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "理由を聞いたら親からの命令だったと言っていた。",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "火が収まった頃、燃えていた家から",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "突然出てきた気味の悪い人形。",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "そいつは一瞬。たったの壱秒その人形が視界に入っただけで、",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "「恐怖感で圧死したかと思った」と言っていた。",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "話を聞いた次の夜またどこかの村で家が焼けたらしい・・・",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "【祝呪】ばねるぽぐたんおぽけ",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  242
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

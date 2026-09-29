@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:weeping_vines",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "～統合版の謎翻訳シリーズ～",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ウィーピングつた",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  384
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "トーテムを模して削り出されただけの木片",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "ただのトーテムと何ひとつ変わらない",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "再生能力 II",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (0:45)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "火炎耐性",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (0:40)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "衝撃吸収 II",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (0:05)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用時:",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 体力1で復帰",
+                  "color": "aqua",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 使用回数 ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "1回",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で消滅",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " クールダウン ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "なし",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "原初の力は、何も写し取れていない",
+                  "color": "dark_gray",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "贋作",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "のトーテム",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1853
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

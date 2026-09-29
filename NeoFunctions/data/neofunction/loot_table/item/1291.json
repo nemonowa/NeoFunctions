@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "反重の礼装",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【反重の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "被弾時、4m以内の3体までの敵に浮遊を2秒間与える(CD30s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "重力は世界を繋ぎ止める鎖",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "この法衣はその枷を断ち",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "触れた者から大地を奪い去る",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 5766966,
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:8b04404b-e1b1-4c71-b5ff-f1ae55b6feb6",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1291
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:20f8a83b-0d31-4328-bd8a-72f59c77fd25",
+                  "amount": 32,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:f49406c3-031e-4e81-b012-4d83003ba258",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:5d283a65-00b7-4fac-8dfb-55cc1bd3f646",
+                  "amount": 9.99,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:repair_cost": 0,
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "Legendary:",
+                    "color": "red",
+                    "italic": false
+                  },
+                  {
+                    "text": "☆",
+                    "color": "#FFE33B",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "伝説の短剣",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  461
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

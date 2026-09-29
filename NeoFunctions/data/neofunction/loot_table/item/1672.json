@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:7c783c6c-3808-4337-833b-0592e066be0d",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:26c7fb82-e884-4f3d-a089-3fd5aba49a36",
+                  "amount": -3.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:546cc225-f241-4deb-9db0-b951ee57c9ff",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sweeping_edge": 5
+              },
+              "minecraft:lore": [
+                {
+                  "text": " ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "世界の理（ことわり）をいくらでも書き換えられる、神の如き力を秘めたコマンドブロック。",
+                  "color": "white"
+                },
+                {
+                  "text": " ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "あなたはその至高の力を手に入れた。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "しかし、あなたには管理者権限がないので、鈍器として使う事しかできない（笑）",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "「実行できないのなら、直接脳内にコードを叩き込めばいいのさ！！」 ",
+                  "color": "red",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "☆",
+                  "color": "gold",
+                  "bold": true
+                },
+                {
+                  "text": "nuyutsu",
+                  "color": "green",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "コマブロ(物理)",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "nuyutsu",
+                  "color": "green",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "☆",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1672
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              },
+              "!minecraft:unbreakable": {}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

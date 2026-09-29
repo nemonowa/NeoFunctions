@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/239",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：【守護】自走式保護用爆弾装置 -[Guardian] Self-propelled protective bomb device-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:240)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r誰でも簡単に扱える！\n自衛用ロボット、爆弾おばけです！\n操作手順は簡単！守りたい対象を選ぶだけ！\n対象者以外が近づくと少量の火薬爆弾を投げつけるぞ！\n\n\n時代は繰り返す。\nはるか未来で事故が起きる。\nしかしそんなことはどうでもいい\n大切なのは今だ。今金持ちだからそれでいいのだよ！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  240
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

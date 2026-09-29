@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1491
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "虚無の底で怨念を喰らい、ただ一点、赤く爛れた眼光で生者の魂を捉える深淵の処刑魚。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：処刑のポーション（衰弱レベル4 3:00/盲目レベル1 3:00/発光レベル1 3:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Super:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "extra": [
+                                    {
+                                      "text": "✯",
+                                      "color": "#FF602C"
+                                    }
+                                  ],
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ヴォイドリーパー",
+                "color": "#353834",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 3,
+                    "duration": 3600,
+                    "id": "wither"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 3600,
+                    "id": "blindness"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 3600,
+                    "id": "glowing"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"処刑の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

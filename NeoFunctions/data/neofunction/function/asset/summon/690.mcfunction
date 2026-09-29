@@ -1,0 +1,6 @@
+# 命名：自爆ガエル
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/690
+
+summon frog ~ ~ ~ {Health:10f,Passengers:[{id:"minecraft:creeper",DeathLootTable:"neofunction:asset/summon/690",Health:10f,powered:0b,ExplosionRadius:4b,Fuse:30,ignited:0b,Tags:["look","lv2","upper"],Passengers:[{id:"minecraft:block_display",Tags:["upper"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.25f,-1.8f,-0.25f],scale:[0.5f,0.5f,0.5f]},block_state:{id:"minecraft:tnt"}}],active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:max_health",base:10}]}],attributes:[{id:"minecraft:max_health",base:10},{id:"minecraft:movement_speed",base:1}],Tags:[lv2,downer],DeathLootTable:"neofunction:asset/summon/690",equipment:{chest:{id:"minecraft:diamond_chestplate",count:1,components:{"minecraft:enchantments":{"minecraft:blast_protection":10}}}}}

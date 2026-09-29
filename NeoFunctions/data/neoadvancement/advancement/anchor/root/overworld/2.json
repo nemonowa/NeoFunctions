@@ -1,0 +1,47 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle",
+      "components": {
+        "minecraft:profile": {
+          "name": "argonaute_nemo",
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "ewogICJ0aW1lc3RhbXAiIDogMTc0NjUwNzk2NTI5MCwKICAicHJvZmlsZUlkIiA6ICJiZDQ4MjczOTc2N2M0NWRjYTFmOGMzM2M0MDUzMDk1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfVmlsbGFnZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRiZDgzMjgxM2FjMzhlNjg2NDg5MzhkN2EzMmY2YmEyOTgwMWFhZjMxNzQwNDM2N2YyMTRiNzhiNGQ0NzU0YyIKICAgIH0KICB9Cn0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "蒐集：アイテム・コレクター（現世）～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標アイテムを獲得する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7草ブロック、ジャガイモ、エメラルド、ダイアモンド、鐘、スポンジ、ネームプレート、エクスペリエンスボトル、不死のトーテム。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

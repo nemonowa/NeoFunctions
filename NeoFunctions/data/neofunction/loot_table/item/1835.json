@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "聖痕鞭",
+                  "color": "#F4F0DE",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#E8C65A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "エクソルシス",
+                  "color": "#D88A24",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#E8C65A",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「祈りでは救えないものがある。」",
+                  "color": "#E9E4D2",
+                  "italic": true
+                },
+                {
+                  "text": "だから彼は、聖印を鞭に刻んだ。",
+                  "color": "#FFF3C4",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "邪なる者を打つたび、聖なる炎がその身を焼く。",
+                  "color": "#F4D36A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その炎は敵を赦さず、",
+                  "color": "#E8B83E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "振るう者の罪すらも照らし出す。",
+                  "color": "#F09A32",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "これは武器ではない。",
+                  "color": "#FFF1C2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "断罪を執行するための、聖なる刻印だ。",
+                  "color": "#FFD45C",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "――救済は、祈るだけでは届かない。",
+                  "color": "#D88928",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 25,
+                "minecraft:smite": 88,
+                "minecraft:sweeping_edge": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b4dc8ff6-6e31-423c-b153-e05494c868f7",
+                  "amount": 21,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:4d39dd06-45f2-4e49-b9a1-c541c7024e58",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1835
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

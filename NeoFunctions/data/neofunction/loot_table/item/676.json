@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "緑兎馬の魂鎧",
+                "color": "#52FF69",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "愛馬を強化する属性編集の",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "青文字エンチャントが付与されてる",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "バニラにはないので多分スペルアイテム",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 5439337,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "jump_strength",
+                  "id": "neofunction:24ae0c23-f009-7c47-a89e-6eddaec204ce",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  676
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

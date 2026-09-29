@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 64,
+              "minecraft:lore": [
+                {
+                  "text": "Developed by cubicmetre",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Used in SMP by wemmbu",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "This device is recreated by NEXUS Tech",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "Never under any circumstances.",
+                  "color": "dark_red"
+                },
+                {
+                  "text": " — Treaty on the Prohibition of Nuclear Weapons",
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "OSC Targeting Device",
+                "color": "red"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1820
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

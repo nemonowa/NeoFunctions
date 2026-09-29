@@ -1,0 +1,171 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-封印されし",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "災歌",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "-",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "謳い謳え",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "我らが",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "主君",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "の御帰りだ",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "唱え踊れ騒げ敬え",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "今宵持って我らは終焉の神を出迎える",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:5671fc2c-0c51-4ba0-b91b-c1f0381534b9",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:3b8820a7-085c-4456-940a-58a265e06889",
+                  "amount": -999,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:aee12921-0051-4da2-9a09-a95a30e395c6",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e085e294-b7f8-4348-a8c7-b530c07e8340",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:5ff46d97-4408-44be-9316-af2c7e3b4a85",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:f4c1ed2a-7993-47c0-8b92-172bc83dbd9c",
+                  "amount": -999,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:e86017e6-3f40-415b-aac6-d33ad55a1881",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:0f3fcaff-a174-4528-93b8-68055946949c",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:ce88ca5e-a29e-4c05-acac-2de637651de2",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  750
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

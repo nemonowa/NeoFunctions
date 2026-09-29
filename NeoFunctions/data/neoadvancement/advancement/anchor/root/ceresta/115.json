@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/114",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：湧流の祭壇 -Spring Altar-                         ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:115)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r尽きることなき流れを司る祭壇。水はここで生まれ、巡り、再び還る。流れを止めようとする者には、容赦はない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/115": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

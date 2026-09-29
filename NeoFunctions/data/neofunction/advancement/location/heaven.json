@@ -1,0 +1,29 @@
+{
+  "parent": "neofunction:.clock/60s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "position": {
+              "y": {
+                "min": 255
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
+        },
+        "effects": {
+          "minecraft:blindness": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/location/heaven"
+  }
+}

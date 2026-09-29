@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/541",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：ねおちー                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:542)の発見\n§3報酬：§r経験値×16\n§9説明：§rNEO仕様のアイ族「ねおちー」が3体ほど出現する。死の宣告のオーラ持ちなので注意しよう。ちなみに一気に3体出現する理由はフレイシェル氏の「多い方が楽しい。」という発言が原因。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/542\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

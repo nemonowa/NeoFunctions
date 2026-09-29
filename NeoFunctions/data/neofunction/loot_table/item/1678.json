@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:6c8ab253-3c0d-425f-b3e2-3027fd45797a",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:5ef55bce-b179-4fd6-9bb3-f6831c2060e5",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 10,
+                "minecraft:sharpness": 99,
+                "minecraft:sweeping_edge": 10
+              },
+              "minecraft:lore": [
+                {
+                  "text": "強大な敵をも切り裂く高周波ブレード",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "「オーケー、いざ、参る！」",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#FF3C36",
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ムラサマ(Murasama)",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FF3C36",
+                  "bold": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1678
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

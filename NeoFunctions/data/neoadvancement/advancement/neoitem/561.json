@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/560",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ぼちぇボウ -Bochebo-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:561)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r過酷なフロンティアを静かに、安価に切り拓くのにたけた弓※なおｼｬﾀｰｷｬﾌﾟ、ﾃﾝﾎﾟのエンチャントはこの世界の弓には効果はない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  561
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

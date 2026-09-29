@@ -1,0 +1,162 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "abyss",
+                  "color": "#9C1E1E",
+                  "obfuscated": true
+                },
+                {
+                  "text": "魔",
+                  "color": "#B52B32",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "剣",
+                  "color": "#AB2733",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "リ",
+                  "color": "#9C1C2A",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ヤ",
+                  "color": "#961B29",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ル",
+                  "color": "#8F1225",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ゴ",
+                  "color": "#8F1429",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "abyss",
+                  "color": "#9C1E1E",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "数百年前の「アビス・インパクト」の際、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "押し寄せるアビスの魔物に対抗するため、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ロドアのSPによって生成された魔剣。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "その威力はすさまじく、アビスの軍勢を種族丸ごと",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "絶滅寸前にまで追い込んだと言われている。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "この剣が一度振るわれれば、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "戦場に存在する「すべての生者」に",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "平等に",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "滅びの劫火",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が降り注ぐ。",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "敵も、味方も、そして美しき大地さえも、",
+                  "color": "gray"
+                },
+                {
+                  "text": "その刃にとっては等しく『殲滅対象』でしかない。 ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "――戦場の果て、残るは灰燼（かいじん）のみ。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 6,
+                "minecraft:sharpness": 66,
+                "minecraft:smite": 12,
+                "minecraft:sweeping_edge": 12,
+                "minecraft:loyalty": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1656
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

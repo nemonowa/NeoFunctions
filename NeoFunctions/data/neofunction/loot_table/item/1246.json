@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "壊刃",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "まだ使える。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 59,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 10,
+                "minecraft:sweeping_edge": 10,
+                "minecraft:unbreaking": 1,
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1246
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

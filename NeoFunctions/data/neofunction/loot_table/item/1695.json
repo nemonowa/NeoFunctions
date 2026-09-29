@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "豊かな大地で育った「黄金麦」を",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "贅沢に使って醸造された至高の一杯。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "ひとくち飲めば、華やかな香りと",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "芳醇なコクが口いっぱいに広がる。",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "労働後のビールは、何物にも代えられない。",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルクスイーファの黄金ビール",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1695
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16771894,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 0,
+                    "duration": 900
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

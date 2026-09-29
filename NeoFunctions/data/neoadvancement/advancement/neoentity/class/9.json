@@ -1,0 +1,70 @@
+{
+  "parent": "neoadvancement:neoentity/class/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:block_entity_data": {
+          "id": "minecraft:skull"
+        },
+        "minecraft:profile": {
+          "id": [
+            -519379412,
+            -2085139048,
+            -1285377028,
+            -253629829
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzJiZDMxOGQ2N2JjOGM5MmU0NjhhMjEwMDAyNjVhMzQ5ZDYwNDNlNDk0YTE5ZTRlZjE0MDYwMzE5ZThiZDgzNCJ9fX0="
+            }
+          ]
+        },
+        "minecraft:lore": [
+          {
+            "bold": true,
+            "italic": false,
+            "color": "white",
+            "text": "Normal:"
+          }
+        ],
+        "minecraft:custom_data": {
+          "check": 1
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "存在百科：ワールズ・エンティティ✭9",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§3§l条件：§f存在強度✭9の対象を討伐or解析する。\n§9§l説明：§7頂点。理を変える力を持つ存在。ex)神の神、playerにとってのminecraft本体など",
+      "color": "gold"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[lv9]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

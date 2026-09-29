@@ -1,0 +1,312 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": [
+            {
+              "type": "minecraft:set_name",
+              "entity": "this",
+              "name": [
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": " 異空兵装：スキルポケット ",
+                  "color": "#FEEEED",
+                  "bold": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:bundle_contents": [
+                  {
+                    "id": "minecraft:crossbow",
+                    "count": 1,
+                    "components": {
+                      "minecraft:can_break": [
+                        {
+                          "blocks": "minecraft:spawner"
+                        }
+                      ],
+                      "minecraft:custom_name": [
+                        {
+                          "text": "|",
+                          "color": "#FFFF00",
+                          "bold": true,
+                          "italic": false,
+                          "obfuscated": true
+                        },
+                        {
+                          "text": "|",
+                          "color": "#7FFF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF7F"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#7FFF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#FFFF00"
+                        },
+                        {
+                          "text": " 未知の火器 ",
+                          "color": "#FEEEED",
+                          "bold": false,
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "|",
+                          "color": "#FFFF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#7FFF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF7F"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#00FF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#7FFF00"
+                        },
+                        {
+                          "text": "|",
+                          "color": "#FFFF00"
+                        }
+                      ],
+                      "minecraft:lore": [
+                        {
+                          "text": "謎の金属匣体。超文明の面影を感じるが、使い方を思い出せない。",
+                          "color": "light_purple",
+                          "bold": false,
+                          "italic": true
+                        }
+                      ],
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          995
+                        ]
+                      },
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "type": "attack_damage",
+                          "id": "neofunction:52884685-71ec-41a3-9e6e-eafbf5eb911f",
+                          "amount": 2,
+                          "operation": "add_multiplied_total",
+                          "slot": "mainhand"
+                        },
+                        {
+                          "type": "attack_damage",
+                          "id": "neofunction:e6bbdb3a-0fbb-40e0-903e-758171aea8d4",
+                          "amount": 2,
+                          "operation": "add_value",
+                          "slot": "mainhand"
+                        }
+                      ],
+                      "minecraft:charged_projectiles": [],
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:enchantments",
+                          "minecraft:attribute_modifiers",
+                          "minecraft:unbreakable",
+                          "minecraft:can_break",
+                          "minecraft:can_place_on",
+                          "minecraft:charged_projectiles",
+                          "minecraft:dyed_color",
+                          "minecraft:trim"
+                        ]
+                      },
+                      "minecraft:custom_data": {
+                        "check": 1
+                      }
+                    }
+                  }
+                ],
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    50
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "rare": 0
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "異名：",
+                  "extra": [
+                    {
+                      "storage": "neofunction:name",
+                      "nbt": "name",
+                      "interpret": true
+                    }
+                  ],
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "真名：",
+                  "extra": [
+                    {
+                      "selector": "@p"
+                    }
+                  ],
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "位階：",
+                  "extra": [
+                    "Lv.",
+                    {
+                      "score": {
+                        "objective": "LVL",
+                        "name": "@p"
+                      },
+                      "color": "light_purple"
+                    },
+                    " HP.",
+                    {
+                      "score": {
+                        "objective": "health",
+                        "name": "@p"
+                      },
+                      "color": "red"
+                    },
+                    " SP.",
+                    {
+                      "score": {
+                        "objective": "SPmax",
+                        "name": "@p"
+                      },
+                      "color": "aqua"
+                    }
+                  ],
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "特異能力を解放 > ",
+                  "extra": [
+                    {
+                      "keybind": "key.drop"
+                    }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "アイテムを取得 > ",
+                  "extra": [
+                    {
+                      "keybind": "key.use"
+                    }
+                  ],
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "アイテムを還元 > 重ねる🗑",
+                  "color": "red",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

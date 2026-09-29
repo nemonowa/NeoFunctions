@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest3]}"
+          }
+        },
+        "recipes": "neofunction:smelting/potion"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/quest/3/1"
+  }
+}

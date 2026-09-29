@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "親切な腐肉"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "この世界には様々な要素が追加されています。"
+                },
+                {
+                  "text": "例えば私を食べると半径16m以内の"
+                },
+                {
+                  "text": "100体までのエンティティが反応します。"
+                },
+                {
+                  "text": "索敵や村人探しにお使いください。"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  51
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

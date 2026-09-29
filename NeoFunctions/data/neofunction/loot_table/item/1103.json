@@ -1,0 +1,112 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "🌸",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 夜桜の鎌 ",
+                  "color": "#D970FF",
+                  "underlined": true
+                },
+                {
+                  "text": "🌸"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "夜に咲く",
+                    "color": "dark_gray",
+                    "bold": true
+                  },
+                  {
+                    "text": "「桜」",
+                    "color": "#FFA8FA",
+                    "bold": true
+                  },
+                  {
+                    "text": "の美しさと",
+                    "bold": true
+                  },
+                  {
+                    "text": "「死」",
+                    "color": "dark_red",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を内包した恐ろしさを併せ持つ鎌"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 4,
+                "minecraft:sharpness": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:873acf46-53f2-4eb8-af78-0c19dc948a5e",
+                  "amount": 0.15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:fdb7aa51-d012-4ec3-aae8-607ad854e797",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:8e004059-5995-4874-9aa7-be954b8369d7",
+                  "amount": 0.15,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:e96ed4aa-a6c9-4de9-9183-693741fb39bb",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:912efee6-d6f8-4d93-ada4-7287b26d6e21",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1103
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

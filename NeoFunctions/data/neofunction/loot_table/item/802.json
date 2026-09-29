@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trapped_chest",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "neo",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ✯2 Rare Random LootTable ",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "neo",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:container_loot": {
+                "loot_table": "neofunction:chest/2"
+              },
+              "minecraft:block_entity_data": {
+                "CustomName": [
+                  {
+                    "text": "neo",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " ✯2 Rare Random LootTable ",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "neo",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": false,
+                    "obfuscated": true
+                  }
+                ],
+                "id": "minecraft:trapped_chest"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  802
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

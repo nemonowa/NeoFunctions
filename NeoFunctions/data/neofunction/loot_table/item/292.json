@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ネクロノミコン～断章～",
+                "color": "#DC2BFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "Necronomicon【死霊秘法】",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "深遠なる知識が記された魔導書（グリモワール）",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "中には超越的存在への儀式などがあり",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「外なる神」「旧支配者」と接触がはかれるだろう",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "外装は人皮や謎の毛皮で装丁されている",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  292
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■",
+                    "color": "dark_red",
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": ">> click to read <<"
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger code set 94"
+                    }
+                  }
+                ],
+                "title": "",
+                "author": "アブドゥル・アルハザード",
+                "generation": 3
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

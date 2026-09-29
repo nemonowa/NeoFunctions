@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/17",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：超律の魔導瓶 -Super-Rule Magical Flask-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:18)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r伝説として語られる最高純度の魔石。大魔道士は究極の魔法の動力源として、\n軍事国家は戦略兵器の動力源として使用する。魔力を回復させたものは高値で取引される。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_hoe"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  18
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

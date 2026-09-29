@@ -1,0 +1,32 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "#minecraft:is_projectile",
+                "expected": true
+              }
+            ],
+            "direct_entity": {
+              "minecraft:entity_type": "minecraft:trident",
+              "minecraft:nbt": "{item:{components:{\"minecraft:custom_model_data\":{floats:[1810.0f]}}}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "neofunction:system/adv/player_hurt_entity/1810"
+  }
+}

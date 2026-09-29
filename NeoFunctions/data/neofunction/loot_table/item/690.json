@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "#A8E2FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 整地人の霊薬 ",
+                  "color": "light_purple",
+                  "bold": true
+                },
+                {
+                  "text": "||||",
+                  "color": "#A8E2FF"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  690
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 11068159,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 64,
+                    "duration": 72000
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

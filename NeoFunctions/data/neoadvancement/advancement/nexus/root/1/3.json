@@ -1,0 +1,35 @@
+{
+  "parent": "neoadvancement:nexus/root/1/2",
+  "display": {
+    "icon": {
+      "id": "bundle",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            51
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "新世界秩序と追加の進捗について",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル3を完了する。\n§3§l報酬：§f/trigger kill\n§9§l説明：§7ようこそ§a新世界§7へ！\nここから先は君の§1「常識」§7は通用しない。世界の仕組みは再構成され、真に混沌とした、§d最高にクレイジーな不条理§7が君を新たな次元へ誘うだろう。\n各次元ごとに様々な§e「隠し要素」§7がある。§5違和感§7を見逃すな。次へと進む§8鍵§7は\n§l§n/trigger code set 1234567890",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ゼンマシマシチョモランマ",
+                "color": "#FF6E30",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "異界「二郎系ラーメン世界」で詠唱される呪文",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "野菜、タレ、アブラ、ニンニクの量を決めるらしい",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  266
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "duration": 400
+                  }
+                ],
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:wolf",
+            "minecraft:nbt": "{Tags:[\"familiar\"]}"
+          }
+        }
+      }
+    },
+    "-": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID-\"]}"
+          }
+        }
+      }
+    },
+    "not-": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID-\"]}"
+          }
+        }
+      }
+    },
+    "30": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID30\"]}"
+          }
+        }
+      }
+    },
+    "29": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID29\"]}"
+          }
+        }
+      }
+    },
+    "28": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID28\"]}"
+          }
+        }
+      }
+    },
+    "27": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID27\"]}"
+          }
+        }
+      }
+    },
+    "26": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID26\"]}"
+          }
+        }
+      }
+    },
+    "25": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID25\"]}"
+          }
+        }
+      }
+    },
+    "24": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID24\"]}"
+          }
+        }
+      }
+    },
+    "23": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID23\"]}"
+          }
+        }
+      }
+    },
+    "22": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID22\"]}"
+          }
+        }
+      }
+    },
+    "21": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID21\"]}"
+          }
+        }
+      }
+    },
+    "20": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID20\"]}"
+          }
+        }
+      }
+    },
+    "19": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID19\"]}"
+          }
+        }
+      }
+    },
+    "18": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID18\"]}"
+          }
+        }
+      }
+    },
+    "17": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID17\"]}"
+          }
+        }
+      }
+    },
+    "16": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID16\"]}"
+          }
+        }
+      }
+    },
+    "15": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID15\"]}"
+          }
+        }
+      }
+    },
+    "14": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID14\"]}"
+          }
+        }
+      }
+    },
+    "13": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID13\"]}"
+          }
+        }
+      }
+    },
+    "12": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID12\"]}"
+          }
+        }
+      }
+    },
+    "11": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID11\"]}"
+          }
+        }
+      }
+    },
+    "10": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID10\"]}"
+          }
+        }
+      }
+    },
+    "9": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID9\"]}"
+          }
+        }
+      }
+    },
+    "8": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID8\"]}"
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID7\"]}"
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID6\"]}"
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID5\"]}"
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID4\"]}"
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID3\"]}"
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID2\"]}"
+          }
+        }
+      }
+    },
+    "1": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID1\"]}"
+          }
+        }
+      }
+    },
+    "0": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"UUID0\"]}"
+          }
+        }
+      }
+    },
+    "not30": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID30\"]}"
+          }
+        }
+      }
+    },
+    "not29": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID29\"]}"
+          }
+        }
+      }
+    },
+    "not28": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID28\"]}"
+          }
+        }
+      }
+    },
+    "not27": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID27\"]}"
+          }
+        }
+      }
+    },
+    "not26": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID26\"]}"
+          }
+        }
+      }
+    },
+    "not25": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID25\"]}"
+          }
+        }
+      }
+    },
+    "not24": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID24\"]}"
+          }
+        }
+      }
+    },
+    "not23": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID23\"]}"
+          }
+        }
+      }
+    },
+    "not22": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID22\"]}"
+          }
+        }
+      }
+    },
+    "not21": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID21\"]}"
+          }
+        }
+      }
+    },
+    "not20": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID20\"]}"
+          }
+        }
+      }
+    },
+    "not19": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID19\"]}"
+          }
+        }
+      }
+    },
+    "not18": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID18\"]}"
+          }
+        }
+      }
+    },
+    "not17": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID17\"]}"
+          }
+        }
+      }
+    },
+    "not16": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID16\"]}"
+          }
+        }
+      }
+    },
+    "not15": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID15\"]}"
+          }
+        }
+      }
+    },
+    "not14": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID14\"]}"
+          }
+        }
+      }
+    },
+    "not13": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID13\"]}"
+          }
+        }
+      }
+    },
+    "not12": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID12\"]}"
+          }
+        }
+      }
+    },
+    "not11": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID11\"]}"
+          }
+        }
+      }
+    },
+    "not10": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID10\"]}"
+          }
+        }
+      }
+    },
+    "not9": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID9\"]}"
+          }
+        }
+      }
+    },
+    "not8": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID8\"]}"
+          }
+        }
+      }
+    },
+    "not7": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID7\"]}"
+          }
+        }
+      }
+    },
+    "not6": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID6\"]}"
+          }
+        }
+      }
+    },
+    "not5": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID5\"]}"
+          }
+        }
+      }
+    },
+    "not4": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID4\"]}"
+          }
+        }
+      }
+    },
+    "not3": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID3\"]}"
+          }
+        }
+      }
+    },
+    "not2": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID2\"]}"
+          }
+        }
+      }
+    },
+    "not1": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID1\"]}"
+          }
+        }
+      }
+    },
+    "not0": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[\"mob\",\"notUUID0\"]}"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ],
+    [
+      "-",
+      "not-"
+    ],
+    [
+      "30",
+      "not30"
+    ],
+    [
+      "29",
+      "not29"
+    ],
+    [
+      "28",
+      "not28"
+    ],
+    [
+      "27",
+      "not27"
+    ],
+    [
+      "26",
+      "not26"
+    ],
+    [
+      "25",
+      "not25"
+    ],
+    [
+      "24",
+      "not24"
+    ],
+    [
+      "23",
+      "not23"
+    ],
+    [
+      "22",
+      "not22"
+    ],
+    [
+      "21",
+      "not21"
+    ],
+    [
+      "20",
+      "not20"
+    ],
+    [
+      "19",
+      "not19"
+    ],
+    [
+      "18",
+      "not18"
+    ],
+    [
+      "17",
+      "not17"
+    ],
+    [
+      "16",
+      "not16"
+    ],
+    [
+      "15",
+      "not15"
+    ],
+    [
+      "14",
+      "not14"
+    ],
+    [
+      "13",
+      "not13"
+    ],
+    [
+      "12",
+      "not12"
+    ],
+    [
+      "11",
+      "not11"
+    ],
+    [
+      "10",
+      "not10"
+    ],
+    [
+      "9",
+      "not9"
+    ],
+    [
+      "8",
+      "not8"
+    ],
+    [
+      "7",
+      "not7"
+    ],
+    [
+      "6",
+      "not6"
+    ],
+    [
+      "5",
+      "not5"
+    ],
+    [
+      "4",
+      "not4"
+    ],
+    [
+      "3",
+      "not3"
+    ],
+    [
+      "2",
+      "not2"
+    ],
+    [
+      "1",
+      "not1"
+    ],
+    [
+      "0",
+      "not0"
+    ]
+  ],
+  "rewards": {
+    "function": "neofunction:system/adv/player_interacted_with_entity/familiar"
+  }
+}

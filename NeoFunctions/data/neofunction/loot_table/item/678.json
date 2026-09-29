@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "失われた環",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ミッシングリンク",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 10168831,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 4,
+                "minecraft:thorns": 4,
+                "minecraft:aqua_affinity": 10,
+                "minecraft:frost_walker": 1,
+                "minecraft:soul_speed": 9,
+                "minecraft:swift_sneak": 5,
+                "minecraft:flame": 1,
+                "minecraft:infinity": 1,
+                "minecraft:power": 1,
+                "minecraft:punch": 1,
+                "minecraft:multishot": 4,
+                "minecraft:quick_charge": 1,
+                "minecraft:loyalty": 99,
+                "minecraft:fortune": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:d2c7fc92-af11-4358-9b2d-02895a31c352",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:5d0e3a5d-b8de-48cb-b1b0-42ecde147acd",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  678
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

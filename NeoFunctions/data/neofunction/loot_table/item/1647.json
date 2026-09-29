@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ナナチ特製：奈落シチュー"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "度し難い味、魚の臓物をドブで煮込んでそのまま放置したような味"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

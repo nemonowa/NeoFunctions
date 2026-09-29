@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/3/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～上級魔導士への道～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：魔物を20体討伐する&魔力瓶（大）の充填\n§3§l報酬§r§f：§e大統一銅貨§r§420§r§e枚§r\n§9§l説明§r§f：大容量の魔力瓶は日常では流通しない高純度の魔石なの。\n魔導士は大魔法の動力源として愛用し、\n軍団は戦術兵器の動力源として使用するのよ。\nこれを充填することで、あなたは次のステージへ行けるはずよ。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/1": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

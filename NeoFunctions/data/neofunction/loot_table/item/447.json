@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ルージュ・ソード",
+                "color": "#BF1F2F",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 11,
+                "minecraft:mending": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:014c9a60-a15f-4fc4-9a31-60c397eed03a",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:ce42719a-cebb-4490-8f5f-52beb669f067",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:21e66202-8ac5-4efd-92fd-5c442cf75009",
+                  "amount": -2.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  447
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 1000,
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 6
+              },
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:unbreakable": {},
+              "minecraft:lore": [
+                {
+                  "text": "氷結世界で大匠が鍛えた特注品",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Ultimate",
+                  "color": "dark_blue",
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 大匠のツルハシ ",
+                  "color": "aqua",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "Ultimate"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  926
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

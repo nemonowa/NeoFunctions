@@ -1,0 +1,7 @@
+{"parent": "neoadvancement:2/66",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

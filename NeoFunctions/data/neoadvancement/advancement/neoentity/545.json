@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/544",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：深淵様                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:545)の発見\n§3報酬：§r経験値×16\n§9説明：§r深淵様が出現。最強格のボスである深淵様(ネザーポータル頭の紫の人型存在)を召喚。非常にタフで様々なスキルを使うこのマップの主だが、倒せると約80ほどの経験値を落とす。極低確率ではあるが「終焉ﾅﾙ者」の装備や「深淵の盾」、全能の一」といった御自身の装備品もドロップする。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/545\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

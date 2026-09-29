@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "(複雑な)²",
+                "color": "#FF54D7",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:enchantments": {
+                "minecraft:protection": 5,
+                "minecraft:thorns": 5,
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:knockback": 3,
+                "minecraft:sharpness": 10,
+                "minecraft:smite": 4,
+                "minecraft:punch": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:5defaecd-bb01-463d-ab7b-9c916b72d5b2",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:b2e487fc-de7e-4078-b478-e2b4366f4a22",
+                  "amount": 0.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ad349901-e299-4a08-b40f-6f10c66b526a",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:ea9e30b8-cf1c-4c17-8326-5937200362a6",
+                  "amount": 1.4,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1048
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

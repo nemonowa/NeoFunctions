@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "再生Ⅱ (00:08)",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "　"
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "碧天ミルクパンの上に、碧天チーズをたっぷりのせて焼き上げた一品。",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "とろけたチーズの香ばしさが食欲をそそり、",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "体と心をしっかり満たしてくれる、牧場自慢の定番食。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "碧天ミルクチーズトースト",
+                "color": "#FFE682",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1349
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

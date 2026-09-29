@@ -1,0 +1,55 @@
+{
+  "parent": "neoadvancement:nexus/root/2/9",
+  "display": {
+    "icon": {
+      "id": "minecraft:debug_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            168
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "到達：アカシックモニュメントに到着する",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：NEXUSの主要区画を利用する。\n§3§l報酬：§f経験値×16\n§9§l説明：§7虚空の記念碑。そこは目標オブジェクトを納品する納品場所であり、クラスの申請も行える。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 1205,
+                  "max": 1245
+                },
+                "z": {
+                  "min": 1275,
+                  "max": 1285
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

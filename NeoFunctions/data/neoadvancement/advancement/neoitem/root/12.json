@@ -1,0 +1,49 @@
+{
+  "parent": "neoadvancement:neoitem/root/.neo",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTc5ZjlhNTljODk3YWYwMzJkNDAwMjU5NmZhYjJlNGU5ZjIyZjVhZTFlYTM3MGY3NTVhNWVlOTM5NmIzNzJjOSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "獲得：ID1101～1200をすべて発見する～～～～～～～",
+      "color": "white",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b§l条件：指定アイテム(ID:1101～1200)の発見\n§9§l報酬：§r§7経験値×128",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/1\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

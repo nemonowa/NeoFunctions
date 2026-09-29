@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/660",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：超流体生金属 -Eirik the Blood King's Great Axe-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:661)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r艦のバラストタンクや流体装甲などで使われている超資源\nボルバロッサで採掘される万能物質を\n超文明のオーバーテクノロジーで改変・培養したもの。\n様々な物質への代替特性をもち可食生金属なので\n前FTL文明の未開の知性体程度の\n機能は食べるだけで大きく補填される。\n...を無断で持ち出して希釈したもの！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  661
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/222",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：感電雷撃【チャージド・アロー】 -Electric Shock Strike [Charged Arrow]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:223)の習得\n§9説明：§r周囲9m以内の敵全体に9dmg与える。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                223
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

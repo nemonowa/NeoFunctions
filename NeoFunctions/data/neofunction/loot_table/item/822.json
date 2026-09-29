@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ユッカアーマー",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 740619,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 1,
+                "minecraft:thorns": 3,
+                "minecraft:unbreaking": 9,
+                "minecraft:vanishing_curse": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:dfa6bc42-8fa9-43a8-9b79-5f9e4fa94266",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:e2e42df9-fd46-409f-a0ff-0ff19c40c4b8",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:fae971de-46f9-4dc2-8919-9a3307e3cb61",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:raiser"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  822
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "筋肉の反応を活性化させ、",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "短時間だけ移動速度",
+                    "color": "#FF913D"
+                  },
+                  {
+                    "text": "を上げるポーション。"
+                  }
+                ],
+                {
+                  "text": "足が軽くなる感覚はクセになるが、飲み過ぎは厳禁。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「走っても転ばないのは、私の調整が優秀だからだ。」",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "歩行加速溶液",
+                "color": "#6130FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1139
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 6369535,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 1,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 1,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 1,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

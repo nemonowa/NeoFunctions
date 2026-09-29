@@ -1,0 +1,35 @@
+{
+  "parent": "neoadvancement:nexus/root/1/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:written_book",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            999
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の徽章と次元アンカーについて～～～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル7を完了する。\n§3§l報酬：§fスキル「存在解析」の解放\n§9§l説明：§7それは未知の§9知識端末§7\n異空兵装の第一形態にして、§eバッチ§7のような徽章端末から表示される§6ホロディスプレイ§7。ステータス情報や§5必須スキル§7が格納されている。貴官専用のNEXUSへのパスポート。\n§dシフトスキル§7で対象の情報を解析し、見つけたアンカーを攻略及び転移が可能にする！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

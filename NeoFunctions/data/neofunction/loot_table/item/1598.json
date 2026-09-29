@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "俺たちの戦いはこれからだ！",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ご愛読ありがとうございました。",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ねもねも先生の次回作にご期待ください",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:32ffc5bf-f53c-436a-8d66-33aaaf1fef1c",
+                  "amount": 1.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:632a7610-39e7-4b46-a32b-bcb8b7b7ac8c",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1598
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

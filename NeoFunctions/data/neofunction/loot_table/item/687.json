@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "松明の矢バンドル",
+                "color": "#FCC800",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "着弾した場所に松明を設置する特殊弾の詰め合わせ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【松明弾】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tipped_arrow",
+                  "count": 32,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "松明の矢",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "着弾した場所に松明を設置する特殊弾",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "スペルアイテム🔯【松明弾】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:enchantments": {
+                      "minecraft:mending": 1
+                    },
+                    "minecraft:potion_contents": {
+                      "custom_color": 16566272
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:enchantments",
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  687
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

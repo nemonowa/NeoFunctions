@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "...呼吸の雫...",
+                "color": "#87A3FF",
+                "bold": true,
+                "italic": false,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "A drop of water breathing.",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "強化魔法が込められた低位のポーション。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  343
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8889343,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:water_breathing",
+                    "amplifier": 0,
+                    "duration": 12000
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

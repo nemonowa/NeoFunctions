@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_pad",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:water"
+                },
+                {
+                  "blocks": "minecraft:water"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Adv.",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "睡蓮",
+                  "color": "white"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "アドベンチャーエリアでも設置できる。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "睡蓮の花言葉は「滅亡」",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  913
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

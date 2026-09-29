@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_coal_ore",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "black",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 漆黒の石 ",
+                  "color": "#0D0015",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "black",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "迷ったなら掘るな。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "...だがもう『迷い』はない。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "#0d0015",
+                  "color": "#0D0015",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:flame": 17,
+                "minecraft:infinity": 13,
+                "minecraft:power": 9,
+                "minecraft:punch": 7,
+                "minecraft:multishot": 2,
+                "minecraft:quick_charge": 3
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  148
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

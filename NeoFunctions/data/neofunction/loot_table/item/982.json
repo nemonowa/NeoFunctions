@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "マジカルタンクトップ",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "…タンクトップがなければ即死だった。🎽",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 1773115,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:aqua_affinity": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:8f3255c7-bd1d-4b0a-8b2a-dbfb7b0415cc",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:9b8717ba-cedf-4e3e-96b9-2eae960ac283",
+                  "amount": 0.08,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b4c8c5b3-a90b-4e2f-9097-706f2827b833",
+                  "amount": 0.01,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  982
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": []
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

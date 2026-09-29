@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "圧縮ダイヤ袴",
+                "color": "aqua",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "なななんと！修繕が！出来るのである！",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 5,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:eye"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  831
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

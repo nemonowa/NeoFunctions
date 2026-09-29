@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/254",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：虚影潜伏【ヴォイド・ハイド】 -[Reverse Energy]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:255)の習得\n§9説明：§r発動時、自身に透明化と再生能力、奇襲体勢を付与する。この効果は被弾すると即座に解除される。このスキルを取得していると、パッシブ発動時にも再生能力を獲得できる（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                255
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

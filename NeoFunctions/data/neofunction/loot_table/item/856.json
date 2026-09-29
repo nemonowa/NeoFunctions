@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "🔯 魔心 🔯",
+                "color": "yellow",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "吐き気無効 Ⅰ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【状態異常】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "状態異常「吐き気」を解除する",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "インベントリーの",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "右上",
+                    "color": "white",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "にあるときに効果が発動する",
+                    "color": "dark_gray"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  856
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/248",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：万能秘薬・パラケルススの遺産【アルカナム・オプス】 -The Miraculous Elixir: Paracelsus's Legacy [Arcanum Opus]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:249)の習得\n§9説明：§r黄金の霧を身にまとい、範囲内の味方には完全回復と全能力強化を、敵には毒・衰弱・防御低下を同時に叩き込む、癒しと攻撃を極めたドクターの奥義。（SP60消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                249
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

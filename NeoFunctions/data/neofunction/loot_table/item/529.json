@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "通過儀礼【イニシエーション】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "デフォルトのKBRは0",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ゼロには何をかけてもゼロ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:e984b65a-c7d9-4efc-ae1e-6051dd4210c4",
+                  "amount": 1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:345550b1-0c1f-4f0a-8bf1-bae2156a68b0",
+                  "amount": 1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_left",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:square_top_right",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "red"
+                }
+              ],
+              "minecraft:base_color": "light_blue",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  529
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

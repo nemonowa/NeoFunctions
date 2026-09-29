@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/1/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～水！！！お願い！！！～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：近くの水場で水を汲んで蒸留して引き渡す\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§6ビリーブレッド×3§r\n§9§l説明§r§f：メアブーロンが料理に使うお水をうっかり全部使い切っちゃったみたい！\nどこで汲んでもいいけど、ちゃんと蒸留した綺麗なお水を渡してね！\n「お願い～～っ！水がなきゃスープができないよ～っ！！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/1/9": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

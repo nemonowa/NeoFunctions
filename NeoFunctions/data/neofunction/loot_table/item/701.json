@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": " ➼ 紅蓮の弓矢 ➼ ",
+                "color": "#D90000",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "特殊弾が詰め込まれた矢筒",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tipped_arrow",
+                  "count": 8,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "Jäger",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": true,
+                        "underlined": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " ➼ 紅蓮の弓矢 ➼ ",
+                        "color": "#D90000",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "Jäger",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": true,
+                        "underlined": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "夕闇に緋を穿つ紅蓮の弓矢",
+                        "color": "#FF0000",
+                        "bold": true,
+                        "italic": true
+                      },
+                      {
+                        "text": "命中した標的を三回、大幅に回復させる。",
+                        "color": "white",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "➼➼➼ Wir sind der Jäger ➼➼➼",
+                        "color": "black",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "➼獲物を殺すのは凶器でも技術でもない、",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "➼迸る衝動に其の身を灼き尽くすお前自身の殺意だ。",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      },
+                      [
+                        {
+                          "text": "Super:",
+                          "color": "dark_purple",
+                          "bold": true
+                        },
+                        {
+                          "text": "✯",
+                          "color": "#FFE33B",
+                          "italic": false
+                        }
+                      ]
+                    ],
+                    "minecraft:potion_contents": {
+                      "custom_color": 14221312,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:instant_health",
+                          "amplifier": 3,
+                          "duration": 20
+                        }
+                      ]
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  701
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

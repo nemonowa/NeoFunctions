@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:redstone_block"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルサイン【-桃-封印解放】",
+                "color": "#ED95F0",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔板設置 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "名前の",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "色",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に対応する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "色ガラス",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "広範囲に破壊するスペルサインを設置する",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ADVモード",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "でも",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "レッドストーン",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に設置でき",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "各所の封印を解除することができる",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "Tags": [
+                  "spellsign",
+                  "pink"
+                ],
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  786
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

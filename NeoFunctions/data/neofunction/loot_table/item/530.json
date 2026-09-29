@@ -1,0 +1,158 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "cip",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 魔誕！悪夢世界の盾 ",
+                  "color": "#24125E",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "cip"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "深淵の入り口すらも捻じれ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "巨大な穴が開いている呪われし盾",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "世界は荒廃し《バロム》という絶望に包まれた。",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:74d840e7-d6d4-4517-acd2-121d2dad9cf8",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:1d2b243a-38c9-4c60-8d32-366cbc3b181a",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:eafdede6-f2ad-4ac5-ba2c-dadfdc7912f5",
+                  "amount": 96.43,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:20fa51bf-10f6-40e0-abbe-ea3e1e5e8cba",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:34d0550d-c9d7-4a96-bd81-8df33bf86500",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:20c3cabc-4262-401c-a94e-aabfd4a1085e",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e776211e-8944-4fad-b0f9-406244bad1ae",
+                  "amount": 96.43,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:71780254-0b75-4d55-9fa6-18edf2e9450d",
+                  "amount": -0.9643,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "black"
+                }
+              ],
+              "minecraft:base_color": "red",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  530
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

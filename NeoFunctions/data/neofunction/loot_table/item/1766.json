@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:water_bucket",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "kaeru",
+                  "color": "#58CCB1",
+                  "obfuscated": true
+                },
+                {
+                  "text": "カエルトカース＋",
+                  "color": "#82CC21",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "kaeru",
+                  "color": "#58CCB1"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "どんな頑固なカエルの粘膜でも魔法のように溶かしてしまう液体。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "これがあればルクスイーファの地下水路の封印を解けそうだ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "安心と信頼と禿頭のクラウス印！",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【なめくじに塩】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "このバケツでカエルを殴ると、水属性ダメージ＋10を追加で与える。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【粘膜溶解酵素＋】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "強化カエルの粘膜の封印を解くことができる",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 1,
+                "minecraft:impaling": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:4812a62d-2161-45bd-8cfd-3c2344ee39b2",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:254570c2-66a2-4d11-a179-9585c281637f",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1766
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/447",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：血喰みの朱剣 -Blood eater red-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:448)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r吸血の力を持つ紅の細剣。\n刀身は獲物の血を吸い、所持者の渇きを潤す。\n噴出した血が刀身に吸い込まれる様から「血喰みの朱剣」と呼ばれるようになった。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  448
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

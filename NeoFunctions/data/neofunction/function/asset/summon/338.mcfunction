@@ -1,0 +1,6 @@
+# 命名：本を貪るもの
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/338
+
+# 【変更：2026-09-28 26.3対応】書見台（頭にかぶせるアイテム）に入れた本が 1.20.4 のアイテムの書き方のままだった。26.3 の書き方（count と components）に直す
+summon zombie ~ ~ ~ {Silent:1b,CanPickUpLoot:1b,CustomName:{"text":"本を貪るもの","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv3,],DeathLootTable:"neofunction:asset/summon/338",equipment:{mainhand:{id:"minecraft:bookshelf",count:1},offhand:{id:"minecraft:writable_book",count:1,components:{"minecraft:writable_book_content":{pages:[""]}}},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":16768340,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:raiser"}}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":16768340,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:raiser"}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16768340,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:raiser"}}},head:{id:"minecraft:lectern",count:1,components:{"minecraft:block_entity_data":{Book:{id:"minecraft:written_book",count:1,components:{"minecraft:written_book_content":{title:"",author:""}}},id:"minecraft:lectern"}}}}}

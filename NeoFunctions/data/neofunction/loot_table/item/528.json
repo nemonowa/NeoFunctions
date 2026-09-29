@@ -1,0 +1,137 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "キルスイッチ",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "痺れる",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "その",
+                    "color": "white"
+                  },
+                  {
+                    "text": "ウルトラ・シー",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "エンジンの全開音",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 1000000000,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:0cbdec0c-31b0-4471-af54-171896176bc1",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b449273e-5cb0-4197-a7ef-63374ebca4ec",
+                  "amount": 0.8,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:999761c3-ace3-426c-b2ed-3d684c53eb2b",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:690c963e-8a0f-40a9-af01-8674ca5bcb51",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e89c2734-9124-44e8-a217-ff1faaff598f",
+                  "amount": 0.8,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:b89565f0-8d25-40bf-8803-70e60847dd8f",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:f3e8aed1-4ce3-4989-bfa9-b1a4b888758d",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:stripe_downleft",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_downright",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "red"
+                }
+              ],
+              "minecraft:base_color": "gray",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  528
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

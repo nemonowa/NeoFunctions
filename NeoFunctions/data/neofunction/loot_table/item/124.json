@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " イエロー・ソウル・カクテル ",
+                  "color": "#FFFF00",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "黄特性のソウル",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の込められた霊薬",
+                    "color": "white"
+                  }
+                ],
+                [
+                  {
+                    "text": "投げた先にかすかの",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "奇跡",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "を引き起こす"
+                  }
+                ],
+                [
+                  {
+                    "text": "「使役士官」",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "なら高確率で再装填される",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  124
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16776960,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 2,
+                    "duration": 60
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 5
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:bf59c467-e9d4-4152-9fcf-3bedc826cbe0",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 3,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "星明かりを溶かし込んだ夜衣",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "主のそばに控える者にのみ許された、静かな鎧",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【シリウスの光】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "4セット装備時、夜に身体能力が大幅に上昇する(CT60s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "シリウス・チェストプレート",
+                "color": "#007AFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 31487,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1794
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

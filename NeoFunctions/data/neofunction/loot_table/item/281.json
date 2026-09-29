@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:soul_speed": 25
+              },
+              "minecraft:lore": [
+                {
+                  "text": "dead hard",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "デッハ",
+                "color": "dark_purple",
+                "bold": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  281
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

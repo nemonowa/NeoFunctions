@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:6a918ec9-e7f9-47ef-8154-5b4166e6b162",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 3,
+                "minecraft:respiration": 1,
+                "minecraft:fire_aspect": 20,
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:repair_cost": 9999,
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【太陽の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "視界の先に、燃え尽きぬ道を見る。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "陽光は、彼らの味方だ。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "昼の間、身体能力が上昇する",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "(速度上昇・跳躍力上昇)",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "プロミネンス・ヘルム",
+                "color": "#FF1A1A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 16718362,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1799
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

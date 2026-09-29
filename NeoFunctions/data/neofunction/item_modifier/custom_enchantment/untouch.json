@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "不触の呪い I",
+      "color": "red",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "mode": "append"
+}

@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1489
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "夢と現実の狭間を泳ぎ、見る者に甘美な悪夢を植え付ける、夜色の鱗を持つ幻惑の毒魚。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：ナイトメアヴェノムのポーション（吐き気レベル1 3:00/浮遊レベル1 3:00/毒レベル4 3:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Epic:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ナイトメアヴェノム",
+                "color": "#6A2C99",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 3600,
+                    "id": "nausea"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 3600,
+                    "id": "levitation"
+                  },
+                  {
+                    "amplifier": 3,
+                    "duration": 3600,
+                    "id": "poison"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"ナイトメアヴェノムの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "鎮静の回復薬",
+                "color": "#6FBF7F",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "マンドラゴラの根片を薄く煎じた回復薬。 ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "体力を緩やかに回復し",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "心身を落ち着かせる効果がある",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1335
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 7323519,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 1,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

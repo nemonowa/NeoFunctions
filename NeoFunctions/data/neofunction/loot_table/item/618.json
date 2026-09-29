@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "🐘毒入りスープ🐘",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "目を覚ますと知らない天井、正方形の部屋",
+                  "color": "dark_green"
+                },
+                [
+                  {
+                    "text": "机の上には",
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "真っ赤なスープ",
+                    "color": "red",
+                    "bold": true
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  618
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "duration": -1
+                  }
+                ],
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

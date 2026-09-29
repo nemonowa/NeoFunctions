@@ -1,0 +1,89 @@
+{
+  "temperature": 2,
+  "downfall": 1,
+  "has_precipitation": false,
+  "attributes": {
+    "minecraft:visual/sky_color": "#2eefef",
+    "minecraft:visual/fog_color": "#1fe0be",
+    "minecraft:visual/water_fog_color": "#ff39ff",
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:block.chorus_flower.death",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:glow_squid_ink"
+          },
+          "probability": 5.0E-4
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:block.chorus_flower.death",
+      "mood": {
+        "sound": "minecraft:block.chorus_flower.death",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:block.chorus_flower.death",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [
+            {
+              "type": "minecraft:evoker",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 4
+              }
+            },
+            {
+              "type": "minecraft:vex",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 8
+              }
+            },
+            {
+              "type": "minecraft:enderman",
+              "weight": 1,
+              "count": 4
+            }
+          ],
+          "underground_water_creature": [],
+          "water_ambient": [],
+          "water_creature": []
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "effects": {
+    "water_color": "#ff39ff",
+    "grass_color": "#ffff00",
+    "foliage_color": "#ffff00"
+  },
+  "carvers": [],
+  "features": []
+}

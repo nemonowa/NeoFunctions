@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "Color ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "of ",
+                  "color": "gold"
+                },
+                {
+                  "text": "I",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "n",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "f",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "i",
+                  "color": "red"
+                },
+                {
+                  "text": "n"
+                },
+                {
+                  "text": "i",
+                  "color": "green"
+                },
+                {
+                  "text": "t",
+                  "color": "aqua"
+                },
+                {
+                  "text": "y",
+                  "color": "blue"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【色彩散華】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "メインハンドに所持するとオフハンドに専用の矢を生成する",
+                  "color": "#A8F6FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "試練に果たした者の手に、託される色彩の弓",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "敵の魂を鮮やかに射抜き、その存在価値を問う ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "色とりどりの矢が、敵を四散させる",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483536,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:infinity": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1165
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

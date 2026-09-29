@@ -1,0 +1,6 @@
+# 命名：湯守のミコト
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/108
+
+summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,DeathLootTable:"neofunction:asset/summon/114",CustomName:{"text":"湯守のミコト","color":"#3BB2F7","bold":true},attributes:[{id:"minecraft:knockback_resistance",base:99},{id:"minecraft:movement_speed",base:0}],VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,xp:1,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},buyB:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},sell:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}}}]},Tags:[st,],DeathLootTable:"neofunction:asset/summon/108",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-253236607,-1910288243,-1585785023,-304239191],properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZlYWNkZjZmMjg4M2U2MTQwMDgzMzcxZjljODgzZGM0NzQxNjAwMWRmY2Y5ZDUzMTZjYzlmNWQ1NjU4Y2I1YiJ9fX0="}]}}}}}

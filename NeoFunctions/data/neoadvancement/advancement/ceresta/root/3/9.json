@@ -1,0 +1,28 @@
+{
+  "parent": "neoadvancement:ceresta/root/3/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "ボス討伐：蛙王グラズ＝ヴェル～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域のエリアボスを討伐する。\n§3§l報酬：？？？\n§9§l説明：§7その井戸の底には、ただの巣ではない“統率”が存在する。無秩序に見える群れは、ひとつの意志によって動かされているのだ。地上へと溢れ出す異形の軍勢。その進軍は偶然ではない。すべてを指揮する者——深淵に座す“王”を討て。軍は崩れ、侵攻は止まるだろう。伝承「沈みし統率者」より。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

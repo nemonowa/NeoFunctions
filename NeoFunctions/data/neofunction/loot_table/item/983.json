@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "違法デニム",
+                "color": "#0C31AB",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:coast"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  983
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

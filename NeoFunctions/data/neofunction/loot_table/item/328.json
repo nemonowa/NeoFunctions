@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:waxed_weathered_cut_copper_slab",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "たわわ",
+                  "color": "#FF69DC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "粘性",
+                  "color": "#C9FF82",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "突起",
+                  "color": "#969637",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "に",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "余分",
+                  "color": "#236F96",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "な",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "給与",
+                  "color": "#895796",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "を",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "！！！",
+                  "color": "#369690",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "確認されました。",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "それによって仕方なく間違えないと思います。",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "毒性は非常に低い。安心しましょう。",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  328
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

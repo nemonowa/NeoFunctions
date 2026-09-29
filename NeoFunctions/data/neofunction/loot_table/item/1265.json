@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "雷鳴の余熱を残す、微かに脈打つ潮の核。",
+                  "color": "#9FA662",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "雷",
+                  "color": "#9C8F5D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "潮",
+                  "color": "yellow"
+                },
+                {
+                  "text": "核",
+                  "color": "#9C8F5D"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1265
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

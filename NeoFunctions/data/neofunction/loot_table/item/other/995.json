@@ -1,0 +1,264 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:fire"
+                },
+                {
+                  "blocks": "minecraft:spawner"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": " 異空の火器 ",
+                  "color": "#FEEEED",
+                  "bold": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "keybind": "key.drop",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "兵装変形および情報更新",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.advancements",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "カスタム進捗画面を開く",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.playerlist",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "現在のレベルを確認",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "習得済みのスキルを設定する",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.swapOffhand",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "座標の表示",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.sneak",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "シフトスキル：冀求結界"
+                  }
+                ],
+                {
+                  "text": "未知の金属匣体。超文明の面影を感じるが、使い方を思い出せない。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e89dd802-8e49-4897-9b6d-77436ebd7dfd",
+                  "amount": 1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:74c0027b-eb33-4022-a04a-450a1e9de442",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:4067adfb-4101-45a3-b8c6-956cc718987c",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:2d454911-9109-4e36-8434-1a65d90ae7b7",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  995
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:attribute_modifiers",
+                  "minecraft:charged_projectiles"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": "ST"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

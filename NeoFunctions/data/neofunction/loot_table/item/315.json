@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lilac",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:ba9a8f33-d3d5-47c5-85f5-a5ecf4d04781",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 3
+              },
+              "minecraft:lore": [
+                {
+                  "text": "君はギザギザハートの持ち主",
+                  "color": "#F6F7F8",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "触れるものは何でも傷つける",
+                  "color": "#F6F7F8",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "世界の全てを睨みつけて",
+                  "color": "#F6F7F8",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その目は言うんだ 僕はここにいる",
+                  "color": "#F6F7F8",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "〜ハートリアライズ〜",
+                "color": "#F6F7F8",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  315
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "アーモンドが混ざった甘い味の水",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "水分補給の他、武器にも通貨にもなる",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アーモンドウォーター",
+                "color": "#C3AA88",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  257
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12823176,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 10,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 5,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

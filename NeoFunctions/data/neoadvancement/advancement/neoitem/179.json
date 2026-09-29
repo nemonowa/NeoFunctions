@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/178",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：BUG -BUG-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:179)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rこの世界には貴方にとっては\n不可思議な挙動をするのモノが余多にある。\nそれをバグと一蹴するか、小さな虫が見つかるまで\n徹底的に究明するか、それすら貴方次第である。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:jigsaw"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  179
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/2"
+  }
+}

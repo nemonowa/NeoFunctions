@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 大トロ粉末 ",
+                  "color": "#D92916",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「それから、大トロ粉末か...」",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "これはね大トロの成分は",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "ニューロン",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に作用するという"
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "サイエンスTVプログラムから着想を得ているよ。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "日本人が非常に賢く、テクノ的なニューロンを持つのは、",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "すべてが",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "バイオ・マグロ",
+                    "color": "#D92916",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に由来する"
+                  }
+                ],
+                {
+                  "text": "「...とそのサイエンスTVプログラムは言っていたんだ。」",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "──ブラッドレー・ボンド",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  695
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

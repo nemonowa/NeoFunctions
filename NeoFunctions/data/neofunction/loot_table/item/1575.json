@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "異能秘術書",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルブック🔯【マナ・ドッジ】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1575
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "۞ スペルブック ۞\n",
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "名称：マナ・ドッジ\n説明：基本の移動スキル。ソウルに加速の意思を乗せて瞬間的な加速や回避を実現するスキル。SP10消費。艦内では有り余る魔力にものを言わせた連続短距離転移が横行したため加速床が敷設されたらしい。操舵室で強化できるとか。\n\n"
+                    },
+                    {
+                      "text": "⌖習得【インストール】",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックでスキルをインストールする！"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 305"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "異空機関",
+                "generation": 0,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

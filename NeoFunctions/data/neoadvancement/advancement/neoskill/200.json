@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/199",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：白刃士官【KNIGHT】 -Close-quarters combat sergeant [KNIGHT]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:200)の習得\n§9説明：§rパッシブ：「近接武器」の装備時に運動能力が向上し、攻撃力上昇と敵と相対したときにダメージ軽減を獲得する。トリガーすると自身に攻撃力上昇を3分間付与する",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                200
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

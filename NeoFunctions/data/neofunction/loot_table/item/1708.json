@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:91d36c89-7495-4027-8ba9-87b67eba506f",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:1cbbb1f7-4b99-435b-9552-4406c904e246",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "count": 1,
+                  "id": "minecraft:arrow"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1708
+                ]
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:lore": [
+                {
+                  "text": "⚙クロックワーク・ボウ⚙",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ロドギアの最先端歯車技術によって作られた連射式機巧弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "複雑のギア層が弦を引き戻しすることによって、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "従来の弓では不可能だった高速連射が可能になる。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:5",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:小",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:矢",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:単発",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "⚙クロックワーク・ボウ⚙",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 5,
+                "ammotype": {
+                  "id": "minecraft:arrow"
+                },
+                "damage": 2,
+                "firerate": 25,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 5,
+                "maxreloadingtime": 100,
+                "recoil": -1.2,
+                "reloading": 0,
+                "speed": 1,
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:looting": 6,
+                "minecraft:sharpness": 50,
+                "minecraft:smite": 7,
+                "minecraft:sweeping_edge": 9,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:custom_name": [
+                {
+                  "text": "leader",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 蒼き",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "誓いの宝剣",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "【ブレイブルーバスター】",
+                  "color": "#29E2FF",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "leader",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  467
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

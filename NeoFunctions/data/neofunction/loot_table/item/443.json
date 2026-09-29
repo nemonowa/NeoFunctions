@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "イケメン",
+                  "color": "#EBF222",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "で",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "すまない",
+                  "color": "dark_aqua"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魔力をも凍らせる銀気を帯びたイ剣面",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "鋭角的で彫りの深い顔立ち…",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "少し古風なシルベスタ派の流れを感じる",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "装飾性と実用性の高い水準での調和しておる",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "中央部の滑らかな曲線もセクシーじゃ…",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 13,
+                "minecraft:smite": 9
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  443
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

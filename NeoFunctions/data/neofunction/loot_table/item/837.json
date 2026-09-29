@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "Ἴκαρος",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " イカロスの翼 ",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "Ἴκαρος",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "崩壊の呪い I",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "鳥の羽を集め蜜蝋で固めた仮の翼",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "神話のように一時的には自由に空を飛べるだろう",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "其の翼で太陽を目指したイカロスは",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「忠告に背き、力を過信した傲慢の徒」か",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「知恵と勇気を駆使して空を翔る先駆者」か",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その答えは飛んだ本人だけが決められる。",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 400,
+              "minecraft:enchantments": {
+                "minecraft:binding_curse": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  837
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

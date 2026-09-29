@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:neoentity/root/.neo",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTg1M2M0YmFmNThlMDhmMmRiMTcxYWZkNzdjOTBiM2JlZDBhMzdkN2E2MTZjOTI0MmRhNWVlMWUwYzU0NjVlZSJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "存在百科：エンティティ分類 -EnemyLevel-                                ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：対象を討伐or解析する。\n§9§l説明：§7全てのエンティティは脅威レベルを§e九段階§7に分類した§c存在強度§7を持っている。等星が多いほど強力な能力を持つ。追伸：目に映るもの全てに殴り掛かる前に、たまには§d「存在解析」§7してみては？",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

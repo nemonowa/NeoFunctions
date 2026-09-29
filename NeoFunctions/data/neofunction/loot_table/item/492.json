@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "カ",
+                  "color": "#B3FF00",
+                  "bold": true
+                },
+                {
+                  "text": "オ",
+                  "color": "#22FF00"
+                },
+                {
+                  "text": "ス",
+                  "color": "#0FFFCF"
+                },
+                {
+                  "text": "セ",
+                  "color": "#005EFF"
+                },
+                {
+                  "text": "イ",
+                  "color": "#7105FF"
+                },
+                {
+                  "text": "バ",
+                  "color": "#FF03DD"
+                },
+                {
+                  "text": "ー",
+                  "color": "#FF0D3D"
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sweeping_edge": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:22ad020e-cc18-4316-a1f5-7f80d527e1ae",
+                  "amount": 256,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:209cc5bf-e289-48fd-8431-8924dc01d308",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  492
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

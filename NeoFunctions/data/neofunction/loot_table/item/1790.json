@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "⚜──𝐿𝓊𝓍𝓇𝒾𝒶𝓃 𝒟𝓊𝑒𝓁𝒾𝓃𝑔──⚜",
+                "color": "#D4AF37",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "⚜──𝐿𝓊𝓍𝓇𝒾𝒶𝓃 𝒟𝓊𝑒𝓁𝒾𝓃𝑔──⚜",
+                  "color": "#D4AF37",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「銃声が鳴った時、既に決闘は終わっている」",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:1",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:HandMadeBullet",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:単発",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:93969a1b-003b-4fbf-8523-2ffea4001f64",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:0e5794e3-252e-4eec-a6a8-5e7bca8779bb",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 1
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1790
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 1,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 633
+                  }
+                },
+                "damage": 2.7,
+                "firerate": 1,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 1,
+                "maxreloadingtime": 45,
+                "recoil": -2.5,
+                "reloading": 0,
+                "speed": 2,
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

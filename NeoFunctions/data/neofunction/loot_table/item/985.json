@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#99716D",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ソルトらーめん🍜 ",
+                  "color": "#E34A1B",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#99716D"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "絶対物価5$$$",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "宇宙的",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "コク",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "が合って美味しい"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  985
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14895643,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

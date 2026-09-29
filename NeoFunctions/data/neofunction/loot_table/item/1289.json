@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "岩鎧の礼装",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【岩鎧の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "15秒間有効なシールドを獲得する",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "シールドは纏っている間60%のダメージ軽減を獲得し",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "被弾すると解除される(CD30s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "この法衣は不動の岩理を身に宿し",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "あらゆる衝撃を大地へと流し",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使い手を一時の岩城と化す",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 16743472,
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:feather_falling": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:a49f71bb-22ec-4997-bcb2-dc79547951bf",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1289
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

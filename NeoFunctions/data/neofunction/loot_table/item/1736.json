@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "引数：A",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "効果：Aの値に応じてスキルを発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 1：通常通りスキルスロット【レッド】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 2：通常通りスキルスロット【グリーン】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 3：通常通りスキルスロット【ブルー】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 4：最寄りの敵を向いてスキルスロット【レッド】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 5：最寄りの敵を向いてスキルスロット【グリーン】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "A = 6：最寄りの敵を向いてスキルスロット【ブルー】を発動する",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルール：§lSkill",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1736
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

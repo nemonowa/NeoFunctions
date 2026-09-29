@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "「",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "桜",
+                  "color": "#FEB2E7",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "」一紋字",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:47897c08-c336-4df6-aa09-31ede1b202fb",
+                  "amount": 128,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:73aa4286-c551-454c-89cb-0c5d169bc94e",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  483
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

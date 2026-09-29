@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/289",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：グラーキ黙示録 -Glaaki Apocalypse-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:290)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r読めば自分が続きを書きたくなるという欲求が生まれる危険に加え、12巻を1ページでも読めばイゴーロナクの精神支配を受ける",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  290
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

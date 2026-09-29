@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 進化式シールドLv5 ",
+                  "color": "#D91C16"
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【アーマールート】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "> 敵を倒したときに確率でセルを入手できる",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "アウターランズから来たハイテク装備",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "様々なスペル効果や金ハートを追加する能力がある",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 14228502,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:35c2358e-8b4a-4105-81c3-ace8999757aa",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:dune"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  887
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

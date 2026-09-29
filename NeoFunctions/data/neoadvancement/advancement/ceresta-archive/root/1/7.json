@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/1/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～魔力蓄積任務～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：魔物を10体討伐する\n       魔石（小）を充填させルナに売却する\n§3§l報酬：§e大統一銅貨§r§420§r§e枚§r\n§9§l説明：§f空の魔石には、魔物の魔力を吸収する性質があるの野営地に住人はこれを精製してエネルギー資源として活用しているのよ空の魔石を1つ渡すから魔物を討伐し、魔石に魔力を満たしてくれないかしら？\n完成品は私が良い値段で買い取ってあげるわ",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/1/7": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

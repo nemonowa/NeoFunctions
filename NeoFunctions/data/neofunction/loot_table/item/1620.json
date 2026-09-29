@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_boat",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "観光モードは使えません。",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "君だってピクニックに来たわけではないだろう？",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:e723ef82-0f0a-40b2-8be7-9cfd1333bcb5",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1620
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

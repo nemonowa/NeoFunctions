@@ -1,0 +1,10 @@
+{"parent": "neoadvancement:2/135",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/anchor"
+  }
+}

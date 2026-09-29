@@ -1,0 +1,838 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:redstone_wire"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true
+                },
+                {
+                  "text": " 異空の徽章 ",
+                  "color": "#FEEEED",
+                  "bold": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "keybind": "key.drop",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "兵装変形および情報更新",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.advancements",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "カスタム進捗画面を開く",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.playerlist",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "現在のレベルを確認",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "徽章端末を操作",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.swapOffhand",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "時刻を表示",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "keybind": "key.sneak",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " > ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "シフトスキル：存在解析",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "未知の情報端末。超文明の面影を感じるが、使い方を思い出せない。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  996
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "|||",
+                      "color": "blue",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "light_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 異空渡航証：OR-",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "記憶：彼方、貴官の所属する組織が発行するパスポートのような情報端末。貴方の旅の記録が自動的に加筆されていく不思議な航海記。それは「誰か」じゃない「君」だけの旅の軌跡。\n"
+                          },
+                          {
+                            "text": "機能：投げるorクリックで情報を更新する。",
+                            "color": "gold",
+                            "bold": true
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 328"
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "roll"
+                      },
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "＞下士官",
+                            "color": "red"
+                          },
+                          {
+                            "text": "\nOR-1 新兵\nOR-2 二等兵\nOR-3 一等兵\nOR-4 上等兵\nOR-5 兵長\nOR-6 伍長\nOR-7 軍曹\nOR-9 曹長\nOR-9 上級曹長",
+                            "color": "white"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 328"
+                      }
+                    },
+                    {
+                      "text": " ",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "blue",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "light_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "\n\n異名：",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：旅での特殊な活躍や偉業を記録する称号であり、艦内での「通り名」。プレフィックスとサフィックスで構成され、所持している異名の中から自由にカスタムできる。\n"
+                          },
+                          {
+                            "text": "機能：クリックで異名を変更する。",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 8"
+                      }
+                    },
+                    {
+                      "nbt": "name",
+                      "storage": "neofunction:name",
+                      "interpret": true,
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 8"
+                      }
+                    },
+                    {
+                      "text": "\n位階：",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "世界観：「願いの強さ」が力に直結する世界。\n",
+                            "color": "green"
+                          },
+                          {
+                            "text": "説明：ポープスター(ネザースター)は冀求力を強化するキボウノカケラであり、この世界の経験値である。インベントリに入れることで獲得、加算され、死んでも失われない「レベル」として蓄積される。\n",
+                            "color": "white"
+                          },
+                          {
+                            "text": "機能：クリックで詳細なステータスを確認する。",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 330"
+                      }
+                    },
+                    {
+                      "text": "Lv.",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：レベルは強さの指標であり、レベルアップすると基礎ステータスは向上し、スキルの習得枠と獲得に必要な「スキルポイント」などを得る。スキルはレベルと同じ数まで習得可能で使用可能なスキルポイントはtabから確認可能！"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "LVL"
+                      },
+                      "color": "dark_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": " HP.",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：ステータスはレベルとともに上昇する。"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "HPmax"
+                      },
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": " SP.",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：願いを叶える力の本質。スキルを行使するためのリソース。冀求力(ききゅうりょく)は「願いの強さ」の指標であり、ソウル、マナ、オーラ、スターホープ、気、魔力など様々に呼ばれるが、要は「理想を実現する為に冀(こいねが)う想いの強さ」であり、「願望への想い」や「覚悟の純度」が強いほど強くなる。"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "SPmax"
+                      },
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n⌖目標任務を確認する",
+                      "color": "dark_green",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "機能：クリックで調査中の次元の目標を表示する",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 3"
+                      }
+                    },
+                    {
+                      "text": "\n・接続宙域の制圧：0/99",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "名称：アンカーポイント\n",
+                            "color": "dark_aqua"
+                          },
+                          {
+                            "text": "説明：観測錨を降ろすのに適した特殊な座標。座標をマークし、ポスアンカーを配置することで",
+                            "color": "white"
+                          },
+                          {
+                            "text": "ネクサスへの行き来が可能",
+                            "color": "light_purple",
+                            "underlined": true
+                          },
+                          {
+                            "text": "になる。地脈や星辰の条件の揃う特殊な目標地点らしい。",
+                            "color": "white"
+                          },
+                          {
+                            "text": "\n任務：99箇所の「接続宙域」の制圧(Conquest The Anchor)",
+                            "color": "green"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n・指定災害を討伐：0/16",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：エンティティは「脅威度」ごとに星の数の九段階で分類される。星の数が多いほどより強くなる。"
+                          },
+                          {
+                            "text": "\n任務：16柱の「指定災害」を討伐の任務がある(Defeat The Boss)",
+                            "color": "green"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n・次界結晶を蒐集：0/7",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：アイテムは「希少度」ごとに星の数の九段階で分類される。メインハンドに持った時、自動で判定され、星の数が多いほどより強くなる。"
+                          },
+                          {
+                            "text": "\n任務：7色の「次界結晶」を蒐集(Complete The Monument)",
+                            "color": "green"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\nを達成し"
+                    },
+                    {
+                      "text": "ENDING",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "🎖クリア条件🎖\n",
+                            "color": "aqua"
+                          },
+                          {
+                            "text": "・99箇所の「接続宙域」の制圧(Conquest The Anchor)\n・16柱の「指定災害」を討伐(Defeat The Boss)\n・7色の「次界結晶」を蒐集(Complete The Monument)\n",
+                            "color": "white"
+                          },
+                          {
+                            "text": "の3つを達成し「エンディング」を見届ける。",
+                            "color": "green"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 3"
+                      }
+                    },
+                    {
+                      "text": "を見届ける"
+                    },
+                    {
+                      "text": "\n\n⌖転移要請を起動する",
+                      "color": "dark_blue",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "記憶：異空の並行世界 -NEXUS-\n",
+                            "color": "dark_aqua"
+                          },
+                          {
+                            "text": "説明：ネクサスには各異世界に接続するための門がつらなる連絡路がある。徽章からの「転移要請」で如何なる時空からもアクセス可能で、任務に必要なすべてが揃っている。転移には通常、SP消費や「周囲に敵が居ない」などの条件があるが、攻略済みのアンカーポイントやNEXUS次元内ではSP消費無しで転移できる。\n",
+                            "color": "white"
+                          },
+                          {
+                            "text": "機能：クリックでNEXUSに転移する（SP100消費）",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 329"
+                      }
+                    },
+                    {
+                      "text": "\nアンカー総攻略数：",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "名称：アンカーポイント\n",
+                            "color": "dark_aqua"
+                          },
+                          {
+                            "text": "説明：ノーチラス観測錨を降ろすのに適した特殊な座標。座標をマークし、ポスアンカーを配置することで",
+                            "color": "white"
+                          },
+                          {
+                            "text": "自由にネクサスへの行き来が可能",
+                            "color": "light_purple",
+                            "underlined": true
+                          },
+                          {
+                            "text": "になる。地脈や星辰の条件の揃う特殊な目標地点らしい。\n",
+                            "color": "white"
+                          },
+                          {
+                            "text": "機能：クリックで最寄りのアンカーを解析する（SP16消費）",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 331"
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "logAnchor"
+                      },
+                      "color": "blue",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\nエネミー総邂逅数：",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "説明：エンティティは「脅威度」ごとに星の数の九段階で分類される。星の数が多いほどより強くなる。\n"
+                          },
+                          {
+                            "text": "機能：クリックで最寄りの存在を解析する（SP16消費）",
+                            "color": "gold"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 331"
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "logEntity"
+                      },
+                      "color": "red",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "|||",
+                      "color": "blue",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "light_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": " 航海の記録 ",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "italic": false,
+                      "underlined": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "light_purple",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "|||",
+                      "color": "blue",
+                      "bold": true,
+                      "obfuscated": true
+                    },
+                    {
+                      "text": "\n\n"
+                    },
+                    {
+                      "text": "復起回数: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "deathCount"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "deathCount"
+                      }
+                    },
+                    {
+                      "text": "\n交易回数: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "traded_with_villager"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "traded_with_villager"
+                      }
+                    },
+                    {
+                      "text": "\n跳躍回数: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "jump"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "jump"
+                      }
+                    },
+                    {
+                      "text": "\n走破距離: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "dush"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "dush"
+                      }
+                    },
+                    {
+                      "text": "\n討伐回数: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "totalKillCount"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "totalKillCount"
+                      }
+                    },
+                    {
+                      "text": "\n与ダメージ: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "DamageDealt"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "DamageDealt"
+                      }
+                    },
+                    {
+                      "text": "\n被ダメージ: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "DamageAbsorbed"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "DamageAbsorbed"
+                      }
+                    },
+                    {
+                      "text": "\n軽減したダメージ: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "DamageResisted"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "DamageResisted"
+                      }
+                    },
+                    {
+                      "text": "\nスポナー破壊総数: ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "minedSpawner"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "score": {
+                        "name": "@a[tag=emblem,limit=1,sort=nearest]",
+                        "objective": "minedSpawner"
+                      }
+                    }
+                  ]
+                ],
+                "title": "官給品",
+                "author": "異空機関＜官給品＞"
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:written_book_content"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": "ST"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

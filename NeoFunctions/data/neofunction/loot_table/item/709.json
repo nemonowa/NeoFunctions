@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mossy_cobblestone_stairs",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "石仮面",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:enchantments": {
+                "minecraft:thorns": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:9e82b0cb-3c79-433d-9ad7-8b2e45e91faf",
+                  "amount": 0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  709
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

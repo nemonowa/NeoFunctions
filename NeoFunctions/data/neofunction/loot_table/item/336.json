@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": ">> オ ク タ ン <<",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "minecraft:redstone_block",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "↑らぴすです",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "アイ アム ア エメラルド！！！",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true
+                },
+                {
+                  "text": "        ﾀﾞｲﾔ",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「5000兆金ほしい！！！」",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "SILVER975",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "紫水晶",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "※セキタン",
+                  "color": "white",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:27d300ed-99b7-4f7f-8149-fcb33dae5e8f",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  336
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:723b8681-e5a9-4739-92f0-adec58160c16",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f22af04d-50b7-474b-8c8b-cb31b2d7c11d",
+                  "amount": 0.04,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:depth_strider": 2,
+                "minecraft:respiration": 1,
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:raiser"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水やロープ作業に強い膝下まである革靴",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "フルセットスペル🔯【亡霊の海域】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に水中呼吸エフェクトを得る(CT60s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "海賊のバッカニアブーツ",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 2916863,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1060
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

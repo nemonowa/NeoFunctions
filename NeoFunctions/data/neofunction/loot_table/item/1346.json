@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "碧天牧場で育った牛から絞ったミルクを加工して作ったバター",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "丁寧に練り上げられており、料理に使うと素材の味を引き立てる。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ひとかけら口にすれば、じんわりと力が湧いてくる",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "碧天バター",
+                "color": "#FFCB3B",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1346
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

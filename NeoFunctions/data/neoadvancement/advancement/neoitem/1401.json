@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/root/15",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：烏摩妃の魂【パールヴァティー=ソウル】 -The Soul of Umahime [Parvati Soul]-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1401)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r漢訳名は大自在天妃、烏摩妃または波羅和底。\n現図胎蔵界曼荼羅図の最外院の南西に、\n左手に三鈷戟を持ち牛に乗った姿で夫のシヴァとともに描かれる",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1401
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/ex"
+  }
+}

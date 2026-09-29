@@ -1,0 +1,6 @@
+# 命名：羊人
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/215
+
+summon husk ~ ~ ~ {Silent:1b,CustomName:{"text":"羊人","color":"gray","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv2,],DeathLootTable:"neofunction:asset/summon/215",equipment:{mainhand:{id:"minecraft:shears",count:1},offhand:{id:"minecraft:white_wool",count:1},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":16774878}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":16774878}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16774878}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1261469344,-761379855,-1536715869,536720907],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWIxNjVmMWQ5MjJjMGIwMDNjN2Y1NjkzNDk0MjM5ODhhMWM0MTcwOWI0OGQ5OWYxNThkOWFkOWRmNTlhNDljOCJ9fX0="}]}}}}}

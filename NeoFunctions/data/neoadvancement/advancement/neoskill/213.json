@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/212",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴跳躍【レゾナンス・リープ】 -Resonance Leap-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:213)の習得\n§9説明：§rトリガーすると周囲16m以内の最も遠い共鳴刻印持ちにテレポートし、大ダメージを与える。範囲内の刻印持ちの敵には追加ダメージを与える。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                213
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

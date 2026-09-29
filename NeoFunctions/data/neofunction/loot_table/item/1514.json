@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "トンキーのお面",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:0505c8cf-dd4a-40c0-ba1d-789eb9d10589",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:2b666e7e-b1b0-4908-b73e-181d1bf255cd",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  45172577,
+                  252135869,
+                  -1820865562,
+                  256173053
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRiZTNmYzAzMTFmZWZlM2Q4NzNiMmE5NjY1OGZjMDdkMzM0NDYxMGQ4ZDMyYjZjMDI0OGU4MjVlNjIzMjlmNyJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:note_block_sound": "minecraft:music.menu",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1514
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

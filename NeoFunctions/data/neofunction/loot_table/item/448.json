@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "血喰みの朱剣",
+                "color": "#731414",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 14,
+                "minecraft:sweeping_edge": 2,
+                "minecraft:mending": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ffbd8fee-9d94-490f-8978-37c1839b1144",
+                  "amount": 14,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:8840baa6-39d9-4e67-bf0b-4774684f401a",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:f2a70999-29f5-4609-8f59-8fd82a42b027",
+                  "amount": -2.8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  448
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

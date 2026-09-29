@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 進化式シールドLv2 ",
+                  "color": "#00D5FF"
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【アーマールート】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "> 敵を倒したときに確率でセルを入手できる",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "アウターランズから来たハイテク装備",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "様々なスペル効果や金ハートを追加する能力がある",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 54783,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:97937065-ba61-49f5-883c-5e75e9522386",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:dune"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  874
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

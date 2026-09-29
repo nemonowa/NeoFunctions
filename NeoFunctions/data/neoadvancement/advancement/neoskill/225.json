@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/224",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：戦場調理 -Magic bullet salvo-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:225)の習得\n§9説明：§r戦場でも強火なら美味しい！オフハンドに持ったアイテムを燃料なしで即座に焼く（消費SP10）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                225
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/96",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：地殻破砕徹甲弾                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:97)の発見\n§3報酬：§r経験値×16\n§9説明：§rアポカリプスエンティティ。艦砲射撃。浮沈式主砲塔（流体金属装甲の海を浮かぶ可動式の砲塔）から射出される、惑星の外郭を貫徹し、大陸を破砕する程度の威力である「地殻破砕徹甲弾」。八面体の艦の全面に三門ずつ、計二十四門を艦載しており、基本は艦載AIのC.A.I.が管理している。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/97\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

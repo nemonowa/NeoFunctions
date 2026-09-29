@@ -1,0 +1,191 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:short_grass"
+                },
+                {
+                  "blocks": "minecraft:tall_grass"
+                },
+                {
+                  "blocks": "minecraft:fern"
+                },
+                {
+                  "blocks": "minecraft:large_fern"
+                },
+                {
+                  "blocks": "minecraft:dandelion"
+                },
+                {
+                  "blocks": "minecraft:poppy"
+                },
+                {
+                  "blocks": "minecraft:blue_orchid"
+                },
+                {
+                  "blocks": "minecraft:allium"
+                },
+                {
+                  "blocks": "minecraft:azure_bluet"
+                },
+                {
+                  "blocks": "minecraft:red_tulip"
+                },
+                {
+                  "blocks": "minecraft:orange_tulip"
+                },
+                {
+                  "blocks": "minecraft:white_tulip"
+                },
+                {
+                  "blocks": "minecraft:pink_tulip"
+                },
+                {
+                  "blocks": "minecraft:oxeye_daisy"
+                },
+                {
+                  "blocks": "minecraft:cornflower"
+                },
+                {
+                  "blocks": "minecraft:lily_of_the_valley"
+                },
+                {
+                  "blocks": "minecraft:wither_rose"
+                },
+                {
+                  "blocks": "minecraft:sunflower"
+                },
+                {
+                  "blocks": "minecraft:lilac"
+                },
+                {
+                  "blocks": "minecraft:rose_bush"
+                },
+                {
+                  "blocks": "minecraft:peony"
+                },
+                {
+                  "blocks": "minecraft:dead_bush"
+                },
+                {
+                  "blocks": "minecraft:lily_pad"
+                },
+                {
+                  "blocks": "minecraft:pink_petals"
+                },
+                {
+                  "blocks": "minecraft:vine"
+                },
+                {
+                  "blocks": "minecraft:glow_lichen"
+                },
+                {
+                  "blocks": "minecraft:weeping_vines"
+                },
+                {
+                  "blocks": "minecraft:weeping_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:twisting_vines"
+                },
+                {
+                  "blocks": "minecraft:twisting_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:cave_vines"
+                },
+                {
+                  "blocks": "minecraft:cave_vines_plant"
+                },
+                {
+                  "blocks": "minecraft:crimson_fungus"
+                },
+                {
+                  "blocks": "minecraft:warped_fungus"
+                },
+                {
+                  "blocks": "minecraft:crimson_roots"
+                },
+                {
+                  "blocks": "minecraft:warped_roots"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 3,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:lore": [
+                {
+                  "text": "【開拓用】",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "破壊可能:",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "・草、シダ、背の高い草",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・花全般、枯れ木、スイレン",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ピンクの花びら",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ツタ、グロウベリー",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "・ネザーの菌・根全般",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "草カッター1000",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1774
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

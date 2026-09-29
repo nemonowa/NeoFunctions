@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:smite": 99,
+                "minecraft:bane_of_arthropods": 99,
+                "minecraft:looting": 99,
+                "minecraft:fortune": 99,
+                "minecraft:impaling": 99
+              },
+              "minecraft:lore": [
+                {
+                  "text": "歯車の街「ロドギア」を創造せし塩",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "☆",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "30",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "創世の塩",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "90",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "☆",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  79
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

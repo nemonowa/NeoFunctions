@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "マイクラの重力について",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1241
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "マイクラの重力加速度はエンティティによって不均一で（ニュートンもびっくり！）でその再現には主に「浮遊エフェクト」「NBT{NoGravity:1b}」「テレポート」「騎乗及びスペクテイトコマンド」「衝突判定の超圧縮による反発」によって再現されます。（attribute.generic.gravityは1.20.5以降で加速度=<重力>ブロック/ティック^2）"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "緊急離脱液",
+                "color": "#C526FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "使用と同時に煙を撒き散らし",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "自身の姿を一時的にぼかしつつ高速移動を可能にする。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「不味いが逃げるためには仕方ない。なに、煙は無臭だ。」",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1140
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12920575,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 7,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 1,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

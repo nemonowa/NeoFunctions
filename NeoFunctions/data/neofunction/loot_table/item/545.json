@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "人狼の前足",
+                "color": "#8F6B67",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "二束三文",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 9399143,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1,
+                "minecraft:sharpness": 5,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:78fb5497-a627-409f-bcd4-56f1b66bdd07",
+                  "amount": 1.45,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:iron",
+                "pattern": "minecraft:raiser"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  545
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

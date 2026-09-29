@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_13",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:431c9e1c-d605-454d-88e7-1f11d3a9dc59",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:379ad58e-4d2d-4869-b9ef-cb2d4a7d8f50",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:08efd34c-812b-4d68-84bc-36c84ed41db3",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:77dcd0df-a350-4c77-b817-5aa0dce1abcd",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "このレコードを聞いた人たちは苦しみだし、"
+                },
+                {
+                  "text": "顔が老化したかのように衰弱、果ては発狂してしまう。"
+                },
+                {
+                  "text": "そう、このレコードはジュラル星人のものであり、"
+                },
+                {
+                  "text": "そのメロディは地球人を苦しめるためにある。"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "キチ貝レコード",
+                "color": "#FF8AE4",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  109
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

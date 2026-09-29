@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "心を落ち着かせ、lv1までの毒と鈍足状態を回復する",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ハーブウォーター",
+                "color": "#CFFFD3",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1365
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13631443,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 1,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 40
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 1,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/1/7",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～クラウスの落とし物～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：溶岩の中から落とし物を回収し届ける\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§cクラウスの耐火試薬§r\n§9§l説明§r§f：私のような頭脳が道具一つのために\n危険を冒すなんて合理的ではないと思わんか？\n溶岩に落とした器具を君が代わりに拾ってきてくれれば報酬は出そう。場所はすぐ後ろにある道なりに行った溶岩溜まりだ",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/1/8": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

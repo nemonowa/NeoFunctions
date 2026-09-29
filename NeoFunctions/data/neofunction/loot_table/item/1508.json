@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "agic",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " B",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "arrett",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "82-TypeFishing ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魔弾が持つ最上の狙撃竿",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 8,
+                "minecraft:knockback": 4,
+                "minecraft:impaling": 20,
+                "minecraft:unbreaking": 4,
+                "minecraft:luck_of_the_sea": 4,
+                "minecraft:lure": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f8e8bc83-5f12-49f8-96a0-f25fc0576f42",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1508
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

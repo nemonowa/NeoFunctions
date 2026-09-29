@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/396",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：オリハルコン・フライパン -Orichalcum Frying Pan-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:397)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r伝説貴金属「オリハルコン」で作られた最強のフライパン。\nオリハルコンは非常に熱に強くこのフライパンも熱を通さない…。\n目玉焼きすら作れない料理においては最弱のフライパン。\n調理器具ではなく、防具や打撃武器として使うアイテム。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:shield"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  397
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

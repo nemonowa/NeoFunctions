@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "R99.9",
+                "color": "gold",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "R99.9",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "アウトランズからやってきた、星一番の暴れ馬。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "過酷なAPEXゲームにおいて、多くのレジェンドを勝利に導いてきた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:23",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:特大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:9mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "3Dmodel:zoma",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:28b9f596-d3c6-4885-84ef-3b5aeec59c2d",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:fc6de583-41d4-4452-a051-9281da9e4380",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1706
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 23,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 634
+                  }
+                },
+                "damage": 1,
+                "firerate": 0,
+                "fireweapon": 1,
+                "inoncooltime": 0,
+                "life": 1190,
+                "maxammo": 23,
+                "maxreloadingtime": 100,
+                "recoil": -2,
+                "reloading": 0,
+                "speed": 1.5,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

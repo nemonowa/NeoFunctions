@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "...剛撃の雫...",
+                "color": "#FFCFD0",
+                "bold": true,
+                "italic": false,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "A drop of strength.",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "強化魔法が込められた低位のポーション。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  340
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16764880,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": 12000,
+                    "show_particles": false
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

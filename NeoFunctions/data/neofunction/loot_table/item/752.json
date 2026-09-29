@@ -1,0 +1,220 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "✡",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "魔剣",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "✞",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "YORUNEKO",
+                  "color": "dark_purple",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魂の誘惑 enchantment.level.999",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "魔剣の吸命 enchantment.level.999",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "黒猫",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の皮を被った",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "悪魔",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が憑依した",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "魔剣",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "持つものに",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "悪魔の生命力",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を与える。",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "代償として",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "持ち主の寿命",
+                    "color": "dark_blue"
+                  },
+                  {
+                    "text": "を奪う。",
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "悪魔",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "はいつも",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "憎悪の激怒",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "はいつも",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を起こしており、",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "その怒りの",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "炎",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "は永遠に相手を焼き尽くす",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "--囁き------------------------",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "＊「僕を使うんだって？」",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "＊「そんじゃ、君の寿命を頂くよ。」",
+                  "color": "dark_purple"
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:9ff2af95-32c9-4ce6-acbf-fd43f83e8be7",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:0b3c3524-4491-4391-be0a-14d40bf9032e",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:27098bd4-b79d-4173-8f62-be07c575d11b",
+                  "amount": -666,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  752
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

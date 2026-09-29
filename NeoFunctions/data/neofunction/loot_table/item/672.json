@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "AK-47",
+                "color": "#752B10",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "1947年に開発されたのアサルトライフル",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "旧ソビエトにてКала́шниковが作った銃だ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "装弾数:30",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:7.62mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  672
+                ]
+              },
+              "minecraft:custom_data": {
+                "gun": 1,
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

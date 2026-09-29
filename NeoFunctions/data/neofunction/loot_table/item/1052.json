@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:oak_planks"
+                },
+                {
+                  "blocks": "minecraft:oak_log"
+                },
+                {
+                  "blocks": "minecraft:oak_wood"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "粗削りの戦斧",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "野営地近くの木を切るにも",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "魔物を追い払うにも頼れる一本",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 66,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 1,
+                "minecraft:sharpness": 5,
+                "minecraft:efficiency": 1,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1052
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# 命名：古代兵器ブリオン
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/368
+
+summon husk ~ ~ ~ {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["marimo_cave_enemy","marimo_ghoul"],CustomName:{"text":"古代兵器ブリオン","color":"dark_green"},active_effects:[{id:"minecraft:speed",amplifier:2b,duration:-1},{id:"minecraft:strength",amplifier:2b,duration:-1}],attributes:[{id:"minecraft:knockback_resistance",base:0.8},{id:"minecraft:attack_damage",base:3},{id:"minecraft:attack_knockback",base:1.5},{id:"minecraft:spawn_reinforcements",base:0.8}],Tags:[lv2,elite],DeathLootTable:"neofunction:asset/summon/368",equipment:{feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":6582835}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":6582835}},head:{id:"minecraft:moss_block",count:1}}}

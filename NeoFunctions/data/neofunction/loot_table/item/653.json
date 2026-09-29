@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "agic",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " B",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "arrett",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "82A3 ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魔弾が持つ最上の狙撃弓",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:power": 20,
+                "minecraft:punch": 4,
+                "minecraft:flame": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2264e471-e03a-4439-a69c-d9523fdbd783",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  653
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

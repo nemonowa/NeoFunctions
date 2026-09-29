@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:respiration": 4,
+                "minecraft:aqua_affinity": 4
+              },
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:host"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「───水底の 猫をすくえよ ノーチラス」",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "SCP-083-JP",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  582
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

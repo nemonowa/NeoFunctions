@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "水精霊の羽衣",
+                "color": "#3BDEFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【自癒循環】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "水の粉に癒し魔法を織り込んだ装備。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "戦いの最中でも、流れるように傷を塞ぐ。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "装備時、10秒間の再生能力を得る",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "CD:60s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 3923711,
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1297
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:6e48296b-4a90-420d-b546-d454e83be239",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

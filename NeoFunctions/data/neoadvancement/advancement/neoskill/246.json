@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/245",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：アドレナリン注射【コンバットスティム】 -Adrenaline injection [Combat Stim]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:246)の習得\n§9説明：§r自らに強壮剤を打ち込み、力・速さ・耐性を一時的に引き上げる自己強化スキル。前線に出て立ち回る際の下地になる。（SP25消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                246
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

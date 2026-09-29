@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||||",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 原始のホープスター ",
+                  "color": "yellow",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||||"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "本来、",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ネザースター",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "は単なる"
+                  },
+                  {
+                    "text": "ビーコン",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "の素材ではない"
+                  }
+                ],
+                [
+                  {
+                    "text": "それは",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "希望の結晶体",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "。"
+                  },
+                  {
+                    "text": "冀望を現実に確定させる力",
+                    "color": "light_purple",
+                    "underlined": true
+                  },
+                  {
+                    "text": "の"
+                  }
+                ],
+                [
+                  {
+                    "text": "【冀求力】",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を強化する",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "願いの集合体",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "、",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "ホープスター",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "である",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "もし君に",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "結末",
+                    "color": "green"
+                  },
+                  {
+                    "text": "を変えようと願う"
+                  },
+                  {
+                    "text": "【強い想い】",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "があるのなら"
+                  }
+                ],
+                [
+                  {
+                    "text": "希望の星",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "は君の全身に流れ込み、",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "願いを実現するための",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "異能",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "に目醒めてゆくだろう。"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  850
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

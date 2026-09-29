@@ -1,0 +1,29 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/37": true
+              }
+            }
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:sweet_berries"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:asset/skill/37"
+  }
+}

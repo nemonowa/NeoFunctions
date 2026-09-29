@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1002
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "純魂焔の橙晶鍵 -Orange Crystal-                                 ",
+        "color": "gold",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§kxx§r Arcus Ark Crystal Key §kxx§r\n",
+      "bold": true,
+      "color": "gold",
+      "italic": false,
+      "underlined": true,
+      "extra": [
+        {
+          "translate": "説明：それは橙色に燃えゆく調和の純炎。強力無比なキーアイテムであり、世界に散らばり、海や山、国や城、個や物に取り込まれ、超常の力の源となっている。",
+          "color": "white",
+          "bold": false,
+          "underlined": false,
+          "extra": [
+            {
+              "translate": "\n条件：明滅の立体砂漠-SunSandBox-を制覇する\n報酬：Rune of Orange Crystal Monument",
+              "color": "gold",
+              "bold": false,
+              "underlined": true
+            }
+          ]
+        }
+      ]
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "neoadvancement:0/1",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "item_frame",
+            "minecraft:nbt": "{Tags:[\"cmd1002\"],Item:{components:{\"minecraft:custom_model_data\":{floats:[1002.0f]}}}}"
+          }
+        }
+      }
+    }
+  }
+}

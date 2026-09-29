@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "SP自然回復 （10:00）",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "煮沸して病気の心配の無くなった水",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "水分補給はSPを自然回復を促進する。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "5分間の間、5秒に一回最大SPの1%回復する。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "（諺）その土地の水を飲んだら、その土地の儀礼に従う",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": true,
+                  "underlined": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "煮沸した水入りの瓶 ",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "（元汚水100%!!）",
+                  "color": "#2E9DFF",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  70
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 3055103,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:bad_omen",
+                    "amplifier": 0,
+                    "duration": 12000
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

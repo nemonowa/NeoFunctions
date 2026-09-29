@@ -1,0 +1,254 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/67"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/225"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/245"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/292"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/389"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/469"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/470"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/471"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/472"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/473"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/474"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/475"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/476"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/477"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/478"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/485"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/537"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/553"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/669"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/671"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/672"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/673"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/674"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/751"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/752"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/753"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/754"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/764"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/765"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/766"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/767"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/807"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/817"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/867"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/926"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/927"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/928"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1158"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1171"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1172"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1173"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1174"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1397"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1702"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1823"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1832"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1835"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:item/1860"
+        }
+      ]
+    }
+  ]
+}

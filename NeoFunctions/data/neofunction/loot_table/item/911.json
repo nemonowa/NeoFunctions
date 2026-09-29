@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "胃の中のリヴァイアサン"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "大海よりかは食べ応えがあった。"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

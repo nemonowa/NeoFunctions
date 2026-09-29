@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ガスマスク",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "毒無効 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【状態異常】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Lvl.1までの状態異常「毒」を解除する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "解除した時、満腹度を消費し、1%で装備が壊れる。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:391dda29-e097-4e15-9cdd-e40ec1d76319",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  1789551901,
+                  1323716437,
+                  -1965888702,
+                  -913002117
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWI1OTgzZmJjMmUzMzQ2M2FkZWU3NjMzYmViNWE5MzY0NmM5NGVkYWJjY2JlZWZkYzk1YzRmODE2ZWVkIn19fQ=="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  199
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

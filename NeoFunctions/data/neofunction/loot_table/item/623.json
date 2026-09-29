@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "火縄銃【猪左久】"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "マッチロック式の火縄銃\n前部装填型で滑腔銃身の火縄銃。点火方式はマッチロック式（火縄式）"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 1124,
+                  "max": 1126
+                },
+                "y": {
+                  "min": 55,
+                  "max": 70
+                },
+                "z": {
+                  "min": 1435,
+                  "max": 1437
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/dungeon/colorofsanctuary/start"
+  }
+}

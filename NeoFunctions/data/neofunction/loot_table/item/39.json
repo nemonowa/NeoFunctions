@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "テレポートポイント",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                "CustomNameVisible": 0,
+                "DisabledSlots": 4144959,
+                "Enchantments": [
+                  {
+                    "id": "minecraft:fortune",
+                    "lvl": 0
+                  }
+                ],
+                "Fire": -1,
+                "HideFlags": 1,
+                "Invisible": 1,
+                "NoBasePlate": 1,
+                "NoGravity": 1,
+                "Pose": {
+                  "Body": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "Head": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "LeftArm": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "LeftLeg": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "RightArm": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "RightLeg": [
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                "ShowArms": 1,
+                "Tags": [
+                  "marked",
+                  "roll"
+                ],
+                "id": "minecraft:armor_stand",
+                "equipment": {
+                  "head": {
+                    "count": 1,
+                    "id": "minecraft:beacon",
+                    "components": {
+                      "minecraft:enchantments": {
+                        "minecraft:fortune": 1
+                      }
+                    }
+                  }
+                }
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ワープ先になる"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "テレポートポインター",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  39
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

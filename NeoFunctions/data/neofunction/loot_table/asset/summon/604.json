@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1152"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1153"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1154"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1155"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1156"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1157"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:asset/base"
+        }
+      ]
+    }
+  ]
+}

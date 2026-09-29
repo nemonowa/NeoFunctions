@@ -1,0 +1,6 @@
+# 命名：黄金の巨象 タイタン・メトル
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/790
+
+summon zombie ~ ~ ~ {Silent:1b,NoAI:0b,Health:150f,Passengers:[{id:"minecraft:item_display",Glowing:1b,Tags:["elite"],CustomName:{"text":"黄金の巨象 タイタン・メトル","color":"gold","bold":true,"italic":false},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,-1.7f,0.7f],scale:[30f,30f,30f]},item:{id:"minecraft:command_block_minecart",count:1,components:{"minecraft:custom_name":{"text":"黄金の巨象 タイタン・メトル","color":"gold","bold":true,"italic":false},"minecraft:custom_model_data":{floats:[157.0f]}}}}],CustomName:{"text":"黄金の巨象 タイタン・メトル","color":"gold","bold":true,"italic":false},active_effects:[{id:"minecraft:resistance",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:150},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:movement_speed",base:0.17},{id:"minecraft:attack_damage",base:8}],Tags:[lv3,suncanoncaster,look,except,enemy,elite],DeathLootTable:"neofunction:asset/summon/790"}

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ワズキャン特製：お 子 様 ラ ン チ"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「大丈夫、みんなにも振舞ったさ。」"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

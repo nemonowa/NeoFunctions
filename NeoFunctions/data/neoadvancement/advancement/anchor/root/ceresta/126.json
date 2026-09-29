@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/125",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "虫喰いの穀塔 -Moth-eaten cereal tower-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:126)に到達する。\n§3報酬：§r経験値×32\n§9説明：§r虫食みの天井から月光が斑らに差し込み、喰い散らかされた巨穀の山と不気味な羽音が沈黙を侵食する、崩壊寸前の貯蔵庫。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/126": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

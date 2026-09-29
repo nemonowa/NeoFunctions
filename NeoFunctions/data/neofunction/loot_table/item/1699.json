@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "土属性の祈りが込められた馬具",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "馬に装着することで「岩鎧の加護」を付与する。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用すると加護は消費される。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【岩鎧の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "移動するとプレイヤーに土シールド10sを付与する。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "岩鎧の鐙(あぶみ)",
+                "color": "#7D3B09",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 8207113,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1699
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

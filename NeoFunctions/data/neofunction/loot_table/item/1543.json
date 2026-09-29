@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロ☆コンバットアーマー",
+                "color": "#96548F",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙水結晶を組み込んだ防具",
+                  "color": "#FAB3FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "水の魔力を帯び、湿地での戦闘能力を高める。",
+                  "color": "#FAB3FF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:respiration": 3,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:2871527b-6299-477d-8e5d-8239075a8add",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:8ce38293-8404-4e92-a0a5-6b02062e3503",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:e15fc4ee-0627-49ab-b3fa-48aaddab6cc0",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:rib"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1543
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

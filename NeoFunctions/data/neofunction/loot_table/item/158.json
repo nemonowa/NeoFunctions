@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:tnt"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "キラークイーン",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "「その、下品なんですが…フフ…下品なんで言うのやめておきますね…」",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルエッグ=サモン【クリーパー】",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 7
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:creeper",
+                "DeathLootTable": "empty",
+                "CanPickUpLoot": 1,
+                "powered": 1,
+                "Fuse": 200,
+                "ignited": 1,
+                "CustomName": {
+                  "text": "キラークイーン",
+                  "color": "light_purple"
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  158
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

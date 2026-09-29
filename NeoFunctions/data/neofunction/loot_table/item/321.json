@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:grass_block"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "クランベリー",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【Craneberry】",
+                  "color": "red"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "甘酸っぱい",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "赤い果実",
+                    "color": "red"
+                  },
+                  {
+                    "text": "。そのままでも食べられるが",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "様々な食材や薬品に加工することができる。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "食べると",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "満福度と魔力",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "を回復し",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "攻撃力",
+                    "color": "red"
+                  },
+                  {
+                    "text": "が上昇する。"
+                  }
+                ],
+                {
+                  "text": "鶴 (crane) が好むベリー (berry) の意味。",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  321
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

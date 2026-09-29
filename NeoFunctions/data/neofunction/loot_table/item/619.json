@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "♐サジタリウス♐",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "実体の無い矢を射出する凡庸な弓",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "静音性や携帯性が異界との相性が良く",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "あらゆる伝説の弓や銃火器を差し置いて",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "射撃騎士オヌヌメ兵装として採用されている",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 1,
+                "minecraft:power": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  619
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

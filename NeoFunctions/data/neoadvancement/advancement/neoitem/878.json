@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/877",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：進化式シールドLv3 -Evolving Shield Lv3-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:878)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rスペルアイテム🔯【エボ・アーマー】\n> この装備は壊れた時、進化する\nセットスペル🔯【アーマールート】\n> 四部位フルセットで装備すると\n敵を倒したときに確率でセルを入手できる\nアウターランズから来たハイテク装備\n様々なスペル効果や金ハートを追加する能力がある",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  878
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

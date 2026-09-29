@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "エンダーの鞭"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "刺さった敵にTP？"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

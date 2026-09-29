@@ -1,0 +1,12 @@
+# 命名：.neo
+# 説明：
+# >world?
+# =/function neofunction:system/fish_brewing/.neo
+# 【変更：2026-09-27 26.3対応】26.3 で醸造台の BrewTime が short から int に変わったため、NBT 一致判定の型を合わせる
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[].components{"minecraft:potion_contents":{potion:"minecraft:awkward"}} if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run summon item_display ~ ~ ~ {Tags:["resolve","del"],view_range:0}
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[].components{"minecraft:potion_contents":{potion:"minecraft:awkward"}} if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run loot replace entity @e[tag=resolve,limit=1,sort=nearest] container.0 loot neofunction:item/1507
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[{Slot:0b}].components{"minecraft:potion_contents":{potion:"minecraft:awkward"}} unless data block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_model_data".floats[0] if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run item replace block ~ ~ ~ container.0 from entity @e[tag=resolve,limit=1,sort=nearest] container.0
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[{Slot:1b}].components{"minecraft:potion_contents":{potion:"minecraft:awkward"}} unless data block ~ ~ ~ Items[{Slot:1b}].components."minecraft:custom_model_data".floats[0] if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run item replace block ~ ~ ~ container.1 from entity @e[tag=resolve,limit=1,sort=nearest] container.0
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[{Slot:2b}].components{"minecraft:potion_contents":{potion:"minecraft:awkward"}} unless data block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_model_data".floats[0] if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run item replace block ~ ~ ~ container.2 from entity @e[tag=resolve,limit=1,sort=nearest] container.0
+kill @e[tag=resolve,limit=1,sort=nearest]
+execute if data block ~ ~ ~ {BrewTime:1} if data block ~ ~ ~ Items[].components{"minecraft:custom_model_data":{floats:[1507.0f]}} if data block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect run function neofunction:system/fish_brewing/run

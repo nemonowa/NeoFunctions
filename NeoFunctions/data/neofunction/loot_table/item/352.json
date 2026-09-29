@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_propagule",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:tall_grass"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|+|",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ウィル",
+                  "color": "dark_aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "リーフ",
+                  "color": "green",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|+|"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "セレスタ",
+                    "color": "#C3D825",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "名産の",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "万能",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "素材",
+                    "color": "dark_green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "となる不思議な",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "霊葉",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "淹れたお茶には",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "精神統一",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "などの効能がある。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 4
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  352
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

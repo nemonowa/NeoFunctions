@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "禁忌・俺は人間をやめるぞ！",
+                "color": "dark_red",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "俺は人間を超越するッ！！",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  867
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 11862143,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 5,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 100,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 100,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 5,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 100,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "amplifier": 100,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:water_breathing",
+                    "amplifier": 100,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 100,
+                    "duration": 72000
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

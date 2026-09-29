@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "賢者の魔導瓶",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "魔力",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を吸収し貯蓄する",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "鉱石",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "伝説として語られる最高純度の魔石。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "大魔道士",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "は究極の魔法の動力源として、",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "軍事国家",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "は戦略兵器の動力源として使用する。",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "魔力を回復させたものは高値で取引される。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 2031,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  19
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

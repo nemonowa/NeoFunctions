@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "漁師の長靴",
+                "color": "#78C4FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水辺で滑りにくい丈夫な長靴",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 2629936,
+              "minecraft:enchantments": {
+                "minecraft:depth_strider": 4,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:33c259e2-5a66-4bc0-a70e-8f8ce98997ea",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1759
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

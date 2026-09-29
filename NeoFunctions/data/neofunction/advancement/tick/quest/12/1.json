@@ -1,0 +1,28 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "fish_something": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest12]}"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:salmon",
+            "minecraft:cod",
+            "minecraft:tropical_fish",
+            "minecraft:pufferfish"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/quest/counter/1"
+  }
+}

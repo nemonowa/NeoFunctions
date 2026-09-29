@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/214",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴旋律【レゾナンス・メロディ】 -Resonant Melody-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:215)の習得\n§9説明：§rトリガーすると自身に基礎回復量が入るほか、周囲16m以内にいる共鳴刻印持ちの数(最大6体)に応じて追加回復を得る。刻印持ちが多いほど回復量が増加する。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                215
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

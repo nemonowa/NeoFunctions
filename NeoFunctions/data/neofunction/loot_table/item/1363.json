@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "ほんのり甘く、体力を少し回復。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "フレッシュミルク",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1363
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16777215,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 0,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 1,
+                    "duration": 40
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

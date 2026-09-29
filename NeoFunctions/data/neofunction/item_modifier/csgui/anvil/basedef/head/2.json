@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:armor",
+      "amount": 2,
+      "operation": "add_value",
+      "slot": "head",
+      "id": "neofunction:attribute/csgui/anvil/basedef/head/2/0"
+    }
+  ],
+  "replace": true
+}

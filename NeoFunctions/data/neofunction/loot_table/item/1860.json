@@ -1,0 +1,229 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:lore": [
+                {
+                  "text": "複製ではない。原初から分かたれた断片そのもの",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "欠けているのは、ただ時間だけ",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "◆ ",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "再生能力 IV",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (2:00)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "◆ ",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "火炎耐性",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (2:00)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "◆ ",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "衝撃吸収 V",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (2:00)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "◆ ",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "耐性 IV",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (2:00)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "◆ 使用時",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 最大体力の ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "70%",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を回復",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " 使用回数 ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "無限",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " クールダウン ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "0:10",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " クールダウン中の使用は ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "砕けて消滅",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、効果も不発",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "◆ ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "欠片",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "のトーテム",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": " ◆",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1860
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

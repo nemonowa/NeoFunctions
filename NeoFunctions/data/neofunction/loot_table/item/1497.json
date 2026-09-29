@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1497
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "光を屈折させる結晶の身で海と同化し、純粋なる水の中でのみ王として君臨する宝石魚。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：マリンフォーチュンのポーション（幸運レベル5 4:00/イルカの好意レベル4 4:00/再生能力 4:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Super:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "extra": [
+                                    {
+                                      "text": "✯",
+                                      "color": "#FF602C"
+                                    }
+                                  ],
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルミナアクアジェム",
+                "color": "#4576FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 4800,
+                    "id": "luck"
+                  },
+                  {
+                    "amplifier": 3,
+                    "duration": 4800,
+                    "id": "dolphins_grace"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 4800,
+                    "id": "regeneration"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"マリンフォーチュンの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

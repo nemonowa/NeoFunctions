@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "黄金実りプレート",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ルミーナ特製の人気セットメニュー。  ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "黄金麦パン ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ランプウールシチュー ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "豊穣サラダ ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ローストチキン ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "季節の果物  ",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ボリューム満点で、冒険前に食べる人が多い。",
+                  "color": "#FFDA8F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "再生（02:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "暗視（02:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "移動速度上昇（02:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "即時回復Ⅰ",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1748
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

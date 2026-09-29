@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "vs対",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "老人",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "用【メリケンサック】"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "耄碌した老害どもを理解らせる為のメリケンサック",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:296b62bb-73f2-44e8-85df-d09c11a5c59d",
+                  "amount": 0.4,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5be0c792-b281-48ef-9167-b663815b4650",
+                  "amount": -0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ff177a32-3ede-4aae-9e03-4a7c0299ac4e",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  223
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

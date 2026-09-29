@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 渇命丸 ",
+                  "color": "#8A612C",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "NINJA",
+                    "color": "#8A612C",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の戦闘用携行丸薬",
+                    "color": "dark_gray",
+                    "bold": false
+                  }
+                ],
+                {
+                  "text": "いつから保存されているのか",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "どこから出してきたのかは永久の謎",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【SUSHI忍法】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "食べても消費しないことがある",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "あなたがNINJAなら「おかわり」追加！",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  133
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

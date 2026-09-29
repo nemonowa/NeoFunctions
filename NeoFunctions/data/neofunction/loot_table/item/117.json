@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ワザップジョルソ",
+                "color": "#DB7A25",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "あなたを詐欺罪と器物損壊罪で訴えます！",
+                  "color": "gold",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "理由はもちろんお分かりですね？",
+                  "bold": true
+                },
+                {
+                  "text": "あなたが皆をこんなウラ技で騙し、セーブデータを破壊したからです！",
+                  "bold": true
+                },
+                {
+                  "text": "覚悟の準備をしておいて下さい。",
+                  "bold": true
+                },
+                {
+                  "text": "ちかいうちに訴えます。裁判も起こします。",
+                  "bold": true
+                },
+                {
+                  "text": "裁判所にも問答無用できてもらいます。",
+                  "bold": true
+                },
+                {
+                  "text": "慰謝料の準備もしておいて下さい！",
+                  "bold": true
+                },
+                {
+                  "text": "貴方は犯罪者です！刑務所にぶち込まれる楽しみにしておいて下さい！",
+                  "bold": true
+                },
+                {
+                  "text": "いいですね！",
+                  "bold": true,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  117
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "あなたを詐欺罪と器物損壊罪で訴えます！理由はもちろんお分かりですね？あなたが皆をこんなウラ技で騙し、セーブデータを破壊したからです！覚悟の準備をしておいて下さい。ちかいうちに訴えます。裁判も起こします。裁判所にも問答無用できてもらいます。慰謝料の準備もしておいて下さい！貴方は犯罪者です！刑務所にぶち込まれる楽しみにしておいて下さい！",
+                    "bold": true,
+                    "underlined": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "／wdr",
+                          "color": "red"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "text": "...いいですね？",
+                    "bold": true,
+                    "underlined": true
+                  }
+                ],
+                "title": "",
+                "author": "ジョルソ・ジョバァーナ",
+                "generation": 2
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:turtle_scute",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "D",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 龍鱗 ",
+                  "color": "#3AA152",
+                  "obfuscated": false
+                },
+                {
+                  "text": "D"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "龍のウロコから獲得できる強力な素材",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "竜族連盟は不当な密猟に困っているらしい",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 7,
+                "minecraft:fire_protection": 7,
+                "minecraft:protection": 3,
+                "minecraft:mending": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:f600b07c-d50e-4692-90c6-900907f075fc",
+                  "amount": 3.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:283c0a33-d17b-4e3c-afcc-d0c21aac5998",
+                  "amount": 9.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:4e2d9a27-7296-4e8b-87f8-545d07236da4",
+                  "amount": 0.02,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  194
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "腹筋6LDK"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "仕上がっている。\nproduced by 筋肉本舗"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:aqua_affinity": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "雨と潮が混じり合い、湿った魔力を帯びた核。",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "雨",
+                  "color": "#5CBAC4",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "潮",
+                  "color": "#616E8C"
+                },
+                {
+                  "text": "核",
+                  "color": "#5CBAC4"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1264
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

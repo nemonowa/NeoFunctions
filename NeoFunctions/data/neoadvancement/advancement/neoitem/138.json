@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/137",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：小さな触手がはみ出した得体の知れないボール状配給食   -A mysterious ball-shaped ration with tiny tentacles sticking out.-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:138)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rプラントピアのショーユ工場で見つけた謎の配給食\n違法労働を強いられている肉体労働者が食べていたようで\n一般人が口にしないジゴク・アトモスフィアの\nデビルフィッシュからなる所謂\nタコヤキ・ボール的なサムシングかと推察されている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  138
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

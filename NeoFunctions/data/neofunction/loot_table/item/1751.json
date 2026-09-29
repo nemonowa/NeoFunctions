@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "夕焼けベリーワイン",
+                "color": "#FF7936",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "夕焼け色の美しい果実酒。疲れた身体を優しく癒す。",
+                  "color": "#E07F4E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1751
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16742710,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 400
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 3,
+                    "duration": 1800
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

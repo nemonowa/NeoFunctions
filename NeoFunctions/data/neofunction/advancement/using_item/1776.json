@@ -1,0 +1,30 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "has_in_mainhand": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "item": {
+          "items": [
+            "minecraft:splash_potion"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                1776
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/using_item/1776"
+  }
+}

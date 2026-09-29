@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1492
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "戦場に流れた血肉を啜り、剥き出しの赤き肉身を震わせて死地を泳ぐ血肉の飢餓魚。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：ハンガーフレンジーのポーション（衰弱レベル2 3:00/空腹レベル4 3:00/攻撃力上昇レベル5 3:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Epic:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "light_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ブラッドカーニヴォアフィッシュ",
+                "color": "#85203B",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 1,
+                    "duration": 3600,
+                    "id": "wither"
+                  },
+                  {
+                    "amplifier": 3,
+                    "duration": 3600,
+                    "id": "hunger"
+                  },
+                  {
+                    "amplifier": 4,
+                    "duration": 3600,
+                    "id": "strength"
+                  },
+                  {
+                    "amplifier": 2,
+                    "duration": 3600,
+                    "id": "haste"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"ハンガーフレンジーの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

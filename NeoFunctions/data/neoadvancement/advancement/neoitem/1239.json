@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1238",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ミエル・クラウド -Miel Cloud-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1239)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r雲のようにふわふわな砂糖菓子を、魔力の熱でゆっくり溶かして固めた逸品。\n舌の上でとろけるほどの軽さで、ほんのりミルクの香りが残る。\n溶けたあと、体に少し暖かい魔力が巡る感覚があると言われている。\n天気の悪い日限定で販売される“空の癒し菓子”。\n\nメルのコメント：\n\n「雲って食べると甘いのよ？　ちゃんと、ふわっとね！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1239
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

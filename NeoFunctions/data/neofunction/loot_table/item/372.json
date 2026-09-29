@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "聖なる血",
+                "color": "aqua",
+                "bold": false,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "これがわたしの血である。",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  372
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:regeneration",
+                "custom_color": 16725605
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

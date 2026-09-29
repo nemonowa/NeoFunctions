@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/root/11",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：Arcus Ark Crystal Key -Arcus Ark Crystal Key-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1001)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rそれは赤色に燃えゆく決意の純炎。強力無比なキーアイテムであり、世界に散らばり、海や山、国や城、個や物に取り込まれ、超常の力の源となっている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_block"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1001
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

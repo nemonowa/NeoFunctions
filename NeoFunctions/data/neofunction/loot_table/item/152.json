@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_banner",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星屑の十字軍",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "幽波紋、タロットカード、肉の芽...",
+                  "color": "dark_gray"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 3,
+                "minecraft:fire_protection": 3,
+                "minecraft:feather_falling": 3,
+                "minecraft:blast_protection": 3,
+                "minecraft:projectile_protection": 3,
+                "minecraft:smite": 3
+              },
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "white"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  152
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

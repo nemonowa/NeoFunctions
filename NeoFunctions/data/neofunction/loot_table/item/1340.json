@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "マンドラゴア採取チケット",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セレスタのルクス地方で有名な",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "マンドラゴアの栽培所",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に入場するためのチケット",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "投げ捨てると",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「五分間」",
+                    "color": "red"
+                  },
+                  {
+                    "text": "貸し切りで採り放題！"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:loyalty": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1340
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "quest": 102,
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "parent": "neoadvancement:neo/root/item/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            27
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "宝具収容：無限の記録兵（2000i）～～～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：§f固有アイテムを2000種以上収集する。\n§9§l報酬：§f経験値 +称号"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "logItem": {
+              "min": 2000
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

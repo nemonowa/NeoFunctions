@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "話の途中だが",
+                  "color": "green",
+                  "bold": true
+                },
+                {
+                  "text": "ワイバーン",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                  "text": "だ！"
+                }
+              ],
+              "minecraft:entity_data": {
+                "Size": 4,
+                "Tags": [
+                  "aaa"
+                ],
+                "CustomName": {
+                  "text": "ワイバーン",
+                  "color": "red",
+                  "bold": true
+                },
+                "id": "minecraft:phantom"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1525
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

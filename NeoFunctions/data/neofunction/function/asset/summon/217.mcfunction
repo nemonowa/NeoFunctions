@@ -1,0 +1,6 @@
+# 命名：魔鉱蟲
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/217
+
+summon spider ~ ~ ~ {CustomName:{"text":"紫鉱蟲","color":"dark_purple","bold":true,"italic":false},Glowing:1b,Team:"dark_purple",Passengers:[{id:"minecraft:falling_block",CustomName:{"text":"紫蟲鉱","color":"dark_purple","bold":true,"italic":false},BlockState:{id:"minecraft:amethyst_cluster"},Glowing:0b,Time:-3000,DropItem:0b,CancelDrop:0b,HurtEntities:1b,FallHurtMax:50,fall_distance:25f,FallHurtAmount:25f},{id:"minecraft:area_effect_cloud",CustomName:{"text":"鉱蟲紫","color":"dark_purple","bold":true,"italic":false},custom_particle:{type:"minecraft:block",block_state:"minecraft:purple_glazed_terracotta"},Radius:1.3f,Duration:20,potion_contents:{custom_effects:[{id:"minecraft:poison",amplifier:9b,duration:60}]}}],active_effects:[{id:"minecraft:speed",amplifier:4b,duration:-1},{id:"minecraft:jump_boost",amplifier:4b,duration:-1},{id:"minecraft:fire_resistance",amplifier:0b,duration:-1},{id:"minecraft:slow_falling",amplifier:0b,duration:-1}],Tags:[lv3,],DeathLootTable:"neofunction:asset/summon/217"}

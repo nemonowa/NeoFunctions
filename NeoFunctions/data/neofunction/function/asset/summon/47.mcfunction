@@ -1,0 +1,6 @@
+# 命名：エリア進入用AEC
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/47
+
+summon armor_stand ~ ~ ~ {NoGravity:1b,Small:1b,Invisible:1b,Tags:["aaa"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:electric_spark"},Radius:3f,Duration:999,Tags:["aaa"],Passengers:[{id:"minecraft:armor_stand",Small:1b,Invisible:1b,Tags:["aaa"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:electric_spark"},Radius:3f,Duration:999,Tags:["aaa"],Passengers:[{id:"minecraft:armor_stand",Small:1b,Invisible:1b,Tags:["aaa"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:electric_spark"},Radius:3f,Duration:999,Tags:["aaa"],CustomName:{"text":"プリンの魔法"},potion_contents:{custom_effects:[{id:"minecraft:slow_falling",amplifier:0b,duration:99}]}}]}],CustomName:{"text":"プリンの魔法"},potion_contents:{custom_effects:[{id:"minecraft:slow_falling",amplifier:0b,duration:99}]}}]}],CustomName:{"text":"プリンの魔法"},potion_contents:{custom_effects:[{id:"minecraft:slow_falling",amplifier:0b,duration:99}]}}],CustomName:{"text":"エリア進入用AEC"},Tags:[ex,],DeathLootTable:"neofunction:asset/summon/47"}

@@ -1,0 +1,6 @@
+# 命名：チェーン装マン
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/294
+
+summon zombie ~ ~ ~ {Silent:1b,Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:block",block_state:"minecraft:nether_wart_block"},Radius:0.6f,Duration:20,CustomName:{"text":"走羊灯劇場"},potion_contents:{custom_effects:[{id:"minecraft:darkness",amplifier:0b,duration:120,show_particles:0b}]}}],CustomName:{"text":"チェーン装マン","color":"dark_gray","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv7,],DeathLootTable:"neofunction:asset/summon/294",equipment:{mainhand:{id:"minecraft:iron_axe",count:1},offhand:{id:"minecraft:iron_axe",count:1},feet:{id:"minecraft:chainmail_boots",count:1,components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:vex"}}},legs:{id:"minecraft:chainmail_leggings",count:1,components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:vex"}}},chest:{id:"minecraft:chainmail_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:redstone",pattern:"minecraft:vex"}}},head:{id:"minecraft:stonecutter",count:1,components:{"minecraft:custom_data":{BlockStateTag:{facing:"west"}}}}}}

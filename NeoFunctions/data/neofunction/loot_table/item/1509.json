@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "MTG",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ブラックロータス   ",
+                  "color": "#0B374D",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "MTG",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Black Lotus",
+                    "color": "#0B374D",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を生け贄に捧げる：",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "あなたのマナ・プールに好きな色１色のマナ３点を加える",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1509
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

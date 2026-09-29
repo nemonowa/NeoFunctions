@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "碧天の特注魂鎧",
+                "color": "#1CFFD9",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "愛馬を強化する属性編集の",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "青文字エンチャントが付与されてる",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "バニラにはないので多分スペルアイテム",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 16737894,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:cf9eed9e-f3f8-4a8c-aeb1-fc01e11160d9",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:e0112945-76be-488d-b762-b93f4fc6f705",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                },
+                {
+                  "type": "jump_strength",
+                  "id": "neofunction:52f2ad8c-88b9-4857-9e5e-35908ce66b72",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1372
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

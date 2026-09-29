@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "三叉の海神鞭",
+                  "color": "#D8F6F2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#63B9C0",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ポセイドン・トライデント",
+                  "color": "#317B91",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#63B9C0",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「波は、止まらない。」",
+                  "color": "#D8F6F2",
+                  "italic": true
+                },
+                {
+                  "text": "海神の三叉槍を模して鍛えられた、青き戦鞭。",
+                  "color": "#B9E8E5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "鞭先には三つの刃が仕込まれ、",
+                  "color": "#7CC9CC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "振るうたび、海を裂くような一撃を生み出す。",
+                  "color": "#55AEB9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その身に宿る海神の力は、持ち主の歩みを軽くし、",
+                  "color": "#4396A5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "荒波の上でさえ、自由に駆けることを許す。",
+                  "color": "#367F91",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "三叉の刃は、海神の怒り。",
+                  "color": "#5CAEB6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その身軽さは、海神の加護。",
+                  "color": "#8AD3D2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "――海に選ばれし者へ、波は道を譲る。",
+                  "color": "#C0ECE8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:depth_strider": 10,
+                "minecraft:bane_of_arthropods": 10,
+                "minecraft:smite": 10,
+                "minecraft:sweeping_edge": 4,
+                "minecraft:impaling": 22,
+                "minecraft:loyalty": 10,
+                "minecraft:lure": 2
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1822
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

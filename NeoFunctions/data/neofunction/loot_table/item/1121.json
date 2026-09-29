@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "Color ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "of ",
+                  "color": "gold"
+                },
+                {
+                  "text": "Trial",
+                  "color": "yellow"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "試練に挑む者の手に、一時だけ託される色彩の弓",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483536,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:infinity": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1121
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

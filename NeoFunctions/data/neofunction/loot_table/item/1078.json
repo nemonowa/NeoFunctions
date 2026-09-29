@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_brick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "大地の護符【岩】",
+                "color": "#929468",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "── 岩の如き堅牢さ。揺るがぬ防壁を得た気配。",
+                  "color": "#8F9166",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "オフハンドに装備時耐久力を引き上げる",
+                  "color": "#8F9166",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 4,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:3846b9bd-fe0f-4885-8443-3270a7bde609",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:42a5e447-dd78-4815-9c4e-ba19a446007e",
+                  "amount": 0.4,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1078
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

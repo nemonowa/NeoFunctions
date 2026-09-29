@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:entity_properties",
+  ".neo": ",Tags:[\"mob\"]",
+  "entity": "this",
+  "predicate": {
+    "minecraft:nbt": "{PortalCooldown:1}"
+  }
+}

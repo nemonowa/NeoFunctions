@@ -1,0 +1,6 @@
+# 命名：夏の妖精
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/71
+
+summon zombie ~ ~ ~ {Silent:1b,IsBaby:1b,Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:dust",color:[1.0f,0.933f,0.341f],scale:1.0f},Radius:0.8f,Duration:20,potion_contents:{custom_effects:[{id:"minecraft:blindness",amplifier:0b,duration:60}]}}],CustomName:{"text":"夏の妖精","color":"#FFEE57"},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1},{id:"minecraft:weakness",amplifier:9b,duration:-1}],attributes:[{id:"minecraft:armor",base:0}],Tags:[lv0,],DeathLootTable:"neofunction:asset/summon/71",equipment:{mainhand:{id:"minecraft:yellow_glazed_terracotta",count:1},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16772695}},head:{id:"minecraft:yellow_banner",count:1,components:{"minecraft:banner_patterns":[{pattern:"minecraft:curly_border",color:"white"},{pattern:"minecraft:stripe_center",color:"white"},{pattern:"minecraft:stripe_bottom",color:"black"},{pattern:"minecraft:stripe_top",color:"white"},{pattern:"minecraft:creeper",color:"white"},{pattern:"minecraft:gradient",color:"black"}]}}}}

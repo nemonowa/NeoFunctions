@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "ドクター謹製の攻撃用ポーション",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ダメージポーション",
+                "italic": false,
+                "color": "red"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1778
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:harming",
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 2,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

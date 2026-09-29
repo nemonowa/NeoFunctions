@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "草香るハーブエールw",
+                "color": "#157A59",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "数種類の薬草を漬け込んだ健康酒。二日酔いにも効くらしい。",
+                  "color": "#296656",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1753
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 1407577,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 127,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 127,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 3,
+                    "duration": 1800
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

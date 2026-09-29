@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:8df50f6b-42e1-4bd5-96a9-c631d0ae556a",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:dbb39a29-9435-4246-be2f-ae53df121232",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:291fddcd-f50a-4930-83c4-03b420d984ea",
+                  "amount": -0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:shaper"
+              },
+              "minecraft:custom_name": {
+                "text": "骨の帽子",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:dyed_color": 16315622,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  727
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

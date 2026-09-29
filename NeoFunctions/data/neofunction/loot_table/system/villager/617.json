@@ -1,0 +1,705 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「腹が満ちてる時のほうが、妙に生命力の強いのが寄ってくる気がするんだよなぁ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected5"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「姿を消せるやつって、逆に“見えない同類”に引き寄せられるらしいぜ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected6"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「真っ暗な夜じゃないと、あの手の光るやつは顔を出さねぇ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected7"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「雪に埋もれるくらい冷え切った場所…ああいうとこ、嫌いじゃない魚もいる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected8"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「力が抜ける感じの時ほど、妙なのが釣れるんだよな」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected9"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「動かず構えてると、硬ぇやつが寄ってくる。あいつら慎重なんだ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected10"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「毒に慣れてると、毒持ちのほうから寄ってくるって話だ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected11"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「落ちてる最中とか、妙にふわついてる時…変な軌道のやつが来る」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected12"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「体が満ちてるときは、優しいやつが寄ってくる気がするな」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected13"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「嵐の日はいいぞ。体がビリビリしてる時は特にな」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected14"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「深いとこか、何も見えねぇとこ…ああいう“底”にいる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected15"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「力がみなぎってる時じゃないと、あいつには相手にもされねぇ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected16"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「溶岩の中でも生きるやつは、ただじゃねぇ…ちゃんと備えろよ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected17"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「動きが軽いときってのは、妙に運もいいもんだ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected18"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「凍えながら釣るのがコツだ。楽して釣れるやつじゃねぇ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected19"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「体がボロボロな時ほど、ああいう“終わってるやつ”が寄ってくる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected20"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「光ってるときに雷…ああいう日は、妙に当たりが強い」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected21"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「水の中で目が利くなら、深いとこも怖くねぇだろ？」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected22"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「遅くてもいい、耐えろ。そういう時に来るやつがいる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected23"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「夜に毒なんて抱えてると、ろくな夢見ねぇぞ…釣れるけどな」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected24"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「死にかけてるのに生きてる…そんな状態、嫌いじゃないらしい」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected25"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「暗くて見えねぇ場所で、さらに目まで潰す？…覚悟決めろよ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected26"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「飢えて強い時…ああいうのは血の匂いに敏感だ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected27"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「落ちながら跳ねる？変な動きしてると、空のやつが来る」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected28"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「燃えてる中で釣るなんて正気じゃねぇ…だが来るんだよ」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected29"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「速くて腹減ってる夜…突っ込んでくるやつがいる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected30"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「昼の光の中で姿を消してみろ、見えるもんが変わる」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected31"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「見えねぇまま息潜めてると…向こうから来る。気づいた時には遅い」\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected32"
+                            }
+                        },
+                        "test": 1
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "structure_block",
+                    "modifier": {
+                        "type": "minecraft:set_components",
+                        "components": {
+                            "minecraft:custom_data": {
+                                "TalkMessage": "{\"text\":\"「……そんな条件、誰が満たせるんだよ\"}"
+                            }
+                        }
+                    },
+                    "condition": {
+                        "type": "minecraft:int_value_check",
+                        "value": {
+                            "type": "score",
+                            "score": "temp",
+                            "target": {
+                                "type": "fixed",
+                                "name": "#Uncollected33"
+                            }
+                        },
+                        "test": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "四",
+                  "color": "#FF1C3A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "元",
+                  "color": "#C34C75"
+                },
+                {
+                  "text": "杖",
+                  "color": "#867CB0"
+                },
+                {
+                  "text": "エ",
+                  "color": "#4AACEB"
+                },
+                {
+                  "text": "キ",
+                  "color": "#36C9D9"
+                },
+                {
+                  "text": "リ",
+                  "color": "#37DE9F"
+                },
+                {
+                  "text": "ブ",
+                  "color": "#38F265"
+                },
+                {
+                  "text": "リ",
+                  "color": "#4CF33D"
+                },
+                {
+                  "text": "ア",
+                  "color": "#88CF36"
+                },
+                {
+                  "text": "ム",
+                  "color": "#FF8629"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【四元の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "元素の四極を束ねし司教の聖杖。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃も守護も、その力は使い手の意思に呼応する。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "試練を越えた証として、静かにその手に収まる。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "メインハンド攻撃時以下の効果が発動する",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【臨界の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "【潮癒の加護】",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "【岩鎧の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "【反重の加護】",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "CD:60s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:17d6c50c-4a10-44de-832d-4cd5253ba5e1",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1328
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

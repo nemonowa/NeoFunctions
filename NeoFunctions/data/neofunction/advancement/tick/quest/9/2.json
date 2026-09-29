@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{Tags:[quest9]}"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:potion"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                1050
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/quest/9/1"
+  }
+}

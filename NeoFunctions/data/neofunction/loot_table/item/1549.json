@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロ☆ケブラーアーマー",
+                "color": "#68007D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "深層の湿地素材を用いて鍛えられた上位防具",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "淀んだ水の魔力を帯び、過酷な環境に適応する。",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:55b56648-bc0f-4693-8ebb-c769604afb91",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:8ffbb4f9-313d-4a72-bc79-9e669cd0a27f",
+                  "amount": 0.06,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:e5037b21-4b83-4f4c-a943-7cc9aca7e5cd",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1549
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

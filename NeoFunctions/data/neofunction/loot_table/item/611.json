@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "骨の矢バンドル",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 64,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "骨の矢",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    "minecraft:enchantments": {
+                      "minecraft:vanishing_curse": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "movement_speed",
+                        "id": "neofunction:765b6079-46fb-4a58-9d0f-8059c62f2a69",
+                        "amount": -0.35,
+                        "operation": "add_multiplied_total",
+                        "slot": "mainhand"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  611
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

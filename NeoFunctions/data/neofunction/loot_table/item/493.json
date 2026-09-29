@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "百",
+                  "color": "#FFC830",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "花",
+                  "color": "#FF9B4F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "繚",
+                  "color": "#FF8E6B",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "乱",
+                  "color": "#FF9991",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:cc5fd0fd-c1a1-496f-8074-84fa4c89cd39",
+                  "amount": 256,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ef12daed-db76-421b-93e0-efcb47a39ea1",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  493
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

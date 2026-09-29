@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:b89945b3-d8b9-4977-89e5-edcaa9aa5c5e",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:24733ab6-bb1e-4da3-b4bf-8e0f9b94cea4",
+                  "amount": -1.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:222c12e1-aad6-4f03-9c96-7c149307d1ac",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:c50722d7-13f9-4017-82bb-48e70f12a275",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 5
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "軽量にして",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "万能の個人兵装",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "伝説貴金属「オリハルコン」",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で作られた最強のフライパン。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "オリハルコンは非常に熱に強くこのフライパンも熱を通さない…。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "目玉焼きすら作れない料理においては最弱のフライパン。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "調理器具ではなく、防具や打撃武器として使うアイテム。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "オリハルコン・フライパン",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  397
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

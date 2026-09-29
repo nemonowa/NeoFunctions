@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/123",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：豊穣水路 深層 -Fertility Waterway, Deep Layer-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:124)に到達する。\n§3報酬：§r経験値×32\n§9説明：§r水路の果てに眠る王座の跡。朽ちた柱の影で底濁りの水面が波立ち、水底に沈む冠が静かに異彩を放つ、旧王の骸骨が佇む遺構。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/124": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

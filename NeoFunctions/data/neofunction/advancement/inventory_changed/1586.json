@@ -1,0 +1,33 @@
+{
+    "parent": "neofunction:.clock/1t",
+    "criteria": {
+        "": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1584
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1586
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/inventory_changed/1586_schedule"
+    }
+}

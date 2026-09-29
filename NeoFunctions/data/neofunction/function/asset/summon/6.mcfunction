@@ -1,0 +1,6 @@
+# 命名：第六師団長
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/6
+
+summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,CustomName:{"text":"第六師団長","color":"#4A2EFF","bold":true,"underlined":true},attributes:[{id:"minecraft:knockback_resistance",base:99},{id:"minecraft:movement_speed",base:0}],VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,xp:1,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},buyB:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},sell:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}}}]},Tags:[st,],DeathLootTable:"neofunction:asset/summon/6",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-1228877346,630802003,-1926596961,1949343283],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRhMjE1ZWEwNjAyYWVmYjAxYWEyMDY0NDEwOTM3YTAxMDhiZWIwYjExMGJlZGIyMGZkZmE2YmU4Njc5YzQzNCJ9fX0="}]}}}}}

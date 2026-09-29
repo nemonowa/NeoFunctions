@@ -1,0 +1,6 @@
+# 命名：トリモチ衛生兵
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/82
+
+summon slime ~ ~ ~ {NoGravity:1b,Silent:1b,Glowing:1b,PortalCooldown:1800,Size:0,Passengers:[{id:"minecraft:slime",NoGravity:1b,Silent:1b,Glowing:1b,Team:"green,ally",NoAI:1b,Size:2,Tags:["ally","lv3"],Passengers:[{id:"minecraft:spawner_minecart",CustomDisplayTile:1b,DisplayOffset:-48,SpawnCount:1,SpawnRange:6,MinSpawnDelay:5,MaxSpawnDelay:40,RequiredPlayerRange:8,Tags:["upper"],CustomName:{"text":"国境なきスライム医師団","color":"green","bold":true,"italic":false},DisplayState:{id:"minecraft:slime_block"},SpawnData:{entity:{id:"minecraft:potion",Item:{id:"minecraft:slime_ball",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:healing",custom_color:3997440}}}}}}],CustomName:{"text":"トリモチ衛生兵","color":"green","bold":true,"italic":false}}],CustomName:{"text":"トリモチ衛生兵","color":"green","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1}],Tags:[lv2,ally,downer],DeathLootTable:"neofunction:asset/summon/82"}

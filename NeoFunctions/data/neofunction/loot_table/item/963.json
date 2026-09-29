@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アリアドネの蟲",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "明滅の立体砂漠",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "SUNSANDBOX",
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "原生の",
+                    "color": "white"
+                  },
+                  {
+                    "text": "輝く益虫",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "の卵"
+                  }
+                ],
+                [
+                  {
+                    "text": "即時に孵化・回収可能で発光し",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "道標",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "になる"
+                  }
+                ],
+                [
+                  {
+                    "text": "曰く",
+                    "color": "white",
+                    "italic": false
+                  },
+                  {
+                    "text": "紫色",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "に発光する特殊な蟲は旅の必需品と..."
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 1
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:endermite",
+                "Silent": 1,
+                "Glowing": 1,
+                "DeathLootTable": "neofunction:item/963",
+                "Team": "light_purple",
+                "PersistenceRequired": 1,
+                "NoAI": 1,
+                "Tags": [
+                  "SignalABC"
+                ],
+                "CustomName": {
+                  "text": "AriadneBugSignal",
+                  "color": "light_purple",
+                  "bold": true
+                },
+                "active_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 0,
+                    "duration": -1,
+                    "show_particles": false,
+                    "show_icon": false,
+                    "ambient": false
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  963
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "使役士官【TAMER】",
+                "color": "#FFADF7",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "対象の覚えられるスキルが書いてある本",
+                  "color": "#FFADF7",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1377
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "使役士官【TAMER】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "使い魔について\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "使い魔を召喚し、共に戦う職業。詳細は次ページ。",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "使い魔は同時に何体でも呼び出せる。プレイヤーと同じチームに所属するため、使い魔同士・プレイヤーとの同士討ちは発生しない"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "使い魔とは\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "・召喚方法\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "調伏具現(231)で得られる鞭と使い魔卵、または召狼・召雪像・召鉄像・召猫などのスキルで直接召喚する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・上限数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "プレイヤーレベル2毎に上限が1体増加する。レベル100で最大50体まで同時に呼び出せる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・鞭でのタゲ集中\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "鞭で敵を攻撃すると、使い魔たちの攻撃対象をその敵に優先させられる。ただし対象が既に別の敵と交戦中の場合は機能しない"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・使い魔とのふれあい\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "使い魔に視線を合わせて1秒以上スニークすると、手に持ったアイテムに応じたアクションを発動できる。詳細は次ページ"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・使い魔の回収\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "使い魔を0.5秒以上スニークしながら殴ると、召喚時に消費したSPの半分を回収しつつ、その使い魔を消滅させられる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・活用スキル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "獣化・鼓舞・百獣共鳴が、周囲にいる使い魔の数や有無に応じて追加効果を発揮する"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "使い魔とのふれあい\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "視線を合わせ1秒以上スニークで、持ち物に応じた効果を発動できる。\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・フレイムパウダー\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象の使い魔に火炎耐性を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ウォーターパウダー\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象の使い魔に水中での移動速度上昇を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ウィンドパウダー\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象の使い魔に移動速度上昇を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・アースパウダー\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象の使い魔に防御力上昇を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ポーション\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "手持ちのポーションの効果を自身と周囲の使い魔全体に付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ベリー系アイテム\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "対象の使い魔のHPを回復させる"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "パッシブ\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "装備効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "鞭を装備している間、移動速度上昇レベル1を得る。周囲にいる使い魔の数が多いほど効果が強化される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "発動効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "採掘速度上昇レベル1を3分間付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "調伏具現【テイム・インヴォーク】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "使役士官が無から鞭と使い魔卵一式を錬成するスキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "鞭と使い魔卵一式を生成"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "召狼【サモン・ウルフ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・召喚数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1体（何度でも追加召喚可能）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "テイム済みの狼を召喚。飼い主に追従し、近くの敵へ自動で攻撃する接近戦特化型。自身のレベルが高いほどステータスが上昇する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚した個体は105秒で自然に消滅する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・スニーク召喚\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スニークしながら召喚すると、その個体は主から離れてもテレポートで追従しなくなる。召喚時に一度だけ決定され、後から変更はできない"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "召雪像【サモン・スノーゴーレム】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・召喚数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1体（何度でも追加召喚可能）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スノーゴーレムを召喚。射程内の敵へ自動で雪玉を投げ、遠距離から継続的に牽制する。自身のレベルが高いほどステータスが上昇する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・雪玉性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "通常時はダメージなし。成長段階が上がるほど雪玉のダメージが上昇する（lv2:3→lv3:6→lv4:11→lv5:16→lv6:35→lv7:70→lv8:130→lv9:250）。命中した敵には鈍足IIを4秒付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚した個体は105秒で自然に消滅する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・スニーク召喚\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スニークしながら召喚すると、その個体は主から離れてもテレポートで追従しなくなる。召喚時に一度だけ決定され、後から変更はできない"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "召鉄像【サモン・アイアンゴーレム】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "30"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・召喚数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1体（何度でも追加召喚可能）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "アイアンゴーレムを召喚。周囲の敵を殴り飛ばすノックバック攻撃で複数の敵を同時に妨害する。自身のレベルが高いほどステータスが上昇する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚した個体は105秒で自然に消滅する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・スニーク召喚\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スニークしながら召喚すると、その個体は主から離れてもテレポートで追従しなくなる。召喚時に一度だけ決定され、後から変更はできない"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "召猫【サモン・ヒーリングキャット】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・召喚数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "1体（何度でも追加召喚可能）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "テイム済みの猫を召喚。1秒おきに回復スプラッシュポーションを自動生成し、周囲を継続的に回復させる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚から15秒で自動的に消滅する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・スニーク召喚\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スニークしながら召喚すると、その個体は主から離れてもテレポートで追従しなくなる。召喚時に一度だけ決定され、後から変更はできない"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・回復力強化\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自身がレベル30に到達すると、以降に召喚した個体が生成する回復スプラッシュポーションの回復量が強化される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：40"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "獣化【フェラル・インスティンクト】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "周囲にいる使い魔の数に応じて、自身が強化される。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "周囲32m以内の使い魔の数(最大5体)に応じて移動速度上昇と被ダメージ軽減が段階的に上昇"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：15秒\n"
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "鼓舞【クイック・エンハンス】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "周囲のプレイヤーと使い魔全体を強化する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内のプレイヤー・16m以内の使い魔"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "プレイヤーには採掘速度上昇と移動速度上昇、使い魔には移動速度上昇と攻撃力上昇。強化中は発光し、効果が切れるまで一目で分かる"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：15秒\n"
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "地獄門【ゲヘナ・ゲート】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "使い魔をまとめて召喚し、敵を囲んで攪乱する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "30"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・召喚数\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "基本8体（自身のレベルに応じて狼／スノーゴーレム／アイアンゴーレムから抽選）。習得Lv30から10レベル毎に+2体され、Lv90以降で最大20体"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・性能\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚される個体は召狼・召雪像・召鉄像と同等の性能を持ち、自身のレベルが高いほどステータスが上昇する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・持続時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "召喚した個体は30秒で自然に消滅する。習得Lv30を基準に、5レベル毎に+5秒延長される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：50"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "百獣共鳴【ビースト・ロード】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "召喚済みの使い魔全体を一斉強化し、号令をかける切り札。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "周囲32m以内の自身の使い魔全て"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "攻撃力・移動速度・被ダメージ軽減が大幅に上昇し、最寄りの敵の方を向いて号令をかける"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・注意\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "効果時間が終了すると、強化していた使い魔は全て消滅する使い捨て仕様。効果時間は習得Lv40を基準に20秒、5レベル毎に+5秒延長される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：100"
+                    }
+                  ]
+                ],
+                "title": "使役士官【TAMER】",
+                "author": "System",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

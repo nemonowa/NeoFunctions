@@ -1,0 +1,125 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "attributes": {
+    "minecraft:visual/sky_color": "#c7ffb8",
+    "minecraft:visual/fog_color": "#ffeccc",
+    "minecraft:visual/water_fog_color": "#302a5a",
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "cherry_leaves"
+          },
+          "probability": 5.0E-5
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:entity.player.levelup",
+        "tick_delay": 2880000,
+        "block_search_extent": 0,
+        "offset": 0
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {
+          "ambient": [],
+          "axolotls": [],
+          "creature": [
+            {
+              "type": "minecraft:sheep",
+              "weight": 12,
+              "count": 4
+            },
+            {
+              "type": "minecraft:pig",
+              "weight": 10,
+              "count": 4
+            },
+            {
+              "type": "minecraft:chicken",
+              "weight": 10,
+              "count": 4
+            },
+            {
+              "type": "minecraft:cow",
+              "weight": 8,
+              "count": 4
+            },
+            {
+              "type": "minecraft:horse",
+              "weight": 5,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 2,
+                "max_inclusive": 6
+              }
+            },
+            {
+              "type": "minecraft:donkey",
+              "weight": 1,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            }
+          ],
+          "misc": [],
+          "monster": [
+            {
+              "weight": 10,
+              "type": "minecraft:creeper",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            },
+            {
+              "weight": 10,
+              "type": "minecraft:skeleton",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            },
+            {
+              "weight": 10,
+              "type": "minecraft:zombie",
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 3
+              }
+            },
+            {
+              "type": "minecraft:husk",
+              "weight": 2,
+              "count": {
+                "type": "minecraft:uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 9
+              }
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
+    }
+  },
+  "effects": {
+    "water_color": "#57b6ff",
+    "grass_color": "#c3d825",
+    "foliage_color": "#c3d825"
+  },
+  "carvers": [],
+  "features": []
+}

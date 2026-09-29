@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/332",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：圧縮-鉄-装備.zip -Compressed-iron-equipment.zip-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:333)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r使い切りの防具フルセットが圧縮されている\n圧縮率の関係でエンチャントに\n制限がついているが素材や性能は本物\n解凍形式はスペルスタンド.zip",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:armor_stand"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  333
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

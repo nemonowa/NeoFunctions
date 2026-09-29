@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "3"
+              },
+              "minecraft:custom_name": {
+                "text": "エメラルドのチェストプレート",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  971
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

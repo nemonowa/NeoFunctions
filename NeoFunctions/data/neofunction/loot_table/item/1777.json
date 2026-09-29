@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "ドクター謹製の回復用ポーション",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "回復ポーション",
+                "italic": false,
+                "color": "aqua"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1777
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:healing",
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 3,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

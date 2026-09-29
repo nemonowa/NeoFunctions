@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/319",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ブルーベリー【Blueberry】 -Blueberry-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:320)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r甘酸っぱい青い果実。そのままでも食べられるが\n様々な食材や薬品に加工することができる。\n食べると満福度と魔力を回復する。\n萼 (がく)が星形なのでスター・ベリーとも呼ばれる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:sweet_berries"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  320
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/2"
+  }
+}

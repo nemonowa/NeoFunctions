@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "╋━━━ ⌖ ＭＯＳＩＮ‐ＮＡＧＡＮＴ ⌖ ━━━╋",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "╋━━━ ⌖ ＭＯＳＩＮ‐ＮＡＧＡＮＴ ⌖ ━━━╋",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "凍てつく極北の地で産み落とされた、鉄と木組みの質実剛健な長銃。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "どんな極寒や泥に塗れても、ボルトを引き抜けば変わらず真鍮の弾丸を送り出す。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "派手さも優雅さもない。だが、数多の狙撃手たちがその引き金に己の命を委ねてきた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "(とあるノルヴィンスク州が舞台の世界に、モシンを信仰するカルトがいるらしい。)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:5",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:7.62mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:ボルトアクション",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5a32222c-1147-4900-8c9e-300aea120704",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:eb5e56d5-bbf1-4972-a131-fa488dda0311",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 1
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1712
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 5,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 636
+                  }
+                },
+                "damage": 3,
+                "firerate": 80,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 5,
+                "maxreloadingtime": 150,
+                "recoil": -15,
+                "reloading": 0,
+                "speed": 3,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

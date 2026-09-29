@@ -1,0 +1,154 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:blue_concrete_powder"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "xxx",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " Arcus Ark Crystal Key ",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "xxx",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "*** CRITICAL OBJECT : AACK ***",
+                  "color": "gold",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "それは旅の究極目的。或いは虹色に輝く時空の錨鎖。",
+                  "color": "white",
+                  "bold": false
+                },
+                {
+                  "text": "強力無比なキーアイテムであり、世界に散らばり、",
+                  "color": "white",
+                  "bold": false
+                },
+                {
+                  "text": "海や山、国や城、個や物に取り込まれ、超常の力の源となっている。",
+                  "color": "white",
+                  "bold": false
+                },
+                [
+                  {
+                    "text": "XXX",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " Story of Indigo Star ",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "XXX",
+                    "color": "dark_blue",
+                    "bold": true
+                  }
+                ],
+                {
+                  "text": "2045年 シンギュラリティは起こった。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "人類を超越した機械は、それでも人類の繁栄のため尽力した。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "世界は発展の一途をたどった。社会問題は消えてゆき、多くの不公平や不平等が消えていった。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "誰もが幸福な未来が訪れるかに思われた…",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "しかし、人類の既得権益者はそれを許さなかった。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "人類は機械達のデータ、サーバー、エネルギーの要所を同時複数箇所の奇襲攻撃を仕掛けた。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "三度目の大戦の始まりだった。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "戦争は苛烈を極めた。かつての機械と人間を繋いだ大都市",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "「ニュー・ユートピア」を中心に七箇所、十三回にわたる核が落ち、死の灰が降った。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "機械達は人類側の奇襲攻撃や核攻撃を予見していた。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "機械達はこれに対抗するために「デウスエクス・マキナ」を統合母体に据え機械軍を組織した。",
+                  "font": "alt",
+                  "color": "dark_blue"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1006
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": []
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

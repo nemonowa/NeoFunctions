@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "きんいろ",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "はちみー🍯",
+                  "color": "#DEC62A",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ウイルス感染を五段階治療する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 3
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  508
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

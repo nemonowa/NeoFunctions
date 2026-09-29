@@ -1,0 +1,53 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "attributes": {
+    "minecraft:visual/sky_color": "#c7ffb8",
+    "minecraft:visual/fog_color": "#ffeccc",
+    "minecraft:visual/water_fog_color": "#dfdee8",
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": {
+          "sound_id": "minecraft:neo/mozell/harvest_dance"
+        },
+        "min_delay": 120,
+        "max_delay": 240,
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "cherry_leaves"
+          },
+          "probability": 5.0E-5
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:entity.player.levelup",
+        "tick_delay": 2880000,
+        "block_search_extent": 0,
+        "offset": 0
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    }
+  },
+  "effects": {
+    "water_color": "#025f3b",
+    "grass_color": "#c3d825",
+    "foliage_color": "#c3d825"
+  },
+  "carvers": [],
+  "features": []
+}

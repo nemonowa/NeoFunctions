@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "火鼠",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ=サモン【封印式】",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "それは昼・夜どおしで火が燃えており",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "風で発火（異読：火が猛ける）ことも",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "雨で消えることもなく",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その火の中に鼠が住んでいる",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "火属性もちのシルバーフィッシュ",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "id": "minecraft:silverfish",
+                "Silent": 1,
+                "Glowing": 0,
+                "CustomName": {
+                  "text": "火鼠",
+                  "color": "red",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                "active_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 1,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 0,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:glowing",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ],
+                "equipment": {
+                  "mainhand": {
+                    "id": "minecraft:flint",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "猛火"
+                      },
+                      "minecraft:enchantments": {
+                        "minecraft:fire_aspect": 9
+                      }
+                    }
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  142
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

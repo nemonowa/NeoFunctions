@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": 3,
+      "operation": "add_value",
+      "slot": "mainhand",
+      "id": "neofunction:attribute/csgui/anvil/baseatk/iron_pickaxe/0"
+    }
+  ],
+  "replace": true
+}

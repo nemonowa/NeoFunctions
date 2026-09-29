@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ケロロリン",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ケロリン ",
+                  "color": "red",
+                  "obfuscated": false
+                },
+                {
+                  "text": "ケロロリン"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "＊＊＊＊＊＊内外薬品＊＊＊＊＊",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "＊＊＊頭痛・生理痛・歯痛＊＊＊",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  329
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "duration": 1
+                  }
+                ],
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "根感覚の護符",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "オフハンド装備時、地面に立っている間、耐性を得る護符",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "オフハンド装備時、地面に立っている間、鈍足を得る護符",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:loyalty": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1353
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

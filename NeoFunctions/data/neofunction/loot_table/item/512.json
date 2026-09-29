@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "漣、風景描写。",
+                "color": "#7DB5FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "五つの月が浮かぶ大空に、",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "極光の雲が帯状に連なり流れていく。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "月々の輝きは強酸性の霧に包まれた大地を照らしては翳る。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "大地を包む夜霧の闇…",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "押しては返す月明かりの波…",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "…そして暗闇に光刺す。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "夜明けを告げる光の風が地平線を駆け抜け、遥かな大地を照らし出す。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "澄み切った早朝の平原には心地いい冷たい風が吹き、",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "草花を揺らし、動物を撫ぜていく。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ーーー",
+                    "color": "black",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "nemo",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "の小説より抜粋"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:looting": 2,
+                "minecraft:fortune": 2,
+                "minecraft:mending": 2
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  512
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

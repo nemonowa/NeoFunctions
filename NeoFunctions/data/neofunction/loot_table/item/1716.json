@@ -1,0 +1,143 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:30f29998-39dc-4ba4-a014-94a1f44c7be1",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5ac971ae-31b1-44d1-bb8c-a533ab0a2eb8",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "count": 1,
+                  "id": "minecraft:arrow"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:lore": [
+                {
+                  "text": "✭セレスタキャロットキャノン✭",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "かつて「セレスタベリー」に食卓の主役を奪われ、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "畑の隅で果てぬ辛酸を嘗めた(なめた)セレスタキャロット。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "雪辱を誓った彼らは、自ら大砲の中へと歩をすすめた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:10",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:セレスタキャロット",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:人参装填方式",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "✭セレスタキャロットキャノン✭",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1716
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 10,
+                "ammotype": {
+                  "id": "minecraft:beetroot",
+                  "tag": {
+                    "CustomModelData": 862
+                  }
+                },
+                "damage": 6,
+                "firerate": 60,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 10,
+                "maxreloadingtime": 300,
+                "recoil": -10,
+                "reloading": 0,
+                "speed": 0.3,
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

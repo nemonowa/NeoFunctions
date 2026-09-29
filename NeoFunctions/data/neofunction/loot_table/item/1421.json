@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "小麦を固めてできた防具。",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "戦闘に使うには心もとない。",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "セットスペル🔯【農家の心得】",
+                  "color": "light_purple",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "畑を踏み荒らさなくなる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "足に装備したとき：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "幸運[農業] +0.5",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "小麦アーマー",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:dyed_color": 16704366,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1421
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "FarmingFortune": {
+                  "Amount": 0.5,
+                  "Slot": "feet"
+                },
+                "rare": [
+                  "1",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

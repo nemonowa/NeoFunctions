@@ -1,0 +1,160 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:fc3d0fe3-f8d5-4736-8893-d2ac44795a47",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1499
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:flame": 8,
+                "minecraft:power": 20,
+                "minecraft:punch": 4
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔弾が持つ最上の狙撃魚（そげきうお）",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Secret:",
+                  "extra": [
+                    {
+                      "text": "*",
+                      "extra": [
+                        {
+                          "text": "*",
+                          "extra": [
+                            {
+                              "text": "*",
+                              "extra": [
+                                {
+                                  "text": "*",
+                                  "extra": [
+                                    {
+                                      "text": "*",
+                                      "obfuscated": true,
+                                      "color": "#FF602C"
+                                    }
+                                  ],
+                                  "obfuscated": true,
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "obfuscated": true,
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "obfuscated": true,
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "obfuscated": true,
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "blue",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "agic",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " F",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ish",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": " M",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "82A3 ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": "|",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|"
+                }
+              ],
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:1fa1bead-9b50-4e1d-9b89-5840ed45bfd2",
+                  "amount": 0.6,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:65f63ddf-e45e-4776-bb59-4fefc8510196",
+                  "amount": 0.142857142857,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:6dbe319b-5819-41e6-8b71-2c8773c0b3af",
+                  "amount": 3.14159265358979,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "██",
+                    "color": "#000000",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "████",
+                    "color": "#FAFAFA"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#000000"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#000000",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#EEEEEE"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "██████",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#000000"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "████████",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#535353",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#565656"
+                  },
+                  {
+                    "text": "█████",
+                    "color": "#606060"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#CDCDCD"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#C3C3C3"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#606060"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#545454"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#535353"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#1E1E1E",
+                    "italic": false
+                  },
+                  {
+                    "text": "██████",
+                    "color": "#000000"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#797979"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#6E6E6E"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#000000"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#1E1E1E"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#3D3D3D",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#0A0A0A"
+                  },
+                  {
+                    "text": "████████",
+                    "color": "#000000"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#0A0A0A"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#3D3D3D"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#FAFAFA",
+                    "italic": false
+                  },
+                  {
+                    "text": "██",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "████",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FAFAFA"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#FAFAFA",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#AEAEAE"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#333333"
+                  },
+                  {
+                    "text": "████",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#333333"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#AEAEAE"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FECBD9"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6EFF0"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#D2D2D2"
+                  },
+                  {
+                    "text": "████",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#D2D2D2"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6EFF0"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FECBD9"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F8F6F6"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#E3C6E3",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FA98B2"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFECF1"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E1E1E1"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#D0D0D0"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E1E1E1"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FFECF1"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F997B1"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  }
+                ],
+                [
+                  {
+                    "text": "█",
+                    "color": "#000000",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#E3E3E3"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F6F6F6"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#000000"
+                  }
+                ],
+                [
+                  {
+                    "text": "██",
+                    "color": "#000000",
+                    "italic": false
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F8F8F8"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#FAFAFA"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#FBFBFB"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#F8F8F8"
+                  },
+                  {
+                    "text": "█",
+                    "color": "#E3E3E3"
+                  },
+                  {
+                    "text": "██",
+                    "color": "#000000"
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "数学χ",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1534
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  "0.フェルマーの最終定理\n\n3 以上の自然数 n について、x^n + y^n = z^n となる自然数の組 (x, y, z) は存在しない\nこれをフェルマーの最終定理という。\n\n私たちはこの定理について真に驚くべき証明を発見したが、ここに記すには余白が狭すぎる。(?)",
+                  "1.テイラーの定理\n\n関数 f が閉区間 [a, x] で n 回連続微分可能であるとき、\nf(x)=Σ(k=0,n-1) f'k(a)(x-a)^k / k! + Rn(x)\nRn(x) = f'n(c)(x-a)^n / n!\nを満たす c が開区間 (a, x) 内に存在する。ここで、Rn は剰余項と呼ばれる。\n",
+                  "これをテイラーの定理という。\nまた、a = 0の時マクローリンの定理という。\nこれらを展開したものをテイラー展開、マクローリン展開という。",
+                  "2.ボルツァーノ・ワイエルシュトラスの定理\n\nある実数m,Mが存在して、任意の x∈Aに対して m≦x≦MということをAは有界であるという。実数列 {an}が有界であるとき、\n{an}は収束する部分列を持つ。\nこれをボルツァーノ・ワイエルシュトラスの定理という。",
+                  "3.次元定理\n\nAを m×n実行列とするとき，\nrankA+dim(KerA)=n\nこれを次元定理という。\nn次元空間でベクトルを用いる事で示せる。",
+                  "基本問題\nlim(n→∞)∫(0→1) (√(x^2 + 1) + ∫(0~nπ) (e^(-t) · |sinnt|dt)^2)dx =",
+                  "演習問題\nこれらの紹介してきた定理と何の因果関係も無いが\n計算機科学における答えの検証が高速にできる問題は、解を見つけるのも高速であるかという\nP≠NP予想が正しいか正しくないかということを述べ、それを示せ。"
+                ],
+                "title": "",
+                "author": "ねくさす出版",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

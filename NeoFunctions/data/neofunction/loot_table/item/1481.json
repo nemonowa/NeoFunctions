@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1481
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "巨大な体躯と圧倒的な筋力を併せ持つ魚。その一撃は海流すら変える。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：タイタンストレングスのポーション（攻撃力上昇レベル4 1:30/採掘速度上昇レベル1 1:30）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Rare:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "タイタンツナ",
+                "color": "#4D1933",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 3,
+                    "duration": 1800,
+                    "id": "strength"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 1800,
+                    "id": "haste"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"タイタンストレングスの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

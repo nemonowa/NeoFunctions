@@ -1,0 +1,234 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " イカガチャ ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ Ⅴ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "イカガチャ Ⅴ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "イカ",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のような見た目をした不思議な",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ガチャ",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "名前の色に対応する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "レアリティ",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のアイテムを",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "ランダムに一個排出する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ｲｶﾁｬﾝ",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を召喚する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "ばびよーん！ぐしゃーん！がちゃーん！（効果音）",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "設置可能：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "any",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:impaling": 127,
+                "minecraft:unbreaking": 127
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:glow_squid",
+                "Air": 0,
+                "Silent": 1,
+                "DeathTime": 19,
+                "DeathLootTable": "neofunction:rare/5",
+                "Health": 0.01,
+                "Motion": [
+                  0,
+                  0.75,
+                  0
+                ],
+                "Tags": [
+                  "check"
+                ],
+                "CustomName": [
+                  {
+                    "text": "||||",
+                    "color": "blue",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "🦑イカガチャ🦑",
+                    "color": "white",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "||||",
+                    "color": "blue",
+                    "obfuscated": true
+                  }
+                ],
+                "active_effects": [
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 9,
+                    "duration": -1
+                  }
+                ],
+                "equipment": {
+                  "offhand": {
+                    "count": 1,
+                    "id": "minecraft:totem_of_undying"
+                  },
+                  "chest": {
+                    "count": 1,
+                    "id": "minecraft:stone",
+                    "components": {
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "type": "max_health",
+                          "id": "neofunction:9e8b8460-5034-4199-8fb8-30378927c5d0",
+                          "amount": -100,
+                          "operation": "add_value",
+                          "slot": "any"
+                        },
+                        {
+                          "type": "max_absorption",
+                          "id": "neofunction:bdc6bd09-f899-4197-ada7-cfbc7d0ba352",
+                          "amount": -100,
+                          "operation": "add_value",
+                          "slot": "any"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "drop_chances": {
+                  "feet": 0.085,
+                  "legs": 0.085,
+                  "chest": -327.67,
+                  "head": 0.085
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  815
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

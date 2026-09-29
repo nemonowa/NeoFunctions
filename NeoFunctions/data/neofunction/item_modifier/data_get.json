@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_name",
+      "entity": "this",
+      "name": {
+        "selector": "@s"
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "nbt": "",
+          "entity": "@s",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

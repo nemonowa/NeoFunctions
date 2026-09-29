@@ -1,0 +1,423 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:charged_projectiles": [],
+                "minecraft:can_place_on": [
+                  {
+                    "blocks": "minecraft:lodestone"
+                  }
+                ],
+                "minecraft:custom_name": [
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " 運命",
+                    "color": "#FEEEED",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "䂖",
+                    "color": "#FFC6AB",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "の焔✯刃 ",
+                    "color": "#FEEEED",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "魂の共鳴 enchantment.level.1",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  [
+                    {
+                      "keybind": "key.attack",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "ソウルを込めた斬撃を放つ",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.use",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "魂炎加速およびクイックブースト",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.playerlist",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "現在のレベルを確認",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.advancements",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "カスタム進捗画面を開く",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.drop",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "兵装変形および情報更新",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "「その炎は実体を持たない。刃向かうものの魂のみを灼き尽くす。」",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": true
+                  }
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    0
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:charged_projectiles"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "rare": "ST"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "playerGameType > mode.",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "playerGameType",
+                      "entity": "@s",
+                      "color": "#fef4f4"
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "現在次元 > [",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "Dimension",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false,
+                      "extra": [
+                        {
+                          "text": "]",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "接続座標 > [",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@p",
+                        "objective": "temp1"
+                      },
+                      "extra": [
+                        {
+                          "text": "-",
+                          "extra": [
+                            {
+                              "score": {
+                                "name": "@p",
+                                "objective": "temp2"
+                              },
+                              "extra": [
+                                {
+                                  "text": "-",
+                                  "extra": [
+                                    {
+                                      "score": {
+                                        "name": "@p",
+                                        "objective": "temp3"
+                                      },
+                                      "extra": [
+                                        {
+                                          "text": "]"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "現在座標 > ",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "Pos",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "汎用一意識別子 > ",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "nbt": "UUID",
+                      "entity": "@s",
+                      "color": "#fef4f4",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

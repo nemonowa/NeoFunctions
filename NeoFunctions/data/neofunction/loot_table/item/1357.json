@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "1",
+                  "color": "#7F9413",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "～牧歌と試練の礼装～",
+                  "color": "#478384",
+                  "obfuscated": false
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "1",
+                  "color": "#7F9413"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "⁂ 第2章の主要装備 ⁂",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "あなたは牧歌的な冒険宿の旅を遂げた。",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "フルセットスペル🔯【青碧色の加護】",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位で装備で周期的にバフを得る",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・水中呼吸エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・跳躍エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 1,
+                "minecraft:fire_protection": 1,
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:thorns": 1,
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:677ee9d1-0d68-4b57-b78d-4abd72d3ba66",
+                  "amount": 3.25,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:2bcfe88b-bddb-4919-83fc-12bf22296511",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "14"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1357
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

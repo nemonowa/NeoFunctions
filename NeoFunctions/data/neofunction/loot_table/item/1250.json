@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ウマガチャ（骨馬ver） ",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "リザレクション I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ランダムな",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ｳｯﾏ=ｻﾝ",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を召喚する不思議なガチャ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "死亡時に",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「アイテム化」",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "して復活する",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "ばびよーん！ぐしゃーん！がちゃーん！（効果音）",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "設置可能：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "any",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:skeleton_horse",
+                "DeathLootTable": "neofunction:item/1２５０",
+                "Tame": 1,
+                "Tags": [
+                  "umagacha"
+                ],
+                "CustomName": {
+                  "text": "ｳｯﾏ=ｻﾝ",
+                  "color": "green"
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1250
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

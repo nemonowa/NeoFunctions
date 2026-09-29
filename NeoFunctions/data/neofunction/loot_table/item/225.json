@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "*",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "亜空間転移",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "装置 ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "*",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魔 弾 の 皇 子",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d59d0191-b14f-442a-9837-05ce4a3c57df",
+                  "amount": -100,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:e8cb8fd4-8777-41c8-b43e-f16179b8b10b",
+                  "amount": 100,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  225
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/127",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：太陽の神殿 -Temple of the Sun-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:128)に到達する。\n§3報酬：§r経験値×32\n§9説明：§r年月を凌いだ重厚なレンガ造りの巨柱がそびえ、閉ざされた暗がりの中でさえ、朽ち果てたミイラを魅了してやまない『黄金の夢』が静かに漂う最奥の聖域。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/128": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

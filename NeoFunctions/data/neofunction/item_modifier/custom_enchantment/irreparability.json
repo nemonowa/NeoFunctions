@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:repair_cost": 2147483647,
+        "minecraft:custom_data": {
+          "check": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        {
+          "text": "不変の呪い",
+          "color": "red",
+          "bold": false,
+          "italic": false
+        }
+      ],
+      "mode": "append"
+    }
+  ]
+}

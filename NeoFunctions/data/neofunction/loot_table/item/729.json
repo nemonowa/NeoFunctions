@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:0f710d98-aa42-42cf-a854-77891b9f953b",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:121b015c-856c-4985-be2c-20458b7b4bac",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:4f3728a2-c210-4e2d-bb72-f8a21f7a4e57",
+                  "amount": -0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:shaper"
+              },
+              "minecraft:custom_name": {
+                "text": "骨の腰巻き",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:dyed_color": 16315622,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  729
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

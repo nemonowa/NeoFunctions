@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 63
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:enderman_spawn_egg",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:bundle_contents": [
+                  {
+                    "Slot": 0,
+                    "id": "minecraft:enderman_spawn_egg",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": " 「サンプル」の魔石",
+                        "color": "gold",
+                        "bold": true,
+                        "italic": false
+                      },
+                      "minecraft:lore": [
+                        [
+                          {
+                            "text": "名前の対象が保持していた",
+                            "color": "gray",
+                            "bold": false,
+                            "italic": false
+                          },
+                          {
+                            "text": "魔石",
+                            "color": "gold",
+                            "bold": true
+                          }
+                        ],
+                        [
+                          {
+                            "text": "蓄えてきた",
+                            "color": "gray",
+                            "bold": false,
+                            "italic": false
+                          },
+                          {
+                            "text": "魔力",
+                            "color": "yellow",
+                            "bold": true
+                          },
+                          {
+                            "text": "や"
+                          },
+                          {
+                            "text": "生態情報",
+                            "color": "green",
+                            "bold": true
+                          },
+                          {
+                            "text": "が刻まれた"
+                          },
+                          {
+                            "text": "情報結晶",
+                            "color": "dark_green",
+                            "bold": true
+                          }
+                        ],
+                        [
+                          {
+                            "text": "結晶は",
+                            "color": "gray",
+                            "bold": false,
+                            "italic": false
+                          },
+                          {
+                            "text": "魔物の根源",
+                            "color": "light_purple",
+                            "bold": true
+                          },
+                          {
+                            "text": "であるため死亡と同時に"
+                          }
+                        ],
+                        [
+                          {
+                            "text": "壊れてしまうことが多く",
+                            "color": "gray",
+                            "bold": false,
+                            "italic": false
+                          },
+                          {
+                            "text": "希少価値",
+                            "color": "dark_aqua",
+                            "bold": true
+                          },
+                          {
+                            "text": "が高い。"
+                          }
+                        ],
+                        [
+                          {
+                            "text": "「情報結晶解析機」",
+                            "color": "dark_purple",
+                            "bold": true,
+                            "italic": false
+                          },
+                          {
+                            "text": "に読み取らせることで",
+                            "color": "gray",
+                            "bold": false
+                          }
+                        ],
+                        [
+                          {
+                            "text": "仮想空間",
+                            "color": "white",
+                            "bold": true,
+                            "italic": false
+                          },
+                          {
+                            "text": "で戦うことができるようになる。",
+                            "color": "gray",
+                            "bold": false
+                          }
+                        ]
+                      ],
+                      "minecraft:entity_data": {
+                        "id": "minecraft:item",
+                        "Item": {
+                          "id": "minecraft:paper",
+                          "count": 1,
+                          "components": {
+                            "minecraft:custom_name": {
+                              "text": "サモンスクロール"
+                            },
+                            "minecraft:custom_data": {
+                              "summon": 57
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "loot": 1,
+                  "rare": 4
+                }
+              }
+            },
+            {
+              "type": "minecraft:copy_name",
+              "source": "this"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

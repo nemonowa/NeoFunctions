@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "金剛杵の魂【ヴァジュラ=ソウル】",
+                "color": "#B32B2B",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "壌土を焼き尽くす、雷霆の法具。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ランデスの原点であり頂点。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "永年の時を超え不壊、超竜の魂が宿る。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:d83fdbfd-9555-45b8-b726-725a03cb7b02",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:e95735b4-4020-413d-b066-b0338b3ef29e",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  127991645,
+                  1435454288,
+                  -1248188706,
+                  1741961659
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E3ZDU3ODM2Y2FkNzc1ZDFmMzBmMGVlYmFmMDQwZjg5Y2VkYzMwN2E5ZGZlYTBiNDgzNjMxYmI1Zjc1YjI1YSJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1400
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

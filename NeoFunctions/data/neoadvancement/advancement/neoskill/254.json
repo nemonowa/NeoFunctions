@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/253",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：影縫乱舞【シャドウ・ランページ】 -[Energy Drain]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:254)の習得\n§9説明：§r発動時8m以内の無制限の対象にダメージを与える、ただし遠ければ遠いほどダメージが下がる。呪印を刻まれた相手には追加ダメージが入り、その呪印を消費する（SP30消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                254
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

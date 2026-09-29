@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "流体GA🍎",
+                "color": "yellow",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  573
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14344232,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 2400
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 1,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

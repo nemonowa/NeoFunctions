@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ピンチ！シェル！！",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "小さな甲殻類の意地が詰まった兜",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "意外と視界は悪くない。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "セットスペル🔯【ピンチモード】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "装備時、15秒間の耐性IIIと暗闇を得る(CT60s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 11757357,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 1,
+                "minecraft:fire_protection": 1,
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 3,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:314fb5dc-e6e2-4e59-bebe-d6fbc5fd27ee",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:391fc7c4-9ec1-459e-95a4-d16f7da0d611",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1066
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

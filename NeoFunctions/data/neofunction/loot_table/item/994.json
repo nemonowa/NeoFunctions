@@ -1,0 +1,109 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:lodestone"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00",
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": " 未知の計器 ",
+                  "color": "#FEEEED",
+                  "bold": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "謎の透明球体。超文明の面影を感じるが、使い方を思い出せない。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  994
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

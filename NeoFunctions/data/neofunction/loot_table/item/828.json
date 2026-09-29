@@ -1,0 +1,213 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "wool",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "もこもこ",
+                  "color": "white",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ブーツ",
+                  "color": "gold",
+                  "obfuscated": false
+                },
+                {
+                  "text": "wool",
+                  "color": "dark_blue"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "||",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "||",
+                    "color": "dark_blue"
+                  },
+                  {
+                    "text": " 亜",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": " 空 ",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "間 ",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "||",
+                    "color": "dark_blue"
+                  },
+                  {
+                    "text": "||",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": " 産の",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "亜羊",
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "を使った至高の",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "ブーツ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": false
+                  }
+                ],
+                [
+                  {
+                    "text": "もこもこ",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "が剥がれる度、削れる度に",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "何処からか",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "悲鳴",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "のような"
+                  },
+                  {
+                    "text": "鳴き声",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "が聞こえてくる。"
+                  }
+                ]
+              ],
+              "minecraft:dyed_color": 14089471,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 7,
+                "minecraft:feather_falling": 7,
+                "minecraft:fire_protection": 7,
+                "minecraft:projectile_protection": 7,
+                "minecraft:protection": 7,
+                "minecraft:fortune": 7
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:1b53ab97-a79f-4fbc-b16f-5b3d2a2fe718",
+                  "amount": 0.07,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:696017c0-2890-404e-91b6-7adce6c1347e",
+                  "amount": 0.7,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:b22235cf-6a37-4d6d-a32a-61fc640ef53f",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:d70c1c8c-80ba-4199-90ec-44489b33b5ef",
+                  "amount": 0.07,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:lapis",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  828
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

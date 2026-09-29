@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:punch": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "この度はTWoWをプレイいただき、ありがとうございます。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "プレイ途中の数多のバグ、申し訳ありません。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "バグを発見した場合は、公式Discordの#質問・バグ報告所にてお伝えしていただけると幸いです。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "つきましては、詫び石(",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "||",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " イカガチャ Ⅲ",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "||",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": ")を配布いたします。",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "このアイテムをインベントリに入れて、下記のコマンドをチャット欄に入力してください：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "/trigger code set 46494649",
+                  "color": "gray",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "これからもTWoWをよろしくお願いします。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "詫び石",
+                "color": "aqua",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1674
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

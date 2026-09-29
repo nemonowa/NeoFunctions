@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "風紀委員の服",
+                "color": "#E85CED",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 15228141,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:dune"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  933
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

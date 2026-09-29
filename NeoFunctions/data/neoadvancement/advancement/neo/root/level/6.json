@@ -1,0 +1,39 @@
+{
+  "parent": "neoadvancement:neo/root/level/5",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "description": {
+      "translate": "§b§l説明：§fプレイヤーレベルを確認できる。\n§r§3§l条件：§r§f個人進捗の達成\n§9§l記憶：§7各自の個人進捗を達成することで「プレイヤーレベル」上昇すると各基礎素ステータスが向上し戦力強化に繋がる",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "title": [
+      {
+        "text": "第六位階：ステータスレベル Lv.60～",
+        "color": "white",
+        "bold": true
+      }
+    ]
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "LVL": {
+              "min": 60
+            }
+          }
+        }
+      }
+    }
+  }
+}

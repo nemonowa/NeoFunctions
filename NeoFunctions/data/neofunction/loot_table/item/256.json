@@ -1,0 +1,182 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "新",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "世",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "界",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ノ",
+                  "color": "#0C63D6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ー",
+                  "color": "#0A4DA8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ト",
+                  "color": "#062A5C",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "Minecraftが本来持つ冒険・戦闘",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "サバイバルのポテンシャルを極限まで引き出した",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "拡張性の高いオープンワールド",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "PvEアクションRPG配布マップを目指して",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 10,
+                "minecraft:thorns": 10,
+                "minecraft:smite": 10,
+                "minecraft:infinity": 10,
+                "minecraft:efficiency": 10,
+                "minecraft:mending": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:f2bb9367-96b6-4d62-8476-368db821379b",
+                  "amount": 2.67,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:97f925bf-3590-4128-ac2d-7764d47457b1",
+                  "amount": 5.12,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:6ff1c2e0-50bf-4635-a086-22df61467912",
+                  "amount": 0.256,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:4f31fff6-e895-4ce8-a9e7-e8d8c5799317",
+                  "amount": 0.314,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:b6b65e5f-1ac4-4e1a-9238-31968792f21c",
+                  "amount": 0.614,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  256
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "私の世界はお気に召したかい？\nここが物語の最終章だとして、君の旅路の終着点は本当にここでいいのかい？\nもしも貴官が「その先」を真に強く"
+                    },
+                    {
+                      "text": "冀求",
+                      "bold": true
+                    },
+                    {
+                      "text": "するなら…\nこの地獄を超えてなお余りある、さらなる理想があるのなら…\n\n"
+                    },
+                    {
+                      "text": "私と共に創らないかい？",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": "捲られたページ。それが答えなら…\n\n\n"
+                    },
+                    {
+                      "text": "共に行こう。見果てぬ理想の彼方まで。",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "わからず屋にはみえない招待状が隠されている"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "open_url",
+                        "url": "https://discord.gg/NebpbyJpea"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "argonaute_nemo",
+                "generation": 3
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

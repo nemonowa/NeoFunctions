@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:black_candle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "消失の呪い",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "~愛犬を殺されたので、世界中の気に食わないマフィア、殺し屋、連合、組織を皆殺しにしたった~",
+                    "italic": true,
+                    "strikethrough": true
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "コンセクエンス",
+                "italic": true,
+                "strikethrough": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  559
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "candles": "4",
+                  "lit": "true"
+                },
+                "del": 1,
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

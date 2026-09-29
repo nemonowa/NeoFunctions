@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1399",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：金剛杵の魂【ヴァジュラ=ソウル】 -Vajra Soul-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1400)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r壌土を焼き尽くす、雷霆の法具。ランデスの原点であり頂点。永年の時を超え不壊、超竜の魂が宿る。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1400
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/ex"
+  }
+}

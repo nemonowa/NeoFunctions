@@ -1,0 +1,147 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "armor",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 紺糸威大鎧 ",
+                  "color": "#223A70",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "armor",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「こんいとおどしおおよろい」",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "特徴的な大鎧で",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "裾広がり",
+                    "color": "#223A70",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の形状をしており",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "馬上で",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "弓矢を射合う",
+                    "color": "dark_green",
+                    "bold": true
+                  },
+                  {
+                    "text": "戦法の下で発達した大鎧"
+                  }
+                ],
+                [
+                  {
+                    "text": "平安時代末期の武将「河野通信」が納めた",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "名甲冑",
+                    "color": "dark_green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:dyed_color": 2243184,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:7a2201e7-9b0d-4dca-bf95-ac149e43d26e",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:8afe4be0-bf5f-4dbf-976a-168e9d60c759",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a034131f-d99e-4bb4-8bf2-c7810f430621",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  770
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "カエル☆ローブ",
+                "color": "#489668",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙皮を加工して作られた軽量な防具",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "優れた耐水性を持ち、機動力を損ないにくい ",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:depth_strider": 2,
+                "minecraft:unbreaking": 7
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:a3a85ce5-f107-47e5-b8da-b1ccc7d17edf",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f22e423b-6373-40e9-8f62-12d5912139a4",
+                  "amount": 0.04,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:23f6c2fa-fcfd-4aad-9556-269102a2f08f",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1542
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

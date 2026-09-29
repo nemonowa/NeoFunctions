@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#/i",
+        "/PO",
+        "iOD"
+    ],
+    "key": {
+        "#": "minecraft:iron_block",
+        "/": "minecraft:stick",
+        "i": "minecraft:iron_ingot",
+        "P": "minecraft:piston",
+        "O": "#minecraft:planks",
+        "D": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:structure_block",
+        "count": 1
+    }
+}

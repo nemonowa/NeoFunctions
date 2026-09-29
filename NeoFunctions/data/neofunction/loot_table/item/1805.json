@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:knockback": 5
+              },
+              "minecraft:lore": [
+                {
+                  "text": "夢を見ているのはラルーシャか、それとも彼女に見られている者たちか",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "黄金の夢",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1805
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

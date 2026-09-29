@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ウィンドパウダー",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "風のエネルギーを封じ込めた粉。",
+                  "color": "#54A159",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "風系の魔法や装備に利用可能。",
+                  "color": "#54A159",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 5,
+                "minecraft:thorns": 5
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1105
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

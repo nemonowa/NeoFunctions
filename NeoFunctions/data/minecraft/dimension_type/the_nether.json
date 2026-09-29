@@ -1,0 +1,27 @@
+{
+  "attributes": {
+    "minecraft:gameplay/nether_portal_spawns_piglin": true,
+    "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "always",
+      "can_sleep": "when_dark",
+      "error_message": {
+        "translate": "block.minecraft.bed.no_sleep"
+      }
+    },
+    "minecraft:gameplay/can_start_raid": false
+  },
+  "has_skylight": true,
+  "has_ceiling": false,
+  "coordinate_scale": 1,
+  "ambient_light": 15,
+  "has_fixed_time": true,
+  "logical_height": 256,
+  "infiniburn": "#minecraft:infiniburn_nether",
+  "min_y": 0,
+  "height": 256,
+  "monster_spawn_light_level": 7,
+  "monster_spawn_block_light_limit": 15,
+  "has_ender_dragon_fight": false
+}

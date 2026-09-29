@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:bf1c84dc-7873-424f-81c1-804b0671ecf9",
+                  "amount": 0.02,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "小麦を固めてできた防具。",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "戦闘に使うには心もとない。",
+                  "color": "gray",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "セットスペル🔯【農家の心得】",
+                  "color": "light_purple",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "畑を踏み荒らさなくなり",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "農家の証での収穫時に低確率で追加のアイテムを回収できる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": ""
+                },
+                {
+                  "text": "脚に装備したとき：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "幸運[農業] +1",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "濃縮小麦アーマー",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:dyed_color": 16562738,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1595
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "FarmingFortune": {
+                  "Amount": 1,
+                  "Slot": "legs"
+                },
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

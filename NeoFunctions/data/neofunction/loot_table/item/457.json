@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:player_head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 50,
+                "minecraft:smite": 7,
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:looting": 6,
+                "minecraft:sweeping_edge": 9,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "かつて",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "酒呑童子",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "を葬った",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "妖刀",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "銘は【安綱】どうじぎりやすつな",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "おに",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 童子",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "斬",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "安綱 ",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ーご",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  457
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

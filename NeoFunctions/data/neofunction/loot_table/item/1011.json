@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "セレスタリーフ・アーマー",
+                "color": "#7F9413",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セレスタベリーの繊維で編み込まれた装甲",
+                  "color": "#7F9413",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "軽く頑丈な異邦人の基礎防具",
+                  "color": "#7F9413",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "各都市の素材を結い付けることで強化できる",
+                  "color": "#7F9413",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "セットスペル🔯【苺甲鎧】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "撃破時にセレベリを入手する(CoolTime5s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 8360979,
+              "minecraft:repair_cost": 18,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:9199bddf-e983-4185-bd47-5b081ca5b0f5",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:snout"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1011
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

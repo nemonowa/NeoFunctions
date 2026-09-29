@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "蜘蛛",
+                  "color": "#D8C6E2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "の",
+                  "color": "#B99AC8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "糸鞭",
+                  "color": "#80608F",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "蜘蛛の糸を束ねて作られた細身の鞭。",
+                  "color": "#B9A4C2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "細くしなやかな糸は扱いやすく、",
+                  "color": "#A58AAF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "軽い力でも鋭くしなるのが特徴。",
+                  "color": "#94789F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "丈夫さには欠けるものの、",
+                  "color": "#846B90",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "身軽な相手には扱いやすい一品。",
+                  "color": "#765D82",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 2,
+                "minecraft:sweeping_edge": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:3820baff-bf66-4cae-9f8d-a92641e99f18",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1837
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

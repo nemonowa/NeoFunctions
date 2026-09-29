@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "～風来と伝承の礼装～",
+                  "color": "#7F9413",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "⁂ 第1章の主要装備 ⁂",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "あなたは見知らぬ浜辺の旅を遂げた。",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "セットスペル🔯【若草色の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に水中呼吸エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "5"
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:thorns": 1,
+                "minecraft:unbreaking": 1,
+                "minecraft:mending": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:ef7b8e12-0b05-43bc-8524-9b1fd3774d41",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:42f10372-ab34-4cbe-a40e-f375ae8c2a7f",
+                  "amount": 0.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1587
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

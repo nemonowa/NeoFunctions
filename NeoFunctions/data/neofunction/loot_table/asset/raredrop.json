@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 947
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 32,
+          "quality": 1,
+          "value": "neofunction:item/23",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:nbt": "{Tags:[lv2]}"
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 16,
+          "quality": 1,
+          "value": "neofunction:item/24",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:nbt": "{Tags:[lv3]}"
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "quality": 1,
+          "value": "neofunction:item/25",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:nbt": "{Tags:[lv4]}"
+            }
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "quality": 1,
+          "value": "neofunction:item/26",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:nbt": "{Tags:[lv5]}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

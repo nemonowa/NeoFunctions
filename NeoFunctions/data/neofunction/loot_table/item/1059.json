@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:e66a0f37-25ee-45ba-a6df-716a0405e838",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:9e6d4580-966b-4b8a-84c5-a3b2f26fa9fb",
+                  "amount": 0.04,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:depth_strider": 1,
+                "minecraft:respiration": 1,
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:raiser"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "船員用のだぶついた作業向きズボン",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "フルセットスペル🔯【亡霊の海域】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に水中呼吸エフェクトを得る(CT60s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "海賊のスラップス",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 2916863,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1059
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

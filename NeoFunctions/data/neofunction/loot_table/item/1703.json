@@ -1,0 +1,235 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "#0067C0",
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ф⏴===",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "Sniper's⭐Mark",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "===⏵ф",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "||",
+                    "color": "#0067C0",
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "ф⏴===",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "Sniper's⭐Mark",
+                    "bold": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "===⏵ф",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "||",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  }
+                ],
+                {
+                  "text": "凍てつく不毛の惑星パゴスからやってきた、",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ボルトアクション式スナイパーライフルのヴァンテージエディション。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "あなたは屈強なレジェンドとなり、獲物に狙いを定めるのだ。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "「アルティメット準備完了、敵は絶対に気付かないよ...。」",
+                  "color": "#0067C0",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "スペルアイテム🔯【スナイパーズマーク】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "弾が当たった敵にマークを付け、マークが付与されている敵を",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "再度狙撃すると、ダメージが倍になる。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:6",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:7.62mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:ボルトアクション",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "3Dmodel:zoma＆Soluto",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:218df245-6aaa-47e9-b0ea-916d3759e24d",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:da97be80-7257-415d-bf1e-a97f1275cfa9",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 1
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1703
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 6,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 636
+                  }
+                },
+                "damage": 5,
+                "firerate": 22,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 6,
+                "maxreloadingtime": 100,
+                "recoil": -5,
+                "reloading": 0,
+                "speed": 2,
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

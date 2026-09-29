@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "再生Ⅰ (00:08)",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "　"
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "碧天牧場の新鮮なミルクと香り高いバターをたっぷり使って焼き上げたパン",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "外はほんのり香ばしく、中はやわらかでやさしい甘みが広がる",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ひと口ごとに疲れがほどけ、旅の足取りを軽くしてくれる",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "碧天ミルクパン",
+                "color": "#FFE682",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1348
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

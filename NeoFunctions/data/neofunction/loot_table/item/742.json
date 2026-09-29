@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "解放されたSK",
+                  "color": "dark_gray",
+                  "bold": true
+                },
+                "CustomNameVisible": 0,
+                "NoGravity": 1,
+                "ShowArms": 1,
+                "DeathLootTable": "neofunction:item/742",
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "装飾用の腕付きアマスタ",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルスタンド=サモン【アーマースタンド】",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  742
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

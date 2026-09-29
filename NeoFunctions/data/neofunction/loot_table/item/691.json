@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "#A8E2FF",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 整地神の妙薬 ",
+                  "color": "light_purple",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||",
+                  "color": "#A8E2FF"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  691
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 11068159,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 127,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

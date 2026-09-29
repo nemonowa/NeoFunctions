@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/109",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "座標観測：パレスオブセレスタ -Palace of Celesta-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:100)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r女神セレスタを祀る祝祭の神殿。山頂に坐す壮麗な遺跡は神代の時代から変わらず白く輝き続けている。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/100": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

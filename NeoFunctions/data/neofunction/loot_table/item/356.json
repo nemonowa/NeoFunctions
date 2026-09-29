@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "水",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 魂",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "と",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "記憶",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "の盾 ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "光",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "* eternal shield",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:silk_touch": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:40e94584-45fb-49ed-93a5-2c2a512c1b37",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:175089d2-7c9a-4c42-8b0f-2a2c0047eda0",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:stripe_downleft",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "yellow"
+                }
+              ],
+              "minecraft:base_color": "light_blue",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  356
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

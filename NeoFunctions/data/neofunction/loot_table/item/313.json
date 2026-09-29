@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:5e9f7f50-acf8-47eb-8f87-6f69ed18a910",
+                  "amount": -0.7,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 7
+              },
+              "minecraft:custom_name": {
+                "text": "致死量のチーズケーキ",
+                "color": "#FFF5B3",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  313
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "bites": "2"
+                },
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

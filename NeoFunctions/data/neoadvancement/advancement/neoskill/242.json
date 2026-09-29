@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/241",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：劇薬強襲【トキシックレイド】 -Toxic Raid-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:242)の習得\n§9説明：§r命中させた敵に劇薬入りの猛毒を撃ち込み、じわじわとウィザー(衰弱)で蝕む単体攻撃。LVLが上がるほど衰弱の深さと持続時間が増していく。（SP6消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                242
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

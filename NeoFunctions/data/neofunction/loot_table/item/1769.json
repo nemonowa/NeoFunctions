@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "剣と同じ攻撃速度の棒",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "generic.attack_speed のベース値は 4.0（素手）",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "Operation:0 は加算なので、Amount = 目標値 − 4.0",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "鉄の剣（1.6）の再現は 1.6 − 4.0 = -2.4",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "Operation：名前：計算：用途例",
+                  "color": "gold",
+                  "italic": false
+                },
+                {
+                  "text": "0：加算：base + Amount：固定値の増減。剣の −2.4 など",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "1：基底乗算：base + (base × Amount)：基底値に対する割合変化。0.5 で +50%",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "2：現在値乗算：current × (1 + Amount)：Op0・Op1 適用後の値にさらに掛ける",
+                  "color": "red",
+                  "italic": false
+                },
+                {
+                  "text": "評価順は必ず 0 → 1 → 2。同じ Operation が複数あれば全部足してから次へ進む",
+                  "color": "dark_aqua",
+                  "italic": false
+                },
+                {
+                  "text": "＊＊私はこの難解な表記を憎んでいる＊＊",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:f7627067-de1d-4762-860c-37c7e435c6c2",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1769
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "#F3981D",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " リンボジュース🍹 ",
+                  "color": "yellow",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "#F3981D",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "極彩",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "天空王国【レインボーヘイブン】",
+                    "color": "#F3981D",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に",
+                    "color": "white"
+                  }
+                ],
+                [
+                  {
+                    "text": "に自生する虹木の",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "果実",
+                    "color": "#F3981D"
+                  },
+                  {
+                    "text": "を絞った液体。"
+                  }
+                ],
+                [
+                  {
+                    "text": "飲むと体が",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "永久発光",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "する特異体質に変化する。"
+                  }
+                ],
+                [
+                  {
+                    "text": "輝く額縁",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "にいれると成長し、",
+                    "color": "white"
+                  },
+                  {
+                    "text": "増える",
+                    "color": "gold"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  159
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 15964189,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:glowing",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

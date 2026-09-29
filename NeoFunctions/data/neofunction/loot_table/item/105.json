@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "投げると対応する番号のエンティティが召喚される。",
+                  "color": "white"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルスクロール=サモン【No.1】",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  105
+                ]
+              },
+              "minecraft:custom_data": {
+                "summon": 1,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/852",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：🔯 魔速 🔯 -Stone Tablets of Hell and Paradise-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:853)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rスペルアイテム🔯【状態異常】\n状態異常「鈍足」を解除する\nインベントリーの右上にあるときに効果が発動する",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:jack_o_lantern"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  853
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

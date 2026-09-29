@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1082",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1081",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1080",
+          "weight": 98,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:asset/base"
+        }
+      ]
+    }
+  ]
+}

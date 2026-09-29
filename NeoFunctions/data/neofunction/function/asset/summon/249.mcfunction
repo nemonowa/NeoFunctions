@@ -1,0 +1,6 @@
+# 命名：シュガーソングタワー
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/249
+
+summon silverfish ~ ~ ~ {CustomNameVisible:1b,Passengers:[{id:"minecraft:endermite",CustomNameVisible:1b,Passengers:[{id:"minecraft:silverfish",CustomNameVisible:1b,Passengers:[{id:"minecraft:endermite",CustomNameVisible:1b,Passengers:[{id:"minecraft:silverfish",CustomNameVisible:1b,Passengers:[{id:"minecraft:endermite",CustomNameVisible:1b,CustomName:{"text":"ママレード"},active_effects:[{id:"minecraft:absorption",amplifier:0b,duration:-1}]}],CustomName:{"text":"シュガー"},active_effects:[{id:"minecraft:poison",amplifier:0b,duration:-1}]}],CustomName:{"text":"ソング"},active_effects:[{id:"minecraft:luck",amplifier:0b,duration:-1}]}],CustomName:{"text":"ピーナッツ"},active_effects:[{id:"minecraft:fire_resistance",amplifier:0b,duration:-1}]}],CustomName:{"text":"ビター"},active_effects:[{id:"minecraft:strength",amplifier:0b,duration:-1}]}],CustomName:{"text":"ステップ"},active_effects:[{id:"minecraft:speed",amplifier:0b,duration:-1}],Tags:[lv2,],DeathLootTable:"neofunction:asset/summon/249"}

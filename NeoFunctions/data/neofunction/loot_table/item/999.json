@@ -1,0 +1,188 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:7193d3bf-e22d-4121-b782-32bceacc7dd5",
+                  "amount": 7777,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:470016ab-59eb-495a-a3fb-4a18904f28d9",
+                  "amount": 77.77,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:d33d63d7-43f0-4559-a417-5d91a05944f3",
+                  "amount": 7777,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:3e55725c-0e1a-4c45-8c06-6df9b9a89995",
+                  "amount": 77.77,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 255,
+                "minecraft:fortune": 255
+              },
+              "minecraft:repair_cost": 1000000000,
+              "minecraft:unbreakable": {},
+              "minecraft:lore": [
+                {
+                  "text": "OverEnchanted.level.infinity",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "nowaの小道具のひとつ",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その質量や容積は自在に調整可能で",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "持つ者に地上の全てを浄化する大洪水の力を与える",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "内側には幾億の銀河が内包されている",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "破壊可能:",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "any",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "✧",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_blue",
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false
+                },
+                {
+                  "text": " 裁洪神の約櫃 ",
+                  "color": "aqua",
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "✧",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  999
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "check": 1,
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

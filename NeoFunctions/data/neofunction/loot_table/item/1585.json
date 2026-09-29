@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【ラージバンドル】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "translate": "インベントリの%1$sに入れておくとアイテムを%2$sまで収納する。",
+                  "italic": false,
+                  "color": "gray",
+                  "with": [
+                    {
+                      "text": "最上段",
+                      "color": "blue",
+                      "bold": true
+                    },
+                    {
+                      "text": "5120個",
+                      "color": "light_purple",
+                      "bold": true
+                    }
+                  ]
+                },
+                [
+                  {
+                    "text": "収納対象は",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "ルクスの黄金麦",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "バンドルが空の状態で手に持ってスニークするとアイテムを取り出すことができる。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "0/5120",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "黄金麦の大容量袋",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1585
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

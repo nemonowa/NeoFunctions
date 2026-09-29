@@ -1,0 +1,14 @@
+{
+    "parent": "neofunction:.clock/1s",
+    "criteria": {
+        "": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": "neofunction:item/unique_horse_armor"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/player_interacted_with_entity/unique_horse_armor/schedule"
+    }
+}

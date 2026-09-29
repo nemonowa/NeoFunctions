@@ -1,0 +1,157 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "FN SCAR-L",
+                "color": "#D6CD7E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "FN SCAR-L",
+                  "color": "#D6CD7E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "FN社が開発した次世代アサルトライフル",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "特殊部隊向けに設計されており正確無比な射撃精度を誇る",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "S",
+                    "color": "#D6CD7E",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "pecial operations forces ",
+                    "color": "#D6CD7E",
+                    "bold": false,
+                    "italic": true
+                  },
+                  {
+                    "text": "C",
+                    "color": "#D6CD7E",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "ombat ",
+                    "color": "#D6CD7E",
+                    "bold": false,
+                    "italic": true
+                  },
+                  {
+                    "text": "A",
+                    "color": "#D6CD7E",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "ssault Rifle",
+                    "color": "#D6CD7E",
+                    "bold": false,
+                    "italic": true
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:30",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:中",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:5.56mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:62ffab29-e3cd-4927-a9f2-4aeec392a110",
+                  "amount": -0.4,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:28667c30-6ec9-4ae3-988a-21b869a1ea79",
+                  "amount": -0.4,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  673
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 30,
+                "damage": 1.5,
+                "firerate": 2,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 30,
+                "maxreloadingtime": 100,
+                "reloading": 0,
+                "speed": 2.5,
+                "inoncooltime": 0,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 635
+                  }
+                },
+                "recoil": -1.5,
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

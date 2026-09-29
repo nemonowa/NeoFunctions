@@ -1,0 +1,216 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "r",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "g",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "e",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ダオロスの義眼 ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "r",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "e",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "高次元に存在する",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "アウターゴッド【ダオロス】",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "の",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "魔眼",
+                    "color": "dark_purple"
+                  }
+                ],
+                [
+                  {
+                    "text": "人間の脳では処理できない",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "情報量",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を持ち",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "直視",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "したものは白く",
+                    "color": "white"
+                  },
+                  {
+                    "text": "色を失い",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "結晶化してしまう。",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 9,
+                "minecraft:infinity": 9,
+                "minecraft:binding_curse": 9
+              },
+              "minecraft:profile": {
+                "id": [
+                  -1532449578,
+                  -1405464298,
+                  -1957931112,
+                  -1846980783
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiNjRlMmU5N2Y3NTIxNThhMzkxN2Y3NWM4MGQwZDBhNjU1OGUyYTQyMWEyOWM2MzBhYmEyZDRjYWE4YjdhNiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1398
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

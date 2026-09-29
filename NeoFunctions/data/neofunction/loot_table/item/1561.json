@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:cec44fb7-4719-4d49-9452-6431e29c3a38",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:loyalty": 8
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "柄に",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙水結晶",
+                    "color": "#C92DCF"
+                  },
+                  {
+                    "text": "を埋め込んだ槍"
+                  }
+                ],
+                [
+                  {
+                    "text": "突くたびに湿った",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "水気",
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "を放つ"
+                  }
+                ],
+                {
+                  "text": "スペルアイテム🔯【水牢の呪縛】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃時、水属性追加ダメージ＋鈍足付与",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "クールダウン：15s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ケロクリスタルスピア",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1561
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:unbreakable": {},
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " Gear of the Abyss Lord ",
+                  "color": "light_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "深淵ノ王が身につけていた装備",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "奈落の顕現で矮小な存在は触れるだけで無に帰す",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "本人曰くピクニック用の軽装とか...",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 99,
+                "minecraft:fire_protection": 99,
+                "minecraft:projectile_protection": 99,
+                "minecraft:protection": 99,
+                "minecraft:thorns": 9
+              },
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "18"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1172
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

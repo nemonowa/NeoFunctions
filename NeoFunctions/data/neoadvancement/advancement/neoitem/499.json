@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/498",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：オーバーエンチャントアイテムについて -About over-enchanted items-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:499)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rこの世界では、本来付与できないはずのエンチャントや過剰なレベル、新たに追加されたカスタムエンチャントが数多あります。\nそれらのスペルアイテムはユニークで強力な効果を持ちますが、正しいアイテムに付いていないなどで表記通りの効果を発動しないかったり、そもそもエンチャントなどの効果が隠されていることがあります。\nアイテムの隠された効果は、アイテムラボや鑑定系のスキル、異空の天文台、凍結した禁書庫などで解析ができます。\nアイテムの未知に挑み解き明かし真に己がモノとしましょう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  499
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

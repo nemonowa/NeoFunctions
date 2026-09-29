@@ -1,0 +1,587 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1375
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "対象の覚えられるスキルが書いてある本",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "共鳴士官【ARIA】",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "共鳴士官【ARIA】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "共鳴刻印（シギル）について\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "多くのスキルの起点となる仕組み。詳細は次ページ。",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴刻印は敵に付与される目印で、刻印持ちの敵を対象にすると追加ダメージや追加効果が発生する"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "共鳴刻印とは\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "・付与方法\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "運命刻印(214)・運命連鎖(212)・共鳴領域(219)などのスキル、または杖を装備した状態での通常攻撃の命中時に対象へ付与される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "30秒（スキルにより異なる）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・活用スキル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "運命連鎖・運命跳躍・運命旋律が刻印持ちの数や有無に応じて追加ダメージ／追加効果を発揮する"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "パッシブ\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "装備効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "杖を装備している間、移動速度上昇レベル1を得る。この間の通常攻撃は命中した相手に共鳴刻印を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "発動効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ソウルホープを3分間付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "魔杖錬成【クリエイト・ロッド】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "共鳴士官が無から杖を錬成するスキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "錬成魔法杖を生成"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "運命連鎖【レゾナンス・チェイン】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10/30/50/70/90レベル = 5/10/20/40/80（起点が刻印済みなら8/15/30/60/120。周囲に他の刻印持ちがいない状態なら更に2倍）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "命中した敵に共鳴刻印を付与。以後、周囲6m以内に未刻印の敵がいる限り自動的に次々と飛び移りながら連鎖する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "運命跳躍【レゾナンス・リープ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "16m以内に刻印持ちがいれば強力な一撃、いなければ最寄りの敵へ弱めの一撃を放つ。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・刻印持ちがいる場合\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内の刻印持ちへ範囲ダメージ（0/30/50/70/90レベル=10/20/40/80/160）後、最も遠い刻印持ちへ瞬間移動し単体大ダメージ（30/60/120/240/480）。移動時1秒間耐性レベル5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・刻印持ちがいない場合\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "最寄りの敵へ瞬間移動し半分の威力（5/10/20/40/80）で攻撃"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "運命刻印【レゾナンス・シギル】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "対象に共鳴刻印を刻む。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴刻印（30秒）／ウィザー（0/30/50/70/90レベル=1/2/3/4/5レベル、30秒）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自身に4秒間の移動速度上昇を付与"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：5"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "運命旋律【レゾナンス・メロディ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "周囲の刻印持ちの数に応じて、再生の効果時間が延び、金ハートも得られる。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・再生\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "効果時間：基礎5秒（刻印持ちがいなくても保証）／16m以内に1体以上いれば12秒。強さはレベルに応じて上昇"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・金ハート\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "16m以内の刻印持ちの数（最大3体）に応じて、アブソープションを段階的に付与（10秒）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "共鳴回帰【レゾナンス・リカバリー】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "自身に共鳴回帰を付与する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴回帰（5秒ごとに周囲16mの刻印持ち1体につき2SPの回復効果、上限6体）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：3分\n"
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "共鳴短律【レゾナンス・カデンツァ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "周囲のプレイヤーに共鳴短律を付与する。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "8m以内のプレイヤー"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴短律（CT減少速度が倍になる）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：3分\n"
+                    },
+                    {
+                      "text": "・消費SP：30"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "共鳴回帰【レゾナンス・リカージョン】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "自身の装備している防具の耐久値を全回復する（※周囲32m以内に敵がいると発動できない）。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "25"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象：自身\n"
+                    },
+                    {
+                      "text": "・消費SP：100"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "共鳴領域【レゾナンス・サンクチュアリ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "共鳴領域を生成する。範囲内の敵とプレイヤーにデバフとバフを与える。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・範囲\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自身を中心に半径8m"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・敵への付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴刻印／ウィザー（レベル5）／鈍足（レベル3）を1秒ごとに付与"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・プレイヤーへの付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "共鳴回帰／共鳴短律を1秒ごとに付与"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間：1分\n"
+                    },
+                    {
+                      "text": "・消費SP：100"
+                    }
+                  ]
+                ],
+                "title": "共鳴士官【ARIA】",
+                "author": "System",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

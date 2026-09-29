@@ -1,0 +1,202 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:9b74fe4a-4211-4ce6-a9fd-f4f7f5de8e08",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:809861fc-f68d-41a7-9850-d873a42fc452",
+                  "amount": 0.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:87c09935-95c7-4a9c-ae39-ff239c913ee6",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:aa6aa54b-a012-4193-823e-bff156d698ad",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:99bf3796-db19-42dc-af8f-df503f87d394",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:422862d9-9bbe-4fd7-8dd4-7cff4b80e8a9",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:eefadeba-d0f7-4869-b7e0-61edc42d47ee",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5806e29b-9f3c-4206-99eb-e43571455195",
+                  "amount": 1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:e29ecc05-bba8-44f8-a48e-1f08b5512e83",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:6c7005a1-41c5-4a4d-8ba1-bcf08be80d06",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:5ada8afa-c1a2-4980-81d0-a35981b82d3b",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:baa3b6be-2f40-4f1c-af1b-c57b83ff0533",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 10,
+                "minecraft:smite": 10,
+                "minecraft:bane_of_arthropods": 10,
+                "minecraft:knockback": 10,
+                "minecraft:fire_aspect": 10,
+                "minecraft:impaling": 10
+              },
+              "minecraft:lore": [
+                {
+                  "text": "大宇宙の無限が宿った杖。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "cosmic",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "۞",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "-",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "コズミックロッド",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "-",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "۞",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "-",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "cosmic",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  258
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

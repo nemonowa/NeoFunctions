@@ -1,0 +1,57 @@
+{
+  "parent": "neofunction:.clock/30s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1307
+                    ]
+                  }
+                }
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1308
+                    ]
+                  }
+                }
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1309
+                    ]
+                  }
+                }
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1310
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/entity_hurt_player/soltheal"
+  }
+}

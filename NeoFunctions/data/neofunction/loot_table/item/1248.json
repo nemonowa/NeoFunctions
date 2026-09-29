@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ヒロインというよりヘロインね",
+                "color": "#CAFFBF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1248
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13303743,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 3,
+                    "duration": 30
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 0,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:levitation",
+                    "amplifier": 0,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

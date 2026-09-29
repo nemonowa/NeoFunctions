@@ -1,0 +1,28 @@
+{
+  "parent": "neoadvancement:ceresta/root/2/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "物語：メインクエストを達成する。～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：メインクエストを達成する。\n§3§l報酬：§f青碧色のセレスティアルクリスタル×16\n§9§l説明：§7蹄音は大地に刻まれる\n§7牧場の営みは、単純な繰り返しに見える。\n餌をやり、手入れをし、馬と走る日々。\n火・水・風・土が巡る世界の縮図でもある。\n精霊の祭壇は属性について理解する第一歩なのかもしれない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

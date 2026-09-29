@@ -1,0 +1,27 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:shot_crossbow",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "item": {
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                1798
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/shot_crossbow/1798"
+  }
+}

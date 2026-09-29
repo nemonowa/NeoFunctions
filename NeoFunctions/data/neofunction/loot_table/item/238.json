@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "感染者の皮膚",
+                "color": "#D13232",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 13709874,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:thorns": 4,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:d6f254ad-64cb-44a7-9d49-c64cdb736053",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:2986f745-920a-4ada-b83c-93ddb4d543c0",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:snout"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  238
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

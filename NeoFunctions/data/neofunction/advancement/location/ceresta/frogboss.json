@@ -1,0 +1,36 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 621,
+                  "max": 683
+                },
+                "y": {
+                  "min": -40,
+                  "max": -33
+                },
+                "z": {
+                  "min": 2107,
+                  "max": 2169
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/location/ceresta/frogboss"
+  }
+}

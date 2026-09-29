@@ -1,0 +1,120 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:can_place_on": [
+                  {
+                    "blocks": "minecraft:obsidian"
+                  },
+                  {
+                    "blocks": "minecraft:redstone_block"
+                  }
+                ],
+                "minecraft:can_break": [
+                  {
+                    "blocks": "minecraft:barrel"
+                  }
+                ],
+                "minecraft:custom_name": [
+                  {
+                    "text": "|||",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " 釣りクレート ",
+                    "color": "light_purple",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|||"
+                  }
+                ],
+                "minecraft:lore": [
+                  [
+                    {
+                      "text": "幸運な",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "釣り",
+                      "color": "blue"
+                    },
+                    {
+                      "text": "で手に入る不思議な箱"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "釣った",
+                      "color": "aqua",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": "場所",
+                      "color": "blue"
+                    },
+                    {
+                      "text": "によって中身が変わるらしい...？"
+                    }
+                  ],
+                  {
+                    "text": "釣上地点：",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "minecraft:luck_of_the_sea": 1
+                },
+                "minecraft:container_loot": {
+                  "loot_table": "neofunction:fishing/creat"
+                },
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    641
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:enchantments"
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "rare": "EX"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "nbt": "Dimension",
+                  "entity": "@p",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

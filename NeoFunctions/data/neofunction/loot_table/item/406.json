@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "寝良狂歌彡(ﾟ)(ﾟ)",
+                "color": "yellow",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "論破され 悔し紛れの バカガイジ",
+                  "color": "yellow",
+                  "bold": true
+                },
+                {
+                  "text": "震えた指で 意地を張るかな",
+                  "color": "yellow",
+                  "bold": true
+                },
+                {
+                  "text": "(バカガイジが春の季語です)",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:c9512c34-ab1c-49be-9b4e-f653d1423196",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  339346079,
+                  1373196230,
+                  -1670913504,
+                  -1440530100
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2ZlNGJlNWFjNzliYWFmMjZlZjAyYWYwZWM4NDA5NjI3MWI4MDdkNWIwNGYxMzk2OTM0NTVlMTg0M2ZmNjBmMCJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  406
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

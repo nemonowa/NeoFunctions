@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1815
+                ]
+              },
+              "minecraft:custom_name": {
+                "text": "スペルブック🔯【フロッグボルトリップル】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "異能秘術書",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "۞ スペルブック ۞\n",
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "名称：フロッグボルトリップル\n説明：足元中心に3重の波紋（電撃）を放つ設置スキル\n水中or雨天時はボーナスで追加ダメージ\n\n消費SP：40\n\n"
+                    },
+                    {
+                      "text": "⌖習得【インストール】",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックでスキルをインストールする！"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 334"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "蛙王グラズ=ヴェル",
+                "generation": 0,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

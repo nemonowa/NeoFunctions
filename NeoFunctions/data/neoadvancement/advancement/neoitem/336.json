@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/335",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：オクタン -Octane-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:336)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rminecraft:redstone_block\n↑らぴすです\nアイ アム ア エメラルド！！！\nﾀﾞｲﾔ\n「5000兆金ほしい！！！」\n紫水晶\nSILVER975\n※セキタン",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:charcoal"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  336
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/2"
+  }
+}

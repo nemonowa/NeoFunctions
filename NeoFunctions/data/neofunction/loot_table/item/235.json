@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "タケノコ派",
+                "color": "green",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "おいでよ！タケノコの里",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "食べると好きなものは好きと大声で叫べる自信がつく",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "大体、派閥煽りけしかけてる側",
+                  "color": "black",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  235
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

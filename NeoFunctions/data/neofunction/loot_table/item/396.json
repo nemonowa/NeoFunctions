@@ -1,0 +1,117 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:4a82ae6f-c09c-44e3-889f-11864d68833e",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:d6018da9-5c8b-4061-9f2b-275fdce3654f",
+                  "amount": -1.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:0359d582-a5a3-400b-9a97-48a7ada92fb1",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:fdbcac91-4965-4c0a-be32-dfaeec125d22",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 5
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "軽量にして",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "万能の個人兵装",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "一流のシェフ(自称)がこぞって使うという",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "純銀のフライパン",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "実は純銀製ではなく、通常のフライパンにメッキを施しただけの代物",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その割に値段がやたら高い。性能は「フライパン」と何ら変わらない。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "まあこれで作られた料理はどことなく特別感があるかもしれない。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "シルバー・フライパン",
+                "color": "gray",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  396
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "プロミネンス・シールド",
+                "color": "#FF1A1A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "炎の紋章が刻まれし盾",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "いかなる猛攻も受け止める",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "セットスペル🔯【灼刃一体】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "剣と共に構える時、真価を発揮する。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "剣と盾を同時装備で攻撃力上昇",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 9999,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 20,
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:87a0fad5-e1a1-4bd3-9134-f7aa460a4cf9",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:6c2f4cd4-c32b-4240-847e-bb7b0e2ff6f4",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "red"
+                }
+              ],
+              "minecraft:base_color": "orange",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1804
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

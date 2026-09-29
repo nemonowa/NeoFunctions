@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "とびのたび",
+                "color": "#7FC2E3",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "建築家クラフターのための安全靴",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "鳶の足袋",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 8372963,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:feather_falling": 99,
+                "minecraft:depth_strider": 9,
+                "minecraft:soul_speed": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:48ba0a83-c1ec-42a7-9854-bb07fcf0ece2",
+                  "amount": -9.99,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:2b580e5a-4eae-4b70-b9e8-62d59c7d33f3",
+                  "amount": -9.99,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:ef067dce-b431-4d23-bf4c-525d5dfbeb1d",
+                  "amount": -9.99,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:sentry"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  739
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

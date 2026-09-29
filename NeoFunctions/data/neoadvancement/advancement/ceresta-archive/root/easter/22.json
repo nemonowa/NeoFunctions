@@ -1,0 +1,55 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/easter/21",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4ZDQwNGY1ZjFmYjdhYjJlODA4NzFkM2YzODU4N2Y1ZjNjNjhhYjYxZGFjNGFiNGFhZTVhMDBhM2RiMWI4MCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "夢想の断片22　　　　　　　　　　　　",
+        "color": "#fafafa",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "跳ねる声が響く一階、最初の泡が弾ける",
+      "color": "#ffffff"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:player_interacted_with_entity/easter/22": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

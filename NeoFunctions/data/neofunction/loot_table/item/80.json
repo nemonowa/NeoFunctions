@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:green_candle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 10,
+                "minecraft:flame": 10,
+                "minecraft:loyalty": 10,
+                "minecraft:riptide": 10
+              },
+              "minecraft:lore": [
+                {
+                  "text": "かの国では神薬と評され爆買いされた「お香」",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "喉風邪を治す効果があるとかないとか...",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "点火物入り！四個入り！",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "龍",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "角",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "香",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "🐉",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  80
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "candles": "4",
+                  "lit": "true"
+                },
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/412",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：舶刀カットラス -Marine cutlass-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:413)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r大航海時代に中南米で使われていた農耕用の鉈をサーベルを手本に改造した刀剣。 刀身が短く、全長は60〜80cm前後という片手で扱える大きさのため、障害物が多くて狭い船上での白兵用武器として使われた。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  413
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

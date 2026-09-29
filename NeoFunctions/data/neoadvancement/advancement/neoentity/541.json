@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/540",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：SAT                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:541)の発見\n§3報酬：§r経験値×16\n§9説明：§r最悪の拠点急襲部隊であるSAT(毒蜘蛛+ガーディアン)が1〜2体出現。個体スペックの高さと自身の座標4マスに蜘蛛の巣を設置し続けるスキルにより非常に戦闘力が高い。倒した後も蜘蛛の巣が拠点中に張り巡らされ後始末も大変。ネザースターをドロップする。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/541\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

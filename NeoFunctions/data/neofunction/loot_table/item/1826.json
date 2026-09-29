@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "電脳鞭 ",
+                  "color": "#9B5DE5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#C77DFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "サイバー・",
+                  "color": "#E17AFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "アングラー",
+                  "color": "#67E8F9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#A78BFA",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "R＆D社が試作した、",
+                    "color": "#8A6FB0",
+                    "italic": false
+                  },
+                  {
+                    "text": "近未来仕様",
+                    "color": "#D58AFF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の竿。",
+                    "color": "#B58ACB",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "内部構造・動作原理・安全性――",
+                  "color": "#8888AA",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "すべて",
+                    "color": "#C77DFF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "未検証。",
+                    "color": "#FF66DD",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "※企業側は",
+                    "color": "#777777",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「問題ない」",
+                    "color": "#CC88FF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "と回答している。",
+                    "color": "#888888",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 5,
+                "minecraft:fire_aspect": 1,
+                "minecraft:knockback": 1,
+                "minecraft:looting": 1,
+                "minecraft:smite": 5,
+                "minecraft:sweeping_edge": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:b67b6a35-1d8b-45b0-a37c-1d34901f8ddb",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a7d3326b-de5c-44f9-a6f9-449ef2a3e937",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1826
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

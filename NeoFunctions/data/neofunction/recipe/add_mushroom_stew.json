@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "minecraft:crimson_fungus",
+        "minecraft:warped_fungus",
+        "minecraft:bowl"
+    ],
+    "result": {
+        "id": "minecraft:mushroom_stew",
+        "count": 1
+    }
+}

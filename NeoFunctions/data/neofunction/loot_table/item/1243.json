@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " セレスティアル・フェアリウム ",
+                  "color": "#C3D825",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "全身魔装 IV",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "～Celestial Farelium～",
+                  "color": "green"
+                },
+                [
+                  {
+                    "text": "彷徨える霊を次に導く",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "若草色",
+                    "color": "#C3D825"
+                  },
+                  {
+                    "text": "の礼装"
+                  }
+                ],
+                {
+                  "text": "祝祭の終わりを見届ける者の衣",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Farewell（送別）+ilium（神聖地） ",
+                  "color": "green"
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 6,
+                "minecraft:projectile_protection": 6,
+                "minecraft:protection": 5,
+                "minecraft:soul_speed": 4,
+                "minecraft:fortune": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:91009e96-dd8f-4745-8979-cef97c7a005c",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1243
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:attribute_modifiers",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

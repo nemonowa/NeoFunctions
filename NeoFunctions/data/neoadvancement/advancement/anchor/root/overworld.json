@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:anchor/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 32768
+      }
+    },
+    "title": [
+      {
+        "translate": "🌐｜無限の創造世界【OverWorld】～～～～～",
+        "color": "dark_green",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【オーバーワールド】に到達する。\n§3§l難度：§f✭（脅威レベル1～5：現世)\n§9§l説明：§7全てが§2キューブ§7で構成されたボクセルワールド。多種多様な§d存在【エンティティ】§7が闊歩し千変万化の§a植生【バイオーム】§7が無限に広がる。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "rewards": {
+    "function": "neofunction:player/level/128"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    }
+  }
+}

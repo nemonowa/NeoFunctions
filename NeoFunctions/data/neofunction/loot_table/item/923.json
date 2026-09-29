@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 1100,
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 6
+              },
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:lore": [
+                {
+                  "text": "灼熱世界で小匠が鍛えたといわれている",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Legendary",
+                  "color": "dark_red",
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 小匠のツルハシ ",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "Legendary"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  923
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

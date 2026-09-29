@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                },
+                {
+                  "blocks": "minecraft:torch"
+                },
+                {
+                  "blocks": "minecraft:wall_torch"
+                },
+                {
+                  "blocks": "minecraft:cobweb"
+                },
+                {
+                  "blocks": "minecraft:vine"
+                },
+                {
+                  "blocks": "minecraft:lily_pad"
+                },
+                {
+                  "blocks": "minecraft:fire"
+                },
+                {
+                  "blocks": "minecraft:wheat"
+                },
+                {
+                  "blocks": "minecraft:carrots"
+                },
+                {
+                  "blocks": "minecraft:potatoes"
+                },
+                {
+                  "blocks": "minecraft:beetroots"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Adv.",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ハーベストピッケル",
+                  "color": "gold"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ルクスイーファで愛用される収穫用の道具。 ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "特殊な加工により、アドベンチャーモードでも ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "一部の植物や特殊ブロックを採掘できる。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "アドベンチャーモードでも下記のブロックを破壊できる。",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1,
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:af94fb40-05c5-48f6-a49c-25e35eda165e",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:3497eac5-d460-4df9-8f25-49ff30c7af45",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1740
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

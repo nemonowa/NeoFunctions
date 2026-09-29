@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "棒",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "クラフトの素材にして原初の武器",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "神は言った「汝、右頬を殴られたら囲んでボーで叩け」と",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:0043c899-8bd9-4019-b38d-7ec7f139a5c9",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  414
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1496
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "灼熱の砂と光に溶け込み、蜃気楼となって姿を欺く静かなる砂漠の幻影魚。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：蜃気楼のポーション（透明化 12:00/移動速度上昇レベル2 6:00/低速落下 12:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Super:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "extra": [
+                                {
+                                  "text": "✯",
+                                  "extra": [
+                                    {
+                                      "text": "✯",
+                                      "color": "#FF602C"
+                                    }
+                                  ],
+                                  "color": "#FF8330"
+                                }
+                              ],
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "デザートファントム",
+                "color": "#FFE4BD",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 12000,
+                    "id": "invisibility"
+                  },
+                  {
+                    "amplifier": 1,
+                    "duration": 7200,
+                    "id": "speed"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 12000,
+                    "id": "slow_falling"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"蜃気楼の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

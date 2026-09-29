@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1034",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：魔獣ホットウィング -Monster Hotwing-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1035)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「魔獣の羽」と称される手羽先を\nスパイスたっぷりのタレに漬け込み\n炎で炙った一品。1口食べるごとに熱さと旨味が駆け巡る。\n効果：HP中回復＋火属性耐性UP（5分間）。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1035
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

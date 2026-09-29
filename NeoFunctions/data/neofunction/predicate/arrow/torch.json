@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:entity_type": "#minecraft:arrows",
+    "minecraft:stepping_on": {
+      "block": {
+        "blocks": "#minecraft:beds"
+      }
+    }
+  }
+}

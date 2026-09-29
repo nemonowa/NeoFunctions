@@ -1,0 +1,128 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ヒヒーンメルならそうした。 ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「複雑なダンジョンほど攻略に燃える」",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「ダンジョンは全部の宝を探さないと気が済まない」",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「くだらないイベントほど心に残る」",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「でもヒンメルはもういないじゃない」",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "設置可能：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "any",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:horse",
+                "Tame": 1,
+                "Tags": [
+                  "umagacha"
+                ],
+                "CustomName": {
+                  "text": "ヒヒンメル",
+                  "color": "green"
+                },
+                "equipment": {
+                  "saddle": {
+                    "id": "minecraft:saddle",
+                    "count": 1
+                  },
+                  "body": {
+                    "id": "minecraft:iron_horse_armor",
+                    "count": 1
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1403
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

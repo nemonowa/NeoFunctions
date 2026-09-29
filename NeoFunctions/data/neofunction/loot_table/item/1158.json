@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "r",
+                  "color": "blue",
+                  "obfuscated": true
+                },
+                {
+                  "text": "g",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "t",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "e",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": " 永久機関の設計図 ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "r",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "u",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "t",
+                  "color": "blue"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "先駆文明の",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "創造主",
+                    "color": "light_purple",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "が遺したとされる",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "謎の設計図",
+                    "color": "dark_aqua"
+                  }
+                ],
+                [
+                  {
+                    "text": "神をも冒涜する",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "13番目の理論",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "により無限に動力を生み出す"
+                  }
+                ],
+                {
+                  "text": "あなたは「危機文明」に分類される。",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 13
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1158
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "Recipes": [
+                  "minecraft:ender_pearl"
+                ],
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

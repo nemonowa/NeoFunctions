@@ -1,0 +1,6 @@
+# 命名：ワープゾンビ
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/62
+
+summon zombie ~ ~ ~ {Brain: {memories: {}}, HurtByTimestamp: 0, IsBaby: 0b, attributes: [{base: 0.0d, modifiers: [{id:"neofunction:ab060015-0b5b-4966-b9a9-9308a803c230",amount:0.01852966490229814d,operation:"add_value"}], id: "minecraft:knockback_resistance"}, {base: 0.034874943113706765d, id: "minecraft:spawn_reinforcements"}, {base: 35.0d, modifiers: [{id:"neofunction:fd990bd7-6b1a-4523-936f-1bd4ec16fea6",amount:-0.07619868181418821d,operation:"add_multiplied_base"}], id: "minecraft:follow_range"}, {base: 0.23000000417232513d, id: "minecraft:movement_speed"}], Invulnerable: 0b, FallFlying: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, InWaterTime: -1, fall_distance: 0.0f, DeathTime: 0s, PersistenceRequired: 1b, Motion: [0.0d, -0.0784000015258789d, 0.0d], Health: 20.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, Rotation: [139.22662f, 0.0f], CustomName: "Grumm", CanBreakDoors: 0b, Fire: -1s, CanPickUpLoot: 0b, HurtTime: 0s, DrownedConversionTime: -1,Tags:[ex,warp],DeathLootTable:"neofunction:asset/summon/62",drop_chances:{mainhand:0.085f,offhand:0.085f,feet:0.085f,legs:0.085f,chest:0.085f,head:0.085f}}

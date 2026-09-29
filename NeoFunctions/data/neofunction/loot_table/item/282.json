@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_pane",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ストライク🗡️",
+                "color": "dark_red",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ガラス片を握りしめて... 決死の一撃",
+                  "color": "dark_red"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:soul_speed": 4,
+                "minecraft:smite": 4
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  282
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

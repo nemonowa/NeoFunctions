@@ -1,0 +1,197 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "||",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": " 無 ",
+                  "color": "dark_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "||",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "> null...",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "> missingno",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": ">  ",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:8c8508dc-0640-40f3-bd51-33fddf98b3f2",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:c738b0c3-9239-4d81-89df-9c8aa19847b0",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:d12f1da1-169f-4be9-952e-868fb7536f0d",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c239a96c-0eb6-4112-809a-b439d56371dc",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:282eb603-f5a7-425c-b471-8b66b62f507b",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:04ebf6b2-e2f9-4491-ba76-87399a1df216",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:29dab8cc-57fc-4c33-b500-f4983e5a6601",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:8630db8f-8777-4e52-a6c7-bb16d8690d6d",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:30817543-80f4-468e-bc03-96a09a2d5d14",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:570cdf8a-6100-4145-9588-abd5e5dc993d",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:firework_explosion": {
+                "shape": "creeper",
+                "colors": [
+                  854098,
+                  4198971,
+                  4653056
+                ],
+                "fade_colors": [
+                  13836799,
+                  7897599,
+                  11927393
+                ],
+                "has_trail": true,
+                "has_twinkle": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  279
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:firework_explosion"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

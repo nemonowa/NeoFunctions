@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "DT11 LはBERETTA社が作った上下二連式散弾銃だ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "現在だとクレー射撃などに使用されている",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "一発ごとの反動は大きいがどうせ二発だけだ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "装弾数:2",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:12gauge",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:セミオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "DT11 L",
+                "color": "#752B10",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  645
+                ]
+              },
+              "minecraft:custom_data": {
+                "gun": 1,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

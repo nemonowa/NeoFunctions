@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "パイプライフル？",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "パイプライフル？",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "倉庫にあった適当な金属パイプと廃材を組み合わせ作った銃。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "一応フルオートをできるように改造したが、火力には期待できないだろう。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:20",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:特大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:Hand Made Bullet",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1715
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 20,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 633
+                  }
+                },
+                "damage": 0.7,
+                "firerate": 6,
+                "fireweapon": 1,
+                "inoncooltime": 0,
+                "life": 1180,
+                "maxammo": 20,
+                "maxreloadingtime": 100,
+                "recoil": -4,
+                "reloading": 0,
+                "speed": 1.5,
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

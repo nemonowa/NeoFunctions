@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ナインボール",
+                "color": "yellow",
+                "bold": true,
+                "strikethrough": true
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d622bd2b-5145-4576-ac6d-f9c715b19bb7",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:98ee08d5-e60f-46f5-b4fa-695e98ba6fc2",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:7c3e953c-7a23-47b1-a77b-2da40db8fcb7",
+                  "amount": 9,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  1495659175,
+                  2005289935,
+                  -1894285000,
+                  391804650
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDExZDBhOWE2NjZmMzA2NDAwYTUwNDlhMTVhZGNiZDFlZjllYmJiMzgzN2ViMmE0ZDFiZGE5OGFlY2Y3MDM3OCJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  654
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

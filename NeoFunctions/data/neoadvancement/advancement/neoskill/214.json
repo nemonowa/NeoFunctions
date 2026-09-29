@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/213",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴刻印【レゾナンス・シギル】 -Resonance Sigil-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:214)の習得\n§9説明：§rトリガーすると周囲8m以内の敵に共鳴刻印を付与し、30秒間のウィザーを付与する(ウィザーの強さはLVLに応じて上昇)。使用後、自身に短時間のスピードブーストが付与される。（SP5消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                214
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

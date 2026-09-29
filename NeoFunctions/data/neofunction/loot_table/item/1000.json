@@ -1,0 +1,361 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1000
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "あかるく...\n\nひろい..\n\n",
+                      "color": "dark_purple",
+                      "bold": true,
+                      "italic": false,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "||",
+                      "color": "aqua",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "||",
+                      "color": "dark_blue",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": " 異",
+                      "color": "blue",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": " 空 ",
+                      "color": "dark_blue",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "間 ",
+                      "color": "aqua",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "||",
+                      "color": "dark_blue",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "||",
+                      "color": "blue",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n\n\n光り輝く",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "obfuscated": false
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "未知の装置",
+                      "color": "gold",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "obfuscated": false
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "が",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "冷たい眠り",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "から呼び醒す...",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "もしも君がここがどこかなんか憶えていなくとも。ここが",
+                      "color": "dark_purple",
+                      "bold": true,
+                      "italic": false,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "「現実」",
+                      "color": "red",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "であるという確信がそこにあった。\n\nどうやら",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "～波長～",
+                      "color": "green",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "が合ったようだ。\n\n頭の中に",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "|||",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "ノイズ",
+                      "color": "aqua",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "|||",
+                      "color": "dark_aqua",
+                      "bold": true,
+                      "obfuscated": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "が走る… ",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "",
+                            "color": "dark_aqua",
+                            "obfuscated": true
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                ],
+                "title": "記憶",
+                "author": "MCID",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "check": 1,
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

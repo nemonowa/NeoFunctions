@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "NEXUSの反重力について",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1242
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "ネクサスでは艦隊員の多様性に考慮してグラビティ・フリーを採用しています。反重力制御オプションは正装の徽章に内蔵されており自由に切り替え可能です"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

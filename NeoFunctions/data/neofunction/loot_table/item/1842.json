@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "闘鎖",
+                  "color": "#FFF4D6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "・",
+                  "color": "#FFE7A3",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "グラディウス",
+                  "color": "#D99A24",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "鎖が鳴る。",
+                  "color": "#FFF4D6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "観客は、それを勝者の名を呼ぶ合図だと知っていた。",
+                  "color": "#FFECC2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "幾千もの剣闘士が、この黄金の輪を潜り抜けた。",
+                  "color": "#E8C875",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "歓声を浴びる者もいれば、",
+                  "color": "#DDB45A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "二度とその鎖の音を聞けなかった者もいる。",
+                  "color": "#C9942E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "勝者に与えられるのは、栄光ではない。",
+                  "color": "#F0D48A",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "最後まで立っているという、ただ一つの事実だ。",
+                  "color": "#FFF0B8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 3,
+                "minecraft:fire_aspect": 3,
+                "minecraft:knockback": 1,
+                "minecraft:lure": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:7b9e2a05-571a-467e-8c74-c8fac98fe2e3",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:22cf40f3-7307-4331-b4c0-3f04d8a099bf",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1842
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

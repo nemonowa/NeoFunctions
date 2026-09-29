@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/128",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：四季の宝樹 -Tree of the four Seasons-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:128)に到達する。\n§3報酬：§r経験値×32\n§9説明：§rルクスイーファに根を下ろした世界樹の巨枝。交わらぬはずの「春夏秋冬」が同時に巡り、世界の季節を調律する神秘の地。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/129": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

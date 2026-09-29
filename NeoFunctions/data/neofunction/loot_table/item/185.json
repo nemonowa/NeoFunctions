@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 12,
+                "minecraft:bane_of_arthropods": 12,
+                "minecraft:fire_aspect": 12
+              },
+              "minecraft:lore": [
+                {
+                  "text": "era12の時代を彩った過去の遺物。",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "もはや意味もなく、ただ過ぎしひを懐かしむものだ。",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "それは古いものたちの特権であり、侵すべきものでは無い。",
+                  "color": "blue",
+                  "italic": false
+                },
+                {
+                  "text": "そっとしておこう。真にその意志を継ぐものでなければ。",
+                  "color": "blue",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "かつての栄光",
+                "color": "blue",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  185
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

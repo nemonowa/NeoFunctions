@@ -1,0 +1,46 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:nbt": "{SelectedItem:{id:\"minecraft:ender_eye\",components:{\"minecraft:custom_data\":{reloading:0b,fireweapon:1b}}}}",
+            "minecraft:flags": {
+              "is_sneaking": true
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:nbt": "{Inventory:[],equipment:{offhand:{id:\"minecraft:ender_eye\",components:{\"minecraft:custom_data\":{reloading:0b,fireweapon:1b}}}}}",
+            "minecraft:flags": {
+              "is_sneaking": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+  ],
+  "rewards": {
+    "function": "neofunction:system/adv/tick/fireweapon/sneaking"
+  }
+}

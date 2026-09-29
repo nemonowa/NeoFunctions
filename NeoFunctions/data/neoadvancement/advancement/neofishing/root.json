@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:fishing_rod"
+    },
+    "title": [
+      {
+        "translate": "異空の航海記：魚百科全書～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l説明：この図鑑では、これまでに出会った「魚類」の発見率を確認できる。\n§9§l記憶：§7これから貴官が巡り合う、§e奇怪で神秘に満ちた§7魚たちとの記録が刻まれていく、貴方だけの記憶域。\n§7彼らは時に美しく、時に禍々しく、そしてどこか§5常識を逸した§7存在だ。\n§7だからこそ、その正体を見極め、使いこなし、貴官だけの物語を紡いでみせよ。",
+      "color": "white"
+    },
+    "background": "minecraft:block/light_blue_glazed_terracotta",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

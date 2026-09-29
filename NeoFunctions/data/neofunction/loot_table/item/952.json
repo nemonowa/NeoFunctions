@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_campfire",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "キャンプファイヤー",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "火",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を灯そう。",
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "炎",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を囲い備えよう。",
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "腹が減っては",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "戦",
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "はできぬ。"
+                  }
+                ],
+                [
+                  {
+                    "text": "さあ、ここから",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "旅",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "に出よう！",
+                    "color": "dark_gray"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  952
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "lit": "false",
+                  "signal_fire": "false"
+                },
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

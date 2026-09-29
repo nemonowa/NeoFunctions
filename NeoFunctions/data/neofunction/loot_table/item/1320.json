@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "イカ墨を潮を程よく混ぜてできた飲み物",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "呑むと全身が黒く染まりそう",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "イカ潮エキス",
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1320
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 0,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 2,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 2,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:conduit_power",
+                    "amplifier": 1,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

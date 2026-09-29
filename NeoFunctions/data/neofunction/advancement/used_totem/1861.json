@@ -1,0 +1,22 @@
+{
+  "parent": "neofunction:.clock/60s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:used_totem",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                1861
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/used_totem/1861"
+  }
+}

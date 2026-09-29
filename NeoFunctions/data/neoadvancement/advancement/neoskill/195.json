@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/194",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：【魂視】マナ・アイズ -[Spirit Vision] Mana Eyes-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:195)の習得\n§3報酬：§r経験値×32\n§9説明：§rトリガーすると、視線上のエンティティを発光させる。ソウル操作。ソウルを目に集中させ、視覚機能が向上させる。ソウルの流れや不可視の存在を解析できるようになる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                195
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/1/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～まずは煮沸から始めたまえ～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：煮沸器具を使用し綺麗な水を入手する\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§3ライムリストア§r\n§9§l説明§r§f：汚れた水など論外だ。錬金術の第1歩は、きれいな水から。\n渡された調理器具を使用し水入りの瓶を煮沸しよう",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/1/3": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/4",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 16117533
+      }
+    },
+    "title": [
+      {
+        "translate": "次元侵攻：極彩の天空王国-RainbowElHeaven-",
+        "color": "#F3981D",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【レインボーヘイブン】に到達する。\n§3§l報酬：§f進捗タブ「極彩の天空王国」の解放\n§9§l説明：§7極彩色の虹が架かる天空の雲上王国\n§c§l転移方法：§f盲目状態で高度256以上に侵入すると確率で遭難する。NEXUSから転移する。"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:rainbow_heaven"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  }
+}

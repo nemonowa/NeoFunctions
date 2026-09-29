@@ -1,0 +1,87 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロ☆コンバットアーマー",
+                "color": "#96548F",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙水結晶を組み込んだ防具",
+                  "color": "#FAB3FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "優れた耐水性を持ち、機動力を損ないにくい ",
+                  "color": "#FAB3FF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:2d597159-d8f2-495f-97ef-6a442285a241",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:91674c3d-a177-4df2-ba9c-558b8833f9ac",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:9bd9763b-21f0-4f7d-bd41-c0ea354b5192",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1545
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

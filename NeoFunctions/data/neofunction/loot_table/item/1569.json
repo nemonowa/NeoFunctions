@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロオイル",
+                "color": "#FFD359",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙の体内から精製される粘性の高い油。 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "防具の加工や薬品の素材として幅広く用いられる。  ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「ほんのり水面のような光沢を放っている。」",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "underlined": false
+                },
+                {
+                  "text": "◆ 基本素材",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:silk_touch": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1569
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

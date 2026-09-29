@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": ">>",
+                  "color": "#B017FC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ポータル",
+                  "color": "#07FBFC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ポーション",
+                  "color": "#F78C02",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "<<",
+                  "color": "#B017FC",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "てんいもん",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "接触すると二種のポータルを開通させる爆弾。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "複数回の落下ダメージを与える。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  36
+                ]
+              },
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:potion_contents": {
+                "custom_color": 11540476,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:glowing",
+                    "amplifier": 11,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

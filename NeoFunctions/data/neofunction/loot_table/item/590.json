@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 2
+              },
+              "minecraft:lore": [
+                {
+                  "text": "☣劇物につき取り扱い注意☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "クリーパーウイルスが密封されたアンプル",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "服用すると、ウイルスは宿主を蝕み",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "自らと似た性質に改変する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "その効果は死ぬまで持続する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "不要な効果はより強い毒で打ち消せばよい。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "変異型ウイルス【C】",
+                  "color": "#263017",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "☣",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  590
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 2502679,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 1,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 1,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 1,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

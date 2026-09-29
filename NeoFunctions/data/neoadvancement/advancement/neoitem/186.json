@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/185",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：引き裂かれし永劫 -Torn Aeons-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:186)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r永遠にして無限――この世界は我がもの。\n絶対の存在――全ては我がもの。\nその始まり――我は全となる。\nその存在――全てはエムラクール。\n終末を。終末を。終末を。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:polar_bear_spawn_egg"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  186
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

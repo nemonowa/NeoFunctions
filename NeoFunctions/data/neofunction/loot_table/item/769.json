@@ -1,0 +1,148 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "armor",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 小桜韋威大鎧 ",
+                  "color": "#A69ABD",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "armor",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「こざくらがわおどしおおよろい」",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "軍記物語での",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「大荒目の鎧」",
+                    "color": "#A69ABD",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "という表現の似合う大鎧",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "本鎧の",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「小札」",
+                    "color": "dark_aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "（こざね）は甲冑の品中でも最大級"
+                  }
+                ],
+                [
+                  {
+                    "text": "平安時代後期の武将「源為朝」が所用した",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "名甲冑",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:dyed_color": 10918589,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 6,
+                "minecraft:thorns": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:b7111144-678f-4a78-be53-82dfc6cbad46",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:09558b8e-4893-4292-bd95-206bd8795ccf",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:49d7a7cb-05ef-4254-ac33-66de6764a752",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  769
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

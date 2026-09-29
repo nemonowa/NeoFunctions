@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:3874662c-9c51-4a79-b4b4-fba2968c2654",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:91c7d62f-5cfb-4af1-a289-9d8ff371cecb",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "blue"
+                }
+              ],
+              "minecraft:base_color": "black",
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:thorns": 7,
+                "minecraft:knockback": 1,
+                "minecraft:unbreaking": 7,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "前にまっすぐ発射！",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "一位のカートを追いかけて",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ヒットするとダメージ",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "敵の甲羅のガードやタックルにも使える！",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "つかえる？",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "青甲羅",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  170
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

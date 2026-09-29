@@ -1,0 +1,30 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/4",
+  "display": {
+    "icon": {
+      "id": "minecraft:crafting_table"
+    },
+    "title": [
+      {
+        "translate": "製作：クラフター・オーバー・ワールド～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標レシピをクラフトする。\n§3§l報酬：§f経験値×16\n§9§l目標：§7作業台、かまど、ベッド、バケツ、ダイヤの鶴橋、エンチャントテーブル、タートルヘルメット、コンジット、ケーキ。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

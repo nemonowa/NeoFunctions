@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " とてもウマガチャ ",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "スペルエッグ I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "迅速 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "リザレクション Ⅲ",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ランダムな",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ｳｯﾏ=ｻﾝ",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を召喚する不思議なガチャ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "死亡時に三度まで復活できる",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「不死鳥の加護」",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "保険付き",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "ばびよーん！ぐしゃーん！がちゃーん！（効果音）",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "設置可能：",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "any",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:horse",
+                "Tags": [
+                  "umagacha3"
+                ],
+                "CustomName": {
+                  "text": "ｳｯﾏ=ｻﾝ",
+                  "color": "green"
+                },
+                "active_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ],
+                "ArmorItem": {},
+                "equipment": {
+                  "offhand": {
+                    "id": "minecraft:totem_of_undying",
+                    "count": 3
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1023
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

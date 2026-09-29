@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1487
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "深海の静寂と結晶化した魔力を宿す魚。背の発光体は魔力の核とされる。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：深海のポーション（暗視 5:00/水中呼吸 5:00/イルカの好意 5:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Legacy:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アビスクリスタルフィッシュ",
+                "color": "#6661FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 6000,
+                    "id": "night_vision"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 6000,
+                    "id": "water_breathing"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 6000,
+                    "id": "dolphins_grace"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"深海の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

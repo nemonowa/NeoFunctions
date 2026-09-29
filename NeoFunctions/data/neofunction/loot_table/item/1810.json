@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "⚔",
+                  "color": "#E6A100",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "frog",
+                  "color": "#32A889",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "軍蛙統帥槍",
+                  "color": "#2D5A27",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "frog",
+                  "color": "#32A889",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "⚔",
+                  "color": "#E6A100"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "昏き水脈より現れし軍勢を統べる者にのみ渡される、誇り高き長槍。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "柄には幾千の夜を越え、歴史を創りし歴代の英雄たちの名が刻まれている。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "「そして今──幾達の歴史の末尾に、汝の名が刻まれん」",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "スペルアイテム🔯【継承されし王の威厳】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "投げ放たれし一閃が敵を穿つ時、その傷口より",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「フロッグボルト」が呼び覚まされる。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 10,
+                "minecraft:aqua_affinity": 10,
+                "minecraft:respiration": 10,
+                "minecraft:impaling": 3,
+                "minecraft:loyalty": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:2b5f3c62-feb6-458b-aeef-0ad8657154cc",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:a3bb5459-0c6d-44c2-85ef-0725db36c4e0",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:bed38bab-9424-4d3c-904b-95b41791dd12",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1810
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

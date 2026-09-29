@@ -1,0 +1,160 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "✡",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "妖刀",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "✞"
+                },
+                {
+                  "text": "YOIYAMI",
+                  "color": "dark_purple",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "魂の腐敗 enchantment.level.999",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "妖刀の支配 enchantment.level.999",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "黄泉の国",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の力を宿す",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "妖刀",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "強大な力は持ち主をも",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蝕む",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "その罪は",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "白い大蛇",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "--囁き------------------------",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "＊「面白い。私を扱うかの？」",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "＊「私を殺したあいつは赦さない…」",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "＊「殺せ！私の糧となれ！」",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "＊「人間はみんなそうだ…なんともおろかなのじゃ」",
+                  "color": "dark_purple"
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:a259bdde-b718-4c4a-8860-a180b12461bf",
+                  "amount": 50,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:c4058d9f-0fcb-491f-8b85-db7f2d54095a",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:7ea751b5-540a-4e44-bcd1-7a1d5c49de06",
+                  "amount": -444,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  751
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

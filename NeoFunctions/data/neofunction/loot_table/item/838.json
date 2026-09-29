@@ -1,0 +1,251 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ルミーニ珍味のフルコースゲル ",
+                  "color": "#F4FBFE",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "雪鉄魚",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "や",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "雪蝙蝠",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "の皮や肉をベースに",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "煮凝り",
+                    "color": "gold",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "になるまで瓶の中で冷やしたもの。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                [
+                  {
+                    "text": "ゲル状で",
+                    "color": "dark_green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "保存食",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "としても優秀で、",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "飲食前に手で温めることにより体温で融解し",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "濃厚なえぐみと旨味を持つ。",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "ルミーニ地方",
+                    "color": "#F4FBFE",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の伝統的な郷土料理で",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "最大級のもてなしを表す",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "大御馳走",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "長時間の満腹感が続く。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:frost_walker": 8,
+                "minecraft:bane_of_arthropods": 8,
+                "minecraft:silk_touch": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:372ca3d9-b012-4ba6-85a5-aa4002ecd1fd",
+                  "amount": -0.08,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  838
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 3397307,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 9,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:water_breathing",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 127,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 127,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 127,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 72000
+                  },
+                  {
+                    "id": "minecraft:levitation",
+                    "amplifier": 10,
+                    "duration": 10
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

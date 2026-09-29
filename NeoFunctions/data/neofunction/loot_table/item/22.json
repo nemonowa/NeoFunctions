@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": " 「サンプル」の魔石",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "名前の対象が保持していた",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "魔石",
+                    "color": "gold",
+                    "bold": true
+                  }
+                ],
+                [
+                  {
+                    "text": "蓄えてきた",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "魔力",
+                    "color": "yellow",
+                    "bold": true
+                  },
+                  {
+                    "text": "や"
+                  },
+                  {
+                    "text": "生態情報",
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "が刻まれた"
+                  },
+                  {
+                    "text": "情報結晶",
+                    "color": "dark_green",
+                    "bold": true
+                  }
+                ],
+                [
+                  {
+                    "text": "結晶は",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "魔物の根源",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "であるため死亡と同時に"
+                  }
+                ],
+                [
+                  {
+                    "text": "壊れてしまうことが多く",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "希少価値",
+                    "color": "dark_aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "が高い。"
+                  }
+                ],
+                [
+                  {
+                    "text": "「情報結晶解析機」",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "に読み取らせることで",
+                    "color": "gray",
+                    "bold": false
+                  }
+                ],
+                [
+                  {
+                    "text": "仮想空間",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で戦うことができるようになる。",
+                    "color": "gray",
+                    "bold": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  22
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

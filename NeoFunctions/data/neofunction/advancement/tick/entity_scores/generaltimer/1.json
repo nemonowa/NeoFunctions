@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neofunction:location/ceresta/elemental": true
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "generaltimer": {
+                  "min": 20
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:asset/tellraw/ekiriburiamu"
+  }
+}

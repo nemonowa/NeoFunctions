@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "錬金術師クラウスの耐火試薬",
+                "color": "#FF00FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "錬金術師クラウスが開発中の",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "《未認可》の耐火ポーション。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "人体実験中。使用は自己責任で",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「熱い！…でも効いてるっぽい？」",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1050
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 10372354,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "amplifier": 40,
+                    "duration": 3600,
+                    "show_particles": false,
+                    "show_icon": false
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

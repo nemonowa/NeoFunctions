@@ -1,0 +1,6 @@
+# 命名：アンカーポイント＝ベッドスポーン
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/283
+
+summon villager ~ ~ ~ {Silent:1b,Invulnerable:1b,NoAI:1b,CustomName:{"text":"アンカーポイント＝ベッドスポーン","color":"dark_aqua","bold":true},active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:knockback_resistance",base:99},{id:"minecraft:movement_speed",base:0}],VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,xp:1,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},buyB:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},sell:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}}}]},Tags:[ex,roll],DeathLootTable:"neofunction:asset/summon/283",equipment:{head:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":{floats:[106.0f]}}}}}

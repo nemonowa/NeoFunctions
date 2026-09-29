@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:d09f2418-a14d-441e-8c08-4fca46bc067f",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1309
+                ]
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 3,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【潮癒の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "> 被弾時、2♡回復する(CD30s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "力は奪うために在らず、巡るために在る。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "この法衣は振るわれた力を生命へと還し",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使い手の傷を静かに塞いでいく",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "湧流の法衣",
+                "color": "#36F7DE",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 3602398,
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

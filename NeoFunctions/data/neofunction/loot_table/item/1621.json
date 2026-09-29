@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "The ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": "PERFECT ",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "Spider Web"
+                },
+                {
+                  "text": " RETURNS;",
+                  "color": "dark_red"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「足掻いてみるものですね。」",
+                  "color": "dark_red",
+                  "bold": true
+                },
+                [
+                  {
+                    "text": "想像を絶する",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": "理不尽",
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "から首の皮一枚"
+                  },
+                  {
+                    "text": "「帰還」",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "する"
+                  }
+                ],
+                [
+                  {
+                    "text": "そして、また自ら",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": "死地",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "に身を投じる。"
+                  },
+                  {
+                    "text": "狂気的",
+                    "color": "dark_purple"
+                  },
+                  {
+                    "text": "に。"
+                  }
+                ],
+                {
+                  "text": "「絶望」の旗を掲げる彼の目は死んでいない。",
+                  "color": "dark_purple",
+                  "bold": true
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1621
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

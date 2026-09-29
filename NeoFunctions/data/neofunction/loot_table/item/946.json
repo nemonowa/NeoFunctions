@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "リボン・ナポリン",
+                "color": "red",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "飲んでスッキリ！美味しい炭酸飲料！",
+                  "color": "yellow",
+                  "bold": true
+                },
+                {
+                  "text": "～北の大地名産～",
+                  "color": "dark_green",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  946
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16740935,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 0,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 600
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

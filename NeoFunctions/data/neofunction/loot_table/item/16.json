@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "大容量の魔力瓶",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "魔力",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を吸収し貯蓄する",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "鉱石",
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "日用品として流通しており、",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "生活者",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "には魔法道具の動力源として、",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "冒険者",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "には魔力が空の魔石をモンスターの",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "経験値",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "などの",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "魔力で回復させたものを売ることで収入源とされている。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 250,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  16
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

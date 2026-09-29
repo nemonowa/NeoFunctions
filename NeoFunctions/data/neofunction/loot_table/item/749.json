@@ -1,0 +1,322 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|神々の",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "聖歌",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "謳い謳え",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "我らが",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "主君",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "の御帰りだ",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "唱え踊れ騒げ敬え",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "今宵持って我らは終焉の神を出迎える",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:a52bebcf-8848-4099-8e48-48c04e305fb0",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:f69c0ffa-bbfe-44c4-87ac-b466f1295ace",
+                  "amount": -999,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f8ceb905-17cc-4c05-9482-3e8795061b93",
+                  "amount": 0.1,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:8609ed1e-ac84-4225-8134-f451359928ad",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:d2fa953e-df78-46c6-a6f5-907d07ca65ef",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:64b93d04-33c8-4367-9c22-198ba79e03e9",
+                  "amount": -999,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:c6ffcc2b-5e65-4d96-a91b-32ba63e70e55",
+                  "amount": 15,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:39589bff-50cb-4a92-885e-950ac77fa835",
+                  "amount": -0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:750652f2-77a8-4fc3-9a3a-bc9b026dcbc9",
+                  "amount": -0.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  749
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "空高く 天仰ぐ\n今宵星 揃う時\n祈り得て\n時を経て\n眠りより\n醒める神\nやがて皆\n「例外な存在」を\n識るだろう\nそして尚\n真の名を\n取り戻す\n容赦なく",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "cl",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "i",
+                          "color": "red",
+                          "obfuscated": true
+                        },
+                        {
+                          "text": "c",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "k",
+                          "color": "red",
+                          "obfuscated": true
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger kill set -1"
+                    }
+                  },
+                  {
+                    "text": "痴れ者が\n統べる地は\n今一度\n彼の領土\n夜空から星降れば\n終焉にはあと僅か\n戦々兢々たる凶\n喧々囂々たる轟\n巨海より\n虚空より\n場所問わず\n忍び寄る",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "cl",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "i",
+                          "color": "red",
+                          "obfuscated": true
+                        },
+                        {
+                          "text": "c",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "k",
+                          "color": "red",
+                          "obfuscated": true
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger kill set -1"
+                    }
+                  },
+                  {
+                    "text": "やがて皆\n例外な存在を識るだろう\n空高く 天仰ぐ\n今宵星 揃う時\n祈り得て\n時を経て\n眠りより\n醒める神\n狂乱と 恐慌と\n狂変の 共演を",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "cl",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "i",
+                          "color": "red",
+                          "obfuscated": true
+                        },
+                        {
+                          "text": "c",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "k",
+                          "color": "red",
+                          "obfuscated": true
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger kill set -1"
+                    }
+                  },
+                  {
+                    "text": "痴れ者が統べる地は\n今一度 彼の領土\n夜空から星降れば\n終焉にはあと僅か\n戦々兢々たる凶\n喧々囂々たる轟\n巨海より\n虚空より\n場所問わず\n這い寄る",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": true,
+                    "underlined": true,
+                    "hover_event": {
+                      "action": "show_text",
+                      "value": [
+                        {
+                          "text": "cl",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "i",
+                          "color": "red",
+                          "obfuscated": true
+                        },
+                        {
+                          "text": "c",
+                          "color": "red",
+                          "obfuscated": false
+                        },
+                        {
+                          "text": "k",
+                          "color": "red",
+                          "obfuscated": true
+                        }
+                      ]
+                    },
+                    "click_event": {
+                      "action": "run_command",
+                      "command": "/trigger kill set -1"
+                    }
+                  }
+                ],
+                "title": "",
+                "author": "",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

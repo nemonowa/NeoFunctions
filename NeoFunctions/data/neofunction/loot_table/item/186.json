@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polar_bear_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "エ　ム　ラ　ク　ー　ル　！！",
+                  "color": "#0B374D",
+                  "bold": true
+                },
+                "Glowing": 1,
+                "NoGravity": 1,
+                "Silent": 1,
+                "id": "minecraft:oak_boat"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "永遠にして無限――この世界は我がもの。",
+                  "color": "black"
+                },
+                {
+                  "text": "絶対の存在――全ては我がもの。",
+                  "color": "black"
+                },
+                {
+                  "text": "その始まり――我は全となる。",
+                  "color": "black"
+                },
+                {
+                  "text": "その存在――全てはエムラクール。",
+                  "color": "black"
+                },
+                {
+                  "text": "終末を。終末を。終末を。",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 引き裂かれし永劫 ",
+                  "color": "#0B374D",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  186
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

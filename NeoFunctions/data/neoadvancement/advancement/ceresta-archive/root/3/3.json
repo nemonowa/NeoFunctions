@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/3/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～農業王の弟子？～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：黄金麦の圧縮俵を入手する＆小麦を100回破壊する\n§3§l報酬§r§f：§e大統一銅貨§r§464§r§e枚§r\n§9§l説明§r§f：農業王の弟子になるには圧縮俵くらい簡単に作成できないといけない。\n§4収穫したら種を植えることを忘れるな。\n§fそうしないと、農業王が小麦ブルドーザーを腕に抱えて君を追いかけ回すだろう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/3": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

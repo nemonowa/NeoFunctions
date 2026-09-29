@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "⌖始まりの剣⌖",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "それは創世の一振にして",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "起源の大魔法を刀身に宿してるとかいないとか",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "盛大に何も始まらない物語の始まり",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  408
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

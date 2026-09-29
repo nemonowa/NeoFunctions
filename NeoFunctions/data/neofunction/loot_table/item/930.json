@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "KLE",
+                  "color": "dark_red",
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 一王二命三眼槍 ",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "KLE",
+                  "color": "dark_red"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "バラド・ヴィ・ナ・シューラ",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "一人の王にのみ仕え、破壊する王に二たび命を授け、",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "三つの眼で世界の過去、現在、そして滅亡する未来を見届ける槍",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 1000,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  930
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

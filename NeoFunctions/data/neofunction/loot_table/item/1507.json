@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "素材にした魚によって様々な効果を得るポーション。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ポーション",
+                "italic": false,
+                "color": "light_purple"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1507
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:awkward"
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

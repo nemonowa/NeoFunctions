@@ -1,0 +1,46 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYwZTQxNmZiYzA0NmMzNDA3NThkMTk2M2YzOWJiODQwY2JiZTYzOTdiMGNjZjkwNjc4NGUwMTNlZGNkMzIzZiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "採掘：オーバーワールド・マイナー～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標鉱石を採掘する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7石炭、銅、鉄、金、レッドストーン、ラピスラズリ、エメラルド、アメシスト、ダイヤモンド。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

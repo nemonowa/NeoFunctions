@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/205",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：鋼刃結界【スチール・ドミニオン】 -Steel Blade Barrier [Steel Dominion]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:206)の習得\n§9説明：§rトリガーすると周囲8m以内のプレイヤーに攻撃力上昇と耐性を60秒間付与する。（SP消費：30）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                206
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

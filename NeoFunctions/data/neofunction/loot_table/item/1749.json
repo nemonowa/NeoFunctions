@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "黄金麦エール",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ルクス名物。麦の香りが広がる王道エール。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1749
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16771894,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 1,
+                    "duration": 1800
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

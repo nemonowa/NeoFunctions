@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ポイズンソーダー",
+                "color": "#1BE02F",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "おそらくメロン味！",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "濃縮還元100%!!",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「ナニカ」",
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "を絞ったサイダー"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  569
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 1826863,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 2400
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 1,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

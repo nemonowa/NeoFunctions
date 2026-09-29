@@ -1,0 +1,44 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "golden_apple",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "golden_carrot",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "nether_star",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:rare/2",
+                    "weight": 10
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:rare/3",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:item/11",
+                    "weight": 20
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:item/12",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

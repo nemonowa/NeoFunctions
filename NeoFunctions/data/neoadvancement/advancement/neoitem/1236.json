@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1235",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：セレスティア・プリュム -Celestia Plume-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1236)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r星花の香りを閉じ込めた卵と、濃厚な碧天ミルクを合わせて作る贅沢プリン。\n表面を覆う琥珀色の糖蜜が、ひと匙ごとにとろけて心を癒す。\n魔力を穏やかに整える作用があり、旅人の疲れを癒すおやつとして人気。\n夜に食べると、夢が少しだけ甘くなると噂されている。\n\nメルのコメント：\n\n「ほら、食べるたびに“おやすみなさい”の魔法がかかるのよ」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:mushroom_stew"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1236
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/2",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 3456
+      }
+    },
+    "title": [
+      {
+        "translate": "次元侵攻：深淵の終焉星域-TheEND-～～～～～～～",
+        "color": "dark_blue",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【エンド】に到達する。\n§3§l報酬：§f進捗タブ「深淵の終焉星域」の解放\n§9§l説明：§7奈落に浮かぶ§e終焉の浮島§7。討つべき§1竜§7は静かに微睡み、§d最果ての都市§7に翼は眠る。\n§c§l転移方法：§fエンダーアイを使い「ゲート」を開通する。またはNEXUSから転移する。"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  }
+}

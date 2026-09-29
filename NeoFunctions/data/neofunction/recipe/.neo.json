@@ -1,0 +1,14 @@
+{
+    "neo": "https://discord.com/channels/1233036571243188296/1324902227881623693/1324902227881623693",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        "#minecraft:planks",
+        "#minecraft:planks",
+        "#minecraft:planks",
+        "#minecraft:planks"
+    ],
+    "result": {
+        "id": "minecraft:structure_block",
+        "count": 1
+    }
+}

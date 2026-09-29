@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNiYzQxMjU4MmU1NTFlZTQxOTZkODI1NjUyNTI2OTUyYjk5ODFjYWUyNzY3ZDE5M2ZkOGRjMjg5YiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の航海記：エンティティ百科全書",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l説明：この進捗タブでは「エンティティ」の遭遇率を確認できる。\n§3§l報酬：§f新エンティティ発見ごとに経験値\n§9§l記憶：§r§7これから貴官と巡り合う§e最高にユニーク§7な存在§d【エンティティ】§7たちとの歴史が記録されていく貴方だけの記憶域。彼らは貴官にとって、彼らは§5理§0解§5不§0能§5§k＋§7で恐面に見えるかもしれない。君の鎧は軽々と粉砕され、君の常識は徹底的に破壊されるだろう。さぁ、楽しめ。",
+      "color": "gold"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:block/white_shulker_box"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

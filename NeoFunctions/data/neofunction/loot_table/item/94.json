@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "レッドストーンロッド",
+                "color": "#FF432E",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "レッドストーン",
+                    "color": "#FF432E",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を触媒とした杖",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 4,
+                "minecraft:knockback": 1,
+                "minecraft:sharpness": 24,
+                "minecraft:sweeping_edge": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:df9aef23-51c2-4429-ae0b-45395b7585dd",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:dbab1dad-c630-4ad2-a967-f25b27689341",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:3f49f94f-2bcd-4880-bbbc-f39ed23d8aea",
+                  "amount": -2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:7244a7b5-07fd-4f82-939a-44fdefa4fc85",
+                  "amount": 1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  94
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

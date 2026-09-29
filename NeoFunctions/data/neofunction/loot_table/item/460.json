@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "伝説の大剣",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sweeping_edge": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:e3a78957-1ca3-495d-bc35-9d8bf0f53280",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:69445ff8-ac5a-47cc-9cef-7672064475bc",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ebf315de-a0e4-4a20-a17f-1f34d78411de",
+                  "amount": -3.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:94378b60-2378-4474-99a2-5368e093c984",
+                  "amount": 120,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  460
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

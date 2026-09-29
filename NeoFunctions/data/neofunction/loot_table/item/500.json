@@ -1,0 +1,134 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "禁則事項です",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "第六改定版",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  500
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "ProjectNEXUS",
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "は",
+                      "bold": true
+                    },
+                    {
+                      "text": "無限の自由度と選択肢",
+                      "color": "aqua",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "が魅力のゲームです。\nしかし楽しむための",
+                      "bold": true
+                    },
+                    {
+                      "text": "「ルール」",
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "があるので始めに記載しておきます。",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "＜禁則事項＞",
+                      "color": "dark_red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "\n・チート及びクリエイティブモードの使用\n・グリッチの悪用及び内部データの書き換え\n・砥石の使用\n・バリアブロックすり抜け\n・持ち込み、持ち出し禁止エリアのアイテムの密輸、強奪\n✯初見の楽しみを奪う過度なネタバレ(SNSでは ",
+                      "bold": true
+                    },
+                    {
+                      "text": "#TWOW",
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "を！)",
+                      "bold": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "以上をTWOWでは非正規攻略手段とみなしています。これらの不正は無しでお楽しみください。なお以上の行為を検知した場合",
+                      "bold": true
+                    },
+                    {
+                      "text": "ワールドへのペナルティ",
+                      "color": "red",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "が発動する場合があります。",
+                      "bold": true
+                    },
+                    {
+                      "text": "\nなお完全攻略を達成した後はこれらの制限は消滅します。",
+                      "bold": true
+                    },
+                    {
+                      "text": "楽しんでね！",
+                      "color": "light_purple"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "風紀委員会",
+                "generation": 1,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

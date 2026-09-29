@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "暗殺士官の正装",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "アサシンの軌跡を継承する追体験装置",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "着用すると全ての時空の",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "暗殺士官",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "と繋がり",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "その極意を識ることができる。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  176185138,
+                  -1752612576,
+                  -1724563900,
+                  2041804660
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "ewogICJ0aW1lc3RhbXAiIDogMTc3MzM4MDU3MDY0NywKICAicHJvZmlsZUlkIiA6ICIwMGNjZjIzYWM4NDQ0OWE4OTM0Y2QxMzk1Y2M2NjFiNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhcmdvbmF1dGVfbmVtbyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MGFiZDljMjQyNTA4MDE0ZjFlMzBkOTJkNGU2MzcwNzM2MmZmZWVlNjg1MWUwYWRlODY1MmRmZTFkZmFkOWIwIgogICAgfQogIH0KfQ=="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  254
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

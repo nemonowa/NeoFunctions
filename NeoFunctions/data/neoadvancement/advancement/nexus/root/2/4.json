@@ -1,0 +1,44 @@
+{
+  "parent": "neoadvancement:nexus/root/2/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc1MjZkOTc2NjQ1ZTJjNzkyNWE0M2IyODhmYmYyYjU5MTU4MjNkM2M3NDBkZDhiNjRkMzA0NGZlZGE1NzViMyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "職業：射撃士官【DRAGOON】                          ",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：職業説明を確認する。\n§9§l説明：§7遠距離攻撃型。弓や弩、銃や火炎放射器などの火武器を主軸とした遠距離戦闘に強い。パッシブ：「遠距離武器」の装備時に運動能力が向上し、追加効果を得る。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

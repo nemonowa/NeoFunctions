@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロ☆ケブラーアーマー",
+                "color": "#68007D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "深層の湿地素材を用いて鍛えられた上位防具",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "淀んだ水の魔力を帯び、過酷な環境に適応する。",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1550
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:depth_strider": 3,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:8ec9f1fb-508e-4650-86a8-3c393d927c21",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5d4e6d6a-eb6b-4cba-9140-a51260e3cb51",
+                  "amount": 0.06,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:2a96481c-39a9-4fff-9034-6038311a210c",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

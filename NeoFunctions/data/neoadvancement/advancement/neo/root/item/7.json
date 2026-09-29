@@ -1,0 +1,48 @@
+{
+  "parent": "neoadvancement:neo/root/item/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_fungus_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            25
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "宝具収容：星屑の記録兵（1000i）～～～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：§f固有アイテムを1000種以上収集する。\n§9§l報酬：§f経験値 +称号"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "logItem": {
+              "min": 1000
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

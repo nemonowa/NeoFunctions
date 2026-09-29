@@ -1,0 +1,364 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:repair_cost": 0,
+              "minecraft:lore": [
+                {
+                  "italic": false,
+                  "color": "white",
+                  "text": "Normal:"
+                },
+                {
+                  "italic": false,
+                  "color": "white",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Common:"
+                },
+                {
+                  "italic": false,
+                  "color": "aqua",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Rare:"
+                },
+                {
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Legacy:"
+                },
+                {
+                  "italic": false,
+                  "color": "light_purple",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Epic:"
+                },
+                {
+                  "italic": false,
+                  "color": "dark_purple",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "extra": [
+                                    {
+                                      "color": "#FF602C",
+                                      "text": "✯"
+                                    }
+                                  ],
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Super:"
+                },
+                {
+                  "italic": false,
+                  "color": "red",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "extra": [
+                                    {
+                                      "color": "#FF602C",
+                                      "extra": [
+                                        {
+                                          "color": "#FF4328",
+                                          "text": "✯"
+                                        }
+                                      ],
+                                      "text": "✯"
+                                    }
+                                  ],
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Legendary:"
+                },
+                {
+                  "italic": false,
+                  "color": "dark_red",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "extra": [
+                                    {
+                                      "color": "#FF602C",
+                                      "extra": [
+                                        {
+                                          "color": "#FF4328",
+                                          "extra": [
+                                            {
+                                              "color": "#FF3427",
+                                              "text": "✯"
+                                            }
+                                          ],
+                                          "text": "✯"
+                                        }
+                                      ],
+                                      "text": "✯"
+                                    }
+                                  ],
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Ultimate:"
+                },
+                {
+                  "italic": false,
+                  "color": "yellow",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "extra": [
+                                    {
+                                      "color": "#FF602C",
+                                      "extra": [
+                                        {
+                                          "color": "#FF4328",
+                                          "extra": [
+                                            {
+                                              "color": "#FF3427",
+                                              "extra": [
+                                                {
+                                                  "color": "#FF2D26",
+                                                  "text": "✯"
+                                                }
+                                              ],
+                                              "text": "✯"
+                                            }
+                                          ],
+                                          "text": "✯"
+                                        }
+                                      ],
+                                      "text": "✯"
+                                    }
+                                  ],
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Gods:"
+                },
+                {
+                  "italic": false,
+                  "color": "gold",
+                  "extra": [
+                    {
+                      "italic": false,
+                      "color": "#FFE33B",
+                      "extra": [
+                        {
+                          "color": "#FFCC38",
+                          "extra": [
+                            {
+                              "color": "#FFAC34",
+                              "extra": [
+                                {
+                                  "color": "#FF8330",
+                                  "extra": [
+                                    {
+                                      "color": "#FF602C",
+                                      "extra": [
+                                        {
+                                          "color": "#FF4328",
+                                          "extra": [
+                                            {
+                                              "color": "#FF3427",
+                                              "extra": [
+                                                {
+                                                  "color": "#FF2D26",
+                                                  "extra": [
+                                                    {
+                                                      "color": "#FF2525",
+                                                      "text": "✯"
+                                                    }
+                                                  ],
+                                                  "text": "✯"
+                                                }
+                                              ],
+                                              "text": "✯"
+                                            }
+                                          ],
+                                          "text": "✯"
+                                        }
+                                      ],
+                                      "text": "✯"
+                                    }
+                                  ],
+                                  "text": "✯"
+                                }
+                              ],
+                              "text": "✯"
+                            }
+                          ],
+                          "text": "✯"
+                        }
+                      ],
+                      "text": "✯"
+                    }
+                  ],
+                  "text": "Worlds:"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "レアリティ・サンプル・ソード"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  398
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

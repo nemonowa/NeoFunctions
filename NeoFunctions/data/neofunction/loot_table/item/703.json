@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": " ➼ 嚆矢バンドル ➼ ",
+                "color": "#D9435C",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "特殊弾が詰め込まれた矢筒",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tipped_arrow",
+                  "count": 32,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": " ➼ 嚆矢 ➼ ",
+                      "color": "#D9435C",
+                      "bold": true,
+                      "italic": true
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "射った相手を弱らせる特殊な矢",
+                        "color": "gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:potion_contents": {
+                      "custom_color": 14238556,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:weakness",
+                          "amplifier": 0,
+                          "duration": 200
+                        }
+                      ]
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  703
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

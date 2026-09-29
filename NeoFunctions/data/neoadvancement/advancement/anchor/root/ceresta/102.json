@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/101",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：難破船の岩礁 -Dead Bell Reef-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:102)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r海賊たちの古い船が、幽霊船のように夜の闇に浮かぶ。船員の幽霊たちは、かつての航海の記憶を語り継ぎながら、船を守り続ける。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/102": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

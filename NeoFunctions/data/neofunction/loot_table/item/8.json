@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "rare",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 星屑：第八等星 ",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "rare"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "第八等級のアイテムに相当する等星結晶",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "アイテムのレアリティは",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "星",
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "の数で九段階に大別されている"
+                  }
+                ],
+                [
+                  {
+                    "text": "星の数が多いほど希少でより",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "高度",
+                    "color": "blue",
+                    "bold": true
+                  },
+                  {
+                    "text": "なアイテムとなる"
+                  }
+                ],
+                {
+                  "text": "対応するレアリティのアイテムから抽出し複製に用いる。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ゴッズ・アイテム：",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "神話に出るようなチートアイテム。ぶっ壊れ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "自らの理を世界に押し付ける強制力を「神性」という",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:firework_explosion": {
+                "shape": "star",
+                "colors": [
+                  16776960
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  8
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:firework_explosion"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

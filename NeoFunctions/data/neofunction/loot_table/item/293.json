@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "バルザイの偃月刀",
+                "color": "#C628DE",
+                "bold": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "旧支配者",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ヨグ＝ソトース",
+                    "font": "alt",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "の召喚などに用いる"
+                  }
+                ],
+                {
+                  "text": "儀式用の青銅製の偃月刀",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:f63173b3-2c02-439a-85fd-15064090dc10",
+                  "amount": -0.09,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:488b24cb-e697-4d58-bd69-c5edb8816854",
+                  "amount": 1.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:265200ed-cf3d-4e98-b53b-c518fc544c36",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  293
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

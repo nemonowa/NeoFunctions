@@ -1,0 +1,178 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "X",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "X",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "=BUG=",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "X",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "異世界【",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "亜",
+                    "color": "blue",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "空",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "間",
+                    "color": "aqua",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "】における"
+                  }
+                ],
+                [
+                  {
+                    "text": "最凶の幻住種【",
+                    "color": "dark_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "B",
+                    "color": "light_purple",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "U",
+                    "color": "black",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "G",
+                    "color": "light_purple",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "】を模して作られたお面"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:binding_curse": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:a8d935cb-8e94-48a0-be2e-180cddef48b3",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:9d8f1a1d-1cb8-40d7-8480-4c96fb1f3e82",
+                  "amount": 2,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  1772890094,
+                  1340555942,
+                  -1729185612,
+                  821566050
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGUyY2UzMzcyYTNhYzk3ZmRkYTU2MzhiZWYyNGIzYmM0OWY0ZmFjZjc1MWZlOWNhZDY0NWYxNWE3ZmI4Mzk3YyJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  178
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

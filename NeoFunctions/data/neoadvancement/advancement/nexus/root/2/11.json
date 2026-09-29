@@ -1,0 +1,35 @@
+{
+  "parent": "neoadvancement:nexus/root/2/10",
+  "display": {
+    "icon": {
+      "id": "minecraft:debug_stick",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            168
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "卒業：チュートリアル",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：NEXUSの主要区画について理解する。\n§3§l報酬：§f経験値×16\n§9§l説明：§7ネクサスの各区画には様々な機能があり、プレイヤーは自由に使うことができる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

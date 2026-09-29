@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ベンガルールの大砲釣り竿",
+                "color": "#96593F",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "猛者は剣を使わないって？ ",
+                  "color": "#96593F",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "私は釣竿よ。",
+                  "color": "#96593F",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 1,
+                "minecraft:impaling": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:996f1a8f-da1f-41a7-97ff-bf1aeeb4ea15",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  370
+                ]
+              },
+              "minecraft:custom_data": {
+                "CustomEnchantments": [
+                  {
+                    "id": "nunchaku",
+                    "lvl": 5
+                  }
+                ],
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

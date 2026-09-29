@@ -1,0 +1,7 @@
+# 命名：illusioner
+# 説明：
+# >
+# =/function neofunction:system/adv/player_killed_entity/illusioner
+advancement revoke @s only neofunction:player_killed_entity/illusioner
+execute unless predicate neofunction:random_chance/1 run return 0
+give @s minecraft:player_head[minecraft:profile={name:"mhf_illusioner"}]

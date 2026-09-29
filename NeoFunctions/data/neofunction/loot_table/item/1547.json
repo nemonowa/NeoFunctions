@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロ☆ケブラーアーマー",
+                "color": "#68007D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "深層の湿地素材を用いて鍛えられた上位防具",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "淀んだ水の魔力を帯び、過酷な環境に適応する。",
+                  "color": "#8972B8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:respiration": 3,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:937f2080-aa97-4d6e-a605-1d4d56abe5b4",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7f46c334-9d3c-4744-9843-12845d2f65d9",
+                  "amount": 0.06,
+                  "operation": "add_multiplied_base",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:d03932e5-d35c-4370-b97b-014a94275e74",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:rib"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1547
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

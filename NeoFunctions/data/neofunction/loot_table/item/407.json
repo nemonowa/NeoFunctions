@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "⬛︎",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 豆腐の盾 ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "⬛︎",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "…僕だって、、、頑張ってるんですよぉぉぉ（泣）",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:silk_touch": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:a9c4c53a-0a21-4c09-a690-ddd1abc2c007",
+                  "amount": 0.03,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:846e4289-1a87-4211-9e22-010db5e9b83c",
+                  "amount": 0.3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "gray"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "white"
+                }
+              ],
+              "minecraft:base_color": "light_gray",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  407
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:profile": {
+                "id": [
+                  -1064332527,
+                  1653492023,
+                  -1446594604,
+                  383034101
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTgyZTZhYTk1MDExNzM4NGViNGJmNTUyMTcyODNhNzhmNTdiOGM4NWMwODlhYWQwM2JhYzVjYWE4M2MzMDIwIn19fQ=="
+                  }
+                ]
+              },
+              "minecraft:custom_name": [
+                {
+                  "text": "||||||",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " おとしもの ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||||",
+                  "color": "dark_aqua"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "Mr.Dropper",
+                    "color": "dark_aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "の遺失物。忘れてはいけないはずの",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "記憶",
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "が詰まっている。",
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "持ち主に返してあげるととても喜び、なにか",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "お礼",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "をくれるだろう。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 7
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  943
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

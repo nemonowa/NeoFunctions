@@ -1,0 +1,278 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "終焉の代償鞭",
+                  "color": "#FF5555",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#CC2222",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "アルティメット・",
+                  "color": "#FF8800",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "アングラー",
+                  "color": "#FFCC33",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#CC2222",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "✦ ",
+                    "color": "#FFAA00",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "SYSTEM ERROR",
+                    "color": "#FF2222",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " ✦",
+                    "color": "#FF5500",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "限界値を超過。",
+                    "color": "#AA2222",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "安全装置を解除します。",
+                    "color": "#FF5555",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "すべての力を、",
+                    "color": "#777777",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "一本へ。",
+                    "color": "#FFFFFF",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "斬る。",
+                    "color": "#CC3333",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　燃やす。",
+                    "color": "#FF5522",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　穿つ。",
+                    "color": "#FFAA22",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "吹き飛ばす。",
+                    "color": "#FFDD55",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　そして、奪う。",
+                    "color": "#FF2222",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "そのすべてを、",
+                    "color": "#888888",
+                    "bold": false,
+                    "italic": true
+                  },
+                  {
+                    "text": "限界まで。",
+                    "color": "#FF4444",
+                    "bold": true,
+                    "italic": true
+                  }
+                ],
+                {
+                  "text": "これは武器ではない。",
+                  "color": "#555555",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「力」という概念そのものを、",
+                  "color": "#777777",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "鞭という形に押し込めた、",
+                  "color": "#AAAAAA",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "未完成の",
+                    "color": "#AA2222",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "終焉。",
+                    "color": "#FF2222",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "✦ ",
+                    "color": "#FFAA00",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "代償",
+                    "color": "#FF4444",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "は、使用者自身。",
+                    "color": "#777777",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "-- 警告 ------------------------",
+                  "color": "#AA2222",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "＊「これ以上の力は必要ない。」",
+                  "color": "#777777",
+                  "italic": true
+                },
+                {
+                  "text": "＊「……本当に、そう思うか？」",
+                  "color": "#AA2222",
+                  "italic": true
+                },
+                {
+                  "text": "＊「まだだ。もっと寄越せ。」",
+                  "color": "#FF3333",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "＊「限界とは、越えるためにある。」",
+                  "color": "#CC6633",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "＊「そして越えた者から、壊れていく。」",
+                  "color": "#555555",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 99,
+                "minecraft:fire_aspect": 99,
+                "minecraft:knockback": 99,
+                "minecraft:sharpness": 99,
+                "minecraft:smite": 99,
+                "minecraft:sweeping_edge": 10,
+                "minecraft:impaling": 99
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ecd425e7-e0bc-40c1-8ddc-835b22f1f026",
+                  "amount": 333,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:4f61e3b3-2608-4e92-9029-5f6db615ba0b",
+                  "amount": -444,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:47742ed1-01d3-4a5b-928d-6a0ac80b18d3",
+                  "amount": -0.9,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1828
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

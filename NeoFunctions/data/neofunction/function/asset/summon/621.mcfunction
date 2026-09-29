@@ -1,0 +1,6 @@
+# 命名：呪綴の祭主ヴァレリカ
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/621
+
+summon ocelot ~ ~ ~ {Invulnerable:0b,PersistenceRequired:0b,Passengers:[{id:"minecraft:armor_stand",Marker:1b,Invisible:1b,NoBasePlate:1b,Tags:["downer"],Passengers:[{id:"minecraft:witch",DeathLootTable:"neofunction:asset/summon/621",PersistenceRequired:0b,Tags:["lv3","boss","living"],CustomName:[{"text":"呪綴の祭主","color":"dark_blue","bold":true,"italic":false},{"text":"ヴァレリカ","color":"dark_purple"}],active_effects:[{id:"minecraft:resistance",amplifier:4b,duration:-1,show_particles:0b}],equipment:{legs:{id:"minecraft:stone",count:1,components:{"minecraft:attribute_modifiers":[{type:"max_health",id:"neofunction:2f0a9cb9-bac5-4587-85ab-18fd1bc89f97",amount:134,operation:"add_value",slot:"legs"}]}}}}]}],CustomName:[{"text":"呪綴の祭主","color":"dark_blue","bold":true,"italic":false},{"text":"ヴァレリカ","color":"dark_purple"}],active_effects:[{id:"minecraft:resistance",amplifier:4b,duration:-1,show_particles:0b}],Tags:[lv2,downer,enemy],DeathLootTable:"neofunction:asset/summon/621"}

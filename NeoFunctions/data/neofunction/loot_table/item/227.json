@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "感染（100%）",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "主にゾンビに近づきすぎることで感染し、感染後は時間経過でも悪化する。"
+                },
+                {
+                  "text": "感染すると段階的にHPの減少し、吐き気に襲われる。"
+                },
+                {
+                  "text": "感染率が低い場合は蜂蜜やシャワーで治るが"
+                },
+                {
+                  "text": "悪化すると特殊な治療薬がないとゾンビ化してしまう。"
+                },
+                [
+                  {
+                    "text": "特殊な",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "癖",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のその先へ",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "ぞんびになってもかわいいよ！",
+                "color": "#3FAB29",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  227
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 4172585,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 2,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 2,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 2,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

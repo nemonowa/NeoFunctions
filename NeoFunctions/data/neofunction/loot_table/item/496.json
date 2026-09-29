@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "||| 金枝篇 |||",
+                "color": "#FBFF94",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "世界各地で見られる様々な魔術・呪術、タブー、慣習などが",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "史料や古典記録、あるいは口伝から収集した夥しい数が記録された本",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "信仰の神話的背景を探った民俗学・神話学・宗教学の基本書であり",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "宗教的多様性と深部の構造的相似を深く研究・網羅した魔導書でもある",
+                  "color": "light_purple"
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:254e6c97-f662-45ea-829e-6a98fc09c152",
+                  "amount": 0.75,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:08a95cb4-c71e-4758-b141-4474b2a704b6",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:a18eba84-9c57-47f6-a9b5-8c8a01c7cde2",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  496
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "ウィリアム・ターナーの一枚の絵。",
+                      "bold": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": ">> click to read <<"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger kill set 999"
+                      }
+                    },
+                    {
+                      "text": "そこに描かれた金色に輝く樹。",
+                      "color": "yellow",
+                      "bold": true
+                    },
+                    {
+                      "text": "それはネミの森と湖のシンボルだった。その金枝が女神ディアーナ（ダイアナ）に守られている。"
+                    }
+                  ],
+                  {
+                    "text": "この一本の枝をめぐる森の王とその殺害の物語。",
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  [
+                    {
+                      "text": "この",
+                      "bold": true
+                    },
+                    {
+                      "text": "金枝",
+                      "color": "gold"
+                    },
+                    {
+                      "text": "からジェームズ・フレイザーの壮大な想像的編集が始まった..."
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "",
+                "generation": 3
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

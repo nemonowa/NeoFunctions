@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "抗ウイルス薬",
+                  "color": "#00AFAF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "S.T.E.V.E.",
+                  "color": "#463AA5",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ゾンビ感染の特効薬",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "百万人に一人のウイルスに抗体を持つ人間がいるという",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "伝説の御仁は",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "伝説の御仁は自身がその一人になるまでリセット",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "し世界を救った",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  232
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 4602533,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 0,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 600
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

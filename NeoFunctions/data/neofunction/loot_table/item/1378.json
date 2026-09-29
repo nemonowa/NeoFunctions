@@ -1,0 +1,583 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "医工士官【DOCTOR】",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "対象の覚えられるスキルが書いてある本",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1378
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "医工士官【DOCTOR】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "発動タグについて\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "多くのスキルの起点となる仕組み。詳細は次ページ。",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "発動タグは、スキルのON/OFFを切り替える共通の仕組み。タグを持っている間だけ、命中マーカーが付いた対象にスキル本来の効果が発動する"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "発動タグとは\n\n",
+                      "color": "light_purple",
+                      "bold": true
+                    },
+                    {
+                      "text": "・発動方法\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "スキルを使用すると自身にそのスキル専用のタグが付与される。もう一度使うと解除されるトグル式のスイッチ"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果発動の条件\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "タグが付いている間に、対象へ命中マーカー（専用の発光効果）が付与されたタイミングで、初めてスキル本来の効果（ダメージ・回復・状態異常付与など）が処理される"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・切り替え通知\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ONになった時とOFFになった時で、チャットへの通知と専用の効果音（切り替えの手応えが分かる音）が変化する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・攻撃系と回復系の排他制御\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "攻撃系トリガーと回復・支援系トリガーは同時に作用しない。片方のトリガーを有効にすると、もう一方で有効になっていたトリガーは自動的にOFFになる"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "パッシブ\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "発動効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "60秒間の再生能力（Regeneration）を付与する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "魂の調合【ソウルブリューイング】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "特殊な魂の欠片と薬草を練り込み、起点・回復・ダメージの三種のポーションを生成する調合スキル。全てのドクタースキルの土台となる、いわば「弾薬工房」。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・生成物\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "起点ポーション／回復ポーション／ダメージポーションの3種"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：20"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "劇薬強襲【トキシックレイド】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "命中させた敵に劇薬入りの猛毒を撃ち込み、じわじわとウィザー(衰弱)で蝕む単体攻撃。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "4m以内の敵（命中マーカー付き）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・追加効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "ウィザー(衰弱)15秒を付与。0/30/50/70/90レベル = Lv3/Lv4/Lv5/Lv6/Lv7"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：4"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "爆裂フラスコ【エクスプロードフラスコ】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "調合したフラスコを敵に投げつけ、着弾と同時に爆発させて確定ダメージを叩き込む遠隔攻撃。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "4m以内の敵（命中マーカー付き）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/20/30/40/50/60/70/80/90/100レベル = 15/25/40/60/100/250/500/1000/5000/10000（確定ダメージ）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：15"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "散布性毒霧【ヴェノムミスト】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "命中した敵を中心に紫の毒霧を撒き散らし、周囲の敵をまとめて巻き込む範囲攻撃。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "自身から4m以内の敵"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・毒\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/30/50/70/90レベル = Lv1/Lv1/Lv2/Lv2/Lv3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・ダメージ\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/30/50/70/90レベル = 3/4/5/6/8"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：5"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "治癒のポーション【ヒーリングエリクサー】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "味方に清らかな癒しのポーションを浴びせ、傷を癒す回復スキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "15"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "4m以内の味方（命中マーカー付き）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・回復\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "即時回復＋再生付与(10秒)。0/30/50/70/90レベル = 再生Lv1/Lv2/Lv3/Lv4/Lv5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：18"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "アドレナリン注射【コンバットスティム】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "自らに強壮剤を打ち込み、力・速さ・耐性を一時的に引き上げる自己強化スキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・付与効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "力・速さ・耐性を20秒間上昇（レベルが上がるほど上昇幅が増加）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・反動\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "効果終了から一定時間後、自身に反動ダメージが発生する"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：26"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "秘薬散布【エリクサーバースト】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "味方一人に秘薬の加護を纏わせ、一定時間の間状態異常を寄せ付けない耐性のオーラを付与する支援スキル。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "4m以内の味方（命中マーカー付き）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果時間\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "0/30/50/70/90レベル = 5秒/6秒/7秒/8秒/10秒（この間、状態異常を定期的に解除し続ける）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：24"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "毒消しの処方【アンチドート】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "対象にかかっている代表的な状態異常を即座に取り除く解毒スキルで、軽いコストで使える応急処置。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "20"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・対象\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "4m以内の味方（命中マーカー付き）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "代表的な状態異常を即座に全解除（回復は付与しない）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：10"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "万能秘薬・パラケルススの遺産【アルカナム・オプス】\n\n",
+                      "bold": true
+                    },
+                    {
+                      "text": "黄金の霧を身にまとい、癒しと攻撃を極めたドクターの奥義。\n\n"
+                    },
+                    {
+                      "text": "効果\n",
+                      "color": "light_purple"
+                    },
+                    {
+                      "text": "・習得レベル\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "40"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・範囲\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "術者を中心に4m以内"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・味方への効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "全回復＋力・速さ・耐性を最大200秒付与（レベルが上がるほど上昇幅が増加）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・敵への効果\n",
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "毒＋ウィザー(衰弱)を付与し、防御力を一時的に低下（0/30/50/70/90レベル = -2/-3/-4/-5/-6）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "・消費SP：60"
+                    }
+                  ]
+                ],
+                "title": "医工士官【DOCTOR】",
+                "author": "System",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

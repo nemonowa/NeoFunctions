@@ -1,0 +1,30 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      702
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/player_hurt_entity/frog"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1237",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：グラスティック・ロール -Glass roll-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1238)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r草原を渡る風の香りをイメージして作られた緑のロールケーキ。\nスポンジにはふんわり風の魔力を練り込み、軽やかな口どけを実現。\nクリームには碧天ミルクと香草のエッセンスを合わせ、爽やかな余韻が残る。\n食べると、ほんの少しだけ心まで軽くなるような味わい。\n\nメルのコメント：\n\n「ねぇ、風の味って食べたことある？　これよ、これが風の味なの！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1238
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

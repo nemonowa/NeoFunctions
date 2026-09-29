@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "憤怒に身を灼くしゃけ",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "俺の心には鉛の塊が沈んでて、",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "そこから怒りが無尽蔵に溢れ出してくる。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "…を美味しく焼きました！",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:b97af435-a853-4cc3-9db9-816d6672bcb2",
+                  "amount": -0.05,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  863
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

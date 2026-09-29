@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ガラナ",
+                "color": "dark_red",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "カフェイン補給！これで元気に！",
+                  "bold": true
+                },
+                {
+                  "text": "～北の大地名産～",
+                  "color": "dark_green",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  945
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 2490379,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 1,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 0,
+                    "duration": 1200
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

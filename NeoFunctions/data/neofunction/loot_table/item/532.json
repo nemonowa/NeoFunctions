@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ぼちゃ教団の盾",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:3b087dc2-7fb6-4a19-b47e-45ea631fafb2",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:694df699-99b6-43db-8135-3e829a739cc0",
+                  "amount": 0.31,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:b9d56049-81de-4c50-b666-b4be2feee1c2",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:294bf921-5369-4801-9b34-36f1e3320887",
+                  "amount": 0.31,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "orange"
+                },
+                {
+                  "pattern": "minecraft:creeper",
+                  "color": "yellow"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "orange"
+                }
+              ],
+              "minecraft:base_color": "red",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  532
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

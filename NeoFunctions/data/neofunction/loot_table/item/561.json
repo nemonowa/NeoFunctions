@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "D ぼちぇボウ >",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": true,
+                "strikethrough": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "過酷なフロンティアを",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "静かに、安価に",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "切り拓くのにたけた弓",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "※なお",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ｼｬﾀｰｷｬﾌﾟ、ﾃﾝﾎﾟ",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のエンチャントはこの世界の弓には効果はない。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:power": 7,
+                "minecraft:multishot": 7,
+                "minecraft:quick_charge": 7
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  561
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

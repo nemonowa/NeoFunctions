@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/346",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：火精霊CHS                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:347)の発見\n§3報酬：§r経験値×16\n§9説明：§rセレスタに古来より生息する魔物。精霊種のようだが物理攻撃が通じる。攻撃してくるが悪意はなく、倒すと霧散し潔く成仏すると言い伝えられている。四元素に対応する属性を持っている。CHSがなんの略語なのか…それは人生よりも複雑な問題。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/347\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/1"
+  }
+}

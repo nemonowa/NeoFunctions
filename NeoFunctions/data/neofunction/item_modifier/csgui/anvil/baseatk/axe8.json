@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "amount": 8,
+      "operation": "add_value",
+      "slot": "mainhand",
+      "id": "neofunction:attribute/csgui/anvil/baseatk/axe8/0"
+    }
+  ],
+  "replace": true
+}

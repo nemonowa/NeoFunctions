@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:unbreaking": 4,
+                "minecraft:mending": 3,
+                "minecraft:vanishing_curse": 2
+              },
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:coast"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【ラッキーマン！】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に「幸運」エフェクトを得る",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "シャツ！",
+                "color": "white",
+                "bold": true,
+                "italic": false,
+                "obfuscated": false
+              },
+              "minecraft:dyed_color": 1670097,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  517
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

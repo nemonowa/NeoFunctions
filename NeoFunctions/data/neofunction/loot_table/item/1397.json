@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "r",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "g",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 神々の義眼 ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "r",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "神々へ歴史上のビッグイベントを生中継するための超高性能隠しカメラ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "不可知の存在を視認し、その",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "真名",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "まで読み取る"
+                  }
+                ],
+                {
+                  "text": "超光速の挙動を捉える動体視力",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "他者の眼球まで掌握する視界操作",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "個体レベルで生物の残留思念を識別し追跡",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "要するに「視る」ことや「眼」にまつわることなら何でもできる。",
+                  "color": "black",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 9,
+                "minecraft:infinity": 9,
+                "minecraft:binding_curse": 9
+              },
+              "minecraft:profile": {
+                "id": [
+                  -1532449578,
+                  -1405464298,
+                  -1957931112,
+                  -1846980783
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiNjRlMmU5N2Y3NTIxNThhMzkxN2Y3NWM4MGQwZDBhNjU1OGUyYTQyMWEyOWM2MzBhYmEyZDRjYWE4YjdhNiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1397
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

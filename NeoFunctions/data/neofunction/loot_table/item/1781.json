@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "1",
+                  "color": "#7F9413",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "～祝祭と豊穣の礼装～",
+                  "color": "#478384",
+                  "obfuscated": false
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "1",
+                  "color": "#7F9413"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "⁂ 第3章の主要装備 ⁂",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "あなたは祝祭と実りの日を見届けた。",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "フルセットスペル🔯【豊穣の加護】",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位で装備で周期的にバフを得る",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・10秒間の再生効果を得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・水中呼吸エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・跳躍エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 1,
+                "minecraft:fire_protection": 1,
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:thorns": 1,
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:ce419b4d-72f0-a97a-c2a4-d5cc2829d0f0",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:0b7e7759-de56-c70d-3281-bb5ec2a4d5cc",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "2"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1781
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

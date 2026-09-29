@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bone",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "rotten_flesh",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:item/69",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "glass_bottle",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "salmon",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "tropical_fish",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "pufferfish",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "cod",
+                    "weight": 1
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "グラーキ黙示録",
+                "color": "#6E0729",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "Index"
+                },
+                {
+                  "text": "I.On Conjuration"
+                },
+                {
+                  "text": "Ⅱ.On the Purposes of Night"
+                },
+                {
+                  "text": "III.Of the Uses of the Dead"
+                },
+                {
+                  "text": "IV.Of the World as Lair"
+                },
+                {
+                  "text": "V.Of the Secrets Behind the Stars"
+                },
+                {
+                  "text": "Ⅵ.Of Humanity as a Chrysalis"
+                },
+                {
+                  "text": "VII.Of Things Seen by the Moon"
+                },
+                {
+                  "text": "VIII.Of the Symbols the Universe Shows"
+                },
+                {
+                  "text": "IX.Of the Dreaming of Creation"
+                },
+                {
+                  "text": "X.On Preparing the Table"
+                },
+                {
+                  "text": "XI.On Passing From View"
+                },
+                [
+                  {
+                    "text": "XⅡ.T"
+                  },
+                  {
+                    "text": "h",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "e ",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "De",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "f",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "iler【Y-g",
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "o",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "lonac】",
+                    "obfuscated": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  290
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "III. Of the Uses of the Dead",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（死者の利用について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Whenever Glaaki slept, the members of his cult had periods of free will, ",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "IV. Of the World as Lair",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（隠れ家としての世界について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "and, since they were part of Glaaki and shared his memories, ",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "I. On Conjuration",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（召喚について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "The Revelations of Glaaki first appeared in Ramsey Campbells short story THE INHABITANT OF THE LAKE.",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "V. Of the Secrets Behind the Stars",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（星の背後にある秘密について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "they wrote down what they remembered of their masters thoughts.",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（星の背後にある秘密について）"
+                          }
+                        ]
+                      }
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Ⅵ． Of Humanity as a Chrysalis",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（さなぎとしての人類について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "The cults handwritten manuscripts later came to be known as the Revelations of Glaaki.",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "VII. Of Things Seen by the Moon",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（月が見たものについて）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "The text originally contained 11 volumes nine in the carefully abridged published edition",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "VIII. Of the Symbols the Universe Shows",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（宇宙が示すシンボルについて）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "but it may have had more at different times in the past. ",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "IX. Of the Dreaming of Creation",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（創造の夢について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "Rumor has it that Mythos Scholar, Antonius Quine, ",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "X. On Preparing the Table",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（儀式の準備）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "once published a corrected edition of the Revelations of Glaaki bound in a single volume.",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "XI. On Passing From View",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（顕現からの退散）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "The Revelations of Glaaki first appeared",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Ⅱ． On the Purposes of Night",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "（夜の目的について）"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "It was written by the undead cult worshipping the Great Old One Gla-aki. ",
+                      "font": "alt",
+                      "bold": false,
+                      "underlined": false
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "Gla'aki",
+                "generation": 2
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

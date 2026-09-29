@@ -1,0 +1,152 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "見習い鞭 ",
+                  "color": "#6B7280",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#AAB2BE",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ゼロ・ポイント",
+                  "color": "#FFFFFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#AAB2BE",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "誰もが最初は、",
+                    "color": "#6B7280",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "これを握る。",
+                    "color": "#D1D5DB",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "弱い、",
+                    "color": "#7F8794",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "軽い、",
+                    "color": "#AAB2BE",
+                    "italic": false
+                  },
+                  {
+                    "text": "、扱いやすい。",
+                    "color": "#E5E7EB",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "強さを知らない者が、",
+                  "color": "#9CA3AF",
+                  "italic": false
+                },
+                {
+                  "text": "最初に手にする一本。",
+                  "color": "#F3F4F6",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ここが、",
+                    "color": "#9CA3AF",
+                    "italic": false
+                  },
+                  {
+                    "text": "原点。",
+                    "color": "#FFFFFF",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "ZERO",
+                    "color": "#6B7280",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " から始まり、",
+                    "color": "#9CA3AF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " POINT",
+                    "color": "#FFFFFF",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "数多の達人が、最初に振るった一本。",
+                  "color": "#9CA3AF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 3,
+                "minecraft:sweeping_edge": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:09c54e49-d8ac-4a15-84c7-7595a982ac60",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1839
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

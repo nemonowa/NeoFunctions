@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeoFunctions 構造解析 — コードの法典</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root{
+  --ink:#0f1219;
+  --ink-2:#161b25;
+  --ink-3:#1d2330;
+  --ink-4:#242c3c;
+  --line:#2c3444;
+  --line-soft:#232a38;
+  --parchment:#eae4d3;
+  --parchment-dim:#c9c2ad;
+  --muted:#8b93a8;
+  --gold:#d3a955;
+  --gold-dim:#8a744a;
+  --aqua:#57c9c1;
+  --aqua-dim:#3c8b86;
+  --coral:#e2685c;
+  --violet:#a08ce0;
+  --serif:'Shippori Mincho','Hiragino Mincho ProN','Yu Mincho',serif;
+  --sans:'Zen Kaku Gothic New','Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;
+  --mono:'JetBrains Mono','SFMono-Regular',Consolas,Menlo,monospace;
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:
+    radial-gradient(ellipse 900px 500px at 15% -10%, rgba(211,169,85,0.07), transparent 60%),
+    radial-gradient(ellipse 700px 500px at 100% 10%, rgba(87,201,193,0.06), transparent 60%),
+    var(--ink);
+  color:var(--parchment);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.85;
+  -webkit-font-smoothing:antialiased;
+}
+
+::selection{background:var(--gold-dim);color:#fff;}
+
+a{color:var(--aqua);text-decoration:none;border-bottom:1px solid var(--aqua-dim);}
+a:hover{color:#8fe0d9;}
+
+img{max-width:100%;}
+
+/* ---------- レイアウト共通 ---------- */
+.wrap{max-width:840px;margin:0 auto;padding:0 24px;}
+section{padding:78px 0;border-top:1px solid var(--line-soft);}
+section:first-of-type{border-top:none;}
+
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-family:var(--mono);font-size:12.5px;letter-spacing:.04em;
+  color:var(--gold);margin-bottom:14px;
+}
+.eyebrow::before{content:'';width:16px;height:1px;background:var(--gold-dim);}
+
+h2.section-title{
+  font-family:var(--serif);font-weight:700;
+  font-size:clamp(24px,4vw,32px);
+  color:var(--parchment);
+  margin:0 0 6px;
+  letter-spacing:.02em;
+}
+.section-desc{color:var(--muted);font-size:15px;max-width:64ch;margin:0 0 40px;}
+
+h3{
+  font-family:var(--serif);font-weight:700;font-size:20px;
+  color:var(--parchment);margin:0 0 10px;
+}
+h4{font-family:var(--sans);font-weight:700;font-size:15.5px;color:var(--gold);margin:0 0 8px;}
+p{margin:0 0 16px;color:var(--parchment-dim);}
+strong{color:var(--parchment);font-weight:700;}
+
+code, .path{
+  font-family:var(--mono);font-size:.88em;
+  background:var(--ink-4);color:var(--aqua);
+  padding:1.5px 6px;border-radius:4px;border:1px solid var(--line);
+  white-space:nowrap;
+}
+
+pre{
+  background:var(--ink-3);
+  border:1px solid var(--line);
+  border-left:3px solid var(--gold-dim);
+  border-radius:8px;
+  padding:16px 18px;
+  overflow-x:auto;
+  margin:0 0 18px;
+}
+pre code{
+  background:none;border:none;padding:0;white-space:pre;
+  color:#cfe3e0;font-size:13px;line-height:1.7;display:block;
+}
+pre .c{color:#7a8499;font-style:italic;} /* コメント */
+pre .k{color:var(--gold);} /* コマンド キーワード */
+pre .s{color:#f0b26b;} /* 文字列/セレクタ */
+pre .n{color:var(--aqua);} /* パス・名前 */
+
+.cap{font-size:12.5px;color:var(--muted);margin-top:-10px;margin-bottom:20px;font-family:var(--mono);}
+
+/* ---------- ヒーロー ---------- */
+header.hero{
+  position:relative;
+  padding:64px 0 56px;
+  border-top:none;
+  overflow:hidden;
+}
+header.hero::before{
+  content:'';position:absolute;inset:0;
+  background:
+    linear-gradient(180deg, rgba(211,169,85,0.10), transparent 40%),
+    repeating-linear-gradient(115deg, rgba(255,255,255,0.012) 0px, rgba(255,255,255,0.012) 1px, transparent 1px, transparent 40px);
+  pointer-events:none;
+}
+.hero-inner{position:relative;}
+.hero-tag{font-family:var(--mono);font-size:12.5px;color:var(--aqua);letter-spacing:.06em;margin-bottom:20px;}
+.hero-title{
+  font-family:var(--serif);font-weight:800;
+  font-size:clamp(34px,7vw,56px);
+  line-height:1.15;
+  margin:0 0 18px;
+  color:var(--parchment);
+}
+.hero-title em{
+  font-style:normal;color:var(--gold);
+}
+.hero-lead{color:var(--parchment-dim);font-size:17px;max-width:56ch;margin:0 0 8px;}
+.hero-meta{color:var(--muted);font-size:13.5px;font-family:var(--mono);margin-top:18px;}
+
+.stat-grid{
+  margin-top:40px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;
+}
+.stat{background:var(--ink-2);padding:18px 14px;text-align:left;}
+.stat .num{font-family:var(--serif);font-weight:700;font-size:24px;color:var(--gold);display:block;}
+.stat .lbl{font-size:11.5px;color:var(--muted);margin-top:4px;letter-spacing:.02em;}
+@media(max-width:640px){.stat-grid{grid-template-columns:repeat(2,1fr);}}
+
+/* ---------- ナビ ---------- */
+nav.toc{
+  position:sticky;top:0;z-index:50;
+  background:rgba(15,18,25,0.92);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+}
+nav.toc .wrap{
+  display:flex;gap:4px;overflow-x:auto;padding:12px 24px;
+  scrollbar-width:none;
+}
+nav.toc .wrap::-webkit-scrollbar{display:none;}
+nav.toc a{
+  flex:none;font-family:var(--mono);font-size:12.5px;color:var(--muted);
+  border:1px solid transparent;border-radius:20px;padding:7px 13px;white-space:nowrap;
+}
+nav.toc a:hover{color:var(--parchment);border-color:var(--line);}
+
+/* ---------- テーブル ---------- */
+table{width:100%;border-collapse:collapse;margin:0 0 20px;font-size:14px;}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line-soft);vertical-align:top;}
+th{font-family:var(--mono);font-size:11.5px;color:var(--gold);letter-spacing:.03em;font-weight:600;border-bottom:1px solid var(--line);}
+td{color:var(--parchment-dim);}
+td code{white-space:normal;}
+tr:hover td{background:rgba(255,255,255,0.015);}
+.tbl-wrap{overflow-x:auto;margin-bottom:20px;}
+
+/* ---------- カード ---------- */
+.card{
+  background:var(--ink-2);border:1px solid var(--line);border-radius:10px;
+  padding:22px 24px;margin-bottom:18px;
+}
+.card-grid{display:grid;grid-template-columns:1fr;gap:16px;}
+
+.pattern-card{
+  background:var(--ink-2);border:1px solid var(--line);border-radius:10px;
+  padding:24px 26px;margin-bottom:20px;position:relative;
+}
+.pattern-card .pnum{
+  position:absolute;top:22px;right:24px;
+  font-family:var(--serif);font-size:34px;color:var(--line);font-weight:700;
+}
+.pattern-card h4.ptitle{
+  font-family:var(--serif);font-size:19px;color:var(--parchment);font-weight:700;margin-bottom:6px;
+  padding-right:60px;
+}
+.pattern-card .where{
+  display:inline-block;font-family:var(--mono);font-size:11px;color:var(--aqua);
+  background:rgba(87,201,193,0.08);border:1px solid var(--aqua-dim);border-radius:20px;
+  padding:3px 10px;margin-bottom:14px;
+}
+
+/* ---------- フローダイアグラム ---------- */
+.flow{display:flex;flex-direction:column;align-items:center;margin:28px 0;}
+.fbox{
+  background:var(--ink-3);border:1px solid var(--line);border-radius:8px;
+  padding:12px 20px;text-align:center;min-width:220px;max-width:92%;
+}
+.fbox .t{font-family:var(--mono);font-size:13.5px;color:var(--aqua);font-weight:600;}
+.fbox .d{font-size:12px;color:var(--muted);margin-top:3px;}
+.fbox.gold{border-color:var(--gold-dim);}
+.fbox.gold .t{color:var(--gold);}
+.fbox.coral{border-color:#8a4a44;}
+.fbox.coral .t{color:var(--coral);}
+.arrow{width:1px;height:26px;background:var(--line);position:relative;}
+.arrow::after{
+  content:'';position:absolute;bottom:-1px;left:50%;transform:translateX(-50%);
+  width:0;height:0;border-left:5px solid transparent;border-right:5px solid transparent;
+  border-top:7px solid var(--line);
+}
+.branch{display:flex;justify-content:center;gap:14px;position:relative;padding-top:26px;margin-top:0;flex-wrap:wrap;}
+.branch::before{
+  content:'';position:absolute;top:0;left:12%;right:12%;height:1px;background:var(--line);
+}
+.branch-col{display:flex;flex-direction:column;align-items:center;position:relative;flex:1;min-width:150px;}
+.branch-col::before{content:'';width:1px;height:26px;background:var(--line);position:absolute;top:-26px;}
+.branch-col .fbox{width:100%;}
+.loop-note{
+  font-family:var(--mono);font-size:11.5px;color:var(--coral);text-align:center;margin-top:10px;
+}
+
+/* ---------- ディレクトリツリー ---------- */
+.tree{
+  font-family:var(--mono);font-size:13px;line-height:2;background:var(--ink-3);
+  border:1px solid var(--line);border-radius:8px;padding:18px 22px;overflow-x:auto;
+}
+.tree .d1{color:var(--gold);}
+.tree .d2{color:var(--aqua);}
+.tree .d3{color:var(--parchment-dim);}
+.tree .cm{color:var(--muted);}
+
+/* ---------- バー(比率表示) ---------- */
+.barlist{margin:0 0 20px;}
+.bar-row{display:grid;grid-template-columns:140px 1fr 60px;align-items:center;gap:10px;margin-bottom:10px;font-size:13px;}
+.bar-row .lbl{color:var(--parchment-dim);font-family:var(--mono);font-size:12px;}
+.bar-track{height:10px;background:var(--ink-4);border-radius:6px;overflow:hidden;}
+.bar-fill{height:100%;background:linear-gradient(90deg,var(--gold-dim),var(--gold));border-radius:6px;}
+.bar-fill.aqua{background:linear-gradient(90deg,var(--aqua-dim),var(--aqua));}
+.bar-row .val{color:var(--muted);font-family:var(--mono);font-size:12px;text-align:right;}
+
+/* ---------- 良い点/課題 ---------- */
+.eval-grid{display:grid;grid-template-columns:1fr;gap:20px;}
+@media(min-width:720px){.eval-grid{grid-template-columns:1fr 1fr;}}
+.eval-col h4{font-size:14px;margin-bottom:16px;display:flex;align-items:center;gap:8px;}
+.eval-col.good h4{color:var(--aqua);}
+.eval-col.bad h4{color:var(--coral);}
+.eval-item{
+  background:var(--ink-2);border:1px solid var(--line);border-radius:8px;
+  padding:14px 16px;margin-bottom:12px;
+}
+.eval-item .h{font-weight:700;color:var(--parchment);font-size:14px;margin-bottom:4px;}
+.eval-item .b{color:var(--muted);font-size:13px;margin:0;}
+.eval-item .b code{white-space:normal;}
+
+/* ---------- ルールリスト ---------- */
+.rule-list{list-style:none;padding:0;margin:0 0 20px;}
+.rule-list li{
+  padding:12px 0 12px 26px;border-bottom:1px solid var(--line-soft);position:relative;
+  color:var(--parchment-dim);font-size:14.5px;
+}
+.rule-list li::before{
+  content:'—';position:absolute;left:0;color:var(--gold-dim);font-family:var(--mono);
+}
+.rule-list li strong{display:inline-block;margin-bottom:2px;}
+
+/* ---------- 用語集タグ ---------- */
+.tagchip{
+  display:inline-block;font-family:var(--mono);font-size:12px;color:var(--gold);
+  background:rgba(211,169,85,0.08);border:1px solid var(--gold-dim);border-radius:5px;
+  padding:2px 8px;margin:2px 3px 2px 0;
+}
+
+blockquote{
+  margin:0 0 20px;padding:14px 20px;border-left:3px solid var(--violet);
+  background:rgba(160,140,224,0.06);color:var(--parchment-dim);font-size:14.5px;border-radius:0 6px 6px 0;
+}
+
+footer{
+  padding:50px 0 80px;text-align:center;color:var(--muted);font-size:12.5px;font-family:var(--mono);
+  border-top:1px solid var(--line-soft);
+}
+footer a{color:var(--muted);}
+
+.two-col{display:grid;grid-template-columns:1fr;gap:16px;margin-bottom:20px;}
+@media(min-width:720px){.two-col{grid-template-columns:1fr 1fr;}}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-tag">STRUCTURE ANALYSIS — data pack architecture dossier</div>
+    <h1 class="hero-title">NeoFunctions<br><em>コードの法典</em>を読み解く</h1>
+    <p class="hero-lead">Minecraft 1.20.4 向けデータパック「NeoFunctions」の内部構造・処理フロー・設計思想を、明示された規約と暗黙のうちに守られている作法の両面から体系的に整理したドキュメントです。</p>
+    <div class="hero-meta">Author: argonaute_nemo ／ Copyright: SoraFlete ／ Release: 2022/7/06〜 ／ 解析対象バージョン: ver1.0 for MC1.20.4</div>
+
+    <div class="stat-grid">
+      <div class="stat"><span class="num">4,167</span><span class="lbl">.mcfunction ファイル総数</span></div>
+      <div class="stat"><span class="num">8,040</span><span class="lbl">.json ファイル総数</span></div>
+      <div class="stat"><span class="num">4,568</span><span class="lbl">進捗(advancement)定義数</span></div>
+      <div class="stat"><span class="num">12</span><span class="lbl">最大フォルダ階層深度</span></div>
+    </div>
+  </div>
+</header>
+
+<nav class="toc">
+  <div class="wrap">
+    <a href="#overview">概要</a>
+    <a href="#architecture">全体構造</a>
+    <a href="#flow">実行フロー</a>
+    <a href="#patterns">設計パターン</a>
+    <a href="#explicit">明示的規約</a>
+    <a href="#implicit">暗黙的規約</a>
+    <a href="#glossary">用語集</a>
+    <a href="#evaluation">評価</a>
+    <a href="#guide">読み方ガイド</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<!-- ============ 概要 ============ -->
+<section id="overview">
+  <div class="eyebrow">01 — Overview</div>
+  <h2 class="section-title">これは何か</h2>
+  <p class="section-desc">まず全体像を掴むための要約です。</p>
+
+  <p><strong>NeoFunctions</strong> は、Minecraft のバニラコマンド機構（<code>.mcfunction</code> と各種JSON定義）だけを使って構築された、大規模なオリジナルRPGシステムのデータパックです。職業（クラス）システム、ボス戦、独自次元・バイオーム、属性ダメージ、進捗を使った膨大な図鑑（モンスター図鑑）システムなど、MOD無しでは通常実現しないレベルの機能群が、すべて素のコマンドの組み合わせで実装されています。</p>
+
+  <p>README には次のように記されています。「新世界を構築する新奇な秩序。新たな世界の法則を記述し、君の頭に宿す常識を容易に再構築する。」——この一文の通り、コード自体もひとつの"法典"として、独自の命名規則・階層規約・実行順序のルールで秩序立てられています。本ドキュメントはその法典を、外部から読む人にも理解できる形で解きほぐすことを目的とします。</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <tr><th>領域</th><th>役割</th><th>規模の目安</th></tr>
+      <tr><td><code>neofunction</code></td><td>ゲームロジック本体（tick処理・スキル・アイテム・戦闘）</td><td>mcfunction 約3,984 / loot_table 3,080</td></tr>
+      <tr><td><code>neoadvancement</code></td><td>進捗(advancement)を「イベント発火」「真偽フラグ」「図鑑エントリ」として使うための専用名前空間</td><td>advancement 約3,820</td></tr>
+      <tr><td><code>neodimension</code></td><td>独自ディメンション「nexus」「ceresta_festa」と custom biome 群</td><td>biome 約26種</td></tr>
+      <tr><td><code>minecraft</code></td><td>バニラの挙動を上書きするタグ・ルートテーブル・トリムなど</td><td>tag/loot 各種</td></tr>
+      <tr><td><code>admin</code></td><td>開発補助（VSCode拡張、クリーンアップスクリプト、Pythonツール）。配布物には含まれるがゲーム内では機能しない開発者専用領域</td><td>mcfunction 160（ゲーム内非稼働）</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 全体構造 ============ -->
+<section id="architecture">
+  <div class="eyebrow">02 — Architecture</div>
+  <h2 class="section-title">全体構造：4つの領域に分けられた責務</h2>
+  <p class="section-desc"><code>neofunction:functions</code> 配下は、tick処理の起点コメントで明言されている通り、4つのトップレベルフォルダに責務が分割されています。</p>
+
+  <div class="tree">
+<span class="d1">functions/</span>
+├─ <span class="d2">asset/</span>      <span class="cm"># 常時処理しない「データベース」的機能。演出・GUI・召喚・音・称号など</span>
+├─ <span class="d2">entity/</span>     <span class="cm"># 全エンティティ(@e)を毎tick処理。負荷「極大」</span>
+├─ <span class="d2">player/</span>     <span class="cm"># 全プレイヤー(@a)を毎tick処理。負荷「中」</span>
+└─ <span class="d2">system/</span>     <span class="cm"># 進捗・クロック・スケジュール等、単一の管理役が行う処理。負荷「小」</span>
+  </div>
+  <p class="cap">出典: functions/tick.mcfunction ヘッダーコメント（原文ママ、要約）</p>
+
+  <p>この4分割は <code>tick.mcfunction</code> のヘッダーに明文化されている数少ない「アーキテクチャ規約」のひとつです。ノートPCのような非力な端末でも動くように、<strong>「毎tick全エンティティを舐める」処理をできるだけ避け、システム管理役や進捗イベントに処理を逃がす</strong>という設計思想が、フォルダ構成そのものに反映されています。</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <tr><th>フォルダ</th><th>起点となる実行者</th><th>コメント上の負荷ラベル</th><th>代表的な中身</th></tr>
+      <tr><td><code>system/</code></td><td>固定UUIDの管理役エンティティ 1体</td><td>小</td><td>進捗イベント処理、初期化、クロック、ダメージ計算</td></tr>
+      <tr><td><code>player/</code></td><td><code>@a</code>（全プレイヤー）</td><td>中</td><td>職業スキル、ゲームモード制御、HUD表示</td></tr>
+      <tr><td><code>entity/</code></td><td><code>@e</code>（全エンティティ）</td><td>極大</td><td>スポーン初期化、常駐スキル、ボスAI、ゴミ掃除</td></tr>
+      <tr><td><code>asset/</code></td><td>他フォルダから呼ばれる補助関数群</td><td>—（常時実行しない）</td><td>演出、UI、召喚テンプレ、対話、称号</td></tr>
+    </table>
+  </div>
+
+  <h3>名前空間マップ</h3>
+  <div class="tree">
+<span class="d1">NeoFunctions.zip</span>
+├─ pack.mcmeta        <span class="cm"># pack_format 26、.lnk等の除外フィルタ設定</span>
+├─ README.md          <span class="cm"># ヘッダー規約・命名規則・導入方法を明文化</span>
+└─ data/
+   ├─ <span class="d1">neofunction/</span>     <span class="d3">functions, advancements, loot_tables, item_modifiers,</span>
+   │                    <span class="d3">predicates, recipes, structures, tags, damage_type, worldgen</span>
+   ├─ <span class="d1">neoadvancement/</span>  <span class="d3">advancements（大半）, functions（少数の補助）</span>
+   ├─ <span class="d1">neodimension/</span>    <span class="d3">dimension, dimension_type, worldgen/biome</span>
+   ├─ <span class="d1">minecraft/</span>       <span class="d3">tags/functions（#minecraft:tick, #minecraft:load）,</span>
+   │                    <span class="d3">loot_tables, trim_material/pattern の上書き</span>
+   └─ <span class="d1">admin/</span>           <span class="d3">開発ツール一式（VSCode拡張・整理スクリプト・PPTX資料）</span>
+  </div>
+</section>
+
+<!-- ============ 実行フロー ============ -->
+<section id="flow">
+  <div class="eyebrow">03 — Execution Flow</div>
+  <h2 class="section-title">実行フロー：エンジンの鼓動から末端の処理まで</h2>
+  <p class="section-desc">Minecraft サーバーが持つ2つの標準フック（<code>#minecraft:tick</code> と <code>#minecraft:load</code>）を起点に、どのように処理が枝分かれしていくかを追います。</p>
+
+  <h3>3-1. 起動時（load）とtick起点の全体像</h3>
+  <div class="flow">
+    <div class="fbox gold"><div class="t">Minecraftエンジン</div><div class="d">サーバー起動 / ワールドロード / 毎tick</div></div>
+    <div class="arrow"></div>
+    <div class="branch">
+      <div class="branch-col">
+        <div class="fbox"><div class="t">#minecraft:load</div><div class="d">tags/functions/load.json</div></div>
+      </div>
+      <div class="branch-col">
+        <div class="fbox"><div class="t">#minecraft:tick</div><div class="d">tags/functions/tick.json</div></div>
+      </div>
+    </div>
+    <div class="arrow"></div>
+    <div class="branch">
+      <div class="branch-col"><div class="fbox gold"><div class="t">neofunction:load</div></div></div>
+      <div class="branch-col"><div class="fbox gold"><div class="t">neofunction:tick</div></div></div>
+    </div>
+    <div class="arrow"></div>
+    <div class="branch">
+      <div class="branch-col"><div class="fbox"><div class="t">system/tick</div><div class="d">負荷:小</div></div></div>
+      <div class="branch-col"><div class="fbox"><div class="t">player/tick</div><div class="d">負荷:中</div></div></div>
+      <div class="branch-col"><div class="fbox coral"><div class="t">entity/tick</div><div class="d">負荷:極大</div></div></div>
+    </div>
+  </div>
+  <p>この3分岐は <code>tick.mcfunction</code> 内で明示的にコメントされたコストの順に並んでいます。<code>entity/tick</code> は「この階層は本当に超大事だから、最低限<code>.spawn</code>の階層構造を理解してから編集して」という注意書きが残されているほど、変更の影響範囲が広い領域です。</p>
+
+  <h3>3-2. 起動シーケンス（load 〜 初期化）</h3>
+  <p>ワールドを開いた直後は、すべての初期化を1tickで終わらせず、<code>schedule ... &lt;n&gt;t replace</code> を使って数十tickにわたり段階的に処理を展開します。番号プレフィックス（<code>1_</code>〜<code>9_</code>、<code>99_</code>）がそのまま実行順序を表す、暗黙のうちに一貫している規約です。</p>
+  <div class="flow">
+    <div class="fbox gold"><div class="t">neofunction:load</div><div class="d">ログイン正常化メッセージ + 世界の正常性確認をschedule</div></div>
+    <div class="arrow"></div>
+    <div class="fbox"><div class="t">asset/event/log-in</div><div class="d">1秒後：接続処理、音楽、称号、チュートリアル分岐</div></div>
+    <div class="arrow"></div>
+    <div class="fbox"><div class="t">system/setting</div><div class="d">初回ロード時：番号付き設定ファイルをscheduleで直列展開</div></div>
+    <div class="arrow"></div>
+    <div class="branch">
+      <div class="branch-col"><div class="fbox"><div class="t">1_gamerule_*</div><div class="d">10t / 15t後</div></div></div>
+      <div class="branch-col"><div class="fbox"><div class="t">2_scoreboard</div><div class="d">20t後：全スコアボード定義</div></div></div>
+      <div class="branch-col"><div class="fbox"><div class="t">3_scoreboard_set</div><div class="d">30t後</div></div></div>
+      <div class="branch-col"><div class="fbox"><div class="t">4_team / 5_storage</div><div class="d">40t / 50t後</div></div></div>
+    </div>
+    <div class="arrow"></div>
+    <div class="fbox gold"><div class="t">system/clock/all_clock_start</div><div class="d">60t後：常時タイマー群を起動</div></div>
+  </div>
+
+  <h3>3-3. <code>.neo</code> ディスパッチャの連鎖（例：ナイト職のスキル発動まで）</h3>
+  <p>末端の処理にたどり着くまで、各階層のフォルダに置かれた <code>.neo.mcfunction</code>（ハブ関数）が条件分岐しながらバケツリレーする構造になっています。以下は「毎tick処理 → プレイヤー処理 → 職業ディスパッチ → ナイト職固有処理」という実際の呼び出し連鎖です。</p>
+  <div class="flow">
+    <div class="fbox"><div class="t">functions/tick</div></div>
+    <div class="arrow"></div>
+    <div class="fbox"><div class="t">player/tick</div><div class="d">SP(冀求力)を持つプレイヤーのみ次へ</div></div>
+    <div class="arrow"></div>
+    <div class="fbox"><div class="t">player/job/.neo</div><div class="d">習得済み進捗(neoskill/2xx)で職業を判定</div></div>
+    <div class="arrow"></div>
+    <div class="fbox gold"><div class="t">player/job/knight/.neo</div><div class="d">手持ち武器の種類で分岐</div></div>
+    <div class="arrow"></div>
+    <div class="fbox"><div class="t">player/job/knight/weapon</div></div>
+  </div>
+  <p>この連鎖は README のヘッダー規約にある「<code>&gt;呼び出し元</code>」「<code>=自身のパス</code>」を、各ファイルを開くだけで前後の接続を追える"手動リンクリスト"として機能させています。</p>
+</section>
+
+<!-- ============ 設計パターン ============ -->
+<section id="patterns">
+  <div class="eyebrow">04 — Design Patterns</div>
+  <h2 class="section-title">発見された設計パターン</h2>
+  <p class="section-desc">バニラコマンドという制約の多い環境の中で、繰り返し使われている実装上の工夫を10個抽出しました。</p>
+
+  <div class="pattern-card">
+    <span class="pnum">01</span>
+    <h4 class="ptitle">進捗(advancement)を使ったイベントバス</h4>
+    <span class="where">system/adv/*</span>
+    <p>Minecraft の進捗機能が持つ20種類以上のトリガー（<code>recipe_crafted</code>, <code>player_interacted_with_entity</code>, <code>changed_dimension</code>, <code>tick</code> など、ほぼ全種類）を、そのまま「イベントの種類カタログ」として転用しています。仕組みは共通で、①条件を満たすと進捗が達成される → ②<code>rewards.function</code> で処理関数が呼ばれる → ③処理関数の最後で自分自身の進捗を <code>revoke</code> して未達成状態に戻す、という3ステップです。これにより同じイベントを何度でも発火できる、事実上の <strong>on(event) → handler() → reset()</strong> という一般的なイベント駆動モデルが、バニラ機能だけで再現されています。</p>
+    <pre><code><span class="c"># advancements/tick/.neo.json（発火条件：アドベンチャーモードでない）</span>
+<span class="k">"trigger"</span>: <span class="s">"minecraft:tick"</span>,
+<span class="k">"rewards"</span>: { <span class="k">"function"</span>: <span class="n">"neofunction:system/adv/tick/.neo"</span> }
+
+<span class="c"># functions/system/adv/tick/.neo.mcfunction（処理本体）</span>
+<span class="k">advancement revoke</span> @s only neofunction:tick/.neo   <span class="c"># 再発火のために自己剥奪</span>
+<span class="k">execute if entity</span> @s[tag=argonaute] <span class="k">run return</span> 0
+<span class="k">tag</span> @s[tag=!sur] <span class="k">add</span> sur</code></pre>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">02</span>
+    <h4 class="ptitle"><code>.neo</code> ハブ&スポーク・ディスパッチャ</h4>
+    <span class="where">全域（60箇所以上）</span>
+    <p>意味のあるフォルダには必ずといっていいほど <code>.neo.mcfunction</code>（あるいは <code>.neo.json</code>）という"そのフォルダの入口"が置かれ、タグ・スコア・進捗・所持アイテムなどの条件でさらに下位の関数へ振り分けます。ソフトウェアでいう <code>index</code> ファイルやルーターに相当し、フォルダ名を見ただけで「ここに来れば適切な分岐先へ飛ばしてくれる」という一貫した期待を持てる設計です。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">03</span>
+    <h4 class="ptitle">タグによる有限状態機械</h4>
+    <span class="where">entity/*, player/*</span>
+    <p>エンティティ／プレイヤーの状態は変数ではなく<strong>タグの有無</strong>で表現されます。<code>check</code>（初期化済み）、<code>vanilla</code>（カスタム対象外）、<code>boss</code>、<code>del</code>（削除予約）、<code>marked</code>、<code>sur</code>（サバイバル領域）、<code>fly0/fly1/downer/upper</code>（挙動モード）など、タグの組み合わせがそのままオブジェクトの状態を表す簡易ステートマシンとして機能しています。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">04</span>
+    <h4 class="ptitle"><code>return run</code> による早期リターン</h4>
+    <span class="where">分岐処理全般</span>
+    <p><code>execute if ... run return run function ...</code> という形が繰り返し使われます。これは「条件を満たしたら関数を呼び、その戻り値を伴って即座に自分の処理を終える」という、一般的なプログラミング言語の <code>if (cond) return handler();</code> に相当する制御構造で、続く行を評価させない早期リターンのイディオムとして機能します。<code>player/job/.neo</code> で6職業を順番に判定する処理がその典型例です。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">05</span>
+    <h4 class="ptitle">番号プレフィックス + 段階的schedule</h4>
+    <span class="where">system/setting/*</span>
+    <p><code>1_gamerule</code>→<code>2_scoreboard</code>→…→<code>99_scoreboard_set_player</code> のように連番でファイルを命名し、<code>schedule function ... Nt replace</code> でtickをずらしながら順番に実行します。重い初期化処理を1tickに集中させず、負荷を時間方向に分散させる工夫です。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">06</span>
+    <h4 class="ptitle">固定UUIDのシングルトン管理役</h4>
+    <span class="where"><code>0-0-0-0-1</code>（66箇所で参照）</span>
+    <p>UUIDを <code>0-0-0-0-1</code> に固定した1体のarmor_stand（案内役NPC「カイ／χ」）が、①<code>execute as 0-0-0-0-1</code> による<strong>グローバル管理役（シングルトンオブジェクト）</strong>としての役割と、②<code>tellraw</code> の発言者としての<strong>物語上の案内NPC</strong>としての役割を、同じエンティティで兼務しています。技術的な仕組みと世界観の演出を1つの実体に統合した効率的な設計です。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">07</span>
+    <h4 class="ptitle">進捗番号帯による職業(enum)管理</h4>
+    <span class="where">neoadvancement:neoskill/2xx</span>
+    <p>職業は <code>neoskill/200</code>=ナイト、<code>210</code>=アリア、<code>220</code>=シューター、<code>230</code>=テイマー、<code>240</code>=ドクター、<code>250</code>=アサシンという十の位の帯で区切られ、各職業のサブスキルは <code>220〜229</code> のように一の位で管理されます。プログラミング言語の enum の値域割り当てに相当する、進捗IDの名前空間設計です。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">08</span>
+    <h4 class="ptitle">スコアボード = RPGステータスDB</h4>
+    <span class="where">system/setting/2_scoreboard</span>
+    <p>スコアボードの目標(objective)を実質的なプレイヤーDBのカラムとして使用します。<code>EXP</code>（経験値）、<code>LVL</code>（レベル）、<code>HP</code>／<code>HPmax</code>、<code>SP</code>／<code>SPmax</code>（冀求力＝MPに相当）、<code>CT</code>（クールタイム）、<code>DEF</code>、<code>MiningSpeed</code> などが定義され、コメントには <code>SPD</code>・<code>ATK</code>・<code>INT</code>・<code>RES</code>・<code>LUK</code>・<code>CRT</code> という<strong>未実装のまま無効化されたステータス</strong>も残されており、設計時点での構想の広さと実装の現実的な取捨選択が同時に読み取れます。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">09</span>
+    <h4 class="ptitle">属性ダメージシステムと新旧2つの実装の共存</h4>
+    <span class="where">damage_type/*, system/dmg/*</span>
+    <p><code>fire</code>・<code>aqua</code>・<code>wind</code>・<code>alternate</code> というカスタムダメージタイプ（<code>exhaustion</code>や<code>effects</code>をJSONで定義）に対し、ダメージ処理は2系統が混在します。旧来方式は <code>system/dmg/fire/1</code>・<code>10</code>・<code>100</code>…のように数値を桁ごとの固定関数に分解して呼び出す方式、新しい方式は1.20.2以降のマクロ機能（<code>$(atk)</code>）を使って可変長引数を直接渡す方式です。マクロ機能導入前後の技術移行の過渡期であることがコードから見て取れます。</p>
+  </div>
+
+  <div class="pattern-card">
+    <span class="pnum">10</span>
+    <h4 class="ptitle">遅延ガベージコレクション</h4>
+    <span class="where">entity/skill/del</span>
+    <p>不要になったエンティティは即座に <code>kill</code> せず、まず <code>del</code> タグを付与し、翌tickにまとめて <code>entity/tick</code> から呼ばれる <code>entity/skill/del</code> が体力0化・ドロップ無効化などのNBT変更を行ってから <code>kill</code> します。死亡演出や召喚獣の後処理を安全に挟み込むための、削除を1tick遅延させるGC的パターンです。</p>
+  </div>
+</section>
+
+<!-- ============ 明示的規約 ============ -->
+<section id="explicit">
+  <div class="eyebrow">05 — Explicit Conventions</div>
+  <h2 class="section-title">明示されている規約</h2>
+  <p class="section-desc">README.md に文章として明記され、専用のVSCode拡張機能（<code>mcfunction-header</code>）まで用意して徹底されているルール群です。</p>
+
+  <h3>5-1. ヘッダーコメント統一フォーマット</h3>
+  <p>対象の <code>.mcfunction</code> ファイル冒頭には、以下の順序・書式でヘッダーを揃えるというルールが定義されています。</p>
+  <pre><code><span class="c"># 命名：名称などあればこちらに移動して記載</span>
+<span class="c"># 説明：一行程度の軽いまとめ（複数ある場合は行を分けたまま残し、無理に1行へ結合しない）</span>
+<span class="c"># 実行条件：（あれば記載。複数あれば複数行のまま）</span>
+<span class="c"># &gt;呼び出し元（自身のパスの一段上。複数ある場合は1行ずつ改行して列挙）</span>
+<span class="c"># =自身のパス（必ず最後の行。/function neofunction:〜 の形式で統一）</span></code></pre>
+
+  <ul class="rule-list">
+    <li><strong>命名</strong>：元のヘッダーに「命名」「名称」の記載があればそれを採用。無ければファイル名（拡張子抜き）から生成する。</li>
+    <li><strong>説明</strong>：「説明」「内容：」ラベル付き行、およびラベルの無い素のコメント行はすべて「説明」として扱う。複数行あっても結合せず <code># 説明：</code> を複数行のまま残す。</li>
+    <li><strong>実行条件</strong>：元の「実行条件」ラベルの内容をそのまま保持し、説明の下・呼び出し元の上に配置する。</li>
+    <li><strong>&gt;（呼び出し元）</strong>：「呼び出し元」「呼出」ラベルや行頭 <code>&gt;</code> の内容を集約。<code>/function</code> が付いていなければ付与して正規化。複数ある場合は1呼び出しにつき1行。呼び出し元が無ければ <code># &gt;</code> のみ残す。</li>
+    <li><strong>=（自身のパス）</strong>：元の記載は信頼せず、<strong>実際のファイル格納場所（ディレクトリ構造）から機械的に再計算</strong>する。ヘッダーの一番下に必ず配置。</li>
+    <li><strong>ヘッダーブロックの判定</strong>：ファイル先頭から <code>#</code> で始まる行が連続する区間とし、空行に達したら終了する（以降の本文中のコメントには触れない）。</li>
+  </ul>
+  <p>このアルゴリズムがそのまま専用のVSCode拡張（<code>mcfunction-header</code>）としてツール化されている点が重要です。つまりこの規約は"努力目標"ではなく、<strong>ツールで機械的に強制される規約</strong>として運用されています。</p>
+
+  <h3>5-2. 命名規則</h3>
+  <p>README「その他」節に、共同開発時の見やすさを優先した命名の優先順位が明記されています。</p>
+  <ul class="rule-list">
+    <li><strong>大文字はできるだけ使わない</strong>：ファイル名・識別子は基本的に小文字。</li>
+    <li><strong>命名の優先順位</strong>：①番号（ナンバー）を基本とする → ②必要なら小文字の省略語 → ③どうしても必要な場合のみ「型変数」的な <code>CamelCase</code>（先頭大文字＋単語区切りごとに大文字）を使う。</li>
+    <li><strong>命名はスプレッドシート管理</strong>：共同開発での見通しの良さを重視し、命名の割り当てはスプレッドシートで一元管理する運用。</li>
+    <li><strong><code>\n</code>のようなエスケープ改行は使わない</strong>：コマンド1行＝1命令という制約上、改行の必要な表現は素直に行を分けて書く、という趣旨の注意書きがある。</li>
+  </ul>
+
+  <h3>5-3. pack.mcmeta によるフィルタ規約</h3>
+  <p><code>filter.block</code> で <code>.lnk</code>ファイル、<code>neofunction:functions/info.lnk</code>、<code>minecraft:advancements/*</code> を配布パッケージから除外する設定が明示されています。<code>.lnk</code> はWindowsのショートカットファイルで、開発環境内の補助リンクがビルド時に紛れ込まないようにする防御的な設定です。</p>
+</section>
+
+<!-- ============ 暗黙的規約 ============ -->
+<section id="implicit">
+  <div class="eyebrow">06 — Implicit Conventions</div>
+  <h2 class="section-title">暗黙のうちに守られている規約</h2>
+  <p class="section-desc">README には書かれていないものの、コードを横断的に読むことで見えてくる、一貫して守られている（あるいは守られつつある）作法です。</p>
+
+  <ul class="rule-list">
+    <li><strong>ドット始まりの名前 = 内部ディスパッチャ／要注意領域</strong><br><code>.neo</code>・<code>.spawn</code>・<code>.all_trigger_make</code> のように先頭にドットを持つファイル／フォルダは、そのフォルダの制御ロジックの中枢であり、他の一般ファイルより変更の影響範囲が大きい領域として扱われています。<code>entity/tick.mcfunction</code> のコメントで「<code>.spawn</code>の階層構造を理解してから編集して」と名指しで注意喚起されているのがその証拠です。</li>
+    <li><strong>フォルダ＝責務、コメント＝負荷ラベル</strong><br>「asset/entity/player/system」という4分割そのものに加え、各起点コメントに「負荷（小）／（中）／（極大）」という定性的なコストラベルが書き添えられており、パフォーマンスへの配慮がドキュメントの一部として一貫して残されています。</li>
+    <li><strong>取り消し線的コメントアウトが設計変遷の記録として残る</strong><br><code>system/setting/2_scoreboard.mcfunction</code> の <code>SPD</code>・<code>ATK</code> などの未実装ステータスや、<code>entity/skill/.neo</code> 内の一部旧処理のように、無効化されたコードがそのまま「将来やるかもしれないことのメモ」として残されています。削除せず残すことが、暗黙のうちにこのプロジェクトの流儀になっています。</li>
+    <li><strong>開発者の疑問・愚痴・TODOがコメントに直接書かれる</strong><br><code>system/scoreboard/add.mcfunction</code> には「マルチプレイでこの処理をどう実装する？」という設計上の問いかけがそのまま残り、<code>system/setting/2_scoreboard.mcfunction</code> には「命名制限と命名法則がクソ」という率直な感想が残っています。コメントが単なる説明ではなく、開発者間の意思疎通ログとして機能しています。</li>
+    <li><strong>改行コードはCRLFが主流だが、新しいファイルはLFに移行しつつある</strong><br>調査したところ <code>.mcfunction</code> 4,167ファイル中 2,930ファイル（約70%）がCRLF、残りがLFでした。<code>entity/tick.mcfunction</code> など更新日時の新しいファイルはLFになっており、開発環境（エディタ／OS）の変遷が改行コードの混在という形で履歴に残っています。</li>
+    <li><strong><code>#</code> と <code>##</code> の緩やかな使い分け</strong><br>ヘッダー部は単一の <code>#</code>、本文内の区切り（「内容」「再使用のために〜」など）には <code>##</code> を使う例が散見されますが、厳密なルールではなく執筆者依存の緩い慣習にとどまっています。</li>
+    <li><strong>数字ID＋接尾辞という命名で"版"を管理</strong><br><code>system/dmg/fire/1</code>・<code>10</code>・<code>100</code>のように、数値そのものをファイル名にする命名が随所に見られ、README の「基本ナンバー」方針が実装レベルでも徹底されています。</li>
+  </ul>
+</section>
+
+<!-- ============ 用語集 ============ -->
+<section id="glossary">
+  <div class="eyebrow">07 — Glossary</div>
+  <h2 class="section-title">用語集：主要スコアボード・タグ</h2>
+  <p class="section-desc">コード全体を読み解く上で頻出する識別子をまとめました。</p>
+
+  <h3>主要スコアボード目標</h3>
+  <div class="tbl-wrap">
+    <table>
+      <tr><th>目標名</th><th>意味</th></tr>
+      <tr><td><code>EXP</code></td><td>経験値</td></tr>
+      <tr><td><code>LVL</code></td><td>レベル（進行率）</td></tr>
+      <tr><td><code>HP</code> / <code>HPmax</code></td><td>耐久力（表示用）とその最大値</td></tr>
+      <tr><td><code>SP</code> / <code>SPmax</code></td><td>冀求力（Soul＝MP相当）とその最大値</td></tr>
+      <tr><td><code>CT</code></td><td>クールタイム（スキル再使用制限）</td></tr>
+      <tr><td><code>DEF</code></td><td>防御力（金ハート表示用）</td></tr>
+      <tr><td><code>MiningSpeed</code></td><td>採掘力（カスタム採掘速度）</td></tr>
+      <tr><td><code>lv_max / ls_gap / ls_rate 等</code></td><td>LevelSync（レベル同期）機能の計算用ワーク変数群</td></tr>
+      <tr><td><code>generaltimer / prog_timer / ceres_timer</code></td><td>各種タイマー（汎用・プロローグ・セレスタ）</td></tr>
+      <tr><td><code>temp</code></td><td>一時記録用の汎用ワーク変数</td></tr>
+    </table>
+  </div>
+
+  <h3>主要タグ</h3>
+  <div>
+    <span class="tagchip">check</span><span class="tagchip">vanilla</span><span class="tagchip">boss</span>
+    <span class="tagchip">del</span><span class="tagchip">marked</span><span class="tagchip">sur</span>
+    <span class="tagchip">argonaute</span><span class="tagchip">fly0</span><span class="tagchip">fly1</span>
+    <span class="tagchip">downer</span><span class="tagchip">upper</span><span class="tagchip">portalcooldown</span>
+    <span class="tagchip">familiar</span>
+  </div>
+  <div class="tbl-wrap" style="margin-top:16px;">
+    <table>
+      <tr><th>タグ</th><th>意味</th></tr>
+      <tr><td><code>check</code></td><td>スポーン時の初期化処理が完了済みであることを示す</td></tr>
+      <tr><td><code>vanilla</code></td><td>カスタムタグを一切持たない、素のバニラMobであることを示す（処理対象外）</td></tr>
+      <tr><td><code>boss</code></td><td>ボスAI処理の対象であることを示す</td></tr>
+      <tr><td><code>del</code></td><td>削除予約済み。翌tickに <code>entity/skill/del</code> が処理して <code>kill</code> する</td></tr>
+      <tr><td><code>fly0 / fly1 / downer / upper</code></td><td>常時追跡が必要な特殊エンティティの挙動モード（着地削除・奈落復帰・上下の親エンティティ依存消滅など）</td></tr>
+      <tr><td><code>sur</code></td><td>サバイバル領域にいることを示す（ゲームモード制御用）</td></tr>
+      <tr><td><code>argonaute</code></td><td>管理者（開発者）であることを示す特別権限タグ</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 評価 ============ -->
+<section id="evaluation">
+  <div class="eyebrow">08 — Evaluation</div>
+  <h2 class="section-title">評価</h2>
+  <p class="section-desc">規約の遵守状況を実際に数えた上で、設計の強みと技術的負債を整理します。</p>
+
+  <h3>ヘッダー規約の遵守率（実測）</h3>
+  <div class="barlist">
+    <div class="bar-row"><span class="lbl">「命名」で開始</span><div class="bar-track"><div class="bar-fill" style="width:88%"></div></div><span class="val">3,675 / 4,167（88%）</span></div>
+    <div class="bar-row"><span class="lbl">「=/function」形式のパス行</span><div class="bar-track"><div class="bar-fill aqua" style="width:85%"></div></div><span class="val">3,551 / 4,167（85%）</span></div>
+    <div class="bar-row"><span class="lbl">CRLF改行コード</span><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div><span class="val">2,930 / 4,167（70%）</span></div>
+  </div>
+
+  <div class="eval-grid">
+    <div class="eval-col good">
+      <h4>強み</h4>
+      <div class="eval-item"><div class="h">徹底したヘッダー規約とツール化</div><p class="b">全ファイルの88%以上が統一ヘッダーを持ち、専用VSCode拡張で機械的に強制されている。バニラコマンドという「関数シグネチャもドキュメンテーションコメントも標準機能では持てない」環境で、擬似的なドキュメンテーションレイヤーを自前で作り上げている。</p></div>
+      <div class="eval-item"><div class="h">責務分離が明確</div><p class="b"><code>asset/entity/player/system</code>という4分割と、それぞれの負荷ラベルが一貫しており、新規参加者でも「これは誰が毎tick実行するコードか」が推測しやすい。</p></div>
+      <div class="eval-item"><div class="h">パフォーマンスへの継続的な配慮</div><p class="b">初期化処理の<code>schedule</code>による段階展開、entityループでの早期分岐（<code>fly1/downer/upper/boss</code>以外は即座に軽量パスへ抜ける)、64m制限タグへの受け渡しなど、随所に負荷分散の工夫がある。</p></div>
+      <div class="eval-item"><div class="h">拡張性の高いID設計</div><p class="b">職業の進捗番号帯（200/210/220…）やダメージタイプの桁分割など、後から要素を追加しやすい名前空間設計になっている。</p></div>
+    </div>
+    <div class="eval-col bad">
+      <h4>技術的負債・気になる点</h4>
+      <div class="eval-item"><div class="h">実装方式の二重化</div><p class="b">ダメージ計算に「桁分解の固定関数群（旧）」と「マクロ関数（新）」が併存している。1.20.2以降のマクロ機能への全面移行が完了していない過渡期状態。</p></div>
+      <div class="eval-item"><div class="h">未実装ステータスの放置</div><p class="b"><code>SPD・ATK・INT・RES・LUK・CRT</code>がコメントアウトされたまま残っており、当初設計と現在の実装に乖離がある。将来これらを追加する際、既存のスコアボード命名との衝突リスクがある。</p></div>
+      <div class="eval-item"><div class="h">改行コードの混在</div><p class="b">CRLFとLFが約7:3で混在しており、複数の編集環境（時期）を経てきたことがうかがえる。差分管理（Git等）を行う場合はノイズの原因になりやすい。</p></div>
+      <div class="eval-item"><div class="h">最大12階層のネスト</div><p class="b"><code>system/adv/tick/cmd/offhand/994/dim/ceresta/objective.mcfunction</code>のように深いパスが存在し、規約通りに書けば毎回ヘッダーの<code>=</code>行が長くなる。可読性とパスの追跡コストはやや高い。</p></div>
+      <div class="eval-item"><div class="h">グローバルな単一名前空間のリスク</div><p class="b">スコアボード目標もタグも進捗IDも、Minecraft側にnamespace分離の仕組みが乏しいため、4,000以上のファイルを横断する規模になると命名衝突のリスクが構造的に残る（スプレッドシート管理という運用でカバーしている）。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 読み方ガイド ============ -->
+<section id="guide">
+  <div class="eyebrow">09 — Reading Guide</div>
+  <h2 class="section-title">はじめて読む人への実践ガイド</h2>
+  <p class="section-desc">4,000以上のファイルを前から読む必要はありません。以下の順番で"入口"だけ押さえれば全体像がつかめます。</p>
+
+  <div class="two-col">
+    <div class="card">
+      <h4 style="color:var(--gold);">① 起点の2ファイルを読む</h4>
+      <p style="margin:0;color:var(--parchment-dim);font-size:14px;"><code>functions/load.mcfunction</code> と <code>functions/tick.mcfunction</code>。すべての処理はここから枝分かれするので、まずこの2つのヘッダーコメントだけで全体方針を把握できます。</p>
+    </div>
+    <div class="card">
+      <h4 style="color:var(--gold);">② 気になる機能名で <code>.neo</code> を検索</h4>
+      <p style="margin:0;color:var(--parchment-dim);font-size:14px;">「ジョブを見たい」なら <code>player/job/.neo</code>、「ボスを見たい」なら <code>entity/skill/boss/.neo</code>というように、フォルダ名から<code>.neo</code>ファイルを直接開けば、その領域の分岐ロジックだけを短時間で把握できます。</p>
+    </div>
+    <div class="card">
+      <h4 style="color:var(--gold);">③ ヘッダーの <code>&gt;</code> と <code>=</code> を手掛かりに前後をたどる</h4>
+      <p style="margin:0;color:var(--parchment-dim);font-size:14px;">各ファイルの <code>&gt;呼び出し元</code>を見れば「誰から呼ばれているか」を、<code>=自身のパス</code>で全文検索すれば「自分がどこから参照されているか」を機械的に逆引きできます。</p>
+    </div>
+    <div class="card">
+      <h4 style="color:var(--gold);">④ 進捗JSONは「イベント登録」として読む</h4>
+      <p style="margin:0;color:var(--parchment-dim);font-size:14px;"><code>system/adv/</code>配下のトリガー名（<code>recipe_crafted</code>等）がそのままイベント名です。対応する<code>advancements/</code>側のJSONで発火条件を、<code>functions/</code>側の<code>.neo</code>で処理内容を読めば、1つの機能の入出力がセットで理解できます。</p>
+    </div>
+  </div>
+
+  <blockquote>この解析は約4,167本の<code>.mcfunction</code>と8,040本のJSONのうち、代表的なファイル・パターンを横断的に抽出して構成したものです。全ての葉ファイルを網羅したものではなく、「どう読めば全体像に迷わずたどり着けるか」という設計思想・骨格の解説を目的としています。</blockquote>
+</section>
+
+</main>
+
+<footer>
+  NeoFunctions Structure Analysis — generated for architectural review<br>
+  対象: NeoFunctions.zip（data pack for Minecraft 1.20.4）／ Author: argonaute_nemo ／ Copyright: SoraFlete
+</footer>
+
+</body>
+</html>

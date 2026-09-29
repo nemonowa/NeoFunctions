@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:62805dfc-2b0b-44f5-a5b5-700e9d3b3292",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 1,
+                "minecraft:swift_sneak": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "麦わら帽子がやたらとよく似合うんだが",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "笑わない彼女はかなりのご都合主義",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ノスタルジアドライブ",
+                "color": "#BF8441",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  108
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "四天王",
+                  "color": "#AEFE0D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "串刺し",
+                  "color": "#FE2E73"
+                },
+                {
+                  "text": "剣",
+                  "color": "#271B3D",
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "なんか強そうな奴らを",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "簡単にバーゲンセールでも在庫処分用できる！",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255,
+                "minecraft:sweeping_edge": 44
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:742fe8a9-dc76-4f13-8a80-bc4686b9586c",
+                  "amount": 44,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:c43d46a0-f999-4cb1-abcf-7c707d9c98b6",
+                  "amount": 44,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:880c650c-c540-4ec8-8b04-eb8c790e824e",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  485
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

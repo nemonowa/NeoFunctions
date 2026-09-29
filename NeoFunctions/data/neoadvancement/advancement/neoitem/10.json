@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/9",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：LDL : Legacy of the daeth load. -LDL : Legacy of the came load.-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:10)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rLegacy of the daeth load.\n死の帝王【ハデス】が残した遺物\nこの液体に触れたものに「無敵状態」すら貫通する絶対的な死を与える。この遺物によって死んだ生命はアイテムすら落とさず「消失」する。\nキンスレーヤーやアイテムロストの危険性から表向きの流通は制限されているが、現代でも最終手段として重宝されている。\n不平等なこの世界において、唯一死のみが平等であり、死はこれ以上の苦痛を与えられないという意味で慈悲である。\n-overload-",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:splash_potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  10
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/8"
+  }
+}

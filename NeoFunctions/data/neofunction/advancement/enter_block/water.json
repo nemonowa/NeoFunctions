@@ -1,0 +1,14 @@
+{
+  "parent": "neofunction:.clock/10s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "blocks": "minecraft:water"
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/enter_block/water"
+  }
+}

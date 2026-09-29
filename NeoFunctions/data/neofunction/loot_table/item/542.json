@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||",
+                  "color": "#C5FF6E",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 黄金蜂蜜酒 ",
+                  "color": "light_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||",
+                  "color": "#C5FF6E"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "使用者の肉体を再構成する魔法の飲み物",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "跳躍力と速度が上がり傷の直りが早くなる体に変化する",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "体に生まれ変わるという青はちみー",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "黄金水や人狼の前足と故人の思い出の素材を使うのだとか",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  542
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12975982,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 3,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 3,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": -1
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

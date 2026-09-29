@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "雪鉄魚（せつてつうぉー",
+                "color": "#F4FBFE",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "白銀大陸",
+                    "color": "#F4FBFE",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "極寒水域",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "に生息する小型の魚",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "体表は",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "金属光沢",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "を帯びた鱗に覆われ"
+                  }
+                ],
+                {
+                  "text": "凝固しにくい脂質と凍結を防ぐ性質の体液を有する",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "少量でも高いエネルギー補給が可能な基礎食材",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1461
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

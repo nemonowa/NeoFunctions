@@ -1,0 +1,205 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:unbreakable": {},
+              "minecraft:lore": [
+                {
+                  "text": "アビスより溢れる瘴気を吸い上げる代償として、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "周囲の生命を悉く枯らす呪われし魔帽。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "たとえ世界から「災害」と忌み嫌われようとも、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "彼女は数百年の孤独の中でこれを被り続けた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "「永遠の力ではない。永遠の命でもない。永遠の責務。」",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "――かつて、世界が裂けたあの日。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "四肢を失い、それでも村を守ろうとした蒼刃の英雄がいた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "少女は彼の願いに応え、からくりの身体を与えた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "そして少女自身は、この帽子を被り深淵を引き受けた。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "主従が紡いだ数百年の平穏は、外界の無知な刃によって終わりを告げる。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "守人が倒れ、因果を歪めるSPが尽き、少女の肉体は数百年分の",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "歳月に呑まれて灰へと還った。残されたのは、この帽子だけ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【永劫の魔帽】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "溢れ出る瘴気を己のSPへと変換する。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "だが、世界を救わんとする狂おしいほどの冀う(こいねがう)力なき者は、",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "瞬く間に深淵に精神を喰い破られるだろう。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "少女の願いは潰え、アビスの心臓『Abyss Crystal』が目を覚ます。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "――被るべき人は、あなたではない。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "abyss",
+                  "color": "#9C1E1E",
+                  "obfuscated": true
+                },
+                {
+                  "text": "E",
+                  "color": "#B52B32",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "t",
+                  "color": "#AB2733",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "e",
+                  "color": "#9C1C2A",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "r",
+                  "color": "#961B29",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "n",
+                  "color": "#8F1225",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "i",
+                  "color": "#8F1429",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "t",
+                  "color": "#8C1C1C",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "y",
+                  "color": "#871B1B",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "abyss",
+                  "color": "#9C1E1E",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1628
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

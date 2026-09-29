@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "カエル☆ローブ",
+                "color": "#489668",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙皮を加工して作られた軽量な防具",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "優れた耐水性を持ち、機動力を損ないにくい ",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:respiration": 2,
+                "minecraft:unbreaking": 7
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:58d0d9e3-ba91-475b-8b60-4eb1cd62fedf",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7605bf24-fb39-4f28-b849-9865c9a43eee",
+                  "amount": 0.04,
+                  "operation": "add_multiplied_base",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:3423d507-76c1-47cb-b710-5cc0e392a766",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:rib"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1539
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " スポナー破壊クレジット ",
+                  "color": "light_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "クレジットと1:1で交換できる通貨",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "主に",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "調達室【アーセナル】",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "での取引に使う"
+                  }
+                ],
+                {
+                  "text": "食べる事もできるが転移してしまい",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "SAN値【冀求力】が減るほど",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "不味い",
+                    "color": "dark_green",
+                    "bold": true
+                  },
+                  {
+                    "text": "らしい..."
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:punch": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1247
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

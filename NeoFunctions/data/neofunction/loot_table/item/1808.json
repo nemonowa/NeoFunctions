@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:2847ae12-d668-4a97-bf14-9b759b1beeb7",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:silence"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "らるーしゃなりきりせっと",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "静寂のレギンス",
+                "color": "#D11717",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 13702935,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1808
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

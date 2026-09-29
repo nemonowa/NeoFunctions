@@ -1,0 +1,254 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": [
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": " 異空の火器 ",
+                    "color": "aqua",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF7F",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#00FF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#7FFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "#FFFF00",
+                    "bold": true,
+                    "italic": false,
+                    "obfuscated": true
+                  }
+                ],
+                "minecraft:lore": [
+                  [
+                    {
+                      "keybind": "key.use",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "選択済みのスキルを行使する",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  [
+                    {
+                      "keybind": "key.drop",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false
+                    },
+                    {
+                      "text": " > ",
+                      "color": "dark_gray",
+                      "bold": false,
+                      "italic": false
+                    },
+                    {
+                      "text": "兵装変形および情報更新",
+                      "color": "white",
+                      "bold": false,
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "text": "未知の金属匣体。超文明の面影を感じるが、使い方を思い出せない。",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": true
+                  }
+                ],
+                "minecraft:custom_model_data": {
+                  "floats": [
+                    1407
+                  ]
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": []
+                },
+                "minecraft:custom_data": {
+                  "slot": "blue",
+                  "rare": "ST"
+                }
+              }
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装填術式 > ID.",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@p",
+                        "objective": "slotR"
+                      },
+                      "color": "red"
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装填術式 > ID.",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@p",
+                        "objective": "slotG"
+                      },
+                      "color": "green"
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            },
+            {
+              "type": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "装填術式 > ID.",
+                  "color": "#fef4f4",
+                  "bold": false,
+                  "italic": false,
+                  "extra": [
+                    {
+                      "score": {
+                        "name": "@p",
+                        "objective": "slotB"
+                      },
+                      "color": "aqua"
+                    }
+                  ]
+                }
+              ],
+              "mode": "append"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

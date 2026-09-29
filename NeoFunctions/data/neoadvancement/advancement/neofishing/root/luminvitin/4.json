@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/luminvitin/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1464
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "雪蝙蝠の肉                      ",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:4)を観測する。\n§9説明：§r白銀大陸の極寒の洞窟や氷壁に生息する小型の蝙蝠白く薄い皮膜の翼を持ち、\n雪に紛れて身を隠す\n吸血牙を持ち少し危険だが貴重なタンパク質",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1464
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

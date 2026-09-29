@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "雷",
+                  "color": "#9C8F5D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "天",
+                  "color": "yellow"
+                },
+                {
+                  "text": "装",
+                  "color": "#9C8F5D"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "雷雨と潮の魔力をまとった装備",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "セットスペル🔯【",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "天候同調 Ⅲ",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "】"
+                  }
+                ],
+                {
+                  "text": "> 晴天・雨天・雷雨時に移動や行動が加速する。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1276
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

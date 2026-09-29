@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルビコプター",
+                "color": "#FF3B3B",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "封鎖惑星機構大型武装ヘリ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "id": "minecraft:phantom",
+                "Size": 6,
+                "CustomName": {
+                  "text": "ルビコプター",
+                  "color": "#FF3B3B"
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1209
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# 命名：ウインド・バット
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/300
+
+summon bat ~ ~ ~ {Silent:1b,Passengers:[{id:"minecraft:item_display",billboard:"center",CustomName:{"text":"エレメンタル・コア","color":"green","bold":false,"italic":false},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.1f,0.1f,0.1f]},item:{id:"minecraft:ender_eye",count:1}},{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:dust",color:[0.459f,1.0f,0.4f],scale:1.0f},Radius:0.3f,Duration:20,CustomName:{"text":"ウインド・エレメンタル","color":"green","bold":false,"italic":false},potion_contents:{custom_color:7733094,custom_effects:[{id:"minecraft:conduit_power",amplifier:31b,duration:20,show_particles:0b}]}}],CustomName:{"text":"ウインド・バット","color":"green","bold":false,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}],Tags:[lv1,],DeathLootTable:"neofunction:asset/summon/300"}

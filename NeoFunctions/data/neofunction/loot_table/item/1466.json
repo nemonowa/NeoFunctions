@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1466
+                ]
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "大自然島",
+                    "color": "#C3D825",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "で釣れる小型の魚",
+                    "color": "gray"
+                  }
+                ],
+                [
+                  {
+                    "text": "火属性のマナ",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を沢山受けて育った魚",
+                    "color": "gray"
+                  }
+                ],
+                {
+                  "text": "Common:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "火霊魚",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

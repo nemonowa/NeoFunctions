@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:repair_cost": 0,
+              "minecraft:custom_name": {
+                "text": "腹減ったんだろ？食えよｗ"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  261
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

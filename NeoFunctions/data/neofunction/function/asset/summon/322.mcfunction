@@ -1,0 +1,5 @@
+# 命名：Pirates of the Cerestanian
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/322
+
+summon drowned ~ ~ ~ {OnGround:1b,LeftHanded:0b,IsBaby:0b,CanBreakDoors:0b,CustomName:{"text":"Pirates of the Ceresta","color":"aqua","bold":true,"italic":false},Tags:[lv1,tridentthrow5s50],DeathLootTable:"neofunction:asset/summon/322",equipment:{offhand:{id:"minecraft:trident",count:1},chest:{id:"minecraft:chainmail_chestplate",count:1,components:{"minecraft:trim":{material:"minecraft:lapis",pattern:"minecraft:eye"}}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I; -805324546, 169364057, -1784506179, 810663969],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTExY2ExOTk3ODM1NDk5ZmMzZmI3MzYzNjRhNjNlNGJjZjNjZmQ5N2E0ZmJlODAwYzdjMGViOWU2NGI2MzNkMyJ9fX0="}]}}}}}

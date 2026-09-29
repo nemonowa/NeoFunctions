@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "⑧ ｽﾃｨﾙｼﾞｬｽﾃｨｽ=ﾃｨﾙｼﾞｴﾝﾄﾞ  ",
+                "color": "gold",
+                "bold": false,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "  『 正  星  義  帝 』  ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": " "
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "  ",
+                  "font": "neo",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "クリーチャー",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "□ T・ブレイカー",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ 自分のクリーチャーは",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃もブロックもされない",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ シールドにあれば召喚する",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ 自分の手札に加えるシールド",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "全てに「Sトリガー」を与える",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "     No use crying.. over justice.",
+                  "color": "black"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  852
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

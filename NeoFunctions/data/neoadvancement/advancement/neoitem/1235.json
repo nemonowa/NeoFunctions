@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1234",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：サンライト・タルト -Sunlight Tart-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1235)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r陽光を浴びて黄金色に輝く「陽果ベリー」をたっぷり使ったタルト。\n焼き上がると、果実の魔力が淡くきらめき、まるで太陽のかけらのよう。\n甘酸っぱくて元気が出る味わいは、食べた人の心まで明るく照らす。\nシェーラでは「朝の目覚めのおやつ」として愛されている。\n\nメルのコメント：\n\n「ねぇ、笑顔が太陽みたいって言われたいでしょ？　これ、そんな子にぴったり！」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:pumpkin_pie"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1235
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/1"
+  }
+}

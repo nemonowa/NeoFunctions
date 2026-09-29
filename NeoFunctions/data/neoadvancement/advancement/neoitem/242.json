@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/241",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：【祝呪】ばねるぽぐたんおぽけ -[Blessing Curse] Banerupogutanopoke-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:242)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rでかくて恐ろしい化け物の人形\n粗末に扱え、 見つけ次第早急にぶち壊せ！\n\n\n今日村が焼けた\nそこには人殺しの家庭を持つ家族がいた。\n犯人はその家の子供だった\n理由を聞いたら親からの命令だったと言っていた。\n火が収まった頃、燃えていた家から\n突然出てきた気味の悪い人形。\nそいつは一瞬。たったの壱秒その人形が視界に入っただけで、\n「恐怖感で圧死したかと思った」と言っていた。\n話を聞いた次の夜またどこかの村で家が焼けたらしい・・・",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  242
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

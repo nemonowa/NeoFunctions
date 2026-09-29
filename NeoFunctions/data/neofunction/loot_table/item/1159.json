@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "r",
+                  "color": "blue"
+                },
+                {
+                  "text": "g",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "t",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "e",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": " エーテル位相機関の設計図 ",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "r",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "u",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "t",
+                  "color": "blue"
+                },
+                {
+                  "text": "e",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "位相機関とは知性体を",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "高次元存在",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "に昇華するための",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "時空編纂装置",
+                    "color": "dark_purple"
+                  }
+                ],
+                [
+                  {
+                    "text": "位相機関が",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "起動",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "すると、"
+                  },
+                  {
+                    "text": "全宇宙",
+                    "color": "blue"
+                  },
+                  {
+                    "text": "は位相抽出のため"
+                  },
+                  {
+                    "text": "エネルギー",
+                    "color": "red"
+                  },
+                  {
+                    "text": "と化し"
+                  }
+                ],
+                {
+                  "text": "あなたは「ゲーム」に勝利する。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "その際、残された全エンティティは消失するが些細な問題である。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 99
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1159
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "Recipes": [
+                  "minecraft:ender_pearl"
+                ],
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

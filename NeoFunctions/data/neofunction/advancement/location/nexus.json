@@ -1,0 +1,29 @@
+{
+  "parent": "neofunction:.clock/60s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:overworld",
+            "block": {
+              "blocks": [
+                "minecraft:end_portal"
+              ]
+            }
+          }
+        },
+        "effects": {
+          "minecraft:blindness": {
+            "amplifier": 0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/location/nexus"
+  }
+}

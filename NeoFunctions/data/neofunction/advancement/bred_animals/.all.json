@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/bred_animals/.all"
+  }
+}

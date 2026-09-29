@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:vex"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ノームなりきりセット"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ノームの上着",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 3559988,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1682
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

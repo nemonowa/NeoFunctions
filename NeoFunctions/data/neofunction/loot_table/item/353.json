@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mangrove_propagule",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:tall_grass"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|+|",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " イブン=グハジの粉 ",
+                  "color": "yellow",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|+|"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "不可視の神話生物を",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "可視化",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "するといわれている粉末"
+                  }
+                ],
+                [
+                  {
+                    "text": "同じ次元の者同士でしか",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "干渉",
+                    "color": "yellow"
+                  },
+                  {
+                    "text": "し合わない理だから",
+                    "color": "dark_gray"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  353
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_break"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

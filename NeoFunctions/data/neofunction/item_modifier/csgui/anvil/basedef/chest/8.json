@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:armor",
+      "amount": 8,
+      "operation": "add_value",
+      "slot": "chest",
+      "id": "neofunction:attribute/csgui/anvil/basedef/chest/8/0"
+    }
+  ],
+  "replace": true
+}

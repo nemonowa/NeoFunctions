@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "銀器姫",
+                "color": "#29CDFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 3,
+                "minecraft:projectile_protection": 2,
+                "minecraft:protection": 10,
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:a5e0600a-d873-453c-a896-64a92728537f",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:ce471b53-2084-41ea-9e1a-295399a25b4b",
+                  "amount": 0.04,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:8abf778d-e4bf-4059-9d62-824ef8042b7c",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:iron",
+                "pattern": "minecraft:eye"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  458
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

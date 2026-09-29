@@ -1,0 +1,189 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "原初の響きをわずかに写し取った複製",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "摩耗はする。だが壊れはしない",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "再生能力 III",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (1:30)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "火炎耐性",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (1:30)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "▌ ",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "衝撃吸収 IV",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "  (1:30)",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用時:",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " 最大体力の ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "40%",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を回復",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " 使用回数 ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "無限",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " クールダウン ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "5:00",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": " クールダウン中の使用は ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "砕けて消滅",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、効果も不発",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "残響",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "のトーテム",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1857
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

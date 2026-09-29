@@ -1,0 +1,51 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:location": {
+                    "position": {
+                      "x": {
+                        "min": 1137,
+                        "max": 1147
+                      },
+                      "y": {
+                        "min": 35,
+                        "max": 45
+                      },
+                      "z": {
+                        "min": 1425,
+                        "max": 1443
+                      }
+                    },
+                    "dimension": "neodimension:ceresta_festa"
+                  }
+                }
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{Tags:[\"color1\"]}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/dungeon/colorofsanctuary/tag1"
+  }
+}

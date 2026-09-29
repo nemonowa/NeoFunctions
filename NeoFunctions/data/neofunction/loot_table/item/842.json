@@ -1,0 +1,123 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "fire",
+                  "color": "#ED4F15",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 炎鼠の皮衣 ",
+                  "color": "#ED4F15",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "fire",
+                  "color": "#ED4F15",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【炎鼠の皮衣】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "定期的に火炎耐性を得る",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "「名残なく燃ゆとしりせば皮衣",
+                  "color": "#ED4F15",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "思ひの外にをきて見ましを」",
+                  "color": "#ED4F15",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:dyed_color": 15552277,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:fire_protection": 8,
+                "minecraft:unbreaking": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:e6d9a724-72d3-456b-acd6-b361668e8e48",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:1f488af8-2d07-4b9f-870b-74ac3a133e2a",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:92015bd5-7bfb-4b03-bdeb-cc72597fbd46",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:redstone",
+                "pattern": "minecraft:spire"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  842
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

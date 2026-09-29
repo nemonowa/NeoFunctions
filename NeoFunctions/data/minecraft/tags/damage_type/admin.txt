@@ -1,0 +1,91 @@
+https://sayanosasa.com/e/damage-tags-dict
+
+always_hurts_ender_dragons
+ エンダードラゴンに対して常にダメージを与えることができる
+
+always_most_significant_fall
+ 個のダメージを受けた後の落下時に特殊なデスメッセージを表示
+
+always_triggers_silverfish
+ プレイヤー以外からのダメージでも紙魚が仲間を呼ぶ
+
+avoids_guardian_thorns
+ ガーディアン、エルダーガーディアンの棘を受けない
+
+burns_armor_stands
+ アマスタに対して固定4ダメージになる
+
+bypasses_armor
+ 防具値無視、防具耐久が減少しない
+
+bypasses_cooldown
+ 無敵時間を無視
+
+bypasses_effects
+ 耐性エフェクト、ダメ減系エンチャ無効
+
+bypasses_enchantments
+ ダメ減系エンチャ無効
+
+bypasses_invulnerability
+ 無敵貫通(召喚直後のウィザー、潜っているウォーデン、クリエなどを含む)
+
+bypasses_resistance
+ 耐性エフェクト無視
+
+bypasses_shield
+ 盾で防御不可
+
+damages_helmet
+ 頭防具の耐久値を多く減らす
+
+ignites_armor_stands
+ アマスタにダメージを与えず、5sの炎上を与える
+
+is_drowning
+ ゲームルールdrowingDamageによって無効化される(プレイヤーのみ)
+
+is_explosion
+ 爆発耐性エンチャが適用される
+ アマスタを確定破壊する
+ エンドクリスタルを爆発させない
+ 額縁を破壊する(アイテムが入っていても)
+ TNTトロッコに与えると爆発する
+ ネザースターのアイテムエンティティに効かない
+ KBRで防げるノックバックが発生しなくなる
+
+is_fall
+ 落下耐性エンチャが適応される
+ ゲームルールfallDamageによって無効化される(プレイヤーのみ)
+ #minecraft:fall_damage_immuneのエンティティに効かない
+
+is_fire
+ 火炎耐性エンチャが適応される
+ ゲームルールfireDamage(プレイヤーのみ)、炎が効かないエンティティ、火炎耐性エフェクト、ネザライト系アイテムに無効化される
+ ウィッチが火炎耐性ポーションを飲む
+ ネザライト防具の耐久値を減らさない
+ TNTトロッコに与えると爆発する
+
+is_freezing
+ ゲームルールfreezeDamageによって無効化される(プレイヤーのみ)
+ #minecraft:freeze_hurts_extra_typesのエンティティは5倍のダメージを受ける
+
+is_lightning
+ カメがボウルをドロップする
+
+is_projectile
+ 飛び道具耐性エンチャが適応される
+ エンダーマンはこれを無効化し、テレポートする
+ シュルカーの増殖条件の1つ
+
+no_anger
+ このダメージの攻撃主を攻撃主として知覚しない(execute on attackerも反応しない)
+
+no_impact
+ KBRで防げるノックバックが発生しなくなる
+
+witch_resistant_to
+ ウィッチが85%軽減する
+
+wither_immune_to
+ ウィザーが無効化する

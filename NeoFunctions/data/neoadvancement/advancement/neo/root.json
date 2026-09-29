@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bundle",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            50
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "⚓｜新世界秩序 -New World Order-   ",
+        "color": "light_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§e§n～難易度：新・世界秩序～§f\n❱ Version：1.0.0 for MCJE1.20.4\n❱ DataPack：NeoFunctions\n❱ ResourcePack：NeoTextures\n§b§l条件：Project✯NEXUSを開始する。\n§9§l説明：§7世界は§d新たな秩序§7に基づき、真に混沌とした、§5最高にクレイジーな大惨事§7へと変貌を遂げた。遠慮はいらない、かかってこい。\n§1§o§nWelcome to NeoWorld（ようこそ新世界へ！）"
+    },
+    "background": "minecraft:entity/end_portal",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "neofunction:asset/event/nwo"
+  }
+}

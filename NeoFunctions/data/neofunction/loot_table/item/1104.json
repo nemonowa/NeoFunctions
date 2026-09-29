@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 7
+              },
+              "minecraft:lore": [
+                {
+                  "text": "高温環境で魔法触媒を安定させるための器具。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "耐熱性能",
+                    "color": "#FF7C54",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "は高いが、持ち主の",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "注意力",
+                    "color": "#FFF12B",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "は低かった。",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "焦熱抽出フラスコ",
+                "color": "#FF00FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1104
+                ]
+              },
+              "minecraft:custom_data": {
+                "questitem": 1,
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/108",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：到達：スカルリメイン -Skull Remain-                                                         ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:109)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r深海より現れし「骨海王」の力が封じられた、呪われし宝物庫。誰もが欲したその財宝は、呪いとともに沈んでいる。鐘の音が鳴るとき、沈黙の艦隊が再び海を渡る。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/109": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

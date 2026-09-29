@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "泡ぶくたったシチュー",
+                "color": "#DEB86F",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "謎肉と謎液が入っている",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "食べると血沸き立って肉が踊り出す",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  312
+                ]
+              },
+              "minecraft:custom_data": {
+                "effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "duration": 400
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "duration": 600
+                  }
+                ],
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

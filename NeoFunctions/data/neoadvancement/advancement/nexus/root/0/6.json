@@ -1,0 +1,33 @@
+{
+  "parent": "neoadvancement:nexus/root/0/5",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "awapyoi_431"
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "シフトスキルと兵装チェンジについて～～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル6を完了する。\n§3§l報酬：§f「スキルメモリー」の解放\n§9§l説明：§r§dスキルポケット§7から取り出したアイテムには色々な§5スキル§7が格納されている。この異空兵装こそが§e貴方専用の武器§7であり、計器であり、真の意味で§6貴官固有の兵器§7となりうる。はじめは説明を読みながら少しずつ研究してみるといいだろう。\n特に§2重要な操作§7として、空中に放り§a投げて§7アイテムの§a形態を変化§7させる§d「兵装変形」§7とアイテムをメインハンドに持ち§a一定時間しゃがんで§7発動する§d「シフトスキル」§7は憶えておこう！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

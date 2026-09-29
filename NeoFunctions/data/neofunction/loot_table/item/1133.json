@@ -1,0 +1,100 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                },
+                {
+                  "blocks": "minecraft:torch"
+                },
+                {
+                  "blocks": "minecraft:wall_torch"
+                },
+                {
+                  "blocks": "minecraft:cobweb"
+                },
+                {
+                  "blocks": "minecraft:vine"
+                },
+                {
+                  "blocks": "minecraft:lily_pad"
+                },
+                {
+                  "blocks": "minecraft:cracked_stone_bricks"
+                },
+                {
+                  "blocks": "minecraft:stone"
+                },
+                {
+                  "blocks": "minecraft:fire"
+                },
+                {
+                  "blocks": "minecraft:soul_torch"
+                },
+                {
+                  "blocks": "minecraft:soul_wall_torch"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Adv.",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ピッケル",
+                  "color": "white"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:punch": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:7d6b8ada-0138-4b58-8a03-70bef72621c0",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:ad6c078f-b8df-4af5-bc58-e71994c18985",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1133
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

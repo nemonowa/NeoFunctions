@@ -1,0 +1,280 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1579
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "inverted",
+                    "term": {
+                        "type": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:equipment": {
+                            "offhand": {
+                                "components": {
+                                    "minecraft:custom_model_data": {
+                                        "floats": [
+                                            1579
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1580
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "inverted",
+                    "term": {
+                        "type": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:equipment": {
+                            "offhand": {
+                                "components": {
+                                    "minecraft:custom_model_data": {
+                                        "floats": [
+                                            1580
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1581
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "inverted",
+                    "term": {
+                        "type": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:equipment": {
+                            "offhand": {
+                                "components": {
+                                    "minecraft:custom_model_data": {
+                                        "floats": [
+                                            1581
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1582
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "inverted",
+                    "term": {
+                        "type": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:equipment": {
+                            "offhand": {
+                                "components": {
+                                    "minecraft:custom_model_data": {
+                                        "floats": [
+                                            1582
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:equipment": {
+                    "mainhand": {
+                        "components": {
+                            "minecraft:custom_model_data": {
+                                "floats": [
+                                    1583
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "all_of",
+            "terms": [
+                {
+                    "type": "inverted",
+                    "term": {
+                        "type": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "minecraft:equipment": {
+                                "mainhand": {
+                                    "items": [
+                                        "fishing_rod"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:equipment": {
+                            "offhand": {
+                                "components": {
+                                    "minecraft:custom_model_data": {
+                                        "floats": [
+                                            1583
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

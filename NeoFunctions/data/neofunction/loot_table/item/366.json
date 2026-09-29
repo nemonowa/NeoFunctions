@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-回復の壺-",
+                  "color": "dark_aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "壊すと周囲のエンティティのHPを回復する。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:99f7c1c1-c803-464f-ba24-0b8a04e74201",
+                  "amount": -0.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:79f38064-3ee2-4167-9de2-ca7278e42037",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:pot_decorations": {
+                "back": {
+                  "id": "minecraft:heart_pottery_sherd"
+                },
+                "left": {
+                  "id": "minecraft:heart_pottery_sherd"
+                },
+                "right": {
+                  "id": "minecraft:heart_pottery_sherd"
+                },
+                "front": {
+                  "id": "minecraft:heart_pottery_sherd"
+                }
+              },
+              "minecraft:container": [
+                {
+                  "slot": 0,
+                  "item": {
+                    "id": "minecraft:paper",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_data": {
+                        "summon": 290
+                      }
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  366
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

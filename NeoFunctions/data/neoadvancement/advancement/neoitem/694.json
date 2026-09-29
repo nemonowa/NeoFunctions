@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/693",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：メン・タイ -Men Thai-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:694)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r赤い非合法薬物。錠剤や粉末タイプがある。\n摂取するとニューロンを活性化させるが寿命が削れるらしく、オーバードーズすると千式観音が見えてくる。\nバイオ技術の産物でブルー・メン・タイなる亜種も存在する。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  694
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

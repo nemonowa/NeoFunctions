@@ -1,0 +1,29 @@
+##=/execute as @p run function neofunction:asset/give/book/fasttravel0
+
+give @s written_book{display:{Name:'[{"text":"||","color":"green","bold":true,"italic":false,"obfuscated":true},{"text":"✧","color":"dark_aqua","obfuscated":false},{"text":"||","color":"yellow"},{"text":" 転移の書 pos:0~99 ","color":"dark_aqua","underlined":true,"obfuscated":false},{"text":"||","color":"yellow"},{"text":"✧","color":"dark_aqua","obfuscated":false},{"text":"||"}]',Lore:['{"text":"制作専用の最適化が施されたコマンドノート","color":"dark_gray","bold":false,"italic":false}','{"text":"百箇所の目標地点を登録・転移できる。","color":"dark_gray","bold":false,"italic":false}','{"text":"ストレージに登録されたマクロ仕様関数で","color":"dark_gray","bold":false,"italic":false}','{"text":"転移地点はスプレッドシートにも登録されている","color":"dark_gray","bold":false,"italic":false}','{"text":"しようの時は「言語設定/UNICODEを強制オン」にしよう","color":"dark_gray","bold":false,"italic":false}','{"text":"ver4.1.6","color":"dark_aqua","bold":true,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false}','{"text":"⌖ For MC1.20.4 ⌖","color":"dark_aqua","bold":true,"italic":true,"underlined":true,"strikethrough":false,"obfuscated":false}']},CustomModelData:-33,rare:["9"],title:"FastTravel",author:"neo",pages:['[{"text":"～クリックで更新・召喚～","hoverEvent":{"action":"show_text","value":[{"text":"～使い方～\\n名前をクリックすると記載地点に転移する\\n\\n⌖ アマスタの名前と座標を登録する\\n\\n赤色　敵対エンティティのいる迷宮\\n緑色　友好エンティティのいる街村\\n青色　建築のみのチェックポイント"}]},"clickEvent":{"action":"run_command","value":"/function admin:teleport/.neo"}},
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]','[
+
+]']} 1
+
+
+改行を消す
+https://html-css-javascript.com/n-space-tab/
+
+,残りに注意

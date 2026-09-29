@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ミ",
+                  "color": "#55FF33",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ス",
+                  "color": "#55FF41",
+                  "underlined": true
+                },
+                {
+                  "text": "リ",
+                  "color": "#56FF50"
+                },
+                {
+                  "text": "ル",
+                  "color": "#56FF5E"
+                },
+                {
+                  "text": "・",
+                  "color": "#57FF6C"
+                },
+                {
+                  "text": "イ",
+                  "color": "#57FF7B"
+                },
+                {
+                  "text": "ン",
+                  "color": "#57FF89"
+                },
+                {
+                  "text": "ゴ",
+                  "color": "#58FF97"
+                },
+                {
+                  "text": "ッ",
+                  "color": "#58FFA5"
+                },
+                {
+                  "text": "ト",
+                  "color": "#59FFC2"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ミスリル装備の素材になるとか...",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  536
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:ceresta_festa",
+            "block": {
+              "blocks": [
+                "minecraft:stone_button"
+              ]
+            },
+            "position": {
+              "x": {
+                "min": 921,
+                "max": 922
+              },
+              "y": {
+                "min": 45,
+                "max": 46
+              },
+              "z": {
+                "min": 1512,
+                "max": 1513
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/item_used_on_block/horsegraveyard/0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "any_of",
+    "terms": [
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:type_specific/player": {
+                    "gamemode": [
+                        "adventure"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "minecraft:type_specific/player": {
+                    "gamemode": [
+                        "survival"
+                    ]
+                }
+            }
+        }
+    ]
+}

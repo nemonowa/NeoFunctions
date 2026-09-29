@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 3,
+                "minecraft:sweeping_edge": 3,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:lore": [
+                {
+                  "text": "刀身にえくすかりばぁと書かれている。",
+                  "color": "dark_purple",
+                  "italic": true
+                },
+                {
+                  "text": "きっとあの伝説の剣にちがいない！",
+                  "color": "dark_purple",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "☆えくすかりばぁ☆",
+                "color": "gold",
+                "bold": true,
+                "italic": false,
+                "obfuscated": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1680
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

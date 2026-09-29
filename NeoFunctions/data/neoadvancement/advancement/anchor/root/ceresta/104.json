@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/103",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：南瓜教団の前哨基地 -Pumpkin Cult Outpost-                         ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:104)に到達する。\n§3報酬：§r経験値×64\n§9説明：§r不気味な仮面をつけた信徒たちが、収穫の儀式を繰り返す異様な集落。\nかつて畑だった土地は、今や信仰の炎に照らされている。\nこれ以上の侵攻を防ぐには、ここを越えるしかない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/104": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

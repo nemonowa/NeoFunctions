@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:attack_speed",
+      "amount": -2.4,
+      "operation": "add_value",
+      "slot": "mainhand",
+      "id": "neofunction:attribute/csgui/anvil/baseats/default_sword/0"
+    }
+  ],
+  "replace": false
+}

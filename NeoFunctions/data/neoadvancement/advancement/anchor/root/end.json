@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:anchor/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 3456
+      }
+    },
+    "title": [
+      {
+        "translate": "🌙｜深淵の終焉星域【TheEND】～～～～～～～",
+        "color": "dark_blue",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【エンド】に到達する。\n§3§l難度：§f✭✭✭（脅威レベル3～4：奈落)\n§9§l説明：§7奈落に浮かぶ§e終焉の浮島§7。討つべき§1竜§7は静かに微睡み、§d最果ての都市§7に翼は眠る。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    }
+  }
+}

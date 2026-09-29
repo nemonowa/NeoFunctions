@@ -1,0 +1,28 @@
+{
+  "parent": "neoadvancement:nexus/root/1/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "特殊なテキストと表示設定について～～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル2を完了する。\n§3§l報酬：§r§f/trigger tip\n§9§l説明：§d۞スペルテキスト۞\n§7看板や本、チャット欄のテキストの中にはマウスホバーやクリックに反応する特殊なテキストがある。特に§c§nアンダーバー§7がついているテキストは要チェック！とりあえず§a§lクリック§7しておこう。ｲｲｺﾄｱﾙﾖ。\n§b＞推奨設定\n§f§lESC/設定/言語設定/Unicodeを強制する：オン\nESC/設定/チャット設定/通常時の高さ：90px",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

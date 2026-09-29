@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "雷上動",
+                "font": "hude",
+                "color": "yellow",
+                "bold": true,
+                "italic": false,
+                "obfuscated": false
+              },
+              "minecraft:repair_cost": 9999,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 10,
+                "minecraft:punch": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c9568477-1f9a-4246-946a-3438f7c7398b",
+                  "amount": 10,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:cb48e2c5-59cb-4033-b97c-9248b518b4ed",
+                  "amount": 10,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  665
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "neoadvancement:nexus/root/1/4",
+  "display": {
+    "icon": {
+      "id": "bundle",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            50
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "スキルポケットとメニューについて～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル5を完了する。\n§3§l報酬：§r§f「スキルポケット」の解放\n§9§l説明：§7インベントリ§d左上§7の新たなるスロット。\n§dスキルポケット§7はスキル§eメニュー§7やエクストラ§eアイテム§7などの新たな力に簡単にアクセスするためにある。まずはインベントリを開きスキルスロットにカーソルを合わせ、§f投げるキー§7を押して§aスキルメニュー§7を開いてみよう。このメニューでは§cステータス§7や§cスキルの設定§7ができる。さらに中に入っているアイテムを取り出してみよう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

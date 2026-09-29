@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "【未完成】-Reloaded-",
+                "color": "#6333FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "笑えないくらいがきっと楽しいの。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "もっとちゃんと痛くしてよ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "一発ごとの反動は大きいがどうせ二発だけだ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "装弾数:2",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:加速するパルス",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:セミオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  643
+                ]
+              },
+              "minecraft:custom_data": {
+                "gun": 1,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

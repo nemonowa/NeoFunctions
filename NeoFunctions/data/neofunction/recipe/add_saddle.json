@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#M#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:leather",
+        "M": "minecraft:minecart"
+    },
+    "result": {
+        "id": "minecraft:saddle",
+        "count": 1
+    }
+}

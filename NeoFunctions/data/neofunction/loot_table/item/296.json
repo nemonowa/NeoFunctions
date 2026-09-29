@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elder_guardian_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "旧神の印【エルダーサイン】",
+                "color": "#5E3DFF",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "未知の力を宿す五芒星形の石",
+                  "color": "dark_gray",
+                  "bold": true
+                }
+              ],
+              "minecraft:entity_data": {
+                "id": "minecraft:elder_guardian",
+                "equipment": {
+                  "mainhand": {
+                    "id": "minecraft:totem_of_undying",
+                    "count": 3
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  296
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

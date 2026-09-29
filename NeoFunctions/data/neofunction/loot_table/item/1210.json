@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:stone"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "大豊娘娘",
+                "color": "#FF7847",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "だーふぉんにゃんにゃんネ！",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "うちの社是は「樹大枝細」アルヨ！",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "だーふぉんにゃんにゃん",
+                  "color": "#FF7847",
+                  "bold": true
+                },
+                "id": "minecraft:cat"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1210
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

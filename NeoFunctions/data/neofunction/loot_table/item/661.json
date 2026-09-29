@@ -1,0 +1,143 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-超流体生金属-",
+                  "color": "#D1F3FF",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "艦のバラストタンクや流体装甲などで使われている超資源",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ボルバロッサで採掘される",
+                    "color": "dark_aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "万能物質",
+                    "color": "#D1F3FF",
+                    "bold": true
+                  },
+                  {
+                    "text": "を"
+                  }
+                ],
+                [
+                  {
+                    "text": "超文明の",
+                    "color": "dark_aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "オーバーテクノロジー",
+                    "color": "light_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "で改変・培養したもの。"
+                  }
+                ],
+                {
+                  "text": "様々な物質への代替特性をもち可食生金属なので",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "前FTL文明",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の未開の知性体程度の",
+                    "color": "dark_aqua",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "機能は食べるだけで大きく補填される。",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "...を無断で持ち出して希釈したもの！",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  661
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13759487,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 3,
+                    "duration": 140
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 3,
+                    "duration": 140
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 140
+                  },
+                  {
+                    "id": "minecraft:bad_omen",
+                    "amplifier": 0,
+                    "duration": 140
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

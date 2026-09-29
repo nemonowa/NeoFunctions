@@ -1,0 +1,157 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ソイソルトグリーン",
+                "color": "#00984F",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "スライム病",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                [
+                  {
+                    "text": "緑色で",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "ゲル状",
+                    "color": "#00984F",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "の総合栄養人工食物で",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                {
+                  "text": "「食べるポーション」と呼ばれている。",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ビバ・ディストピア飯！",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ソイソルトグリーンは人間だ。",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": true,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  183
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8388352,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 9,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 19,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:conduit_power",
+                    "amplifier": 90,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 0,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

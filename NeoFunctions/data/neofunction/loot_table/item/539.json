@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:redstone_block"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ポータブル自爆装置",
+                "color": "red",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔板設置 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "もしもの時のための敵を巻き込んむ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "すごくつおい",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "自爆装置",
+                    "color": "dark_red",
+                    "underlined": true
+                  },
+                  {
+                    "text": "を設置する"
+                  }
+                ],
+                {
+                  "text": "備えあれば、うれしいね！",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「自爆するっきゃねぇ！」",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "Tags": [
+                  "spellsign",
+                  "bomb"
+                ],
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  539
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

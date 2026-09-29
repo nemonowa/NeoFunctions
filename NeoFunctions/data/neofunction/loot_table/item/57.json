@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:endermite_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "七式簡易結界陣",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "設置罠 (鈍足・衰弱)",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "結界術のスキルを簡易的に",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "アイテムに落とし込んだもの",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ジッサイ、ベンリ！",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:area_effect_cloud",
+                "custom_particle": {
+                  "type": "minecraft:block blue_ice"
+                },
+                "CustomNameVisible": 1,
+                "ReapplicationDelay": 20,
+                "Radius": 3,
+                "RadiusOnUse": -0.05,
+                "Duration": 200,
+                "CustomName": {
+                  "text": "七式簡易結界陣",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 3,
+                      "duration": 60
+                    },
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 40
+                    }
+                  ]
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  57
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

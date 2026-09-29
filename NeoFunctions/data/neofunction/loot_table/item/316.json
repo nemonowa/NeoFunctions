@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a7978049-91d8-4034-bc55-87a18d969e04",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:6f501992-497f-4edd-8e9c-1916ae1f9567",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "臆病な鳶はその命が燃え尽きるまでの刹那、",
+                  "color": "#F8CF4A",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "誰かの暗闇を照らす",
+                    "color": "#F8CF4A",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "灯火",
+                    "color": "#F8BD1B",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "となろうとした。",
+                    "color": "#F8CF4A",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "〜飛む火〜",
+                "color": "#F8CF4A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  316
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

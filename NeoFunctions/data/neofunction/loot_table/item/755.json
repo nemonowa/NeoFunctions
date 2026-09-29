@@ -1,0 +1,415 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "r",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "g",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "o",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "n",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "a",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "e",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 極光の虹翼 ",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "r",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "g",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "o",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "n",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "a",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "u",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "t",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "e",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "虹の加護 enchantment.level.7",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "魂の共鳴 enchantment.level.7",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "棘の鎧 enchantment.level.7",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "幾千",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の閃光を束ねた虹色の",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "翼",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "彼らの",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "意志",
+                    "color": "red"
+                  },
+                  {
+                    "text": "はどんな",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "理不尽",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "にも折れることはなく"
+                  }
+                ],
+                [
+                  {
+                    "text": "彼らの",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "軌跡",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "はどんな",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "大空",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "にも鮮やかな虹を翔ける",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "= ",
+                    "color": "#FF0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "決",
+                    "color": "#FF3E00"
+                  },
+                  {
+                    "text": "意 ",
+                    "color": "#FF7C00"
+                  },
+                  {
+                    "text": "調",
+                    "color": "#FFB000"
+                  },
+                  {
+                    "text": "和 ",
+                    "color": "#FFD200"
+                  },
+                  {
+                    "text": "勇",
+                    "color": "#FFF400"
+                  },
+                  {
+                    "text": "気 ",
+                    "color": "#BFDF00"
+                  },
+                  {
+                    "text": "冀",
+                    "color": "#60B000"
+                  },
+                  {
+                    "text": "望 ",
+                    "color": "#008000"
+                  },
+                  {
+                    "text": "覚",
+                    "color": "#00B060"
+                  },
+                  {
+                    "text": "悟 ",
+                    "color": "#00DFBF"
+                  },
+                  {
+                    "text": "高",
+                    "color": "#00DFFF"
+                  },
+                  {
+                    "text": "潔 ",
+                    "color": "#007FFF"
+                  },
+                  {
+                    "text": "矜",
+                    "color": "#0020FF"
+                  },
+                  {
+                    "text": "持 ",
+                    "color": "#2000DF"
+                  },
+                  {
+                    "text": "=",
+                    "color": "#800080"
+                  }
+                ],
+                [
+                  {
+                    "text": "万象",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "、纏い。",
+                    "color": "white"
+                  },
+                  {
+                    "text": "虹",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "を成す。",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 7,
+                "minecraft:infinity": 128,
+                "minecraft:mending": 127
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  755
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

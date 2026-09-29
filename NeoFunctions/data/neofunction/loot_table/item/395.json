@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:354230ab-8862-4f1b-9a41-a86e6574bfc8",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:005558f5-3445-4a2f-9bbf-4fae713507da",
+                  "amount": -1.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:abeea9a5-d920-43fd-b5d0-b3d9eeefd49f",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:29997748-7477-4779-a0e3-223ee6fc7320",
+                  "amount": 2.5,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 5
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "軽量にして",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "万能の個人兵装",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "武器にも盾にも防具にも",
+                    "color": "dark_aqua",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "なる上に",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "なんと",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "調理器具",
+                    "color": "green",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "にもなる！",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "賞味期限切れ",
+                    "color": "dark_blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "で食べられない。",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "フライパン",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  395
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

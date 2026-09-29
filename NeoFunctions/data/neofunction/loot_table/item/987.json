@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#99716D",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " あーめん🍜 ",
+                  "color": "#E34A1B",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#99716D"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "殺意マシマシ正義スクナメ意志カタメ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  987
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14895643,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

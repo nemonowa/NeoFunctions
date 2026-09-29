@@ -1,0 +1,146 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ドラゴンズ",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "✹",
+                  "color": "#C23019",
+                  "italic": false
+                },
+                {
+                  "text": "ブラッド",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "紅竜の血液",
+                    "color": "#C23019",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "から作られた",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "劇薬",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "服用すると龍の力を宿すことができるが",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "常人では激しい副作用に耐えきれず死んでしまう",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "後天的に",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "紅竜の破壊力",
+                    "color": "#C23019",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が宿るだろう",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  771
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12726297,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 15,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 3,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 50,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 10,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

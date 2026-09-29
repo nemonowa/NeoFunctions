@@ -1,0 +1,24 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:decorated_pot/frog_dungeon/good",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:decorated_pot/frog_dungeon/bad",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:decorated_pot/frog_dungeon/trap",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

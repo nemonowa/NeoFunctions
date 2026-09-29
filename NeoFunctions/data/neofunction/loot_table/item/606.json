@@ -1,0 +1,128 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "👁",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 盾の瞳 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "👁",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "盾はよい。だが過信すること勿れ。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "なぜなら貴官の敵は未知の存在であり",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "正体不明の引力の「一撃受け止める」という",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "その想定自体が傲慢に等しいからだ。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:thorns": 3,
+                "minecraft:knockback": 3,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:c8f79a68-e72a-4664-b945-84d9b313b570",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:f5e3804f-a88d-4239-83d6-1c8aa37994fb",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_bottom",
+                  "color": "black"
+                }
+              ],
+              "minecraft:base_color": "green",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  606
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

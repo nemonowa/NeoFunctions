@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/3/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～お前はまだビールを知らない～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：黄金麦64個をバレルに渡す(取引する)\n§3§l報酬§r§f：§eルクスイーファの黄金ビール§r§44§r§e枚§r\n§9§l説明§r§f：おいお前、美味いビールを飲んだことがないって顔してるな。\n安酒でいくら喉を鳴らしたとしても、本物の一杯には勝てやしないぜ。\n飲ませてやりたいところだが、ちょうど今は仕込みの時でな、\nどうだ？そこの畑に行って黄金麦を撮ってきてくれたら格別な一杯を飲ませてやるぜ。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/2": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

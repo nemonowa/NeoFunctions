@@ -1,0 +1,5 @@
+# 命名：苔むした骸
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/320
+
+summon skeleton ~ ~ ~ {OnGround:1b,CustomNameVisible:0b,LeftHanded:1b,Passengers:[{id:"minecraft:potion",Item:{id:"minecraft:small_dripleaf",count:1,components:{"minecraft:potion_contents":{custom_effects:[{id:"minecraft:weakness",amplifier:0b,duration:600}]}}}}],CustomName:{"text":"苔むした骸","color":"gray"},Tags:[lv0,],DeathLootTable:"neofunction:asset/summon/320",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I; 574666512, -1288943389, -1458847259, 265676077],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzZjYzYzYWE2Zjk4MzU1MjE2YTJmMTJmM2IzNTRjMjE0MWQ1OGZlOTc4ZTIzZDE1ZTU3ZmJkOGU1OWI3NDJlZiJ9fX0="}]}}}}}

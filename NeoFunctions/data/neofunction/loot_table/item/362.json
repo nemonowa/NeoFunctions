@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:b959a69f-2eb1-44a3-bf01-bddf225d080b",
+                  "amount": -0.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:8bedd51c-ab4b-47f6-84cf-fbe8cddcfbd0",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:container_loot": {
+                "loot_table": "neofunction:item/star/2"
+              },
+              "minecraft:pot_decorations": {
+                "back": {
+                  "id": "minecraft:shelter_pottery_sherd"
+                },
+                "left": {
+                  "id": "minecraft:shelter_pottery_sherd"
+                },
+                "right": {
+                  "id": "minecraft:shelter_pottery_sherd"
+                },
+                "front": {
+                  "id": "minecraft:shelter_pottery_sherd"
+                }
+              },
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "壊すとより多くの経験値をドロップする飾り壺。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-秘密経験の壺-",
+                  "color": "dark_aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  362
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "四元の巡礼装",
+                "color": "#FFE0B8",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "・",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "火",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "・"
+                  },
+                  {
+                    "text": "水",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "・"
+                  },
+                  {
+                    "text": "風",
+                    "color": "green"
+                  },
+                  {
+                    "text": "・"
+                  },
+                  {
+                    "text": "土",
+                    "color": "gold"
+                  },
+                  {
+                    "text": "・"
+                  }
+                ],
+                {
+                  "text": "試練を越えた足取りは一つの力に縛られない。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 16770229,
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 2,
+                "minecraft:feather_falling": 2,
+                "minecraft:fire_protection": 2,
+                "minecraft:projectile_protection": 2,
+                "minecraft:protection": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:96a5f9f7-f702-45d1-a55c-43b25dbba030",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:wayfinder"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1292
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

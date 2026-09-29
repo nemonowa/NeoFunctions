@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/132",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：渇命丸 -Katsumeimaru-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:133)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r飢えをしのぐ丸薬。\n人参、そば粉、小麦粉、山芋、甘草、はと麦、もち米を粉末にし、酒に3年浸します。 酒が乾いたら乾いた物をモモの種ぐらいに丸めると出来上がりです。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:dried_kelp"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  133
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

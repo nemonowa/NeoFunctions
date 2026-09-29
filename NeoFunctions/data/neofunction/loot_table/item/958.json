@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "幸せに投げる小石【グレイトウォー】",
+                "color": "white",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "なぜ人は傷つけ合うの？",
+                    "color": "white"
+                  },
+                  {
+                    "text": "幸せ",
+                    "color": "green",
+                    "bold": true
+                  },
+                  {
+                    "text": "に小石を投げて",
+                    "color": "white"
+                  }
+                ],
+                {
+                  "text": "しかし空中に投げられた石にとっては、",
+                  "color": "white"
+                },
+                {
+                  "text": "落ちるのが悪いことでもなければ、昇るのが善いことでもない。",
+                  "color": "white"
+                },
+                {
+                  "text": "ーーー哲人皇帝マルクス・アウレリウス",
+                  "color": "white"
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "破壊可能:",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "平和",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 7,
+                "minecraft:looting": 7
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  958
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

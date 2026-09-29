@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:grass_block"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "ホワイトベリー",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【Whiteberry】",
+                  "color": "white"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "甘酸っぱい",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "白い果実",
+                    "color": "white"
+                  },
+                  {
+                    "text": "。そのままでも食べられるが",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "様々な食材や薬品に加工することができる。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "食べると",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "満福度と魔力",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "を回復する。",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "無毒で基本は食用",
+                  "color": "black",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  319
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

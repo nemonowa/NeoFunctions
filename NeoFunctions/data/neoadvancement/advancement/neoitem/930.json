@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/929",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：一王二命三眼槍 -One King, Two Lives, Three-Eyed Gun-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:930)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r(バラド・ヴィ・ナ・シューラ)一人の王にのみ仕え、破壊する王に二たび命を授け、三つの眼で世界の過去、現在、そして滅亡する未来を見届ける槍",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  930
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:command_block"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||www||",
+                  "color": "red",
+                  "bold": false,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " The Legendary Treasure of Plantpia ",
+                  "color": "#0B374D",
+                  "bold": false,
+                  "italic": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||www||",
+                  "color": "red",
+                  "bold": false,
+                  "italic": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "人類が機械に支配シフトされ",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "文明は崩壊し、自然は荒廃した",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "ディストピア",
+                    "color": "red"
+                  },
+                  {
+                    "text": "【プラントピア】",
+                    "color": "#0B374D",
+                    "bold": true
+                  },
+                  {
+                    "text": "において",
+                    "color": "red"
+                  }
+                ],
+                [
+                  {
+                    "text": "その植生を復興させる",
+                    "color": "red"
+                  },
+                  {
+                    "text": "最後の希望",
+                    "color": "yellow"
+                  }
+                ],
+                [
+                  {
+                    "text": "伝説とされる",
+                    "color": "red"
+                  },
+                  {
+                    "text": "「草ブロック」",
+                    "color": "green"
+                  },
+                  {
+                    "text": "を",
+                    "color": "red"
+                  }
+                ],
+                [
+                  {
+                    "text": "亜空間転移",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "により持ち去ってきたもの",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  839
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

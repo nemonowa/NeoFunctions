@@ -1,0 +1,57 @@
+{
+  "parent": "neofunction:.clock/30s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1315
+                    ]
+                  }
+                }
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1316
+                    ]
+                  }
+                }
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1317
+                    ]
+                  }
+                }
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1318
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/entity_hurt_player/levarmor"
+  }
+}

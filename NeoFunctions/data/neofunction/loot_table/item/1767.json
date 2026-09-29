@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ca166b1e-1d95-49ac-a271-79ad14396b28",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:7205a828-bc89-484a-89c5-989f0895b803",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [],
+              "minecraft:damage": 0,
+              "minecraft:lore": [
+                {
+                  "text": "「散ることこそ桜の誉れ。」 その思想を具現化した霊刀。",
+                  "color": "light_purple"
+                },
+                {
+                  "text": "呼吸と魔力を同調させることで、刀身に桜花の力を宿し、斬撃を花弁へと変える。",
+                  "color": "light_purple"
+                },
+                [
+                  {
+                    "text": "11",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": "つの技で構成されており、攻撃防御共に実戦向けである。",
+                    "color": "light_purple",
+                    "bold": false
+                  },
+                  {
+                    "text": "(by 使い手)",
+                    "color": "gray",
+                    "bold": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "桜乱刀「",
+                  "color": "white",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "千華",
+                  "color": "light_purple",
+                  "bold": true
+                },
+                {
+                  "text": "」"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1767
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

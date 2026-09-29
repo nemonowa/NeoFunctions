@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "エアプボンドルド"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "エアプな人が想像と限られた情報だけで描いたボンドルド。「浅き魂の黎明」「死ね！スパラグモス！」「くっ、プルシュカめ、使えないガキですよ本当に」「金ですよ..ナナチ」「これが完成すればこの薄汚い大穴ともおさらばです」"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

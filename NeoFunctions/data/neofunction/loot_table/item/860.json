@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:redstone_block"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:cake"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "朝飯前だぜ！",
+                "color": "white",
+                "bold": false,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "It’s a piece of cake!!",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 1,
+                "minecraft:mending": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  860
+                ]
+              },
+              "minecraft:custom_data": {
+                "BlockStateTag": {
+                  "bites": "6"
+                },
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

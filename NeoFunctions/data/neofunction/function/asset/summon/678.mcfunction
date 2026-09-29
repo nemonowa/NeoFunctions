@@ -1,0 +1,6 @@
+# 命名：マンドラゴア
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/678
+
+summon ocelot ~ ~ ~ {Silent:1b,Tags:["aaa"],Passengers:[{id:"minecraft:item_display",billboard:"vertical",Tags:["aaa"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:block",block_state:"minecraft:short_grass"},Radius:3f,Duration:99,Passengers:[{id:"minecraft:falling_block",BlockState:{id:"minecraft:tall_grass"},Time:1,FallHurtAmount:9f}],potion_contents:{custom_effects:[{id:"minecraft:blindness",amplifier:0b,duration:300}]}}],item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;1385194399,869681551,-1805642081,-2070833483],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI1ZjA2Nzk2M2RiODg0ZTM2Y2NlZDczODkyYmUzYzM2YzNjZjY3NDAyMWQyZTRlNTlkNmY4YWI1YjE4NzZlOSJ9fX0="}]}}}}],active_effects:[{id:"minecraft:speed",amplifier:1b,duration:-1},{id:"minecraft:jump_boost",amplifier:1b,duration:-1},{id:"minecraft:invisibility",amplifier:1b,duration:-1}],Tags:[lv2,enemy,reverse],DeathLootTable:"neofunction:asset/summon/678"}

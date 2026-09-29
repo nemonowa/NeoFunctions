@@ -1,0 +1,6 @@
+# 命名：城主ガデス
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/104
+
+summon villager ~ ~ ~ {CustomName:{"text":"城主ガデス","color":"#E09704","bold":true},Silent:1b,Invulnerable:1b,attributes:[{id:"minecraft:knockback_resistance",base:99},{id:"minecraft:movement_speed",base:0}],VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:plains"},Offers:{Recipes:[{rewardExp:0b,maxUses:2147483647,uses:0,xp:1,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},buyB:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}},sell:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]}}}}]},Tags:[st,],DeathLootTable:"neofunction:asset/summon/104",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;692409691,-1710668125,-1165335429,791606466],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGZkNDBlYTliZDY5ZTJkOGFiNmVjZGIyNWJjZWY5MjRiYTQxMTRjNTIwNWExZGRmOGE0NjU5YzM2NDY3ZmEyOCJ9fX0="}]}}}}}

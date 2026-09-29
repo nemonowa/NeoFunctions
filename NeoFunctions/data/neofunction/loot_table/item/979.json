@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "チェックメイト。",
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "※チェーンのチェスプレ（砂利製）"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "1"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  979
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

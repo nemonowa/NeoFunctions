@@ -1,0 +1,75 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "【狂気】もはや獣",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "Tekeli-li, Tekeli-li...",
+                  "color": "dark_blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:binding_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:9357841e-94b3-4b30-b513-3cf3d149e345",
+                  "amount": 0.25,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:41475b7e-47c1-4555-ae87-adad0f0810ef",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  -53304533,
+                  85017597,
+                  -1654228650,
+                  273902985
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTVmMjZjY2JhMjBmMTZiNWQzNTZjYTUyNDU1ODFlM2U5Y2VlMTkzMDg0N2QyMjdiNWI4OWExM2VlMzE2ODI3NiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1513
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

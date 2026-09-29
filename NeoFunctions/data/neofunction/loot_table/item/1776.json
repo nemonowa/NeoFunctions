@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "それ自体に戦闘効果はない触媒",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "命中した対象を10秒間発光させる",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "起点ポーション",
+                "color": "light_purple",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1776
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16573187,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:glowing",
+                    "duration": 200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

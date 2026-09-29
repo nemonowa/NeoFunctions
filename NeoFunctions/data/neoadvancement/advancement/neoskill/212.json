@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/211",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴縛鎖【レゾナンス・チェイン】 -Resonance Recursion-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:212)の習得\n§9説明：§rトリガーすると周囲8m以内の最も近い敵に共鳴刻印を付与してダメージを与え、そこを起点に未刻印の敵へ次々と飛び移りながら連鎖ダメージを与える(最大連鎖数はLVLに応じて増加)。既に共鳴刻印を持つ敵を起点にした場合はダメージ増加と連鎖数+1のボーナスを得る。（SP20消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                212
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

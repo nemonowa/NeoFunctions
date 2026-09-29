@@ -1,0 +1,65 @@
+{
+  "parent": "neofunction:.clock/60s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "player",
+            "minecraft:location": {
+              "position": {
+                "y": {
+                  "max": -64
+                }
+              }
+            },
+            "minecraft:equipment": {
+              "head": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1632
+                    ]
+                  }
+                }
+              },
+              "chest": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1633
+                    ]
+                  }
+                }
+              },
+              "legs": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1634
+                    ]
+                  }
+                }
+              },
+              "feet": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1635
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/cmd/1632"
+  }
+}

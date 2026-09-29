@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c649efd7-e240-4922-a8d8-6b76b245aa66",
+                  "amount": 0.05,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "イカの表皮を加工した防具。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " 動きやすさを重視している。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "墨皮ベスト",
+                "color": "gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1322
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

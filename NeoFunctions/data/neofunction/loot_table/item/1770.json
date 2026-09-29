@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "【冒険者への手引き】"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1770
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "⚔ 冒険者への手引き ⚔",
+                      "color": "gold",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n"
+                    },
+                    {
+                      "text": "この先はボス戦です",
+                      "color": "red",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n強力な魔物が待ち受けています。\n一度戦闘が始まると、\n退路を断たれる場合があります。\n\n"
+                    },
+                    {
+                      "text": "挑戦する前に、\n十分な準備を整えてください。",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "✅ 準備チェックリスト",
+                      "color": "green",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\n"
+                    },
+                    {
+                      "text": "□ 装備の強化・修理\n□ 回復アイテムの補充\n□ 食料・ポーションの確認\n□ インベントリの整理\n□ 仲間との役割確認\n   （マルチプレイ時）\n\n"
+                    },
+                    {
+                      "text": "万全の状態で挑みましょう！",
+                      "color": "dark_green",
+                      "italic": true
+                    }
+                  ],
+                  [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "text": "💡 困ったときは…",
+                      "color": "aqua",
+                      "bold": true
+                    },
+                    {
+                      "text": "\n\nボスにはそれぞれ\n固有の行動や攻略法が\n存在します。\n\nどうしても攻略できない場合は、\n攻略情報・アップデート情報・質問対応を行っている\n公式Discordサーバーを\nご利用ください。\n\n"
+                    },
+                    {
+                      "text": "▶ Discordはこちら",
+                      "color": "blue",
+                      "underlined": true,
+                      "click_event": {
+                        "action": "open_url",
+                        "url": "https://discord.gg/nqx8esTwzS"
+                      }
+                    }
+                  ]
+                ],
+                "title": "冒険者への手引き",
+                "author": "案内人"
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": "minecraft:leather",
+        "C": "minecraft:chest"
+    },
+    "result": {
+        "id": "minecraft:bundle",
+        "count": 1
+    }
+}

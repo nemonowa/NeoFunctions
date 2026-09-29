@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ライムリストア",
+                "color": "#3DFFB8",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "清潔な水に、癒しの粘液──  ",
+                  "color": "#54FFDD",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "クラウス曰く「凡人でも作れる初級調合」",
+                  "color": "#54FFDD",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "だがその回復力、侮るなかれ。",
+                  "color": "#54FFDD",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1051
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 4718548,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 800,
+                    "ambient": false,
+                    "show_particles": true,
+                    "show_icon": false
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

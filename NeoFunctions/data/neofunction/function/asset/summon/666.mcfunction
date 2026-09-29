@@ -1,0 +1,6 @@
+# 命名：湧流の司教
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/666
+
+summon silverfish ~ ~ ~ {Silent:0b,Invulnerable:1b,CustomNameVisible:0b,PersistenceRequired:1b,Passengers:[{id:"minecraft:spawner_minecart",CustomNameVisible:0b,CustomDisplayTile:1b,DisplayOffset:-14,SpawnCount:5,SpawnRange:3,Delay:1,MinSpawnDelay:200,MaxSpawnDelay:300,MaxNearbyEntities:16,RequiredPlayerRange:16,Tags:["downer"],Passengers:[{id:"minecraft:blaze",DeathLootTable:"neofunction:asset/summon/666",PersistenceRequired:1b,Tags:["lv3","water","elite","beeboost"],CustomName:{"text":"湧流の司教","color":"aqua","bold":true},attributes:[{id:"minecraft:max_health",base:130}]}],DisplayState:{id:"minecraft:hopper"},SpawnData:{entity:{id:"minecraft:item",PickupDelay:32767,Item:{id:"minecraft:paper",count:1,components:{"minecraft:custom_data":{summon:664}}}}}}],CustomName:{"text":"司教のスケート靴","bold":true},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv3,water,downer,elite],DeathLootTable:"neofunction:asset/summon/666",equipment:{mainhand:{id:"minecraft:iron_sword",count:1,components:{"minecraft:custom_name":{"text":"ご加護キック！"}}}}}

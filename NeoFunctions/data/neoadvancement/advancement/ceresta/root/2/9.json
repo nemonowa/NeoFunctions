@@ -1,0 +1,37 @@
+{
+  "parent": "neoadvancement:ceresta/root/2/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "ボス討伐：大司教エキリブリアム～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域のエリアボスを討伐する。\n§3§l報酬：§f四元杖エキリブリアム\n§9§l説明：§7その§d祭壇§7は四大元素をつかさどる。\n§c火§7・§3水§7・§a風§7・§6土§7。その力を求めし者よ§6「証」§7をささげよ。番人はきたる。§4「試練」§7に挑め。\nきっと試練の果てには§f精霊の加護§7をその身に宿す、§e四元の英雄§7が成れるはずだから...\n§1§o§l§n伝承「四元の魔素」より。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/752\"}"
+          }
+        }
+      }
+    }
+  }
+}

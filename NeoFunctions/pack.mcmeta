@@ -1,0 +1,22 @@
+{
+  "pack": {
+    "min_format": [121, 0],
+    "max_format": 121,
+    "description": "§2𝐍𝐞𝐨𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐬 §7for §6MC§e26.3\n§a§nCommand of NewWorld"
+  },
+  "filter": {
+    "block": [
+    {
+      "path": ".*\\.lnk$"
+    },
+    {
+      "namespace": "neofunction",
+      "path": "function/info.lnk"
+    },
+    {
+      "namespace": "minecraft",
+      "path": "advancement/.*"
+    }
+    ]
+  }
+}

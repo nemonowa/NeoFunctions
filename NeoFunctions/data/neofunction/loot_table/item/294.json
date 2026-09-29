@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:redstone_lamp"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:redstone_wire"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "イブン＝グハジの粉末",
+                "color": "#822F2F",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "不可視の神話生物を",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "可視にする事が出来ると言われている粉末",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 8
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:b85deaea-2941-4718-8702-06a7e029c321",
+                  "amount": -0.24,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  294
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

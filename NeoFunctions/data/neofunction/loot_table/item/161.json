@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "🍅",
+                  "color": "#FF033D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "白い壁に投げつける",
+                  "color": "white"
+                },
+                {
+                  "text": "フレッシュトマト！",
+                  "color": "red"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "投擲専用のトマト。",
+                  "color": "white"
+                },
+                [
+                  {
+                    "text": "その鮮烈な",
+                    "color": "white"
+                  },
+                  {
+                    "text": "コントラスト",
+                    "color": "red",
+                    "bold": true
+                  },
+                  {
+                    "text": "に魅入られたんだ",
+                    "color": "white"
+                  }
+                ],
+                {
+                  "text": "その無意味でクリティカルな刹那に魅入られたんだ",
+                  "color": "white"
+                },
+                {
+                  "text": "突っ立ってるなら僕でも放り投げなよ！",
+                  "color": "white"
+                },
+                [
+                  {
+                    "text": "退屈に",
+                    "color": "white"
+                  },
+                  {
+                    "text": "殺",
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "される前に"
+                  }
+                ]
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:9b597fc9-25fd-44f0-938c-b6f7775bacf6",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:6a37162e-408f-407b-b881-582c031795fe",
+                  "amount": 0.15,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  161
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

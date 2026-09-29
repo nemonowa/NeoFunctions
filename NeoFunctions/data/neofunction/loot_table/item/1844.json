@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "カ",
+                  "color": "#FF8FA3",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "レ",
+                  "color": "#FFB49F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "イ",
+                  "color": "#FFD39B",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ド",
+                  "color": "#D9E8A5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ス",
+                  "color": "#9FE0C5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "コ",
+                  "color": "#9BB9E8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ー",
+                  "color": "#B99BE8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "プ",
+                  "color": "#E5A5D8",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "武器種: 鞭",
+                  "color": "#B7B7C9",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "多彩なエンチャントを宿すことで、",
+                  "color": "#C1B5D0",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "相手を選ばず、様々な敵へ対応できる鞭。",
+                  "color": "#D2C4DC",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "一つの色に染まらないからこそ、可能性は無限に広がる。",
+                  "color": "#E1D1E5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "「次は、どんな色を見せようか？」",
+                  "color": "#F0B9DF",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 7,
+                "minecraft:sharpness": 7,
+                "minecraft:smite": 7,
+                "minecraft:sweeping_edge": 7,
+                "minecraft:lure": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:b1b140b3-67e3-45e6-9b5c-50bbfe5e6bdd",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1844
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

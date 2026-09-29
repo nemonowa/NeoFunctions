@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " タノシイドリンク ",
+                  "color": "#D6A5D9",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "ビタミン",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "と微量の",
+                    "color": "dark_green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "タノシイ",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を含んだ",
+                    "color": "dark_green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                {
+                  "text": "ヨロサン製薬のケンコードリンク",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "連続三本摂取でトリップを興す。",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "多幸感を前借りしており、いずれ感情が枯れ果てる。",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  692
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14067161,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 15,
+                    "duration": 120
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 15,
+                    "duration": 9
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 15,
+                    "duration": 60
+                  },
+                  {
+                    "id": "minecraft:luck",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

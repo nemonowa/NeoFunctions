@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "オーバーエンチャントアイテムについて",
+                "color": "white",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  499
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "この世界では、本来付与できないはずのエンチャントや過剰なレベル、新たに追加されたカスタムエンチャントが数多あります。",
+                    "bold": true
+                  },
+                  {
+                    "text": "それらのスペルアイテムはユニークで強力な効果を持ちますが、正しいアイテムに付いていないなどで表記通りの効果を発動しないかったり、そもそもエンチャントなどの効果が隠されていることがあります。",
+                    "bold": true
+                  },
+                  {
+                    "text": "アイテムの隠された効果は、アイテムラボや鑑定系のスキル、異空の天文台、凍結した禁書庫などで解析ができます。",
+                    "bold": true
+                  },
+                  {
+                    "text": "アイテムの未知に挑み解き明かし真に己がモノとしましょう。",
+                    "color": "light_purple",
+                    "bold": true
+                  }
+                ],
+                "title": "",
+                "author": "風紀委員会",
+                "generation": 2
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " アーマーバンドル ",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "アウターランズから来たハイテク装備セット",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  140
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:leather_helmet",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "|||",
+                        "color": "gray",
+                        "bold": true,
+                        "italic": false
+                      },
+                      {
+                        "text": " 進化式シールドLv1 ",
+                        "color": "#EDEDED"
+                      },
+                      {
+                        "text": "|||"
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【アーマールート】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "> 敵を倒したときに確率でセルを入手できる",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "アウターランズから来たハイテク装備",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "様々なスペル効果や金ハートを追加する能力がある",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:dyed_color": 15592941,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:unbreaking": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "max_absorption",
+                        "id": "neofunction:e0f0ba50-0aa6-46b3-a71e-716dfdde5e19",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "head"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:dune"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_chestplate",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "|||",
+                        "color": "gray",
+                        "bold": true,
+                        "italic": false
+                      },
+                      {
+                        "text": " 進化式シールドLv1 ",
+                        "color": "#EDEDED"
+                      },
+                      {
+                        "text": "|||"
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【アーマールート】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "> 敵を倒したときに確率でセルを入手できる",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "アウターランズから来たハイテク装備",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "様々なスペル効果や金ハートを追加する能力がある",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:dyed_color": 15592941,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:unbreaking": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "max_absorption",
+                        "id": "neofunction:b2fe37e2-cb91-4dab-9c10-80886ad33278",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "chest"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:dune"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_leggings",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "|||",
+                        "color": "gray",
+                        "bold": true,
+                        "italic": false
+                      },
+                      {
+                        "text": " 進化式シールドLv1 ",
+                        "color": "#EDEDED"
+                      },
+                      {
+                        "text": "|||"
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【アーマールート】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "> 敵を倒したときに確率でセルを入手できる",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "アウターランズから来たハイテク装備",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "様々なスペル効果や金ハートを追加する能力がある",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:dyed_color": 15592941,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:unbreaking": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "max_absorption",
+                        "id": "neofunction:7730934f-b698-4c92-8493-534bfdd672e6",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "legs"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:dune"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:leather_boots",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "|||",
+                        "color": "gray",
+                        "bold": true,
+                        "italic": false
+                      },
+                      {
+                        "text": " 進化式シールドLv1 ",
+                        "color": "#EDEDED"
+                      },
+                      {
+                        "text": "|||"
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【アーマールート】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "> 敵を倒したときに確率でセルを入手できる",
+                        "color": "light_purple",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "アウターランズから来たハイテク装備",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "様々なスペル効果や金ハートを追加する能力がある",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:dyed_color": 15592941,
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:unbreaking": 1
+                    },
+                    "minecraft:attribute_modifiers": [
+                      {
+                        "type": "max_absorption",
+                        "id": "neofunction:91fcdcc0-7dae-455c-bcba-1197c1ce067c",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      }
+                    ],
+                    "minecraft:trim": {
+                      "material": "minecraft:quartz",
+                      "pattern": "minecraft:dune"
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "minecraft:potion",
+                  "count": 4,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "⚡ArmorCell⚡",
+                      "color": "#2E75B5",
+                      "bold": true,
+                      "italic": false,
+                      "underlined": true
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "♡4の追加体力を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        145
+                      ]
+                    },
+                    "minecraft:potion_contents": {
+                      "custom_color": 3044789,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:absorption",
+                          "amplifier": 1,
+                          "duration": 6000
+                        }
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "check": 1,
+                      "rare": 2
+                    }
+                  }
+                }
+              ],
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

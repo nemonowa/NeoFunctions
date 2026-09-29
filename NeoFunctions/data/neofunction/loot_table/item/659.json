@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "アビス地方の天然水",
+                "color": "#07520C",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セレスタのアビス地方で採れた水",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  659
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 479756,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "amplifier": 8,
+                    "duration": 180
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 8,
+                    "duration": 180
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 8,
+                    "duration": 180
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

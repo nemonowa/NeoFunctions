@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mooshroom_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:beacon"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ここを仮拠点とする！",
+                "color": "red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:enchantments": {
+                "minecraft:fortune": 7
+              },
+              "minecraft:entity_data": {
+                "Tags": [
+                  "a"
+                ],
+                "CustomName": {
+                  "text": "ここを仮拠点とする！",
+                  "color": "red",
+                  "bold": true
+                },
+                "attributes": [
+                  {
+                    "id": "minecraft:max_health",
+                    "base": 77.7
+                  }
+                ],
+                "id": "minecraft:mooshroom"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1199
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

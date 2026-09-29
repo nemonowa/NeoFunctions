@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1455",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1456",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1457",
+          "weight": 20
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

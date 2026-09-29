@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:8066610b-34fa-4598-aa7b-78ff29f879d0",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:51831935-f2b2-44ed-b004-556707faa50d",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:f5e258c2-d06e-4816-92c6-9dfa5dc3e5cd",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 5,
+                "minecraft:feather_falling": 5,
+                "minecraft:blast_protection": 5,
+                "minecraft:projectile_protection": 5,
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:trim": {
+                "material": "minecraft:diamond",
+                "pattern": "minecraft:eye"
+              },
+              "minecraft:custom_name": {
+                "text": "ペンタ・コア・アーマー",
+                "color": "aqua",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  376
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

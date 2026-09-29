@@ -1,0 +1,6 @@
+# 命名：ギルドマスター
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/399
+
+summon villager ~ ~ ~ {OnGround:1b,Silent:1b,Invulnerable:1b,LeftHanded:0b,FallFlying:0b,PersistenceRequired:0b,Health:20f,LastRestock:0,Xp:0,CustomName:{"text":"ギルドマスター","color":"#81DEC0","bold":true,"italic":false},Offers:{Recipes:[{rewardExp:1b,maxUses:4,uses:0,xp:1,priceMultiplier:0f,specialPrice:0,demand:0,buy:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]},"minecraft:custom_name":{"text":"商人連盟永久常任理事のダンテだ。"}}},buyB:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]},"minecraft:custom_name":{"text":"ここまで上り詰めるとは流石クラフターだ"}}},sell:{id:"minecraft:jigsaw",count:1,components:{"minecraft:custom_model_data":{floats:[284.0f]},"minecraft:custom_name":{"text":"商談を始めよう"}}}}]},Tags:[st,],DeathLootTable:"neofunction:asset/summon/399",equipment:{head:{id:"minecraft:black_banner",count:1,components:{"minecraft:banner_patterns":[{pattern:"minecraft:rhombus",color:"white"},{pattern:"minecraft:stripe_top",color:"black"},{pattern:"minecraft:stripe_bottom",color:"black"},{pattern:"minecraft:stripe_left",color:"black"}]}}},drop_chances:{feet:-327.670F,legs:-327.670F,chest:-327.670F,head:0.085F}}

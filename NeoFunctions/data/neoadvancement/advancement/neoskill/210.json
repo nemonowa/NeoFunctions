@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/209",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：共鳴士官【ARIA】 -Resonance Sergeant [ARIA]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:210)の習得\n§9説明：§rパッシブ：「杖」装備時にSP回復促進効果を獲得する。トリガーすると自身にソウルホープを3分間付与する。（SP10消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                210
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1483
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "甘い香りを放つ不思議な魚。食べると身体にじんわりと活力が満ちてくる。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：ココアラッシュのポーション（再生能力上昇レベル1 5:00/移動速度上昇レベル1 5:00/幸運レベル7 5:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Legacy:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "extra": [
+                            {
+                              "text": "✯",
+                              "color": "#FFAC34"
+                            }
+                          ],
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "dark_aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ココアフィッシュ",
+                "color": "#572424",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 6000,
+                    "id": "regeneration"
+                  },
+                  {
+                    "amplifier": 0,
+                    "duration": 6000,
+                    "id": "speed"
+                  },
+                  {
+                    "amplifier": 9,
+                    "duration": 6000,
+                    "id": "luck"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"ココアラッシュの\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

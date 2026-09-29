@@ -1,0 +1,373 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "禁鞭・",
+                  "color": "#FF2200",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "万",
+                  "color": "#FF4400",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "象",
+                  "color": "#FF6600",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "崩",
+                  "color": "#FF8800",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "壊",
+                  "color": "#FFAA00",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "W",
+                    "color": "#FF0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "A",
+                    "color": "#FF1900",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "R",
+                    "color": "#FF3300",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "N",
+                    "color": "#FF4D00",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "I",
+                    "color": "#FF6600",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "N",
+                    "color": "#FF8000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "G",
+                    "color": "#FF9900",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " : ",
+                    "color": "#FF5500",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "S",
+                    "color": "#FF3300",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "Y",
+                    "color": "#FF2200",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "S",
+                    "color": "#FF1100",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "T",
+                    "color": "#FF0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "#E60000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "M",
+                    "color": "#CC0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "#AA0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "L",
+                    "color": "#990000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "I",
+                    "color": "#880000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "M",
+                    "color": "#770000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "I",
+                    "color": "#660000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "T",
+                    "color": "#550000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": " ",
+                    "color": "#440000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "#330000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "X",
+                    "color": "#220000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "C",
+                    "color": "#110000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "#000000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "#110000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "D",
+                    "color": "#220000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "E",
+                    "color": "#330000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "D",
+                    "color": "#440000",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "この武器に",
+                    "color": "#5A0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「適正」",
+                    "color": "#AA0000",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "という概念は存在しない。",
+                    "color": "#FF3333",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "斬る。",
+                    "color": "#FF2200",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　焼く。",
+                    "color": "#FF4400",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　砕く。",
+                    "color": "#FF6600",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　撫でる。",
+                    "color": "#FF8800",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "そのすべてが、",
+                    "color": "#990000",
+                    "bold": true,
+                    "italic": true
+                  },
+                  {
+                    "text": "過剰。",
+                    "color": "#FF2200",
+                    "bold": true,
+                    "italic": true
+                  }
+                ],
+                {
+                  "text": "世界を創った者が、",
+                  "color": "#888888",
+                  "italic": false
+                },
+                {
+                  "text": "「壊す側の力も試してみよう」",
+                  "color": "#AAAAAA",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "という軽い気持ちで作った、",
+                    "color": "#777777",
+                    "italic": false
+                  },
+                  {
+                    "text": "失敗作。",
+                    "color": "#AA0000",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "そして、",
+                    "color": "#550000",
+                    "italic": true
+                  },
+                  {
+                    "text": "誰も後始末をしなかった。",
+                    "color": "#CC0000",
+                    "bold": true,
+                    "italic": true
+                  }
+                ],
+                {
+                  "text": "※検証・デバッグ専用",
+                  "color": "#FFAA00",
+                  "italic": false
+                },
+                {
+                  "text": "※通常配布厳禁",
+                  "color": "#FF3300",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 6,
+                "minecraft:fire_aspect": 6,
+                "minecraft:knockback": 6,
+                "minecraft:looting": 6,
+                "minecraft:sharpness": 6,
+                "minecraft:smite": 6,
+                "minecraft:sweeping_edge": 6
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5914ffea-b031-48d7-ba5e-7ee686f34cda",
+                  "amount": 14.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:f0fbabfd-2a79-4543-83a3-3606c469c088",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1840
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

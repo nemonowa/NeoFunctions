@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 5,
+                "minecraft:lure": 5
+              },
+              "minecraft:lore": [
+                {
+                  "text": "存在の境界すら曖昧にし、魚影を“引き寄せる”",
+                  "color": "#E645FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "もはや待つのではなく、呼び寄せる釣り竿",
+                  "color": "#E645FF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "溶岩釣りが可能な釣り竿",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "Super:",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFE33B",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFCC38",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFAC34",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FF8330",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FF602C",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "境界崩壊の釣竿（リミナルブレイカー）",
+                "color": "#E645FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1583
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

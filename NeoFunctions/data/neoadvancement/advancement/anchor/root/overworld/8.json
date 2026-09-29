@@ -1,0 +1,30 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld/7",
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": [
+      {
+        "translate": "討伐：モンスターズ・ハンター～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標エネミーを討伐する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7クリーパー、ハスク、ストレイ、ケーブスパイダー、ラヴェジャー、スライム、ファントム、エルダーガーディアン、ウォーデン。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/273",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：外神【Daoloth】                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:274)の発見\n§3報酬：§r経験値×16\n§9説明：§r位階：✯✯✯✯✯✯✯✯\n種族：アウター・ゴッド/ブラックホール/ミームス\nID:2 HP:∞ ATK:∞ DEX:6+経過ターン\n## 説明\n高次元に存在するアウターゴッド。その姿は人間の脳では処理できないほどの情報量を持つ複雑怪奇な幾何学とされ、認識はすなわち発狂を意味する。召喚後は無限に、永遠に膨張し続けるとされている。その体の内側は異次元に繋がっているとされ、触れもの全てを異次元に飛ばす。世界の真理、叡智を授ける神とされ、求める者に破格の対価で真理を授ける。異名の【ベールを剥ぎ取るもの】とは、狂気的で残酷な世界の真実の姿を、覆い隠していた「ベール」を剥ぎ取り、露わにさせる存在であること形容している。\n## 行動(1d6)\n1:||真理を授ける||\n2:膨張する DEX対抗\n3:膨張する\n4:膨張する\n5:膨張する\n6:||直視する SANチェック(1d100)||\n## 特殊\n・登場時、SANチェック(1d10/1d100)\n・接触時、キャラロスト。\n・死亡時、ダメージポーションを落とす。1d6 dmg",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/274\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/8"
+  }
+}

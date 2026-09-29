@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:6f731967-d304-4df7-b862-725d60e0f075",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:104cdfc2-75c3-4a44-8ac3-bd40a70ece5e",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "green"
+                }
+              ],
+              "minecraft:base_color": "black",
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:thorns": 3,
+                "minecraft:knockback": 1,
+                "minecraft:unbreaking": 3,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "前にまっすぐ発射！",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "壁に当たると跳ね返り",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ヒットするとダメージ",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "敵の甲羅のガードやタックルにも使える！",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "つかえる？",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "緑甲羅",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  171
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

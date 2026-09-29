@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:neo/root/entity/7",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_sword"
+    },
+    "title": [
+      {
+        "translate": "存在観測：天下の掃討兵（300e）～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l説明：§f固有エンティティを300体発見する。\n§9§l報酬：§f経験値 +称号",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "logEntity": {
+              "min": 300
+            }
+          }
+        }
+      }
+    }
+  }
+}

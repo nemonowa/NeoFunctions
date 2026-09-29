@@ -1,0 +1,96 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "シリウス・ブーツ",
+                "color": "#007AFF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "星明かりを踏みしめて進む",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "主のそばに、影のように寄り添うために",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【シリウスの光】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "4セット装備時、夜に身体能力が大幅に上昇する(CT60s)",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:dyed_color": 31487,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 3,
+                "minecraft:feather_falling": 2,
+                "minecraft:protection": 1,
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5f834e0c-5db4-413d-b4c3-f2ee12f6a38f",
+                  "amount": 0.03,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:0ded1725-f39b-4279-9249-ba36cd034ee3",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:97b658b2-5831-48d3-9d55-a58c0e6319a1",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1796
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "G線上のアリア",
+                "color": "blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ヴァイオリンの4本ある弦のうち最低音の弦、G線のみで演奏できる",
+                  "color": "aqua"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1,
+                "minecraft:frost_walker": 1,
+                "minecraft:infinity": 1
+              },
+              "minecraft:stored_enchantments": {
+                "minecraft:mending": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  522
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

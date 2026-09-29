@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/219",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：現地調達 -Local procurement-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:220)の習得\n§9説明：§r遠距離攻撃型。弓や弩、銃や火炎放射器などの火武器を主軸とした遠距離戦闘に強い。パッシブ：「遠距離武器」の装備時に運動能力が向上し、追加効果を得る。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                220
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/257",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：影潜【シャドウ・ディセント】 -Kamaitachi-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:258)の習得\n§9説明：§r発動時、周囲16mの敵対状態を解除し、n秒間敵対しなくなる。刻んだ呪印はこの間も消えずに残る（SP15消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                258
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

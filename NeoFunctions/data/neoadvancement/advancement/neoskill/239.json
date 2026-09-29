@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/238",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：百獣共鳴【ビースト・ロード】 -Beast Lord-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:239)の習得\n§3報酬：§r経験値×32\n§9説明：§rその瞬間に召喚済みの使い魔全体を一斉強化（攻撃力・耐久上昇）し、同時に全使い魔へ最寄りの敵への突撃を号令する。効果時間中は絶大な火力を発揮する代わりに、効果終了時は強化していた使い魔が全て消滅する使い捨て仕様。（SP100消費、クールタイム長め）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                239
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/empty"
+  }
+}

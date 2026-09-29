@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:copy_custom_data",
+  "source": "this",
+  "ops": [
+    {
+      "source": "tag",
+      "target": "tag",
+      "op": "replace"
+    }
+  ]
+}

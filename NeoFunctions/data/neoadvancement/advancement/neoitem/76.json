@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/75",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：怪しい塩 -Suspicious salt-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:76)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「ソルト」は、まさに料理の奥深い魔法使い！\n料理を引き立たせ、ウマ味を引き出すためには欠かせない存在です。\n購入することもできますが、自分で海水を採取して集めることもできますよOwO\n未踏エリアに挑戦する機会があれば、しっかりと「ソルト」を確保して、料理の魔法をより強力なものにしましょう！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  76
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

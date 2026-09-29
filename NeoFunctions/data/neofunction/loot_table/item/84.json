@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 5,
+                "minecraft:fire_protection": 5,
+                "minecraft:blast_protection": 5,
+                "minecraft:projectile_protection": 5
+              },
+              "minecraft:lore": [
+                {
+                  "text": "鎌のような形状の刀剣",
+                  "color": "white",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "決して壊れない黄金の刀剣としてヘルメス神が所持してたとされているが、",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "ギリシャ神話においてヘパイストスがダイヤモンドから創造し、",
+                  "color": "white",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "ゴルゴン三姉妹末娘のメデューサを退治するために英雄ペルセウスの手に渡ったり、",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "神格に対しても言えない傷を与えることができるとか言われちゃったり、",
+                  "color": "white",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "ゼウスの父であるクロノスがウラノスのたまを切り落とすのに使われたり、",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "いろいろ過去に色々あった系の剣。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "「俺にはそんな力ないから、変なもの切らせるのはやめてほしい。」",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "ハルパー",
+                  "color": "white",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": "（仮）",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  84
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

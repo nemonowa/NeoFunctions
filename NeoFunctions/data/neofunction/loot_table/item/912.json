@@ -1,0 +1,141 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                },
+                {
+                  "blocks": "minecraft:obsidian"
+                },
+                {
+                  "blocks": "minecraft:coal_block"
+                },
+                {
+                  "blocks": "minecraft:cracked_stone_bricks"
+                },
+                {
+                  "blocks": "minecraft:infested_cracked_stone_bricks"
+                },
+                {
+                  "blocks": "minecraft:cracked_polished_blackstone_bricks"
+                },
+                {
+                  "blocks": "minecraft:cracked_nether_bricks"
+                },
+                {
+                  "blocks": "minecraft:cracked_deepslate_tiles"
+                },
+                {
+                  "blocks": "minecraft:cracked_deepslate_bricks"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "クリーピー",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "マイナーズ",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "ドリーム",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "伝説の鍛冶職人",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "小匠",
+                    "color": "aqua",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "が丹精込めて作った"
+                  },
+                  {
+                    "text": "至高の鶴橋",
+                    "color": "yellow",
+                    "bold": true
+                  }
+                ],
+                [
+                  {
+                    "text": "素材に希少な",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "パープルコロニー",
+                    "color": "light_purple",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "の殻を使っておりとても高価",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 0,
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:2ef34920-a47c-4b64-a2dc-3d99edf4a612",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:2ac9704e-c435-4615-a9ae-a4c33dc204e5",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  912
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

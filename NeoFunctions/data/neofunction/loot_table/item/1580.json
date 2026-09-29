@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 2,
+                "minecraft:lure": 2
+              },
+              "minecraft:lore": [
+                {
+                  "text": "熱に適応するよう調整された釣竿。",
+                  "color": "#EE7272",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "溶岩の揺らぎに馴染み、従来の竿よりわずかに早く釣れる。",
+                  "color": "#EE7272",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "溶岩釣りが可能な釣り竿",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Rare:",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFE33B",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFCC38",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "耐熱加工の釣り竿（ヒートロッド）",
+                "color": "#EE7272",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1580
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

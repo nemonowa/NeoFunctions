@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/275",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：神々の総帥【Azathoth】                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:276)の発見\n§3報酬：§r経験値×16\n§9説明：§r位階：✯✯✯✯✯✯✯✯\n種族：アウター・ゴッド\nID:2 HP:∞ ATK:∞ DEX:20\n## 説明\n宇宙の原初であり万物の王。無限無窮の宇宙の最奥、沸騰し湧き立つ原始の混沌の中心、あらゆる次元から切り離され、時間を超越した無明の閨房に坐す。ぐぐもったフルートとオーボエ、野蛮な太鼓の連打に合わせて踊り続ける蕃神に囲まれて無聊を慰め、白痴の夢を見ながら増殖と分裂を繰り返し、飛び散りながら冒涜的な言葉を吐き散らして玉座に寝そべり、齧り付く盲目白-痴にして全知全能、万物の創造主、敢えてその名を口にするもののない魔王。\n## 行動(1d6)\n1:||微睡んでいる。 三回目に覚醒||\n2:「夢」を見ている。SANチェック(1d10/1d100)\n3:「夢」を見ている。\n4:「夢」を見ている。\n5:「夢」を見ている。\n6:||義肢に接触する ダメージ(1d100)||\n## 特殊\n・登場時、SANチェック(1d10/1d100)\n・覚醒時、||宇宙ロスト。||",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/276\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/entity/8"
+  }
+}

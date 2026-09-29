@@ -1,0 +1,6 @@
+# 命名：空泳魚
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/731
+
+summon vex ~ ~ ~ {attributes:[{id:"minecraft:attack_damage",base:-2147483647d}],Silent:1b,Passengers:[{id:"area_effect_cloud",Duration:100,custom_particle:{type:"minecraft:block",block_state:"minecraft:air"},Radius:0.1f,ReapplicationDelay:50s,DurationOnUse:0,RadiusOnUse:0f,potion_contents:{custom_effects:[{id:"levitation",amplifier:50b,duration:3}]}},{id:"enderman",Tags:["upper"],NoAI:1b,Silent:1b,active_effects:[{id:"invisibility",amplifier:127b,duration:-1,show_particles:0b}]},{id:"enderman",Silent:1b,active_effects:[{id:"invisibility",amplifier:127b,duration:-1,show_particles:0b}],Tags:["upper","downer"],NoAI:1b,Passengers:[{id:"area_effect_cloud",Duration:100,Radius:0.4f,custom_particle:{type:"minecraft:cloud"}},{id:"guardian",attributes:[{id:"minecraft:follow_range",base:2147483647d}],Tags:["upper","lv2"],CustomName:{"text":"空泳魚"}}]}],active_effects:[{id:"invisibility",amplifier:127b,duration:-1,show_particles:0b}],Tags:[lv2,],DeathLootTable:"neofunction:asset/summon/731"}

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "獅子十万石死滅殺大葬神拳",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ドラゴンとも「拳」で語り合える。",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:3c86c7cb-746e-4532-8d3e-e19b17c61994",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  615
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

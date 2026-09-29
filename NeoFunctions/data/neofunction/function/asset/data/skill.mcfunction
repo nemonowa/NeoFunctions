@@ -1,0 +1,324 @@
+# 命名：skill
+# 説明：ストレージ設定
+# 実行条件：手動
+# >https://docs.google.com/spreadsheets/d/1oRn_1tbEpzJEsyvsKct2pbeRSbK9n8WjXLdGHn6SC50/edit#gid=372993580
+# =/function neofunction:asset/data/skill
+
+
+# 内容
+data merge storage neofunction:skill/1 {name:"位界表示",lore:"ステータス・オープン：トリガーすると、自身のステータスを確認できる。SP8消費。"}
+data merge storage neofunction:skill/2 {name:"存在解析",lore:"アナライズ・エンティティ：トリガーすると、最寄りのエンティティを解析できる。SP16消費。"}
+data merge storage neofunction:skill/3 {name:"邪匣掃界",lore:"サーチ&デストロイ：トリガーすると、付近16m以内にいるスポナーを発光させる。SP16消費。"}
+data merge storage neofunction:skill/4 {name:"転移要請",lore:"リンクオブネクサス：トリガーすると、ネクサスに接続し転移申請を表示する。SP100消費。"}
+data merge storage neofunction:skill/5 {name:"マナ・ハウリング",lore:"ソウルに攻撃の意思を乗せて前方に放つスキル。SPを20%消費して、ATKの2000%の範囲攻撃を前方6mに発生させる。"}
+data merge storage neofunction:skill/6 {name:"マナ・ハート",lore:"ソウルに回復の意思を乗せて瞬間的な自己活性を実現するスキル。トリガーすると、SPの20%を使用し、HPの20%を回復する。無意識器官、耀きの心臓。"}
+data merge storage neofunction:skill/7 {name:"マナ・ドッジ",lore:"ソウルに加速の意思を乗せて瞬間的な加速と回避を実現するスキル。トリガーすると、一時的に加速する。SP10消費。"}
+data merge storage neofunction:skill/8 {name:"匍匐【クロール】",lore:"トリガーすると、伏せ状態になり一ブロックの隙間を通れるようになる。SP4消費。"}
+data merge storage neofunction:skill/9 {name:"鳥瞰【ホークアイ】",lore:"トリガーすると、ホークアイ状態になる。SP30消費。"}
+data merge storage neofunction:skill/10 {name:"マナ・ブラスト",lore:"トリガーすると、攻撃力スコアの10倍のダメージを与える。SP25消費。"}
+data merge storage neofunction:skill/11 {name:"参式中空錬成陣",lore:"トリガーすると、自身の足元に5×1×5の羊毛の足場を召喚する。SP16消費。"}
+data merge storage neofunction:skill/12 {name:"伍式中空錬成陣",lore:"トリガーすると、自身の足元に7×1×7の羊毛の足場を召喚する。SP16消費。"}
+data merge storage neofunction:skill/13 {name:"仇式中空錬成陣",lore:"トリガーすると、自身の足元に9×1×9の羊毛の足場を召喚する。SP16消費。"}
+data merge storage neofunction:skill/14 {name:"零式石柱錬成陣",lore:"トリガーすると、自身を上昇させつつ、足元に1×3×1の足場を展開する。SP16消費。"}
+data merge storage neofunction:skill/15 {name:"絶式終箱錬成陣",lore:"トリガーすると、目線の先にエンダーチェストを展開する。SP16消費。"}
+data merge storage neofunction:skill/16 {name:"ソウル・ビジョン",lore:"トリガーすると、付近48m以内にいる敵対エンティティを発光させる。SP10消費。"}
+data merge storage neofunction:skill/17 {name:"祈祷術【聖餐】",lore:"トリガーすると、白パンと赤ワインを無から生成する。最大SP消費。"}
+data merge storage neofunction:skill/18 {name:"錬成術【魔法剣錬成】",lore:"トリガーすると、伏せ状態になり一ブロックの隙間を通れるようになる。SP8消費。"}
+data merge storage neofunction:skill/19 {name:"白刃一閃【スラッシュ】",lore:"移動範囲攻撃。SP20消費。"}
+data merge storage neofunction:skill/20 {name:"コントロール・ウェザー",lore:"トリガーすると、天候が晴に、shiftしている場合は雨に改変される。SP50消費。"}
+data merge storage neofunction:skill/21 {name:"コントロール・タイム",lore:"トリガーすると、昼夜が入れ替わる。SP50消費。"}
+data merge storage neofunction:skill/22 {name:"サンダーボルトI",lore:"トリガーすると、左右下に5m,下方向に15mの敵一体に100ダメージ、自身が水に触れていた場合範囲内全体に攻撃。SP20消費。"}
+data merge storage neofunction:skill/23 {name:"サンダーボルトII",lore:"トリガーすると、左右下に5m,下方向に15mの敵一体に200ダメージ、自身が水に触れていた場合範囲内全体に攻撃。SP20消費。"}
+data merge storage neofunction:skill/24 {name:"サンダーボルトIII",lore:"トリガーすると、左右下に5m,下方向に15mの敵一体に400ダメージ、自身が水に触れていた場合範囲内全体に攻撃。SP20消費。"}
+data merge storage neofunction:skill/25 {name:"リアクティブヒールI",lore:"トリガーすると、リアクティブヒールを起動する（ダメージを受けた時にSP10を消費して♡×4回復する。SPが0になっても回復は続ける。）"}
+data merge storage neofunction:skill/26 {name:"リアクティブヒールII",lore:"トリガーすると、リアクティブヒールを起動する（ダメージを受けた時にSP10を消費して♡×8回復する。SPが0になっても回復は続ける。）"}
+data merge storage neofunction:skill/27 {name:"リアクティブヒールIII",lore:"トリガーすると、リアクティブヒールを起動する（ダメージを受けた時にSP10を消費して♡×16回復する。SPが0になっても回復は続ける。）"}
+data merge storage neofunction:skill/28 {name:"やってられるか！",lore:"トリガーすると、嫌なことを放り出し自然に帰れる（満腹度を3ゲージ消費して♡×6回復する。）SP0消費。"}
+data merge storage neofunction:skill/29 {name:"マテリア・フィックス",lore:"トリガーすると、メインハンドのアイテムの耐久を50％まで回復する(50％以上耐久ある場合は減るから注意！)SP50消費。"}
+data merge storage neofunction:skill/30 {name:"マテリア・リヴァイブ",lore:"トリガーすると、メインハンドのアイテムの耐久を完全に回復する。SP100消費。"}
+data merge storage neofunction:skill/31 {name:"アンチドート",lore:"トリガーすると、毒・空腹・ウィザー状態を回復する。SP10消費。"}
+data merge storage neofunction:skill/32 {name:"ハンティング・サイト",lore:"トリガーすると、付近128m以内にいる野生動物を発光表示する。SP15消費。"}
+data merge storage neofunction:skill/33 {name:"ポータブル・ワーキング",lore:"/execute if entity @s[advancements={neoadvancement:anchor/root/nexus=true}] run 作業台を呼び出す。SP10消費。"}
+data merge storage neofunction:skill/34 {name:"エクスチェンジ",lore:"トリガーすると、オフハンドのアイテムをスターシャードに換金する。SP1消費。"}
+data merge storage neofunction:skill/35 {name:"アイサツ",lore:"トリガーすると、周囲16m以内のエンティティ１匹アイサツする。SP3消費。"}
+data merge storage neofunction:skill/36 {name:"英雄航路",lore:"舗装された道の上を歩くときに加速するスキル。異邦人式特殊走法"}
+data merge storage neofunction:skill/37 {name:"ブラックイミュニティ",lore:"ベリーを食べた時、毒状態を解除するスキル"}
+data merge storage neofunction:skill/38 {name:"マナ・リジェル",lore:"再生1を20秒を自身に付与する。総回復量♡×4。SP10消費"}
+data merge storage neofunction:skill/39 {name:"マナ・インパクト",lore:"前方3mに球形のダメージスフィアを作成し1体に40ダメージを与える半径2mの爆発を起こす。SP20消費"}
+data merge storage neofunction:skill/40 {name:"マナ・スパーク",lore:"前方3mに球形のダメージスフィアを作成し範囲内の敵全てに10ダメージを与える。SP15消費"}
+data merge storage neofunction:skill/41 {name:"装備修復",lore:"現在着用している装備の耐久値を最大まで回復する。最大SPの150%を消費する。"}
+data merge storage neofunction:skill/42 {name:"ウマタタビうまあい",lore:"馬にインタラクトかトリガーすると、付近6m以内の馬に必ず乗れるようになるスキル。"}
+data merge storage neofunction:skill/43 {name:"うま吸い",lore:"馬にインタラクトかトリガーすると、付近256m以内の鞍のついた馬を呼び寄せるスキル。"}
+data merge storage neofunction:skill/44 {name:"スキル44",lore:"スキル44"}
+data merge storage neofunction:skill/45 {name:"不死馬の加護",lore:"不死のトーテムをメインハンドに持ち、馬にインタラクトかトリガーすると、付近6m以内の馬にトーテムを装備させられるスキル。"}
+data merge storage neofunction:skill/46 {name:"ペットを回復させる魔法",lore:"ペットを回復させる魔法"}
+data merge storage neofunction:skill/47 {name:"スターラース・オクターブ",lore:"敵を発光浮遊させ、8回の継続ダメージを与え最後に爆発四散させる。SP200消費。"}
+data merge storage neofunction:skill/48 {name:"明けの明星【ルシファー】",lore:"天より輝く流星を九つ堕とす。爆発強度16。SP100消費。"}
+data merge storage neofunction:skill/49 {name:"結界術【剛撃陣】",lore:"トリガーすると半径4mに「攻撃力上昇」を付与する領域を展開する。SP30消費。"}
+data merge storage neofunction:skill/50 {name:"結界術【硬化陣】",lore:"トリガーすると半径4mに「耐性」を付与する領域を展開する。SP30消費。"}
+data merge storage neofunction:skill/51 {name:"結界術【再生陣】",lore:"トリガーすると半径4mに「再生能力」を付与する領域を展開する。SP30消費。"}
+data merge storage neofunction:skill/52 {name:"結界術【加速陣】",lore:"トリガーすると半径4mに「移動速度上昇」を付与する領域を展開する。SP30消費。"}
+data merge storage neofunction:skill/53 {name:"結界術【破壊陣】",lore:"トリガーすると半径4mに「採掘速度上昇」を付与する領域を展開する。SP30消費。"}
+data merge storage neofunction:skill/54 {name:"アースルート",lore:"半径6m内の敵に根っこを植え付ける。根っこは3秒間の移動低下と継続ダメージを与える"}
+data merge storage neofunction:skill/55 {name:"十六葬・エル・マタドール",lore:"16本の波槍を召喚し、投げつけるエクストラスキル"}
+data merge storage neofunction:skill/56 {name:"イグニス・ベネディクション",lore:"1分間、自身に臨界の加護を付与し、物理攻撃時に、一番近い対象3体に爆発ダメージを与える（クールダウン10秒）"}
+data merge storage neofunction:skill/57 {name:"アクア・ベネディクション",lore:"1分間、自身に湧流の加護を付与し、被弾時に、♡2回復する（クールダウン10秒）"}
+data merge storage neofunction:skill/58 {name:"ソウル操作/局在化【集気】",lore:"ソウルを一箇所に集中させる技術。集中させた箇所の機能が向上する。"}
+data merge storage neofunction:skill/59 {name:"エアホッパー",lore:"トリガーすると、視点先に魔法の足場を設置する。"}
+data merge storage neofunction:skill/60 {name:"マグネット",lore:"トリガーすると周囲16(32→64)m以内のアイテムを引き寄せる。"}
+data merge storage neofunction:skill/61 {name:"ソウルリバイブ",lore:"ソウルの20%を使用し、HPの20%を回復する"}
+data merge storage neofunction:skill/62 {name:"ソウルイーター",lore:"敵を倒した時、自身のソウルの5%回復する。"}
+data merge storage neofunction:skill/63 {name:"デストロイヤー",lore:"スポナーを破壊した時、自身のソウルを20%回復"}
+data merge storage neofunction:skill/64 {name:"ヴェントゥス・ベネディクション",lore:"1分間、自身に反重の加護を付与し、物理攻撃時に、一番近い対象に浮遊効果を与える（クールダウン10秒）"}
+data merge storage neofunction:skill/65 {name:"テラ・ベネディクション",lore:"1分間、自身に岩鎧の加護を付与し、被弾時に、40%カットするシールドを獲得する（クールダウン10秒）"}
+data merge storage neofunction:skill/66 {name:"カラー・オブ・アロー",lore:"放った矢が虹色になる。"}
+data merge storage neofunction:skill/67 {name:"＜ここにスキルの名前を入力＞",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/68 {name:"＜ここにスキルの名前を入力＞",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/69 {name:"限界のその先",lore:"SPが-100を超えると100%の確率で即死するが、何度もSP切れで死亡していると覚えるスキル。即死する代わりに1%ずつの確率でSPをゼロまで戻す確率が上がっていく。最大値30%"}
+data merge storage neofunction:skill/70 {name:"会心の一撃",lore:"攻撃時、確率でクリティカルヒットすることがある。"}
+data merge storage neofunction:skill/71 {name:"シールドブレーカー",lore:"斧で攻撃した時20%の確率で、敵の所持する盾を壊せるようになる。"}
+data merge storage neofunction:skill/72 {name:"睡眠記録。",lore:"睡眠時、リスポーン地点を更新する。ただし、お腹が空く。"}
+data merge storage neofunction:skill/73 {name:"睡眠回復！",lore:"睡眠時、HPが大回復する。"}
+data merge storage neofunction:skill/74 {name:"睡眠希望！",lore:"睡眠時、SPが全回復する。"}
+data merge storage neofunction:skill/75 {name:"移動床",lore:"NEXUS内部で特定ブロックに乗ると加速する。"}
+data merge storage neofunction:skill/76 {name:"変速",lore:"スニーク解除時に加速する。"}
+data merge storage neofunction:skill/77 {name:"加速【スライディング・ステップ】",lore:"スニーク時に加速する。"}
+data merge storage neofunction:skill/78 {name:"空中跳躍【エア・ジャンプ】",lore:"空中でスニークすると一瞬足場ができる。"}
+data merge storage neofunction:skill/79 {name:"鳥瞰【ホークアイ】",lore:"スペクターモードになる。発動地点から一定距離離れると発動地点に元のモードで戻る。"}
+data merge storage neofunction:skill/80 {name:"起源の大魔法",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/81 {name:"治癒の触診【palpation of heal】",lore:"素手で攻撃した対象に即時回復"}
+data merge storage neofunction:skill/82 {name:"負傷の触診【palpation of damage】",lore:"素手で攻撃した対象にダメージ"}
+data merge storage neofunction:skill/83 {name:"ブロック非貫通ビーム",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/84 {name:"衝撃転換【trance location damage】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/85 {name:"仄暗く輝く体【body of effulgent pale】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/86 {name:"装備【イクイップ】",lore:"メインハンドのアイテムを頭に装備する"}
+data merge storage neofunction:skill/87 {name:"火炎【ファイヤ】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/88 {name:"炎壁【ファイヤウォール】",lore:"魔力を火属性に【変化】させる基本技。"}
+data merge storage neofunction:skill/89 {name:"炎球【ファイヤーボール】",lore:"火属性の魔力を【操作】する基本技。運動と形状で命名され、 球形ならボール、壁状ならウォール、 小型ならアロー、大型ならランスetc"}
+data merge storage neofunction:skill/90 {name:"炎弾【ファイヤアロー】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/91 {name:"炎槍【ファイヤランス】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/92 {name:"炎斬【ファイヤスラッシュ】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/93 {name:"display entity 拡大",lore:"火属性の魔力を攻撃に【付加】する基本技。"}
+data merge storage neofunction:skill/94 {name:"display entity 縮小",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/95 {name:"念動力【サイコキネシス】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/96 {name:"発勁【マーシャルアーツ】",lore:"対象にダメージを与え、大きく吹き飛ばす。"}
+data merge storage neofunction:skill/97 {name:"気弾【ボール】",lore:"合気　練功"}
+data merge storage neofunction:skill/98 {name:"障壁【スピリチュアル・ウォール】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/99 {name:"天国の門【ヘブンズ・ゲート】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/100 {name:"地獄の扉【インフェルノ・ゲート】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/101 {name:"運命石の扉【ダイバージェンス・ゲート】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/102 {name:"トランス・ライン・オブ・サイト",lore:"視点を乗り物と同じにする"}
+data merge storage neofunction:skill/103 {name:"発光【ハイライト】",lore:"実行者を最大一分間光らせる。"}
+data merge storage neofunction:skill/104 {name:"友軍光輝【ハイライト・チーム】",lore:"味方プレイヤー"}
+data merge storage neofunction:skill/105 {name:"商人発光【ハイライト・トレイダー】",lore:"村人、行商人"}
+data merge storage neofunction:skill/106 {name:"生物光輝【ハイライト・モブ】",lore:"中立生物"}
+data merge storage neofunction:skill/107 {name:"敵性光輝【ハイライト・エネミー】",lore:"敵対生物"}
+data merge storage neofunction:skill/108 {name:"召箱光輝【ハイライト・スポナー】",lore:"スポナートロッコ"}
+data merge storage neofunction:skill/109 {name:"情報表示【メタデータオープン】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/110 {name:"不死者の接触【タッチオブアンデス】",lore:"麻痺、盲目、移動速度低下など複数の致命的デバフを与える"}
+data merge storage neofunction:skill/111 {name:"聖者の接触【タッチオブセイクリッド】",lore:"麻痺、盲目、移動速度低下など複数の致命的デバフを与える"}
+data merge storage neofunction:skill/112 {name:"エネミーリーダー",lore:"タグの所持者に敵がついてくる"}
+data merge storage neofunction:skill/113 {name:"メテオスコール【流星剛撃】",lore:"ここにスキルの説明を入力"}
+data merge storage neofunction:skill/114 {name:"メテオブリンク【流星羽撃】",lore:"ここにスキルの説明を入力"}
+data merge storage neofunction:skill/115 {name:"潜空",lore:"4秒間、ダメージ220％カット(amp10)移動上昇速度40%、跳躍上昇(amp3)、エンティティ強調表示。"}
+data merge storage neofunction:skill/116 {name:"ゲームルール",lore:"世界に定められた根源的な理。"}
+data merge storage neofunction:skill/117 {name:"危機探知",lore:"トラップやミミック、即爆式TNTなどを予知"}
+data merge storage neofunction:skill/118 {name:"強奪【スティール】",lore:"目の前の装備欄のアイテムをそれぞれ10%の確率で奪う。同確率で布切れ、財布を奪うことがある。同じ相手には一度しか使用できない。"}
+data merge storage neofunction:skill/119 {name:"毒針【ポイズン】",lore:"毒付与複数攻撃"}
+data merge storage neofunction:skill/120 {name:"剥ぎ取り【ハント】",lore:"レアドロップ率を大幅に上げる。(幸運エフェクト付与)"}
+data merge storage neofunction:skill/121 {name:"盗賊の極意【パーフェクト・シーフ】",lore:"他人のスキルを盗み使える。"}
+data merge storage neofunction:skill/122 {name:"フライングオブジェクト",lore:"地面に落ちるとkill"}
+data merge storage neofunction:skill/123 {name:"エスケープボイド",lore:"奈落復帰"}
+data merge storage neofunction:skill/124 {name:"ふわふわん",lore:"上下しながら回転する。振幅0.5m 周期1s"}
+data merge storage neofunction:skill/125 {name:"わふわふん",lore:"上下しながら回転する。振幅1m 周期2s"}
+data merge storage neofunction:skill/126 {name:"アンチグラビティ",lore:"近寄ると浮遊するグラビティなリフト"}
+data merge storage neofunction:skill/127 {name:"夜翔【シャドウ・ラン】",lore:"時間に応じたバフ効果。日間DEF+6夜間DEF+12暗視lv127"}
+data merge storage neofunction:skill/128 {name:"雪玉生成【クリエイト・スリケン】",lore:"武器にも建材にもなる雪玉を生成する"}
+data merge storage neofunction:skill/129 {name:"手裏剣【スリケン・ジツ】",lore:"20dmgのユキダマ・スリケンを投げる"}
+data merge storage neofunction:skill/130 {name:"影縫いの術【シャドウ・バインド・ジツ】",lore:"10m以内の視点先の敵を30s行動不能(NoAI)にする。"}
+data merge storage neofunction:skill/131 {name:"影分身の術【シャドウ・クローン・ジツ】",lore:"自身の影を作り出す。出現時に半径8m以内の敵に奈落属性10ダメージの攻撃をしてヘイトを集め、通常プレイヤーと同程度の速度のゾンビAIで攻撃する。"}
+data merge storage neofunction:skill/132 {name:"＜ここにスキルの名前を入力＞",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/133 {name:"ルーインライト",lore:"付近に松明を設置する"}
+data merge storage neofunction:skill/134 {name:"衛生兵",lore:"治癒効果を持った矢を放つスケルトンを召喚する"}
+data merge storage neofunction:skill/135 {name:"絶対零度の小針",lore:"アグハ　デル　セロ　アブソルート"}
+data merge storage neofunction:skill/136 {name:"再来【リターン】",lore:"0-0-0-0-5に転移する"}
+data merge storage neofunction:skill/137 {name:"同行【アカンパニー】",lore:"小範囲のプレイヤー全員が範囲外の最寄りのプレイヤーに転移する。"}
+data merge storage neofunction:skill/138 {name:"転移【テレポート】",lore:"実行者を自分以外の最寄りのプレイヤーに転移させる。"}
+data merge storage neofunction:skill/139 {name:"帰還",lore:"もとにいた地点のアマスタに戻る"}
+data merge storage neofunction:skill/140 {name:"高速走法",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/141 {name:"満腹度消費・全",lore:"満腹度を全て消費する"}
+data merge storage neofunction:skill/142 {name:"満腹度消費・大",lore:"満腹度を消費する"}
+data merge storage neofunction:skill/143 {name:"満腹度消費・中",lore:"満腹度を消費する"}
+data merge storage neofunction:skill/144 {name:"満腹度消費・小",lore:"満腹度を消費する"}
+data merge storage neofunction:skill/145 {name:"詠唱【俺は不死身だｯｯｯ】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/146 {name:"かろやかな火薬【small bang】",lore:"なげた浮遊アイテムエンティティの接触した先で爆発が起こる"}
+data merge storage neofunction:skill/147 {name:"創世の炎【BigBang】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/148 {name:"S-CQB(ソウル近接戦闘)",lore:"トリガーすると、恒常的に攻撃力を高める。"}
+data merge storage neofunction:skill/149 {name:"オーバー【即死系】",lore:"実行者のHPの100%ダメージを与える"}
+data merge storage neofunction:skill/150 {name:"キル【即死系】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/151 {name:"執行",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/152 {name:"介錯【フィニッシャー】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/153 {name:"死眼",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/154 {name:"生命の音",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/155 {name:"【死】トゥルーデス",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/156 {name:"死期【カウントダウン】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/157 {name:"自爆するっきゃねぇ！",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/158 {name:"subliminal assault",lore:"ノーモーションノータイムで強制即死(トーテム無効)される無名の一撃。引数が近距離から七体までをkillするコマンドなので、回避には何かしらで命の盾を7匹出す必要がある。艦長の挨拶がわりの開幕攻撃"}
+data merge storage neofunction:skill/159 {name:"剣使い",lore:"剣を装備した時、攻撃力、防具、防具強度が25%上昇する"}
+data merge storage neofunction:skill/160 {name:"剣士",lore:"剣を装備した時、攻撃力、防具、防具強度が50%上昇する"}
+data merge storage neofunction:skill/161 {name:"剣豪/剣聖",lore:"剣を装備した時、攻撃力、防具、防具強度が75%上昇する"}
+data merge storage neofunction:skill/162 {name:"爆発加速",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/163 {name:"反発加速",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/164 {name:"縮地加速",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/165 {name:"魔石抽出",lore:"エンティティを倒した時、確率で魔石を落とすようになる。"}
+data merge storage neofunction:skill/166 {name:"プルーフアイテム",lore:"トリガーすると、メインハンドのアイテムに炎、爆風、溶岩etc…奈落以外の全てのダメージから守るカスタムエンチャントを付与する。付与されているアイテムはインベントリからでた時に発光し、「鑑定」スキルなどでも確認可能。"}
+data merge storage neofunction:skill/167 {name:"ナイファー",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/168 {name:"これください（スタバ詠唱破棄）",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/169 {name:"【挨拶】アイサツは大事！古事記にも書いてある",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/170 {name:"【挨拶】いあ！くとぅぐあ！",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/171 {name:"死亡時スキル",lore:"蘇生する"}
+data merge storage neofunction:skill/172 {name:"＜ここにスキルの名前を入力＞",lore:"爆発する"}
+data merge storage neofunction:skill/173 {name:"＜ここにスキルの名前を入力＞",lore:"リス地にワープ"}
+data merge storage neofunction:skill/174 {name:"＜ここにスキルの名前を入力＞",lore:"y座標が-64以下の時浮遊"}
+data merge storage neofunction:skill/175 {name:"＜ここにスキルの名前を入力＞",lore:"攻撃時、対象の名前とHPを数値化して見える。"}
+data merge storage neofunction:skill/176 {name:"＜ここにスキルの名前を入力＞",lore:"リスポーン時、10秒間の無敵状態を得る。"}
+data merge storage neofunction:skill/177 {name:"ルーインライト",lore:"松明を持っている時、周囲が明るくなる。更に攻撃に火属性が付与される。"}
+data merge storage neofunction:skill/178 {name:"アナライズ・バージョン",lore:"トリガーすると、世界のバージョンを確認できる。"}
+data merge storage neofunction:skill/179 {name:"アナライズ・ロケーション",lore:"トリガーすると、全プレイヤーの座標を確認できる。コンパスをオフハンドに持つと座標が表示されるようになる。"}
+data merge storage neofunction:skill/180 {name:"アナライズ・カルマ",lore:"トリガーすると、全プレイヤーのカルマ値を確認できる。"}
+data merge storage neofunction:skill/181 {name:"アナライズ・",lore:"トリガーすると、全プレイヤーの敵対エンティティ討伐数を確認できる。"}
+data merge storage neofunction:skill/182 {name:"アナライズ・",lore:"トリガーすると、全プレイヤーのスポナー破壊数を確認できる。"}
+data merge storage neofunction:skill/183 {name:"アナライズ・",lore:"トリガーすると、全プレイヤーの経過日数、生存時間"}
+data merge storage neofunction:skill/184 {name:"サンデヴィスタン",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/185 {name:"【発勁】マナ・ブラスト",lore:"トリガーすると、一時的に攻撃力を高める。ソウルを拳に集中させ、近接攻撃を強化する技術。"}
+data merge storage neofunction:skill/186 {name:"【練気】ソウル・ハート",lore:"トリガーすると、一時的に冀求力の自然回復を加速する。ソウル精製。ソウルを作り出す技術。SPの最大値が高いほど自然回復するソウルは大きくなる。耀きの心臓"}
+data merge storage neofunction:skill/187 {name:"【障壁】マナ・シールド",lore:"トリガーすると、一時的に体力の自然回復を加速する。ソウル精製。ソウルを作り出す技術。SPの最大値が高いほど自然回復するソウルは大きくなる。耀きの心臓"}
+data merge storage neofunction:skill/188 {name:"【加速】マナ・アクセル",lore:"トリガーすると、瞬間的に加速する。基本的なソウル操作技術の一つ。ソウルを脚部に集中させ、一時的に敏捷性を高める。"}
+data merge storage neofunction:skill/189 {name:"【防御】マナ・ガード",lore:"トリガーすると、一時的に体力を増加する。"}
+data merge storage neofunction:skill/190 {name:"【纒気】マナ・オーラ",lore:"トリガーすると、恒常的に体力を増加する。"}
+data merge storage neofunction:skill/191 {name:"【纒気】マナ・ブースト",lore:"トリガーすると、恒常的に加速する。ソウル操作。ソウルを身体全体に纒う技術。恒常的に身体能力を高める。"}
+data merge storage neofunction:skill/192 {name:"【魂炎】マナ・チャージ",lore:"トリガーすると、一時的に攻撃力を高める。ソウルを身体に纏わせる技術。"}
+data merge storage neofunction:skill/193 {name:"【気弾】マナ・バレット",lore:"ソウルを指先などに集中させ、体外に放出する技術。"}
+data merge storage neofunction:skill/194 {name:"【異能】マナ・エンチャント",lore:"ソウルを物に纏わせる技術。ソウルを纏ったものはその機能が強化される。"}
+data merge storage neofunction:skill/195 {name:"【魂視】マナ・アイズ",lore:"トリガーすると、視線上のエンティティを発光させる。ソウル操作。ソウルを目に集中させ、視覚機能が向上させる。ソウルの流れや不可視の存在を解析できるようになる。"}
+data merge storage neofunction:skill/196 {name:"【魂視】マナ・ビジョン",lore:"トリガーすると、周囲のエンティティを発光させる。"}
+data merge storage neofunction:skill/197 {name:"【異能】ソウル・フィールド【円】",lore:"ソウルを体外に薄く伸ばす技術。伸ばした範囲内にあるものは一通り把握することができる索敵系の高等技術。これは、理の改変を伴わない、固有領域の展開でもあるため、簡易的ではあるが他者の固有領域の対抗になりうる。"}
+data merge storage neofunction:skill/198 {name:"【異能】スキル・リアライズ",lore:"ソウルを自身固有の能力(スキル)として解放する必殺技。世界の理(ルール)を一部改変し、自身の世界の異能(ルール)として適応することができる。"}
+data merge storage neofunction:skill/199 {name:"【異能】侵食領域【ワールド・イロージョン】",lore:"自身の世界の理(ことわり)で、世界の理(ことわり)を自由に改変(塗りつぶす)する最終奥義。自身の理(ルール)が強制する領域(せかい)を作り出し、領域内では基本的に無敵。"}
+data merge storage neofunction:skill/200 {name:"白刃士官【KNIGHT】",lore:"パッシブ：「近接武器」の装備時に運動能力が向上し、攻撃力上昇と敵と相対したときにダメージ軽減を獲得する。トリガーすると自身に攻撃力上昇を3分間付与する"}
+data merge storage neofunction:skill/201 {name:"魔剣錬成【クリエイト・ソード】",lore:"白刃騎士が無から剣を錬成するスキル（SP30消費）"}
+data merge storage neofunction:skill/202 {name:"白刃一閃【スラッシュ】",lore:"一瞬の踏み込みから放たれる神速の斬撃。敵単体にダメージを与え、武器を破壊することがある。反動により、発動後しばらく行動不能となる。（SP20消費）"}
+data merge storage neofunction:skill/203 {name:"空脚【エアステップ】",lore:"地面に叩きつけた斬撃の衝撃を利用して前方へ跳躍し着地時にダメージを与える技。攻防一体の間合い操作として用いられる。（SP10消費）"}
+data merge storage neofunction:skill/204 {name:"剛刃草薙【スマッシャー】",lore:"強力な横薙ぎの斬撃により衝撃波を発生させ、周囲の敵を打ち上げる技。多数の敵に包囲された際の突破手段として用いられる。（SP30消費）"}
+data merge storage neofunction:skill/205 {name:"反応回復【リアクティブ・ヒール】",lore:"受けた痛みを糧に、不屈の精神で肉体を立て直す。前線に立ち続ける騎士のための反応回復。（SP10消費）"}
+data merge storage neofunction:skill/206 {name:"鋼刃結界【スチール・ドミニオン】",lore:"トリガーすると周囲8m以内のプレイヤーに攻撃力上昇と耐性を1分間付与する。（SP30消費）"}
+data merge storage neofunction:skill/207 {name:"不動【フォートレス】",lore:"自身にノックバック無効を2分間付与する。効果中に再使用すると効果時間をリセットする。（SP30消費）"}
+data merge storage neofunction:skill/208 {name:"陽動偏向【デコイ】",lore:"強烈な威圧で敵の注意を引き寄せ、自身へと誘導する。仲間を守るため攻撃を一身に引き受ける挑発技能。（SP10消費）"}
+data merge storage neofunction:skill/209 {name:"天地断裂【グランドクロス】",lore:"大地と天空を断ち裂く一撃を放ち、周囲の敵に壊滅的なダメージを与える。白刃騎士が振るう決戦の奥義。（SP100消費）"}
+data merge storage neofunction:skill/210 {name:"共鳴士官【ARIA】",lore:"パッシブ：「杖」の装備時にSP回復促進効果を獲得する。トリガーすると自身にソウルホープを3分間付与する"}
+data merge storage neofunction:skill/211 {name:"共鳴錬成【レゾナンス・クリエイト】",lore:"詠唱騎士が無から杖を錬成するスキル（SP30消費）"}
+data merge storage neofunction:skill/212 {name:"共鳴縛鎖【レゾナンス・チェイン】",lore:"トリガーすると周囲16m以内の最も近い敵を拘束し大ダメージを与える。範囲内の刻印持ちの敵には追加ダメージを与える。(SP20消費）"}
+data merge storage neofunction:skill/213 {name:"共鳴跳躍【レゾナンス・リープ】",lore:"トリガーすると周囲16m以内の最も遠い共鳴刻印持ちにテレポートし、大ダメージを与える。範囲内の刻印持ちの敵には追加ダメージを与える。（SP20消費）"}
+data merge storage neofunction:skill/214 {name:"共鳴刻印【レゾナンス・シギル】",lore:"殴った相手に共鳴刻印を付与する。トリガーすると周囲3m以内の敵に共鳴刻印を付与する。30秒間のウィザーを付与する。（SP10消費）"}
+data merge storage neofunction:skill/215 {name:"共鳴旋律【レゾナンス・メロディ】",lore:"トリガーすると周囲16m以内共鳴刻印持ちの数に応じて、回復する。刻印持ちが多ければ多いほど回復効果が多くなる。（SP20消費）"}
+data merge storage neofunction:skill/216 {name:"共鳴回帰【レゾナンス・リカバリー】",lore:"トリガーすると自身に共鳴回帰を3分間付与する。共鳴回帰は周囲16mにいる刻印持ちの数に応じてSPの追加の回復効果を得る。（SP20消費）"}
+data merge storage neofunction:skill/217 {name:"共鳴短律【レゾナンス・カデンツァ】",lore:"トリガーすると周囲8m以内のプレイヤーに共鳴短律を1分間付与する。共鳴短律は効果がある間スキルのCT減少速度が倍になる。（SP30消費）"}
+data merge storage neofunction:skill/218 {name:"共鳴回帰【レゾナンス・リカージョン】",lore:"トリガーすると自身の装備の耐久値を全回復する。（SP100消費）"}
+data merge storage neofunction:skill/219 {name:"共鳴領域【レゾナンス・サンクチュアリ】",lore:"トリガーすると1分間の共鳴領域を生成する。共鳴領域は範囲内のあらゆる敵に1秒ごとに鈍足とウィザー、共鳴刻印を与え、範囲内のプレイヤーには共鳴回帰、共鳴短律を付与する。"}
+data merge storage neofunction:skill/220 {name:"現地調達",lore:"遠距離攻撃型。弓や弩、銃や火炎放射器などの火武器を主軸とした遠距離戦闘に強い。パッシブ：「遠距離武器」の装備時に運動能力が向上し、追加効果を得る。"}
+data merge storage neofunction:skill/221 {name:"狩猟毒撃【ハンティング】",lore:"攻撃に状態異常効果を付与。"}
+data merge storage neofunction:skill/222 {name:"地脈結界",lore:"着弾地点に回復エリアを生成する。（SP15消費）"}
+data merge storage neofunction:skill/223 {name:"感電雷撃【チャージド・アロー】",lore:"周囲9m以内の敵全体に9dmg与える。（SP20消費）"}
+data merge storage neofunction:skill/224 {name:"鳥瞰偵察",lore:"ホークアイを得る。8秒間スペクターモードとなり偵察する。"}
+data merge storage neofunction:skill/225 {name:"戦場調理",lore:"戦場でも強火なら美味しい！オフハンドに持ったアイテムを燃料なしで即座に焼く（消費SP10）"}
+data merge storage neofunction:skill/226 {name:"反重狙撃【ゼロ・スナイプ】",lore:"スキル226"}
+data merge storage neofunction:skill/227 {name:"魔弾斉射",lore:"敵の頭上にデバフ矢を召喚する"}
+data merge storage neofunction:skill/228 {name:"焼夷爆撃【チャージ・ショット】",lore:"地形破壊有り"}
+data merge storage neofunction:skill/229 {name:"極光照射【デス・レイ】",lore:"貫通レーザー、デットゾーン"}
+data merge storage neofunction:skill/230 {name:"使役士官【TAMER】",lore:"中距離の支援型。使い魔を使役して戦う。パッシブ：「ポーション」の装備時に運動能力が向上し、追加効果を得る。"}
+data merge storage neofunction:skill/231 {name:"戦闘教義【テイマー】",lore:"耐性       採掘エクソシズム"}
+data merge storage neofunction:skill/232 {name:"調伏【ピュリファイ】",lore:"遅延メインのスタンバトン枠"}
+data merge storage neofunction:skill/233 {name:"練希創剣【クリエイト・マナソード】",lore:"剣+エスト瓶などを生成する"}
+data merge storage neofunction:skill/234 {name:"号令【バトル・コマンド】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/235 {name:"召猫【サモン・ヒーリングキャット】",lore:"スキル235"}
+data merge storage neofunction:skill/236 {name:"空裂【エアスラッシュ】",lore:"ソニックブーム"}
+data merge storage neofunction:skill/237 {name:"鼓舞【クイック・エンハンス】",lore:"移動速度+攻撃力増加"}
+data merge storage neofunction:skill/238 {name:"地獄門【ゲヘナ・ゲート】",lore:"百鬼夜行を召喚"}
+data merge storage neofunction:skill/239 {name:"明けの明星【ルシファー】",lore:"爆裂魔法"}
+data merge storage neofunction:skill/240 {name:"医工士官【DOCTOR】",lore:"遠距離支援型。魔障などの知識にも長け、医療もできる。パッシブ：「ポーション」の装備時に運動能力が向上し、追加効果を得る。"}
+data merge storage neofunction:skill/241 {name:"戦闘教義【ドクター】",lore:"耐性        再生オペレーション"}
+data merge storage neofunction:skill/242 {name:"注射【インジェクション】",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/243 {name:"簡易錬成【クリエイト・アイテム】",lore:"剣+エスト瓶などを生成する"}
+data merge storage neofunction:skill/244 {name:"回転斬り",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/245 {name:"荒療治【インスタント・ヒール】",lore:"回復ポーションを投げつける"}
+data merge storage neofunction:skill/246 {name:"空刃【エアスラッシュ】",lore:"ソニックブーム"}
+data merge storage neofunction:skill/247 {name:"迅術【ヘイスト・クッション】",lore:"採掘上昇+緩衝体力"}
+data merge storage neofunction:skill/248 {name:"付呪【エンチャント】",lore:"オフハンドに入れたアイテムなどを参照していろんなエンチャをつける"}
+data merge storage neofunction:skill/249 {name:"暗黒特異点【ブラックホール】",lore:"プチブラック"}
+data merge storage neofunction:skill/250 {name:"暗殺士官【ASSASIN】",lore:"パッシブ：スニーク時に透明・移動速度上昇を獲得する。トリガーすると透明化を3分間付与する（SP10消費）"}
+data merge storage neofunction:skill/251 {name:"口寄せの術",lore:"暗殺士官が無から短剣を錬成するスキル（SP30消費）"}
+data merge storage neofunction:skill/252 {name:"影打ち【シャドウ・ストライク】",lore:"発動時、自身を標的と認識していない敵に対し、致命的な一撃を与える（SP15消費）"}
+data merge storage neofunction:skill/253 {name:"深蝕苦無【ディーブヴェノム】",lore:"発動時8m以内の対象3体に小ダメージを与え継続する蝕む毒を与えるクナイを投げる（SP5消費）"}
+data merge storage neofunction:skill/254 {name:"影縫乱舞【シャドウ・ランページ】",lore:"発動時8m以内の無制限の対象に、ダメージを与える、ただし遠ければ遠いほどダメージが下がる。(SP30消費）"}
+data merge storage neofunction:skill/255 {name:"虚影潜伏【ヴォイド・ハイド】",lore:"発動時、自身に透明化と再生能力を付与する。この効果は被弾すると解除される。（SP20消費）このスキルを取得しているとパッシブ効果を発動時再生能力を獲得できる。"}
+data merge storage neofunction:skill/256 {name:"幻脚【ファントム・ステップ】",lore:"発動時、自身に移動速度上昇と跳躍力上昇を付与する。（SP20消費）"}
+data merge storage neofunction:skill/257 {name:"影杭【シャドウ・ピラー】",lore:"発動時、自身の位置に影の杭を打ち込む、影の杭はその周辺にいる敵に弱体化と鈍足エフェクトを与える(SP40消費）"}
+data merge storage neofunction:skill/258 {name:"影潜【シャドウ・ディセント】",lore:"発動時、周囲16mの敵対状態を解除し、1秒間敵対しなくなる。（SP15消費）"}
+data merge storage neofunction:skill/259 {name:"終影審判【エンド・オブ・シャドウ】",lore:"発動時、周囲16mの敵に対し0.1秒ごとに敵の背後を取り、致命的な連撃をお見舞いする。影の鉄槌を下すAssasinの奥義(SP100消費）"}
+data merge storage neofunction:skill/260 {name:"スキル260",lore:"スキル260"}
+data merge storage neofunction:skill/261 {name:"スキル261",lore:"スキル261"}
+data merge storage neofunction:skill/262 {name:"スキル262",lore:"スキル262"}
+data merge storage neofunction:skill/263 {name:"スキル263",lore:"技能行使【トリガーオン】"}
+data merge storage neofunction:skill/264 {name:"スキル264",lore:"強さの指標である「レベル」を解放する。「ホープスター」を入手するとレベルアップし、基礎ステータスの増加やスキルの習得枠と獲得に必要なスキルポイントなどを得る。"}
+data merge storage neofunction:skill/265 {name:"スキル265",lore:"スキル265"}
+data merge storage neofunction:skill/266 {name:"スキル266",lore:"スキル266"}
+data merge storage neofunction:skill/267 {name:"チェイントラップ",lore:"連鎖的に発動し、段階的に敵を弱らせる。"}
+data merge storage neofunction:skill/268 {name:"スキル268",lore:"スキル268"}
+data merge storage neofunction:skill/269 {name:"スキル269",lore:"スキル269"}
+data merge storage neofunction:skill/270 {name:"詠唱騎士【ARIA】",lore:"中距離攻撃型。聖書や経典を唱えて戦う。"}
+data merge storage neofunction:skill/271 {name:"魔導障壁【リアクティブ・シールド】",lore:"ダメージを受けた時にSP10を消費して♡×4回復する。SPが0になっても回復は続ける。（トグル処理）"}
+data merge storage neofunction:skill/272 {name:"ニューワールドオーダー",lore:"尾"}
+data merge storage neofunction:skill/273 {name:"ベターアイテム",lore:"数多のユニークアイテムが追加されています。アイテムは持った瞬間に九段階のレア度が鑑定されます。"}
+data merge storage neofunction:skill/274 {name:"ベターエネミー",lore:"数多のユニークエネミーが追加され、バニラモブが強化され、様々な致命的攻撃法を持つようになっています。"}
+data merge storage neofunction:skill/275 {name:"ベターロケーション",lore:"数多のディメンション、ダンジョン、都市、ロケーションが追加されています。"}
+data merge storage neofunction:skill/276 {name:"ソウルホープ",lore:"プレイヤーに冀求力(SP)が発露する。冀求力はスキルを行使するためのリソースであり「願いの強さ」の指標。スキルとは自身の「冀求力」で世界の理を一部改変し、自身の願いを実現させるための技術である。ソウル、マナ、オーラ、スターホープ、気、魔力など様々に呼ばれるが、要は「理想を実現する為に冀(こいねが)う想いの強さ」である。それは「願望への想い」や「覚悟の純度」が強いほど強くなる。お気に召すままに魔法も使えるよ！君は「自由」なんだから！"}
+data merge storage neofunction:skill/277 {name:"ホープスター",lore:"「ポープスター」はこの世界の経験値。インベントリに入れることで獲得、加算され、死んでも失われない「レベル」として蓄積される。十分量獲得するとレベルが上がる。キボウノカケラ。"}
+data merge storage neofunction:skill/278 {name:"レベル",lore:"「レベル」は強さの指標であり、レベルアップすると基礎ステータスは向上し、「スキル」の習得枠と獲得に必要な「スキルポイント」などを得る。基礎ステータスは /trigger skill で確認可能！"}
+data merge storage neofunction:skill/279 {name:"リアライズ・スキル",lore:"自身のレベルと同じ数だけ「スキル」を覚えられるようになる。レベル、「キャパシティ」に習得(インストール)したりして獲得できる。現在のスキル習得数は tab から確認可能！"}
+data merge storage neofunction:skill/280 {name:"デターミネイション",lore:"§k死亡§r時、§kリスポーン§rする。§8記憶：命はひとつ。死は終わり。しかし、あなたに未だ尚、それでも叶えたい理想があるのなら…その想いが終わりを否定するほど強いのなら…§o§e貴官の魂は死んでいない。§1The 𝕨𝕚𝕝𝕝 to keep living... The resolve to change fate. I'll call this power...𝕕𝕖-𝕥𝕖𝕣𝕞𝕚𝕟𝕒𝕥𝕚𝕠𝕟."}
+data merge storage neofunction:skill/281 {name:"イベント",lore:"様々なランダムイベントを追加する。"}
+data merge storage neofunction:skill/282 {name:"ワンダフル・デス",lore:"様々な死因を追加する。詰み防止の /trigger kill が使用可能になる！"}
+data merge storage neofunction:skill/283 {name:"カスタムアイテム",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/284 {name:"スキルアイテム",lore:"アイテムの中には「スキル」格納するスペルアイテムも存在する。"}
+data merge storage neofunction:skill/285 {name:"ランダムアイテム",lore:"＜ここにスキルの説明を入力＞"}
+data merge storage neofunction:skill/286 {name:"カスタムエネミー",lore:"特殊な敵を追加する。"}
+data merge storage neofunction:skill/287 {name:"スキルフルエネミー",lore:"様々な「スキル」を使う敵を追加する。スキルの内容は発動時チャット欄に記載された詠唱にマウスカーソルを当てたり、使用するモブに「解析」スキルを使ったりすることで確認できる。"}
+data merge storage neofunction:skill/288 {name:"ランダムステータス",lore:"敵のHPとATKが±30%ほどのランダム性を持ってスポーンする。"}
+data merge storage neofunction:skill/289 {name:"ソウルホープ",lore:"冀求力の回復。SPは満腹度が半分以上の時に自然回復する。ポーションを飲んだり、水分補給をすることで「ソウルホープ」のエフェクトが付きより早く回復する。また、ウィルポーションやエリクサーなどの専用のSP回復薬や精神の泉などでも回復する。"}
+data merge storage neofunction:skill/290 {name:"ディスアピア",lore:"冀求力の枯渇。SPは精神力そのものであるため、酷使、減少し過ぎてしまうと精神が不安定になり、視界不良や鬱状態となる。"}
+data merge storage neofunction:skill/291 {name:"ダークナイト",lore:"ベットで寝ても夜を飛ばせない。夜間に敵強化。追跡範囲上昇50%, 移動速度上昇100%"}
+data merge storage neofunction:skill/292 {name:"ブラッドムーン",lore:"朔(新月)の日に魔物の襲撃が起こる。8日おきにホード。"}
+data merge storage neofunction:skill/293 {name:"エレメンタル・クラフト",lore:"火・水・風・土の四大元素からなる「属性」の要素を追加する。"}
+data merge storage neofunction:skill/294 {name:"水分補給",lore:"水分の要素を追加する。水やポーションを飲むことで回復しSP。水分補給はSPを自然回復を促進する。5分間の間、5秒に一回最大SPの1%回復する"}
+data merge storage neofunction:skill/295 {name:"ファストトラベル",lore:"移動を快適にするテレポートメニューを追加する。リスポーン地点や死亡地点、味方地点や解放したテレポートポイントに簡単に移動できるようになる。メニューは/trigger teleport から使用可能な他、リスポーン時などにも表示される。"}
+data merge storage neofunction:skill/296 {name:"ワールドオース（縛り）",lore:"世界との誓約。「経験値」ではなく「リスク」を引き換えに特殊な「リターン」を得る「スキル」の一種だが、基本的に途中変更不能で、誓約すると難易度が上がる。"}
+data merge storage neofunction:skill/297 {name:"難易度",lore:"プレイヤーに合わせてイージー、ノーマル、ハード、マスターの4つから難易度を選べる。"}
+data merge storage neofunction:skill/298 {name:"難易度：イージー",lore:"イージーモードです。マイクラ操作に慣れていない方やストレスフリーでストーリーだけなぞりたい方向けの難易度です。特徴：・死亡時にアイテムドロップしない。・多くのデバフやSP回復阻害を自動治癒する、ドローンが初めから随行します。・裏ダンジョンへの挑戦権を失います。"}
+data merge storage neofunction:skill/299 {name:"難易度：ノーマル",lore:"おすすめ！基本の難易度です。まずはここから。特徴：・死亡時に墓ができる。・初めに特殊能力アイテムや特殊能力を「思い出す」ことができます。・ソロプレイの場合、強力なペットをはじめに仲間にすることができ、共に旅ができます。"}
+data merge storage neofunction:skill/300 {name:"難易度：ハード",lore:"ハードモードです。刺激が欲しい方へ。特徴：・死亡時に亡骸ゾンビがスポーンする。・初めのスキルとアイテムの「思い出す」が無くなります。・全ての敵の体力と攻撃力が1.5倍になります。"}
+data merge storage neofunction:skill/301 {name:"難易度：マスター",lore:"二周目以降に解放されます。補助なし手加減なしの真クルーへの挑戦的なモードです。特徴：・バニラ状態からスポーンし、全ての異能は自力で入手することになる。・零章「灰に燻る、不滅の炎」からスポーンします。"}
+data merge storage neofunction:skill/302 {name:"誓約：敵の体力上昇",lore:"誓約すると、敵の体力が50%上昇する。"}
+data merge storage neofunction:skill/303 {name:"誓約：敵の攻撃力上昇",lore:"誓約すると、敵の攻撃力が50%上昇する。"}
+data merge storage neofunction:skill/304 {name:"誓約：敵の防御力上昇",lore:"誓約すると、敵の防御力が50%上昇する。"}
+data merge storage neofunction:skill/305 {name:"誓約：敵の移動速度上昇",lore:"誓約すると、敵の移動速度が50%上昇する。"}
+data merge storage neofunction:skill/306 {name:"誓約：SP自然回復縛り",lore:"誓約すると、満腹度が10以上でもSPが自動回復しない。"}
+data merge storage neofunction:skill/307 {name:"誓約：HP自然回復縛り",lore:"誓約すると、満腹度が17.5以上でもHPが自動回復しない。"}
+data merge storage neofunction:skill/308 {name:"誓約：スキル縛り",lore:"誓約すると、スキル使用不可の一般人になる。リターン：難易度(やりごたえ)が増え、クリアしたら称号がもらえる。名前が赤色になる。"}
+data merge storage neofunction:skill/309 {name:"誓約：防具縛り",lore:"誓約すると、防具枠四スロット使用不能になる。リターン：難易度(やりごたえ)が増え、クリアしたら称号がもらえる。名前が赤色になる。"}
+data merge storage neofunction:skill/310 {name:"誓約：スペランカー",lore:"誓約すると、超虚弱体質になる。リターン：難易度(やりごたえ)が増え、クリアしたら称号がもらえる。名前が赤色になる。"}
+data merge storage neofunction:skill/311 {name:"誓約：ハードコア",lore:"誓約すると、一度きりの命でリスポーンできなくなる。リターン：難易度(やりごたえ)が増え、クリアしたら称号がもらえる。名前が紅色になる。"}
+data merge storage neofunction:skill/312 {name:"シームレス・ゲームモード",lore:"ボタンを押さずにゲームモードを切り替える。真上spc真下cre"}
+data merge storage neofunction:skill/313 {name:"スキルオブソウル",lore:"プレイヤーに冀求力(SP)が発露する。冀求力はスキルを行使するためのリソースであり「願いの強さ」の指標。スキルとは自身の「冀求力」で世界の理を一部改変し、自身の願いを実現させるための技術である。ソウル、マナ、オーラ、スターホープ、気、魔力など様々に呼ばれるが、要は「理想を実現する為に冀(こいねが)う想いの強さ」である。それは「願望への想い」や「覚悟の純度」が強いほど強くなる。お気に召すままに魔法も使えるよ！君は「自由」なんだから！"}
+data merge storage neofunction:skill/314 {name:"トリガーセット",lore:"「引き金を引く！」スキルのトリガー /trigger on が使用可能になる！"}
+data merge storage neofunction:skill/315 {name:"ステータスオープン",lore:"「願いの強さ」が力に直結する世界。"}
+data merge storage neofunction:skill/316 {name:"デバッグスクリーン",lore:"F3キーでデバック画面を開けるようになる。"}

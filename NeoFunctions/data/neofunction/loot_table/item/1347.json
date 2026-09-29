@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "碧天牧場で育った牛から絞ったミルクを加工して作ったチーズ",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "澄んだ空気と穏やかな風の中で熟成され",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "口に含むとやさしいコクが広がり、体に静かな力を与えてくれる。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "碧天チーズ",
+                "color": "#FFFF99",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1347
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

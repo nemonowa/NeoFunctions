@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:carrots"
+                },
+                {
+                  "blocks": "minecraft:potatoes"
+                },
+                {
+                  "blocks": "minecraft:beetroots"
+                },
+                {
+                  "blocks": "minecraft:wheat"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:looting": 1,
+                "minecraft:efficiency": 1,
+                "minecraft:silk_touch": 1,
+                "minecraft:unbreaking": 99,
+                "minecraft:fortune": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "山札と墓地とマナゾーンを操る桑",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "墓地ってなんだよ。ナスオって誰だよ。",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "終末",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ナスオ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "大戦",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  107
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

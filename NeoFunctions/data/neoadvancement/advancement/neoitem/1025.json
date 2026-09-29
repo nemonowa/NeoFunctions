@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1024",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ハービットバーガー -Harbit Burger-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1025)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「腹が減ったらこれ一択！」と街の食堂に並ぶ名物。直径30cmの巨大バンズに肉厚な特産牛パティとシャキシャキのハービット野菜を豪快にサンドしたバーガー。秘伝の「スパイシーハビアットソース」が味の決め手。\n効果イメージ：食べるとスタミナ回復（移動速度UP/30秒）。ただし、巨大すぎて1回の食事で動きが鈍ることも。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:apple"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1025
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

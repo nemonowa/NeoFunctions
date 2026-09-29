@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "neofunction:item/1591"
+                }
+            ],
+            "condition": {
+                "type": "random_chance",
+                "chance": 0.001
+            }
+        }
+    ]
+}

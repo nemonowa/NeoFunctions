@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||||",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 人間卒業の劇薬 ",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||||",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  869
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 99,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 99,
+                    "duration": -1
+                  },
+                  {
+                    "id": "minecraft:conduit_power",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:hero_of_the_village",
+                    "amplifier": 99,
+                    "duration": -1,
+                    "show_particles": false
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

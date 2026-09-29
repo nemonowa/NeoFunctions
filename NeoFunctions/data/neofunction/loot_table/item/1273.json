@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "雨",
+                  "color": "#5CBAC4",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "天",
+                  "color": "#616E8C"
+                },
+                {
+                  "text": "装",
+                  "color": "#5CBAC4"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "雨と潮の魔力をまとった装備",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "セットスペル🔯【",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "天候同調 Ⅱ",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "】"
+                  }
+                ],
+                {
+                  "text": "> 晴天および雨天時に移動や行動が加速する。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1273
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

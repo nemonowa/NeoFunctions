@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "眠り癒しの雫",
+                "color": "#60E0CB",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "傷を塞ぐと同時に",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "身体を半ば眠らせる薬液。",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1336
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 6349003,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 126,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 1,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 2,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 0,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 4,
+                    "duration": 300
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 0,
+                    "duration": 300
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

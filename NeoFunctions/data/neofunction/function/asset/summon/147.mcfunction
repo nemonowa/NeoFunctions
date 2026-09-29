@@ -1,0 +1,6 @@
+# 命名：ブレイズバット
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/147
+
+summon vex ~ ~ ~ {Silent:1b,Glowing:0b,Passengers:[{id:"minecraft:blaze",Silent:1b,Tags:["upper"],CustomName:{"text":"Grumm"},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}]},{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:landing_lava"},Radius:0.1f,Duration:20,potion_contents:{custom_effects:[{id:"minecraft:fire_resistance",amplifier:127b,duration:20,show_particles:0b}]}},{id:"minecraft:blaze",Silent:1b,Tags:["upper"],CustomName:{"text":"Grumm"},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}]},{id:"minecraft:blaze",Silent:1b,Tags:["upper"],CustomName:{"text":"NoGrumm"},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}]},{id:"minecraft:bat",Glowing:1b,Tags:["enemy","upper"],CustomName:{"text":"ブレイズバッド","color":"#FF7D63","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}]}],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv4,downer],DeathLootTable:"neofunction:asset/summon/147"}

@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：スキル -Skill-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：この世界のすべての異能を習得する\n§3§l報酬：§r§f称号【§k全能§fの§k大魔術師§f】\n§9§l説明：§7「スキル」はバニラにはない特異能力の総称。スキルは冒険の中で体得したりで、本や村人から教わったり、「スキルキャパシティ」に習得(インストール)したりして獲得できる。また、発動には相応の「冀求力」の消費やリキャストタイムを必要とする。\nスキルとは自身の「冀求力」で世界の理を一部改変し、自身の願いを実現させるための技術である。\nお気に召すままに魔法も使えるよ！君は「自由」なんだから！",
+      "color": "white"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                0
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/32"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neo/root/written_book",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            13431354,
+            -935048792,
+            -1823682247,
+            1556505014
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQzMmMzMjg5ZmUwOTgwOTBlNTJjZWUwMjI4NGE4OTUyMjQzZDkwMTg4NzY3OTExODFmMzBlYjE4ZmY5ZGZjMiJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "目標座標：アンカーポイントの観測数～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l目標：各地域のアンカーを解析する。\n§3§l報酬：§f進捗タブ「ロケーション百科全書」解放\n§9§l記憶：§7アンカーとは§e転移地点§7であり、旅の§e攻略目標§7である。未解析のアンカーポイントを見つけたら異空兵装の§d「存在解析」§7スキルで観測しよう。NEXUSから§a自由に転移§7できるようになる。"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

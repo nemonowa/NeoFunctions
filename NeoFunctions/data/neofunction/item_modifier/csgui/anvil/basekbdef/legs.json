@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:knockback_resistance",
+      "amount": 0.1,
+      "operation": "add_value",
+      "slot": "legs",
+      "id": "neofunction:attribute/csgui/anvil/basekbdef/legs/0"
+    }
+  ],
+  "replace": false
+}

@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "デビル天然水",
+                "color": "#59FFE9",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "飲むと",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "希求力",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "を犠牲に"
+                  },
+                  {
+                    "text": "それ",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "が増える"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  71
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 5898217,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:conduit_power",
+                    "amplifier": 0,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

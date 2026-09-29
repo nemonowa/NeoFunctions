@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/966",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：単話：集団心理 -Single episode: Group psychology-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:967)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rそりゃあさ、俺が悪いよ。全く知らない奴だけど叩いたらどんな反応するかなｗって興味本位で叩いたらさ、集団で叩き返してくるじゃん。何？その集団心理は。全員一緒じゃないと気が済まないんか？1度の失敗は許されないんか？正義の元なら何してもいいんか？本当嫌いだわ豚ども。なんか半分ゾンビだし",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  967
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/0"
+  }
+}

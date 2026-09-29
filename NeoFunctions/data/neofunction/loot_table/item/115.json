@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "存在しない記憶 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "どけ!!!俺はお兄ちゃんだぞ!!!",
+                "color": "#D90D0D",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  115
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14224653,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 15,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 15,
+                    "duration": 9
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 15,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

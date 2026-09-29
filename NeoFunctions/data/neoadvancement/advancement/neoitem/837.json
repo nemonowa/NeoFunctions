@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/836",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：イカロスの翼 -Icarus's Wings-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:837)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r鳥の羽を集め蜜蝋で固めた仮の翼\n神話のように一時的には自由に空を飛べるだろう\n其の翼で太陽を目指したイカロスは\n「忠告に背き、力を過信した傲慢の徒」か\n「知恵と勇気を駆使して空を翔る先駆者」か\nその答えは飛んだ本人だけが決められる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  837
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

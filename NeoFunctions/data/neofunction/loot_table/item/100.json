@@ -1,0 +1,159 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "育ちすぎた",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false
+                },
+                {
+                  "text": "ロッド",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "キャロット",
+                  "color": "#FF8E2B",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "育ちすぎた",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "人参",
+                    "color": "#FF8E2B",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を魔術の",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "触媒",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "とした杖",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "通常、",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ソウル",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の精製には宝石や結晶を用いられるが",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "良質な人参と天然の木材を活かした精巧な作りの杖のため",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "魔法の",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "伝導、精製、操作・調整、指向性付与",
+                    "color": "light_purple",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "を十分に果たす",
+                    "color": "dark_gray"
+                  }
+                ],
+                {
+                  "text": "殴ってもそれなりに強く、鈍器（メイス）としても優秀",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 4,
+                "minecraft:sharpness": 7,
+                "minecraft:smite": 4,
+                "minecraft:impaling": 4,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:b258a26f-9666-43dc-8d40-c217742ef5e2",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:0279652d-c729-45ac-91ac-6cc3e15720ff",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  100
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

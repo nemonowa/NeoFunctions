@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "FN SCAR-L <0>",
+      "color": "#D6CD7E",
+      "bold": true,
+      "italic": false
+    },
+    "minecraft:charged_projectiles": [
+      {
+        "count": 1,
+        "id": "minecraft:arrow"
+      }
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:protection": 1
+              },
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "防衛結界装置",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                "CustomNameVisible": 1,
+                "DisabledSlots": 4140863,
+                "Health": 1,
+                "Invisible": 1,
+                "Invulnerable": 1,
+                "Marker": 0,
+                "NoBasePlate": 1,
+                "NoGravity": 1,
+                "Tags": [
+                  "beaconX"
+                ],
+                "active_effects": [
+                  {
+                    "amplifier": 0,
+                    "duration": -1,
+                    "id": "minecraft:instant_health"
+                  }
+                ],
+                "id": "minecraft:armor_stand",
+                "equipment": {
+                  "chest": {
+                    "count": 0,
+                    "id": "minecraft:stone",
+                    "components": {
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "type": "max_health",
+                          "id": "neofunction:aec77f4e-8d21-43c6-a486-b7b8403a21f9",
+                          "amount": -1,
+                          "operation": "add_value",
+                          "slot": "chest"
+                        }
+                      ]
+                    }
+                  },
+                  "head": {
+                    "count": 1,
+                    "id": "minecraft:beacon",
+                    "components": {
+                      "minecraft:attribute_modifiers": [
+                        {
+                          "type": "max_health",
+                          "id": "neofunction:fcdb8144-66e6-4af9-b537-800b93fcb34c",
+                          "amount": 1,
+                          "operation": "add_value",
+                          "slot": "head"
+                        }
+                      ],
+                      "minecraft:enchantments": {
+                        "minecraft:protection": 1
+                      },
+                      "minecraft:lore": [
+                        {
+                          "text": "亜空間で開発されたトリノ謹製の",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": false
+                        },
+                        {
+                          "text": "陰陽結界発生装置の交換材料",
+                          "color": "blue",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ],
+                      "minecraft:custom_name": {
+                        "text": "防衛結界装置",
+                        "color": "blue",
+                        "bold": true,
+                        "italic": false
+                      },
+                      "minecraft:tooltip_display": {
+                        "hidden_components": [
+                          "minecraft:enchantments",
+                          "minecraft:attribute_modifiers"
+                        ]
+                      }
+                    }
+                  }
+                }
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "最大出力の",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ビーコン",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の上に設置すると",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "周囲16mに",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "ワープ",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "や",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "亜空間転移",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "が",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "不可能な領域",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "を作り出す。",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                {
+                  "text": "「ガラクタだから世界に一箇所が限界だけどねぇ♪」",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "防衛結界装置",
+                "color": "blue",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  759
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# 命名：臨界火精霊
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/663
+
+summon zombie ~ ~ ~ {Silent:1b,CustomNameVisible:0b,Tags:["bomb"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:happy_villager"},Radius:0.01f,Duration:20}],CustomName:{"text":"臨界火精霊","color":"#FF3526"},active_effects:[{id:"minecraft:fire_resistance",amplifier:1b,duration:-1},{id:"minecraft:water_breathing",amplifier:1b,duration:-1},{id:"minecraft:invisibility",amplifier:1b,duration:-1}],Tags:[lv2,bomb],DeathLootTable:"neofunction:asset/summon/663",equipment:{mainhand:{id:"minecraft:ghast_tear",count:1,components:{"minecraft:custom_name":{"text":"フレイムオーブ","color":"#FF3526","italic":false},"minecraft:custom_model_data":{floats:[122.0f]},"minecraft:enchantments":{"minecraft:knockback":1,"minecraft:sharpness":1,"minecraft:sweeping_edge":1}}},offhand:{id:"minecraft:wheat",count:1,components:{"minecraft:custom_name":{"text":"セレスタムギ"},"minecraft:enchantments":{"minecraft:looting":1}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16725286,"minecraft:trim":{material:"minecraft:quartz",pattern:"minecraft:vex"}}},head:{id:"minecraft:red_stained_glass",count:1,components:{"minecraft:enchantments":{"minecraft:protection":1}}}}}

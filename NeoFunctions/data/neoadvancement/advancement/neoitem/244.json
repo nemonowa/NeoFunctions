@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/243",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：【虚史】羽瑠羽　句団　尾羽家 -[Fictional History] Haruha Haiku Group, Obane Family-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:244)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rきれいでかわいい女性の人形\n新品のようにきれいな女性の人形\n「次は絶対大切にしてね。」\n\n\nl歴史とは残酷だ。\n自分の名前は羽瑠羽尾翼（はねるば　おおば）\nもしも過去に戻れるなら自分はあの村を救いたい。\nしかし歴史をカエルのは一部のモノだけだ。\nだから自分は「虚史」（れきし）を学んだ。\n「虚史」を使える様になった自分は\n過去を替える者になった。\nあとはシを待つのみだ・・・\nどﾚだけ時間ガﾀｯた？\nジぶんはﾅｾﾞかシねないヨｳだ。\nヤｯパﾘセｶいはざんｺクだ\nﾓｳ一度ﾔリﾅオ死ﾀい\n我ｲマ飛戻ﾘをのゾムﾜガナを説ｸワがなハ・・・\nﾀﾞﾚｶ・・・わｶﾞナをオシエテクレ・・・・",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  244
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/4"
+  }
+}

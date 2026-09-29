@@ -1,0 +1,81 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "||",
+                  "color": "blue"
+                },
+                {
+                  "text": " 詫び石 ",
+                  "color": "aqua",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "blue"
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "||",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 1,
+                "minecraft:smite": 1,
+                "minecraft:bane_of_arthropods": 1,
+                "minecraft:knockback": 1,
+                "minecraft:fire_aspect": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  277
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

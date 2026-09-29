@@ -1,0 +1,5 @@
+# 命名：藻ヲ貪ル者
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/367
+
+summon zombie ~ ~ ~ {CustomNameVisible:0b,PersistenceRequired:1b,Tags:["marimo_cave_enemy","marimo_ghoul"],Passengers:[{id:"minecraft:potion",Item:{id:"minecraft:splash_potion",count:1,components:{"minecraft:potion_contents":{custom_color:6582835,custom_effects:[{id:"minecraft:speed",amplifier:2b,duration:200},{id:"minecraft:glowing",amplifier:2b,duration:200}]}}}}],CustomName:{"text":"藻ヲ貪ル者","color":"#647233"},attributes:[{id:"minecraft:attack_damage",base:3}],Tags:[lv1,],DeathLootTable:"neofunction:asset/summon/367",equipment:{mainhand:{id:"minecraft:acacia_sapling",count:1},offhand:{id:"minecraft:acacia_sapling",count:1},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":6582835}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":6582835}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":6582835}},head:{id:"minecraft:azalea",count:1}}}

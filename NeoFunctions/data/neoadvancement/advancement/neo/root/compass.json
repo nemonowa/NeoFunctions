@@ -1,0 +1,47 @@
+{
+  "parent": "neoadvancement:neo/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            994
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の計器～NEXUS ANALYZER～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l目標：この世界を「創造」する。\n§3§l手段：§f第三兵装「異空の計器」の解放\n§9§l説明：§7それは未知の透明球体。§c冀求力§7を燃料に次元の羅針を表示する§e特殊な計器§7であり、§6帰還用の共振装置§7である。所持時に自身の§a座標情報§7を確認できる。\n§d> シフトスキルMH「転移要請」§7\n能力：NEXUSへの転移する。(消費SP：100)\n§d> シフトスキルOH「運命羅針」§7\n能力：世界目標を表示する。(消費SP：0)\n§1§o§n「その針は北を指さない。目指すものの在処のみを指し示す。」"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  994
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

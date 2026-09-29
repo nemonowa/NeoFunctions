@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "☯",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ミラクル",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "と",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ミステリー",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "の盾",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "☯",
+                  "color": "green",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 5
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:3e60f019-1ead-4258-965f-d2ad92289807",
+                  "amount": 0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:60bfb56f-e553-4888-91c6-682e74b5ade3",
+                  "amount": 0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:5b98ed29-d4ae-4bca-a3bf-b2a6701a898c",
+                  "amount": 0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a08b1862-8171-484a-b893-59fb64fdc2a0",
+                  "amount": 0.75,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "cyan"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "green"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "green"
+                }
+              ],
+              "minecraft:base_color": "green",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  835
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

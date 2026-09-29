@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "-爆発の壺-",
+                  "color": "dark_aqua",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "壊すと爆発する飾り壺。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:922a2b69-f9c6-429e-a579-9b0466d67e26",
+                  "amount": -0.1,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:d0cfaa94-fa1e-4ada-ae34-d2d3bbd84377",
+                  "amount": 5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:pot_decorations": {
+                "back": {
+                  "id": "minecraft:danger_pottery_sherd"
+                },
+                "left": {
+                  "id": "minecraft:danger_pottery_sherd"
+                },
+                "right": {
+                  "id": "minecraft:danger_pottery_sherd"
+                },
+                "front": {
+                  "id": "minecraft:danger_pottery_sherd"
+                }
+              },
+              "minecraft:container": [
+                {
+                  "slot": 0,
+                  "item": {
+                    "id": "minecraft:paper",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_data": {
+                        "summon": 343
+                      }
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  368
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

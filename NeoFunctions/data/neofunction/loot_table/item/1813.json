@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:a5454b16-2b78-4326-9ad0-6293e236f0f9",
+                  "amount": 0.02,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:rib"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙を統べし者の証",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ぐらず=ゔぇるなりきりせっと",
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "グラズ＝ヴェルの水掻き",
+                "color": "dark_green",
+                "italic": false
+              },
+              "minecraft:dyed_color": 1384727,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1813
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

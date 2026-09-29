@@ -1,0 +1,106 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish",
+          "quality": -1,
+          "weight": 35
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/junk",
+          "quality": -2,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "condition": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:type_specific/fishing_hook": {
+                "in_open_water": true
+              }
+            }
+          },
+          "value": "minecraft:gameplay/fishing/treasure",
+          "quality": 2,
+          "weight": 5
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:fishing/crate"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.3
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:fishing/random_enchant"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:random_chance",
+        "chance": 0.01
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fish"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:weather_check",
+        "raining": false,
+        "thundering": false
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/junk"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:weather_check",
+        "raining": true,
+        "thundering": false
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/treasure"
+        }
+      ],
+      "condition": {
+        "type": "minecraft:weather_check",
+        "thundering": true
+      }
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

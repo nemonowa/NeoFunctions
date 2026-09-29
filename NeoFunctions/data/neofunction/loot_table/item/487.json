@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:4424bdb1-1ca0-4d35-9f78-2f9eba211834",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255
+              },
+              "minecraft:repair_cost": 0,
+              "minecraft:custom_name": [
+                {
+                  "text": "天",
+                  "color": "#29FF37",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "叢",
+                  "color": "#2BFFB8",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "雲",
+                  "color": "#2E9DFF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "剣",
+                  "color": "#3061FF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  487
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

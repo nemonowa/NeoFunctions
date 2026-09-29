@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ケロボーンソード",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "ケロ☆ソード",
+                    "color": "gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のフレームを",
+                    "color": "#4D4B3F",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙油",
+                    "color": "#FFDA73"
+                  },
+                  {
+                    "text": "で加工し"
+                  }
+                ],
+                {
+                  "text": "骨素材の摩耗を抑えた強化剣",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1564
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:af7bbfb0-bef9-477d-b968-00a0aa9d998f",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:42cbfaf0-4195-4c36-b276-fe6fe34e3bd3",
+                  "amount": 0.2,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:0e8ebce3-2668-4298-a248-7a0e1d35e1d7",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

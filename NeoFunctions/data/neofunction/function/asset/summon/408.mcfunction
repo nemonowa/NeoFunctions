@@ -1,0 +1,6 @@
+# 命名：ニュートん
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/408
+
+summon villager ~ ~ ~ {Silent:1b,CustomNameVisible:0b,NoAI:1b,Age:-2000,Passengers:[{id:"minecraft:block_display",CustomNameVisible:0b,Tags:["upper"],Passengers:[{id:"minecraft:snowball",Glowing:1b,CustomNameVisible:0b,Tags:["upper"],Passengers:[{id:"minecraft:block_display",CustomNameVisible:0b,Tags:["upper"],CustomName:{"text":"グラビティ"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.6f,0f,-0.6f],scale:[1.2f,0.2f,1.2f]},block_state:{id:"minecraft:conduit",properties:{waterlogged:"true"}}}],CustomName:{"text":"グラビティ"},Item:{id:"minecraft:heart_of_the_sea",count:1}}],CustomName:{"text":"グラビティ"},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.6f,-0.2f,-0.6f],scale:[1.2f,0.2f,1.2f]},block_state:{id:"minecraft:conduit",properties:{waterlogged:"true"}}}],CustomName:{"text":"ニュートん"},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:2000,show_particles:0b},{id:"minecraft:wither",amplifier:0b,duration:2000,show_particles:0b}],attributes:[{id:"minecraft:movement_speed",base:0}],VillagerData:{profession:"minecraft:nitwit"},Tags:[ex,fly3,fly4],DeathLootTable:"neofunction:asset/summon/408"}

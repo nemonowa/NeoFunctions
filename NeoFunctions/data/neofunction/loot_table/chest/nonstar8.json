@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:rare/7"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "value": "neofunction:rare/8"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "neofunction:rare/9"
+        }
+      ]
+    }
+  ]
+}

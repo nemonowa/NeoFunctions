@@ -1,0 +1,42 @@
+{
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "minecraft:stone_button"
+              ]
+            },
+            "position": {
+              "x": {
+                "min": 737,
+                "max": 738
+              },
+              "y": {
+                "min": 25,
+                "max": 26
+              },
+              "z": {
+                "min": 2170,
+                "max": 2171
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/item_used_on_block/frogdungeon"
+  }
+}

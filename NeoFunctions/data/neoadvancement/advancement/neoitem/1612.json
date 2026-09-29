@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1611",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：星を継ぐもの -Inheritors of the Stars-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1612)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r...ならば行って我々の正当な遺産を要求しようではないか。我々の伝統には敗北の概念はない。今日は恒星を、明日は銀河系外星雲を。宇宙のいかなる力も我々を止めることはできないのだ。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1612
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

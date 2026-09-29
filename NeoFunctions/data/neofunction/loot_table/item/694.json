@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " メン・タイ ",
+                  "color": "#FF61C0",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "赤い非合法薬物。錠剤や粉末タイプがある。",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "摂取すると",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "ニューロン",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を活性化させるが",
+                    "color": "red"
+                  }
+                ],
+                [
+                  {
+                    "text": "寿命が削れるらしく",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "オーバードーズ",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "すると",
+                    "color": "red"
+                  }
+                ],
+                [
+                  {
+                    "text": "ゴウランガな",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "千式観音",
+                    "color": "#FF61C0",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "が見えてくる。",
+                    "color": "red"
+                  }
+                ],
+                [
+                  {
+                    "text": "バイオ技術の産物で",
+                    "color": "red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ブルー・メン・タイ",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "なる亜種も存在する。",
+                    "color": "red"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  694
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

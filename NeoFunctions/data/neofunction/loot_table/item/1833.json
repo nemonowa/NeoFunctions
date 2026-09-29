@@ -1,0 +1,130 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "影縫い",
+                  "color": "#27243D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#514A78",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "シノビ・ステッチ",
+                  "color": "#9B8FD0",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#514A78",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "影は、気配を残さない。",
+                  "color": "#514A78",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "そして――影は、逃げ道すら残さない。",
+                  "color": "#806FB5",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "月明かりを裂くように鍛えられた、極細の暗殺鞭。",
+                  "color": "#5C5687",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その一振りは音より速く、",
+                  "color": "#7269A3",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その持ち主は風よりも軽い。",
+                  "color": "#9184C7",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "姿を捉えた時には、もう遅い。",
+                  "color": "#A49AD1",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "影縫い。影に選ばれた者だけが、その名を知る。",
+                  "color": "#655B96",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:aee4ef78-50b9-495e-a5c7-ab52049bd59a",
+                  "amount": 5.7,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:0620318b-74ba-438e-9e69-e29240ee27f6",
+                  "amount": 0.33,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:09cad060-7253-4589-8203-20d3d3014d64",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:c4bfb32c-db70-4bf9-8b0e-53e1236a68a9",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1833
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

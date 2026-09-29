@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_horse_armor",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "風元素を封じた馬具。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "馬に装着することで「反重の加護」を付与する。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用すると加護は消費される。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "スペルアイテム🔯【反重の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "馬の移動速度とジャンプ力に強力なバフが付与される。",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "反重の馬装具",
+                "color": "#8EDE16",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 9362966,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1698
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

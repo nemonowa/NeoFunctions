@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ドラゴンズ",
+                  "color": "green",
+                  "bold": true
+                },
+                {
+                  "text": "✹",
+                  "color": "red",
+                  "bold": false
+                },
+                {
+                  "text": "シールド",
+                  "color": "green",
+                  "bold": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:1da679c8-98ff-47f2-8bbe-1000811b8432",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "red"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "lime"
+                },
+                {
+                  "pattern": "minecraft:triangle_top",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "lime"
+                }
+              ],
+              "minecraft:base_color": "black",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  773
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

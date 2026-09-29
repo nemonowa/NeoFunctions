@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "1",
+                  "color": "#7F9413",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "～祝祭と豊穣の礼装～",
+                  "color": "#478384",
+                  "obfuscated": false
+                },
+                {
+                  "text": "22",
+                  "color": "aqua"
+                },
+                {
+                  "text": "1",
+                  "color": "#7F9413"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "⁂ 第3章の主要装備 ⁂",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "あなたは祝祭と実りの日を見届けた。",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "フルセットスペル🔯【豊穣の加護】",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位で装備で周期的にバフを得る",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・10秒間の再生効果を得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・水中呼吸エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "・跳躍エフェクトを得る(CT:60s)",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 1,
+                "minecraft:feather_falling": 1,
+                "minecraft:fire_protection": 1,
+                "minecraft:projectile_protection": 1,
+                "minecraft:protection": 2,
+                "minecraft:thorns": 1,
+                "minecraft:mending": 1,
+                "minecraft:unbreaking": 3,
+                "minecraft:depth_strider": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:ef0743b1-176a-8775-24db-a708d38b659f",
+                  "amount": 3.5,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:1635ab30-88b9-01a0-2f6a-53dabb362053",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "2"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1784
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

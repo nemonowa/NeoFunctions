@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ベルカ式国防術"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "自国領域の防衛のため、自国領域内で核兵器を起爆する戦術。"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

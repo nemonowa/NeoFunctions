@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星水",
+                "color": "#59FFE9",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "澄明で",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "朧気",
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "な水。"
+                  }
+                ],
+                [
+                  {
+                    "text": "飲むと",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "希望",
+                    "color": "yellow",
+                    "bold": true
+                  },
+                  {
+                    "text": "がみなぎるといわれている"
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  73
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 5898217,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 1,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:conduit_power",
+                    "amplifier": 0,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

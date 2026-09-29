@@ -1,0 +1,141 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "elixir",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ピュア",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "エリクサー",
+                  "color": "#E95464",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "elixir",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "賢者の石",
+                    "color": "#E95464",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "から錬成された伝説の妙薬で",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "どのような疫病も欠損も瞬時に回復する",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "赤色のポーション",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "エリクサーが細胞を無限再生するメカニズムは",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "莫大な資材と幾多の人体実験を持って研究された",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "魔導の極地で生命の概念を大きく変えた。",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "体力、魔力を全回復し、全ての状態異常を回復する",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  67
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 15291492,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 102,
+                    "duration": 20,
+                    "show_particles": false
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

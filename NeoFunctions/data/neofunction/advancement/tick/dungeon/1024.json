@@ -1,0 +1,52 @@
+{
+  "CommentOut": "1024を使える場所を追加する場合はconditionsにinvertedのやつを追加。適宜座標とディメンションは変えること",
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "inverted",
+              "term": {
+                "type": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:location": {
+                    "position": {
+                      "x": {
+                        "min": 1096,
+                        "max": 1160
+                      },
+                      "y": {
+                        "min": 35,
+                        "max": 72
+                      },
+                      "z": {
+                        "min": 1405,
+                        "max": 1494
+                      }
+                    },
+                    "dimension": "neodimension:ceresta_festa"
+                  }
+                }
+              }
+            },
+            {
+              "type": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{Tags:[\"1024\"]}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/dungeon/1024"
+  }
+}

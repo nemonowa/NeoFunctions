@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/11",
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 32
+          }
+        }
+      ]
+    }
+  ]
+}

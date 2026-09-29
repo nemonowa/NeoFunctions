@@ -1,0 +1,14 @@
+{
+    "parent": "neofunction:.clock/1s",
+    "criteria": {
+        "": {
+            "trigger": "enter_block",
+            "conditions": {
+                "blocks": "water"
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/enter_block/water1s"
+    }
+}

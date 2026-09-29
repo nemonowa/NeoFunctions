@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ジェバンニが一晩でやってくれました。",
+                "color": "#D061FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "足らない根拠",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                  "text": "設定だけの頭脳戦",
+                  "color": "red",
+                  "bold": true
+                },
+                {
+                  "text": "後付のルール",
+                  "color": "red",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "煽り耐性ゼロ",
+                  "color": "red",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  116
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "DEATH✞NOTE（鈍器）"
+                    },
+                    {
+                      "selector": "@p",
+                      "color": "red",
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger kill"
+                      }
+                    }
+                  ],
+                  {
+                    "text": "（1）犯人は物語の序盤に登場していなければならない。（2）探偵方法に超自然能力を用いてはならない。（3）犯行現場に秘密の抜け道や扉を用意する場合、2つ以上作ってはならない。",
+                    "bold": true
+                  },
+                  {
+                    "text": "（4）未知の薬物や、一般人が理解しづらい難解な化学技術を用いてはならない。（5）中国人を登場させてはならない。（6）探偵は偶然や勘で事件を解決してはならない。（7）探偵自身が犯人であってはならない（犯人に変装するなどの場合は除く）。",
+                    "bold": true
+                  },
+                  {
+                    "text": "（8）探偵は読者に明かしていない手がかりによって事件を解決してはならない。（9）探偵の助手にあたる人物は、自身の判断を読者に知らせなければならない。（10）双子や一人二役の人物を出す場合、存在をあらかじめ読者に伝えなければならない。",
+                    "bold": true
+                  },
+                  {
+                    "text": "天才（笑）たちの殴り合い...そうはならんやろ。",
+                    "bold": true
+                  }
+                ],
+                "title": "",
+                "author": "ノックスの十戒",
+                "generation": 3
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

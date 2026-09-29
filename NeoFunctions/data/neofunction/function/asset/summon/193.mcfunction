@@ -1,0 +1,6 @@
+# 命名：シード
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/193
+
+summon villager ~ ~ ~ {Fire:-1s,Air:300s,OnGround:1b,Invulnerable:1b,fall_distance:0f,PortalCooldown:0,DeathTime:0s,LeftHanded:0b,FallFlying:0b,PersistenceRequired:0b,AbsorptionAmount:0f,Health:20f,LastRestock:0,Xp:0,Age:0,ForcedAge:0,Motion:[0.0,-0.0784000015258789,0.0],CustomName:{"text":"シード","color":"#24DEC5","bold":true,"italic":false},attributes:[{id:"minecraft:movement_speed",base:0},{id:"minecraft:max_absorption",base:9999}],Offers:{},Tags:[st,],DeathLootTable:"neofunction:asset/summon/193",equipment:{head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I; -1264066828, 537218675, -1293518184, 2055121014],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QzMmYwZDc4MDRhZjQzOWU0NGI5ODc1ZGQ5YmQ5NTUyZjk2MzE5MmUwMjU3NTA1M2E5MzlhNDhmYjYyZjk2In19fQ=="}]},"minecraft:lore":[{"text":"Normal:","italic":false,"color":"white","bold":true}],"minecraft:custom_data":{check:1}}}},drop_chances:{feet:-327.670F,legs:-327.670F,chest:-327.670F,head:-327.670F}}

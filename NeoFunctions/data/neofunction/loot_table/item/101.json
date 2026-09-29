@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:bundle_contents": [
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                },
+                {
+                  "count": 64,
+                  "id": "minecraft:arrow"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "一度に大量に矢を持ち運べる。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 矢筒 ",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  101
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

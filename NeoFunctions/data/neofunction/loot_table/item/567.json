@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ルナティックソーダー",
+                "color": "#AA4CE0",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "濃縮還元100%！おそらくグレープ味！",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "十分間の暗視をもたらす",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "「ナニカ」",
+                    "color": "dark_purple",
+                    "bold": true
+                  },
+                  {
+                    "text": "を絞ったサイダー"
+                  }
+                ],
+                {
+                  "text": "ダメージ音のリズムが癖になる！",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  567
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 11160800,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 0,
+                    "duration": 12000
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 100,
+                    "duration": 60
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 7,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

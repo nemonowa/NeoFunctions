@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/203",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：剛刃草薙【スマッシャー】 -Goujin Kusanagi [Smasher]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:204)の習得\n§9説明：§r強力な横薙ぎの斬撃により衝撃波を発生させ、周囲の敵を打ち上げる技。多数の敵に包囲された際の突破手段として用いられる。打ち上げた敵は3秒間、白刃一閃・天地断裂の追撃対象になる。（SP30消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                204
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

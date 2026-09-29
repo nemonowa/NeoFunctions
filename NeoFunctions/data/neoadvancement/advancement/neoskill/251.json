@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/250",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：口寄せの術 -Dual casting-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:251)の習得\n§9説明：§r暗殺士官が無から手裏剣、渇命丸、ポッドを錬成するスキル（SP30消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                251
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

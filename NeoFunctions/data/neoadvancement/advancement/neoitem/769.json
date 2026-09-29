@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/768",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：小桜韋威大鎧 -Kozakura-gawa Odoshi O-yoroi (Great Armor with Cherry Blossom Leather Lacing)-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:769)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r「こざくらがわおどしおおよろい」\n軍記物語での「大荒目の鎧」という表現の似合う大鎧\n本鎧の「小札」（こざね）は甲冑の品中でも最大級\n平安時代後期の武将「源為朝」が所用した名甲冑",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  769
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

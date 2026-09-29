@@ -1,0 +1,22 @@
+{
+    "parent": "neofunction:.clock/1s",
+    "criteria": {
+        "": {
+            "trigger": "tick",
+            "conditions": {
+                "player": {
+                    "type": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "horseMove": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/tick/entity_scores/horse"
+    }
+}

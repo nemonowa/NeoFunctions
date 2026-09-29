@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "引数：A,B",
+                  "italic": false,
+                  "color": "gray"
+                },
+                {
+                  "text": "効果：Aが1の時はRed、2の時はGreen、3の時はBlueのスキル枠にId:Bのスキルをセットする",
+                  "italic": false,
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ルール：§lSkillSet",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1738
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

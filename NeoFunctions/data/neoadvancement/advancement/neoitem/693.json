@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/692",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：バリキドリンク -Bariki Drink-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:693)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rヨロシサン製薬の代表的なドリンク商品\n興奮・覚醒作用がありオーバードーズする事で\n麻薬に似た性質を発揮する。\n故にストレス発散目的で多くの労働者に愛飲されており\n集団でバリキドリンクを過剰に飲む「バリキナイト」なる\n退廃的集会が開かれるほどである。\n不眠不休な！滋養強壮な！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  693
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

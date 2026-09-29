@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "rare",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 星屑：第五等星 ",
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "rare"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "第五等級のアイテムに相当する等星結晶",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "アイテムのレアリティは",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "星",
+                    "color": "gold",
+                    "bold": true
+                  },
+                  {
+                    "text": "の数で九段階に大別されている"
+                  }
+                ],
+                [
+                  {
+                    "text": "星の数が多いほど希少でより",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "高度",
+                    "color": "blue",
+                    "bold": true
+                  },
+                  {
+                    "text": "なアイテムとなる"
+                  }
+                ],
+                {
+                  "text": "対応するレアリティのアイテムから抽出し複製に用いる。",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "スーパー・アイテム：",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "名のある騎士や王族が持つようなアイテム",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "未知のスペルが込められていることがある",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1
+              },
+              "minecraft:firework_explosion": {
+                "shape": "star",
+                "colors": [
+                  14483711
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  5
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:firework_explosion"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

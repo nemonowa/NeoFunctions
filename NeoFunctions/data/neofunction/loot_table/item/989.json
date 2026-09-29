@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "curry",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "艦兵カレー",
+                  "color": "#D97822",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "UDON",
+                  "color": "gold",
+                  "obfuscated": false
+                },
+                {
+                  "text": "curry",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ズルズルズルズル美味しい美味しい",
+                  "color": "gold"
+                },
+                {
+                  "text": "カレーとマリアージュ ドロドロのお嫁のおうどん",
+                  "color": "gold"
+                },
+                {
+                  "text": "食え食え食え食え 美味しい美味しい",
+                  "color": "gold"
+                },
+                {
+                  "text": "夜中も食いに行ける なかう なかう",
+                  "color": "gold"
+                },
+                {
+                  "text": "ウッーウッーウマウマ",
+                  "color": "gold"
+                },
+                {
+                  "text": "カレーうどん(カレーうどん)カレーうどん",
+                  "color": "gold",
+                  "underlined": true
+                },
+                {
+                  "text": "カレーうどん(カレーうどん)カレーうどん",
+                  "color": "gold",
+                  "underlined": true
+                },
+                {
+                  "text": "食べろや!",
+                  "color": "gold",
+                  "bold": true
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  989
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 14252066,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 0,
+                    "duration": 60
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

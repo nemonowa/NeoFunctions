@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ヌンチャク",
+                "color": "#B88130",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "keybind": "key.use",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": " to attack 10dmg",
+                    "color": "white",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 10,
+                "minecraft:sweeping_edge": 5,
+                "minecraft:impaling": 6
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  371
+                ]
+              },
+              "minecraft:custom_data": {
+                "CustomEnchantments": [
+                  {
+                    "id": "nunchaku",
+                    "lvl": 10
+                  }
+                ],
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

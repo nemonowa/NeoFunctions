@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "麦茶",
+                "color": "#965042",
+                "bold": true,
+                "italic": false,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "衰弱状態を解除する。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "Anti Wither Potion",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  345
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 9850946,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 127,
+                    "duration": 0
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 0
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

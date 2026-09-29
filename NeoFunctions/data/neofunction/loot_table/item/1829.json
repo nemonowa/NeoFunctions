@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "獣王",
+                  "color": "#B51E16",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "の",
+                  "color": "#D9481E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "躾鞭",
+                  "color": "#F07824",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「噛み付け。吠えろ。」",
+                  "color": "#E65C20",
+                  "bold": true
+                },
+                {
+                  "text": "獣王と呼ばれた男が、最後まで手放さなかった一振り。",
+                  "color": "#C9471D",
+                  "italic": false
+                },
+                {
+                  "text": "恐怖で獣を従わせるのではない。",
+                  "color": "#D96524",
+                  "italic": false
+                },
+                {
+                  "text": "己より強き牙に、己より強き意志を示す。",
+                  "color": "#F07824",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "この鞭の前では、猛獣すら己の本能を忘れる。",
+                  "color": "#FF9A32",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "王に牙を剥く者など、獣にも値しない。",
+                  "color": "#B51E16",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 6,
+                "minecraft:fire_aspect": 1,
+                "minecraft:smite": 6,
+                "minecraft:sweeping_edge": 2
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:d2dcdbc3-a594-4e86-af06-eaa496cea22f",
+                  "amount": 16,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:74715109-bbfe-4a5d-a044-ed74bfa1a08c",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:22dc564d-cea3-409e-8f48-3f4945355d02",
+                  "amount": 0.18,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1829
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

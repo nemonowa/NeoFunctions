@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:f9b32ed5-4877-47be-ab40-3119410ae82b",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:7f287c64-d329-41af-8ec3-266f1b907e5b",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 10,
+                "minecraft:blast_protection": 10,
+                "minecraft:thorns": 10,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:trim": {
+                "material": "0",
+                "pattern": "6"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "龍鱗を加工して作られた鎧",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "高い防御力を持ちトゲトゲしている",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "ドラゴンズ",
+                  "color": "green",
+                  "bold": true
+                },
+                {
+                  "text": "✹",
+                  "color": "red",
+                  "bold": false
+                },
+                {
+                  "text": "メイル",
+                  "color": "green",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  775
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

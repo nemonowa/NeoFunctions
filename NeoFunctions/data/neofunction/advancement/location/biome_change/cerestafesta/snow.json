@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "location",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:location": {
+                            "biomes": "neodimension:cerestafesta/snow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/location/biome_change/cerestafesta/snow"
+    }
+}

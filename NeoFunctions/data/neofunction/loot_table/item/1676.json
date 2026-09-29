@@ -1,0 +1,145 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:bundle_contents": [
+                {
+                  "count": 32,
+                  "id": "minecraft:tipped_arrow",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        1676
+                      ]
+                    },
+                    "minecraft:enchantment_glint_override": true,
+                    "minecraft:lore": [
+                      {
+                        "text": "雷鳴ハ万雷ノ祖ナリ。",
+                        "color": "gold",
+                        "italic": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "|",
+                        "color": "light_purple",
+                        "bold": true,
+                        "underlined": true,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "雷鳴の嚆矢",
+                        "color": "gold",
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "|"
+                      }
+                    ],
+                    "minecraft:potion_contents": {
+                      "custom_color": 16768287,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:slowness",
+                          "amplifier": 4,
+                          "duration": 100
+                        },
+                        {
+                          "id": "minecraft:glowing",
+                          "amplifier": 0,
+                          "duration": 100
+                        },
+                        {
+                          "id": "minecraft:wither",
+                          "amplifier": 4,
+                          "duration": 100
+                        }
+                      ]
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "32個の"
+                  },
+                  {
+                    "text": "|",
+                    "color": "light_purple",
+                    "bold": true,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "雷鳴の嚆矢",
+                    "color": "gold",
+                    "bold": true,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|",
+                    "color": "light_purple",
+                    "bold": true,
+                    "underlined": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "が入っている"
+                  }
+                ]
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "light_purple",
+                  "bold": true,
+                  "underlined": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "雷鳴の嚆矢",
+                  "color": "gold",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                },
+                {
+                  "text": "バンドル",
+                  "color": "white",
+                  "underlined": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1676
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

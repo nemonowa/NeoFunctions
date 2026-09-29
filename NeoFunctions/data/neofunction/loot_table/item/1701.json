@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Browning Machine gun, caliber.50, M2",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "Browning Machine gun, caliber.50, M2",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": "1933年にアメリカ軍へ正式採用されて以来、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "1世紀近くにわたり世界の戦場で使われ続ける重機関銃の傑作。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "強靭な作動機構と巨体から繰り出される12.7x99mm NATO弾は、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "遠距離の歩兵のみならず、軽装甲車両や陣地をも破壊し尽くす。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "「我々は終焉龍すらも撃ち堕とす」",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:100",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:特大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:12.7x99mm NATO弾",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:b232b99c-7f70-490b-96ee-9af226178282",
+                  "amount": -1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:29e7c39b-4e6d-43c5-9019-a8ca99a3400a",
+                  "amount": -1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1701
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 100,
+                "damage": 12,
+                "firerate": 2,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 100,
+                "maxreloadingtime": 100,
+                "reloading": 0,
+                "speed": 4,
+                "inoncooltime": 0,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 638
+                  }
+                },
+                "recoil": -2.5,
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ファントム・グレネード",
+                "color": "#5E34D1",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  54
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 6173905,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 2,
+                    "duration": 600
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 2,
+                    "duration": 600
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

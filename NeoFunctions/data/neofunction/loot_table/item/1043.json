@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:emerald_block"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ビーコン修復用建材",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "どこかの亜空間を防衛する結界の土台だったもの。",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "居住区を救った英雄が持ち帰ったとか、、、",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "＊誰も責めはしないけど「横領」ではあるね。",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1043
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

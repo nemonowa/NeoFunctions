@@ -1,0 +1,283 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:note_block"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " アンノウン",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "=",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "アンサンブル ",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "旧世界の音色をイーブンに還した旋律",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "力なきものに求められ",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "力あるものに恐れられる",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "魔性の歌声は全ての進歩も記憶も等しく零に帰した",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1,
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:5980cebb-1d9f-4d22-96c3-0f69476faba9",
+                  "amount": 40,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:fc083f92-0a91-4a7d-ad0d-b777ef292b1a",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:4801cb13-70a4-47ff-8104-daeaafffba7b",
+                  "amount": 99,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "follow_range",
+                  "id": "neofunction:a4c72501-bcd8-4164-9d31-d846f89ee019",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:c2594a94-1130-4492-9658-07fa13e39e04",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:41956f97-ca71-4d5d-bbb0-5f130fa3667d",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:f01baced-5b86-49b7-bfb6-47a2bba90808",
+                  "amount": 0.3,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2fe5aeb5-4f0d-49ff-8a79-9582d44919bb",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:312a8ca4-03f4-47b4-98e8-58e09d18d313",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:ff677c1f-4d45-4c03-89fa-51eed68a1459",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:1b95ec53-5867-474b-a1ee-7992646e3a8d",
+                  "amount": 20,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:e39a8d5e-86f1-47d0-b92b-8ad07338dbe2",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:b9eb6f17-ad88-4af8-9970-c40be3c54bf2",
+                  "amount": 10,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:db685830-3aca-4ed9-b34c-68387c2f53a9",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:50307f16-d2b5-47f1-bf3e-a987e11d151c",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:f2ccb23e-2275-409f-99d9-a0799591790e",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:1d14dd9e-52e0-48b5-b924-9768782e6aa8",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:5e7bc4f5-70d8-457c-934c-d61cc5540f05",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:68c991fa-ff45-4023-a514-437186bb02e8",
+                  "amount": 30,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:a0187c8d-fcf1-4000-9fe8-9a17729cdc47",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "light_blue"
+                }
+              ],
+              "minecraft:base_color": "lime",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  357
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:banner_patterns",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

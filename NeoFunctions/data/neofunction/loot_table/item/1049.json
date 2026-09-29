@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ライムジェル",
+                "color": "#5DE8BA",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "ライムから得られる、",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "光り輝く",
+                    "color": "green"
+                  },
+                  {
+                    "text": "ジェル"
+                  }
+                ],
+                [
+                  {
+                    "text": "素材として",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "松明や傷薬",
+                    "color": "red"
+                  },
+                  {
+                    "text": "の材料になるほか",
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                [
+                  {
+                    "text": "緊急時には焼くことで",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "非常食",
+                    "color": "#5DE8BA"
+                  },
+                  {
+                    "text": "にもなるらしい..."
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:aqua_affinity": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1049
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

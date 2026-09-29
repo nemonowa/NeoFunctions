@@ -1,0 +1,56 @@
+{
+  "parent": "neoadvancement:neo/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1451703295,
+            1523011469,
+            -1548540249,
+            1885390347
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ5MTk1ZmMxZDJiYzZiNTRhZjQ1NTJlNTA0NTM1YWI2YTdmNmY3YzVlMTkxMjg2N2YwODIyNDMxNTJlYWFiOCJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "～異空兵装：スキルポケット～N-WEAPONS～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l目標：異空の並行世界NEXUSへ接続する。\n§3§l報酬：§f拠点、異能、活動基盤\n§9§l説明：§7まずは§aインベントリの左上§7に拡張された§2「スキルポケット」§7にアクセスし、§f§l見る(E)、投げる(Q)、取り出す(RMB)§7など、色々試してみよう。§c君の旅路を幇助する§7全てが詰まっている。さあ出航の錨をあげよ！ここは§e「願いの強さ」§7が§4力§7に直結する§6世界§7なんだ。\n§1§o§nBon Voyage（それでは良い旅を！）"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neo/root": true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/837",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ルミーニ珍味のフルコースゲル -Lumini Delicacies Full Course Gel-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:838)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r雪鉄魚や雪蝙蝠の皮や肉をベースに煮凝りになるまで瓶の中で冷やしたもの。ゲル状で保存食としても優秀で、飲食前に手で温めることにより体温で融解し、濃厚なえぐみと旨味を持つ。\nルミーニ地方の伝統的な郷土料理で最大級のもてなしを表す大御馳走。長時間の満腹感が続く。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  838
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

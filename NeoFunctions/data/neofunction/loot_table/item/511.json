@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_chest",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:ender_chest"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "言っておくが、力士も俺の守備範囲だゾ☆",
+                "color": "#DB26FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 4
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  511
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

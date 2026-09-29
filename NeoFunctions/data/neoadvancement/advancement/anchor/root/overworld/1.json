@@ -1,0 +1,133 @@
+{
+  "parent": "neoadvancement:anchor/root/overworld",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE5ZTM2YTg3YmFmMGFjNzYzMTQzNTJmNTlhN2Y2M2JkYjNmNGM4NmJkOWJiYTY5Mjc3NzJjMDFkNGQxIn19fQ=="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "冒険：バイオーム・エクスプローラー～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：９つの目標バイオームを冒険する。\n§3§l報酬：§f経験値×16\n§9§l目標：§7平原、砂漠、雪原、沼地、荒野、繁茂した洞窟、ジャングル、ムーシュルーム、ディープダーク。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:plains"
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:desert"
+          }
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:snowy_plains"
+          }
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:swamp"
+          }
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:jungle"
+          }
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:dripstone_caves"
+          }
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:badlands"
+          }
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:mushroom_fields"
+          }
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "biomes": "minecraft:deep_dark"
+          }
+        }
+      }
+    }
+  }
+}

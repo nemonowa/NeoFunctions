@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:location_check",
+  "offsetX": 10,
+  "predicate": {
+    "fluid": {
+      "fluids": "#minecraft:water"
+    }
+  }
+}

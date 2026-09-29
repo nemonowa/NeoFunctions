@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/2/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～精霊の試練～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：精霊種を25体討伐する。\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§c各属性コア§r\n§9§l説明§r§f：...聞こえる？...精霊が騒いでるみたい。きっと...あなたを試したいんだと思う",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/1": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

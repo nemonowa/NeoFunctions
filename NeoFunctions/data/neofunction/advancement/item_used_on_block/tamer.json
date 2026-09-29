@@ -1,0 +1,35 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "has_in_mainhand": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoskill/230": true
+              }
+            },
+            "minecraft:equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1819
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/item_used_on_block/1819"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "parent": "neofunction:.clock/1t",
+    "criteria": {
+        "": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:all_of",
+                    "terms": [
+                        {
+                            "type": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "minecraft:type_specific/player": {
+                                    "advancements": {
+                                        "neoadvancement:neofishing/root": true
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "inverted",
+                            "term": {
+                                "type": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "minecraft:nbt": "{Inventory:[{id:\"minecraft:fishing_rod\"}]}"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "neofunction:system/adv/inventory_changed/no_fishing_rod"
+    }
+}

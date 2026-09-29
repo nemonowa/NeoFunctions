@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "採れたての浮き雲",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "すこし",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ふわふわ",
+                    "color": "aqua"
+                  },
+                  {
+                    "text": "している"
+                  }
+                ]
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 雲ブロック ",
+                  "color": "white",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1629
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

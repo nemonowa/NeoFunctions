@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "黄金水",
+                "color": "#C5FF6E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "黄金蜂蜜酒の素材になるとか...",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  543
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12975982,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 3,
+                    "duration": 160
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 1,
+                    "duration": 3600
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

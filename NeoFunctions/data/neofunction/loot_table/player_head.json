@@ -1,0 +1,19 @@
+{
+  ".neo": "/loot give @s loot neofunction:player_head",
+  "type": "minecraft:command",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:fill_player_head",
+            "entity": "this"
+          }
+        }
+      ]
+    }
+  ]
+}

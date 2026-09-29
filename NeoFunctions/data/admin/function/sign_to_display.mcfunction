@@ -1,0 +1,8 @@
+# 命名：sign_to_display
+# 説明：（説明未記載）
+# >
+# =/function admin:sign_to_display
+data modify storage admin:sign_to_display text set from block ~ ~ ~ front_text.messages
+
+execute if block ~ ~ ~ mangrove_wall_sign[facing=east] align xyz run summon text_display ~ ~0.25 ~0.5 {text:{"translate": "%1$s\n%2$s\n%3$s\n%4$s","with": [{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[0]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[1]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[2]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[3]"}]},transformation:{scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f],right_rotation:[0f,0.707f,0f,0.707f],left_rotation:[0f,0f,0f,1f]},background:0,view_range:0.1f,alignment:"center"}
+execute if block ~ ~ ~ mangrove_wall_sign[facing=west] align xyz run summon text_display ~1 ~0.25 ~0.5 {text:{"translate": "%1$s\n%2$s\n%3$s\n%4$s","with": [{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[0]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[1]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[2]"},{"storage": "admin:sign_to_display","interpret": true,"nbt": "text[3]"}]},transformation:{scale:[0.5f,0.5f,0.5f],translation:[0f,0f,0f],right_rotation:[0f,-0.707f,0f,0.707f],left_rotation:[0f,0f,0f,1f]},background:0,view_range:0.1f,alignment:"center"}

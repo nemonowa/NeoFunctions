@@ -1,0 +1,58 @@
+{
+  "parent": "neoadvancement:neo/root/spawner/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "title": [
+      {
+        "translate": "呪匣浄化：無常の浄化兵（5000s）～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§3§l条件：§fスポナーを5000個破壊する。\n§9§l報酬：§f経験値 +称号",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "minedSpawner": {
+                  "min": 5000
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:type_specific/player": {
+                  "advancements": {
+                    "neoadvancement:neo/root": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

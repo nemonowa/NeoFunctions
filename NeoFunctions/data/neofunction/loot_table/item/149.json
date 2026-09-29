@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:deepslate_gold_ore",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "gold",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 黄金の石 ",
+                  "color": "#E6B422",
+                  "bold": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "gold",
+                  "color": "gold",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「正義」の煌めきの中にあるという『黄金の精神』",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "#E6B422",
+                  "color": "#E6B422",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:blast_protection": 4,
+                "minecraft:fire_protection": 4,
+                "minecraft:projectile_protection": 4
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  149
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

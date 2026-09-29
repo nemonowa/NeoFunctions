@@ -1,0 +1,129 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 小さな触手がはみ出した得体の知れないボール状配給食   ",
+                  "color": "#C2893E",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "プラントピア",
+                    "color": "#0B374D",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のショーユ工場で見つけた",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "謎の配給食",
+                    "color": "dark_purple"
+                  }
+                ],
+                [
+                  {
+                    "text": "違法労働を強いられている",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  },
+                  {
+                    "text": "肉体労働者",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が食べていたようで",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                [
+                  {
+                    "text": "一般人が口にしない",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "ジゴク・アトモスフィア",
+                    "color": "#D92916",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "デビルフィッシュからなる所謂",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "タコヤキ・ボール的なサムシングかと推察されている。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  138
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

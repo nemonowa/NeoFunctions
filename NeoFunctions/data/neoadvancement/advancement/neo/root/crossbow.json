@@ -1,0 +1,48 @@
+{
+  "parent": "neoadvancement:neo/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            995
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の火器～NEXUS EN=REALIZER～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l目標：この世界を「破壊」する。\n§3§l手段：§f第一兵装「異空の火器」の解放\n§9§l説明：§7それは未知の金属匣体。§c冀求力§7を燃料にソウルの刃を形成する§e特殊な武器§7であり、§6スキルの発動媒体§7である。自身の攻撃力を増幅し、攻撃した相手の§a体力を可視化§7する。\n§d> シフトスキル「冀求結界」§7\n能力：自身に短時間の発光と暗視を付与し、周囲16mの敵とスポナーを発光させる。微小なダメージも与える。(消費SP：20/sec)\n§1§o§n「その刃は実体を持たない。刃向かうものの魂のみを灼き尽くす。」",
+      "color": "white"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  995
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

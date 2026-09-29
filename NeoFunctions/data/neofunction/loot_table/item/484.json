@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "草",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "薙",
+                  "color": "#4FFED5"
+                },
+                {
+                  "text": "剣",
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "(くさなぎのつるぎ)",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:repair_cost": 0,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  484
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

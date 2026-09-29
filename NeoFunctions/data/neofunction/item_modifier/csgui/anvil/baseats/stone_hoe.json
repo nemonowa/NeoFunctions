@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:attack_speed",
+      "amount": -2,
+      "operation": "add_value",
+      "slot": "mainhand",
+      "id": "neofunction:attribute/csgui/anvil/baseats/stone_hoe/0"
+    }
+  ],
+  "replace": true
+}

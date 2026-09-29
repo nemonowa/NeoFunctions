@@ -1,0 +1,77 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1069",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1065",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1066",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1067",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1068",
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": 1
+          }
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:item/1064",
+          "weight": 95,
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "type": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 1
+              },
+              "limit": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:asset/base"
+        }
+      ]
+    }
+  ]
+}

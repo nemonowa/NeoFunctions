@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "#neofunction:all"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "起点スポーンエッグ",
+                "color": "light_purple",
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "これを使うと対応するスロットのスキルが発動できる",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使役士官の魂の武器",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:loyalty": 10
+              },
+              "minecraft:entity_data": {
+                "id": "minecraft:block_display",
+                "view_range": 0,
+                "Tags": [
+                  "del"
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1819
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

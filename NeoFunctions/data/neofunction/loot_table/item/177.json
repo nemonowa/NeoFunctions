@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "X",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "X",
+                  "color": "black"
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "=BUG=",
+                  "color": "light_purple",
+                  "obfuscated": false
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "X",
+                  "color": "black"
+                },
+                {
+                  "text": "X",
+                  "color": "dark_purple"
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:bf83de59-9597-4637-87a1-1b9a3b68030f",
+                  "amount": 99.9,
+                  "operation": "add_value",
+                  "slot": "any"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:5e82f1d0-1ecf-4568-9e00-9e3e2a061e16",
+                  "amount": -0.999,
+                  "operation": "add_multiplied_total",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  177
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

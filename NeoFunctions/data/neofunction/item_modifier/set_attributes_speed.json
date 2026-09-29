@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:movement_speed",
+      "amount": 0.15,
+      "operation": "add_multiplied_base",
+      "slot": "mainhand",
+      "id": "neofunction:42c40c23-e5d7-472f-a1c5-2f9293f56910"
+    }
+  ],
+  "replace": false
+}

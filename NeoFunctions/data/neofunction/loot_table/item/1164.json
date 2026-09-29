@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:decorated_pot"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Getting ",
+                  "color": "red",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "Over ",
+                  "color": "blue"
+                },
+                {
+                  "text": "Kill?",
+                  "color": "light_purple"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "行動を起こした時、あなたは",
+                    "color": "dark_gray"
+                  },
+                  {
+                    "text": "確率",
+                    "color": "dark_blue",
+                    "bold": true,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を目撃するだろう"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 250,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1164
+                ]
+              },
+              "minecraft:enchantments": {
+                "minecraft:bane_of_arthropods": 1,
+                "minecraft:sharpness": 3,
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

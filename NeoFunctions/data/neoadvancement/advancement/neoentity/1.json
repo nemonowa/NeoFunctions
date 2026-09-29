@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/root/.neo",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：調律体χ（カイ                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:1)の発見\n§3報酬：§r経験値×16\n§9説明：§rGameMaster。プレイヤーのゲーム体験や戦闘、生活を補助するお助けAI。いつ、いかなる状況でも戦場にてサポートしてくれることから「常在戦場χ」とも呼ばれている。様々な役割や形態を持っており正式名称は伏せるが「カイ」もしくは「戦闘解析知性体χ」と呼ぶと反応してくれる。中央管制C.A.I",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/1\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/st"
+  }
+}

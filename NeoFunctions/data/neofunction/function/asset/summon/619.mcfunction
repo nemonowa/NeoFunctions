@@ -1,0 +1,6 @@
+# 命名：Pairate of elite
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/619
+
+summon stray ~ ~ ~ {CustomName:[{"text":"Pairate","color":"dark_aqua","bold":true,"italic":false},{"text":" of","color":"white"},{"text":" Elite","color":"red"}],Tags:[lv2,elite],DeathLootTable:"neofunction:asset/summon/619",equipment:{mainhand:{id:"minecraft:trident",count:1},offhand:{id:"minecraft:trident",count:1},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":3315417,"minecraft:enchantments":{"minecraft:depth_strider":9},"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:silence"}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":3315417,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:silence"}}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I; -1419224673, -74300076, -1875340534, 847343896],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU5ZjZmYzAzZDczZGZhYmE3ZjlhZDI0NjQ4ZTViNTlhZDljYzAyMmFlYzUyNGRjZGVmNDQzNGQxMjViIn19fQ=="}]}}}}}

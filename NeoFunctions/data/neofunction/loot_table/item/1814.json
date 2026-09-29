@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:34680825-89e5-4c1c-a020-8433cd22407a",
+                  "amount": -6,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:dfed5ca0-56eb-4bba-9b2f-f2690fe92afc",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:feather_falling": 2,
+                "minecraft:protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:trim": {
+                "material": "minecraft:copper",
+                "pattern": "minecraft:shaper"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "蛙を統べし者の証",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "跳ねるたびに大地が震える",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ぐらず=ゔぇるなりきりせっと",
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "グラズ＝ヴェルの跳躍靴",
+                "color": "dark_green",
+                "italic": false
+              },
+              "minecraft:dyed_color": 1384727,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1814
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

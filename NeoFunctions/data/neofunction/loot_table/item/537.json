@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ボ",
+                  "color": "#FF1414",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "ル",
+                  "color": "#FF1E16"
+                },
+                {
+                  "text": "バ",
+                  "color": "#FF2817"
+                },
+                {
+                  "text": "ル",
+                  "color": "#FF3219"
+                },
+                {
+                  "text": "ロ",
+                  "color": "#FF3B1A"
+                },
+                {
+                  "text": "ー",
+                  "color": "#FF451C"
+                },
+                {
+                  "text": "ズ",
+                  "color": "#FF4F1E"
+                },
+                {
+                  "text": "・",
+                  "color": "#FF591F"
+                },
+                {
+                  "text": "イ",
+                  "color": "#FF6321"
+                },
+                {
+                  "text": "ン",
+                  "color": "#FF6D23"
+                },
+                {
+                  "text": "ゴ",
+                  "color": "#FF7624"
+                },
+                {
+                  "text": "ッ",
+                  "color": "#FF8026"
+                },
+                {
+                  "text": "ト",
+                  "color": "#FF9429"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ドラゴンズアームの素材になるとか...",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  537
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

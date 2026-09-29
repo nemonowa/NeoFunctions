@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1398",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：色荷の真眼 -The true eye of Iroha-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1399)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r目の機能とは「世界」の認識装置\n認識できる世界の理が虹彩の色に現れる\nただし、実際の世界の色彩とは多層的であり、\nまた観測者の眼が認識できる因果律の範囲でしか映らない\nさあ目を開けて。君が見たから、世界は生まれた。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1399
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/9"
+  }
+}

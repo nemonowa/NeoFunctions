@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/187",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：【加速】マナ・アクセル -[Acceleration] Mana Accelerator-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:188)の習得\n§3報酬：§r経験値×32\n§9説明：§rトリガーすると、瞬間的に加速する。\n基本的なソウル操作技術の一つ。ソウルを脚部に集中させ、一時的に敏捷性を高める。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                188
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

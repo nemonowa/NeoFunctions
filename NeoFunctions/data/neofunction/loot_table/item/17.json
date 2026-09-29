@@ -1,0 +1,93 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_hoe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ビリーの魔力瓶",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "モンスターの経験値などの",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "魔力を吸収し貯蓄する鉱石",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "日用品として流通しており",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "生活者",
+                    "color": "blue",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "には魔法道具の動力源として",
+                    "color": "white"
+                  }
+                ],
+                [
+                  {
+                    "text": "冒険者",
+                    "color": "dark_green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "には魔力を吸収させ販売するための",
+                    "color": "white"
+                  },
+                  {
+                    "text": "収入源",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "とされている",
+                    "color": "white"
+                  }
+                ]
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:damage": 32,
+              "minecraft:enchantments": {
+                "minecraft:mending": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  17
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

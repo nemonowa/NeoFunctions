@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:6a331629-ae9e-4bbf-b2c9-cab08512ecc1",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:8d2bd51b-e137-4dd0-be5a-df53cfb00072",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:6d707089-5cf3-4cf1-a92c-ea70cdb00d43",
+                  "amount": -0.25,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:4a4804bd-b5b3-4e01-a0f0-67b970367aee",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:d5cc0e58-42bf-4012-8542-516e74e55345",
+                  "amount": 0.5,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:c0674ede-b3f4-4793-a621-2a9a68d0b668",
+                  "amount": -0.25,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:small_stripes",
+                  "color": "purple"
+                },
+                {
+                  "pattern": "minecraft:stripe_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:stripe_right",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_left",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:square_bottom_right",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:triangles_bottom",
+                  "color": "black"
+                }
+              ],
+              "minecraft:base_color": "white",
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:mending": 4
+              },
+              "minecraft:lore": [
+                {
+                  "text": "善悪と賢愚の間には相関も障壁もない。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "☽",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": " 善",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "悪",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "と",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "賢",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "愚",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "の盾 ",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "☾",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  190
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

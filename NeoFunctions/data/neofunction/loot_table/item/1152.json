@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_blue"
+                },
+                {
+                  "text": "～波葬エル・マタドール～",
+                  "color": "dark_blue",
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "aqua"
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_aqua"
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_blue"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「サイレント・メアリー号」を操るスペイン海軍の艦長 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "諺）Dead Man Tell No Tales 死人に口なし",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "スペルアイテム🔯【海賊の秘宝】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "> シフト時に水域を展開する",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:knockback": 5,
+                "minecraft:sharpness": 5,
+                "minecraft:riptide": 5
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1152
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

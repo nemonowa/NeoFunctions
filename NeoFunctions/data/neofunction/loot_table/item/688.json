@@ -1,0 +1,125 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "T.Y.D.",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "The Yellow Devil",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "曰くつきの黄色い増強剤。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "服用すると、常人の体力では即倒してしまう程の",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "痛みと渇きが襲い、死に至るとされている。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "もしこの名状しがたい薬に飲み込まれなければ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "数秒ではあるが壊力を得るだろうと推測されている。",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  688
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16774912,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": -14,
+                    "duration": 300,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 3,
+                    "duration": 10,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 1,
+                    "duration": 100,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "amplifier": -100,
+                    "duration": 0,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 1,
+                    "duration": 100,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 1,
+                    "duration": 100,
+                    "show_particles": true
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": -49,
+                    "duration": 100,
+                    "show_particles": true
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

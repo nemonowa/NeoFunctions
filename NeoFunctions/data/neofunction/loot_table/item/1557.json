@@ -1,0 +1,107 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:21fb89b5-8773-4450-9c4a-a4a263fa68a4",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:827abdca-4155-4e82-8b89-ae92dc95efc6",
+                  "amount": 0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:power": 3,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "フレームに",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "蛙水結晶",
+                    "color": "#C92DCF"
+                  },
+                  {
+                    "text": "を埋め込んだ弓"
+                  }
+                ],
+                [
+                  {
+                    "text": "射るたびに湿った",
+                    "color": "dark_gray",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "水気",
+                    "color": "dark_aqua"
+                  },
+                  {
+                    "text": "を放つ。"
+                  }
+                ],
+                {
+                  "text": "スペルアイテム🔯【水牢の呪縛】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃時、水属性追加ダメージ＋鈍足付与",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "クールダウン：15s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "ケロクリスタルボウ",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1557
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

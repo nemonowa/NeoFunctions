@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 20,
+                "minecraft:sharpness": 4,
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:repair_cost": 9999,
+              "minecraft:lore": [
+                {
+                  "text": "燃え盛る闘志が刃に宿る",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "「一撃で、灰にしろ」",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "セットスペル🔯【灼刃一体】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "盾と共に構える時、真価を発揮する。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "剣と盾を同時装備で攻撃力上昇",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "プロミネンス・ソード",
+                "color": "#FF1A1A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1803
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

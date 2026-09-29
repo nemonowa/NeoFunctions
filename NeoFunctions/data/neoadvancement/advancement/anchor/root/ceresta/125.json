@@ -1,0 +1,42 @@
+{
+  "parent": "neoadvancement:anchor/root/ceresta/124",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map"
+    },
+    "title": [
+      {
+        "translate": "到達：黄金盟約の停泊船 -The anchored ship of the Golden Covenant-                                ",
+        "color": "aqua",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r目標座標(pos:125)に到達する。\n§3報酬：§r経験値×32\n§9説明：§rかつての誓いを刻んだ巨船の錨が深く沈み、静けさを叩き割る潮騒とともに不穏な波紋を広げる、盟約の終着港。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:2/125": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

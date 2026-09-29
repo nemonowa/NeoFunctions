@@ -1,0 +1,56 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false,
+  "attributes": {
+    "minecraft:visual/sky_color": "#ff4d00",
+    "minecraft:visual/fog_color": "#ff8c66",
+    "minecraft:visual/water_fog_color": "#611d00",
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:entity.player.levelup",
+        "min_delay": 2880000,
+        "max_delay": 2880000,
+        "replace_current_music": false
+      }
+    },
+    "minecraft:visual/ambient_particles": {
+      "argument": [
+        {
+          "particle": {
+            "type": "minecraft:white_ash"
+          },
+          "probability": 0.118093334
+        }
+      ],
+      "modifier": "append"
+    },
+    "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:ambient.basalt_deltas.loop",
+      "mood": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {},
+        "spawns_by_category": {}
+      },
+      "modifier": "overlay"
+    }
+  },
+  "effects": {
+    "water_color": "#ff0202",
+    "grass_color": "#954a00",
+    "foliage_color": "#ffa257"
+  },
+  "carvers": [],
+  "features": []
+}

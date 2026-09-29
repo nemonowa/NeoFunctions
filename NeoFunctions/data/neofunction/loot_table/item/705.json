@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:thorns": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:tide"
+              },
+              "minecraft:custom_name": {
+                "text": "バイオ装甲",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 729386,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  705
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

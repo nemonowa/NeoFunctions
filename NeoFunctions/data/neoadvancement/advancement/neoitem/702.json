@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/701",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：冥府の弓矢 -Bow and Arrow of the Underworld-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:702)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r宵闇に紫を運ぶ冥府の弓矢\n命中した標的を三回、大幅に負傷させる。\n➼➼➼ Wir sind der Jäger ➼➼➼\n➼獲物を殺すのは凶器でも技術でもない、\n➼迸る衝動に其の身を灼き尽くすお前自身の殺意だ。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  702
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

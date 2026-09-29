@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:lore": [
+                {
+                  "text": "投げると対応する番号のスキルが発動する。",
+                  "color": "white"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルスクロール=スキル【No.1】",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  104
+                ]
+              },
+              "minecraft:custom_data": {
+                "skill": 1,
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/3/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～悪いルクスリアン？～                        ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：レギオネラ号のルクスリアンを15体討伐する。\n§3§l報酬§r§f：§e大統一銅貨§r§420§r§e枚§r\n§9§l説明§r§f：近々、奇妙な連中がルクスイーファの海岸に停泊しているんだ。\n奴らは、我々の物資を奪うような「海賊」ではないんだが、\n船に近づく者には決して容赦しない。どんな者でも攻撃対象かは\nまだ分かっていない。金ぴかの装備でも身に着けてれば話は別かもしれない。\nどうだ？少し調査を頼まれてくれないか？",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/4": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,204 @@
+{
+  "parent": "neoadvancement:ceresta/root/3/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "獲得：周辺の目標アイテムを収集する～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域の目標アイテムを全て集める。\n§3§l報酬：§f経験値×16\n§9§l説明：§7ハーベストピッケル、ケロ✭ケプラーアーマー(頭)、ハイケロクリスタル、ルクスイーファの黄金ビール、黄金麦サンド、ハイケロクリスタルスピア、圧縮小麦俵、春夏秋冬四季の塊、Magic barett M82-TypeFishing、農家の証-小麦-TierⅡ、マンドラゴア(代表11種類)",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1740
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1547
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1571
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1756
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1744
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1562
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1591
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1642
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1508
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "10": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1416
+                ]
+              }
+            }
+          }
+        ]
+      }
+    },
+    "11": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1333
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/8"
+  }
+}

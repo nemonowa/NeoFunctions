@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/783",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：スペルサイン【-紫-封印解放】 -Spell Sign [-Purple-Seal Release]-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:784)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r魔板設置 I\n名前の色に対応する色ガラスを\n広範囲に破壊するスペルエッグを設置する\nADVモードでもレッドストーンに設置でき\n各所の封印を解除することができる",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:armor_stand"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  784
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

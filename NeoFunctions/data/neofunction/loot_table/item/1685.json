@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "Dead Men Tell No Tales",
+                "color": "dark_blue",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "海賊狩りを使命としたスペイン海軍の艦長。 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その執念は死してなお朽ちることなく、 ",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "亡霊となってスカルリメインを訪れる者を裁き続けている。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 3,
+                "minecraft:protection": 1,
+                "minecraft:loyalty": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:be625955-8ccf-485c-b978-04f009af66c9",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "head"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:3b47e8bd-d803-4ab0-b1a1-c1a317090e7c",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  1191505505,
+                  -522892800,
+                  -1866621670,
+                  284728437
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVmNmE2Nzc0MmFiZTQ4N2VkNmNmZjVjM2Y4MmIyZmNkZjk3NDVmYjVmMjk5Nzg2ZWM2YjZjNzdlZDI5MjA3MSJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1685
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

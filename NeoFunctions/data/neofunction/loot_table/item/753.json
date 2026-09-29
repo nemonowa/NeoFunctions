@@ -1,0 +1,91 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "✡",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "聖剣",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "✞"
+                },
+                {
+                  "text": "EXcalibur",
+                  "color": "dark_purple",
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "聖剣の威光 enchantment.level.111",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "魂の共鳴 enchantment.level.111",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 255,
+                "minecraft:sweeping_edge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:cbfe22c3-eeac-4723-b317-08fe9b54a6b8",
+                  "amount": -0.25,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:eaa29df8-9973-44cf-badd-0018c8da18a2",
+                  "amount": -3.5,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:93547bfd-7807-489f-9536-bab858d49a18",
+                  "amount": 111,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  753
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

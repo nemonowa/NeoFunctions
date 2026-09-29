@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "": {
+            "trigger": "fishing_rod_hooked",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "structure_block"
+                    ]
+                }
+            }
+        }
+    }
+}

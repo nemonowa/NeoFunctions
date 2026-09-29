@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "🍀｜",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "豊穣",
+                  "color": "#C3D825"
+                },
+                {
+                  "text": "の"
+                },
+                {
+                  "text": "大",
+                  "color": "dark_green"
+                },
+                {
+                  "text": "自然島"
+                },
+                {
+                  "text": " -CerestaFesta-",
+                  "color": "#C3D825"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "プロローグ【prologue】 ",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "①演劇で、前口上。序幕。⇔エピローグ。",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "②詩歌・小説・戯曲などの文学作品で、",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "本筋の展開に先だつ前置きの部分。序章。",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "また、物事の始まり。発端。⇔エピローグ。",
+                  "color": "yellow",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1278
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "澄み切った蒼空のもとに晴天。\n心地いい冷たい風が草花を揺らす音、肌を撫ぜる感覚に目を醒ます。\nこの大地に漂流したのはつい最近のことだ。\n貴方は旅の途中、スコールに襲われた。大自然の暴風の前に貴方の船体ごと吹き飛ばされて、気づいたらこの浜辺に打ち上げられていた。",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "ここは神秘のベールに包まれた豊穣の大自然島【セレスタフェスタ】。どの航海図にもない絶海の孤島だが、無人島というわけではなく、女神【セレスタ】を信仰し、独特な文化や魔法体系を築いているようだ。",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "島の遺跡【ダンジョン】には魔法の道具【スペルアイテム】が散在し、未知の魔物【エンティティ】が蔓延っている。\n道なき未知を、自らの足で踏み砕き、自らの意思で切り拓く、それこそが今の貴方の目的である。\n貴方の軌跡こそが地図となるのだ。\n\nThe World of Wonders",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

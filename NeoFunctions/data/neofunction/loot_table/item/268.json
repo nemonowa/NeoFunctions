@@ -1,0 +1,137 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "人間とは考える筋肉である。",
+                "color": "#FF0000",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "サイドチェストォォォ！！！",
+                  "color": "#FF0000",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:knockback": 2,
+                "minecraft:sharpness": 10,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:a740f46e-5763-47e3-bc53-4385b652fd03",
+                  "amount": -0.08,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:0027be34-2885-4c98-b51a-6b1e71c683bf",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7060f26c-4abb-4607-8f1b-d29c99287c3d",
+                  "amount": -0.08,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:891b345c-d973-469a-b043-8b87e874fb06",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_middle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:stripe_center",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:triangle_bottom",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "blue"
+                },
+                {
+                  "pattern": "minecraft:rhombus",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:circle",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "magenta"
+                },
+                {
+                  "pattern": "minecraft:triangles_top",
+                  "color": "white"
+                }
+              ],
+              "minecraft:base_color": "light_gray",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  268
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/252",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：深蝕苦無【ディーブヴェノム】 -Blast Acceleration-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:253)の習得\n§9説明：§r発動時8m以内の対象3体に小ダメージを与え継続する蝕む毒を与えるクナイを投げる。命中した相手には呪印も刻む（SP5消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                253
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

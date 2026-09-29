@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/231",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：召狼【サモン・ウルフ】 -Summon Wolf-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:232)の習得\n§3報酬：§r経験値×32\n§9説明：§r狼の使い魔を1体召喚。素早く単体の敵を追跡し続け、噛みついて攻撃する接近特化型。（SP30消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                232
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/empty"
+  }
+}

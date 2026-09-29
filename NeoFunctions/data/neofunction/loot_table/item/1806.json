@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:5613ac4d-4830-4aac-b19b-32eebeba10e6",
+                  "amount": -0.05,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "name": "Soluto3090",
+                "id": [
+                  1985949816,
+                  -94092919,
+                  -1389428779,
+                  1218213055
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "ewogICJ0aW1lc3RhbXAiIDogMTc4NDEyNzU3ODAzOSwKICAicHJvZmlsZUlkIiA6ICI3NjVmMzA3OGZhNjQ0MTg5YWQyZWZmZDU0ODljNzRiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTb2x1dG8zMDkwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzY2ViYWMyYzgxM2NjOGQ1ODBkNzc4MDAxZTY5MTE3ZGM3OTlmNmEzYzk1MDY1YTY0NzUwYjNjZjYxNjg5YzgiCiAgICB9CiAgfQp9",
+                    "signature": "yc3T216+4h6h/94B1OFjGHvvE5Tmw5dujSK34h27yrGpaoods6uHr3nIWzax30v4otvNadZUBA95uto47tKhF/Sy4c5j+xYooVACCNpCqybfr+JE4iWq8OES+YGGh9k4zAhRA4ZB1xrCWWmoyKhHXcYKvUz2fVONGrIyVzz60VvGPnlChWYJrpprEo5vwXtTjg6IspbxETsiWWhjjLGEv6z1NHcKbEmDciZBk/Njw1eRNJRvJEZe/Fu0jFqUyd/OCw4/l+Nq+RKNM38TZcAeR/pCCRP7K9hhXA3xld6vSA018/gepR2oI5MfCM/l1jW7c6KkYmv2+P9Fw4Flsyf8rVdHJ+x3qjSF0KmP6JOGxjkJNlNW8c98j3weIYXqWOESIYiMnlPV2+zSGBX5NVaHgYPDF2jImhqz5darwAQpqpb26pBW6Ub8Ro8QSRuHOoc2bYFW/pLO4EksSq4fNiBVNYUcdAn1A4H6TEkny1weF6oSnt6lq1TqrKLW+ujiWQq0hfF7j7OCBQ+vIczmYGREhr1Tx2Okoh0emt1hu2q/cJ3vwj3kdJPw9dCFGWn29BECugkESwGwhRMN4cM7kYXVkkWAaTdjpmmuSB9D6dlFLuBRI1M1yt1QxsxMIjwhTnY3YNAbos0/VQOS4qzUyXEmXej/7CsYNLcB/31Qnn4q8iw="
+                  }
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "かつて誰かの顔であったもの",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "今はラルーシャの夢の一部として、揺蕩っている",
+                  "color": "gray",
+                  "italic": true
+                },
+                {
+                  "text": "らるーしゃなりきりせっと",
+                  "color": "gray",
+                  "italic": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "静寂の骸骨",
+                "color": "dark_red",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1806
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

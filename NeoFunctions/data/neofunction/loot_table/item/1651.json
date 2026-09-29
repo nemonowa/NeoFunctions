@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "水もどき"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水は生命にとって基本となる成分です。1日2L摂取しましょう。"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

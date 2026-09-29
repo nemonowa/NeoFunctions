@@ -1,0 +1,115 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "シールドブースター",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": true
+                },
+                {
+                  "text": "|||",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "盾が盾に見えるうちはルーキーさ。 ",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "盾持って走りな、飛ぶぞ？",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:b3bd0405-213b-4d1c-afc6-7de0b17ed387",
+                  "amount": 3.14,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:4a53f730-92bc-40ce-ab04-243dc1b021da",
+                  "amount": 3.14,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:gradient",
+                  "color": "pink"
+                },
+                {
+                  "pattern": "minecraft:gradient_up",
+                  "color": "light_blue"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "light_gray"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "white"
+                },
+                {
+                  "pattern": "minecraft:flower",
+                  "color": "light_gray"
+                }
+              ],
+              "minecraft:base_color": "black",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  189
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:710860f5-6910-497f-b50b-803631db494c",
+                  "amount": 4,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "armor_toughness",
+                  "id": "neofunction:2546eb3e-1f0d-466c-ad7f-e4acb1b1e405",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:1cb7d343-97b6-41f1-b94b-382dcd421f6f",
+                  "amount": -0.03,
+                  "operation": "add_multiplied_total",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:trim": {
+                "material": "minecraft:quartz",
+                "pattern": "minecraft:shaper"
+              },
+              "minecraft:custom_name": {
+                "text": "骨の胸当て",
+                "color": "white",
+                "italic": false
+              },
+              "minecraft:dyed_color": 16315622,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  728
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

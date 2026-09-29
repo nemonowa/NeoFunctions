@@ -1,0 +1,6 @@
+# 命名：真祖の不死者【トゥルーアンデット】
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/54
+
+summon zombie ~ ~ ~ {CanBreakDoors:1b,CustomName:{"text":"真祖の不死者【トゥルーアンデット】","bold":true,"italic":false},active_effects:[{id:"minecraft:slowness",amplifier:4b,duration:60},{id:"minecraft:strength",amplifier:1b,duration:-1},{id:"minecraft:regeneration",amplifier:1b,duration:-1}],attributes:[{id:"minecraft:spawn_reinforcements",base:1}],Tags:[lv4,undead,elite],DeathLootTable:"neofunction:asset/summon/54",equipment:{feet:{id:"minecraft:chainmail_boots",count:1,components:{"minecraft:trim":{material:"0",pattern:"6"}}},legs:{id:"minecraft:chainmail_leggings",count:1,components:{"minecraft:trim":{material:"0",pattern:"6"}}},chest:{id:"minecraft:chainmail_chestplate",count:1,components:{"minecraft:trim":{material:"0",pattern:"6"}}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;1395953307,852577939,-1927036465,-234158847],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNhYjk0ZmM0ODlhMjA0MzRlMTJhMWY3N2E0MDQ4MDkxZGYyYmNiOGViYzExYWE1ZjcwNjIwN2UzZDFjYmNmZiJ9fX0="}]}}}}}

@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/499",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：禁則事項です -This is prohibited.-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:500)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rTWOWは無限の自由度と選択肢が魅力のゲームです。\nしかし楽しむためのルールがあるので始めに記載しておきます。\n\n禁則事項\n・内部データの書き換え\n・チート及びクリエイティブモードの使用\n・グリッチの悪用\n・砥石の使用\n・バリアブロックすり抜け\n・持ち込み、持ち出し禁止エリアのアイテムの密輸、強奪\n☆初見の楽しみを奪う過度なネタバレ(SNSでは #TWOWを！)\n\n以上をTWOWでは非正規攻略手段とみなしています。これらの不正は無しでお楽しみください。なお以上の行為を検知した場合ワールドへのペナルティが発動する場合があります。\n\nなお完全攻略を達成した後はこれらの制限は消滅します。\n楽しんでね！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:written_book"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  500
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/st"
+  }
+}

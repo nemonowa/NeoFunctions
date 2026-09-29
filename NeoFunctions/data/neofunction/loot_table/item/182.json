@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "エナジーメイト",
+                "color": "#FCC800",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "クライラット社謹製のお手軽エネルギー補給飲料。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                [
+                  {
+                    "text": "油分を浸したシートパイ",
+                    "color": "yellow",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "を丸呑みする様な",
+                    "color": "dark_gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                {
+                  "text": "食感だが慣れるとクセになる味。",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "オールハイル・ディストピア！",
+                  "color": "black",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  182
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16566272,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 0,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:saturation",
+                    "amplifier": 19,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 0,
+                    "duration": 100
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

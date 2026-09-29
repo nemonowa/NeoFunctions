@@ -1,0 +1,33 @@
+{
+  "parent": "neoadvancement:nexus/root/0/8",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "CYANO_TORUS"
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "異空の計器とNEXUS転移要請について～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル9を完了する。\n§3§l報酬：§fスキル「転移要請」の解放\n§9§l説明：§7それは未知の§9透明球体§7\n異空兵装の第三形態にして、本体は透明の球体で、内部には四方向以上を示す羅針が、外部には§e衛星起動§7のように周回している。持ち主の§5目指すべき道§7を示す§6羅針盤§7。\n§dシフトスキル§7であらゆる次元からでもNEXUSに帰還できる！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

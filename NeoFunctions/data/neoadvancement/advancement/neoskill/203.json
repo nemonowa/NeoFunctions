@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/202",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：空脚【エアステップ】 -Air Step-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:203)の習得\n§9説明：§r地面に叩きつけた斬撃の衝撃を利用して前方へ跳躍し着地時にダメージを与える技。攻防一体の間合い操作として用いられる。滞空中に白刃一閃を重ねると追撃ボーナスが入る。（SP10消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                203
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/2/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～釣り日和～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：魚を合計15匹釣る\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§c焼き鱈10+焼き鮭10§r\n§9§l説明§r§f：天気も穏やかで、水面も静かだ。こんな日は。釣りをするのにちょうどいい。魚を15匹釣って、成果を見せよう。運がいいと変なものも釣れるかも！",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/2": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

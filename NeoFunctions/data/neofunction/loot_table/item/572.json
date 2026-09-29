@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "創世記【旧薬整所】",
+                "color": "#BFFF8F",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  572
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 12582799,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 4,
+                    "duration": 300
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:acacia_wood"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アワアワした卵",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "あわぴょいがテストしているよ",
+                  "color": "white"
+                }
+              ],
+              "minecraft:entity_data": {
+                "NoGravity": 1,
+                "Silent": 1,
+                "Glowing": 1,
+                "Team": "green",
+                "Size": 1,
+                "Tags": [
+                  "check"
+                ],
+                "CustomName": {
+                  "text": "アワアワらいむ",
+                  "color": "green"
+                },
+                "active_effects": [
+                  {
+                    "id": "minecraft:invisibility",
+                    "amplifier": 0,
+                    "duration": -1
+                  }
+                ],
+                "id": "minecraft:slime"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1047
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

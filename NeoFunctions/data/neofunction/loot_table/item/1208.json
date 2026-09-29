@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ルビコニアンふつうのデスワーム（食用）",
+                "color": "#FF3F21",
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ルビコニャン",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:entity_data": {
+                "CustomName": {
+                  "text": "ルビコニャン",
+                  "color": "#FF3F21"
+                },
+                "id": "minecraft:cat"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1208
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:can_place_on"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

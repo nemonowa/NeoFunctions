@@ -1,0 +1,72 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "霜白ミルクティー",
+                "color": "#FFD9D4",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "冷えた茶葉と乳を合わせた飲み物。冷たくて甘い。",
+                  "color": "#FFD9D4",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1129
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16767444,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 1,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 1,
+                    "duration": 100
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 127,
+                    "duration": 1
+                  },
+                  {
+                    "id": "minecraft:levitation",
+                    "amplifier": 60,
+                    "duration": 1
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

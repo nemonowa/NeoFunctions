@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lingering_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ねばっこい液体",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "国境なきスライム医師団から絞った体液",
+                  "color": "light_purple",
+                  "italic": false
+                },
+                {
+                  "text": "純度100％！",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  510
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:strong_healing",
+                "custom_color": 16728800
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

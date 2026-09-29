@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/193",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：The Terminator                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:194)の発見\n§3報酬：§r経験値×16\n§9説明：§r終焉者【ターミネーター】終わらせるもの。鈍重の究極体、初めて出会うであろうTUSB NEO のボスチームもちmob、CITテクスチャモデリングを存分に活かした巨体が赤く発光しいやでもやばい奴とわかるだろう。、一撃の重さやポーション無効等の特殊能力もさることながら、無限遠ワープスキル「亜空間移動」と何よりその超耐久で、機械のごとく追い回す、まさに終わらせるもの。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/194\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/ex"
+  }
+}

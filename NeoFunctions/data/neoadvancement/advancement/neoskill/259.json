@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/258",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：終影審判【エンド・オブ・シャドウ】 -skill-special-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:259)の習得\n§9説明：§r発動時、周囲16mの敵に対し0.1秒ごとに対象を切り替えながら背後を取り、致命的な連撃をお見舞いする。呪印を刻まれた相手がいれば発動と同時に大ダメージで刈り取る。影の鉄槌を下すAssasinの奥義（SP100消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                259
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

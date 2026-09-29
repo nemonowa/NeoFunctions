@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:hay_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:efficiency": 1
+              },
+              "minecraft:lore": [
+                {
+                  "translate": "%1$sが大量に圧縮されてできた俵。",
+                  "color": "gray",
+                  "italic": false,
+                  "with": [
+                    {
+                      "text": "黄金麦",
+                      "color": "gold",
+                      "bold": true
+                    }
+                  ]
+                },
+                {
+                  "text": "ルクスイーファの名産品で、通貨のように扱われることもある。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "黄金麦の圧縮俵",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1591
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

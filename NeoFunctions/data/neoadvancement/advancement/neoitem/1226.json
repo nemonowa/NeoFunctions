@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1225",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：聖騎士の十字剣 / Paladin's Cross -Shekmoth Heavy Sword-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1226)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r十字架の形状をした鉈武器。幾世紀にも渡りパラディンの聖なる武器の象徴でありスケルトン、或いは疑いをかけられてきた者達を倒してきた✝ホーリーロードフェニックス✝に受け継がれた名刀",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1226
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

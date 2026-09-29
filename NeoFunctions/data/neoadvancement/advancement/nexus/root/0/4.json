@@ -1,0 +1,33 @@
+{
+  "parent": "neoadvancement:nexus/root/0/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "name": "EveryTwo"
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "世界観：経験値とレベル上昇について",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：チュートリアル4を完了する。\n§3§l報酬：§fホープスター\n§9§l説明：§d「願いの強さ」§7が§c力§7に直結する§5世界§7\n彼方の君は§b希望を現実に昇華させるための力§7、§3冀求力§7【ききゅうりょく】を行使する術を知る\nあの未来を変えるため冀求力を強化し、§6レベル§7を上げていくために§eホープスター§7を集めよう。それは君の魂に§a記憶§7され、決して失われない力となるから。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

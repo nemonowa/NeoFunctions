@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "features": [
+    {
+      "feature": {
+        "type": "minecraft:replace_single_block",
+        "targets": [
+          {
+            "target": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "id": "minecraft:sweet_berry_bush",
+                "properties": {
+                  "age": "0"
+                }
+              }
+            },
+            "state": "minecraft:sweet_berry_bush"
+          },
+          {
+            "target": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "id": "minecraft:sweet_berry_bush",
+                "properties": {
+                  "age": "1"
+                }
+              }
+            },
+            "state": {
+              "id": "minecraft:sweet_berry_bush",
+              "properties": {
+                "age": "2"
+              }
+            }
+          },
+          {
+            "target": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "id": "minecraft:sweet_berry_bush",
+                "properties": {
+                  "age": "2"
+                }
+              }
+            },
+            "state": {
+              "id": "minecraft:sweet_berry_bush",
+              "properties": {
+                "age": "3"
+              }
+            }
+          }
+        ]
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": 40
+        },
+        {
+          "type": "minecraft:offset",
+          "x": {
+            "type": "minecraft:trapezoid",
+            "min": -4,
+            "max": 4,
+            "plateau": 0
+          },
+          "y": 0,
+          "z": {
+            "type": "minecraft:trapezoid",
+            "min": -4,
+            "max": 4,
+            "plateau": 0
+          }
+        }
+      ]
+    }
+  ]
+}

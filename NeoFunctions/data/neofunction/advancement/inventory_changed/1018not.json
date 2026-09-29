@@ -1,0 +1,72 @@
+{
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "minecraft:equipment": {
+                    "head": {
+                      "components": {
+                        "minecraft:custom_model_data": {
+                          "floats": [
+                            1018
+                          ]
+                        }
+                      }
+                    },
+                    "chest": {
+                      "components": {
+                        "minecraft:custom_model_data": {
+                          "floats": [
+                            1019
+                          ]
+                        }
+                      }
+                    },
+                    "legs": {
+                      "components": {
+                        "minecraft:custom_model_data": {
+                          "floats": [
+                            1020
+                          ]
+                        }
+                      }
+                    },
+                    "feet": {
+                      "components": {
+                        "minecraft:custom_model_data": {
+                          "floats": [
+                            1021
+                          ]
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{Tags:[wheathp]}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/inventory_changed/1018not"
+  }
+}

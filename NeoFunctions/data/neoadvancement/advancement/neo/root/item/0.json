@@ -1,0 +1,48 @@
+{
+  "parent": "neoadvancement:neo/root/written_book",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -718073293,
+            503598341,
+            -1804685886,
+            118208621
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI2MDdmNDUyZGVlYTZiZDlmODExNGQ0M2RkNDM0MDJlOTNmOWFmMmM4ZmE2ODBmMjkwNDhhZDBiNDdhZWVhMyJ9fX0="
+            }
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "宝具収容：未知アイテムの記憶域～～～～～",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：未知のアイテムを収集する。\n§3§l報酬：§f進捗タブ「アイテム百科全書」の解放\n§9§l説明：§7アイテムは投げるとレアリティがわかる。九段階に分類され等星が多いほど強力。",
+      "color": "white"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:give"
+  }
+}

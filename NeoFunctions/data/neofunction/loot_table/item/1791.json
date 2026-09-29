@@ -1,0 +1,305 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1791
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "かえるゲーム",
+                    "extra": [
+                      "\n",
+                      {
+                        "text": "－ウェーブサバイバル－\n\n",
+                        "color": "gray"
+                      },
+                      {
+                        "text": "全15ウェーブ\n",
+                        "color": "dark_gray"
+                      },
+                      {
+                        "text": "制限時間 5分\n\nこの本はルールと\n報酬をまとめた\n攻略ガイドです。",
+                        "color": "dark_gray"
+                      }
+                    ],
+                    "color": "aqua",
+                    "bold": true
+                  },
+                  {
+                    "text": "①準備",
+                    "extra": [
+                      "\n参加すると",
+                      {
+                        "text": "5秒",
+                        "color": "gray"
+                      },
+                      "\nのカウントダウンの後\nゲームがスタートします。\n\n",
+                      {
+                        "text": "②ウェーブ",
+                        "color": "blue",
+                        "bold": true
+                      },
+                      "\n20秒おきに新しい敵が\n出現します。(全15Wave)\n\n",
+                      {
+                        "text": "③終了",
+                        "color": "blue",
+                        "bold": true
+                      },
+                      "\n開始から",
+                      {
+                        "text": "5分(300秒)",
+                        "color": "red"
+                      },
+                      "\nでタイムアップとなり\nリザルトが表示されます。"
+                    ],
+                    "color": "blue",
+                    "bold": true
+                  },
+                  {
+                    "text": "敵の紹介 ",
+                    "extra": [
+                      {
+                        "text": "①/②",
+                        "color": "gray",
+                        "bold": true
+                      },
+                      "\n\n",
+                      {
+                        "text": "基本ガエル",
+                        "color": "green"
+                      },
+                      "\n序盤から出る標準の敵\n\n",
+                      {
+                        "text": "スリンガー",
+                        "color": "aqua"
+                      },
+                      "\nWave2から出現。遠距離攻撃\n\n",
+                      {
+                        "text": "シャーマン",
+                        "color": "dark_purple"
+                      },
+                      "\nWave3から出現。支援役\n\n",
+                      {
+                        "text": "祈祷ガエル",
+                        "color": "dark_green"
+                      },
+                      "\nWave4から出現\n\n",
+                      {
+                        "text": "オフィサー",
+                        "color": "yellow"
+                      },
+                      "\nWave5から出現。指揮官役"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "敵の紹介 ",
+                    "extra": [
+                      {
+                        "text": "②/②",
+                        "color": "gray",
+                        "bold": true
+                      },
+                      "\n\n",
+                      {
+                        "text": "アイアンガエル",
+                        "color": "gray"
+                      },
+                      "\nWave6から出現。硬い盾役\n味方を",
+                      {
+                        "text": "庇う",
+                        "underlined": true
+                      },
+                      "ことがある\n\n",
+                      {
+                        "text": "自爆ガエル",
+                        "color": "red"
+                      },
+                      "\nWave7から出現。要注意\n\n",
+                      {
+                        "text": "エリートストライカー",
+                        "color": "gold"
+                      },
+                      "\nWave9から出現\n\n",
+                      {
+                        "text": "エリートスリンガー",
+                        "color": "gold"
+                      },
+                      "\nWave11から出現\n\n",
+                      {
+                        "text": "エリートアイアン",
+                        "color": "gold"
+                      },
+                      "\nWave12から出現。最強の盾役"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "後半ウェーブ",
+                    "extra": [
+                      "\n\nウェーブが進むほど\n敵の数と種類が増え\n",
+                      {
+                        "text": "アイアンガエル",
+                        "color": "gray"
+                      },
+                      "が\n後衛を",
+                      {
+                        "text": "庇う",
+                        "underlined": true
+                      },
+                      "連携編成も\n登場します。\n\nWave10以降はエリート級が\n入り乱れる高難易度編成。\n\n",
+                      {
+                        "text": "Wave15",
+                        "color": "gold"
+                      },
+                      "は全種類が投入\nされる最終決戦です。"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "注意事項",
+                    "extra": [
+                      "\n\n",
+                      {
+                        "text": "挑戦中は途中参加不可",
+                        "color": "red"
+                      },
+                      "\n誰かが挑戦している間は\n新たに参加できません。\n参加しようとすると\n参加費が返却されます。\n\n",
+                      {
+                        "text": "ダウンに注意",
+                        "color": "red"
+                      },
+                      "\n倒れると",
+                      {
+                        "text": "DOWN",
+                        "color": "dark_red"
+                      },
+                      "の演出が\n入ります。無理せず\n立ち回りましょう。"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "報酬について ",
+                    "extra": [
+                      {
+                        "text": "①/③",
+                        "color": "gray",
+                        "bold": true
+                      },
+                      "\n\n5分間生き残るか\n時間切れになると\nリザルトが表示され\n到達した",
+                      {
+                        "text": "ウェーブ数",
+                        "color": "aqua"
+                      },
+                      "に\n応じて報酬が\n",
+                      {
+                        "text": "累積",
+                        "underlined": true
+                      },
+                      "で手に入ります。"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "報酬について ",
+                    "extra": [
+                      {
+                        "text": "②/③",
+                        "color": "gray",
+                        "bold": true
+                      },
+                      "\n\n到達ウェーブ数の分だけ\n下のセットが積み重なって\nもらえます。(1Wave毎)\n\n",
+                      {
+                        "text": "ケロクリスタル",
+                        "color": "aqua"
+                      },
+                      " ×1\n",
+                      {
+                        "text": "ケロボーン",
+                        "color": "white"
+                      },
+                      " ×2\n",
+                      {
+                        "text": "ケロレーザー",
+                        "color": "red"
+                      },
+                      " ×2\n",
+                      {
+                        "text": "ケロオイル",
+                        "color": "yellow"
+                      },
+                      " ×1"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "報酬について ",
+                    "extra": [
+                      {
+                        "text": "③/③",
+                        "color": "gray",
+                        "bold": true
+                      },
+                      "\n\n",
+                      {
+                        "text": "Wave9",
+                        "color": "gold"
+                      },
+                      "以降はさらに\n",
+                      {
+                        "text": "ハイケロクリスタル",
+                        "color": "light_purple"
+                      },
+                      " ×1\nが毎ウェーブ追加されます。\n\n例：",
+                      {
+                        "text": "Wave15",
+                        "color": "gold"
+                      },
+                      "まで到達すると\nクリスタル×15 ボーン×30\nレーザー×30 オイル×15\nハイクリスタル×7\nがもらえます！"
+                    ],
+                    "bold": true
+                  },
+                  {
+                    "text": "がんばって！",
+                    "extra": [
+                      "\n\nより高いウェーブを\n目指して挑戦しよう！\n\n",
+                      {
+                        "text": "Good luck,\n",
+                        "color": "gray"
+                      },
+                      {
+                        "text": "Frog Hunter!",
+                        "color": "gray"
+                      }
+                    ],
+                    "color": "gold",
+                    "bold": true
+                  }
+                ],
+                "title": "かえるゲーム 攻略ブック",
+                "author": "Frogtopia",
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

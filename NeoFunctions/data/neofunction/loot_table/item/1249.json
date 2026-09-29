@@ -1,0 +1,73 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "~金卓~",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "急がば回れの",
+                    "color": "#A51FFF",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "「ガバ」",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "の部分"
+                  }
+                ]
+              ],
+              "minecraft:dyed_color": 16743705,
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:thorns": 1,
+                "minecraft:soul_speed": 1,
+                "minecraft:punch": 10,
+                "minecraft:unbreaking": 10
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:358284d2-3241-4cf0-a569-5b8aaa7f027e",
+                  "amount": 1,
+                  "operation": "add_value",
+                  "slot": "any"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:amethyst",
+                "pattern": "minecraft:vex"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1249
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "冥府の鎌鞭",
+                  "color": "#DDD5E2",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "【",
+                  "color": "#76517E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "グリム・リーパーズ・フック",
+                  "color": "#54284F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "】",
+                  "color": "#76517E",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "「死は、逃げる者を追う。」",
+                  "color": "#DDD5E2",
+                  "italic": true
+                },
+                {
+                  "text": "冥府の番人が携えたとされる、黒き死神の鞭。",
+                  "color": "#B8A8BE",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その鞭先には、死者を絡め取るための鉤が連なる。",
+                  "color": "#967F9D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "振るうたび、亡者の魂を冥府へと引きずり込むという。",
+                  "color": "#815E89",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "だが、冥府の力を借りるには代償がいる。",
+                  "color": "#704B78",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "持ち主の生命力は少しずつ奪われ、",
+                  "color": "#673C6D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "その身は生者の領域から遠ざかっていく。",
+                  "color": "#5B315F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "そして死者を追い続けた者も、いつかは――",
+                  "color": "#743C57",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "冥府の一員となる。",
+                  "color": "#A34C61",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 255,
+                "minecraft:knockback": 3,
+                "minecraft:smite": 88,
+                "minecraft:sweeping_edge": 6
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:f00b01d3-e99c-4ff1-acf0-cec136d5632c",
+                  "amount": -0.375,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1823
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

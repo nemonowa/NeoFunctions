@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 3997440
+      }
+    },
+    "title": [
+      {
+        "translate": "🍀｜セレスタサブ進捗：クエストの攻略率について",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "❱ Dimension：CerestaFesta\n❱ DataPack：NeoFunctions\n❱ ResourcePack：NeoTextures\n❱ Author：Project-NEXUS",
+      "color": "#119c85"
+    },
+    "background": "minecraft:block/lime_glazed_terracotta",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta/root": true
+              }
+            },
+            "minecraft:location": {
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  }
+}

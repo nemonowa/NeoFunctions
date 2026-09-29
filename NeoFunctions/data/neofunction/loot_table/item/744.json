@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:entity_data": {
+                "Invisible": 0,
+                "Invulnerable": 1,
+                "id": "minecraft:item_frame"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "コマンドで改造された特殊な額縁",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "家具や装飾、倉庫整理の必需品",
+                  "color": "white",
+                  "italic": false
+                },
+                {
+                  "text": "バニラでも使えたらいいのにね",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "無敵額縁",
+                "color": "aqua",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  744
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

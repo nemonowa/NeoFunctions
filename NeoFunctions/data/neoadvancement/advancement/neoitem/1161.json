@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/1160",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：レジェンダリールート -Legendary Route-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:1161)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r討伐時に敵が落とした戦利品\n開封すると高レアリティのアイテムが手に入る\n幸運値が大きいほど出やすくなり、\n解析装置や鑑定スキルを使用すると、\nより良いアイテムが手にはいる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:dropper"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1161
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/6"
+  }
+}

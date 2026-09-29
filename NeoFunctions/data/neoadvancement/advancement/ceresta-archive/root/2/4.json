@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/2/3",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～迷子の牛と羊～                        ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：柵から逃げた牛と羊を連れ戻す\n§3§l報酬§r§f：§e大統一銅貨§r§420§r§e枚§r§e+§r§c碧天ミルクバケツ×2+碧天チーズ×2+碧天バター×2§r\n§9§l説明§r§f：碧天牧場で飼われている牛と羊が壊れた柵の隙間から逃げ出してしまった。ルークは無理に動物たちを追い回したくないようだ。周囲を探し。脅かさないように牧場へ連れ戻そう。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/2/4": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

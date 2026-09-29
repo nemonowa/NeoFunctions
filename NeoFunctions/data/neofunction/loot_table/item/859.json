@@ -1,0 +1,105 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dispenser",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:obsidian"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "全自動たまご割り機",
+                "color": "dark_aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "古代魔術の粋を集めて作られた伝説のアーティファクト",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:power": 5
+              },
+              "minecraft:block_entity_data": {
+                "Items": [
+                  {
+                    "Slot": 0,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 1,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 2,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 3,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 4,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 5,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 6,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 7,
+                    "id": "minecraft:egg",
+                    "count": 1
+                  },
+                  {
+                    "Slot": 8,
+                    "id": "minecraft:egg",
+                    "count": 1,
+                    "components": {
+                      "minecraft:custom_name": {
+                        "text": "大当たりｗ"
+                      }
+                    }
+                  }
+                ],
+                "id": "minecraft:dispenser"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  859
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

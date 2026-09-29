@@ -1,0 +1,60 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "不運叡智じゃん",
+                "color": "light_purple"
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:protection": 1,
+                "minecraft:fire_protection": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "luck",
+                  "id": "neofunction:05c413b7-5d27-4684-9828-cdaf9bb1fccc",
+                  "amount": -1.5,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:profile": {
+                "id": [
+                  -240650335,
+                  715212817,
+                  -1605975370,
+                  2127103768
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3MzJlNDYxZjVlNTFjN2IyYjhmZjFhODUzZmRmZGI4MzNiMzk5MmQzOTg1YjBhYWRlNzRkMGM3MjRhODU5NiJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  175
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

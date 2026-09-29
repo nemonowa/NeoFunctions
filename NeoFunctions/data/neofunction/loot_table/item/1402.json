@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "⑤ ファイナル・エンド  ",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "  『 終 極 宣 言 』  ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": " "
+                  },
+                  {
+                    "text": " "
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "  ",
+                  "font": "neo",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "クロスギア",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "□ Sharpness Lv127",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ Fire Aspect LvX",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ Knockback LvX",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "□ Sweeping LvX",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 10,
+                "minecraft:knockback": 10,
+                "minecraft:sharpness": 127,
+                "minecraft:sweeping_edge": 10
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1402
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

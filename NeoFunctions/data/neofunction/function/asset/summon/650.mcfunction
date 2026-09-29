@@ -1,0 +1,6 @@
+# 命名：メイジノーム
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/650
+
+summon zombie ~ ~ ~ {Silent:1b,CustomName:{"text":"メイジノーム","color":"#6B5B37","bold":true,"italic":false},attributes:[{id:"minecraft:follow_range",base:8},{id:"minecraft:movement_speed",base:0.1}],Tags:[lv2,heal,rootmist],DeathLootTable:"neofunction:asset/summon/650",equipment:{mainhand:{id:"minecraft:carrot_on_a_stick",count:1,components:{"minecraft:enchantments":{"minecraft:knockback":5}}},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":16777215,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:vex"}}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":16777215,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:vex"}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":16777215,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:vex"}}},head:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;-843163512,464406957,-1086819943,-1033010778],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IzMDc1ZjY0MGVhZmJkYmE0MzE4OTVhYTc5YjU2MjcyMWIwYTdhYWFmYzI0MmZiOTM4YzA3ZGIyZThhODg4YiJ9fX0="}]}}}}}

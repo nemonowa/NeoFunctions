@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "SNSを見ろ！",
+                "font": "hude",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "　"
+                },
+                {
+                  "text": "情報弱者め！",
+                  "font": "hude",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:515fdf83-9778-46f7-bf7b-c81086c1681c",
+                  "amount": 17.76,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:2b4657d6-c641-4763-a10c-856bf63a9316",
+                  "amount": 0.51,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "armor",
+                  "id": "neofunction:be8ab0cd-c399-4f5b-a9d6-fd968e4028b0",
+                  "amount": 7.4,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:cc7bc373-1038-4883-817e-c7ba2f38dc08",
+                  "amount": 0.13,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:efda6f96-74fc-47d0-bc48-a6bbf07dc601",
+                  "amount": 0.13,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  278
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  {
+                    "text": "> 気に入らない奴はブン殴る！それが俺の目指すアメリカだ！！\nHomePage\nDiscord\nYoutube\nGithub\nTwitter(旧X)\nどうだ？俺のアカウントは？"
+                  }
+                ],
+                "title": "",
+                "author": ""
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:written_book_content"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

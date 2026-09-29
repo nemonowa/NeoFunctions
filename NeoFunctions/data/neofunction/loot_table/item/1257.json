@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:armor_stand",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:grass_block"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "スペルスタンド🔯ハーベスト【パンプキン】",
+                "color": "light_purple",
+                "bold": true,
+                "italic": false,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "魔板設置 I",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "カボチャ",
+                    "color": "#FF8C00",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を収穫する",
+                    "color": "dark_gray",
+                    "bold": false
+                  },
+                  {
+                    "text": "スペルサイン",
+                    "color": "light_purple"
+                  },
+                  {
+                    "text": "を設置する",
+                    "color": "dark_gray",
+                    "bold": false
+                  }
+                ],
+                [
+                  {
+                    "text": "設置後、",
+                    "color": "dark_gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "何度も",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "周囲6mのカボチャを収穫できる"
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:entity_data": {
+                "Tags": [
+                  "spellsign",
+                  "harvestpumpkin"
+                ],
+                "id": "minecraft:armor_stand"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1257
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

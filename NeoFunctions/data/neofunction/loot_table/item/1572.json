@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "出合え系サイト",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "で",
+                  "color": "red"
+                },
+                {
+                  "text": "悪人",
+                  "color": "dark_purple"
+                },
+                {
+                  "text": "とマッチングする",
+                  "color": "red"
+                },
+                {
+                  "text": "上様",
+                  "color": "gold"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "成敗！成敗！",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 1,
+                "minecraft:protection": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:3b0f24e8-dda5-4226-84d3-8c3a97b0ddcf",
+                  "amount": 0.4,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1572
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4",
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

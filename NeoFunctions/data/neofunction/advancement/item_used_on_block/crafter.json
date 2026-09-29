@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        },
+        "location": {
+          "type": "all_of",
+          "terms": [
+            {
+              "type": "minecraft:match_block",
+              "blocks": "barrel"
+            },
+            {
+              "type": "location_check",
+              "predicate": {
+                "dimension": "neodimension:nexus"
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/item_used_on_block/crafter"
+  }
+}

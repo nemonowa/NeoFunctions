@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1,
+                "minecraft:lure": 1
+              },
+              "minecraft:lore": [
+                {
+                  "text": "煤にまみれた粗末な釣竿。",
+                  "color": "#8A5E5E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "魚影はなかなか食いつかない。  ",
+                  "color": "#8A5E5E",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "溶岩釣りが可能な釣り竿",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "Common:",
+                    "color": "white",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "✯",
+                    "color": "#FFE33B",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_name": {
+                "text": "煤濁の釣り竿（スートロッド）",
+                "color": "#8A5E5E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1579
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

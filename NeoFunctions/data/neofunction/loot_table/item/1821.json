@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "えくす・うぃっぷ",
+                "color": "#878A67",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "アンデット特攻 V",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "虫特攻 V",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "火属性 I",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ダメージ増加 V",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "範囲ダメージ増加 V",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "　",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "かつて王が振るった伝説の鞭に憧れ、",
+                  "color": "#B8AFA0",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "名もなき職人が鞭に仕立てた一品。",
+                  "color": "#A9A095",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "本人曰く、王の剣にも負けない自信作らしい。",
+                  "color": "#9B9288",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "実際のところ、どう見てもおもちゃにしか見えない。",
+                  "color": "#8E877F",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "それでも本人だけは、今日も誇らしげに振り回している。",
+                  "color": "#A69B8D",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1821
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

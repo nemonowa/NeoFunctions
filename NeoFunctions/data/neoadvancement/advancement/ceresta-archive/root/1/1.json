@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:ceresta-archive/root/1/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "～夜にうごめく影～                 ",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件§r§f：ゾンビ種を10体討伐する。\n§3§l報酬§r§f：§e大統一銅貨§r§410§r§e枚§r§e+§r§6ゾンビの腕§r\n§9§l説明§r§f：最近このあたりでゾンビの目撃が相次いでいる。夜道の安全確保のため、討伐を手伝ってくれないか？",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:ceresta-archive/root": true,
+                "neofunction:location/ceresta/archive/root/1/1": true
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

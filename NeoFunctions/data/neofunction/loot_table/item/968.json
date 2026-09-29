@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "単話：ショッギョ・ムッジョ",
+                "bold": true
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  968
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "ザイオン・ショージャノ・カネノコエ。ショッギョ・ムッジョノ・ヒビキアリ。オゴレルモノ、ヒサシカラズ。タダハルノヨ、ユメゴトシ。ヒトエカゼ、チリオナジ。"
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "ムリョウ・ニンジャ"
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "0"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

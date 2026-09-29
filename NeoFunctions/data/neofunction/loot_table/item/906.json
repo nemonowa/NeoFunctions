@@ -1,0 +1,176 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sentry_armor_trim_smithing_template",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "chirality",
+                  "color": "#934CBD",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 六道輪廻の石版 ",
+                  "color": "#0B6ABD",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "chirality",
+                  "color": "#934CBD"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "神託：",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "--Ryuusei couldnt save Pudding--",
+                  "font": "alt",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "--Sidden lost to Caesar--",
+                  "font": "alt",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "説明：",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "現在、",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "解読不能",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "の言語で、"
+                  }
+                ],
+                [
+                  {
+                    "text": "過去、歴史が辿らなかった",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "滅亡",
+                    "color": "dark_red",
+                    "bold": true
+                  },
+                  {
+                    "text": "の可能性を"
+                  }
+                ],
+                [
+                  {
+                    "text": "未来、戒めの",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "記録",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "として遺されている。",
+                    "color": "blue"
+                  }
+                ],
+                [
+                  {
+                    "text": "禁断の文字",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "解読る",
+                    "color": "dark_blue",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "時、",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "滅亡",
+                    "color": "dark_red"
+                  },
+                  {
+                    "text": "は",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "現実",
+                    "color": "dark_green"
+                  },
+                  {
+                    "text": "となる。",
+                    "color": "blue",
+                    "bold": false,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  906
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": []
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1471
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "存在がわずかにこの世界からずれており、触れても実体を感じない。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：透明のポーション（レベル0 15:00）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Common:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "white",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "フェイズフィッシュ",
+                "color": "#D8D8D8",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 0,
+                    "duration": 18000,
+                    "id": "invisibility"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"強化された透明の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_spawn_egg",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "話の途中だが",
+                  "color": "green",
+                  "bold": true
+                },
+                {
+                  "text": "セライノ断章",
+                  "color": "light_purple",
+                  "bold": true
+                },
+                {
+                  "text": "だ！"
+                }
+              ],
+              "minecraft:entity_data": {
+                "id": "minecraft:item",
+                "Glowing": 1,
+                "Age": 5000,
+                "PickupDelay": 32767,
+                "Invulnerable": 1,
+                "Tags": [
+                  "aaa"
+                ],
+                "CustomName": {
+                  "text": "セライノ断章"
+                },
+                "Item": {
+                  "id": "minecraft:book",
+                  "count": 1,
+                  "components": {
+                    "minecraft:custom_name": {
+                      "text": "セライノ断章"
+                    },
+                    "minecraft:enchantments": {
+                      "minecraft:soul_speed": 1
+                    }
+                  }
+                }
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1524
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

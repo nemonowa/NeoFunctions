@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "max_health",
+                  "id": "neofunction:00000000-0000-0002-0000-000000000001",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:00000000-0000-0002-0000-000000000003",
+                  "amount": 0.6,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:00000000-0000-0002-0000-000000000004",
+                  "amount": 0.12,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:00000000-0000-0002-0000-000000000005",
+                  "amount": 12,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 1
+              },
+              "minecraft:custom_name": {
+                "text": "§d§l春§2§l夏§6§l秋§b§l冬 §6§l§k||§r§e§l秘神§f§lの§d§l四季§c§l宝珠§6§l§k||"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1643
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

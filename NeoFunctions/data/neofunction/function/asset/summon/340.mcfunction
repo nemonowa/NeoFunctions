@@ -1,0 +1,5 @@
+# 命名：鉄を静かに掘りたいもの
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/340
+
+summon zombie ~ ~ ~ {Silent:1b,CanPickUpLoot:1b,CustomName:{"text":"鉄を静かに掘りたいもの","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],Tags:[lv3,],DeathLootTable:"neofunction:asset/summon/340",equipment:{mainhand:{id:"minecraft:iron_pickaxe",count:1},offhand:{id:"minecraft:lantern",count:1},feet:{id:"minecraft:leather_boots",count:1,components:{"minecraft:dyed_color":2695219,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:dune"}}},legs:{id:"minecraft:leather_leggings",count:1,components:{"minecraft:dyed_color":3746887,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:dune"}}},chest:{id:"minecraft:leather_chestplate",count:1,components:{"minecraft:dyed_color":3878474,"minecraft:trim":{material:"minecraft:copper",pattern:"minecraft:dune"}}},head:{id:"minecraft:deepslate_iron_ore",count:1}}}

@@ -1,0 +1,73 @@
+{
+  "parent": "neoadvancement:neofishing/root/luminvitin/1",
+  "display": {
+    "icon": {
+      "id": "minecraft:spider_eye",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1462
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "霜白鱒（しもはくます）       ",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定魚類(ID:2)を観測する。\n§9説明：§r白銀大陸の極寒水域に生息する大型の魚\n体表は白く霜を帯びた鱗に覆われ\n身は柔らかく、えぐみが少なく、旨味が強い\n少量でも高いエネルギー補給が可能な基礎食材",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fishing_rod": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fishing_rod"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:spider_eye"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1462
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

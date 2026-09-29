@@ -1,0 +1,113 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "岩鎧の杖",
+                "color": "gold",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "スペルアイテム🔯【岩鎧の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "この杖は不動の岩理を身に宿し",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "あらゆる衝撃を大地へと流し",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使い手を一時の岩城と化す",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "メインハンド攻撃時、15秒間有効なシールドを獲得する",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "シールドは纏っている間60%のダメージ軽減を得獲得し",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "被弾すると解除される",
+                    "color": "gold",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "CD:30s",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:feather_falling": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:53cd30d9-189b-488c-87cd-7dbe1dec2bdc",
+                  "amount": 8,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1288
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

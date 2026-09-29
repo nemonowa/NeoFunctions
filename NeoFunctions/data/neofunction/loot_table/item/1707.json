@@ -1,0 +1,273 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7789889e-b88f-4cbc-9975-5aaea7199ccd",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c299705b-f3d7-4f69-9aee-729e5c84fb25",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "count": 1,
+                  "id": "minecraft:arrow"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "|",
+                    "color": "yellow",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "|",
+                    "color": "white",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "電",
+                    "color": "#FFFFFF",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "荷",
+                    "color": "#FFFCE6",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "小",
+                    "color": "#FFF9D6",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "銃",
+                    "color": "#FFF1A8",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": true,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "|",
+                    "color": "white"
+                  },
+                  {
+                    "text": "|",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false,
+                    "underlined": false,
+                    "obfuscated": true
+                  }
+                ],
+                {
+                  "text": "アウトランズからやってきた、対タイタン用の携行型ビーム砲",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "タイタン用の武器を生物に射出するなど、それがどれほどの威力になるか想像に難くない。",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                [
+                  {
+                    "text": "バカ火力 即着弾 無偏差 ",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "クソ武器",
+                    "italic": false,
+                    "strikethrough": true
+                  }
+                ],
+                {
+                  "text": " "
+                },
+                {
+                  "text": "銃自体がとても嫌われ、その使用者ももちろん嫌われている",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数: 6",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:7.62mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:セミオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "3Dmodel:zoma",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "yellow",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "white",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "電",
+                  "color": "#FFFFFF",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "荷",
+                  "color": "#FFFCE6",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "小",
+                  "color": "#FFF9D6",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "銃",
+                  "color": "#FFF1A8",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "white"
+                },
+                {
+                  "text": "|",
+                  "color": "yellow",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1707
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 6,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 636
+                  }
+                },
+                "damage": 2,
+                "firerate": 59,
+                "fireweapon": 1,
+                "life": 1180,
+                "maxammo": 6,
+                "maxreloadingtime": 200,
+                "recoil": -2.5,
+                "reloading": 0,
+                "speed": 3,
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

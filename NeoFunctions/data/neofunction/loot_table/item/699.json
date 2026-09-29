@@ -1,0 +1,242 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "∞",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "GUN-HO-DEVS",
+                  "color": "#BA2DD6",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "∞",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "創造主が銃器の試作用に作成したガウスライフル",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "破壊力：99",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "装弾数：∞",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "再装填：1s",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃反動：大",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬：any",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式：フルオート",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:e30ad681-9046-43f0-950d-fa4b82d0bc76",
+                  "amount": -0.5,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "count": 1,
+                  "id": "minecraft:tipped_arrow",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        119
+                      ]
+                    },
+                    "minecraft:enchantment_glint_override": true,
+                    "minecraft:lore": [
+                      {
+                        "text": "奈落の呪い potion.potency.29",
+                        "color": "red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "死の帝王【ハデス】が残した遺物。",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "鏃の液体は触れたものに「無敵状態」",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      [
+                        {
+                          "text": "すら貫通する",
+                          "color": "dark_red",
+                          "bold": false,
+                          "italic": false
+                        },
+                        {
+                          "text": "絶対的な死",
+                          "color": "dark_red",
+                          "bold": true,
+                          "italic": false
+                        },
+                        {
+                          "text": "を与える。",
+                          "color": "dark_red",
+                          "bold": false,
+                          "italic": false
+                        }
+                      ],
+                      {
+                        "text": "キンスレーヤーやアイテムロストの危険性から",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "表向きの流通は制限されているが、",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "現代でも最終手段として重宝されている。",
+                        "color": "dark_red",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "不平等なこの世界において、唯一【死】のみが平等であり",
+                        "color": "#87070F",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "死はこれ以上の苦痛を与えられないという意味で【慈悲】である。",
+                        "color": "#87070F",
+                        "bold": false,
+                        "italic": true
+                      }
+                    ],
+                    "minecraft:custom_name": [
+                      {
+                        "text": "✞LDL✞ ",
+                        "color": "#87070F",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "|||",
+                        "color": "#87070F",
+                        "bold": true,
+                        "italic": true,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": "【Legacy of the Daeth Load】",
+                        "color": "#87070F",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "|||",
+                        "color": "#87070F",
+                        "bold": true,
+                        "italic": true,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:potion_contents": {
+                      "custom_color": 8849167,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:instant_health",
+                          "amplifier": 29,
+                          "duration": 20,
+                          "show_particles": false
+                        },
+                        {
+                          "id": "minecraft:instant_damage",
+                          "amplifier": 29,
+                          "duration": 20,
+                          "show_particles": false
+                        }
+                      ]
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": "EX"
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  699
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

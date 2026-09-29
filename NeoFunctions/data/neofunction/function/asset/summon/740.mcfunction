@@ -1,0 +1,6 @@
+# 命名：ファイアエレメンタル
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/740
+
+summon bee ~ ~ ~ {Silent:1b,Glowing:1b,CustomNameVisible:1b,Team:"red",Health:2.002f,CustomName:{"text":"ファイヤ・エレメンタル","color":"red","bold":true,"italic":false},active_effects:[{id:"minecraft:regeneration",amplifier:10b,duration:600,show_particles:0b},{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b},{id:"minecraft:glowing",amplifier:0b,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:2.002}],Tags:[lv0,bomb,elementalbee],DeathLootTable:"neofunction:asset/summon/740",equipment:{mainhand:{id:"minecraft:red_stained_glass",count:1,components:{"minecraft:custom_name":{"text":"四大元素・火","color":"red","bold":true}}},offhand:{id:"minecraft:red_stained_glass",count:1,components:{"minecraft:custom_name":{"text":"四大元素・火","color":"red","bold":true}}},head:{id:"minecraft:red_stained_glass",count:1,components:{"minecraft:custom_name":{"text":"四大元素・火","color":"red","bold":true}}}}}

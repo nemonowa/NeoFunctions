@@ -1,0 +1,67 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:fire_coral"
+                }
+              ],
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:chorus_plant"
+                },
+                {
+                  "blocks": "minecraft:chorus_flower"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "火をつけろ、萌え残った全てに。",
+                "color": "#FF19F0",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "Feed the fire. Let the last cinders moeee",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fire_aspect": 6
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:d34c4dc9-9b00-4aa9-8ac9-f0590583fdba",
+                  "amount": 6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  724
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

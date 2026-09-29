@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:armor",
+      "amount": 4,
+      "operation": "add_value",
+      "slot": "legs",
+      "id": "neofunction:attribute/csgui/anvil/basedef/legs/4/0"
+    }
+  ],
+  "replace": true
+}

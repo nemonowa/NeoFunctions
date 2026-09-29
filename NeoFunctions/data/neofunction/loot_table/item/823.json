@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ユッカアーマー",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 740619,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 1,
+                "minecraft:thorns": 3,
+                "minecraft:unbreaking": 9,
+                "minecraft:vanishing_curse": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:95ef730f-75de-481c-a98b-3774aee191e7",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_health",
+                  "id": "neofunction:6b8d18cf-0adf-4e4c-beba-ab868f004167",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                },
+                {
+                  "type": "max_absorption",
+                  "id": "neofunction:afd518bf-24ae-49fd-9a58-48f8c3587f88",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "legs"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:raiser"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  823
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

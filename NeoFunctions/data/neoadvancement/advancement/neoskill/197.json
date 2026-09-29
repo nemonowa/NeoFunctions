@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/196",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：【異能】ソウル・フィールド【円】 -[Supernatural Ability] Soul Field [Circle]-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:197)の習得\n§3報酬：§r経験値×32\n§9説明：§rソウルを体外に薄く伸ばす技術。伸ばした範囲内にあるものは一通り把握することができる索敵系の高等技術。これは、理の改変を伴わない、固有領域の展開でもあるため、簡易的ではあるが他者の固有領域の対抗になりうる。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                197
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

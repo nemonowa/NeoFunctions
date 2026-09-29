@@ -1,0 +1,6 @@
+# 命名：ファンタズムペット
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/718
+
+summon endermite ~ ~ ~ {Silent:1b,Lifetime:0,Tags:["aaa"],Passengers:[{id:"minecraft:shulker",Silent:1b,Invulnerable:1b,Glowing:0b,CustomNameVisible:1b,AttachFace:0b,Tags:["upper"],Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:explosion"},Radius:0.01f,Duration:2147483647,Tags:["aaa"],potion_contents:{custom_effects:[{id:"minecraft:instant_damage",amplifier:0b,duration:-1,show_particles:0b}]}},{id:"minecraft:ender_pearl",Glowing:1b,Tags:["upper"]}],CustomName:{"text":"ファンタズムゲート","color":"white","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],attributes:[{id:"minecraft:follow_range",base:1}]}],active_effects:[{id:"minecraft:invisibility",amplifier:2b,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:follow_range",base:4}],Tags:[st,],DeathLootTable:"neofunction:asset/summon/718"}

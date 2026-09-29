@@ -1,0 +1,29 @@
+{
+  "parent": "neofunction:.clock/3s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "dimension": "neodimension:nexus"
+            },
+            "minecraft:stepping_on": {
+              "block": {
+                "blocks": [
+                  "minecraft:structure_block"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/enter_block/structureblock"
+  }
+}

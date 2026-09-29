@@ -1,0 +1,111 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "۝シエラのお守り۝",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "牧場主シエラ謹製",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のペット用の",
+                    "color": "white"
+                  },
+                  {
+                    "text": "お守り",
+                    "color": "gold",
+                    "bold": true
+                  }
+                ],
+                [
+                  {
+                    "text": "平和の祈り",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を込められてるため",
+                    "color": "white",
+                    "bold": false
+                  },
+                  {
+                    "text": "攻撃力",
+                    "color": "red"
+                  },
+                  {
+                    "text": "が下がる",
+                    "color": "white"
+                  }
+                ],
+                {
+                  "text": "۞スペル=トーテム۞",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "死亡時、小麦を吹き出す",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:vanishing_curse": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:308bb2b4-0ee1-434e-b3a3-bb48765dd2d1",
+                  "amount": -1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:90b2c2eb-19a3-4878-a2f4-a6c46941b679",
+                  "amount": -1,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  309
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:attribute_modifiers"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

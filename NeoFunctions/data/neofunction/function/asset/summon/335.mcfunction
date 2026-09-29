@@ -1,0 +1,5 @@
+# 命名：メテオシープ
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/335
+
+summon sheep ~ ~ ~ {Tags:["look","downer"],Passengers:[{id:"minecraft:block_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,-0.8f,-0.8f],scale:[1f,0.9f,1.5f]},block_state:{id:"minecraft:red_wool"}},{id:"minecraft:block_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.1f,-0.3f,-1f],scale:[0.2f,0.2f,0.2f]},block_state:{id:"minecraft:red_wool"}},{id:"minecraft:creeper",Fuse:15,Tags:["upper"],CustomName:{"text":"メテオシープ","color":"red","bold":true},active_effects:[{id:"minecraft:invisibility",amplifier:1b,duration:2147482647,show_particles:0b}]}],CustomName:{"text":"メテオシープ","color":"red","bold":true},Tags:[lv1,],DeathLootTable:"neofunction:asset/summon/335",potion_contents:{custom_color:14}}

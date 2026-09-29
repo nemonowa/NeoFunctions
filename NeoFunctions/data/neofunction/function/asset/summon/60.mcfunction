@@ -1,0 +1,6 @@
+# 命名：ウインドミスト
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/60
+
+summon vex ~ ~ ~ {Silent:1b,Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:dust",color:[0.125f,0.831f,0.196f],scale:1.0f},Radius:0.5f,Duration:99,CustomName:{"text":"風属性のオーラの炎","color":"#20D432","bold":true,"italic":false}}],CustomName:{"text":"ウインドミスト","color":"#20D432","bold":true},active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:0b,show_icon:0b,ambient:0b}],attributes:[{id:"minecraft:max_health",base:1}],Tags:[lv2,soul3],DeathLootTable:"neofunction:asset/summon/60"}

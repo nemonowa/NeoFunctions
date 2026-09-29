@@ -1,0 +1,146 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "|",
+                  "color": "#FFFF00",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": " 未知の火器 ",
+                  "color": "#FEEEED",
+                  "bold": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF7F"
+                },
+                {
+                  "text": "|",
+                  "color": "#00FF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#7FFF00"
+                },
+                {
+                  "text": "|",
+                  "color": "#FFFF00"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "未知の金属匣体。超文明の面影を感じるが、使い方を思い出せない。",
+                  "color": "light_purple",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:3ebefc49-1e89-4205-a85a-965693f17a74",
+                  "amount": 2,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ad98300f-b219-4545-a204-2fe37ede6816",
+                  "amount": -1.6,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:61b7b1e8-e190-486e-b93e-cb63ed05ecad",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:165b00f4-aeef-40cc-aa09-c5cfc42575b8",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  995
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:attribute_modifiers",
+                  "minecraft:charged_projectiles"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

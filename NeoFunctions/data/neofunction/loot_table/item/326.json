@@ -1,0 +1,337 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "﷽﷽",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "禍",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "≛",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "旧支配者の盾",
+                  "color": "#009482",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "≛",
+                  "color": "dark_aqua",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "禍",
+                  "color": "dark_blue",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "﷽﷽",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "正気度",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "減",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "少",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": " ",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "X",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "obfuscated": true
+                  }
+                ],
+                [
+                  {
+                    "text": "T",
+                    "font": "alt",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "he Old On",
+                    "font": "alt",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "e",
+                    "font": "alt",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  }
+                ],
+                [
+                  {
+                    "text": "縺ｵ繧薙＄",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "繧",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "＞ 仇",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                [
+                  {
+                    "text": "繧?縺",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "舌",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "舌ｋ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "縺",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "?↑縺ｵ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                [
+                  {
+                    "text": "縺ｵ",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  },
+                  {
+                    "text": "縺峨",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "∪繧九?縺?→",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                {
+                  "text": "The GREAT old ones arms",
+                  "color": "#009482",
+                  "bold": true,
+                  "underlined": true
+                },
+                {
+                  "text": "(」・ω・)」うー！(／・ω・)／にゃー！",
+                  "color": "black"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 9,
+                "minecraft:unbreaking": 9
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:9734fe59-a79f-4532-bc4b-3bfb0addc831",
+                  "amount": 0.999,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "knockback_resistance",
+                  "id": "neofunction:132527a9-b3c1-4e0d-815b-57424260048b",
+                  "amount": 0.999,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:6e57e1d3-5cf3-4adc-933d-0c063daa1081",
+                  "amount": 6.66,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "luck",
+                  "id": "neofunction:eedc7ec0-4a1d-4be6-a283-0da25dd5e93e",
+                  "amount": -6.66,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:bricks",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:curly_border",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:cross",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:straight_cross",
+                  "color": "black"
+                },
+                {
+                  "pattern": "minecraft:mojang",
+                  "color": "cyan"
+                }
+              ],
+              "minecraft:base_color": "cyan",
+              "minecraft:custom_model_data": {
+                "floats": [
+                  326
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:banner_patterns"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

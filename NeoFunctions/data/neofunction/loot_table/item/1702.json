@@ -1,0 +1,235 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "⚙💥🔥",
+                  "color": "dark_red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "gear",
+                  "color": "#FF4C30",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "ギ",
+                  "color": "#D32F2F"
+                },
+                {
+                  "text": "ア",
+                  "color": "#E65100"
+                },
+                {
+                  "text": "ン",
+                  "color": "#F57C00"
+                },
+                {
+                  "text": "ガ",
+                  "color": "#FFA000"
+                },
+                {
+                  "text": "ル",
+                  "color": "#FFC107"
+                },
+                {
+                  "text": "ディ",
+                  "color": "#FFD54F"
+                },
+                {
+                  "text": "ー",
+                  "color": "#FFE082"
+                },
+                {
+                  "text": "gear",
+                  "color": "#FF4C30",
+                  "obfuscated": true
+                },
+                {
+                  "text": "🔥💥⚙"
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "⚙💥🔥",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "gear",
+                    "color": "#FF4C30",
+                    "bold": true,
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "ギ",
+                    "color": "#D32F2F"
+                  },
+                  {
+                    "text": "ア",
+                    "color": "#E65100"
+                  },
+                  {
+                    "text": "ン",
+                    "color": "#F57C00"
+                  },
+                  {
+                    "text": "ガ",
+                    "color": "#FFA000"
+                  },
+                  {
+                    "text": "ル",
+                    "color": "#FFC107"
+                  },
+                  {
+                    "text": "ディ",
+                    "color": "#FFD54F"
+                  },
+                  {
+                    "text": "ー",
+                    "color": "#FFE082"
+                  },
+                  {
+                    "text": "gear",
+                    "color": "#FF4C30",
+                    "obfuscated": true
+                  },
+                  {
+                    "text": "🔥💥⚙"
+                  }
+                ],
+                {
+                  "text": "古代文明ギアンガルディーの地熱工学の結晶として生み出された超弩級機巧弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "バルカンコアを動力源としてマグマの力を己に宿し限界を超えた運動性能と圧倒的な火力を叩き出す。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "しかし、古代文明ギアンガルディーが滅ぶとき、この弓はその危機を救えなかったようだ。 ",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:5",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:7.62mm",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:機巧拉弦",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:c8950750-78bc-4ede-89ad-26d9bddc25ae",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:2817538c-06a5-4022-85ca-56175ac4c457",
+                  "amount": -0.9,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "id": "minecraft:arrow",
+                  "count": 1
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1702
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 7,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 636
+                  }
+                },
+                "damage": 30,
+                "firerate": 100,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 7,
+                "maxreloadingtime": 400,
+                "recoil": -20,
+                "reloading": 0,
+                "speed": 3,
+                "rare": [
+                  "7"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

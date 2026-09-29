@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "✞LDL✞ ",
+                  "color": "#87070F",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "#87070F",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "【Legacy of the Daeth Load】",
+                  "color": "#87070F",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "|||",
+                  "color": "#87070F",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "奈落の呪い potion.potency.29",
+                  "color": "red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "死の帝王【ハデス】が残した遺物。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "鏃の液体は触れたものに「無敵状態」",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "すら貫通する",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "絶対的な死",
+                    "color": "dark_red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を与える。",
+                    "color": "dark_red",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "キンスレーヤーやアイテムロストの危険性から",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "表向きの流通は制限されているが、",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "現代でも最終手段として重宝されている。",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "不平等なこの世界において、唯一【死】のみが平等であり",
+                  "color": "#87070F",
+                  "bold": false,
+                  "italic": true
+                },
+                {
+                  "text": "死はこれ以上の苦痛を与えられないという意味で【慈悲】である。",
+                  "color": "#87070F",
+                  "bold": false,
+                  "italic": true
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  119
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8849167,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:instant_health",
+                    "amplifier": 29,
+                    "duration": 20,
+                    "show_particles": false
+                  },
+                  {
+                    "id": "minecraft:instant_damage",
+                    "amplifier": 29,
+                    "duration": 20,
+                    "show_particles": false
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:dyed_color"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "8"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

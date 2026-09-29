@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "消毒用アルコール",
+                "color": "aqua",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "試薬、化合物の合成原料、洗浄剤、工業用溶剤、有機溶媒",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "燃料、消毒液、医薬品、香水、植物エッセンスの溶媒、飲用...",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "様々の分野で広く使用されている液体",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "低位の毒性状態異常を解除し濃厚なポーションにもなる。",
+                  "color": "dark_aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  954
+                ]
+              },
+              "minecraft:potion_contents": {
+                "potion": "minecraft:thick",
+                "custom_color": 11984606,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 1,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 1,
+                    "duration": 20
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

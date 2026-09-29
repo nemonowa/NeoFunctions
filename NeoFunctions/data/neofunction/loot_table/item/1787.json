@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "グランドケロクラウン",
+                "color": "yellow",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "軍隊ガエル討伐競技において、圧倒的な戦果を残した者に贈られる証。 ",
+                  "color": "#FFFDBF",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "持つ者は数少ない歴代の猛者として名を刻む。",
+                  "color": "#FFFDBF",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:unbreakable": {},
+              "minecraft:enchantments": {
+                "minecraft:projectile_protection": 2,
+                "minecraft:thorns": 8
+              },
+              "minecraft:trim": {
+                "material": "minecraft:emerald",
+                "pattern": "minecraft:spire"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1787
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "se"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

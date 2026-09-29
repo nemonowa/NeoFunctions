@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/240",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：【守術】はねるばくだんおばけ -[Defense Technique] Jumping Bomb Ghost-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:241)を入手する。\n§3報酬：§r経験値×8\n§9説明：§rちっちゃくてかわいいおばけのにんぎょう\nたいせつにあつかってね！\nぜったいこわしたらだめだよ！\n\n\n昔とある村が焼けた\nそこには幸せな家庭を築く家族がいた\nこの人形はその家族の子供が持っていた\nこの人形には怨霊が付いてるとか\n憑いてないとか・・・",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  241
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/3"
+  }
+}

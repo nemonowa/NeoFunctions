@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:player_head"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "刀",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " KATANA ",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "刀",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "唯、殺陣のために進化した究極の刃物",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:sharpness": 12,
+                "minecraft:sweeping_edge": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_speed",
+                  "id": "neofunction:ea5a0fb3-3d88-4205-8f38-98b94eca07e9",
+                  "amount": 0.99,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:fb7ca1f6-ce7f-486d-9e05-8ea8044c41df",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  428
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

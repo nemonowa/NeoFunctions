@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeoFunctions 構造解説書 — コードの流れと規約</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EAF0F3; --paper-2:#F5F8FA; --ink:#182634; --ink-2:#3F5266; --ink-3:#7A8B9A;
+  --line:#C9D5DD; --sys:#4E9A3A; --ply:#1F98AE; --ent:#D2622B; --adv:#7B5CC6; --warn:#B8342E;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --sans:"Zen Kaku Gothic New","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased}
+a{color:var(--ply);text-decoration-thickness:1px;text-underline-offset:3px}
+code,pre,kbd{font-family:var(--mono)}
+code{background:#fff;border:1px solid var(--line);border-radius:3px;padding:.05em .35em;font-size:.86em;color:var(--ink);word-break:break-all}
+pre{background:#1E2A36;color:#DCE6EE;border-radius:6px;padding:14px 18px;overflow:auto;font-size:.82rem;line-height:1.6;margin:14px 0}
+pre code{background:none;border:0;padding:0;color:inherit;font-size:inherit;word-break:normal}
+pre .c{color:#7FA6C4}pre .k{color:#9BD6A0}pre .s{color:#F2C76B}pre .m{color:#F09A6B}
+.layout{display:grid;grid-template-columns:260px minmax(0,1fr);min-height:100vh}
+nav.toc{position:sticky;top:0;height:100vh;overflow:auto;background:var(--paper-2);border-right:1px solid var(--line);padding:28px 22px 60px}
+nav.toc .brand{font-weight:900;font-size:1.05rem;letter-spacing:.02em;line-height:1.3;margin:0 0 4px}
+nav.toc .brand small{display:block;font-weight:500;color:var(--ink-3);font-size:.78rem;margin-top:4px}
+nav.toc ol{list-style:none;padding:0;margin:22px 0 0}
+nav.toc li{margin:0}
+nav.toc a{display:block;color:var(--ink-2);text-decoration:none;font-size:.9rem;padding:5px 8px;border-left:2px solid transparent;border-radius:0 4px 4px 0;line-height:1.45}
+nav.toc a:hover,nav.toc a.active{background:#fff;color:var(--ink);border-left-color:var(--ply)}
+nav.toc li li a{font-size:.82rem;padding-left:20px;color:var(--ink-3)}
+nav.toc li ol{margin:0}
+main{padding:0 0 120px}
+.wrap{max-width:860px;margin:0 auto;padding:0 44px}
+header.hero{padding:64px 0 40px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#DFE8EE 0%,var(--paper) 100%)}
+header.hero h1{font-size:2.5rem;font-weight:900;line-height:1.15;margin:0 0 14px;letter-spacing:-.01em}
+header.hero p.lead{font-size:1.06rem;color:var(--ink-2);max-width:64ch;margin:0 0 26px}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;max-width:760px}
+.facts div{background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 14px}
+.facts b{display:block;font-size:1.5rem;font-weight:900;line-height:1.2}
+.facts span{font-size:.8rem;color:var(--ink-3)}
+section{padding:54px 0 8px;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+h2{font-size:1.75rem;font-weight:900;margin:0 0 6px;line-height:1.25;letter-spacing:-.005em}
+h2 + .sub{color:var(--ink-3);margin:0 0 26px;font-size:.95rem}
+h3{font-size:1.2rem;font-weight:700;margin:38px 0 10px;padding-top:6px}
+h4{font-size:1rem;font-weight:700;margin:24px 0 6px}
+p{margin:0 0 14px;max-width:72ch}
+ul,ol{max-width:72ch;padding-left:1.4em}
+li{margin:3px 0}
+.note{border-left:3px solid var(--ply);background:#fff;padding:12px 18px;border-radius:0 6px 6px 0;margin:18px 0;max-width:72ch}
+.note.warn{border-left-color:var(--warn)}
+.note.ok{border-left-color:var(--sys)}
+.note p:last-child{margin:0}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:14px 0 22px;background:#fff;border:1px solid var(--line)}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--paper-2);font-weight:700;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td code{white-space:nowrap}
+figure{margin:22px 0 28px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:18px 18px 12px;overflow:auto}
+figure svg{display:block;max-width:100%;height:auto;font-family:var(--sans)}
+figcaption{font-size:.84rem;color:var(--ink-3);margin-top:10px;line-height:1.55}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;padding:1px 8px;border-radius:999px;color:#fff;vertical-align:middle;margin-right:6px}
+.tag.sys{background:var(--sys)}.tag.ply{background:var(--ply)}.tag.ent{background:var(--ent)}.tag.adv{background:var(--adv)}.tag.imp{background:var(--ink-2)}.tag.exp{background:var(--sys)}
+.rule{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 20px 12px;margin:14px 0}
+.rule h4{margin:0 0 6px;font-size:1.02rem}
+.rule .ev{font-size:.84rem;color:var(--ink-2);border-top:1px dashed var(--line);margin-top:10px;padding-top:8px}
+.rule .ev b{color:var(--ink-3);font-weight:500}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;max-width:860px}
+.grid2 .rule{margin:0}
+.eval{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.eval div{background:#fff;border:1px solid var(--line);border-radius:8px;padding:16px 20px}
+.eval h4{margin:0 0 8px}
+.eval.good h4{color:var(--sys)}
+details{background:#fff;border:1px solid var(--line);border-radius:6px;padding:10px 16px;margin:10px 0}
+summary{cursor:pointer;font-weight:700}
+.kbd{font-family:var(--mono);font-size:.85em;background:var(--paper-2);border:1px solid var(--line);border-bottom-width:2px;border-radius:4px;padding:0 .4em}
+.toplink{position:fixed;right:22px;bottom:22px;background:var(--ink);color:#fff;border-radius:999px;padding:8px 14px;font-size:.8rem;text-decoration:none;opacity:.85}
+@media (max-width:960px){.layout{grid-template-columns:1fr}nav.toc{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line)}.wrap{padding:0 20px}.facts{grid-template-columns:1fr 1fr}.grid2,.eval{grid-template-columns:1fr}header.hero h1{font-size:1.9rem}}
+:focus-visible{outline:3px solid var(--ply);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="toc" aria-label="目次">
+  <p class="brand">NeoFunctions 構造解説書<small>ver1.0 for MC1.20.4 ／ 解析日 2026-09-02</small></p>
+  <ol>
+    <li><a href="#overview">1. 全体像</a></li>
+    <li><a href="#namespaces">2. 5つの名前空間</a></li>
+    <li><a href="#tick">3. 毎tickの流れ</a>
+      <ol><li><a href="#tick-tree">3.1 tick 三分岐</a></li><li><a href="#spawn">3.2 スポーン検知パイプライン</a></li><li><a href="#skill">3.3 タグ駆動スキル</a></li></ol></li>
+    <li><a href="#events">4. 進捗＝イベント機構</a>
+      <ol><li><a href="#clock">4.1 .clock 親進捗</a></li><li><a href="#adv-flow">4.2 検知→関数→再装填</a></li><li><a href="#hit">4.3 被弾相手の特定 (UUID)</a></li></ol></li>
+    <li><a href="#lifecycle">5. ロード・ログイン・初期化</a></li>
+    <li><a href="#data">6. データの置き場所</a></li>
+    <li><a href="#ids">7. ID 体系とアセット</a></li>
+    <li><a href="#trigger">8. プレイヤー入力（trigger）</a></li>
+    <li><a href="#player">9. プレイヤー系システム</a></li>
+    <li><a href="#conventions">10. 規約（明示・暗黙）</a>
+      <ol><li><a href="#conv-explicit">10.1 明文化された規約</a></li><li><a href="#conv-implicit">10.2 暗黙の規約</a></li></ol></li>
+    <li><a href="#eval">11. 評価と改善提案</a></li>
+    <li><a href="#glossary">12. 用語・記号集</a></li>
+  </ol>
+</nav>
+<main>
+<header class="hero"><div class="wrap">
+  <h1>NeoFunctions<br>コードの流れと規約の解説書</h1>
+  <p class="lead">Minecraft 1.20.4 用データパック「NeoFunctions」（作者 argonaute_nemo / SoraFlete）を、ファイル構造・実行フロー・データ設計・コード規約の4つの視点から読み解いた資料です。データパックを触ったことがない人でも順に読めば「どこで何が起きるか」が追えるように書いています。</p>
+  <div class="facts">
+    <div><b>12,333</b><span>ファイル総数（約70MB）</span></div>
+    <div><b>4,167</b><span>.mcfunction（コマンド群）</span></div>
+    <div><b>8,040</b><span>.json（進捗・ルート等）</span></div>
+    <div><b>100%</b><span>ヘッダー規約の準拠率</span></div>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+<section id="overview">
+<h2>1. 全体像 — 「進捗をイベント、タグを型、スコアを変数」として使う設計</h2>
+<p class="sub">まずこの3つの置き換えを掴むと、以降のすべてが読めます。</p>
+<p>Minecraft のデータパックには「関数」「進捗（advancement）」「ルートテーブル」「述語（predicate）」といった素材しかなく、if 文もイベントリスナーもクラスもありません。NeoFunctions はこれらを次のように"流用"して、RPG（レベル・職業・スキル・ボス・クエスト・ダンジョン・独自次元）を丸ごと構築しています。</p>
+<table>
+<tr><th>プログラミングの概念</th><th>NeoFunctions での実装</th><th>置き場所</th></tr>
+<tr><td>イベントリスナー</td><td>進捗の <code>criteria</code> で検知し、<code>rewards.function</code> で処理を呼ぶ</td><td><code>neofunction/advancements/*</code> → <code>functions/system/adv/*</code></td></tr>
+<tr><td>クラス／型・フラグ</td><td>エンティティの <code>tag</code>（<code>enemy</code>, <code>boss</code>, <code>fly1</code>, <code>del</code>…）</td><td><code>entity/.spawn/*</code>, <code>entity/skill/*</code></td></tr>
+<tr><td>変数（個体ごと）</td><td>スコアボード（<code>HP</code> <code>SP</code> <code>CT</code> <code>LVL</code>…93個）</td><td><code>system/setting/2_scoreboard</code></td></tr>
+<tr><td>グローバル変数・設定</td><td>偽プレイヤー（<code>#Calc temp</code>, <code>night temp</code>, <code>$100 const</code>）</td><td><code>temp</code> <code>world</code> <code>const</code> objective</td></tr>
+<tr><td>構造体・配列・DB</td><td>NBT ストレージ（<code>neofunction:skill</code>, <code>:main_story</code>, <code>:crafter</code>…20種）</td><td><code>system/setting/5_storage</code>, <code>asset/data</code></td></tr>
+<tr><td>関数の引数</td><td>1.20.2+ のマクロ（<code>$function … $(id)</code>）— 212ファイルで使用</td><td><code>asset/summon.mcfunction</code> など</td></tr>
+<tr><td>早期 return</td><td><code>execute … run return 0</code> — 639ファイルで使用</td><td><code>entity/skill/.neo-1</code> など</td></tr>
+<tr><td>定周期タイマー</td><td><code>schedule function … Ns</code> の自己再登録 ＋ <code>.clock/*</code> 親進捗</td><td><code>system/clock/*</code></td></tr>
+<tr><td>アイテム／モブの ID</td><td><code>CustomModelData:N</code> ＝ <code>loot_tables/item/N</code> ＝ 図鑑 <code>neoitem/N</code></td><td>「ID 体系」参照</td></tr>
+<tr><td>図鑑・UI</td><td>進捗タブ（<code>neoadvancement</code> 名前空間）をそのまま図鑑・チュートリアル画面に</td><td><code>neoadvancement/advancements/*</code></td></tr>
+</table>
+
+<figure>
+<svg viewBox="0 0 800 300" role="img" aria-label="NeoFunctions の階層構造">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="#3F5266"/></marker></defs>
+<g font-size="13" fill="#182634">
+<rect x="20" y="20" width="760" height="60" rx="6" fill="#F5F8FA" stroke="#C9D5DD"/>
+<text x="40" y="45" font-weight="700">Minecraft 本体（毎tick）</text>
+<text x="40" y="66" fill="#3F5266">#minecraft:tick → neofunction:tick ／ #minecraft:load → neofunction:load ／ 進捗の criteria 判定</text>
+<line x1="150" y1="80" x2="150" y2="118" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="450" y1="80" x2="450" y2="118" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="680" y1="80" x2="680" y2="118" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="120" width="260" height="70" rx="6" fill="#fff" stroke="#4E9A3A" stroke-width="2"/>
+<text x="36" y="146" font-weight="700" fill="#4E9A3A">常時処理（tick 階層）</text>
+<text x="36" y="166" fill="#3F5266">system / player / entity の3本</text>
+<text x="36" y="182" fill="#7A8B9A" font-size="11.5">負荷順に小 → 中 → 極大</text>
+<rect x="300" y="120" width="300" height="70" rx="6" fill="#fff" stroke="#7B5CC6" stroke-width="2"/>
+<text x="316" y="146" font-weight="700" fill="#7B5CC6">イベント処理（進捗 → system/adv）</text>
+<text x="316" y="166" fill="#3F5266">被弾・攻撃・撃破・入手・飲食・釣り・視線…</text>
+<text x="316" y="182" fill="#7A8B9A" font-size="11.5">.clock 親進捗でクールダウン制御</text>
+<rect x="620" y="120" width="160" height="70" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/>
+<text x="636" y="146" font-weight="700" fill="#1F98AE">周期処理（clock）</text>
+<text x="636" y="166" fill="#3F5266">1s/3s/5s/10s…3600s</text>
+<text x="636" y="182" fill="#7A8B9A" font-size="11.5">schedule 自己再登録</text>
+<line x1="400" y1="190" x2="400" y2="228" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="230" width="760" height="55" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="253" font-weight="700">アセット階層（asset/*）＝ 常時処理を持たないデータベース</text>
+<text x="36" y="273" fill="#3F5266">summon/N・skill/N・item(loot)/N・tellraw・particle・playsound・bossbar… 上の3つから「呼ばれるだけ」</text>
+</g></svg>
+<figcaption>tick.mcfunction のコメントに書かれた設計思想そのもの：「進捗やクロック処理はシステム階層に、常時処理を使用しないデータベースはアセット階層に」。処理の"起点"と"データ"を分離している。</figcaption>
+</figure>
+</section>
+
+<section id="namespaces">
+<h2>2. 5つの名前空間 — 役割ごとに <code>data/</code> 直下を分割</h2>
+<p class="sub">名前空間は「誰が使うか」で分けられている。</p>
+<table>
+<tr><th>名前空間</th><th>役割</th><th>主な内容</th></tr>
+<tr><td><code>neofunction</code></td><td>ロジック本体（プレイ中の全処理）</td><td>関数 4,000超、検知用進捗、ルートテーブル、述語、アイテム修飾子、タグ、ダメージタイプ、レシピ、構造物</td></tr>
+<tr><td><code>neoadvancement</code></td><td>プレイヤーに<b>見せる</b>進捗（図鑑・チュートリアル・スキル表・エンチャ説明）</td><td><code>neoitem/</code>1,847、<code>neoentity/</code>801、<code>neoskill/</code>261、<code>anchor/</code>、<code>nexus/</code>、<code>ceresta/</code>、<code>enchantdescription/</code></td></tr>
+<tr><td><code>neodimension</code></td><td>独自次元とバイオーム</td><td><code>nexus</code>（拠点・システム領域）、<code>ceresta_festa</code>、14バイオーム（asgard, onsen, rainbowheaven…）</td></tr>
+<tr><td><code>admin</code></td><td>制作者用ツール（配布物には不要なものも同居）</td><td>give/loot/teleport/tellraw ショートカット、旧アイテム更新 <code>system/update</code>、Python スクリプト、pptx、vsix</td></tr>
+<tr><td><code>minecraft</code></td><td>バニラの上書き</td><td><code>tags/functions/tick,load</code>、ブロックルートテーブル21件、防具トリム材質/模様、ネザーの dimension 定義</td></tr>
+</table>
+<div class="note"><p><b>読み方のコツ：</b> <code>neofunction:</code> の中はさらに <code>system/</code>（起点・進捗受け口・クロック・設定）、<code>player/</code>（@a 起点）、<code>entity/</code>（@e 起点）、<code>asset/</code>（呼ばれるだけのデータ）の4階層。<code>neoadvancement:</code> の進捗は表示用で、達成時の処理は <code>rewards.function</code> で <code>neofunction:</code> 側へ渡される。</p></div>
+</section>
+<section id="tick">
+<h2>3. 毎tickの流れ — 起点を3本に絞り、負荷で並べる</h2>
+<p class="sub">「ノートPCで遊ぶ人のため軽量化に注力せよ！」（tick.mcfunction のコメント）</p>
+
+<h3 id="tick-tree">3.1 tick の三分岐</h3>
+<figure>
+<svg viewBox="0 0 820 330" role="img" aria-label="tick 関数の三分岐">
+<g font-size="12.5" fill="#182634">
+<rect x="300" y="14" width="220" height="42" rx="6" fill="#182634"/>
+<text x="410" y="40" text-anchor="middle" fill="#fff" font-weight="700">neofunction:tick</text>
+<line x1="410" y1="56" x2="410" y2="72" stroke="#3F5266" stroke-width="1.5"/>
+<line x1="130" y1="72" x2="690" y2="72" stroke="#3F5266" stroke-width="1.5"/>
+<line x1="130" y1="72" x2="130" y2="90" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="410" y1="72" x2="410" y2="90" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="690" y1="72" x2="690" y2="90" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="92" width="220" height="222" rx="6" fill="#fff" stroke="#4E9A3A" stroke-width="2"/>
+<text x="34" y="116" font-weight="700" fill="#4E9A3A">system/tick　負荷：小</text>
+<text x="34" y="134" fill="#7A8B9A" font-size="11.5">起点：システム用エンティティ 0-0-0-0-1</text>
+<text x="34" y="160">・0-0-0-0-1 を毎tick 20°回転</text>
+<text x="34" y="178" fill="#7A8B9A" font-size="11.5">　（生存確認用・時計の針として利用）</text>
+<text x="34" y="204">・その他はほぼコメントアウト</text>
+<text x="34" y="228" fill="#7A8B9A" font-size="11.5">Esc や /tick freeze で止まる</text>
+<rect x="300" y="92" width="220" height="222" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/>
+<text x="314" y="116" font-weight="700" fill="#1F98AE">player/tick　負荷：中</text>
+<text x="314" y="134" fill="#7A8B9A" font-size="11.5">起点：@a（全プレイヤー）</text>
+<text x="314" y="160">・.clock/1t を毎tick revoke（再装填）</text>
+<text x="314" y="178">・SP≧1 → player/job/.neo（職業処理）</text>
+<text x="314" y="196">・death=1 → survival/death（死亡直後）</text>
+<text x="314" y="214">・marked 近傍でエリアタイトル表示</text>
+<text x="314" y="232">・adventure かつ !argonaute → mode/.neo</text>
+<rect x="580" y="92" width="220" height="222" rx="6" fill="#fff" stroke="#D2622B" stroke-width="2"/>
+<text x="594" y="116" font-weight="700" fill="#D2622B">entity/tick　負荷：極大</text>
+<text x="594" y="134" fill="#7A8B9A" font-size="11.5">起点：@e（全エンティティ）「重い！減らせ！」</text>
+<text x="594" y="160">・tag=!check → .spawn/.neo（初回1回）</text>
+<text x="594" y="178">・death≧2 の player → survival/respawn</text>
+<text x="594" y="196">・tag=!vanilla,check → skill/.neo</text>
+<text x="594" y="214">・portalcooldown 判定 → tag del</text>
+<text x="594" y="232">・tag=del → skill/del（完全抹消）</text>
+</g></svg>
+<figcaption>3本の順序は固定：system → player → entity。<code>entity/tick</code> のヘッダーには「.spawn の階層構造を理解してから編集せよ」と明記され、Discord のスレッドへのリンクまで貼られている＝この階層が性能の生命線。</figcaption>
+</figure>
+
+<h3 id="spawn">3.2 スポーン検知パイプライン（<code>entity/.spawn/.neo</code>）</h3>
+<p>すべてのエンティティは生成直後の1tickだけ「未検査（<code>tag=!check</code>）」の状態で存在します。この1tickで分類を済ませ、<code>check</code> を付けて二度と通さない、という"入国審査"の設計です。</p>
+<figure>
+<svg viewBox="0 0 820 400" role="img" aria-label="スポーン検知パイプライン">
+<g font-size="12.5" fill="#182634">
+<rect x="20" y="14" width="780" height="40" rx="6" fill="#FBEFE8" stroke="#D2622B"/>
+<text x="410" y="39" text-anchor="middle" font-weight="700">@e[tag=!check] → entity/.spawn/.neo（生成後、最初の1tickだけ）</text>
+<line x1="410" y1="54" x2="410" y2="76" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="78" width="780" height="56" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="100" font-weight="700">① タグ判定</text>
+<text x="36" y="120">タグが一つも無い → <tspan font-family="IBM Plex Mono">vanilla</tspan> を付与　／　タグあり → .spawn/tag（inv, ghost, boss, king, god, elite, lv0〜9, except…を解釈）</text>
+<line x1="410" y1="134" x2="410" y2="156" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="158" width="380" height="120" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="180" font-weight="700">② HP を持つ → .spawn/mob　（tag: mob）</text>
+<text x="36" y="200">・#neofunction:ally / safe / それ以外＝enemy に振分け</text>
+<text x="36" y="218">・装備ドロップ禁止、Health:1024 で全快、HPmax 記録</text>
+<text x="36" y="236">・ceresta 次元なら60%でバニラモブ入替</text>
+<text x="36" y="254">・uuidcheck（後述の「被弾相手の特定」用）</text>
+<rect x="420" y="158" width="380" height="120" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="436" y="180" font-weight="700">② HP を持たない → .spawn/obj　（tag: obj）</text>
+<text x="436" y="200">・item：紙・構造物ブロック・小麦等をマクロ起動媒体に</text>
+<text x="436" y="218">・item{summon:N} → asset/summon/N を召喚して自壊</text>
+<text x="436" y="236">・矢・雪玉・AEC・釣り浮き・エンダーパール等を個別処理</text>
+<text x="436" y="254">・display 系は upper 判定でタグ付与</text>
+<line x1="410" y1="278" x2="410" y2="300" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="302" width="780" height="40" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="327">③ チーム未所属なら .spawn/team：ally→green、safe→gray、enemy→red、player→white、king→dark_red（後勝ち）</text>
+<line x1="410" y1="342" x2="410" y2="362" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="364" width="780" height="30" rx="6" fill="#E7F2E3" stroke="#4E9A3A"/>
+<text x="410" y="384" text-anchor="middle" font-weight="700" fill="#4E9A3A">④ PortalCooldown≠0 なら portalcooldown 付与 → 最後に tag check を付け「審査済」</text>
+</g></svg>
+<figcaption>「HP を持つか」の判定に <code>team=!NonExsitentTeam</code>（存在しないチーム名）を使うのは、チームセレクタが生物にしか一致しないことを利用した既知のテクニック。ここが読めないと mob/obj の分岐が謎に見える。</figcaption>
+</figure>
+
+<h3 id="skill">3.3 タグ駆動の常時スキル（<code>entity/skill/.neo</code> → <code>.neo-1</code>）</h3>
+<p>毎tick <code>@e[tag=!vanilla,tag=check]</code>、つまり「何かしらカスタムなエンティティ」だけがこの階層に入ります。中身は<b>二段階のふるい</b>で、重要度と距離で処理を絞っています。</p>
+<ol>
+<li><b>.neo（最重要層）</b> — <code>fly1</code>（奈落復帰）、<code>downer</code>/<code>upper</code>（親子の生存連動削除）、<code>fly0</code>（接地削除）、<code>boss</code> のどれにも該当しなければ即 <code>.neo-1</code> へ <code>return</code>。これらは距離に関係なく常時追跡が必要なもの。</li>
+<li><b>.neo-1（64m 制限層）</b> — 認識タグ（air, leader, roll, fly2/3, look, beacon, protector, lava_fishing, superdisplay, aj.global.root…）の<b>どれも持たなければ <code>vanilla</code> を付けて以後除外</b>。さらに「64m 以内にプレイヤーがいなければ <code>return 0</code>」。以降は各タグごとに子関数へ委譲。</li>
+</ol>
+<div class="note warn"><p><b>暗黙ルール：</b> 新しい常時スキルタグを追加するときは <code>.neo-1</code> 冒頭の「該当しなければ vanilla」の長い <code>execute if entity @s[tag=!…]</code> にも<b>必ず追記</b>しないと、そのエンティティは翌tickに <code>vanilla</code> 扱いになり、二度と処理されません。ヘッダーの「ここのコマンド数をむやみに増やすな！丁寧に子関数に逃がせ」も同じ階層への注意書きです。</p></div>
+<p>削除は直接 <code>kill</code> せず、必ず <code>tag @s add del</code> → 次tickの <code>skill/del</code> で「Health:0, DeathLootTable:"empty", Silent, DropItem:0b をマージしてから kill」します。ドロップ・音・死亡ルートを確実に無効化するための<b>一段遅延の削除規約</b>です。周期削除用に <code>del1s</code> <code>del10s</code> <code>del300s</code> <code>del1200s</code> タグも用意されています。</p>
+</section>
+
+<section id="events">
+<h2>4. 進捗＝イベント機構 — 検知は Minecraft に任せ、tick を汚さない</h2>
+<p class="sub">1,900件超の検知用進捗が <code>neofunction/advancements/</code> にあり、トリガー名がそのままフォルダ名になっている。</p>
+<table>
+<tr><th>フォルダ（＝トリガー種）</th><th>件数</th><th>用途の例</th></tr>
+<tr><td><code>entity_hurt_player/</code></td><td>約613</td><td>被弾時の防具セット効果・ボス攻撃の反応</td></tr>
+<tr><td><code>player_hurt_entity/</code></td><td>約424</td><td>武器（CustomModelData 別）の追加効果、職業コンボ</td></tr>
+<tr><td><code>player_interacted_with_entity/</code></td><td>約307</td><td>NPC「C.A.I.」との会話、イースターエッグ100件</td></tr>
+<tr><td><code>tick/</code>（cmd, csgui, looking_at, quest, entity_scores…）</td><td>約271</td><td>手持ちアイテムの CMD 検知、視線検知、スコア閾値検知、GUI 操作</td></tr>
+<tr><td><code>player_killed_entity/</code> <code>consume_item/</code> <code>fishing_rod_hooked/</code> <code>location/</code> <code>inventory_changed/</code></td><td>111 / 91 / 70 / 47 / 31</td><td>撃破報酬、飲食効果、独自釣り、バイオーム進入、入手検知</td></tr>
+<tr><td><code>.clock/</code></td><td>11（impossible）</td><td>後述のクールダウン親進捗</td></tr>
+</table>
+
+<h3 id="clock">4.1 <code>.clock</code> 親進捗によるクールダウン</h3>
+<p>Minecraft の進捗は<b>親が達成されていないと子は判定されない</b>ため、これを利用して「発火頻度」を作っています。<code>advancements/.clock/how.txt</code> に作者自身がメモを残しています。</p>
+<figure>
+<svg viewBox="0 0 820 250" role="img" aria-label="clock 親進捗の仕組み">
+<g font-size="12.5" fill="#182634">
+<rect x="20" y="20" width="200" height="60" rx="6" fill="#fff" stroke="#7B5CC6" stroke-width="2"/>
+<text x="120" y="45" text-anchor="middle" font-weight="700" fill="#7B5CC6">.clock/1t</text>
+<text x="120" y="66" text-anchor="middle" font-size="11.5" fill="#3F5266">trigger: impossible</text>
+<rect x="20" y="150" width="200" height="60" rx="6" fill="#fff" stroke="#7B5CC6" stroke-width="2"/>
+<text x="120" y="175" text-anchor="middle" font-weight="700" fill="#7B5CC6">.clock/5s</text>
+<text x="120" y="196" text-anchor="middle" font-size="11.5" fill="#3F5266">trigger: impossible</text>
+<rect x="320" y="20" width="220" height="60" rx="6" fill="#F3EFFA" stroke="#7B5CC6"/>
+<text x="430" y="45" text-anchor="middle" font-weight="700">player_hurt_entity/130</text>
+<text x="430" y="66" text-anchor="middle" font-size="11.5" fill="#3F5266">parent: .clock/1t　毎tick発火可</text>
+<rect x="320" y="150" width="220" height="60" rx="6" fill="#F3EFFA" stroke="#7B5CC6"/>
+<text x="430" y="175" text-anchor="middle" font-weight="700">player_killed_entity/1010</text>
+<text x="430" y="196" text-anchor="middle" font-size="11.5" fill="#3F5266">parent: .clock/5s　5秒に1回まで</text>
+<line x1="220" y1="50" x2="318" y2="50" stroke="#7B5CC6" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="220" y1="180" x2="318" y2="180" stroke="#7B5CC6" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="600" y="20" width="200" height="60" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/>
+<text x="700" y="45" text-anchor="middle" font-weight="700" fill="#1F98AE">player/tick</text>
+<text x="700" y="66" text-anchor="middle" font-size="11" fill="#3F5266">advancement revoke @a from .clock/1t</text>
+<rect x="600" y="150" width="200" height="60" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/>
+<text x="700" y="175" text-anchor="middle" font-weight="700" fill="#1F98AE">clock/5_second</text>
+<text x="700" y="196" text-anchor="middle" font-size="11" fill="#3F5266">advancement revoke @a from .clock/5s</text>
+<path d="M600 50 Q570 50 560 60 L545 78" fill="none" stroke="#1F98AE" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+<path d="M600 180 Q570 180 560 190 L545 208" fill="none" stroke="#1F98AE" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ar)"/>
+<text x="410" y="238" text-anchor="middle" fill="#7A8B9A" font-size="11.5">「revoke @a from」は子孫を含めて剥奪 → 子の検知進捗も一緒にリセットされ、次の周期まで再発火しない</text>
+</g></svg>
+<figcaption>親 <code>.clock/Ns</code> は <code>impossible</code>（自力では達成不可）。子進捗が達成されると親も達成状態になるので、周期関数が親を revoke するまで子は再発火できない＝クールダウン。1t 版は player/tick で毎tick revoke するため実質「毎tick発火可」。</figcaption>
+</figure>
+
+<h3 id="adv-flow">4.2 検知 → 関数 → 再装填 のワンセット</h3>
+<pre><code><span class="c"># advancements/player_killed_entity/1010.json（検知）</span>
+{ "parent": "neofunction:.clock/5s",
+  "criteria": { "requirement": { "trigger": "minecraft:player_killed_entity",
+     "conditions": { "player": [{ "condition": "minecraft:entity_properties", "entity": "this",
+        "predicate": { "equipment": { "head": {"nbt":"{CustomModelData:1010}"}, "chest": {"nbt":"{CustomModelData:1011}"}, ... }}}]}}},
+  "rewards": { "function": "neofunction:system/adv/player_killed_entity/1010" } }
+
+<span class="c"># functions/system/adv/player_killed_entity/1010.mcfunction（処理）</span>
+<span class="c"># 命名：1010
+# 説明：進捗達成時
+# >/advancement neofunction:player_killed_entity/1010
+# =/function neofunction:system/adv/player_killed_entity/1010</span>
+title @s actionbar {"text":"🔯セットスペル発動【苺甲鎧】",...}
+playsound minecraft:block.sweet_berry_bush.pick_berries record @s ~ ~ ~ 1 1.5 1
+loot give @s loot neofunction:item/317</code></pre>
+<p>規約として「進捗のパス」＝「関数のパス」が完全に対応します（<code>advancements/X/N.json</code> ↔ <code>functions/system/adv/X/N.mcfunction</code>）。再装填（revoke）は <code>.clock</code> 親に任せるため、個別の処理側には revoke が書かれません。例外は <code>tick/entity_scores/*</code> 系で、こちらは処理側で自分自身を <code>advancement revoke @s only …</code> します（trigger 系など「1回きり」の意味を持つため）。</p>
+
+<h3 id="hit">4.3 被弾相手の特定 — UUID を進捗で二進展開する</h3>
+<p><code>player_hurt_entity</code> 進捗は「誰を殴ったか」を関数に渡せません。NeoFunctions はこれを、<b>エンティティの UUID[0] を 31 個の判定用進捗条件に分解して照合する</b>という力技で解決しています。</p>
+<ol>
+<li>スポーン時 <code>uuidcheck</code>：UUID[0] を符号と 2^30〜2^0 のビットに分解し、該当ビットのタグ <code>UUID30</code>…<code>UUID0</code>, <code>UUID-</code> を付与（<code>asset/nbt/for</code> マクロでループ）。</li>
+<li>各 <code>player_hurt_entity/N.json</code> には主条件 <code>requirement</code> の他に、犠牲者のタグ <code>UUID30</code>…を個別に見る 31 個の criteria（名前 <code>"30"</code>〜<code>"0"</code>, <code>"-"</code>）が並ぶ。</li>
+<li>処理側は <code>.get_entity {Name:"N"}</code> マクロを呼び、「達成された criteria の組み合わせと一致するタグを持つモブ」だけを <code>tag hit</code> として残す。</li>
+<li>処理後 <code>tag @e[tag=hit] remove hit</code> で片付ける。</li>
+</ol>
+<div class="note"><p>この方式は 1.20.4 時点で「攻撃対象を確実に取る」ほぼ唯一の手法です。代償として <code>player_hurt_entity/*.json</code> が肥大化し、<code>tag=hit</code>／<code>tag=attacker</code> が一時状態タグとして多数の関数に散らばります（<code>hit</code> 119箇所、<code>attacker</code> 114箇所）。</p></div>
+</section>
+
+<section id="lifecycle">
+<h2>5. ロード・ログイン・初期化の状態遷移</h2>
+<p class="sub">「即読み込むと検知できないため分離」— リログ直後はチャンクもエンティティも未読込なので、すべて schedule で遅延させる。</p>
+<figure>
+<svg viewBox="0 0 820 420" role="img" aria-label="ロードからシステム正常化までの流れ">
+<g font-size="12.5" fill="#182634">
+<rect x="20" y="16" width="240" height="46" rx="6" fill="#182634"/><text x="140" y="44" text-anchor="middle" fill="#fff" font-weight="700">#minecraft:load → load</text>
+<rect x="290" y="16" width="240" height="46" rx="6" fill="#182634"/><text x="410" y="44" text-anchor="middle" fill="#fff" font-weight="700">continue スコア≠0（リログ検知）</text>
+<text x="410" y="78" text-anchor="middle" fill="#7A8B9A" font-size="11.5">leave_game 統計を進捗 tick/entity_scores/continue で検知</text>
+<line x1="140" y1="62" x2="140" y2="108" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<line x1="410" y1="84" x2="410" y2="108" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="110" width="510" height="90" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/>
+<text x="36" y="132" font-weight="700" fill="#1F98AE">asset/event/log-in（共通ログイン処理・1s後）</text>
+<text x="36" y="152">属性再計算 / 全 trigger 有効化 / version 記録 / 音楽 / HC対策</text>
+<text x="36" y="170">schedule: server 3s → cai1 5s → cai2 7s → <tspan font-weight="700">.neo 10s</tspan></text>
+<text x="36" y="190" fill="#7A8B9A" font-size="11.5">実行者：/reload ならサーバー、リログなら当該プレイヤー</text>
+<line x1="275" y1="200" x2="275" y2="228" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="20" y="230" width="510" height="100" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="252" font-weight="700">log-in/.neo（ワールド正常性チェック：上から順に return）</text>
+<text x="36" y="272">0: nexus のチャンク未読込 → forceload　　1: 0-0-0-0-1 不在 → 再召喚</text>
+<text x="36" y="290">2: 目印の redstone_block 無 → 再設置　　3: storage version 無 → 初期化</text>
+<text x="36" y="308">4: score upper 無 → <tspan font-weight="700">hello_world + setting</tspan>　5: version≠3700 → 更新</text>
+<text x="36" y="326" fill="#4E9A3A" font-size="11.5" font-weight="700">全て通過 →「全システムの回復を確認。ステータス『オール-グリーン』」</text>
+<line x1="530" y1="308" x2="580" y2="308" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="584" y="230" width="216" height="180" rx="6" fill="#E7F2E3" stroke="#4E9A3A" stroke-width="2"/>
+<text x="600" y="252" font-weight="700" fill="#4E9A3A">system/setting（初回のみ）</text>
+<text x="600" y="274" font-size="12">10t: 1_gamerule_for_survival</text>
+<text x="600" y="292" font-size="12">15t: 1_gamerule_for_creater</text>
+<text x="600" y="310" font-size="12">20t: 2_scoreboard（93 objective）</text>
+<text x="600" y="328" font-size="12">30t: 3_scoreboard_set（サイドバー）</text>
+<text x="600" y="346" font-size="12">40t: 4_team（色チーム19種）</text>
+<text x="600" y="364" font-size="12">50t: 5_storage（レシピ・DB初期化）</text>
+<text x="600" y="382" font-size="12" font-weight="700">60t: clock/all_clock_start</text>
+<text x="600" y="400" font-size="11" fill="#7A8B9A">→ 11本の schedule クロック起動</text>
+</g></svg>
+<figcaption>初期化は「壊れているところだけ直す」自己修復方式。<code>score upper world</code> の有無を「初回ロードか」の判定に使い、<code>version world = 3700</code>（DataVersion）でバージョン整合を確認する。</figcaption>
+</figure>
+<div class="note"><p><b>0-0-0-0-1 とは：</b> UUID <code>00000000-0000-0000-0000-000000000001</code> を固定で持つシステム用エンティティ。nexus 次元 (1280,128,1280) 付近に常駐し、<code>system/tick</code> で毎tick回転させることで「生きているか」が観測でき、ワールド共有の <code>LVL</code>/<code>DEF</code> スコアの持ち主にも使われます。ワールドの"心臓"なので、不在ならログインチェックが再召喚します。</p></div>
+</section>
+
+<section id="data">
+<h2>6. データの置き場所 — スコア・タグ・ストレージ・偽プレイヤーの使い分け</h2>
+<p class="sub">「スコアボードはエンティティごとに頻繁に変化する値をとるものだから不必要に増やさないで」（2_scoreboard のコメント）</p>
+<table>
+<tr><th>種類</th><th>使い分けの基準（実際の運用から抽出）</th><th>代表例</th></tr>
+<tr><td>スコアボード（93個）</td><td>個体ごとに頻繁に変わる数値。表示名が日本語で必ず付く。</td><td><code>HP HPmax SP SPmax CT LVL EXP depth job karman quest doom no_dmg_timer</code>、統計系 <code>survival(play_time) death continue(leave_game) Cstick Mstick</code></td></tr>
+<tr><td>偽プレイヤー <code>temp</code></td><td>計算用一時変数と<b>ワールド設定フラグ</b>。<code>#Calc</code>系は計算、<code>-1</code> がオプション ON。</td><td><code>#Calc1 temp</code> <code>%LTAngle temp</code> <code>night temp = -1</code> <code>levelStatsSync temp = -1</code> <code>progress_mode temp</code> <code>random temp</code></td></tr>
+<tr><td>偽プレイヤー <code>world</code></td><td>サイドバーに出すワールド共通値。</td><td><code>time level upper version credit difficulty downer url</code></td></tr>
+<tr><td>偽プレイヤー <code>const</code></td><td>定数。名前は <code>$</code>＋値。</td><td><code>$-1 $0 $1 $2 $10 $100 $1000 $1200 $10000 $100000</code></td></tr>
+<tr><td>エンティティタグ</td><td>状態・種別・一時マーカー。処理後に必ず外す規約。</td><td>種別 <code>mob obj enemy ally safe boss elite vanilla check</code>／一時 <code>hit attacker looked interacted hooked resolve</code>／削除 <code>del del1s del10s</code></td></tr>
+<tr><td>ストレージ（20 namespace）</td><td>構造化データ・マクロ引数・複数プレイヤー横断の状態。</td><td><code>neofunction:skill</code>（2,258参照）<code>:main_story</code>（729）<code>:asset</code> <code>:crafter</code>（改良作業台レシピ配列）<code>:item</code> <code>:pos</code> <code>:gui</code> <code>:music</code> <code>:tutorial</code></td></tr>
+<tr><td>チーム（19色＋elite/boss/king）</td><td>敵味方・名前色・衝突制御。</td><td><code>red</code>=enemy <code>green</code>=ally <code>gray</code>=safe <code>white</code>=player</td></tr>
+<tr><td>進捗（<code>neoadvancement</code>）</td><td>「一度達成したら永続する真偽値」。職業・スキル習得・図鑑・チュートリアル進行。</td><td><code>neoskill/200</code>=騎士 <code>/210</code>=ARIA <code>/220</code>=射手 <code>/230</code>=テイマー <code>/240</code>=医師 <code>/250</code>=暗殺者</td></tr>
+</table>
+</section>
+<section id="ids">
+<h2>7. ID 体系とアセット — 「番号ひとつで全部つながる」</h2>
+<p class="sub">「スプレッドシートのマクロで出力したデータを貼り付けるだけで全てが叶う」（3_item_to_summon のコメント）</p>
+<p>README の命名規則にある「基本ナンバー」の意味がここです。アイテム・エンティティ・スキルはそれぞれ<b>整数 ID</b> を持ち、同じ番号のファイルが複数の場所に置かれることで、関数・ルート・図鑑・検知が自動的に対応します。ファイル名の 2,235 個（54%）が純粋な数字なのはこのためです。</p>
+<figure>
+<svg viewBox="0 0 820 330" role="img" aria-label="ID 対応表">
+<g font-size="12.5" fill="#182634">
+<rect x="20" y="16" width="780" height="92" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="40" font-weight="700">アイテム ID（例：317 セレスタベリー）　＝ CustomModelData:317</text>
+<text x="36" y="62"><tspan font-family="IBM Plex Mono" font-size="11.5">loot_tables/item/317.json</tspan>（実体：set_nbt で名前・Lore・rare・CMD）</text>
+<text x="36" y="82"><tspan font-family="IBM Plex Mono" font-size="11.5">neoadvancement:neoitem/317</tspan>（図鑑「宝具観測」inventory_changed で検知、report EXP 付与）</text>
+<text x="36" y="102"><tspan font-family="IBM Plex Mono" font-size="11.5">advancements/tick/cmd/N, player_hurt_entity/N, consume_item/N …</tspan>（そのアイテムの効果）　入手：<tspan font-family="IBM Plex Mono" font-size="11.5">asset/item {item:317}</tspan></text>
+<rect x="20" y="122" width="780" height="92" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="146" font-weight="700">エンティティ ID（例：100 The Celestial）　＝ DeathLootTable:"neofunction:asset/summon/100"</text>
+<text x="36" y="168"><tspan font-family="IBM Plex Mono" font-size="11.5">functions/asset/summon/100.mcfunction</tspan>（summon 1行＋Tags:[lv8,god]。803体）</text>
+<text x="36" y="188"><tspan font-family="IBM Plex Mono" font-size="11.5">loot_tables/asset/summon/100.json</tspan>（死亡ドロップ。1,099件。<tspan font-weight="700">DeathLootTable が事実上の種族 ID</tspan>）</text>
+<text x="36" y="208"><tspan font-family="IBM Plex Mono" font-size="11.5">neoadvancement:neoentity/100</tspan>（図鑑「存在観測」looking_at でその DeathLootTable を見たら達成）</text>
+<rect x="20" y="228" width="780" height="92" rx="6" fill="#fff" stroke="#C9D5DD"/>
+<text x="36" y="252" font-weight="700">スキル ID（例：212）　＝ 進捗 neoskill/212 の達成状態 ＋ tag skill212…</text>
+<text x="36" y="274"><tspan font-family="IBM Plex Mono" font-size="11.5">functions/asset/skill/212.mcfunction</tspan>（発動本体。170ファイル、<tspan font-family="IBM Plex Mono" font-size="11.5">asset/skill {skill:212}</tspan> マクロ経由）</text>
+<text x="36" y="294"><tspan font-family="IBM Plex Mono" font-size="11.5">neoadvancement:neoskill/212</tspan>（習得状態＝スキルツリー表示。200/210/220…は職業の根）</text>
+<text x="36" y="314"><tspan font-family="IBM Plex Mono" font-size="11.5">storage neofunction:skill</tspan>（習得・スロット割当・パラメータ。2,258参照で最多）</text>
+</g></svg>
+<figcaption>召喚は「アイテム→エンティティ」の橋渡しで統一されている：<code>{summon:N}</code> の NBT を持つ item エンティティが落ちると、.spawn/obj が <code>asset/summon/N</code> をマクロ実行してアイテム自身を kill する。スポーンエッグや紙、構造物ブロックが"起動媒体"になる。</figcaption>
+</figure>
+<h4>ID の予約域（観測から推定）</h4>
+<ul>
+<li><code>CustomModelData</code> は 0〜1847 をほぼ連番で使用。<code>-2</code>, <code>-3</code>, <code>-33</code>, <code>995</code>〜<code>999</code> 付近はシステム用（HP 表示・目標表示・GUI 部品）。</li>
+<li>4桁の <code>1010</code>〜<code>1013</code> のように連番4つで「防具セット（頭・胴・脚・足）」を表す。セット揃い判定は <code>player_killed_entity/1010.json</code> のように先頭 ID で代表する。</li>
+<li>職業スキルは <code>neoskill/200,210,220,230,240,250</code> が根、その後ろが各職業のツリー。</li>
+<li>trigger の <code>code</code> 値も番号空間：1〜16 汎用、20番台＝星屑交換、61番台＝スキルスロット、<code>1234567890</code>/<code>20210516</code> は隠しコード。</li>
+</ul>
+</section>
+
+<section id="trigger">
+<h2>8. プレイヤー入力（<code>/trigger</code>）— スコア → ストレージ → マクロ</h2>
+<p class="sub">チャットのクリックイベントが唯一の"ボタン"。すべて <code>trigger</code> objective を経由する。</p>
+<figure>
+<svg viewBox="0 0 820 190" role="img" aria-label="trigger の流れ">
+<g font-size="12.5" fill="#182634">
+<rect x="20" y="30" width="150" height="56" rx="6" fill="#fff" stroke="#1F98AE" stroke-width="2"/><text x="95" y="53" text-anchor="middle" font-weight="700">tellraw のクリック</text><text x="95" y="73" text-anchor="middle" font-size="11.5">/trigger on set 212</text>
+<line x1="170" y1="58" x2="208" y2="58" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="210" y="30" width="180" height="56" rx="6" fill="#F3EFFA" stroke="#7B5CC6"/><text x="300" y="53" text-anchor="middle" font-weight="700">進捗 tick/entity_scores/</text><text x="300" y="73" text-anchor="middle" font-size="11.5">trigger/on：score on≧1</text>
+<line x1="390" y1="58" x2="428" y2="58" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="430" y="30" width="170" height="56" rx="6" fill="#fff" stroke="#C9D5DD"/><text x="515" y="53" text-anchor="middle" font-weight="700">system/trigger/on</text><text x="515" y="73" text-anchor="middle" font-size="11.5">score → storage:trigger on</text>
+<line x1="600" y1="58" x2="638" y2="58" stroke="#3F5266" stroke-width="1.5" marker-end="url(#ar)"/>
+<rect x="640" y="30" width="160" height="56" rx="6" fill="#fff" stroke="#C9D5DD"/><text x="720" y="53" text-anchor="middle" font-weight="700">on/.macro</text><text x="720" y="73" text-anchor="middle" font-size="11.5">$function …/skill/$(on)</text>
+<rect x="210" y="118" width="390" height="50" rx="6" fill="#E7F2E3" stroke="#4E9A3A"/>
+<text x="405" y="139" text-anchor="middle" font-weight="700" fill="#4E9A3A">再装填（毎回3点セット）</text>
+<text x="405" y="158" text-anchor="middle" font-size="11.5">scoreboard set 0 → players enable → advancement revoke only</text>
+<path d="M515 86 L515 100 L405 100 L405 116" fill="none" stroke="#4E9A3A" stroke-width="1.5" marker-end="url(#ar)"/>
+</g></svg>
+<figcaption>9つの trigger objective：<code>on</code>（スキル発動）<code>skill</code>（習得・旧式）<code>code</code>（汎用コマンド）<code>tip</code> <code>kill</code>（詰み防止の自決）<code>teleport</code> <code>slotR/G/B</code>（スキルスロット）。<code>.all_trigger_enable</code> がログイン毎に enable し直す。</figcaption>
+</figure>
+</section>
+
+<section id="player">
+<h2>9. プレイヤー系システムの概観</h2>
+<p class="sub">各サブシステムの「入口ファイル」と「状態の置き場所」を対応づけた早見表。</p>
+<table>
+<tr><th>システム</th><th>入口</th><th>状態</th><th>要点</th></tr>
+<tr><td>レベル・EXP</td><td><code>player/level/0_first_get_exp → 1_get_exp → 2_exp_to_lvl → 3_lvl_up</code></td><td><code>EXP LVL depth</code>、共有は <code>star EXP</code></td><td>ネザースターを"ホープスター"として EXP 化。図鑑達成（neoitem/neoentity）が主な EXP 源。番号接頭辞で実行順を示す。</td></tr>
+<tr><td>属性（レベル補正）</td><td><code>player/attribute/lvl</code> → <code>lvl/0..100</code>（101ファイル）</td><td>attribute base</td><td>レベル別に1ファイル。ログイン時に再計算。<code>system/scoreboard/lvl/*</code> も101ファイルで対応。</td></tr>
+<tr><td>SP（冀求力＝スキル資源）</td><td><code>clock/1_second</code> → <code>player/sp/luck</code> <code>/over</code> <code>/percentage</code></td><td><code>SP SPmax SP1p..SP200p</code></td><td>負値になると段階デバフ、上限超で別処理。<code>SPxxp</code> は%換算のキャッシュ。</td></tr>
+<tr><td>クールタイム</td><td><code>clock/1_second</code></td><td><code>CT</code></td><td>毎秒 -1。発光 amplifier 116 なら -2（ARIA スキル116）。</td></tr>
+<tr><td>職業（6種）</td><td><code>player/job/.neo</code>（SP≧1 のプレイヤーに毎tick）</td><td><code>neoskill/2x0</code> 進捗、<code>storage :job</code></td><td>knight / aria / shooter / tamer / doctor / assasin。攻撃時コンボは <code>player_hurt_entity/.all</code> から <code>job/*/combo</code>。</td></tr>
+<tr><td>死亡・復活</td><td><code>survival/death</code>（death=1）／<code>survival/respawn</code>（death≧2）</td><td><code>death doom infection CT</code></td><td>HC では死亡中に進捗が止まるため <code>player/tick</code>（@a）と <code>entity/tick</code>（@e type=player）の両方から検知する二段構え。</td></tr>
+<tr><td>緩衝体力</td><td><code>clock/1_second</code> → <code>absorption/heal_full</code></td><td><code>no_dmg_timer</code>, tag <code>absorphealed</code></td><td>60秒無被弾で回復。コメントに「検知は正確ではない…いつか修正希望」と課題を明記。</td></tr>
+<tr><td>GUI（CSGUI）</td><td><code>advancements/tick/csgui</code> → <code>player/inventory/csgui/slot/*</code>（27）</td><td><code>storage :gui</code>, item_modifiers <code>csgui/anvil/*</code></td><td>チェスト/金床のスロット操作を tick 進捗で検知するインベントリ GUI。</td></tr>
+<tr><td>クエスト・メインストーリー</td><td><code>system/adv/tick/quest/*</code>（10/20/30 章、tellraw 200件超）</td><td><code>quest questsuccesscount main_story</code>, <code>storage :main_story</code></td><td>tag <code>quest</code> が293箇所で参照される中核。会話 NPC は「C.A.I.」。</td></tr>
+<tr><td>オプション</td><td><code>system/option/*</code>（トグル）</td><td><code>night / nosp / levelStatsSync / bossArmorProtection temp</code></td><td>「-1 で有効」規約。<code>bossArmorProtection</code> は加算式カウンタで ON/OFF。</td></tr>
+<tr><td>ボス</td><td><code>entity/skill/boss/.neo</code> → <code>boss/larusha, frog_boss, ekiriburiamu…</code></td><td>tag <code>boss</code>, team <code>boss</code>, bossbar</td><td>frog_boss はモード別（temperate/lightning…）にパターンを分けたフォルダ構成。</td></tr>
+</table>
+</section>
+
+<section id="conventions">
+<h2>10. 規約 — 明文化されたものと、コードから読み取れる暗黙のもの</h2>
+<p class="sub"><span class="tag exp">明示</span>README や関数ヘッダーに文章で書かれている　<span class="tag imp">暗黙</span>書かれていないが全ファイルが従っている（破ると壊れる）</p>
+
+<h3 id="conv-explicit">10.1 明文化された規約</h3>
+
+<div class="rule"><h4><span class="tag exp">明示</span>R1. 関数ヘッダーは5行構造で固定（README「ヘッダー統一プロンプト」）</h4>
+<pre><code><span class="c"># 命名：</span>名称（無ければファイル名から生成）
+<span class="c"># 説明：</span>1行程度。複数あれば「# 説明：」を複数行（無理に結合しない）
+<span class="c"># 実行条件：</span>（あれば。説明の下・呼び出し元の上）
+<span class="c"># &gt;</span>/function 呼び出し元（複数なら1行ずつ。無ければ「# &gt;」だけ残す）
+<span class="c"># =</span>/function neofunction:自身のパス（<b>必ず最後の行</b>・ディレクトリから機械的に再計算）
+（空行で終了。以降の「# 内容」等の本文コメントはヘッダーに含めない）</code></pre>
+<p class="ev"><b>実測</b>　4,167ファイル全てに「命名」と末尾「=/function」がある（100%）。「&gt;」は4,141（99.4%）、「実行条件」は257。8ファイルが「(呼び出し元が見つかりませんでした)」と自動生成の痕跡を残す。「=」パスと実際の格納場所の不一致は<b>0件</b>。<code>admin/mcfunction-header-0_4_0.vsix</code> という自作 VSCode 拡張で機械的に整形していると推定される。</p></div>
+
+<div class="rule"><h4><span class="tag exp">明示</span>R2. ファイル名は小文字・番号優先（README「その他」）</h4>
+<p>「ファイルの命名はできるだけ大文字を使わないでね。基本ナンバー、必要なら小文字省略語、どうしてもの時は型変数（CamelCase）」。</p>
+<p class="ev"><b>実測</b>　大文字を含む .mcfunction ファイル名は 0件。純数字ファイル名 2,235件。省略語例：<code>cmd</code>（CustomModelData）、<code>adv</code>、<code>aec</code>、<code>csgui</code>、<code>lvl</code>、<code>sp</code>。CamelCase はタグ名側に逃がされている（<code>LTPivot</code>, <code>FrogBoss</code>, <code>MusicStop</code>, <code>UUIDchecked</code>）。</p></div>
+
+<div class="rule"><h4><span class="tag exp">明示</span>R3. 本文は「# 内容」から始め、ヘッダーとの間に空行2行</h4>
+<p class="ev"><b>実測</b>　1,803ファイルに「内容」見出し。表記ゆれあり：<code># 内容</code>／<code>## 内容</code>／<code>#内容</code>／<code>## 内容：</code>。</p></div>
+
+<div class="rule"><h4><span class="tag exp">明示</span>R4. 階層ごとの負荷ルール（tick.mcfunction, entity/tick, entity/skill/.neo-1）</h4>
+<ul>
+<li>system（1体起点）→ player（@a）→ entity（@e）の順に呼ぶ。@e 層は「重い！減らせ！！！」。</li>
+<li>「進捗やクロック処理はシステム階層に、常時処理を使用しないデータベースはアセット階層に」。</li>
+<li>「ここのコマンド数をむやみに増やすな！丁寧に子関数に逃がせ」（.neo-1）。</li>
+<li>エフェクト検知（<code>nbt={active_effects…}</code> を @e に）は「超オモイ！極力実装しません」とコメントアウト。</li>
+</ul></div>
+
+<div class="rule"><h4><span class="tag exp">明示</span>R5. 説明未記載は「（説明未記載）」と書く／誰かのためにコメントを遺す</h4>
+<p class="ev"><b>出典</b>　<code>minecraft/tags/functions/tick.json</code> の先頭コメント「コードはいつか読むかもしれない誰かのために適切にコメントを遺しましょう」。<code>asset/summon/100</code> 等に「（説明未記載）」プレースホルダ。</p></div>
+
+<h3 id="conv-implicit">10.2 コードから読み取れる暗黙の規約</h3>
+
+<div class="grid2">
+<div class="rule"><h4><span class="tag imp">暗黙</span>I1. ドットで始まるファイルは「階層の入口／内部専用」</h4>
+<p><code>.neo</code>（77件）がそのフォルダのディスパッチャ。<code>.macro</code> <code>.all</code> <code>.get_entity</code> <code>.spawn</code> <code>.clock</code> <code>.all_trigger_make</code> など、直接呼ぶものではない補助関数・フォルダにドットを付ける。IDE で先頭に並ぶ副次効果もある。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I2. 進捗パス ＝ 処理関数パス</h4>
+<p><code>advancements/&lt;trigger&gt;/&lt;id&gt;.json</code> の <code>rewards.function</code> は常に <code>system/adv/&lt;trigger&gt;/&lt;id&gt;</code>。トリガー名を変えずにフォルダ名にする。1件だけ <code>tick/</code> 下に細分（cmd/csgui/quest/looking_at…）。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I3. 検知進捗は <code>.clock/*</code> を親にし、処理側で revoke しない</h4>
+<p>周期関数がまとめて <code>revoke @a from .clock/Ns</code> する。例外は「1回きり」の意味を持つ <code>tick/entity_scores/*</code> 系で、処理内で <code>revoke @s only</code>。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I4. 削除は kill ではなく tag del</h4>
+<p>次tickの <code>skill/del</code> が NBT を無害化してから kill。ドロップ・音・DeathLootTable を確実に殺す。周期版 <code>del1s/10s/300s/1200s</code>。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I5. 一時タグは同じ関数内で必ず外す</h4>
+<p><code>hit</code> <code>attacker</code> <code>looked</code> <code>interacted</code> <code>hooked</code> <code>resolve</code> <code>temp_display</code> は「付ける → 使う → remove」を1関数で完結。残留すると次の検知で誤爆する。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I6. マクロは「N.mcfunction を $(key) で呼ぶ」薄い入口</h4>
+<p><code>asset/summon</code> <code>asset/item</code> <code>asset/skill</code> は1行の <code>$function …/$(summon)</code>。引数名＝フォルダ名。ループは <code>asset/nbt/for {Function,List}</code> で汎用化。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I7. 早期 return によるガード節を先頭に固める</h4>
+<p><code>execute if entity @s[tag=!…] run return run …</code>／<code>execute at @s unless entity @a[distance=..64] run return 0</code>。639ファイルが return を使用。ディスパッチャでは「該当しないものを先に弾く」が先。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I8. 偽プレイヤーの接頭辞</h4>
+<p><code>#Calc…</code>＝計算用一時（表示されない）、<code>$N const</code>＝定数、<code>%LTAngle</code>＝数学ライブラリ（LT=LookAt/Pivot 系）、接頭辞なし小文字（<code>night</code> <code>random</code> <code>froggame</code>）＝機能フラグ。<b>-1 が ON</b>。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I9. 実行順を数字接頭辞で示す</h4>
+<p><code>setting/1_gamerule…5_storage</code>、<code>level/0_first_get_exp…3_lvl_up</code>、<code>.spawn/obj/item/3_item_to_summon…5_item_to_quest</code>、ログイン検査 <code>log-in/0..5</code>（ErrorCode）。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I10. スコア objective には必ず日本語の表示名</h4>
+<p>「【耐久力】HP表示用」「【冀求力】Soul」。プレイヤーに見えるスコアは「【カテゴリ】説明」形式、内部用は「LevelSync 計算用(own)」のように用途を書く。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I11. 開発者向け通知は creative 限定 tellraw</h4>
+<p><code>tellraw @a[gamemode=creative] "Ready! &gt; neofunction:…"</code> を初期化関数の冒頭に置き、実行トレースにする。旧式処理には「注：旧式の処理です！」を creative へ出す。デバッグ表示は tag <code>ad_info</code>。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I12. 非表示にする値は numberformat blank</h4>
+<p>サイドバー装飾行 <code>upper/downer/url</code> は極端な値で並び順を固定し、<code>display numberformat blank</code> で数値を隠す。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I13. 「巨大な選択肢」はストレージ配列に持ち、関数を増やさない</h4>
+<p>改良型作業台のレシピは <code>storage neofunction:crafter crafter_recipe</code> に append。イースターや会話も storage:talk/main_story。</p></div>
+<div class="rule"><h4><span class="tag imp">暗黙</span>I14. 発火媒体は「バニラアイテム＋NBT」</h4>
+<p>紙・構造物ブロック・スポーンエッグ・花火の星・小麦を .spawn/obj/item で解釈し、NBT の <code>summon/skill/quest</code> キーで振り分ける。新機能を足すとき既存のアイテム ID を消費しない。</p></div>
+</div>
+
+<h3>規約チェックリスト（新しい機能を追加するときに）</h3>
+<ol>
+<li>ヘッダー5行を書く（最後は <code>=/function</code> 自パス）。呼び出し元を <code>&gt;</code> に列挙。</li>
+<li>ID を採番し、item なら <code>loot_tables/item/N</code>＋<code>neoadvancement:neoitem/N</code>、entity なら <code>asset/summon/N</code>＋<code>loot_tables/asset/summon/N</code>＋<code>neoentity/N</code> を揃える。</li>
+<li>イベントで動くなら <code>advancements/&lt;trigger&gt;/N.json</code>（parent は <code>.clock/*</code>）＋ <code>system/adv/&lt;trigger&gt;/N.mcfunction</code>。</li>
+<li>常時処理が要るなら tag を決め、<code>entity/skill/.neo-1</code> の除外リストに<b>必ず追記</b>して子関数に逃がす。@e に nbt 判定を書かない。</li>
+<li>一時タグは同じ関数で remove、削除は <code>tag del</code>。</li>
+<li>新しいスコアは本当に「個体ごと・頻繁に変わる」か検討し、そうでなければ storage か偽プレイヤーへ。</li>
+</ol>
+</section>
+
+<section id="eval">
+<h2>11. 評価と改善提案</h2>
+<p class="sub">4年以上（2022/7〜）継続開発された個人〜少人数プロジェクトとして見た評価。</p>
+<div class="eval good">
+<div><h4>◎ 強み</h4>
+<ul>
+<li><b>ヘッダー規約の100%準拠</b>とツール化。呼び出しグラフが grep だけで追える。</li>
+<li><b>起点の3本化＋負荷順序</b>。tick 直下がほぼ関数呼び出しだけで、性能方針が構造に埋め込まれている。</li>
+<li><b>ID 一元化</b>。番号ひとつで関数・ルート・図鑑・検知が揃い、スプレッドシートから量産できる。</li>
+<li><b>自己修復するロード処理</b>。壊れた箇所だけ直し、状態をチャットで報告する（ErrorCode 0〜5）。</li>
+<li><b>マクロ・return・ストレージの1.20.2+機能を活用</b>し、旧式の巨大 if 連鎖を減らしている（「旧式の処理です」の警告で移行中を明示）。</li>
+<li>コメントに<b>負債の自己申告</b>（「いつか修正希望」「今後汎用処理に移動予定」）があり、放置ではなく認識されている。</li>
+</ul></div>
+<div><h4>△ リスク・負債</h4>
+<ul>
+<li><b>スキル除外リストの二重管理</b>（.neo-1）。追記忘れが静かなバグになる。→ タグ一覧を1つの function tag か storage に集約する余地。</li>
+<li><b>UUID 二進展開</b>による <code>player_hurt_entity/*.json</code> の肥大化。1.21 系では <code>damage.source_entity</code> 側の改善やアイテムコンポーネント化で全面書き直しが必要。</li>
+<li><b>配布物に開発資材が同梱</b>（<code>.zip</code> 36、<code>.lnk</code> 7、<code>.pptx</code> 2、<code>.vsix</code> 2、<code>.py</code> 3）。pack.mcmeta の filter は <code>.lnk</code> しか除外しない。→ ビルド時に除外。</li>
+<li><b>「内容」見出しや「説明」の表記ゆれ</b>、<code>assasin</code>（assassin）などの綴り固定。修正はリネームコストが高いので用語集で吸収するのが現実的。</li>
+<li><b>ハードコード座標</b>（nexus 1280,128,1280 / 1286,130,1294 の command_block 検査）。ワールド生成条件が変わると初期化が壊れる。</li>
+<li><b>1秒クロックに @e nbt 判定</b>（ネザースター検出）。作者も「ちょい重いかなぁ？」と認識。→ アイテムスポーン時の .spawn/obj/item 側で完結させる。</li>
+<li><b>スコア objective 93個</b>。予約済み未使用（ATK/INT/RES/LUK/CRT はコメントアウト）と、SPxxp のようなキャッシュ列が混在。</li>
+</ul></div>
+</div>
+<h4>1.21 以降へ移植するときの当たり</h4>
+<ul>
+<li><code>CustomModelData</code>（NBT）→ <code>custom_model_data</code> コンポーネント：進捗の <code>"nbt":"{CustomModelData:N}"</code> 約2,000箇所と loot の <code>set_nbt</code> 1,850件が影響。ID 体系自体は温存できる。</li>
+<li><code>functions/</code> → <code>function/</code>、<code>advancements/</code> → <code>advancement/</code> 等の複数形廃止：ヘッダーの <code>=/function neofunction:</code> パスは名前空間パスなので影響なし。</li>
+<li><code>DeathLootTable</code> による種族判定は続行可能だが、図鑑の <code>looking_at.nbt</code> 検知は要確認。</li>
+</ul>
+</section>
+
+<section id="glossary">
+<h2>12. 用語・記号集</h2>
+<table>
+<tr><th>用語</th><th>意味</th></tr>
+<tr><td>0-0-0-0-1</td><td>システム用固定 UUID エンティティ。ワールドの心臓・ワールド共通スコアの持ち主。</td></tr>
+<tr><td>nexus</td><td>拠点となる独自次元（<code>neodimension:nexus</code>）。システム領域は (1280,128,1280)。</td></tr>
+<tr><td>ceresta / ceresta_festa</td><td>祝祭の独自次元。バニラモブ入替、独自釣り（neofishing）、イースター。</td></tr>
+<tr><td>C.A.I.</td><td>「戦闘解析知性体」。ログ通知やチュートリアルを担う NPC。関数名では <code>cai</code>。</td></tr>
+<tr><td>argonaute</td><td>作者/管理者プレイヤーのタグ。mode 処理や light_purple チームで特別扱い。</td></tr>
+<tr><td>SP（冀求力 / Soul）</td><td>スキル資源。<code>SPmax</code> が上限、<code>SP1p…SP200p</code> は%キャッシュ。</td></tr>
+<tr><td>CT</td><td>クールタイム。毎秒 -1。</td></tr>
+<tr><td>depth / 侵攻深度</td><td>プレイヤー毎の図鑑達成率 EXP、およびワールドレベル <code>level world</code>。</td></tr>
+<tr><td>ホープスター</td><td>ネザースター。拾うとワールド共有 EXP <code>star EXP</code> に加算。</td></tr>
+<tr><td>cmd</td><td>CustomModelData。関数名・進捗フォルダ名での省略。</td></tr>
+<tr><td>csgui</td><td>チェスト/金床スロットを使う独自 GUI。</td></tr>
+<tr><td>AJ / animated_java</td><td>Animated Java 製モデル。<code>aj.global.root</code> タグ、<code>storage neofunction:aj</code>。</td></tr>
+<tr><td>LTPivot / %LTAngle</td><td>視線・回転計算ライブラリのタグと偽プレイヤー（1,026箇所で最多参照）。</td></tr>
+<tr><td>upper / downer</td><td>乗り物の親子関係。上（乗っている側）／下（乗られている側）が消えたら自壊。サイドバー装飾行の名前でもある。</td></tr>
+<tr><td>vanilla / check / except</td><td>審査結果タグ。vanilla＝カスタム処理対象外、check＝審査済、except＝スポーン時処理から除外。</td></tr>
+<tr><td>del / del1s / del10s…</td><td>遅延削除タグ。</td></tr>
+<tr><td>marked</td><td>エリアタイトル表示用アーマースタンド。8m 以内でタイトル、10s 毎に解除。</td></tr>
+<tr><td>familiar</td><td>テイマーの召喚獣。</td></tr>
+<tr><td>soul1〜4</td><td>敵スポーン時に各1%で付く属性タグ（非 elite）。</td></tr>
+</table>
+<p style="color:var(--ink-3);font-size:.85rem;margin-top:30px">解析対象：NeoFunctions.zip（12,333ファイル、pack_format 26 ／ MC1.20.4）。数値はすべて実ファイルの走査による実測値。コード引用は原文のまま（一部省略）。</p>
+</section>
+
+</div>
+</main>
+</div>
+<a class="toplink" href="#overview">↑ 上へ</a>
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('nav.toc a'));
+  var map={};links.forEach(function(a){var id=a.getAttribute('href').slice(1);var el=document.getElementById(id);if(el)map[id]=a;});
+  if(!('IntersectionObserver' in window))return;
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.remove('active')});var a=map[e.target.id];if(a)a.classList.add('active');}});},{rootMargin:'-20% 0px -70% 0px'});
+  Object.keys(map).forEach(function(id){io.observe(document.getElementById(id));});
+})();
+</script>
+</body>
+</html>

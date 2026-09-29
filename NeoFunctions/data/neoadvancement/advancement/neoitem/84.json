@@ -1,0 +1,64 @@
+{
+  "parent": "neoadvancement:neoitem/83",
+  "display": {
+    "icon": {
+      "id": "minecraft:chest",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "宝具観測：ハルパー？ -Harpe?-",
+      "color": "white",
+      "bold": true,
+      "italic": false
+    },
+    "description": {
+      "translate": "§b条件：§r指定アイテム(ID:84)を入手する。\n§3報酬：§r経験値×8\n§9説明：§r鎌のような形状の刀剣\nギリシャ神話においてヘパイストスがダイヤモンドから創造し、\n決して壊れない黄金の刀剣としてヘルメス神が所持してたとされているが、\nゴルゴン三姉妹末娘のメデューサを退治するために英雄ペルセウスの手に渡ったり、\n神格に対しても言えない傷を与えることができるとか言われちゃったり、\nゼウスの父であるクロノスがウラノスのたまを切り落とすのに使われたり、\nいろいろ過去に色々あった系の剣。\n「俺にはそんな力ないから、変なもの切らせるのはやめてほしい。」",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoitem/root": true
+              }
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:stone_sword"
+            ],
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  84
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/item/5"
+  }
+}

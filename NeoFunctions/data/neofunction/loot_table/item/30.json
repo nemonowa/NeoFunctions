@@ -1,0 +1,61 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:lore": [
+                {
+                  "text": "触れたすべてのエンティティを発光させる",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "＼ｱｯｶﾘ～ﾝ／",
+                "color": "#FF8F1F",
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  30
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 16748319,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:glowing",
+                    "amplifier": 0,
+                    "duration": 2400,
+                    "show_particles": true
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

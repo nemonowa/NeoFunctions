@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "この",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "先生",
+                  "color": "dark_red"
+                },
+                {
+                  "text": "きのこ"
+                },
+                {
+                  "text": "れるのか",
+                  "color": "dark_red"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ご愛読ありがとうございました。",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "ねもねも先生の次回作にご期待ください",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:31eb378a-4d3e-4109-8a8c-1bbb1abe075f",
+                  "amount": 0.7,
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:a6ee8ea2-418e-4485-aebd-a80ef6c93dce",
+                  "amount": 7,
+                  "operation": "add_value",
+                  "slot": "offhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1599
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

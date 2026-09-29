@@ -1,0 +1,45 @@
+{
+  "parent": "neoadvancement:neoskill/185",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：【練気】ソウル・ハート -[Energy Training] Soul Heart-                                                               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:186)の習得\n§3報酬：§r経験値×32\n§9説明：§rトリガーすると、一時的に冀求力の自然回復を加速する。\nソウル精製。ソウルを作り出す技術。SPの最大値が高いほど自然回復するソウルは大きくなる。耀きの心臓",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                186
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/skill"
+  }
+}

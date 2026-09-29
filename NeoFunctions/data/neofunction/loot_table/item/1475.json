@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_place_on": [
+                {
+                  "blocks": "minecraft:campfire"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1475
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "土と鉱物が融合した外殻を持つ魚。その装甲は並の攻撃では傷一つ付かない。",
+                  "color": "#C3D825",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Tips：要塞のポーション（耐性レベル3 0:45/鈍足レベル3 0:45）の材料。",
+                  "color": "#009970",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "Rare:",
+                  "extra": [
+                    {
+                      "text": "✯",
+                      "extra": [
+                        {
+                          "text": "✯",
+                          "color": "#FFCC38"
+                        }
+                      ],
+                      "italic": false,
+                      "color": "#FFE33B"
+                    }
+                  ],
+                  "italic": false,
+                  "color": "aqua",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "アースシェルフィッシュ",
+                "color": "#8C5A41",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_data": {
+                "FishEffect": [
+                  {
+                    "amplifier": 2,
+                    "duration": 900,
+                    "id": "slowness"
+                  },
+                  {
+                    "amplifier": 2,
+                    "duration": 900,
+                    "id": "resistance"
+                  }
+                ],
+                "FishPrefix": "{\"text\":\"要塞の\"}",
+                "rare": [
+                  "ex"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

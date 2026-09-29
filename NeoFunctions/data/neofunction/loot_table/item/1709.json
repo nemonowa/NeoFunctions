@@ -1,0 +1,144 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:311fa69a-7e82-46fa-b210-7674725d8e33",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:65501d46-4f5d-4072-88b9-b1fda7caf519",
+                  "amount": -0.8,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:charged_projectiles": [
+                {
+                  "count": 1,
+                  "id": "minecraft:arrow"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:quick_charge": 255
+              },
+              "minecraft:lore": [
+                {
+                  "text": "鋼鉄の巨弩『アーバレスト』",
+                  "color": "dark_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "高張力の鋼鉄弦で作られた超大型のクロスボウ。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "その放つ一矢は、並の鎧どころか城門の木板すらも容易に破砕する。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ただ、重すぎるし、取り扱いが非常に難しい。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "我々がちんたら矢を再装填するところを、敵は黙ってみているだろうか？",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:1",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:大",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:矢",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:単発",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "鋼鉄の巨弩『アーバレスト』",
+                "color": "dark_purple",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1709
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable",
+                  "minecraft:can_break",
+                  "minecraft:can_place_on",
+                  "minecraft:charged_projectiles",
+                  "minecraft:dyed_color",
+                  "minecraft:trim"
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 1,
+                "ammotype": {
+                  "id": "minecraft:arrow"
+                },
+                "damage": 3,
+                "firerate": 1,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 1,
+                "maxreloadingtime": 200,
+                "recoil": -3,
+                "reloading": 0,
+                "speed": 2,
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

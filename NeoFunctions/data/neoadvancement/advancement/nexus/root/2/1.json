@@ -1,0 +1,37 @@
+{
+  "parent": "neoadvancement:nexus/root/2/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:writable_book"
+    },
+    "title": [
+      {
+        "translate": "練兵：超兵ウォルターと会話する～～～",
+        "color": "#5757E5",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：指定地域の全商人に話しかける。\n§3§l報酬：§f経験値×16\n§9§l説明：§7交易可能リスト（計17名）\n超兵ウォルター：熱血敏腕鬼教官。数多の「星救の英雄」を鍛え上げる。過去、母星のEDN-2ndを守れなかった経験から【守れる】人材を育成することに一生を費やす覚悟を決めたのだとか…",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/2\"}"
+          }
+        }
+      }
+    }
+  }
+}

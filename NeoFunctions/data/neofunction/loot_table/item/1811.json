@@ -1,0 +1,70 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:49eeb794-4f74-4da9-8b7f-3bf48a0441d7",
+                  "amount": 2,
+                  "operation": "add_value",
+                  "slot": "head"
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 2
+              },
+              "minecraft:profile": {
+                "id": [
+                  -1397216355,
+                  -1603645755,
+                  -2118002153,
+                  -220914175
+                ],
+                "properties": [
+                  {
+                    "name": "textures",
+                    "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODEzYjM0Mzg2OTFkMTY3MmJhZGQzMmUxMGMzMTBkMDdmNDQ5MzA1Nzg5MmQ2MGQ4YTYxMTE3NWJkNzBlMGY5OCJ9fX0="
+                  }
+                ]
+              },
+              "minecraft:lore": [
+                {
+                  "text": "討伐せし者のみが持ち得る証",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ぐらず=ゔぇるなりきりせっと",
+                  "color": "gray"
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "蛙王グラズ＝ヴェルの首",
+                "color": "dark_green",
+                "italic": false
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1811
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

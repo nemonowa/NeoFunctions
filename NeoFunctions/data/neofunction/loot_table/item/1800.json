@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "armor",
+                  "id": "neofunction:bb362053-fe78-4cb2-88b9-01a02f6a53da",
+                  "amount": 3,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:fire_protection": 3,
+                "minecraft:thorns": 1,
+                "minecraft:fire_aspect": 20,
+                "minecraft:unbreaking": 8
+              },
+              "minecraft:repair_cost": 9999,
+              "minecraft:trim": {
+                "material": "minecraft:gold",
+                "pattern": "minecraft:ward"
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【太陽の加護】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "灼熱の意志を纏う鎧。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "胸に燃ゆるは、不屈の炎。",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "昼の間、身体能力が上昇する",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "(速度上昇・跳躍力上昇)",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_name": {
+                "text": "プロミネンス・チェストプレート",
+                "color": "#FF1A1A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 16718362,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1800
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

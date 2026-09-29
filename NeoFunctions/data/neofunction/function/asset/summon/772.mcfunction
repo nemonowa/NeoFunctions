@@ -1,0 +1,6 @@
+# 命名：黄金の囁き
+# 説明：（説明未記載）
+# >/function neofunction:entity/.spawn/obj/item/3_item_to_summon
+# =/function neofunction:asset/summon/772
+
+summon vex ~ ~ ~ {Glowing:1b,Team:"yellow",Health:20f,Passengers:[{id:"minecraft:area_effect_cloud",custom_particle:{type:"minecraft:dust",color:[1.0f,1.0f,0.051f],scale:1.0f},Radius:1f,Duration:10,Tags:["fly0"],potion_contents:{custom_effects:[{id:"minecraft:blindness",amplifier:0b,duration:40}]}}],CustomName:{"text":"黄金の囁き","color":"gold","bold":true,"italic":false},active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1}],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:follow_range",base:40},{id:"minecraft:attack_damage",base:5}],Tags:[lv1,],DeathLootTable:"neofunction:asset/summon/772",equipment:{mainhand:{id:"minecraft:gold_block",count:1,components:{"minecraft:custom_name":{"text":"黄金の欠片","color":"gold","bold":true,"italic":false}}},offhand:{id:"minecraft:gold_block",count:1,components:{"minecraft:custom_name":{"text":"黄金の欠片","color":"gold","bold":true,"italic":false}}}}}

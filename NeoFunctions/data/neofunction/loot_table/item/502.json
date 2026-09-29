@@ -1,0 +1,198 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "ep",
+                  "color": "#C2003D",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " Dr.Paper ",
+                  "color": "#84002A",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true,
+                  "obfuscated": false
+                },
+                {
+                  "text": "ep",
+                  "bold": true,
+                  "italic": true,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "現存する最古の炭酸飲料",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "20種類以上の謎エフェクトが織りなす",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "サイケデリックな未知の中毒的フレーバー",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "一部ではカルトな愛飲者も存在する",
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "それは選ばれし者の知的飲料",
+                  "color": "#84002A",
+                  "underlined": true
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:thorns": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  502
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8650794,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:slowness",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:mining_fatigue",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:strength",
+                    "amplifier": 2,
+                    "duration": 3600
+                  },
+                  {
+                    "id": "minecraft:jump_boost",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 127,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:water_breathing",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:blindness",
+                    "amplifier": 127,
+                    "duration": 10
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:hunger",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:weakness",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:poison",
+                    "amplifier": 5,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 5,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:health_boost",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:glowing",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:slow_falling",
+                    "amplifier": 0,
+                    "duration": 20
+                  },
+                  {
+                    "id": "minecraft:darkness",
+                    "amplifier": 127,
+                    "duration": 10
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

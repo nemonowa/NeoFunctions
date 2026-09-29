@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:anchor/root/0",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 3997440
+      }
+    },
+    "title": [
+      {
+        "translate": "🍀｜豊穣の大自然島【CerestaFesta】～～～～～",
+        "color": "#C3D825",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【セレスタフェスタ】に到達する。\n§3§l難度：§f✭✭✭（脅威レベル2～6：漂流)\n§9§l説明：§7神風が誘う神秘の孤島。§a女神【セレスタ】§7を信仰する、§6独特な文化§7や§d魔法体系§7が息づいている。未知を拓いて§e祝祭§7を導け..."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:ceresta_festa"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  }
+}

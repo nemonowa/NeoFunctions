@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "hap",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " バリキドリンク ",
+                  "color": "#D4D934",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "hap",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ヨロシサン製薬の代表的なドリンク商品",
+                  "color": "dark_green",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                [
+                  {
+                    "text": "興奮・覚醒",
+                    "color": "yellow",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "作用がありオーバードーズする事で",
+                    "color": "dark_green",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                {
+                  "text": "麻薬に似た性質を発揮する。",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "故にストレス発散目的で多くの労働者に愛飲されており",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "集団でバリキドリンクを過剰に飲む「バリキナイト」なる",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "退廃的集会が開かれるほどである。",
+                  "color": "dark_green",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "不眠不休な！滋養強壮な！",
+                  "color": "gold",
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  693
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13949236,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 15,
+                    "duration": 120
+                  },
+                  {
+                    "id": "minecraft:night_vision",
+                    "amplifier": 15,
+                    "duration": 9
+                  },
+                  {
+                    "id": "minecraft:wither",
+                    "amplifier": 15,
+                    "duration": 60
+                  },
+                  {
+                    "id": "minecraft:unluck",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:potion_contents"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

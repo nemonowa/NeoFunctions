@@ -1,0 +1,149 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "neofunction:fishing/fish-overworld"
+        }
+      ],
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:location": {
+            "dimension": "minecraft:overworld"
+          }
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "structure_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  -1
+                ]
+              },
+              "minecraft:custom_data": {
+                "AltLootTable": "neofunction:fishing/fish-nether"
+              }
+            }
+          }
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:location": {
+            "dimension": "minecraft:the_nether"
+          }
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "structure_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  -1
+                ]
+              },
+              "minecraft:custom_data": {
+                "AltLootTable": "neofunction:fishing/fish-end"
+              }
+            }
+          }
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:location": {
+            "dimension": "minecraft:the_end"
+          }
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "structure_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  -1
+                ]
+              },
+              "minecraft:custom_data": {
+                "AltLootTable": "neofunction:fishing/fish-ceresta"
+              }
+            }
+          }
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:location": {
+            "dimension": "neodimension:ceresta_festa"
+          }
+        }
+      }
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "structure_block",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_model_data": {
+                "floats": [
+                  -1
+                ]
+              },
+              "minecraft:custom_data": {
+                "AltLootTable": "neofunction:fishing/fish-nexus"
+              }
+            }
+          }
+        }
+      ],
+      "condition": {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "minecraft:location": {
+            "dimension": "neodimension:nexus"
+          }
+        }
+      }
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

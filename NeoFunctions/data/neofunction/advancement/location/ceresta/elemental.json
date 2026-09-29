@@ -1,0 +1,36 @@
+{
+  "parent": "neofunction:.clock/60s",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 1022,
+                  "max": 1039
+                },
+                "y": {
+                  "min": 20,
+                  "max": 33
+                },
+                "z": {
+                  "min": 1758,
+                  "max": 1776
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/location/ceresta/elemental"
+  }
+}

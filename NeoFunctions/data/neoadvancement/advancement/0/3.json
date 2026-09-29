@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:redstone_block",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            1003
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "純魂焔の黄晶鍵 -Yellow Crystal-                                 ",
+        "color": "yellow",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§kxx§r Arcus Ark Crystal Key §kxx§r\n",
+      "bold": true,
+      "color": "yellow",
+      "italic": false,
+      "underlined": true,
+      "extra": [
+        {
+          "translate": "説明：それは黄色に燃えゆく勇気の純炎。強力無比なキーアイテムであり、世界に散らばり、海や山、国や城、個や物に取り込まれ、超常の力の源となっている。",
+          "color": "white",
+          "bold": false,
+          "underlined": false,
+          "extra": [
+            {
+              "translate": "\n条件：極彩の天空庭園-RainbowHeaven-を制覇する\n報酬：Rune of Yellow Crystal Monument",
+              "color": "yellow",
+              "bold": false,
+              "underlined": true
+            }
+          ]
+        }
+      ]
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "neoadvancement:0/2",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "item_frame",
+            "minecraft:nbt": "{Tags:[\"cmd1003\"],Item:{components:{\"minecraft:custom_model_data\":{floats:[1003.0f]}}}}"
+          }
+        }
+      }
+    }
+  }
+}

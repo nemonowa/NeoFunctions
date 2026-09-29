@@ -1,0 +1,136 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dropper",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "||||||",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": "  レジェンダリールート ",
+                  "color": "red",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "||||||",
+                  "color": "white",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true,
+                  "strikethrough": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "討伐時に敵が落とした",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "戦利品",
+                    "color": "dark_aqua",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "開封すると",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  },
+                  {
+                    "text": "高レアリティ",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "のアイテムが手に入る",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "幸運値",
+                    "color": "green",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が大きいほど出やすくなり、",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "解析装置や鑑定スキル",
+                    "color": "dark_blue",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": true
+                  },
+                  {
+                    "text": "を使用すると、",
+                    "color": "gray",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false
+                  }
+                ],
+                {
+                  "text": "より良いアイテムが手にはいる。",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:fortune": 6
+              },
+              "minecraft:container_loot": {
+                "loot_table": "neofunction:dropper/legendary"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1161
+                ]
+              },
+              "minecraft:custom_data": {
+                "loot": 1,
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

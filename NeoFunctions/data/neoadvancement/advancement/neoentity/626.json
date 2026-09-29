@@ -1,0 +1,52 @@
+{
+  "parent": "neoadvancement:neoentity/625",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+        "minecraft:custom_model_data": {
+          "floats": [
+            3
+          ]
+        }
+      }
+    },
+    "title": {
+      "translate": "存在観測：ミ・ルーク                                ",
+      "color": "aqua",
+      "bold": true
+    },
+    "description": {
+      "translate": "§b条件：§r指定エンティティ(ID:626)の発見\n§3報酬：§r経験値×16\n§9説明：§rルーク・アルバート（Luke Albert）\n\n役職：放牧係・力仕事担当\n年齢：20代前半\n性格：素朴・真面目・少し不器用\n特徴：栗色の髪を無造作に結び、いつも作業服姿。\n話し方：訛りが少しある。語尾が柔らかい「～っす」「～かな」\n\n背景・人物像：\nシェーラに拾われて育った青年。幼い頃に両親を失い、放牧の仕事を手伝ううちに頼もしい右腕になった。\n牛や羊に好かれやすく、特に“ランプウール”という魔力を帯びた羊の世話を得意とする。\n冒険者には時折、放牧手伝いや家畜保護の依頼を出す。\n戦闘は得意ではないが、力仕事や荷運びなど体を張ることは嫌がらない。",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:type_specific/player": {
+              "advancements": {
+                "neoadvancement:neoentity/root": true
+              },
+              "looking_at": {
+                "minecraft:nbt": "{DeathLootTable:\"neofunction:asset/summon/626\"}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/st"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/6",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 16119294
+      }
+    },
+    "title": [
+      {
+        "translate": "次元侵攻：極点の白銀大陸-LuminVitin-",
+        "color": "#F4FBFE",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【ルミーニ・ヴィティーニ】に到達する。\n§3§l報酬：§f進捗タブ「極点の白銀大陸」の解放\n§9§l説明：§7極点の白銀大陸。純白の粉雪が降り続ける世界。\n§c§l転移方法：§f盲目状態で粉雪ダメージを受けると神秘のオーロラを目撃し確率で遭難する。NEXUSから転移する。"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:lumin_vitin"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neoadvancement:neo/rewards"
+  }
+}

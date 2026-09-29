@@ -1,0 +1,124 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": " ➼ 紅蓮の弓矢 ➼ ",
+                "color": "#6500D9",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "特殊弾が詰め込まれた矢筒",
+                  "color": "white",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "id": "minecraft:tipped_arrow",
+                  "count": 8,
+                  "components": {
+                    "minecraft:custom_name": [
+                      {
+                        "text": "Jäger",
+                        "color": "dark_purple",
+                        "bold": false,
+                        "italic": true,
+                        "underlined": false,
+                        "obfuscated": true
+                      },
+                      {
+                        "text": " ➼ 冥府の弓矢 ➼ ",
+                        "color": "#6500D9",
+                        "bold": true,
+                        "italic": true,
+                        "underlined": true,
+                        "obfuscated": false
+                      },
+                      {
+                        "text": "Jäger",
+                        "color": "dark_purple",
+                        "bold": false,
+                        "italic": true,
+                        "underlined": false,
+                        "obfuscated": true
+                      }
+                    ],
+                    "minecraft:lore": [
+                      {
+                        "text": "宵闇に紫を運ぶ冥府の弓矢",
+                        "color": "#6500D9",
+                        "bold": true,
+                        "italic": true
+                      },
+                      {
+                        "text": "命中した標的を三回、大幅に負傷させる。",
+                        "color": "white",
+                        "bold": false,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "➼➼➼ Wir sind der Jäger ➼➼➼",
+                        "color": "black",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "➼獲物を殺すのは凶器でも技術でもない、",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      },
+                      {
+                        "text": "➼迸る衝動に其の身を灼き尽くすお前自身の殺意だ。",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": true
+                      }
+                    ],
+                    "minecraft:potion_contents": {
+                      "custom_color": 6619353,
+                      "custom_effects": [
+                        {
+                          "id": "minecraft:instant_damage",
+                          "amplifier": 3,
+                          "duration": 20
+                        }
+                      ]
+                    },
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:potion_contents"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  702
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "5"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

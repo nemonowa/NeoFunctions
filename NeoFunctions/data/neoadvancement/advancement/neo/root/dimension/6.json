@@ -1,0 +1,41 @@
+{
+  "parent": "neoadvancement:neo/root/dimension/5",
+  "display": {
+    "icon": {
+      "id": "minecraft:filled_map",
+      "components": {
+        "minecraft:dyed_color": 15278249
+      }
+    },
+    "title": [
+      {
+        "translate": "次元侵攻：黄泉の六道冥府 -The Yomi-",
+        "color": "light_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b§l条件：【ヨミノメイフ】に到達する。\n§3§l報酬：§f進捗タブ「黄泉の六道冥府」の解放\n§9§l説明：§7暗黒菌床。\n§c§l転移方法：§f盲目状態で高度0以下に侵入すると確率で遭難する。NEXUSから転移する。"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "neodimension:the_yomi"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:player/level/give/64"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "neofunction:.clock/5s",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "player",
+            "minecraft:equipment": {
+              "mainhand": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1803
+                    ]
+                  }
+                }
+              },
+              "offhand": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1804
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/cmd/1803"
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "白雲の羽衣セット",
+                "color": "white",
+                "bold": true,
+                "italic": false,
+                "obfuscated": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "セットスペル🔯【孤高の浮き雲】",
+                  "color": "light_purple",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": true
+                },
+                {
+                  "text": "四部位フルセットで装備すると",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
+                  "text": "Y-64以下で1度だけ浮遊効果を得る",
+                  "color": "dark_gray",
+                  "bold": false,
+                  "italic": false
+                }
+              ],
+              "minecraft:bundle_contents": [
+                {
+                  "count": 1,
+                  "Slot": 0,
+                  "id": "minecraft:leather_helmet",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        1632
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 1,
+                      "minecraft:unbreaking": 3
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:iron",
+                      "pattern": "minecraft:wayfinder"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【孤高の浮雲】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "Y-64以下で1度だけ浮遊効果を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:custom_name": {
+                      "text": "白雲の羽衣",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false,
+                      "obfuscated": false
+                    },
+                    "minecraft:dyed_color": 12643818,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": 0
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 1,
+                  "id": "minecraft:leather_chestplate",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        1633
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 1,
+                      "minecraft:unbreaking": 3
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:iron",
+                      "pattern": "minecraft:wayfinder"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【孤高の浮雲】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "Y-64以下で1度だけ浮遊効果を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:custom_name": {
+                      "text": "白雲の羽衣",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false,
+                      "obfuscated": false
+                    },
+                    "minecraft:dyed_color": 12643818,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": 0
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 2,
+                  "id": "minecraft:leather_leggings",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        1634
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 1,
+                      "minecraft:unbreaking": 3
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:iron",
+                      "pattern": "minecraft:wayfinder"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【孤高の浮雲】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "Y-64以下で1度だけ浮遊効果を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:custom_name": {
+                      "text": "白雲の羽衣",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false,
+                      "obfuscated": false
+                    },
+                    "minecraft:dyed_color": 12643818,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": 0
+                    }
+                  }
+                },
+                {
+                  "count": 1,
+                  "Slot": 3,
+                  "id": "minecraft:leather_boots",
+                  "components": {
+                    "minecraft:custom_model_data": {
+                      "floats": [
+                        1635
+                      ]
+                    },
+                    "minecraft:damage": 0,
+                    "minecraft:enchantments": {
+                      "minecraft:protection": 1,
+                      "minecraft:unbreaking": 3
+                    },
+                    "minecraft:trim": {
+                      "material": "minecraft:iron",
+                      "pattern": "minecraft:wayfinder"
+                    },
+                    "minecraft:lore": [
+                      {
+                        "text": "セットスペル🔯【孤高の浮雲】",
+                        "color": "light_purple",
+                        "bold": true,
+                        "italic": false,
+                        "underlined": true
+                      },
+                      {
+                        "text": "四部位フルセットで装備すると",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      },
+                      {
+                        "text": "Y-64以下で1度だけ浮遊効果を得る",
+                        "color": "dark_gray",
+                        "bold": false,
+                        "italic": false
+                      }
+                    ],
+                    "minecraft:custom_name": {
+                      "text": "白雲の羽衣",
+                      "color": "white",
+                      "bold": true,
+                      "italic": false,
+                      "obfuscated": false
+                    },
+                    "minecraft:dyed_color": 12643818,
+                    "minecraft:tooltip_display": {
+                      "hidden_components": [
+                        "minecraft:dyed_color",
+                        "minecraft:trim"
+                      ]
+                    },
+                    "minecraft:custom_data": {
+                      "rare": 0
+                    }
+                  }
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1636
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

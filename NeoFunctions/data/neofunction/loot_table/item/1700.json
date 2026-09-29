@@ -1,0 +1,149 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "H&K MP5",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": true,
+                "underlined": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "H&K MP5",
+                  "color": "dark_gray",
+                  "bold": true,
+                  "italic": true,
+                  "underlined": true
+                },
+                {
+                  "text": "「建物の角から目と銃口だけを覗かせる",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "テロリストの眼球を撃ち抜くことができる」",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "とまで称された圧倒的な精度を誇る。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "複雑なボルト構造ゆえに高価で敬遠されたが、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "1980年の「オペレーション・ニムロッド」にて",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "SASが使用したことで世界中にその名をとどろかせ、",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "特殊部隊の代名詞となった。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "装弾数:30",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "反動:小",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "使用弾薬:9mm Parabellum",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "射撃方式:フルオート",
+                  "color": "gray",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "スニークでセルフリロード可能",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:860253dc-bb7a-4644-859c-1bd073943772",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "offhand"
+                },
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:7850f7fd-4c68-41ce-9ea8-611c58465893",
+                  "amount": -0.3,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1700
+                ]
+              },
+              "minecraft:custom_data": {
+                "ammo": 30,
+                "damage": 1,
+                "firerate": 0,
+                "fireweapon": 1,
+                "life": 1100,
+                "maxammo": 30,
+                "maxreloadingtime": 100,
+                "reloading": 0,
+                "speed": 2,
+                "inoncooltime": 0,
+                "ammotype": {
+                  "id": "minecraft:tipped_arrow",
+                  "tag": {
+                    "CustomModelData": 634
+                  }
+                },
+                "recoil": -1,
+                "rare": [
+                  "6"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

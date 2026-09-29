@@ -1,0 +1,52 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "石鎧",
+                "color": "dark_gray",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:dyed_color": 8820355,
+              "minecraft:damage": 0,
+              "minecraft:enchantments": {
+                "minecraft:protection": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "movement_speed",
+                  "id": "neofunction:320cf81e-5a17-467a-9d0b-d4d206c1588d",
+                  "amount": 0.01,
+                  "operation": "add_multiplied_total",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:trim": {
+                "material": "minecraft:netherite",
+                "pattern": "minecraft:wild"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  712
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
