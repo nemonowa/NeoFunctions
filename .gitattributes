@@ -1,0 +1,51 @@
+# DEV_README.md §14.2-6 対応：改行コード(CRLF/LF)混在の防止。
+# 「開発機（Windows）で動けばOK」ではなく、コミット時点でOSに依らず同じ改行コードに
+# 正規化することで、以後の差分ノイズ・マージ事故を防ぐ。
+#
+# 方針：
+#  - テキストファイルはリポジトリ内では一律 LF に正規化する（text=auto の既定動作）。
+#  - Windows専用ツールでの編集時にCRLFへ変換されても、コミット時にLFへ揃えられる。
+#  - バイナリ資産（フォント・音声・画像等）は絶対に改行コード変換の対象にしない
+#    （変換されるとファイルが壊れる）。
+
+* text=auto eol=lf
+
+# --- ソースコード ---
+*.java text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+*.txt  text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+
+# --- データパック本体（Minecraft）---
+*.mcfunction text eol=lf
+*.mcmeta     text eol=lf
+
+# Windows専用の起動スクリプト等、CRLFが本来必要なものだけ明示的に除外
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# --- バイナリ資産（14.1原則：OS差分が出やすい箇所は必ず分岐/共通化する対象の一部。
+#     ここでは「改行コード変換の対象から明示的に除外する」形でOS非依存を担保する）---
+*.ttf  binary
+*.otf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ogg  binary
+*.wav  binary
+*.mp3  binary
+*.zip  binary
+*.jar  binary
+*.class binary
+
+# Windowsショートカット（例：data/**/tags.lnk 等）。バイナリ構造のため
+# text=autoの自動判定に任せず明示的に除外し、改行コード変換による破損を防ぐ。
+*.lnk  binary

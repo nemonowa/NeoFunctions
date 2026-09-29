@@ -1,0 +1,32 @@
+.env
+.vscode
+.local_only
+
+# macOS
+.DS_Store
+.localized
+__MACOSX/
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+.fseventsd
+.VolumeIcon.icns
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+nohup.out
