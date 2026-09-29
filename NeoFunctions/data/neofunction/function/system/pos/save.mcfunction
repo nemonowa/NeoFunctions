@@ -8,6 +8,8 @@
 
 ## 内容
 $data modify storage pos:$(id) name set from entity @s CustomName
+# 【変更：2026-09-29 26.3対応】転移の処理（.macro）が名前を pos:$(id) からコピーできるよう、地点の番号も保存する（ユーザーの判断）
+$data modify storage pos:$(id) id set value $(id)
 
 $execute as @p run data modify storage pos:$(id) dimension set from entity @s Dimension
 $data modify storage pos:$(id) x set from entity @s Pos[0]

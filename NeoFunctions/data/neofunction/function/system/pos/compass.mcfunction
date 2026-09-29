@@ -16,7 +16,8 @@ tag @e[type=item,tag=pos_compass] remove pos_compass
 
 
 
-$tellraw @p ["",{"text":"追跡するポスアンカーを"},$(name),{"text":"に更新しました。"}]
+# 【変更：2026-09-29 26.3対応】名前を $(name) で埋め込むと、飾りの無い名前（26.3 ではただの文字）の時に命令文として読めず関数全体が失敗するため、コピー済みの neofunction:pos_compass data.name を文章として読む（ユーザーの判断）
+tellraw @p ["",{"text":"追跡するポスアンカーを"},{"nbt":"data.name","storage":"neofunction:pos_compass","interpret":true},{"text":"に更新しました。"}]
 
 
 # 旧処理
