@@ -11,32 +11,53 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "地獄のカレーパン",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "見た目は普通の揚げカレーパンだが",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "口に入れた瞬間「地獄級の辛さ」が襲いかかる。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "辛さの中に旨味が隠されており、クセになる人が続出。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP中回復＋炎属性攻撃UP（5分間）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（25%）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃力上昇Ⅰ（05:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "火炎耐性（01:00）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }

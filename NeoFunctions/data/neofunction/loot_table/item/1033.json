@@ -11,38 +11,59 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "ハビアット流爆弾コロッケ",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "見た目は普通のコロッケだが中には",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "辛さ爆弾」と呼ばれる特製唐辛子が",
-                  "color": "white",
+                  "text": "「辛さ爆弾」と呼ばれる特製唐辛子が",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "仕込まれていることがある。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "食べる者の運と勇気が試されるジャンクフード。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP小回復＋「ランダム効果」発動（強化 or 弱体効果が出る可能性あり）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（10%）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃力上昇Ⅰ（01:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "吐き気（00:05）",
+                  "color": "red",
                   "bold": true,
                   "italic": false
                 }

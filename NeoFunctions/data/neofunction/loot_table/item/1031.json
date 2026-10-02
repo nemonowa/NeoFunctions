@@ -11,39 +11,54 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "モンスタータコス",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "「噛み応え抜群！」がウリのタコス。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "モンスター肉とシャキシャキ野菜",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "そして激辛ソースが渾然一体となった味わい。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "口の中が戦場のようになること請け合い。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：一時的に攻撃速度UP（3分間）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "採掘速度上昇Ⅰ（03:00）",
+                  "color": "blue",
                   "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃速度も上昇する",
+                  "color": "gray",
+                  "bold": false,
                   "italic": false
                 }
               ],

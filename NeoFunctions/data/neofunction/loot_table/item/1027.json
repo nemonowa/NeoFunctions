@@ -11,38 +11,53 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "トリプル・ガーベリト",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "「何が出るかな？」で人気の3層構造ブリトー。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "表面はカリッと焼き上げられ、",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "中には特産豆、肉、時折「謎の具材」まで詰め込まれている。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "運が良ければレアな食材が入っていることも。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果イメージ：空腹を完全回復。スタミナ回復。その他ランダムで効果付与（要検討）",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "満腹度全回復",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "再生能力Ⅰ（01:00）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }

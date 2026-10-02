@@ -11,39 +11,60 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "爆裂ポップコーン",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "見た目は普通のポップコーンだが",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "一粒一粒が爆発するような辛さ。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "食べ続けるほどに「痛いけど美味い」",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "という謎の中毒性が発生する。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP小回復＋攻撃関係バフ（3分間）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（10%）",
+                  "color": "blue",
                   "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "跳躍力上昇Ⅰ（03:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "ジャンプ攻撃でクリティカルを狙いやすくなる",
+                  "color": "gray",
+                  "bold": false,
                   "italic": false
                 }
               ],

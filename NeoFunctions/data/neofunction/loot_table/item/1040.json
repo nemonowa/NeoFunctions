@@ -10,39 +10,54 @@
             "type": "minecraft:set_components",
             "components": {
               "minecraft:custom_name": {
-                "text": " とろとろチーズ焼き串",
-                "color": "dark_red",
+                "text": "とろとろチーズ焼き串",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "チーズを塊のまま串に刺し",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "炭火でじっくり焼いた屋台名物",
-                  "color": "white",
+                  "text": "炭火でじっくり焼いた屋台名物。",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "焼きたてのチーズはとろけるような舌触りで",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "何本でも食べられそうになる",
-                  "color": "white",
+                  "text": "何本でも食べられそうになる。",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP微回復＋魔法防御UP（3分間）",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（10%）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "衝撃吸収Ⅱ（03:00）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }

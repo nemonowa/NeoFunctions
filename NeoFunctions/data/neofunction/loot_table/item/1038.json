@@ -10,33 +10,54 @@
             "type": "minecraft:set_components",
             "components": {
               "minecraft:custom_name": {
-                "text": " メガ肉まんDX",
-                "color": "dark_red",
+                "text": "メガ肉まんDX",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "ハービット特産の巨大肉まん。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "ふわふわの皮と中から溢れ出る肉汁が魅力だが",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "あまりに大きすぎて片手で持つことは不可能",
-                  "color": "white",
+                  "text": "あまりに大きすぎて片手で持つことは不可能。",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP/スタミナ回復＋一時的に最大HP微増（5分間）",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "体力増強Ⅰ（05:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "HP回復（20%）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }

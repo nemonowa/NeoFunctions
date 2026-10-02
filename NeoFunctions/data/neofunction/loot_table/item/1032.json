@@ -11,38 +11,59 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "鋼鉄カリゴリチップス",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "特産ジャガイモを薄く切り",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "油で揚げて塩とスパイスを振りかけたお手軽スナック。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "ただし噛むたびに「カリッ！ゴリッ！」と音が響くため",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "騒音注意。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP回復+何かのバフデバフ（検討）",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（10%）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "採掘速度上昇Ⅰ（01:00）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "発光（00:10）",
+                  "color": "red",
                   "bold": true,
                   "italic": false
                 }

@@ -19,21 +19,15 @@
                   "blocks": "minecraft:crafting_table"
                 }
               ],
-              "minecraft:custom_name": [
-                {
-                  "text": "作業台",
-                  "color": "green",
-                  "bold": true,
-                  "italic": false
-                },
-                {
-                  "text": "NEO",
-                  "color": "dark_green"
-                }
-              ],
+              "minecraft:custom_name": {
+                "text": "真・作業台",
+                "color": "green",
+                "bold": true,
+                "italic": false
+              },
               "minecraft:lore": [
                 {
-                  "text": "上級クラフトを可能にする作業台",
+                  "text": "新たなるクラフトを可能にする作業台",
                   "color": "white",
                   "italic": false
                 },
@@ -56,7 +50,10 @@
                   "neocraft"
                 ],
                 "CustomName": {
-                  "text": "真・作業台"
+                  "text": "真・作業台",
+                  "color": "green",
+                  "bold": true,
+                  "italic": false
                 },
                 "id": "minecraft:armor_stand"
               },

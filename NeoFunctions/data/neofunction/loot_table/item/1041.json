@@ -11,38 +11,53 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "ハビアット焼きそばまんじゅう",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "「まんじゅうの中に焼きそば」",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "という大胆な発想で生まれた一品。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "もちもちの皮と焼きそばのソースが絡み合い",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "意外にも相性抜群",
-                  "color": "white",
+                  "text": "意外にも相性抜群。",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：スタミナ回復＋物理攻撃力微増（3分間）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "満腹度回復",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃力上昇Ⅰ（03:00）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }

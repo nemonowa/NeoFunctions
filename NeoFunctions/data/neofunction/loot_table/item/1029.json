@@ -11,38 +11,53 @@
             "components": {
               "minecraft:custom_name": {
                 "text": "火山チーズドッグ",
-                "color": "dark_red",
+                "color": "#FF7B29",
                 "bold": true,
-                "italic": true
+                "italic": false
               },
               "minecraft:lore": [
                 {
+                  "text": "― ハービット名物 ―",
+                  "color": "gray",
+                  "bold": false,
+                  "italic": false
+                },
+                {
                   "text": "特産スパイシーソーセージを挟んだパンの中から",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "溶岩のように流れ出る特製チーズ。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "食べると口の中が火山噴火のごとく熱く",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
                   "text": "やみつきになる辛さ。",
-                  "color": "white",
+                  "color": "#FFD6A5",
                   "bold": true,
                   "italic": false
                 },
                 {
-                  "text": "効果：HP小回復＋一時的に攻撃力UP（3分間）。",
-                  "color": "white",
+                  "text": " "
+                },
+                {
+                  "text": "HP回復（10%）",
+                  "color": "blue",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "攻撃力上昇Ⅰ（03:00）",
+                  "color": "blue",
                   "bold": true,
                   "italic": false
                 }
