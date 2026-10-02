@@ -36,6 +36,8 @@ execute unless biome ~ ~ ~ neodimension:cerestafesta/sunsandbox run advancement 
 execute unless biome ~ ~ ~ neodimension:cerestafesta/vr run advancement revoke @s only neofunction:location/biome_change/cerestafesta/vr
 execute unless biome ~ ~ ~ neodimension:cerestafesta/asgard run advancement revoke @s only neofunction:location/biome_change/cerestafesta/asgard
 execute unless biome ~ ~ ~ neodimension:cerestafesta/templeofthesun run advancement revoke @s only neofunction:location/biome_change/cerestafesta/templeofthesun
+# 【追加：2026-10-03】セレスタフェスタのメサ（砂漠系）のバイオーム
+execute unless biome ~ ~ ~ neodimension:cerestafesta/mesa run advancement revoke @s only neofunction:location/biome_change/cerestafesta/mesa
 
 execute if score @s prog matches 1 run tag @s remove MusicStop
 execute if score @s prog matches 1 run function neofunction:system/music/remove_all_change

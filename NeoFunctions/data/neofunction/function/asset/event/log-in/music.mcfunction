@@ -41,6 +41,8 @@ advancement revoke @a[tag=MusicReset] only neofunction:location/biome_change/cer
 advancement revoke @a[tag=MusicReset] only neofunction:location/biome_change/cerestafesta/vr
 advancement revoke @a[tag=MusicReset] only neofunction:location/biome_change/cerestafesta/village
 advancement revoke @a[tag=MusicReset] only neofunction:location/biome_change/cerestafesta/frogdungeon
+# 【追加：2026-10-03】セレスタフェスタのメサ（砂漠系）のバイオーム
+advancement revoke @a[tag=MusicReset] only neofunction:location/biome_change/cerestafesta/mesa
 
 tag @a[tag=MusicReset] remove MusicReset
 
