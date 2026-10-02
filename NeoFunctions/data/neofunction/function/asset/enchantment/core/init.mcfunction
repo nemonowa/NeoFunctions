@@ -1,5 +1,6 @@
 # 命名：init
 # 説明：神器のエンチャントで使うスコアを用意する（system/setting/2_scoreboard にもあるが、それを通っていない既存のワールドのため、使うときにも作る）
+# 説明：注意：スコアボードを 8 つ増やしているのはあまりよくない。今後改善希望（詳しくは system/setting/2_scoreboard のコメント）
 # 実行条件：なし（何度呼んでもよい）
 # >/function neofunction:asset/enchantment/tentsui/start
 # >/function neofunction:asset/enchantment/shuuen/shot
