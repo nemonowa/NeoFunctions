@@ -1,0 +1,103 @@
+{
+  "description": {"text": "流星（試作）", "color": "gold"},
+  "supported_items": "#minecraft:spears",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["hand"],
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/start"},
+            {"type": "minecraft:apply_impulse", "direction": [0.0, 1.0, 0.0], "coordinate_scale": [0.0, 1.0, 0.0], "magnitude": 1.3},
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.breeze.jump", "volume": 1.0, "pitch": 0.6}
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {"type": "minecraft:inverted", "term": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 1, "max": 99}}}},
+            {"type": "minecraft:inverted", "term": {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:vehicle": {}}}}
+          ]
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/rise"},
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 1, "max": 1}}}
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {"type": "minecraft:apply_impulse", "direction": [0.0, 0.0, 1.0], "coordinate_scale": [1.0, 1.0, 1.0], "magnitude": 2.0},
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/dash"}
+          ]
+        },
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 2, "max": 2}}}
+      },
+      {
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/land"},
+        "requirements": {"type": "minecraft:all_of", "terms": [{"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 3, "max": 3}}}, {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:flags": {"is_on_ground": true}}}]}
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/homing"},
+            {"type": "minecraft:apply_impulse", "direction": [0.0, 0.0, 1.0], "coordinate_scale": [1.0, 1.0, 1.0], "magnitude": 0.25}
+          ]
+        },
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 3, "max": 3}}}
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:explode",
+              "attribute_to_user": true,
+              "damage_type": "minecraft:player_explosion",
+              "block_interaction": "none",
+              "radius": {"type": "minecraft:linear", "base": 4.0, "per_level_above_first": 1.0},
+              "knockback_multiplier": 1.5,
+              "small_particle": {"type": "minecraft:explosion"},
+              "large_particle": {"type": "minecraft:explosion_emitter"},
+              "sound": "minecraft:entity.generic.explode"
+            },
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/finish"}
+          ]
+        },
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 4, "max": 4}}}
+      },
+      {
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/meteor/reset"},
+        "requirements": {"type": "minecraft:all_of", "terms": [{"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 5, "max": 5}}}, {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:flags": {"is_on_ground": true}}}]}
+      }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "effect": {},
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.leap": {"min": 1, "max": 99}}},
+            {
+              "type": "minecraft:any_of",
+              "terms": [
+                {"type": "minecraft:damage_source_properties", "predicate": {"tags": [{"id": "#minecraft:is_fall", "expected": true}]}},
+                {"type": "minecraft:damage_source_properties", "predicate": {"tags": [{"id": "#minecraft:is_explosion", "expected": true}]}}
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

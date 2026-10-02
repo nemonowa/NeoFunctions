@@ -1,0 +1,35 @@
+{
+  "description": {"text": "反跳（試作）", "color": "aqua"},
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, -1.0],
+              "coordinate_scale": [1.0, 0.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 0.6, "per_level_above_first": 0.3}
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": "minecraft:entity.wind_charge.wind_burst",
+              "volume": 0.6,
+              "pitch": 1.5
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

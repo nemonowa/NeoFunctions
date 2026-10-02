@@ -1,0 +1,25 @@
+{
+  "description": {"text": "影縫い（試作）", "color": "dark_purple"}, "supported_items": "#minecraft:enchantable/weapon", "weight": 1, "max_level": 3, "min_cost": {"base": 0, "per_level_above_first": 0}, "max_cost": {"base": 0, "per_level_above_first": 0}, "anvil_cost": 8, "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/shadow/mark"},
+        "requirements": {"type": "minecraft:entity_properties", "entity": "attacker", "predicate": {"minecraft:flags": {"is_sneaking": true}}}
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/shadow/warp"},
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.enderman.teleport", "volume": 1.0, "pitch": 0.7}
+          ]
+        },
+        "requirements": {"type": "minecraft:entity_properties", "entity": "attacker", "predicate": {"minecraft:flags": {"is_sneaking": true}}}
+      }
+    ]
+  }
+}

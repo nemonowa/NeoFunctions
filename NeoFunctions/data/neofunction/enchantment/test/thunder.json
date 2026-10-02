@@ -1,0 +1,67 @@
+{
+  "description": {"text": "雷鳴（試作）", "color": "aqua"},
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, 1.0],
+              "coordinate_scale": [1.0, 1.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 0.8, "per_level_above_first": 0.4}
+            },
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.lightning_bolt.impact", "volume": 0.8, "pitch": 1.6},
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/thunder_arrow"}
+          ]
+        }
+      }
+    ],
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:explode",
+          "block_interaction": "none",
+          "radius": {"type": "minecraft:linear", "base": 2.5, "per_level_above_first": 0.5},
+          "knockback_multiplier": 1.2,
+          "small_particle": {"type": "minecraft:electric_spark"},
+          "large_particle": {"type": "minecraft:explosion"},
+          "sound": "minecraft:entity.lightning_bolt.impact"
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {"minecraft:entity_type": "#minecraft:arrows"}
+        }
+      }
+    ],
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:glowing",
+              "min_duration": 2.0,
+              "max_duration": 2.0,
+              "min_amplifier": 0.0,
+              "max_amplifier": 0.0
+            },
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/chain"}
+          ]
+        }
+      }
+    ]
+  }
+}

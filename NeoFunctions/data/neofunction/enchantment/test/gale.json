@@ -1,0 +1,123 @@
+{
+  "description": {"text": "疾風（試作）", "color": "aqua"},
+  "supported_items": "#minecraft:spears",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["hand"],
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, 1.0],
+              "coordinate_scale": [1.0, 0.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 0.9, "per_level_above_first": 0.3}
+            },
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.breeze.jump", "volume": 1.0, "pitch": 1.4}
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {"minecraft:flags": {"is_on_ground": true, "is_sneaking": false}}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, -1.0],
+              "coordinate_scale": [1.0, 0.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 0.9, "per_level_above_first": 0.2}
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 1.0, 0.0],
+              "coordinate_scale": [0.0, 1.0, 0.0],
+              "magnitude": 0.35
+            },
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.breeze.deflect", "volume": 1.0, "pitch": 1.0},
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {"type": "minecraft:gust_emitter_small"},
+              "horizontal_position": {"type": "entity_position"},
+              "vertical_position": {"type": "entity_position"},
+              "horizontal_velocity": {},
+              "vertical_velocity": {},
+              "speed": 0.0
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {"minecraft:flags": {"is_sneaking": true}}
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, 1.0],
+              "coordinate_scale": [1.0, 1.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 1.0, "per_level_above_first": 0.3}
+            },
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 1.0, 0.0],
+              "coordinate_scale": [0.0, 1.0, 0.0],
+              "magnitude": 0.4
+            },
+            {"type": "minecraft:play_sound", "sound": "minecraft:entity.wind_charge.wind_burst", "volume": 1.0, "pitch": 1.2},
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {"type": "minecraft:gust"},
+              "horizontal_position": {"type": "entity_position"},
+              "vertical_position": {"type": "entity_position"},
+              "horizontal_velocity": {},
+              "vertical_velocity": {},
+              "speed": 0.0
+            },
+            {"type": "minecraft:run_function", "function": "admin:test/enchant/airjab"}
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {"minecraft:flags": {"is_on_ground": false, "is_sneaking": false, "is_fall_flying": false}}
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.airjab": {"min": 1}}}
+            }
+          ]
+        }
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/airjab_reset"},
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:flags": {"is_on_ground": true}}},
+            {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.airjab": {"min": 1}}}
+          ]
+        }
+      }
+    ]
+  }
+}

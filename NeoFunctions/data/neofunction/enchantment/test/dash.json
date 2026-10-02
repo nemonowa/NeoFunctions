@@ -1,0 +1,63 @@
+{
+  "description": {"text": "飛突（試作）", "color": "aqua"},
+  "supported_items": "#minecraft:spears",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["hand"],
+  "effects": {
+    "minecraft:post_piercing_attack": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_impulse",
+              "direction": [0.0, 0.0, 1.0],
+              "coordinate_scale": [1.0, 1.0, 1.0],
+              "magnitude": {"type": "minecraft:linear", "base": 0.8, "per_level_above_first": 0.4}
+            },
+            {
+              "type": "minecraft:play_sound",
+              "sound": [
+                "minecraft:item.trident.riptide_1",
+                "minecraft:item.trident.riptide_2",
+                "minecraft:item.trident.riptide_3"
+              ],
+              "volume": 1.0,
+              "pitch": 1.0
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {"type": "minecraft:splash"},
+              "horizontal_position": {"type": "in_bounding_box", "scale": 1.5},
+              "vertical_position": {"type": "in_bounding_box", "scale": 1.0},
+              "horizontal_velocity": {"movement_scale": -0.3},
+              "vertical_velocity": {"base": 0.1},
+              "speed": 1.0
+            },
+            {
+              "type": "minecraft:spawn_particles",
+              "particle": {"type": "minecraft:cloud"},
+              "horizontal_position": {"type": "in_bounding_box"},
+              "vertical_position": {"type": "in_bounding_box"},
+              "horizontal_velocity": {"movement_scale": -0.15},
+              "vertical_velocity": {},
+              "speed": 0.0
+            }
+          ]
+        },
+        "requirements": {
+          "type": "minecraft:inverted",
+          "term": {
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {"minecraft:vehicle": {}}
+          }
+        }
+      }
+    ]
+  }
+}

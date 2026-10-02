@@ -1,0 +1,18 @@
+{
+  "description": {"text": "血盟（試作）", "color": "dark_red"}, "supported_items": "#minecraft:enchantable/weapon", "weight": 1, "max_level": 3, "min_cost": {"base": 0, "per_level_above_first": 0}, "max_cost": {"base": 0, "per_level_above_first": 0}, "anvil_cost": 8, "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/blood/hit"}
+      }
+    ],
+    "minecraft:tick": [
+      {
+        "effect": {"type": "minecraft:run_function", "function": "admin:test/enchant/blood/decay"},
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.blood_t": {"min": 1}}}
+      }
+    ]
+  }
+}
