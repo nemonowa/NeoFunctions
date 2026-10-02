@@ -20,4 +20,3 @@ summon minecraft:marker ~ ~ ~ {Tags:["neo.nuke","neo.nk_new"],data:{kind:3,t:0,r
 scoreboard players operation @e[type=marker,tag=neo.nk_new] neo.nk_id = #nk_cur temp
 tag @e[type=marker,tag=neo.nk_new] remove neo.nk_new
 playsound minecraft:block.beacon.activate master @a ~ ~ ~ 4 1.5
-schedule function neofunction:asset/enchantment/core/loop 1t replace

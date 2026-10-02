@@ -1,7 +1,7 @@
 # 命名：tick
 # 説明：超新星の進行表。1〜40 浮上（光の輪が収束）／40〜79 臨界（星が膨らみ鼓動が速まる）／80 炸裂／81〜 火球・星雲・光の粒／100 本人を放す／230 使用中の印を消す／240 後片付け
 # 実行条件：爆心として（temp の #nk_now に経過 tick、temp の #nk_cur に番号）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/choushinsei/tick
 
 

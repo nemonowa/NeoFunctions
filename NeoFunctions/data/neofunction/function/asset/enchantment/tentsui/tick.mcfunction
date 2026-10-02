@@ -1,7 +1,7 @@
 # 命名：tick
 # 説明：天墜の進行表。0〜59 照準と秒読み／40 槍が上空に出る／42 落下中（着地まで 42 にとどまる）／61 着弾／62〜 火球・煙・灰／190〜235 槍の霧散／／250 使用中の印を消す／270 後片付け
 # 実行条件：爆心として（temp の #nk_now に経過 tick、temp の #nk_cur に番号）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/tentsui/tick
 
 

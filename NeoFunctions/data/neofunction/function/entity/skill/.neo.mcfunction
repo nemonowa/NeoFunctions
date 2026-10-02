@@ -8,7 +8,11 @@
 # 最重要
 # 常時追跡が必要なエンティティ
 ###########################どのタグにも該当しなければ64m制限のタグへ移る
-execute if entity @s[tag=!fly1,tag=!downer,tag=!upper,tag=!fly0,tag=!boss] run return run function neofunction:entity/skill/.neo-1
+# 【変更：2026-10-02】神器のエンチャントの爆心（neo.nuke）も常時追跡に入れるため、除外の条件に tag=!neo.nuke を足した
+execute if entity @s[tag=!fly1,tag=!downer,tag=!upper,tag=!fly0,tag=!boss,tag=!neo.nuke] run return run function neofunction:entity/skill/.neo-1
+
+# 【追加：2026-10-02】神器のエンチャントの爆心（neo.nuke）。神器の進行・衝撃波を毎 tick 動かす（爆心は演出の間だけ存在する）
+execute if entity @s[tag=neo.nuke] at @s run return run function neofunction:asset/enchantment/core/step
 
 # fly1 奈落復帰
 execute if entity @s[tag=fly1] run function neofunction:entity/skill/fly1

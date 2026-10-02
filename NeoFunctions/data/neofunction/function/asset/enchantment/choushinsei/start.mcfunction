@@ -20,4 +20,3 @@ effect give @s minecraft:glowing 6 0 true
 title @s actionbar {"text":"超新星 ――臨界","color":"aqua","bold":true}
 playsound minecraft:block.beacon.activate master @a ~ ~ ~ 12 0.5
 playsound minecraft:block.respawn_anchor.charge master @a ~ ~ ~ 12 0.6
-schedule function neofunction:asset/enchantment/core/loop 1t replace

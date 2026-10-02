@@ -1,9 +1,9 @@
-# 命名：tick
-# 説明：爆心ごとの毎 tick の処理。時間を進め、種類ごとの進行・衝撃波を動かす
+# 命名：step
+# 説明：爆心ごとの毎 tick の処理（entity/skill/.neo の常時追跡から、タグ neo.nuke の爆心として呼ばれる）。時間を進め、種類ごとの進行・衝撃波を動かす
 # 説明：爆心ごとの値（data の t＝経過 tick・kind＝種類・r＝衝撃波の半径（-1 で停止）・h・v＝高さと速さ）を temp の #nk_* に読み出し、最後に書き戻す
 # 実行条件：爆心（マーカー）として、その位置で
-# >/function neofunction:asset/enchantment/core/loop
-# =/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:entity/skill/.neo
+# =/function neofunction:asset/enchantment/core/step
 
 
 # 内容

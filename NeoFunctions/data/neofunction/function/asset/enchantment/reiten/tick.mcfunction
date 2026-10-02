@@ -1,7 +1,7 @@
 # 命名：tick
 # 説明：零点崩壊の進行表。1 球が生まれる／10〜89 吸引（球が膨らむ）／90〜109 無音の 1 秒（球が点まで縮む）／110 反転・炸裂／111〜 火球・光の柱・灰／290〜310 光の柱の霧散／320 使用中の印を消す／340 後片付け
 # 実行条件：爆心として（temp の #nk_now に経過 tick、temp の #nk_cur に番号）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/reiten/tick
 
 

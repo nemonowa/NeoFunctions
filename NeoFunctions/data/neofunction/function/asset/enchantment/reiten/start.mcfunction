@@ -18,4 +18,3 @@ execute as @e[type=marker,tag=neo.nk_new] at @s run function neofunction:asset/e
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run function neofunction:asset/enchantment/reiten/orb
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run playsound minecraft:block.end_portal.spawn master @a ~ ~ ~ 20 0.5
 tag @e[type=marker,tag=neo.nk_new] remove neo.nk_new
-schedule function neofunction:asset/enchantment/core/loop 1t replace

@@ -3,7 +3,7 @@
 # 説明：カメラの見張り。本人がカメラから降りていたら（しゃがんだら）、その場でカメラを終える
 # 説明：防具立ての Passengers にはプレイヤーが保存されないため、本人の側から乗り物を調べる
 # 実行条件：爆心として（temp の #nk_cur に番号）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/core/cam_check
 
 

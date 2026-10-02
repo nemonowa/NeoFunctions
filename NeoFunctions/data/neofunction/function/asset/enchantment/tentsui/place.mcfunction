@@ -14,4 +14,3 @@ execute as @e[type=marker,tag=neo.nk_new] at @s run function neofunction:asset/e
 execute as @e[type=marker,tag=neo.nk_new] at @s align xz positioned ~0.5 ~ ~0.5 run tp @s ~ ~ ~
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 6 0.5
 tag @e[type=marker,tag=neo.nk_new] remove neo.nk_new
-schedule function neofunction:asset/enchantment/core/loop 1t replace

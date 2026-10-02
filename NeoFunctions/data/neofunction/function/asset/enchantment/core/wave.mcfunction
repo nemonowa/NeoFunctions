@@ -1,7 +1,7 @@
 # 命名：wave
 # 説明：衝撃波。半径を 3 ずつ広げながら輪を描き、通過したモブにダメージと吹き飛ばし。96 で終わる
 # 実行条件：爆心として（temp の #nk_r が 0 以上のあいだ）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/core/wave
 
 

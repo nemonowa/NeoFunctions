@@ -1,7 +1,7 @@
 # 命名：tick
 # 説明：終焉の星の進行表。1 矢を追う（上昇中は 1 にとどまる）／2 太陽の誕生／3 降下（着地まで 3 にとどまる）／60 炸裂／61〜 火球／65〜 火球が昇る・キノコ雲が立つ／280〜320 雲の霧散／330 使用中の印を消す／350 後片付け
 # 実行条件：爆心として（temp の #nk_now に経過 tick、temp の #nk_cur に番号）
-# >/function neofunction:asset/enchantment/core/tick
+# >/function neofunction:asset/enchantment/core/step
 # =/function neofunction:asset/enchantment/shuuen/tick
 
 
