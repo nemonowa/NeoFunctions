@@ -1,6 +1,6 @@
 # 命名：cloud_fade
 # 説明：キノコ雲の霧散中。雲の全体から雲・煙・灰の粒を出し続ける（大きさは変えない）
-# 実行条件：爆心として（#cur に番号）
+# 実行条件：爆心として（temp の #nk_cur に番号）
 # >/function neofunction:asset/enchantment/shuuen/tick
 # =/function neofunction:asset/enchantment/shuuen/cloud_fade
 

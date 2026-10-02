@@ -6,5 +6,5 @@
 
 
 # 内容
-execute as @e[type=marker,tag=neo.nk_air] if score @s neo.nk_id = #cur neo.nk_id run kill @s
+execute as @e[type=marker,tag=neo.nk_air] if score @s neo.nk_id = #nk_cur temp run kill @s
 effect give @s minecraft:slow_falling 10 0 true

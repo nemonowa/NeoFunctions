@@ -6,7 +6,7 @@
 
 
 # 内容
-scoreboard players add #ray neo.nk_tmp 1
+scoreboard players add #nk_ray temp 1
 execute unless block ~ ~ ~ #minecraft:replaceable positioned ^ ^ ^-0.5 run return run function neofunction:asset/enchantment/tentsui/place
-execute if score #ray neo.nk_tmp matches 128.. run return run function neofunction:asset/enchantment/tentsui/place
+execute if score #nk_ray temp matches 128.. run return run function neofunction:asset/enchantment/tentsui/place
 execute positioned ^ ^ ^0.5 run function neofunction:asset/enchantment/tentsui/ray

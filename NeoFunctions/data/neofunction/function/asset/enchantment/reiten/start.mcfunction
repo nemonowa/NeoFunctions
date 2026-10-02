@@ -7,15 +7,13 @@
 
 # 内容
 function neofunction:asset/enchantment/core/init
-execute if score @s neo.nk_busy matches 1.. run return fail
-execute unless score @s neo.nk_id matches 1.. store result score @s neo.nk_id run scoreboard players add #next neo.nk_id 1
-scoreboard players set @s neo.nk_busy 1
-scoreboard players operation #cur neo.nk_id = @s neo.nk_id
-summon minecraft:marker ~ ~ ~ {Tags:["neo.nuke","neo.nk_new"]}
-scoreboard players operation @e[type=marker,tag=neo.nk_new] neo.nk_id = #cur neo.nk_id
-scoreboard players set @e[type=marker,tag=neo.nk_new] neo.nk_kind 2
-scoreboard players set @e[type=marker,tag=neo.nk_new] neo.nk_t 0
-scoreboard players set #g neo.nk_tmp 0
+execute if score @s neo.nk_st matches 1000.. run return fail
+execute unless score @s neo.nk_id matches 1.. store result score @s neo.nk_id run scoreboard players add #nk_next temp 1
+scoreboard players set @s neo.nk_st 1000
+scoreboard players operation #nk_cur temp = @s neo.nk_id
+summon minecraft:marker ~ ~ ~ {Tags:["neo.nuke","neo.nk_new"],data:{kind:2,t:0,r:-1,h:0,v:0}}
+scoreboard players operation @e[type=marker,tag=neo.nk_new] neo.nk_id = #nk_cur temp
+scoreboard players set #nk_g temp 0
 execute as @e[type=marker,tag=neo.nk_new] at @s run function neofunction:asset/enchantment/core/ground
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run function neofunction:asset/enchantment/reiten/orb
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run playsound minecraft:block.end_portal.spawn master @a ~ ~ ~ 20 0.5

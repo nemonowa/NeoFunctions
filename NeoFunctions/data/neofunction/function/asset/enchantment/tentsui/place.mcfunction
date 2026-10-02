@@ -6,12 +6,10 @@
 
 
 # 内容
-scoreboard players operation #cur neo.nk_id = @s neo.nk_id
-summon minecraft:marker ~ ~ ~ {Tags:["neo.nuke","neo.nk_new"]}
-scoreboard players operation @e[type=marker,tag=neo.nk_new] neo.nk_id = #cur neo.nk_id
-scoreboard players set @e[type=marker,tag=neo.nk_new] neo.nk_kind 1
-scoreboard players set @e[type=marker,tag=neo.nk_new] neo.nk_t 0
-scoreboard players set #g neo.nk_tmp 0
+scoreboard players operation #nk_cur temp = @s neo.nk_id
+summon minecraft:marker ~ ~ ~ {Tags:["neo.nuke","neo.nk_new"],data:{kind:1,t:0,r:-1,h:0,v:0}}
+scoreboard players operation @e[type=marker,tag=neo.nk_new] neo.nk_id = #nk_cur temp
+scoreboard players set #nk_g temp 0
 execute as @e[type=marker,tag=neo.nk_new] at @s run function neofunction:asset/enchantment/core/ground
 execute as @e[type=marker,tag=neo.nk_new] at @s align xz positioned ~0.5 ~ ~0.5 run tp @s ~ ~ ~
 execute at @e[type=marker,tag=neo.nk_new,limit=1] run playsound minecraft:block.beacon.power_select master @a ~ ~ ~ 6 0.5

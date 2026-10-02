@@ -123,23 +123,14 @@ scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded
 # minecraft.mined
 scoreboard objectives add minedSpawner minecraft.mined:minecraft.spawner "スポナー破壊総数"
 
-# 【追加：2026-10-01】神器のエンチャント（neofunction:asset/enchantment。神槍「天墜」・星葬弓「終焉」・零点鎚「崩壊」・星核鎧「超新星」）の進行に使っている
-#   neo.nk_t＝爆心（マーカー）の経過 tick／neo.nk_kind＝どの神器か（1 天墜・2 崩壊・3 終焉・4 超新星）
-#   neo.nk_id＝発動者と爆心・演出の表示を結び付ける番号／neo.nk_r＝衝撃波の半径
-#   neo.nk_busy＝発動者が使用中（2 発目を止め、超新星ではダメージ無効の条件にも使う）
-#   neo.nk_tmp＝計算用の一時的な値（#cur・#t・#r など）
-#   neo.nk_h・neo.nk_v＝天墜の槍・終焉の太陽の高さと速さ、超新星のため（プレイヤー側）
-# 注意：この方法はスコアボードを 8 つも増やしているので、あまりよくない。今後改善希望
-#   （例：爆心ごとの値はマーカーのデータやストレージへ、一時的な値は既存の temp へまとめる）
+# 【追加：2026-10-01】神器のエンチャント（neofunction:asset/enchantment。神槍「天墜」・星葬弓「終焉」・零点鎚「崩壊」・星核鎧「超新星」）に使っている
+#   neo.nk_id＝発動者と、爆心・演出の表示を結び付ける番号（発動者は一度付いたら同じ番号のまま）
+#   neo.nk_st＝発動者の状態（1〜60＝超新星のため、1000＝使用中。2 発目を止め、超新星ではダメージ無効の条件にも使う）
+#   爆心ごとの値（経過 tick・種類・衝撃波の半径・高さ・速さ）は爆心のマーカーの data に、計算用の値は temp の #nk_* に置いている
+# 【変更：2026-10-02】最初は 8 つ作っていたのを 2 つに減らした（スコアボードはなるべく増やさない）
 # 既存のワールドはここを通らないため、asset/enchantment/core/init が使うときにも同じものを作る
-scoreboard objectives add neo.nk_t dummy
-scoreboard objectives add neo.nk_kind dummy
 scoreboard objectives add neo.nk_id dummy
-scoreboard objectives add neo.nk_r dummy
-scoreboard objectives add neo.nk_busy dummy
-scoreboard objectives add neo.nk_tmp dummy
-scoreboard objectives add neo.nk_h dummy
-scoreboard objectives add neo.nk_v dummy
+scoreboard objectives add neo.nk_st dummy
 
 # AJ
 function animated_java:global/on_load

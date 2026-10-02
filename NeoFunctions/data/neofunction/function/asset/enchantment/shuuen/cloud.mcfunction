@@ -1,6 +1,6 @@
 # 命名：cloud
 # 説明：キノコ雲を出す（ベースサージ・柱・燃える傘の下・傘・傘のふち、計 18 個の表示）。どれも地面近くで小さい状態から始め、最終の形は item の custom_data.to に持つ
-# 実行条件：爆心として、地面の位置で（#cur に番号）
+# 実行条件：爆心として、地面の位置で（temp の #nk_cur に番号）
 # >/function neofunction:asset/enchantment/shuuen/tick
 # =/function neofunction:asset/enchantment/shuuen/cloud
 
@@ -24,6 +24,6 @@ execute rotated 120 0 positioned ^ ^ ^13 run summon minecraft:item_display ~ ~42
 execute rotated 180 0 positioned ^ ^ ^13 run summon minecraft:item_display ~ ~43 ~ {Tags:["neo.nk_fx","neo.nk_cloud","neo.nk_new2"],view_range:8f,item:{id:"minecraft:white_wool",count:1,components:{"minecraft:custom_data":{to:{left_rotation:{angle:0.6f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[12f,10f,12f]}}}},transformation:{left_rotation:{angle:0.6f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,-40f,0f],scale:[0.1f,0.1f,0.1f]}}
 execute rotated 240 0 positioned ^ ^ ^13 run summon minecraft:item_display ~ ~42 ~ {Tags:["neo.nk_fx","neo.nk_cloud","neo.nk_new2"],view_range:8f,item:{id:"minecraft:light_gray_wool",count:1,components:{"minecraft:custom_data":{to:{left_rotation:{angle:1.0f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[12f,10f,12f]}}}},transformation:{left_rotation:{angle:1.0f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,-39f,0f],scale:[0.1f,0.1f,0.1f]}}
 execute rotated 300 0 positioned ^ ^ ^13 run summon minecraft:item_display ~ ~43 ~ {Tags:["neo.nk_fx","neo.nk_cloud","neo.nk_new2"],view_range:8f,item:{id:"minecraft:white_wool",count:1,components:{"minecraft:custom_data":{to:{left_rotation:{angle:0.4f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[12f,10f,12f]}}}},transformation:{left_rotation:{angle:0.4f,axis:[0f,1f,0f]},right_rotation:[0f,0f,0f,1f],translation:[0f,-40f,0f],scale:[0.1f,0.1f,0.1f]}}
-scoreboard players operation @e[tag=neo.nk_new2] neo.nk_id = #cur neo.nk_id
+scoreboard players operation @e[tag=neo.nk_new2] neo.nk_id = #nk_cur temp
 tag @e[tag=neo.nk_new2] remove neo.nk_new2
 playsound minecraft:entity.warden.sonic_charge master @a ~ ~ ~ 30 0.4

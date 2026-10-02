@@ -6,6 +6,6 @@
 
 
 # 内容
-scoreboard players add #g neo.nk_tmp 1
-execute if score #g neo.nk_tmp matches ..200 if block ~ ~-1 ~ #minecraft:replaceable run tp @s ~ ~-1 ~
-execute if score #g neo.nk_tmp matches ..200 at @s if block ~ ~-1 ~ #minecraft:replaceable run function neofunction:asset/enchantment/core/ground
+scoreboard players add #nk_g temp 1
+execute if score #nk_g temp matches ..200 if block ~ ~-1 ~ #minecraft:replaceable run tp @s ~ ~-1 ~
+execute if score #nk_g temp matches ..200 at @s if block ~ ~-1 ~ #minecraft:replaceable run function neofunction:asset/enchantment/core/ground

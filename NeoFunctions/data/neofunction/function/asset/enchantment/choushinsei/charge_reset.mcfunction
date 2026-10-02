@@ -6,5 +6,5 @@
 
 
 # 内容
-scoreboard players reset @s neo.nk_h
+scoreboard players reset @s neo.nk_st
 title @s actionbar {"text":"超新星 ……","color":"dark_gray"}

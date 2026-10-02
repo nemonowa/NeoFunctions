@@ -1,6 +1,6 @@
 # 命名：impact
 # 説明：着弾。火球・閃光・火花・轟音を出し、衝撃波を始める
-# 実行条件：爆心として（#cur に番号）
+# 実行条件：爆心として（temp の #nk_cur に番号）
 # >/function neofunction:asset/enchantment/tentsui/tick
 # =/function neofunction:asset/enchantment/tentsui/impact
 
@@ -15,5 +15,5 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 30 0.5
 playsound minecraft:entity.warden.sonic_boom master @a ~ ~ ~ 30 0.6
 playsound minecraft:item.trident.thunder master @a ~ ~ ~ 30 0.7
 playsound minecraft:entity.lightning_bolt.thunder master @a ~ ~ ~ 30 0.5
-execute as @a if score @s neo.nk_id = #cur neo.nk_id run title @s clear
-scoreboard players set @s neo.nk_r 0
+execute as @a if score @s neo.nk_id = #nk_cur temp run title @s clear
+scoreboard players set #nk_r temp 0

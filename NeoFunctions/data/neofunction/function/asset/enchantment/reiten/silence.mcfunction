@@ -1,6 +1,6 @@
 # 命名：silence
 # 説明：臨界。周りの音を止め、球を 18 tick かけて点まで縮める
-# 実行条件：爆心として（#cur に番号）
+# 実行条件：爆心として（temp の #nk_cur に番号）
 # >/function neofunction:asset/enchantment/reiten/tick
 # =/function neofunction:asset/enchantment/reiten/silence
 

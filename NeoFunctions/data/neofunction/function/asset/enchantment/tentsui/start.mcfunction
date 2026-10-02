@@ -7,8 +7,8 @@
 
 # 内容
 function neofunction:asset/enchantment/core/init
-execute if score @s neo.nk_busy matches 1.. run return fail
-execute unless score @s neo.nk_id matches 1.. store result score @s neo.nk_id run scoreboard players add #next neo.nk_id 1
-scoreboard players set @s neo.nk_busy 1
-scoreboard players set #ray neo.nk_tmp 0
+execute if score @s neo.nk_st matches 1000.. run return fail
+execute unless score @s neo.nk_id matches 1.. store result score @s neo.nk_id run scoreboard players add #nk_next temp 1
+scoreboard players set @s neo.nk_st 1000
+scoreboard players set #nk_ray temp 0
 execute at @s anchored eyes positioned ^ ^ ^ run function neofunction:asset/enchantment/tentsui/ray
