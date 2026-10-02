@@ -20,6 +20,10 @@ execute if entity @s[type=#minecraft:arrows] run function neofunction:entity/.sp
 # 雪玉
 execute as @s[type=snowball] run function neofunction:entity/.spawn/obj/snowball/.neo
 
+# 【追加：2026-10-02】経験値オーブ：砥石のブロックの中で生まれたもの（＝砥石でエンチャントを外して出た経験値。砥石はブロックの中心にオーブを出す）を消す
+# 砥石は使用禁止（system/adv/item_used_on_block/grindstone）だが、転送までの一瞬だけ画面が開くので、その抜け道を塞ぐ保険
+execute as @s[type=experience_orb] at @s if block ~ ~ ~ minecraft:grindstone run kill @s
+
 # スポナー：無敵化
 execute as @s[type=spawner_minecart] run data merge entity @s {Invulnerable:1b}
 
