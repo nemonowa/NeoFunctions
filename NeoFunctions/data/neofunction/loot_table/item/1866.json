@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 星核鎧「超新星」 ",
+                  "color": "#9FE8FF",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "aqua",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "死にゆく星の心臓を、胸に宿す鎧。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "その輝きが尽きるとき――",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                [
+                  {
+                    "text": "世界は一度、",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "真昼",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "になる。",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "◆ 超新星",
+                    "color": "aqua",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　しゃがみ続けて三秒",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "　身に宿した星を解き放ち、自らを爆心として炸裂する。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "　その身は光に護られ、傷ひとつ負わない。",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "neofunction:choushinsei": 1
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1866
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

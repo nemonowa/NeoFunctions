@@ -123,6 +123,16 @@ scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded
 # minecraft.mined
 scoreboard objectives add minedSpawner minecraft.mined:minecraft.spawner "スポナー破壊総数"
 
+# 【追加：2026-10-01】神器のエンチャント（asset/enchantment）の進行用。既存のワールドでは asset/enchantment/core/init が使うときに作る
+scoreboard objectives add neo.nk_t dummy
+scoreboard objectives add neo.nk_kind dummy
+scoreboard objectives add neo.nk_id dummy
+scoreboard objectives add neo.nk_r dummy
+scoreboard objectives add neo.nk_busy dummy
+scoreboard objectives add neo.nk_tmp dummy
+scoreboard objectives add neo.nk_h dummy
+scoreboard objectives add neo.nk_v dummy
+
 # AJ
 function animated_java:global/on_load
 

@@ -1,0 +1,127 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 零点鎚「崩壊」 ",
+                  "color": "#B45CFF",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_purple",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                [
+                  {
+                    "text": "万物の始まりと終わりが重なる",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "一点",
+                    "color": "light_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "を、",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "叩き起こす鎚。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "呑み込み、静まり、そして――",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "反転する。",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "◆ 零点崩壊",
+                    "color": "dark_purple",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　落下しながら叩きつける",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "　頭上に生まれた零点が、周囲のすべてを呑み込み、",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "　一瞬の静寂ののち、裏返って解き放つ。",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "neofunction:reiten": 1
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1865
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

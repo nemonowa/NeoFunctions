@@ -1,0 +1,33 @@
+{
+  "description": {"text": "零点崩壊", "color": "dark_purple"},
+  "supported_items": "#minecraft:enchantable/mace",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {"type": "minecraft:run_function", "function": "neofunction:asset/enchantment/reiten/start"},
+        "requirements": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "minecraft:flags": {"is_flying": false},
+                "minecraft:movement": {"fall_distance": {"min": 1.5}}
+              }
+            },
+            {"type": "minecraft:inverted", "term": {"type": "minecraft:entity_scores", "entity": "attacker", "scores": {"neo.nk_busy": {"min": 1}}}}
+          ]
+        }
+      }
+    ]
+  }
+}

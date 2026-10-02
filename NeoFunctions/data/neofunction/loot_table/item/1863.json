@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": [
+                {
+                  "text": "a",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                },
+                {
+                  "text": " 神槍「天墜」 ",
+                  "color": "#FF4A2E",
+                  "bold": true,
+                  "italic": false,
+                  "obfuscated": false
+                },
+                {
+                  "text": "a",
+                  "color": "dark_red",
+                  "bold": false,
+                  "italic": false,
+                  "obfuscated": true
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "天の座より放たれる、審判の槍。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "狙われた大地には、",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "空そのもの",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "が墜ちてくる。",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "◆ 天墜",
+                    "color": "red",
+                    "bold": true,
+                    "italic": false
+                  },
+                  {
+                    "text": "　しゃがんで突く",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "text": "　見ている先（最大 64 ブロック）に照準を刻み、",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                {
+                  "text": "　三秒ののち、天より巨大な槍を降らせる。",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "neofunction:tentsui": 1
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1863
+                ]
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "9"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
