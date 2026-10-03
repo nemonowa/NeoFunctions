@@ -4,6 +4,8 @@
     "minecraft:dirt",
     "minecraft:coarse_dirt",
     "minecraft:grass_block",
-    "minecraft:rooted_dirt"
+    "minecraft:rooted_dirt",
+    "minecraft:podzol",
+    "minecraft:dirt_path"
   ]
 }
