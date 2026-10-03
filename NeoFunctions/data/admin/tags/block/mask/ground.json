@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#admin:mask/rock",
+    "minecraft:dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:grass_block",
+    "minecraft:rooted_dirt"
+  ]
+}

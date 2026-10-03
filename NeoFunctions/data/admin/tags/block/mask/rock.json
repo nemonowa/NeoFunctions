@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "minecraft:cobblestone",
+    "minecraft:gravel",
+    "minecraft:coal_ore",
+    "minecraft:calcite",
+    "minecraft:mycelium",
+    "#minecraft:terracotta"
+  ]
+}
