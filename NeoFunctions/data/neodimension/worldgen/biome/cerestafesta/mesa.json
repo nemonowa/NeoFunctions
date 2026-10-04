@@ -3,9 +3,9 @@
   "downfall": 0,
   "has_precipitation": false,
   "attributes": {
-    "minecraft:visual/sky_color": "#f2b27a",
-    "minecraft:visual/fog_color": "#c8693a",
-    "minecraft:visual/water_fog_color": "#3a2a50",
+    "minecraft:visual/sky_color": "#80ffe9",
+    "minecraft:visual/fog_color": "#ebf2b7",
+    "minecraft:visual/water_fog_color": "#302a5a",
     "minecraft:audio/background_music": {
       "default": {
         "sound": "minecraft:music.overworld.badlands",
