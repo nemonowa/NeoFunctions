@@ -9,7 +9,8 @@
 # 通知
 # say ワールドの破損を確認。ErrorCode=5
 
-tellraw @a [{"text":"<","color":"white","bold":false,"italic":false,hover_event:{"action":"show_text","value":[{"text":"log > neofunction:event/main/1"}]}},{"selector":"00000000-0000-0000-0000-000000000001"},{"text":">","bold":false,"italic":false},{"text":" システム起動バージョンの齟齬を確認。推奨はver1.20.4です。\nステータス「"},{"text":"レッド-シグナル","color":"red"},{"text":"」。"},{"text":"over.","color":"light_purple"}]
+# 【変更：2026-10-04 26.3対応】推奨バージョンの表示を 1.20.4 から 26.3 に変更
+tellraw @a [{"text":"<","color":"white","bold":false,"italic":false,hover_event:{"action":"show_text","value":[{"text":"log > neofunction:event/main/1"}]}},{"selector":"00000000-0000-0000-0000-000000000001"},{"text":">","bold":false,"italic":false},{"text":" システム起動バージョンの齟齬を確認。推奨はver26.3です。\nステータス「"},{"text":"レッド-シグナル","color":"red"},{"text":"」。"},{"text":"over.","color":"light_purple"}]
 
 #execute as 00000000-0000-0000-0000-000000000001 run tellraw @a [{"text":"<","color":"white","bold":false,"italic":false},{"selector":"@s","underlined":false},{"text":">","color":"white","bold":false,"italic":false},{"text":" コード承認。これより「戦闘解析知性体C.A.I.」の権限により005シーケンスを開始します。","color":"white",hover_event:{"action":"show_text","value":[{"text":"log > neofunction:asset/event/log-in/5"}]}}]
 

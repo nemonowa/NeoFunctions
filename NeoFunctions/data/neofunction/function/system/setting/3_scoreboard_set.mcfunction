@@ -25,8 +25,9 @@ scoreboard players display name upper world "+++-——————————�
 scoreboard players display numberformat upper world blank
 
 # バージョン
-scoreboard players set version world 3700
-scoreboard players display name version world "v0.2forMC1.20.4"
+# 【変更：2026-10-04 26.3対応】バージョンの初期値（データバージョン）と表示名を 1.20.4（3700）から 26.3（5023）に変更
+scoreboard players set version world 5023
+scoreboard players display name version world "v0.2forMC26.3"
 execute store result score version world run data get entity @p DataVersion
 
 # クレジット浄化総数：Credit【$$$】

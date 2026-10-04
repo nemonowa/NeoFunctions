@@ -29,7 +29,8 @@ execute unless data storage neofunction:asset version run return run function ne
 execute unless score upper world matches 1.. run return run function neofunction:asset/event/log-in/4
 
 # version
-execute unless score version world matches 3700 run return run function neofunction:asset/event/log-in/5
+# 【変更：2026-10-04 26.3対応】判定するデータバージョンを 1.20.4 の 3700 から 26.3 の 5023 に変更
+execute unless score version world matches 5023 run return run function neofunction:asset/event/log-in/5
 
 
 #通知。処理完了！システムオールグリーン！
