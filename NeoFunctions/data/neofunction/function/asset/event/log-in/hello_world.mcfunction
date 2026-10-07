@@ -9,7 +9,7 @@
 execute in neodimension:nexus run forceload add 1280 1280
 execute in neodimension:nexus run forceload add 1 1 -1 -1
 #execute in neodimension:nexus run setblock 1280 128 1280 minecraft:lodestone destroy
-data modify storage neofunction:asset version set value '{"text":"ver 0.3.0","color":"green"}'
+data modify storage neofunction:asset version set value '{"text":"ver 0.3.5","color":"green"}'
 
 function neofunction:system/setting/2_scoreboard
 scoreboard objectives setdisplay sidebar

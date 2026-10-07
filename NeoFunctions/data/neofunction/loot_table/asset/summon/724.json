@@ -30,8 +30,7 @@
           ]
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "neofunction:empty",
+          "type": "minecraft:empty",
           "weight": 99
         }
       ]
