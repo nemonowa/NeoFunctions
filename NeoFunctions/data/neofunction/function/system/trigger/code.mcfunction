@@ -190,6 +190,9 @@ execute as @s[scores={code=1234567890}] run function neofunction:system/trigger/
 # 副長プロマイド
 execute as @s[scores={code=20210516}] run function neofunction:system/trigger/code/20210516
 
+# 【追加：2026-10-08 ルブラ編】チャットの選択肢（4000〜4999。ユーザー了承済み）
+execute if score @s code matches 4000..4999 run function neofunction:system/adv/tick/quest/40/choice
+
 # 引き直し
 scoreboard players set @s code 0
 scoreboard players enable @s code

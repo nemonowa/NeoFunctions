@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ガラン・ルーの札",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "三十年前の落盤で、帰らなかった鉱夫の札。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "三の層の北の壁に、札を置く窪みがある。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:max_stack_size": 1,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1869
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

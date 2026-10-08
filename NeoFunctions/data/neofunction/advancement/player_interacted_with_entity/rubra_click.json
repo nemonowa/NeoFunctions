@@ -1,0 +1,21 @@
+{
+  "CommentOut": "【追加：2026-10-08 ルブラ編】ルブラ編のクリックできる所（interaction、タグ rubra_click）を右クリックしたとき。処理側で revoke する（glow_item_frame と同じ）",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:nbt": "{Tags:[\"rubra_click\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/player_interacted_with_entity/rubra_click"
+  }
+}

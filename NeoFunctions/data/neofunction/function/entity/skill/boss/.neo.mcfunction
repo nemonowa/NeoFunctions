@@ -42,3 +42,7 @@ execute if entity @s[tag=FrogBossDead] at @s run return run function neofunction
 
 #ラルーシャtick
 execute if entity @s[tag=larusha] at @s run return run function neofunction:entity/skill/boss/larusha/tick
+
+
+# 【追加：2026-10-08 ルブラ編】星喰い蟲（紅脈の坑のボス）のtick
+execute if entity @s[tag=rubra_worm] at @s run return run function neofunction:entity/skill/boss/rubra_worm/tick
