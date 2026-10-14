@@ -8,4 +8,4 @@
 data remove storage neofunction:rubra busy
 execute as @e[type=villager,tag=rubra_mira] at @s run particle minecraft:dust{color:[1.0,0.35,0.25],scale:1.0} ~ ~1 ~ 0.3 0.6 0.3 0 15 normal
 execute in neodimension:ceresta_festa run tp @e[type=villager,tag=rubra_mira] 841.5 13 3266.5 90 0
-tellraw @s {"text":"目標：さらに下へ。四の層「星の台の間」へ","color":"gray","italic":true}
+tellraw @s [{"text":"新しい目標","color":"gold","bold":true,"italic":false},{"text":"：","bold":true,"italic":false,"underlined":false},{"text":"さらに下へ。四の層「星の台の間」へ","color":"white","bold":true,"italic":false,"underlined":false}]

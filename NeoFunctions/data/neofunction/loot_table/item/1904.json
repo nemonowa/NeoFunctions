@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星核の欠片",
+                "color": "#FF6B5A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "落ちてきた星の、ちいさな欠片。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "火が消える深さでも、星の光は消えない。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "オフハンド：",
+                    "color": "#FFB0A0",
+                    "italic": false
+                  },
+                  {
+                    "text": "紅脈の坑の暗闇を照らす",
+                    "color": "white",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1904
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

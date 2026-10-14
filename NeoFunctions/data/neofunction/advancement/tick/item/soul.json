@@ -13,7 +13,13 @@
                 "entity": "this",
                 "predicate": {
                   "minecraft:entity_type": "minecraft:player",
-                  "minecraft:nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{check:1}}}}"
+                  "minecraft:equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "minecraft:custom_data": "{check:1}"
+                      }
+                    }
+                  }
                 }
               }
             },
@@ -22,7 +28,13 @@
               "entity": "this",
               "predicate": {
                 "minecraft:entity_type": "minecraft:player",
-                "minecraft:nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{custom:[{id:\"soul\",lvl:1b}]}}}}"
+                "minecraft:equipment": {
+                  "mainhand": {
+                    "predicates": {
+                      "minecraft:custom_data": "{custom:[{id:soul,lvl:1b}]}"
+                    }
+                  }
+                }
               }
             }
           ]

@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "紅鉢の祭りプレート",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "星還祭の日にだけ出る、食堂いちばんの大皿。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "シチュー・香草焼き・蜜パンがひと皿に。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "再生Ⅰ（00:15）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "耐性Ⅰ（00:30）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "採掘速度上昇Ⅰ（00:30）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1969
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,17 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:nbt": "{Inventory:[{Slot:17b,components:{\"minecraft:custom_model_data\":{floats:[1397.0f]}}}]}"
+            "minecraft:slots": {
+              "inventory.8": {
+                "components": {
+                  "minecraft:custom_model_data": {
+                    "floats": [
+                      1397.0
+                    ]
+                  }
+                }
+              }
+            }
           }
         }
       }

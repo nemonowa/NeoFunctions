@@ -1,0 +1,43 @@
+{
+  "parent": "neoadvancement:neoskill/259",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": [
+      {
+        "translate": "習得：鉱脈感知【ヴェイン・サーチ】 -Vein Search-",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "§b条件：§r指定スキル(ID:260)の習得\n§9説明：§rいちばん近い鉱石を10秒間光らせる（半径12m）。バニラのすべての鉱石に反応し、メサではルブラの鉱石（紅鉄・星鉄・星核）にも反応する（SP10消費）",
+      "color": "white"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "aaa": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:knowledge_book"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                260
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

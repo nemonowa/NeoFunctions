@@ -1,5 +1,5 @@
 # 命名：414
-# 説明：【追加：2026-10-08 ルブラ編】大空洞「星の畑」に着く。星の声「いたい」と、星喰い蟲の前ぶれ。会話の最後でボス戦を始める
+# 説明：【追加：2026-10-08 ルブラ編】大空洞「星の畑」に着く。星の声「いたい」と、ソウルイーターの前ぶれ。会話の最後でボス戦を始める
 # 実行条件：実行者 プレイヤー。#temp main_story 413
 # >/function neofunction:system/adv/tick/quest/40/d1/zone
 # =/function neofunction:system/adv/tick/quest/40/d1/414

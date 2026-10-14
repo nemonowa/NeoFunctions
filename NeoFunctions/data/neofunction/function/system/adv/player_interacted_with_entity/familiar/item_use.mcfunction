@@ -3,10 +3,15 @@
 # =/function neofunction:system/adv/player_interacted_with_entity/familiar/item_use
 
 #飲用ポーションの場合
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:potion"}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/potion
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:potion"}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/potion
 
 #パウダー系(CustomModelDataのみで判定、ベースアイテムは問わない)
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1062.0f]}}}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_fire
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1063.0f]}}}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_resistance
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1105.0f]}}}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_speed
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1106.0f]}}}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_regen
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1062.0f]}}}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_fire
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1063.0f]}}}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_resistance
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1105.0f]}}}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_speed
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1106.0f]}}}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/powder_regen

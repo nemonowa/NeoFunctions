@@ -9,7 +9,6 @@
           "entity": "this",
           "predicate": {
             "minecraft:type_specific/player": {},
-            "minecraft:nbt": "{FallFlying:1b}",
             "minecraft:equipment": {
               "chest": {
                 "predicates": {
@@ -23,6 +22,9 @@
                   }
                 }
               }
+            },
+            "minecraft:flags": {
+              "is_fall_flying": true
             }
           }
         }

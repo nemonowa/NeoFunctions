@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "冷えた星水",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水守の泉から汲んで、夜の風で冷やした水。",
+                  "color": "#FFC95E",
+                  "italic": false
+                },
+                {
+                  "text": "火の粉が怖くなくなる。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1976
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 8378623,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:fire_resistance",
+                    "amplifier": 0,
+                    "duration": 2400
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

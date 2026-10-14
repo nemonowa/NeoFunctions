@@ -3,9 +3,11 @@
 # >/function neofunction:system/adv/tick/cmd/1585
 # =/function neofunction:system/adv/tick/cmd/inf_bundle/.neo
 
-execute if data entity @s SelectedItem.components."minecraft:bundle_contents"[0] run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand item.components."minecraft:bundle_contents"[0] run return 0
 # アイテムをデータにする
-data modify storage neofunction:inf_bundle Item set from entity @s SelectedItem
+function neofunction:system/hand
+data modify storage neofunction:inf_bundle Item set from storage neofunction:hand item
 execute store result score #Calc1 temp run data get storage neofunction:inf_bundle Item.components."minecraft:custom_data".Count
 
 # 収納するアイテムをデータにする

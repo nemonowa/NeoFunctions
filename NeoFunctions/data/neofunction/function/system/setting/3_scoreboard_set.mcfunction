@@ -94,6 +94,8 @@ scoreboard players set #Katabasis MusicTimer 182
 scoreboard players set #BattleFun MusicTimer 161
 scoreboard players set #MaouBgmOrchestra16 MusicTimer 108
 scoreboard players set #harvest4 MusicTimer 206
+scoreboard players set #harvest3 MusicTimer 180
+scoreboard players set #dramatic5 MusicTimer 168
 
 # 固定数値
 scoreboard objectives add const dummy

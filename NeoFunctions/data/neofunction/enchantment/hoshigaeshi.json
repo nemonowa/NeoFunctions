@@ -1,0 +1,18 @@
+{
+  "description": {"text": "星還し", "color": "#FFC23D"},
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["mainhand"],
+  "effects": {
+    "minecraft:projectile_spawned": [
+      {"effect": {"type": "minecraft:run_function", "function": "neofunction:entity/skill/boss/rubra_void/bow_shot"}}
+    ],
+    "minecraft:post_attack": [
+      {"enchanted": "attacker", "affected": "victim", "effect": {"type": "minecraft:run_function", "function": "neofunction:entity/skill/boss/rubra_void/bow_hit"}}
+    ]
+  }
+}

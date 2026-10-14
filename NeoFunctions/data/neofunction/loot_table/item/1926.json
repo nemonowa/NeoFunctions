@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {"text": "星核のつるはし", "color": "#FFD27A", "bold": true, "italic": false},
+              "minecraft:lore": [
+                {"text": "紅鉢の街ルブラの赤い地層（メサ）でだけ、鉱石を掘れるつるはし。", "color": "gray", "italic": false},
+                {"text": "メサの外では、掘れる力が消える。", "color": "dark_gray", "italic": false},
+                [{"text": "掘れる鉱石：", "color": "gray", "italic": false}, {"text": "紅鉄の鉱石・星鉄の鉱石・星核の鉱石", "color": "#E8B060", "italic": false}],
+                [{"text": "星鍛冶の金床で強化：", "color": "gray", "italic": false}, {"text": "これ以上は強化できない", "color": "white", "italic": false}]
+              ],
+              "minecraft:tool": {"rules": [{"blocks": "minecraft:raw_iron_block", "speed": 20.0, "correct_for_drops": true}, {"blocks": "minecraft:crying_obsidian", "speed": 110.0, "correct_for_drops": true}, {"blocks": "minecraft:gilded_blackstone", "speed": 3.0, "correct_for_drops": true}], "default_mining_speed": 1.0, "damage_per_block": 1},
+              "minecraft:max_damage": 2500,
+              "minecraft:custom_model_data": {"floats": [1926]},
+              "minecraft:custom_data": {"rare": ["3"], "rubra_pick": 1, "tier": 3},
+              "minecraft:enchantments": {"minecraft:silk_touch": 1},
+              "minecraft:tooltip_display": {"hidden_components": ["minecraft:enchantments"]}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

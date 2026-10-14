@@ -11,7 +11,8 @@ function neofunction:system/adv/player_hurt_entity/.get_entity {Name:".all"}
 
 # HP表示
 execute as @s[gamemode=creative] at @s as @e[tag=hit] run function neofunction:system/scoreboard/showhp
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}}] at @s as @e[tag=hit] run function neofunction:system/scoreboard/showhp
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}} as @s at @s as @e[tag=hit] run function neofunction:system/scoreboard/showhp
 execute as @s[advancements={neoadvancement:4/break/2=false}] at @s as @e[tag=hit] run function neofunction:system/scoreboard/showhp
 
 # 職業ぱっしぶ
@@ -36,13 +37,16 @@ execute if entity @e[tag=hit,nbt={active_effects:[{id:"minecraft:resistance",amp
 execute as @e[tag=hit,nbt={DeathLootTable:"neofunction:asset/summon/2"}] run tellraw @a[distance=..8] [{"text":"<"},{"selector":"@s"},{"text":"> 殴るならもっと殺意を込めろ。"}]
 
 # 確率25%で壺ドロップ
-execute if entity @e[tag=enemy,distance=..8] as @s[predicate=neofunction:random_chance/25,nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1164.0f]}}}}] at @s anchored feet positioned ^ ^1 ^2 unless block ~ ~ ~ #neofunction:all run function neofunction:entity/skill/air-pot
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1164.0f]}}}} if entity @e[tag=enemy,distance=..8] as @s[predicate=neofunction:random_chance/25] at @s anchored feet positioned ^ ^1 ^2 unless block ~ ~ ~ #neofunction:all run function neofunction:entity/skill/air-pot
 
 # 898
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[898.0f]}}}}] if entity @e[tag=hit,predicate=neofunction:no_armor] run function neofunction:system/adv/player_hurt_entity/898
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[898.0f]}}}} if entity @s if entity @e[tag=hit,predicate=neofunction:no_armor] run function neofunction:system/adv/player_hurt_entity/898
 
 # 1768
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1768.0f]}}}}] run function neofunction:system/adv/player_hurt_entity/1768
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1768.0f]}}}} if entity @s run function neofunction:system/adv/player_hurt_entity/1768
 
 # burnitem
 execute if predicate neofunction:item/burnitem run function neofunction:system/adv/player_hurt_entity/burnitem

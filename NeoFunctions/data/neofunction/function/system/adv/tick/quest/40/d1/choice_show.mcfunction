@@ -3,7 +3,7 @@
 # 説明：【変更：2026-10-08】迷宮の中の印を右クリックする形はわかりにくかったので、チャットのクリックにした
 # 実行条件：実行者 プレイヤー（会話の最後の Command。人ごとに動くので、その人に出す）
 # >/function neofunction:system/adv/tick/quest/40/d1/416（会話の Command）
-# >/function neofunction:system/adv/player_interacted_with_entity/villager/811
+# >/function neofunction:system/adv/player_interacted_with_entity/villager/902
 # =/function neofunction:system/adv/tick/quest/40/d1/choice_show
 
 # 内容

@@ -22,7 +22,11 @@
               "predicate": {
                 "minecraft:type_specific/player": {
                   "looking_at": {
-                    "minecraft:nbt": "{Tags:[\"familiar\"]}"
+                    "minecraft:entity_tags": {
+                      "all_of": [
+                        "familiar"
+                      ]
+                    }
                   }
                 }
               }
@@ -40,7 +44,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID-\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID-"
+                  ]
+                }
               }
             }
           }
@@ -56,7 +65,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID-\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID-"
+                  ]
+                }
               }
             }
           }
@@ -72,7 +86,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID30\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID30"
+                  ]
+                }
               }
             }
           }
@@ -88,7 +107,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID30\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID30"
+                  ]
+                }
               }
             }
           }
@@ -104,7 +128,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID29\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID29"
+                  ]
+                }
               }
             }
           }
@@ -120,7 +149,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID29\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID29"
+                  ]
+                }
               }
             }
           }
@@ -136,7 +170,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID28\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID28"
+                  ]
+                }
               }
             }
           }
@@ -152,7 +191,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID28\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID28"
+                  ]
+                }
               }
             }
           }
@@ -168,7 +212,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID27\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID27"
+                  ]
+                }
               }
             }
           }
@@ -184,7 +233,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID27\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID27"
+                  ]
+                }
               }
             }
           }
@@ -200,7 +254,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID26\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID26"
+                  ]
+                }
               }
             }
           }
@@ -216,7 +275,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID26\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID26"
+                  ]
+                }
               }
             }
           }
@@ -232,7 +296,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID25\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID25"
+                  ]
+                }
               }
             }
           }
@@ -248,7 +317,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID25\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID25"
+                  ]
+                }
               }
             }
           }
@@ -264,7 +338,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID24\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID24"
+                  ]
+                }
               }
             }
           }
@@ -280,7 +359,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID24\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID24"
+                  ]
+                }
               }
             }
           }
@@ -296,7 +380,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID23\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID23"
+                  ]
+                }
               }
             }
           }
@@ -312,7 +401,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID23\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID23"
+                  ]
+                }
               }
             }
           }
@@ -328,7 +422,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID22\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID22"
+                  ]
+                }
               }
             }
           }
@@ -344,7 +443,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID22\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID22"
+                  ]
+                }
               }
             }
           }
@@ -360,7 +464,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID21\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID21"
+                  ]
+                }
               }
             }
           }
@@ -376,7 +485,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID21\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID21"
+                  ]
+                }
               }
             }
           }
@@ -392,7 +506,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID20\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID20"
+                  ]
+                }
               }
             }
           }
@@ -408,7 +527,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID20\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID20"
+                  ]
+                }
               }
             }
           }
@@ -424,7 +548,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID19\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID19"
+                  ]
+                }
               }
             }
           }
@@ -440,7 +569,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID19\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID19"
+                  ]
+                }
               }
             }
           }
@@ -456,7 +590,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID18\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID18"
+                  ]
+                }
               }
             }
           }
@@ -472,7 +611,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID18\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID18"
+                  ]
+                }
               }
             }
           }
@@ -488,7 +632,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID17\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID17"
+                  ]
+                }
               }
             }
           }
@@ -504,7 +653,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID17\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID17"
+                  ]
+                }
               }
             }
           }
@@ -520,7 +674,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID16\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID16"
+                  ]
+                }
               }
             }
           }
@@ -536,7 +695,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID16\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID16"
+                  ]
+                }
               }
             }
           }
@@ -552,7 +716,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID15\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID15"
+                  ]
+                }
               }
             }
           }
@@ -568,7 +737,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID15\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID15"
+                  ]
+                }
               }
             }
           }
@@ -584,7 +758,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID14\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID14"
+                  ]
+                }
               }
             }
           }
@@ -600,7 +779,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID14\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID14"
+                  ]
+                }
               }
             }
           }
@@ -616,7 +800,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID13\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID13"
+                  ]
+                }
               }
             }
           }
@@ -632,7 +821,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID13\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID13"
+                  ]
+                }
               }
             }
           }
@@ -648,7 +842,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID12\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID12"
+                  ]
+                }
               }
             }
           }
@@ -664,7 +863,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID12\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID12"
+                  ]
+                }
               }
             }
           }
@@ -680,7 +884,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID11\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID11"
+                  ]
+                }
               }
             }
           }
@@ -696,7 +905,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID11\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID11"
+                  ]
+                }
               }
             }
           }
@@ -712,7 +926,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID10\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID10"
+                  ]
+                }
               }
             }
           }
@@ -728,7 +947,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID10\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID10"
+                  ]
+                }
               }
             }
           }
@@ -744,7 +968,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID9\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID9"
+                  ]
+                }
               }
             }
           }
@@ -760,7 +989,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID9\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID9"
+                  ]
+                }
               }
             }
           }
@@ -776,7 +1010,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID8\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID8"
+                  ]
+                }
               }
             }
           }
@@ -792,7 +1031,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID8\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID8"
+                  ]
+                }
               }
             }
           }
@@ -808,7 +1052,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID7\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID7"
+                  ]
+                }
               }
             }
           }
@@ -824,7 +1073,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID7\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID7"
+                  ]
+                }
               }
             }
           }
@@ -840,7 +1094,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID6\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID6"
+                  ]
+                }
               }
             }
           }
@@ -856,7 +1115,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID6\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID6"
+                  ]
+                }
               }
             }
           }
@@ -872,7 +1136,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID5\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID5"
+                  ]
+                }
               }
             }
           }
@@ -888,7 +1157,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID5\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID5"
+                  ]
+                }
               }
             }
           }
@@ -904,7 +1178,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID4\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID4"
+                  ]
+                }
               }
             }
           }
@@ -920,7 +1199,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID4\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID4"
+                  ]
+                }
               }
             }
           }
@@ -936,7 +1220,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID3\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID3"
+                  ]
+                }
               }
             }
           }
@@ -952,7 +1241,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID3\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID3"
+                  ]
+                }
               }
             }
           }
@@ -968,7 +1262,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID2\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID2"
+                  ]
+                }
               }
             }
           }
@@ -984,7 +1283,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID2\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID2"
+                  ]
+                }
               }
             }
           }
@@ -1000,7 +1304,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID1\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID1"
+                  ]
+                }
               }
             }
           }
@@ -1016,7 +1325,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID1\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID1"
+                  ]
+                }
               }
             }
           }
@@ -1032,7 +1346,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"UUID0\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "UUID0"
+                  ]
+                }
               }
             }
           }
@@ -1048,7 +1367,12 @@
           "predicate": {
             "minecraft:type_specific/player": {
               "looking_at": {
-                "minecraft:nbt": "{Tags:[\"mob\",\"notUUID0\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "mob",
+                    "notUUID0"
+                  ]
+                }
               }
             }
           }

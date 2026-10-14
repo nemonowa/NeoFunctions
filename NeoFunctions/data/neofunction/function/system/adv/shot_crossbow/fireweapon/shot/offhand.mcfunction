@@ -6,7 +6,8 @@
 #advancementを削除
 advancement revoke @s only neofunction:shot_crossbow/fireweapon/offhand
 #メインハンドがクロスボウの場合(メインハンドのfireweaponで矢を放った場合処理を終了)
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fireweapon:1b}}}}] run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{fireweapon:1b}}}} as @s run return 0
 
 
 #装弾数調整

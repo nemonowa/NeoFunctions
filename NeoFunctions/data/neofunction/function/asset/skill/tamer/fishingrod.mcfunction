@@ -5,14 +5,16 @@
 
 # sharpnessレベルを取得（付いていなければ0のまま）
 scoreboard players set #sharpLvl temp 0
-execute store result score #sharpLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:sharpness"
+function neofunction:system/hand
+execute store result score #sharpLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:sharpness"
 
 # プレイヤーの実効attack_damage(防具込みの最終値)参照はやめて、武器本体(釣り竿アイテム)が持つattack_damageのAttributeModifiers(Amount)のみを取得する
 #   複数のattack_damageモディファイアを付与している武器の場合は、この1行だけでは合算できないので個別に足し込む処理を追加すること。
 #   該当モディファイアが無い(=見つからない)場合はdata getが失敗し、#atkAttrHalfは0のままになる。
 scoreboard players set #atkAttrHalf temp 0
 # 【変更：2026-09-27 26.3対応】属性値のデータ(attribute_modifiers の要素)のキー名は 1.20.5 で Amount→amount に変わった
-execute store result score #atkAttrHalf temp run data get entity @s SelectedItem.components."minecraft:attribute_modifiers"[{type:"minecraft:attack_damage"}].amount 2
+function neofunction:system/hand
+execute store result score #atkAttrHalf temp run data get storage neofunction:hand item.components."minecraft:attribute_modifiers"[{type:"minecraft:attack_damage"}].amount 2
 
 # ダメージ増加(Sharpness)ボーナス分：lvl>=1のとき (lvl+1)/2 相当
 scoreboard players set #sharpDmgHalf temp 0
@@ -40,32 +42,37 @@ execute store result storage neofunction:tamer temp.splashDmg double 0.15 run sc
 # smite(アンデット特効)：2.5*lvl
 # 巻き込み側は60%：2.5*0.6=1.5*lvl
 scoreboard players set #smiteLvl temp 0
-execute store result score #smiteLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:smite"
+function neofunction:system/hand
+execute store result score #smiteLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:smite"
 execute store result storage neofunction:tamer temp.smiteDmg double 2.5 run scoreboard players get #smiteLvl temp
 execute store result storage neofunction:tamer temp.splashSmiteDmg double 1.5 run scoreboard players get #smiteLvl temp
 
 # bane_of_arthropods(虫特効)：2.5*lvl
 # 巻き込み側は60%：2.5*0.6=1.5*lvl
 scoreboard players set #baneLvl temp 0
-execute store result score #baneLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:bane_of_arthropods"
+function neofunction:system/hand
+execute store result score #baneLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:bane_of_arthropods"
 execute store result storage neofunction:tamer temp.baneDmg double 2.5 run scoreboard players get #baneLvl temp
 execute store result storage neofunction:tamer temp.splashBaneDmg double 1.5 run scoreboard players get #baneLvl temp
 
 # impaling(水生特効)：2.5*lvl
 # 巻き込み側は60%：2.5*0.6=1.5*lvl
 scoreboard players set #impaleLvl temp 0
-execute store result score #impaleLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:impaling"
+function neofunction:system/hand
+execute store result score #impaleLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:impaling"
 execute store result storage neofunction:tamer temp.aquaDmg double 2.5 run scoreboard players get #impaleLvl temp
 execute store result storage neofunction:tamer temp.splashAquaDmg double 1.5 run scoreboard players get #impaleLvl temp
 
 # fire_aspect(火属性)：燃焼tick数 = lvl*80(=4秒*lvl、vanilla仕様通り)
 scoreboard players set #fireLvl temp 0
-execute store result score #fireLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:fire_aspect"
+function neofunction:system/hand
+execute store result score #fireLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:fire_aspect"
 execute store result storage neofunction:tamer temp.fireTicks short 80 run scoreboard players get #fireLvl temp
 
 # sweeping_edge(範囲ダメージ増加)：巻き込み半径 = レベル+1。未所持(lvl0)でも基礎半径1は必ず持つ(単体扱いにしない)
 scoreboard players set #sweepLvl temp 0
-execute store result score #sweepLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:sweeping"
+function neofunction:system/hand
+execute store result score #sweepLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:sweeping"
 #0にしたいなら多分ここいじればいいだけど思った以上に使いにくい武器だったよ。
 #本当にやるかは実際使ってから判断して欲しい。
 scoreboard players set #splashRadius temp 1
@@ -74,7 +81,8 @@ execute store result storage neofunction:tamer temp.splashRadius int 1 run score
 
 # knockback(ノックバック)：ノックバック強度(0.1刻み) = 6 + lvl*3（lvl0で0.6、以降1レベルごとに+0.3）
 scoreboard players set #kbLvl temp 0
-execute store result score #kbLvl temp run data get entity @s SelectedItem.components."minecraft:enchantments"."minecraft:knockback"
+function neofunction:system/hand
+execute store result score #kbLvl temp run data get storage neofunction:hand item.components."minecraft:enchantments"."minecraft:knockback"
 scoreboard players set #kbPower temp 6
 scoreboard players set #kbLvlMul temp 3
 scoreboard players operation #kbLvlMul temp *= #kbLvl temp

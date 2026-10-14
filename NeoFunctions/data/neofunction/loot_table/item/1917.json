@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "水守の守り石",
+                "color": "#4A9BE0",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "水守頭に代々伝わる青い石。虚の海の黒い水に、ほんの少しだけ抗える。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "オフハンド：零の揺籃の闇を照らし、影を退ける",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "手に持って右クリック：取り込まれた星核の欠片を、傷つけずに引き剥がす",
+                    "color": "#A8D8FF",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:max_stack_size": 1,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1917
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

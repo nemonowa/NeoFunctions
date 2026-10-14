@@ -26,6 +26,11 @@ execute if data entity @s Item{id:"minecraft:wheat"} run function neofunction:en
 # 小麦の種
 execute if data entity @s Item{id:"minecraft:wheat_seeds"} run function neofunction:entity/.spawn/obj/item/wheat_seeds
 
+# 【追加：2026-10-14 ルブラ編】ルブラの採掘：メサで掘った鉱石（鉄の原石ブロック・泣く黒曜石・ブラックストーン（金入り））を専用の素材に置き換える（Thrower なし・セレスタ・メサのとき）
+execute if items entity @s contents minecraft:raw_iron_block run function neofunction:system/rubra/mine/drop {m:1927,b:"minecraft:raw_iron_block"}
+execute if items entity @s contents minecraft:crying_obsidian run function neofunction:system/rubra/mine/drop {m:1928,b:"minecraft:crying_obsidian"}
+execute if items entity @s contents minecraft:gilded_blackstone run function neofunction:system/rubra/mine/drop {m:1929,b:"minecraft:gilded_blackstone"}
+
 # 発動媒体
 # 白刃
 execute if function neofunction:entity/.spawn/obj/item/origin_job/knight run execute as @s[nbt={Item:{id:"minecraft:wooden_sword"}}] run function neofunction:entity/.spawn/obj/item/sword

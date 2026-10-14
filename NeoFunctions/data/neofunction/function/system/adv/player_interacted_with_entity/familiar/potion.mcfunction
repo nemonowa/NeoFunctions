@@ -6,7 +6,8 @@
 # >/function neofunction:system/adv/player_interacted_with_entity/familiar
 # =/function neofunction:system/adv/player_interacted_with_entity/familiar/potion
 
-execute if data entity @s SelectedItem.components."minecraft:potion_contents".custom_effects run function neofunction:system/adv/player_interacted_with_entity/familiar/potion_custom
+function neofunction:system/hand
+execute if data storage neofunction:hand item.components."minecraft:potion_contents".custom_effects run function neofunction:system/adv/player_interacted_with_entity/familiar/potion_custom
 
 #演出(飲ませた感を出す)
 execute at @e[tag=interacted] run playsound minecraft:entity.generic.drink master @s

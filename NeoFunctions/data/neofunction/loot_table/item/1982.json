@@ -1,0 +1,115 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_pickaxe",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:can_break": [
+                {
+                  "blocks": "minecraft:spawner"
+                },
+                {
+                  "blocks": "minecraft:torch"
+                },
+                {
+                  "blocks": "minecraft:wall_torch"
+                },
+                {
+                  "blocks": "minecraft:cobweb"
+                },
+                {
+                  "blocks": "minecraft:fire"
+                },
+                {
+                  "blocks": "minecraft:vine"
+                },
+                {
+                  "blocks": "minecraft:dead_bush"
+                },
+                {
+                  "blocks": "minecraft:short_dry_grass"
+                },
+                {
+                  "blocks": "minecraft:tall_dry_grass"
+                },
+                {
+                  "blocks": "minecraft:cactus"
+                },
+                {
+                  "blocks": "minecraft:cactus_flower"
+                }
+              ],
+              "minecraft:custom_name": [
+                {
+                  "text": "Adv.",
+                  "color": "dark_red",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "デザートピッケル",
+                  "color": "gold"
+                }
+              ],
+              "minecraft:lore": [
+                {
+                  "text": "ルブラの道具屋が売る、乾いた谷のための道具。",
+                  "color": "white",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "特殊な加工により、アドベンチャーモードでも",
+                  "color": "white",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "枯れ草・サボテン・蜘蛛の巣などを取り払える。",
+                  "color": "white",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "アドベンチャーモードでも下記のブロックを破壊できる。",
+                  "color": "blue",
+                  "italic": false,
+                  "underlined": true
+                }
+              ],
+              "minecraft:repair_cost": 2147483647,
+              "minecraft:enchantments": {
+                "minecraft:fortune": 1,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "attack_damage",
+                  "id": "neofunction:rubra_advpick_dmg",
+                  "amount": -1,
+                  "operation": "add_multiplied_total",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1982
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

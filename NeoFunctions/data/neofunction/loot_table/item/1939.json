@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "紅金の鎧",
+                "color": "#E8A040",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "紅鉄に金を混ぜて打った、街の見張りが好む防具。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ルブラ周辺の土と爆ぜる魔物に備えた造り。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "防具商人ザイドの品　",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "第 2 段",
+                    "color": "#E8A040",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:feather_falling": 2,
+                "minecraft:blast_protection": 2,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:armor",
+                  "id": "neofunction:rubra_armor_chest",
+                  "amount": 5.0,
+                  "operation": "add_value",
+                  "slot": "chest"
+                },
+                {
+                  "type": "minecraft:max_health",
+                  "id": "neofunction:rubra_hp_chest",
+                  "amount": 1.5,
+                  "operation": "add_value",
+                  "slot": "chest"
+                }
+              ],
+              "minecraft:max_damage": 128,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1939
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ],
+                "rubra_armor": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

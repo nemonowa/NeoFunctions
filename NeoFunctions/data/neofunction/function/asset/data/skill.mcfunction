@@ -265,7 +265,7 @@ data merge storage neofunction:skill/256 {name:"幻脚【ファントム・ス�
 data merge storage neofunction:skill/257 {name:"影杭【シャドウ・ピラー】",lore:"発動時、自身の位置に影の杭を打ち込む、影の杭はその周辺にいる敵に弱体化と鈍足エフェクトを与える(SP40消費）"}
 data merge storage neofunction:skill/258 {name:"影潜【シャドウ・ディセント】",lore:"発動時、周囲16mの敵対状態を解除し、1秒間敵対しなくなる。（SP15消費）"}
 data merge storage neofunction:skill/259 {name:"終影審判【エンド・オブ・シャドウ】",lore:"発動時、周囲16mの敵に対し0.1秒ごとに敵の背後を取り、致命的な連撃をお見舞いする。影の鉄槌を下すAssasinの奥義(SP100消費）"}
-data merge storage neofunction:skill/260 {name:"スキル260",lore:"スキル260"}
+data merge storage neofunction:skill/260 {name:"鉱脈感知【ヴェイン・サーチ】",lore:"いちばん近い鉱石を10秒間光らせる（半径12m）。バニラのすべての鉱石に反応し、メサではルブラの鉱石（紅鉄・星鉄・星核）にも反応する（SP10消費）"}
 data merge storage neofunction:skill/261 {name:"スキル261",lore:"スキル261"}
 data merge storage neofunction:skill/262 {name:"スキル262",lore:"スキル262"}
 data merge storage neofunction:skill/263 {name:"スキル263",lore:"技能行使【トリガーオン】"}

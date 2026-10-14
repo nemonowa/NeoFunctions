@@ -5,4 +5,4 @@
 # =/function neofunction:entity/skill/boss/rubra_worm/goal_b
 
 # 内容
-$data modify storage neofunction:rubra worm.goal set value {x:$(bx).5d,y:-46.0d,z:$(bz).5d,s:0.9d}
+$data modify storage neofunction:rubra worm.goal set value {x:$(bx).5d,y:-46.0d,z:$(bz).5d,s:$(spb)d}

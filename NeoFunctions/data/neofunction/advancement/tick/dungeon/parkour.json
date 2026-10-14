@@ -38,7 +38,11 @@
               "type": "entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Tags:[\"parkour\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "parkour"
+                  ]
+                }
               }
             }
           ]

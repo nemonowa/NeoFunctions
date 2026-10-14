@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星見草の香草焼き",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "星見草をまぶして炭火で焼いた赤砂獣の肉。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "すうっとした香りで、足取りが軽くなる。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "跳躍力上昇Ⅰ（00:20）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1963
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -8,9 +8,12 @@
 
 # メインハンド
 scoreboard players reset @s Cstick
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{slot:red}}}}] run return run function neofunction:system/trigger/on/red
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{slot:blue}}}}] run return run function neofunction:system/trigger/on/blue
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{slot:green}}}}] run return run function neofunction:system/trigger/on/green
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{slot:red}}}} as @s run return run function neofunction:system/trigger/on/red
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{slot:blue}}}} as @s run return run function neofunction:system/trigger/on/blue
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{slot:green}}}} as @s run return run function neofunction:system/trigger/on/green
 
 # オフハンド
 execute as @s[nbt={Inventory:[],equipment:{offhand:{components:{"minecraft:custom_data":{slot:red}}}}}] run function neofunction:system/trigger/on/red

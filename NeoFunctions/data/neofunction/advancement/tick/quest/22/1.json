@@ -32,7 +32,11 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:nbt": "{Tags:[quest22]}"
+            "minecraft:entity_tags": {
+              "all_of": [
+                "quest22"
+              ]
+            }
           }
         }
       }

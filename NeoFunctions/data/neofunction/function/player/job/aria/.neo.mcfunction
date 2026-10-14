@@ -5,8 +5,10 @@
 
 
 # 説明：職業個別のtick処理
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}}] run return run function neofunction:player/job/aria/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick"}}] run return run function neofunction:player/job/aria/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}} if entity @s run return run function neofunction:player/job/aria/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:carrot_on_a_stick"}} if entity @s run return run function neofunction:player/job/aria/weapon
 
 
 

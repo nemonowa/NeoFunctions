@@ -1,7 +1,7 @@
 # 命名：410
 # 説明：【追加：2026-10-08 ルブラ編】坑道の入口でバルドの話を聞く（足跡と歌の話）。ミラから星核の欠片を受け取り、411 へ
-# 実行条件：実行者 バルド（村人 812）。#temp main_story 410
-# >/function neofunction:system/adv/player_interacted_with_entity/villager/812
+# 実行条件：実行者 バルド（村人 903）。#temp main_story 410
+# >/function neofunction:system/adv/player_interacted_with_entity/villager/903
 # =/function neofunction:system/adv/tick/quest/40/d1/410
 
 # 内容

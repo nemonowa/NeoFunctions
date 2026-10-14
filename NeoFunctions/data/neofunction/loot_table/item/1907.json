@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "最初の泉の涙",
+                "color": "#7FD8FF",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "こぼれ落ちる直前で、時間ごと固まったような雫。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "冷たいのに、手のひらの中でかすかに脈を打っている。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "星が落ちて、はじめて湧いた水の跡。",
+                  "color": "dark_gray",
+                  "italic": true
+                },
+                [
+                  {
+                    "text": "素材 2 / 3：",
+                    "color": "#A8E6FF",
+                    "italic": false
+                  },
+                  {
+                    "text": "星葬弓",
+                    "color": "#D7263D",
+                    "bold": true,
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantment_glint_override": true,
+              "minecraft:max_stack_size": 1,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1907
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

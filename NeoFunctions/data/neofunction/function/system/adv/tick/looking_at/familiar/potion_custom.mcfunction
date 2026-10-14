@@ -4,6 +4,7 @@
 # >/function neofunction:system/adv/tick/looking_at/familiar/potion
 # =/function neofunction:system/adv/tick/looking_at/familiar/potion_custom
 
-data modify storage neofunction:temp familiar_potion.effects set from entity @s SelectedItem.components."minecraft:potion_contents".custom_effects
+function neofunction:system/hand
+data modify storage neofunction:temp familiar_potion.effects set from storage neofunction:hand item.components."minecraft:potion_contents".custom_effects
 
 function neofunction:system/adv/tick/looking_at/familiar/.potion_custom_loop

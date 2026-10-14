@@ -5,12 +5,31 @@
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:entity_type": "minecraft:player",
-            "minecraft:nbt": "{Inventory:[],equipment:{offhand:{id:\"minecraft:crossbow\",components:{\"minecraft:charged_projectiles\":[{},{},{}],\"minecraft:custom_data\":{reloading:0b,fireweapon:1b}}}}}"
-          }
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:entity_type": "minecraft:player",
+                "minecraft:equipment": {
+                  "offhand": {
+                    "items": "minecraft:crossbow",
+                    "predicates": {
+                      "minecraft:custom_data": "{reloading:0b,fireweapon:1b}"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "minecraft:nbt": "{equipment:{offhand:{components:{\"minecraft:charged_projectiles\":[{},{},{}]}}}}"
+              }
+            }
+          ]
         }
       }
     }

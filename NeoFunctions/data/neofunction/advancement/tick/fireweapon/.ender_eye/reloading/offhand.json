@@ -9,7 +9,14 @@
           "entity": "this",
           "predicate": {
             "minecraft:entity_type": "minecraft:player",
-            "minecraft:nbt": "{Inventory:[],equipment:{offhand:{id:\"minecraft:ender_eye\",components:{\"minecraft:custom_data\":{reloading:1b,fireweapon:1b}}}}}"
+            "minecraft:equipment": {
+              "offhand": {
+                "items": "minecraft:ender_eye",
+                "predicates": {
+                  "minecraft:custom_data": "{reloading:1b,fireweapon:1b}"
+                }
+              }
+            }
           }
         }
       }

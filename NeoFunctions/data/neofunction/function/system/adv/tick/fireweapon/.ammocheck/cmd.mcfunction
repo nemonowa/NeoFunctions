@@ -7,7 +7,8 @@
 #弾薬が指定数以上あったとき
 $execute store result score @s temp run clear @s $(id)$(tag) 0
 $execute if score @s temp matches $(maxammo).. run clear @s $(id)$(tag) $(maxammo)
-$execute if score @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}}] temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/mainhand
+function neofunction:system/hand
+$execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}} if score @s temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/mainhand
 $execute if score @s[nbt={Inventory:[{components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}]}] temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/offhand
 
 #矢が指定数以上ないとき

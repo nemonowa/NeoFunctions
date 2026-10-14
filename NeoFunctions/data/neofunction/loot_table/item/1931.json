@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "風化した骨",
+                "color": "#D8C8A8",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "赤い地層から掘り出された、砂に磨かれた古い骨。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ルブラの防具商人や星鍛冶との取引に使う素材。",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1931
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,7 @@
 tag @e[tag=familiar,distance=..8,sort=nearest,limit=1] add interacted
 
 #手に持ったアイテムが(飲用の)ポーションの場合、効果を対象に付与して消費
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:potion"}}] run function neofunction:system/adv/player_interacted_with_entity/familiar/potion
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:potion"}} if entity @s run function neofunction:system/adv/player_interacted_with_entity/familiar/potion
 
 tag @e[tag=interacted] remove interacted

@@ -10,6 +10,8 @@ execute if score @s MusicTimer matches -2147483648..2147483647 run function neof
 execute if entity @s[x=800,y=-64,z=930,dx=200,dy=512,dz=220] run function neofunction:system/music/city_billy/change_to_this
 execute if entity @s[x=750,y=-64,z=1540,dx=300,dy=512,dz=200] run function neofunction:system/music/pastorale3/change_to_this
 execute if entity @s[x=400,y=-64,z=2000,dx=600,dy=512,dz=500] run function neofunction:system/music/city_luxefa/change_to_this
+# 【追加：2026-10-13 ルブラ編】紅鉢の街ルブラ（クレーターの中心 921, 3283・縁は半径 58〜65 → 半径 70 の四角）
+execute if entity @s[x=851,y=-64,z=3213,dx=140,dy=512,dz=140] run function neofunction:system/music/harvest3/change_to_this
 
 execute if entity @s[x=800,y=-64,z=930,dx=200,dy=512,dz=220] run title @s title {"text": "ビリーの野営地","color": "green","bold": true,"underlined": true}
 execute if entity @s[x=800,y=-64,z=930,dx=200,dy=512,dz=220] run title @s subtitle [{"text": "=風来と伝承の難破船入り江= ","color": "dark_aqua"},{"text": "脅威度：✯","color": "dark_red","bold": true}]
@@ -17,5 +19,8 @@ execute if entity @s[x=750,y=-64,z=1540,dx=300,dy=512,dz=200] run title @s title
 execute if entity @s[x=750,y=-64,z=1540,dx=300,dy=512,dz=200] run title @s subtitle [{"text": "=牧歌と試練の碧天牧場= ","color": "aqua"},{"text": "脅威度：✯✯","color": "dark_red","bold": true}]
 execute if entity @s[x=400,y=-64,z=2000,dx=600,dy=512,dz=500] run title @s title {"text": "ルクス・イーファ","color": "green","bold": true,"underlined": true}
 execute if entity @s[x=400,y=-64,z=2000,dx=600,dy=512,dz=500] run title @s subtitle [{"text": "=祝祭と豊穣の黄金穀倉= ","color": "gold","bold": false},{"text": "脅威度：✯✯✯","color": "dark_red","bold": true}]
+# ルブラは脅威度 3.5：太字の濃い赤 ✯✯✯ に、細い明るい赤の ✯ を半分の星として足す
+execute if entity @s[x=851,y=-64,z=3213,dx=140,dy=512,dz=140] run title @s title {"text": "紅鉢の街ルブラ","color": "green","bold": true,"underlined": true}
+execute if entity @s[x=851,y=-64,z=3213,dx=140,dy=512,dz=140] run title @s subtitle [{"text": "=落星と祈りの紅き鉢= ","color": "red"},{"text": "脅威度：✯✯✯","color": "dark_red","bold": true},{"text": "✯","color": "red","bold": false}]
 
 function neofunction:system/adv/location/biome_change/remove_advancement

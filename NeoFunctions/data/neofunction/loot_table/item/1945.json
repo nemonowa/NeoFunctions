@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "紅鉄の靴",
+                "color": "#E0603A",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "星鉄を芯に紅鉄を重ねた、鉱夫の頭たちの防具。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "ルブラ周辺の土と爆ぜる魔物に備えた造り。",
+                  "color": "dark_gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "防具商人ザイドの品　",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "第 3 段",
+                    "color": "#E0603A",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:protection": 2,
+                "minecraft:feather_falling": 3,
+                "minecraft:blast_protection": 3,
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:armor",
+                  "id": "neofunction:rubra_armor_feet",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "feet"
+                },
+                {
+                  "type": "minecraft:max_health",
+                  "id": "neofunction:rubra_hp_feet",
+                  "amount": 2.0,
+                  "operation": "add_value",
+                  "slot": "feet"
+                }
+              ],
+              "minecraft:max_damage": 130,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1945
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ],
+                "rubra_armor": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

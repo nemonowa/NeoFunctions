@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:baked_potato",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "鉱夫の弁当",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "香草焼きの肉とナンを、紅鉄の弁当箱に詰めたもの。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "腹がふくれると、つるはしが軽くなる。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "採掘速度上昇Ⅱ（00:20）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1967
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

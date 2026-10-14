@@ -7,5 +7,5 @@
 # 内容
 data modify storage neofunction:rubra worm.state set value "dead"
 kill @e[tag=rubra_worm_part]
-execute in neodimension:ceresta_festa positioned 812.5 -39 3266.5 run loot spawn ~ ~ ~ loot neofunction:item/1868
+execute in neodimension:ceresta_festa positioned 812.5 -39 3266.5 run loot spawn ~ ~ ~ loot neofunction:item/1905
 execute in neodimension:ceresta_festa positioned 812.5 -39 3266.5 run function neofunction:system/adv/tick/quest/40/d1/416

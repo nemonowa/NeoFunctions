@@ -9,7 +9,11 @@
           "entity": "this",
           "predicate": {
             "minecraft:type_specific/player": {},
-            "minecraft:nbt": "{Tags:[FSanvil]}"
+            "minecraft:entity_tags": {
+              "all_of": [
+                "FSanvil"
+              ]
+            }
           }
         }
       }

@@ -9,7 +9,8 @@
 
 execute as @e[tag=looked] at @s run tag @e[distance=..2,tag=famliiar] add lookedGroup
 
-execute if data entity @s SelectedItem.components."minecraft:potion_contents".custom_effects run function neofunction:system/adv/tick/looking_at/familiar/potion_custom
+function neofunction:system/hand
+execute if data storage neofunction:hand item.components."minecraft:potion_contents".custom_effects run function neofunction:system/adv/tick/looking_at/familiar/potion_custom
 
 #演出(飲ませた感を出す)
 execute at @e[tag=lookedGroup] run playsound minecraft:entity.generic.drink master @s

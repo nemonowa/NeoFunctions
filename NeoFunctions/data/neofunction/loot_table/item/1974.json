@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "鉱夫の黒エール",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "焦がした麦と星見草で仕込んだ、苦い黒ビール。",
+                  "color": "#FFC95E",
+                  "italic": false
+                },
+                {
+                  "text": "仕事前の一杯は、鉱夫頭に怒られる。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1974
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 4860442,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:haste",
+                    "amplifier": 0,
+                    "duration": 1800
+                  },
+                  {
+                    "id": "minecraft:nausea",
+                    "amplifier": 0,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 1,
+                    "duration": 1800
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

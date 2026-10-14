@@ -7,7 +7,8 @@
 # 内容
 execute if dimension neodimension:parkour run return run function neofunction:asset/particle/stageclear
 
-execute unless entity @s[nbt={SelectedItem:{}}] run summon interaction ~ ~0.6 ~ {width:0.6f,height:0.6f,Tags:[EX,drink,del10s],CustomName:[{"text":"飲む("},{"keybind":"key.use"},{"text":")"}]}
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{}} unless entity @s run summon interaction ~ ~0.6 ~ {width:0.6f,height:0.6f,Tags:[EX,drink,del10s],CustomName:[{"text":"飲む("},{"keybind":"key.use"},{"text":")"}]}
 
 execute unless dimension neodimension:nexus run return 0
 

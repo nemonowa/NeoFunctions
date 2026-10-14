@@ -10,7 +10,8 @@
 execute unless entity @s[tag=spellharvestinfo,predicate=!neofunction:is_sneaking] run return run function neofunction:asset/sign/spellsign/base/harvestinfo
 
 # 骨粉処理
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:bone_meal"}}] run tag @s add bonemeal
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:bone_meal"}} if entity @s run tag @s add bonemeal
 execute if entity @s[tag=bonemeal] run clear @s minecraft:bone_meal 1
 execute if entity @s[tag=bonemeal] at @s run place feature neofunction:spellsignharvest/berry
 execute if entity @s[tag=bonemeal] at @s run particle minecraft:composter ~ ~1 ~ 3 0.7 3 0 100 normal

@@ -15,8 +15,10 @@ item replace entity @e[tag=temp_display,limit=1,sort=nearest] container.0 from e
 
 function neofunction:system/adv/tick/fireweapon/cooltime/.cooltime
 #クロスボウの時、矢を装填する
-execute as @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] if score #Calc1 temp >= @e[tag=temp_display,limit=1,sort=nearest] temp run function neofunction:system/adv/shot_crossbow/fireweapon/charge/.charge
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:crossbow"}} as @s if score #Calc1 temp >= @e[tag=temp_display,limit=1,sort=nearest] temp run function neofunction:system/adv/shot_crossbow/fireweapon/charge/.charge
 #エンダーアイの時inoncooltimeを0bにする
-execute as @s[nbt={SelectedItem:{id:"minecraft:ender_eye"}}] if score #Calc1 temp >= @e[tag=temp_display,limit=1,sort=nearest] temp run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 0b
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:ender_eye"}} as @s if score #Calc1 temp >= @e[tag=temp_display,limit=1,sort=nearest] temp run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 0b
 
 item replace entity @s weapon.mainhand from entity @e[tag=temp_display,limit=1,sort=nearest] container.0

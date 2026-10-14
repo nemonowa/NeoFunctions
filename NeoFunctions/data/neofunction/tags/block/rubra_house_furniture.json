@@ -1,0 +1,9 @@
+{
+  "CommentOut": "【追加：2026-10-14 ルブラ編】ルブラの街の家（TownGen の Furnish.house）の家具。店に改装するとき（system/rubra/shops/build）に片付ける。はしごと吊りランタンは残す",
+  "values": [
+    "minecraft:smoker", "minecraft:furnace", "minecraft:barrel", "minecraft:crafting_table", "minecraft:chest",
+    "minecraft:red_carpet", "minecraft:orange_carpet", "minecraft:blue_carpet",
+    "minecraft:spruce_stairs", "minecraft:dark_oak_slab", "minecraft:potted_dead_bush", "minecraft:candle",
+    "minecraft:red_bed", "minecraft:bookshelf", "minecraft:lectern"
+  ]
+}

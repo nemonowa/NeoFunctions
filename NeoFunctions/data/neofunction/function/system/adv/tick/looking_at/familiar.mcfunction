@@ -6,8 +6,10 @@
 # =/function neofunction:system/adv/tick/looking_at/familiar
 
 #他のスニークアイテムを持っていた場合処理を終える
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[994.0f]}}}}] run return 0
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[996.0f]}}}}] run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[994.0f]}}}} if entity @s run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[996.0f]}}}} if entity @s run return 0
 
 
 #個体特定(将来の単体強化機能用の下地。ちょうど見ていた1体だけにlookedタグを付与する)

@@ -1,0 +1,82 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "スペルブック🔯【鉱脈感知】",
+                "color": "light_purple",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "異能秘術書",
+                  "color": "light_purple",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1983
+                ]
+              },
+              "minecraft:written_book_content": {
+                "pages": [
+                  [
+                    {
+                      "text": "",
+                      "color": "dark_gray"
+                    },
+                    {
+                      "text": "۞ スペルブック ۞\n",
+                      "color": "light_purple",
+                      "bold": true,
+                      "underlined": true
+                    },
+                    {
+                      "text": "名称：鉱脈感知【ヴェイン・サーチ】\n説明：いちばん近い鉱石を10秒間光らせる（半径12m）。バニラのすべての鉱石に反応し、メサではルブラの鉱石（紅鉄・星鉄・星核）にも反応する。\n\n消費SP：10\n\n"
+                    },
+                    {
+                      "text": "⌖習得【インストール】",
+                      "color": "gold",
+                      "bold": true,
+                      "underlined": true,
+                      "hover_event": {
+                        "action": "show_text",
+                        "value": [
+                          {
+                            "text": "クリックでスキルをインストールする！"
+                          }
+                        ]
+                      },
+                      "click_event": {
+                        "action": "run_command",
+                        "command": "/trigger code set 335"
+                      }
+                    }
+                  ]
+                ],
+                "title": "",
+                "author": "道具屋ハミド",
+                "generation": 0,
+                "resolved": true
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

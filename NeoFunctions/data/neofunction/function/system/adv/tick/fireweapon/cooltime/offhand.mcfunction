@@ -7,7 +7,8 @@
 #進捗をはく奪
 advancement revoke @s only neofunction:tick/fireweapon/cooltime/offhand
 #メインハンドがクールタイム中ならオフハンドのクールタイム処理は行われません！
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{fireweapon:1b}}}}] unless entity @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{cooltime:0b}}}}] run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{cooltime:0b}}}} if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{fireweapon:1b}}}} if entity @s unless entity @s run return 0
 #まずアイテムディスプレイをキル
 kill @e[type=item_display,tag=temp_display]
 #サモン

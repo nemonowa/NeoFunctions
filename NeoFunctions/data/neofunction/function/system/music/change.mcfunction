@@ -18,6 +18,8 @@ execute if entity @s[tag=ChangeCityLuxefa] at @s run function neofunction:system
 execute if entity @s[tag=Changecity_billy] at @s run function neofunction:system/music/city_billy/play
 execute if entity @s[tag=ChangeStainedGlassShiningInTheDarkNight] at @s run function neofunction:system/music/stained_glass_shining_in_the_dark_night/play
 execute if entity @s[tag=ChangeKatabasis] at @s run function neofunction:system/music/katabasis/play
+execute if entity @s[tag=Changeharvest3] at @s run function neofunction:system/music/harvest3/play
+execute if entity @s[tag=Changedramatic5] at @s run function neofunction:system/music/dramatic5/play
 execute if entity @s[tag=ChangeBattleFun] at @s run function neofunction:system/music/battle_fun/play
 execute if entity @s[tag=ChangeMaouBgmOrchestra16] at @s run function neofunction:system/music/maou_bgm_orchestra16/play
 

@@ -1,5 +1,5 @@
 # 命名：tick
-# 説明：【追加：2026-10-08 ルブラ編】星喰い蟲の毎 tick の処理。体力、いなくなったときの片付け、動き、体、体当たり、光る節への攻撃、ミラの光
+# 説明：【追加：2026-10-08 ルブラ編】ソウルイーターの毎 tick の処理。【変更：2026-10-14 作り直し】頭はいつでも攻撃が通る。胴体はふだん弾き、柱か壁にぶつかってスタンしているあいだだけ全節に通る（×1.5）。花・巨人の像・ミラの光の仕組みはやめた。技：突き上げ（てっぺんで砂の吐息、潜るときに地響き）・突進（柱や壁にぶつかるとスタン）・後半は連続突き上げとのしかかり
 # 実行条件：実行者・実行位置 本体（ravager、タグ rubra_worm）
 # >/function neofunction:entity/skill/boss/.neo
 # =/function neofunction:entity/skill/boss/rubra_worm/tick
@@ -16,14 +16,19 @@ execute unless entity @a[distance=..64,gamemode=!spectator] run return run funct
 # 地中にいるあいだは窒息しないように無敵（床 y-41 より下）
 execute if entity @s[y=-64,dy=21] run data merge entity @s {Invulnerable:1b}
 execute unless entity @s[y=-64,dy=21] run data merge entity @s {Invulnerable:0b}
-# 動き（予告のあいだは止まる）
+# 動き（状態ごと）
 execute if data storage neofunction:rubra worm{state:"warn"} run function neofunction:entity/skill/boss/rubra_worm/warn
-execute unless data storage neofunction:rubra worm{state:"warn"} run function neofunction:entity/skill/boss/rubra_worm/move with storage neofunction:rubra worm.goal
-# 体（頭と 12 の節）を、頭の通った跡に並べる
-function neofunction:entity/skill/boss/rubra_worm/body
-# 地上に出ているときの体当たり
-execute at @s if entity @s[y=-42,dy=30] as @a[distance=..2.8,gamemode=!spectator] run damage @s 8 minecraft:mob_attack by @e[type=ravager,tag=rubra_worm,limit=1]
-# 光っている節への攻撃
+execute if data storage neofunction:rubra worm{state:"cwarn"} run function neofunction:entity/skill/boss/rubra_worm/charge_warn
+execute if data storage neofunction:rubra worm{state:"charge"} run function neofunction:entity/skill/boss/rubra_worm/charge_tick
+execute if data storage neofunction:rubra worm{state:"stun"} run function neofunction:entity/skill/boss/rubra_worm/stun_tick
+execute if data storage neofunction:rubra worm{state:"s_wait"} run function neofunction:entity/skill/boss/rubra_worm/slam_wait
+execute unless data storage neofunction:rubra worm{state:"warn"} unless data storage neofunction:rubra worm{state:"cwarn"} unless data storage neofunction:rubra worm{state:"charge"} unless data storage neofunction:rubra worm{state:"stun"} unless data storage neofunction:rubra worm{state:"s_wait"} run function neofunction:entity/skill/boss/rubra_worm/move with storage neofunction:rubra worm.goal
+# 体（頭と 12 の節）を、頭の通った跡に並べる（スタン中は床に横たわったまま動かさない）
+execute unless data storage neofunction:rubra worm{state:"stun"} run function neofunction:entity/skill/boss/rubra_worm/body
+# 地上に出ているときの体当たり（スタン中・突進中はなし。突進は charge_tick で当てる）
+execute unless data storage neofunction:rubra worm{state:"stun"} unless data storage neofunction:rubra worm{state:"charge"} at @s if entity @s[y=-42,dy=30] as @a[distance=..2.8,gamemode=!spectator] run damage @s 8 minecraft:mob_attack by @e[type=ravager,tag=rubra_worm,limit=1]
+# 節への攻撃（スタン中だけ通る）
 execute as @e[type=interaction,tag=rubra_hit] if data entity @s attack run function neofunction:entity/skill/boss/rubra_worm/hit
-# ミラの光（体力が半分を切ったら）
-execute if data storage neofunction:rubra worm{phase:2} run function neofunction:entity/skill/boss/rubra_worm/flash
+# 砂の吐息の弾・地響きの輪
+execute as @e[type=item_display,tag=rubra_wsand] at @s run function neofunction:entity/skill/boss/rubra_worm/sand_tick
+execute as @e[type=marker,tag=rubra_wquake,limit=1] at @s run function neofunction:entity/skill/boss/rubra_worm/quake_tick

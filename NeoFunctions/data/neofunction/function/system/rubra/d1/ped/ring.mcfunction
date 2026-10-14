@@ -17,4 +17,4 @@ execute unless data storage neofunction:rubra d1.ped{n:0} run data modify storag
 execute unless data storage neofunction:rubra d1.ped{w:0} run data modify storage neofunction:rubra d1.ped.w set value 1
 execute unless data storage neofunction:rubra d1.ped{s:0} run data modify storage neofunction:rubra d1.ped.s set value 1
 tellraw @a[distance=..32] {"text":"縦穴の奥で岩がきしみ、もとに戻った。台の光が、最初の向きに戻っていく。","color":"gray","italic":true}
-tellraw @a[distance=..32] [{"text":"<"},{"text":"ミラ","color":"#7FB3FF","bold":true},{"text":"> 「違ったみたい……。壁の文字、もう一度読んでみましょう。光の色と、星の色を合わせるんだと思います」"}]
+tellraw @a[distance=..32] [{"text":"<"},{"text":"ミラ","color":"#7FB3FF","bold":true},{"text":"> 「違ったみたい……。白い層の迷い路の奥に刻まれてた言葉、思い出してみましょう。光の色と、星の色を合わせるんだと思います」"}]

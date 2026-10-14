@@ -1,5 +1,5 @@
 # 命名：dying
-# 説明：【追加：2026-10-08 ルブラ編】崩れていく（毎 tick）：3 tick ごとにしっぽの節から 1 つずつ黒い砂になる。最後に頭が崩れて星の血晶（1868）を落とし、416 へ
+# 説明：【追加：2026-10-08 ルブラ編】崩れていく（毎 tick）：3 tick ごとにしっぽの節から 1 つずつ黒い砂になる。最後に頭が崩れて星の血晶（1905）を落とし、416 へ
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/dying

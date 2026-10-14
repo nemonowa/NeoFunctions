@@ -5,123 +5,32 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:copper_sword",
           "modifier": {
             "type": "minecraft:set_components",
             "components": {
-              "minecraft:custom_name": [
-                {
-                  "text": "a",
-                  "color": "gold",
-                  "bold": false,
-                  "italic": false,
-                  "obfuscated": true
-                },
-                {
-                  "text": " 星葬弓「終焉」 ",
-                  "color": "#FFC23D",
-                  "bold": true,
-                  "italic": false,
-                  "obfuscated": false
-                },
-                {
-                  "text": "a",
-                  "color": "gold",
-                  "bold": false,
-                  "italic": false,
-                  "obfuscated": true
-                }
-              ],
-              "minecraft:lore": [
-                {
-                  "text": "夜空へ、星をひとつ還す弓。",
-                  "color": "gray",
-                  "italic": false
-                },
-                [
-                  {
-                    "text": "昇った矢は",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "小さな太陽",
-                    "color": "gold",
-                    "bold": true,
-                    "italic": false
-                  },
-                  {
-                    "text": "となり、",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ],
-                [
-                  {
-                    "text": "地上に",
-                    "color": "gray",
-                    "italic": false
-                  },
-                  {
-                    "text": "二度目の夜明け",
-                    "color": "yellow",
-                    "bold": true,
-                    "italic": false
-                  },
-                  {
-                    "text": "を告げる。",
-                    "color": "gray",
-                    "italic": false
-                  }
-                ],
-                {
-                  "text": "",
-                  "italic": false
-                },
-                [
-                  {
-                    "text": "◆ 終焉の星",
-                    "color": "gold",
-                    "bold": true,
-                    "italic": false
-                  },
-                  {
-                    "text": "　真上へ引き絞って放つ",
-                    "color": "white",
-                    "italic": false
-                  }
-                ],
-                {
-                  "text": "　矢は頂で太陽へと変じ、ゆっくりと墜ちて炸裂する。",
-                  "color": "dark_gray",
-                  "italic": false
-                },
-                {
-                  "text": "　その跡には、天を衝く雲の柱が立つ。",
-                  "color": "dark_gray",
-                  "italic": false
-                }
-              ],
-              "minecraft:enchantments": {
-                "minecraft:infinity": 1,
-                "neofunction:shuuen": 1
+              "minecraft:custom_name": {
+                "text": "ガードできる銅の剣",
+                "italic": false
               },
-              "minecraft:unbreakable": {},
-              "minecraft:repair_cost": 2147483647,
+              "minecraft:blocks_attacks": {
+                "damage_reductions": [
+                  {
+                    "base": 0,
+                    "factor": 0.5
+                  }
+                ],
+                "block_sound": "item.shield.block",
+                "disabled_sound": "item.shield.break"
+              },
               "minecraft:custom_model_data": {
                 "floats": [
                   1864
                 ]
               },
-              "minecraft:tooltip_display": {
-                "hidden_components": [
-                  "minecraft:enchantments",
-                  "minecraft:unbreakable"
-                ]
-              },
               "minecraft:custom_data": {
                 "rare": [
-                  "9"
+                  "1"
                 ]
               }
             }

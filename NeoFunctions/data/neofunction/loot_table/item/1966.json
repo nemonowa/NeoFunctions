@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "砂漠蜂の蜜パン",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "砂漠蜂の蜜をたっぷり染みこませた、祭りの日の甘いパン。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "疲れた体に、じんわり効く。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "再生Ⅰ（00:10）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1966
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

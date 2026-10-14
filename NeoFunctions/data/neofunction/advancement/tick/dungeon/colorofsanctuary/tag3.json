@@ -63,7 +63,11 @@
               "type": "entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Tags:[\"color3\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "color3"
+                  ]
+                }
               }
             }
           ]

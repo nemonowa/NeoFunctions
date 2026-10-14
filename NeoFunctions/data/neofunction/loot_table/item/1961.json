@@ -1,0 +1,90 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星鉄の弓",
+                "color": "#B08CFF",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "赤砂獣の腱を張った、乾いた風に強い弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "武器鍛冶ドルガの品　",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "第 4 段",
+                    "color": "#B08CFF",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3,
+                "minecraft:power": 3
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1961
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "4"
+                ],
+                "rubra_weapon": 4
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:movement_speed",
+                  "id": "neofunction:rubra_bow_spd",
+                  "amount": 0.12,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:safe_fall_distance",
+                  "id": "neofunction:rubra_bow_fall",
+                  "amount": 3.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:jump_strength",
+                  "id": "neofunction:rubra_bow_jump",
+                  "amount": 0.1,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:luck",
+                  "id": "neofunction:rubra_bow_luck",
+                  "amount": 1.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:max_damage": 350,
+              "minecraft:enchantment_glint_override": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,8 @@
 ## 内容：
 scoreboard players set @s name 1000
 
-data modify storage neofunction:name name set value '{"text":"異空の艦隊員","color":"dark_aqua","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"説明：異空機関の新兵の称号"}]}}'
+# 【変更：2026-10-14 26.3 対応】異名は文字ではなく文字の部品（hover_event）で保存する（JSON の文字だと 26.3 では読めず、文字のまま表示される）
+data modify storage neofunction:name name set value {text:"異空の艦隊員",color:"dark_aqua",bold:1b,hover_event:{action:"show_text",value:[{text:"説明：異空機関の新兵の称号"}]}}
 
 tellraw @s[advancements={neoadvancement:nexus/root=true}] [{"text":"⌖ ","bold":true,"italic":false},{"text":"異空の艦隊員","bold":true,hover_event:{"action":"show_text","value":[{"text":"説明：異空機関の新兵の称号"}]},click_event:{"action":"run_command",command:"/trigger code set 1000"}}]
 

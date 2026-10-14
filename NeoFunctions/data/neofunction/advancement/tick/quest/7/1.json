@@ -20,7 +20,19 @@
               "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Inventory:[{id:\"minecraft:experience_bottle\",components:{\"minecraft:custom_data\":{rare:4}}}],Tags:[quest7]}"
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:experience_bottle",
+                    "predicates": {
+                      "minecraft:custom_data": "{rare:4}"
+                    }
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "quest7"
+                  ]
+                }
               }
             }
           ]

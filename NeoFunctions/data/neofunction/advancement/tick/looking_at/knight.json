@@ -13,7 +13,11 @@
                 "neoadvancement:neoskill/200": true
               },
               "looking_at": {
-                "minecraft:nbt": "{Tags:[enemy]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "enemy"
+                  ]
+                }
               }
             }
           }

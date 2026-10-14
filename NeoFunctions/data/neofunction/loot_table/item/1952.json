@@ -1,0 +1,74 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "紅鉄の剣",
+                "color": "#E0603A",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "紅鉢の街ルブラの鍛冶が打った片手剣。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "武器鍛冶ドルガの品　",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "第 3 段",
+                    "color": "#E0603A",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1952
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "3"
+                ],
+                "rubra_weapon": 3
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:attack_damage",
+                  "id": "neofunction:rubra_weapon_dmg",
+                  "amount": 16.0,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                },
+                {
+                  "type": "minecraft:attack_speed",
+                  "id": "neofunction:rubra_weapon_spd",
+                  "amount": -2.4,
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:max_damage": 250
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

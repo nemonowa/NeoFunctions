@@ -38,7 +38,11 @@
               "type": "entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Tags:[\"1024\"]}"
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "1024"
+                  ]
+                }
               }
             }
           ]

@@ -9,7 +9,14 @@
           "entity": "this",
           "predicate": {
             "minecraft:entity_type": "minecraft:player",
-            "minecraft:nbt": "{SelectedItem:{id:\"minecraft:ender_eye\",components:{\"minecraft:custom_data\":{reloading:0b,fireweapon:1b,inoncooltime:1b}}}}"
+            "minecraft:equipment": {
+              "mainhand": {
+                "items": "minecraft:ender_eye",
+                "predicates": {
+                  "minecraft:custom_data": "{reloading:0b,fireweapon:1b,inoncooltime:1b}"
+                }
+              }
+            }
           }
         }
       }

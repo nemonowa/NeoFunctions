@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:written_book_content": {
+                "title": "アズールの手記 その二",
+                "author": "初代水守アズール",
+                "pages": [
+                  {
+                    "text": "古い民の長は、地の底を見たことがあるという。\n\n底のない黒い海。そこには目がある、と。何も映さない目が、ただ上を見上げているのだと。",
+                    "color": "#3B2A1A"
+                  },
+                  {
+                    "text": "私は笑った。\n\n笑えなくなったのは、井戸の底から、名を呼ぶ声を聞いた夜だ。\n死んだ母の声だった。",
+                    "color": "#3B2A1A"
+                  }
+                ],
+                "resolved": true
+              },
+              "minecraft:custom_name": {
+                "text": "アズールの手記 その二",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "初代水守アズールが遺した手記の一冊。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "2 / 7",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1909
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_journal": 2
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

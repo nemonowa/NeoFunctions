@@ -120,7 +120,7 @@
                   "slot": "mainhand"
                 }
               ],
-              "minecraft:charged_projectiles": [],
+              "minecraft:charged_projectiles": [{"id": "minecraft:arrow", "count": 1}],
               "minecraft:custom_model_data": {
                 "floats": [
                   995

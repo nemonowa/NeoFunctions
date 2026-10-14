@@ -266,3 +266,4 @@ data modify storage neofunction:skill/256 name set value "幻脚【ファント�
 data modify storage neofunction:skill/257 name set value "影杭【シャドウ・ピラー】"
 data modify storage neofunction:skill/258 name set value "影潜【シャドウ・ディセント】"
 data modify storage neofunction:skill/259 name set value "終影審判【エンド・オブ・シャドウ】"
+data modify storage neofunction:skill/260 name set value "鉱脈感知【ヴェイン・サーチ】"

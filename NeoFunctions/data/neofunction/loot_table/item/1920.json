@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "星還しの弓",
+                "color": "#FFC23D",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ヴァルカが、血晶と泉の涙と楔から打った、夜明け色の細い弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "星を傷つけずに送るための弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "",
+                  "italic": false
+                },
+                {
+                  "text": "◆ 星還し",
+                  "color": "#FFC23D",
+                  "bold": true,
+                  "italic": false
+                },
+                {
+                  "text": "　この弓の矢は、虚の海の黒い水を焼く。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "　（ヴォイド・ゼロに深く刺さり、黒い心臓を一矢で砕く）",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:enchantments": {
+                "minecraft:infinity": 1,
+                "minecraft:power": 3,
+                "neofunction:hoshigaeshi": 1
+              },
+              "minecraft:unbreakable": {},
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:enchantments",
+                  "minecraft:unbreakable"
+                ]
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1920
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_bow": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

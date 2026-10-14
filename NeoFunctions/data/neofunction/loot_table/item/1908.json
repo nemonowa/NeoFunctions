@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:written_book_content": {
+                "title": "アズールの手記 その一",
+                "author": "初代水守アズール",
+                "pages": [
+                  {
+                    "text": "砂嵐が三十日続いた。北の井戸はすべて黒く腐った。\n\n地の下から、黒い水が湧いている。飲んだ者は目が黒く濁り、眠ったまま起きない。",
+                    "color": "#3B2A1A"
+                  },
+                  {
+                    "text": "古い民の長が言う。これは虚の海だと。底のない海が、地の皮を破って溢れようとしているのだと。\n\nふたをする方法は、ひとつしかない、と。",
+                    "color": "#3B2A1A"
+                  }
+                ],
+                "resolved": true
+              },
+              "minecraft:custom_name": {
+                "text": "アズールの手記 その一",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "初代水守アズールが遺した手記の一冊。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "1 / 7",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1908
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_journal": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

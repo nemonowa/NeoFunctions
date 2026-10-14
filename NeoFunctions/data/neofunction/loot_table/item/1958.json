@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "赤砂の弓",
+                "color": "#C8743C",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "赤砂獣の腱を張った、乾いた風に強い弓。",
+                  "color": "gray",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "武器鍛冶ドルガの品　",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "text": "第 1 段",
+                    "color": "#C8743C",
+                    "italic": false
+                  }
+                ]
+              ],
+              "minecraft:enchantments": {
+                "minecraft:unbreaking": 3,
+                "minecraft:power": 1
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1958
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ],
+                "rubra_weapon": 1
+              },
+              "minecraft:attribute_modifiers": [
+                {
+                  "type": "minecraft:movement_speed",
+                  "id": "neofunction:rubra_bow_spd",
+                  "amount": 0.05,
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                }
+              ],
+              "minecraft:max_damage": 120
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -7,4 +7,4 @@
 # 内容
 data remove storage neofunction:rubra busy
 execute in neodimension:ceresta_festa run tp @e[type=villager,tag=rubra_mira] 822.5 -40 3260.5 135 0
-tellraw @s {"text":"目標：乗り場（縦穴の南東の角）のトロッコで、縦穴の底へ","color":"gray","italic":true}
+tellraw @s [{"text":"新しい目標","color":"gold","bold":true,"italic":false},{"text":"：","bold":true,"italic":false,"underlined":false},{"text":"乗り場（縦穴の南東の角）のトロッコで、縦穴の底へ","color":"white","bold":true,"italic":false,"underlined":false}]

@@ -31,3 +31,5 @@ tag @s remove MusicStainedGlassShiningInTheDarkNight
 tag @s remove MusicKatabasis
 tag @s remove MusicBattleFun
 tag @s remove MusicMaouBgmOrchestra16
+tag @s remove Musicharvest3
+tag @s remove Musicdramatic5

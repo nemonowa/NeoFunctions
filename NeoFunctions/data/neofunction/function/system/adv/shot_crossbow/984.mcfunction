@@ -9,7 +9,8 @@
 data merge entity @e[type=arrow,limit=1,tag=!gun,distance=..8] {item:{id:"minecraft:iron_block",count:1,components:{"minecraft:enchantments":{"minecraft:power":1}}},life:1190,NoGravity:1b,crit:0b,SoundEvent:"block.sand.step"}
 
 # 装弾数調整
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[984.0f]}}}},predicate=neofunction:random_chance/90] run item modify entity @s weapon.mainhand neofunction:gun/arrow
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[984.0f]}}}} as @s[predicate=neofunction:random_chance/90] run item modify entity @s weapon.mainhand neofunction:gun/arrow
 # schedule function neofunction:system/adv/shot_crossbow/984/modify_mainhand 10t append
 
 # リコイル（反動の演出）

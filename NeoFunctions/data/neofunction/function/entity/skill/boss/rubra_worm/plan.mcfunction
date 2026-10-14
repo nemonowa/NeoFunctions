@@ -1,46 +1,32 @@
 # 命名：plan
-# 説明：【追加：2026-10-08 ルブラ編】次の狙いを決める：大空洞にいるプレイヤーからひとり選び、その足もと近く（±3）を A、そこから ±12 先を B、真ん中の上をてっぺん P にする
-# 説明：空洞の中（x790〜824・z3246〜3290、縦穴の木組みより西）に収める。地中を A へ向かう
+# 説明：【追加：2026-10-08 ルブラ編】次の技を選ぶ。【変更：2026-10-14】前半は 3 回に 1 回が突進（charge_go）、ほかは突き上げ（plan_emerge）。後半（phase 2）は 4 回をめぐる：突進・連続突き上げ（3 回）・のしかかり（slam_start）・突き上げ。後半は速くなる
 # 実行条件：実行者・実行位置 本体
-# >/function neofunction:entity/skill/boss/rubra_worm/spawn
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
+# >/function neofunction:entity/skill/boss/rubra_worm/spawn
 # =/function neofunction:entity/skill/boss/rubra_worm/plan
 
 # 内容
 data modify storage neofunction:rubra worm.state set value "under"
-execute store result score #rw_ax temp run data get entity @s Pos[0]
-execute store result score #rw_az temp run data get entity @s Pos[2]
-execute as @a[distance=..64,gamemode=!spectator,sort=random,limit=1] run function neofunction:entity/skill/boss/rubra_worm/pick
-execute store result score #rubra_r temp run random value -3..3
-scoreboard players operation #rw_ax temp += #rubra_r temp
-execute store result score #rubra_r temp run random value -3..3
-scoreboard players operation #rw_az temp += #rubra_r temp
-scoreboard players operation #rw_bx temp = #rw_ax temp
-execute store result score #rubra_r temp run random value -12..12
-scoreboard players operation #rw_bx temp += #rubra_r temp
-scoreboard players operation #rw_bz temp = #rw_az temp
-execute store result score #rubra_r temp run random value -12..12
-scoreboard players operation #rw_bz temp += #rubra_r temp
-# 空洞の中に収める
-execute if score #rw_ax temp matches ..789 run scoreboard players set #rw_ax temp 790
-execute if score #rw_ax temp matches 825.. run scoreboard players set #rw_ax temp 824
-execute if score #rw_az temp matches ..3245 run scoreboard players set #rw_az temp 3246
-execute if score #rw_az temp matches 3291.. run scoreboard players set #rw_az temp 3290
-execute if score #rw_bx temp matches ..789 run scoreboard players set #rw_bx temp 790
-execute if score #rw_bx temp matches 825.. run scoreboard players set #rw_bx temp 824
-execute if score #rw_bz temp matches ..3245 run scoreboard players set #rw_bz temp 3246
-execute if score #rw_bz temp matches 3291.. run scoreboard players set #rw_bz temp 3290
-# てっぺん P は A と B の真ん中
-scoreboard players operation #rw_px temp = #rw_ax temp
-scoreboard players operation #rw_px temp += #rw_bx temp
-scoreboard players operation #rw_px temp /= $2 const
-scoreboard players operation #rw_pz temp = #rw_az temp
-scoreboard players operation #rw_pz temp += #rw_bz temp
-scoreboard players operation #rw_pz temp /= $2 const
-execute store result storage neofunction:rubra worm.next.ax int 1 run scoreboard players get #rw_ax temp
-execute store result storage neofunction:rubra worm.next.az int 1 run scoreboard players get #rw_az temp
-execute store result storage neofunction:rubra worm.next.bx int 1 run scoreboard players get #rw_bx temp
-execute store result storage neofunction:rubra worm.next.bz int 1 run scoreboard players get #rw_bz temp
-execute store result storage neofunction:rubra worm.next.px int 1 run scoreboard players get #rw_px temp
-execute store result storage neofunction:rubra worm.next.pz int 1 run scoreboard players get #rw_pz temp
-function neofunction:entity/skill/boss/rubra_worm/goal_a with storage neofunction:rubra worm.next
+# 速さ（前半 0.8・0.9、後半 1.0・1.1）。マクロで入れるので文字列
+execute unless data storage neofunction:rubra worm{phase:2} run data modify storage neofunction:rubra worm.next merge value {spa:"0.8",spb:"0.9",spp:"0.9"}
+execute if data storage neofunction:rubra worm{phase:2} run data modify storage neofunction:rubra worm.next merge value {spa:"1.0",spb:"1.1",spp:"1.1"}
+# 連続突き上げの残り
+execute store result score #rw_c temp run data get storage neofunction:rubra worm.combo
+execute if score #rw_c temp matches 1.. run scoreboard players remove #rw_c temp 1
+execute if score #rw_c temp matches 0.. run execute store result storage neofunction:rubra worm.combo int 1 run scoreboard players get #rw_c temp
+execute if score #rw_c temp matches 1.. run return run function neofunction:entity/skill/boss/rubra_worm/plan_emerge
+execute store result score #rw_n temp run data get storage neofunction:rubra worm.n
+scoreboard players add #rw_n temp 1
+execute store result storage neofunction:rubra worm.n int 1 run scoreboard players get #rw_n temp
+# 前半
+scoreboard players operation #rw_m temp = #rw_n temp
+scoreboard players operation #rw_m temp %= $3 const
+execute unless data storage neofunction:rubra worm{phase:2} if score #rw_m temp matches 0 run return run function neofunction:entity/skill/boss/rubra_worm/charge_go
+execute unless data storage neofunction:rubra worm{phase:2} run return run function neofunction:entity/skill/boss/rubra_worm/plan_emerge
+# 後半
+scoreboard players operation #rw_m temp = #rw_n temp
+scoreboard players operation #rw_m temp %= $4 const
+execute if score #rw_m temp matches 0 run return run function neofunction:entity/skill/boss/rubra_worm/charge_go
+execute if score #rw_m temp matches 1 run data modify storage neofunction:rubra worm.combo set value 3
+execute if score #rw_m temp matches 2 run return run function neofunction:entity/skill/boss/rubra_worm/slam_start
+function neofunction:entity/skill/boss/rubra_worm/plan_emerge

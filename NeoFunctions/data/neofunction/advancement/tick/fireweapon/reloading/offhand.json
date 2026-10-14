@@ -9,7 +9,14 @@
           "entity": "this",
           "predicate": {
             "minecraft:entity_type": "minecraft:player",
-            "minecraft:nbt": "{Inventory:[],equipment:{offhand:{id:\"minecraft:crossbow\",components:{\"minecraft:custom_data\":{reloading:1b,fireweapon:1b}}}}}"
+            "minecraft:equipment": {
+              "offhand": {
+                "items": "minecraft:crossbow",
+                "predicates": {
+                  "minecraft:custom_data": "{reloading:1b,fireweapon:1b}"
+                }
+              }
+            }
           }
         }
       }

@@ -17,6 +17,8 @@ execute as @s at @s as @a[distance=..64] run playsound minecraft:entity.wither.s
 
 
 
+# 【追加：2026-10-09 ルブラ編】ヴォイド・ゼロ（ガスト、DeathLootTable asset/summon/913）は見えない当たり判定なので光らせない（名前も出さない）
+execute if entity @s[type=ghast,nbt={DeathLootTable:"neofunction:asset/summon/913"}] run return run data merge entity @s {Glowing:0b,CustomNameVisible:0b}
 execute if entity @s[nbt={PersistenceRequired:0b}] run return run data merge entity @s {Glowing:1b,CustomNameVisible:1b}
 data merge entity @s {PersistenceRequired:1b,Glowing:1b,CustomNameVisible:1b}
 

@@ -18,8 +18,10 @@ data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."mi
 
 
 #reloadingtimeが0の時、矢を装填(クロスボウ
-execute as @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run function neofunction:system/adv/shot_crossbow/fireweapon/charge/.charge
-execute as @s[nbt={SelectedItem:{id:"minecraft:ender_eye"}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 0b
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:crossbow"}} as @s run function neofunction:system/adv/shot_crossbow/fireweapon/charge/.charge
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:ender_eye"}} as @s run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 0b
 
 item replace entity @s weapon.mainhand from entity @e[tag=temp_display,limit=1,sort=nearest] container.0
 

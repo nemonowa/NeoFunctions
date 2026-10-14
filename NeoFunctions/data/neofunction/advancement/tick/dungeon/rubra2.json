@@ -1,0 +1,37 @@
+{
+  "CommentOut": "【追加：2026-10-09 ルブラ編】涸れ泉の聖堂（第二章の迷宮）の範囲にいるあいだ 1 秒ごとに発火。範囲は北の台地と川の真下＋滝の裏の扉（Gen2 の建物に合わせた：x935〜990・y35〜75・z3112〜3222）",
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 935,
+                  "max": 990
+                },
+                "y": {
+                  "min": 35,
+                  "max": 75
+                },
+                "z": {
+                  "min": 3112,
+                  "max": 3222
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/dungeon/rubra2"
+  }
+}

@@ -10,4 +10,4 @@ execute unless score #temp main_story matches 416 run return 0
 scoreboard players set #temp main_story 417
 data remove storage neofunction:rubra busy
 execute in neodimension:ceresta_festa run tp @e[type=villager,tag=rubra_mira] 875.5 44 3265.5 -90 0
-tellraw @a[distance=..64] {"text":"目標：トロッコで上へ戻り、坑道の入口のバルドに知らせる","color":"gray","italic":true}
+tellraw @a[distance=..64] [{"text":"新しい目標","color":"gold","bold":true,"italic":false},{"text":"：","bold":true,"italic":false,"underlined":false},{"text":"トロッコで上へ戻り、坑道の入口のバルドに知らせる","color":"white","bold":true,"italic":false,"underlined":false}]

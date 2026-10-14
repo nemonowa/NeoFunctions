@@ -11,7 +11,11 @@
               "advancements": {},
               "stats": []
             },
-            "minecraft:nbt": "{Tags:[quest8]}"
+            "minecraft:entity_tags": {
+              "all_of": [
+                "quest8"
+              ]
+            }
           }
         }
       }

@@ -10,8 +10,8 @@ tag @e[type=villager,tag=rubra_d1] add del
 tag @e[type=ravager,tag=rubra_d1] add del
 kill @e[type=!villager,type=!ravager,type=!player,tag=rubra_d1]
 # NPC：坑道の入口にバルド、少し奥にミラ（4 マス以内に二人並ぶと話しかけた相手を取り違えるので離す）
-execute positioned 885.5 44 3263.5 run function neofunction:asset/summon/812
-execute positioned 875.5 44 3265.5 run function neofunction:asset/summon/811
+execute positioned 885.5 44 3263.5 run function neofunction:asset/summon/903
+execute positioned 875.5 44 3265.5 run function neofunction:asset/summon/902
 tp @e[type=villager,tag=rubra_baldo] 885.5 44 3263.5 -90 0
 tp @e[type=villager,tag=rubra_mira] 875.5 44 3265.5 -90 0
 # 星の台：右クリックの当たり判定と、置いた欠片の見た目
@@ -24,12 +24,15 @@ summon item_display 832.5 15.35 3277.5 {Tags:["rubra_ped_disp_s","rubra_d1"],tra
 # 【追加：2026-10-08】鐘（向きをそろえてから鳴らすと判定）と、西の壁の星読みの古い文字（手がかり）
 setblock 840 13 3268 minecraft:bell[attachment=floor,facing=west,powered=false]
 summon interaction 840.5 13 3268.5 {Tags:["rubra_click","rubra_bell","rubra_d1"],width:1.1f,height:1.2f,response:1b}
-summon text_display 821.3 15.4 3268.5 {Tags:["rubra_d1"],Rotation:[-90.0f,0.0f],billboard:"fixed",line_width:220,background:1426063360,text:{text:"",extra:[{text:"星読みの古い文字\n\n",color:"#C9A27E",italic:true},{text:"北の灯は　",color:"white"},{text:"夕べの赤き星",color:"#FF5A4A",bold:true},{text:"へ\n",color:"white"},{text:"西の灯は　",color:"white"},{text:"夜明けの青き星",color:"#6E9BFF",bold:true},{text:"へ\n",color:"white"},{text:"南の灯は　",color:"white"},{text:"真昼の金の星",color:"#FFD24A",bold:true},{text:"へ\n\n",color:"white"},{text:"三つの星そろうとき　鐘を鳴らせ",color:"#C9A27E",italic:true}]}}
-# ガラン・ルーの札の窪み
-summon interaction 842.5 25 3283.5 {Tags:["rubra_click","rubra_alcove","rubra_d1"],width:1.4f,height:2.0f,response:1b}
-summon item_display 842.5 25.7 3283.2 {Tags:["rubra_alcove_disp","rubra_d1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]}}
-# 巨人の像の印
-function neofunction:system/rubra/d1/golems
+summon text_display 821.3 15.4 3268.5 {Tags:["rubra_d1"],Rotation:[-90.0f,0.0f],billboard:"fixed",brightness:{block:15,sky:15},line_width:220,background:1426063360,text:{text:"",extra:[{text:"星読みの古い文字\n\n",color:"#C9A27E",italic:true},{text:"三つの灯の行き先は\n白い層の迷い路の奥に　鉱夫が刻んだ\n\n",color:"white"},{text:"三つの星そろうとき　鐘を鳴らせ",color:"#C9A27E",italic:true}]}}
+# 【変更：2026-10-14】ガラン・ルーの札の窪みは撤去した（砂の亡者をやめたので）
+# 【追加：2026-10-14 作り直し】一の層の鉄格子とレバー、二の層の手がかり、休み場の札、大空洞の柱の印、宝箱の戦利品の表（Gen1b が書き出し）
+function neofunction:system/rubra/d1/points2
+function neofunction:system/rubra/d1/l1gate_close
+function neofunction:system/rubra/d1/l3bridge_off
+function neofunction:system/rubra/d1/shaft_close
+function neofunction:system/rubra/d1/hole_lid
+function neofunction:system/rubra/d1/reward_clear
 # 記録を初めに戻し、扉を閉じる
 data modify storage neofunction:rubra d1 set value {ped:{n:0,w:0,s:0},solved:0b,galan:0b,l4talk:0b,retry:0b,selen:0b}
 data remove storage neofunction:rubra busy

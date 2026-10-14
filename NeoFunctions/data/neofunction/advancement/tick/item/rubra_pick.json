@@ -1,0 +1,28 @@
+{
+  "CommentOut": "【追加：2026-10-14 ルブラ編】ルブラのつるはし（custom_data rubra_pick）をメインハンドに持っているあいだ毎 tick 発火。メサでだけ掘れるように can_break を付け外しする。【変更：2026-10-15】minecraft:nbt（SelectedItem）をやめた：26.3 では SelectedItem が無く一度も成り立たず、しかも NBT の判定は装備より先に毎 tick プレイヤーの全データを書き出すので重い。装備の条件（custom_data）だけで調べる",
+  "parent": "neofunction:.clock/1t",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "mainhand": {
+                "items": "#minecraft:pickaxes",
+                "predicates": {
+                  "minecraft:custom_data": "{rubra_pick:1b}"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/rubra/mine/pick"
+  }
+}

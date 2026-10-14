@@ -127,6 +127,8 @@ execute as @s[scores={code=325}] run function neofunction:system/trigger/code/32
 execute as @s[scores={code=326}] run function neofunction:system/trigger/code/326
 #スペルブック:【フロッグリップル】
 execute as @s[scores={code=334}] run function neofunction:system/trigger/code/334
+#スペルブック:【鉱脈感知】（【追加：2026-10-14 ルブラ編】）
+execute as @s[scores={code=335}] run function neofunction:system/trigger/code/335
 
 # スキル呼び出し（トリガー起動）
 execute as @s[scores={code=327}] run function neofunction:system/trigger/code/327

@@ -1,0 +1,12 @@
+# 命名：443
+# 説明：【追加：2026-10-09 ルブラ編】塔の一階：セレンが床石に手を当て、零の揺籃の楔を抜く。「ぱきん」――黒い水が街の真上の空へ噴き上がる。セレンが星の道を開き、ボスの舞台「星還りの空」へ（ボス戦）。負けて戻ってきたときは、すぐやり直す
+# 実行条件：実行者 ミラ（村人 902）。#temp main_story 442、または 443（やり直し）
+# >/function neofunction:system/adv/player_interacted_with_entity/villager/902
+# =/function neofunction:system/adv/tick/quest/40/fin/443
+
+# 内容
+execute unless score #temp main_story matches 442..443 run return 0
+scoreboard players set #temp main_story 443
+execute if data storage neofunction:rubra fin{retry:1b} run return run function neofunction:entity/skill/boss/rubra_void/start
+data modify storage neofunction:rubra talk set value [{Text:{text:"",extra:[{text:"<"},{text:"セレン",color:"#C8D0FF",bold:true},{text:"> 「楔が抜ければ、鎖が解ける。星が目を覚ます。……旅人さん。星が空へ昇ろうとしたら、その弓で、星を射て」"}]},Delay:120,Sound:{Sound:"minecraft:entity.villager.ambient",Pitch:1.0}},{Text:{text:"",extra:[{text:"<"},{text:"ミラ",color:"#7FB3FF",bold:true},{text:"> 「射るって……！」"}]},Delay:70,Sound:{Sound:"minecraft:entity.villager.ambient",Pitch:1.6}},{Text:{text:"",extra:[{text:"<"},{text:"セレン",color:"#C8D0FF",bold:true},{text:"> 「傷つけるためじゃない。送るためよ。星還しの矢は、星を貫かない。黒い水だけを焼いて、星を包んで、空へ押し上げる」"}]},Delay:110,Sound:{Sound:"minecraft:entity.villager.ambient",Pitch:1.0}},{Text:{text:"セレンは塔の床に膝をつき、両手を床石に当てた。塔の真下、零の揺籃の楔まで、星読みの力を通わせる。",color:"gray",italic:true},Delay:100,Sound:{Sound:"minecraft:block.beacon.ambient",Pitch:0.8}},{Text:{text:"",extra:[{text:"<"},{text:"セレン",color:"#C8D0FF",bold:true},{text:"> 「……ルブラ。待たせたわね」"}]},Delay:80,Sound:{Sound:"minecraft:entity.villager.ambient",Pitch:1.0}},{Text:{text:"塔が震えた。ずっと下のほうで、何百年分の鎖が、いっせいに軋む。",color:"gray",italic:true},Delay:90,Sound:{Sound:"minecraft:block.chain.break",Pitch:0.5}},{Text:{text:"――ぱきん。",color:"white",italic:true},Delay:60,Sound:{Sound:"minecraft:block.amethyst_block.break",Pitch:1.6}},{Text:{text:"鉢じゅうの水が黒く染まり、天へ噴き上がった。黒い水は街の真上の空で渦を巻き、星を呑みこもうとしている。",color:"gray",italic:true},Delay:120,Sound:{Sound:"minecraft:ambient.underwater.enter",Pitch:0.5}},{Text:{text:"",extra:[{text:"<"},{text:"セレン",color:"#C8D0FF",bold:true},{text:"> 「虚の海……！ 空へ這い上がった。旅人さん、星の道を開くわ。あの渦の下へ！」"}]},Delay:90,Sound:{Sound:"minecraft:entity.villager.ambient",Pitch:1.0}},{Text:{text:"セレンの指先から、細い星の光がのびた。光は階段になり、夜空の上で、白い舞台に変わる。",color:"gray",italic:true},Delay:20,Sound:{Sound:"minecraft:block.beacon.activate",Pitch:1.4},Command:"function neofunction:entity/skill/boss/rubra_void/start"}]
+function neofunction:system/adv/tick/quest/40/d1/talk

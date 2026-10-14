@@ -267,3 +267,4 @@ data modify storage neofunction:skill/256 lore set value "発動時、自身に�
 data modify storage neofunction:skill/257 lore set value "発動時、自身の位置に影の杭を打ち込む、影の杭はその周辺にいる敵に弱体化と鈍足エフェクトを与える(SP40消費）"
 data modify storage neofunction:skill/258 lore set value "発動時、周囲16mの敵対状態を解除し、1秒間敵対しなくなる。（SP15消費）"
 data modify storage neofunction:skill/259 lore set value "発動時、周囲16mの敵に対し0.1秒ごとに敵の背後を取り、致命的な連撃をお見舞いする。影の鉄槌を下すAssasinの奥義(SP100消費）"
+data modify storage neofunction:skill/260 lore set value "いちばん近い鉱石を10秒間光らせる（半径12m）。バニラのすべての鉱石に反応し、メサではルブラの鉱石（紅鉄・星鉄・星核）にも反応する（SP10消費）"

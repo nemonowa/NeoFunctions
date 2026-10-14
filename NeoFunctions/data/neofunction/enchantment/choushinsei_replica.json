@@ -1,0 +1,33 @@
+{
+  "description": {"text": "小さな超新星", "color": "aqua"},
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {"base": 0, "per_level_above_first": 0},
+  "max_cost": {"base": 0, "per_level_above_first": 0},
+  "anvil_cost": 8,
+  "slots": ["chest"],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {"type": "minecraft:run_function", "function": "neofunction:asset/enchantment/choushinsei_replica/charge"},
+        "requirements": {"type": "minecraft:all_of", "terms": [
+          {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:flags": {"is_sneaking": true}}},
+          {"type": "minecraft:inverted", "term": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.nk_st": {"min": -100000, "max": -1}}}},
+          {"type": "minecraft:inverted", "term": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.nk_st": {"min": 40}}}}
+        ]}
+      },
+      {
+        "effect": {"type": "minecraft:run_function", "function": "neofunction:asset/enchantment/choushinsei_replica/charge_reset"},
+        "requirements": {"type": "minecraft:all_of", "terms": [
+          {"type": "minecraft:entity_properties", "entity": "this", "predicate": {"minecraft:flags": {"is_sneaking": false}}},
+          {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.nk_st": {"min": 1, "max": 39}}}
+        ]}
+      },
+      {
+        "effect": {"type": "minecraft:run_function", "function": "neofunction:asset/enchantment/choushinsei_replica/cool"},
+        "requirements": {"type": "minecraft:entity_scores", "entity": "this", "scores": {"neo.nk_st": {"min": -100000, "max": -1}}}
+      }
+    ]
+  }
+}

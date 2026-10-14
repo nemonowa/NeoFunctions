@@ -1,8 +1,8 @@
 # 命名：busy_check
 # 説明：【追加：2026-10-08 ルブラ編】会話中の印 busy が 2 分（2400 tick）より長く残っていたら外す（途中で全員いなくなったときの詰み防止）
 # >/function neofunction:system/adv/tick/quest/40/d1/zone
-# >/function neofunction:system/adv/player_interacted_with_entity/villager/811
-# >/function neofunction:system/adv/player_interacted_with_entity/villager/812
+# >/function neofunction:system/adv/player_interacted_with_entity/villager/902
+# >/function neofunction:system/adv/player_interacted_with_entity/villager/903
 # =/function neofunction:system/adv/tick/quest/40/d1/busy_check
 
 # 内容

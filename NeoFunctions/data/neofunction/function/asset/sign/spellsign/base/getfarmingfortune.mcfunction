@@ -20,7 +20,8 @@ scoreboard players set FarmingFortune temp 0
 execute if data entity @s equipment.offhand.components."minecraft:custom_data".FarmingFortune{Slot:"offhand"} store result score FarmingFortune temp run data get entity @s equipment.offhand.components."minecraft:custom_data".FarmingFortune.Amount 100
 scoreboard players operation @s temp += FarmingFortune temp
 scoreboard players set FarmingFortune temp 0
-execute if data entity @s SelectedItem.components."minecraft:custom_data".FarmingFortune{Slot:"mainhand"} store result score FarmingFortune temp run data get entity @s SelectedItem.components."minecraft:custom_data".FarmingFortune.Amount 100
+function neofunction:system/hand
+execute if data storage neofunction:hand item.components."minecraft:custom_data".FarmingFortune{Slot:"mainhand"} store result score FarmingFortune temp run data get storage neofunction:hand item.components."minecraft:custom_data".FarmingFortune.Amount 100
 scoreboard players operation @s temp += FarmingFortune temp
 
 scoreboard players operation BonusFF temp = @s temp

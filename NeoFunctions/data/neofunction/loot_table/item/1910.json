@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:written_book_content": {
+                "title": "アズールの手記 その三",
+                "author": "初代水守アズール",
+                "pages": [
+                  {
+                    "text": "空に、赤い星がいる。夜ごと、低く、ゆっくりと泳いでいる。\n\n子どもたちは、あれを「ルブラ」と呼んで手を振る。星は、手を振り返すように瞬く。",
+                    "color": "#3B2A1A"
+                  },
+                  {
+                    "text": "古い民の長は、あの星を落とせ、と言う。\n\n星の光だけが、虚の海を清められる。\n星をふたにせよ、と。",
+                    "color": "#3B2A1A"
+                  }
+                ],
+                "resolved": true
+              },
+              "minecraft:custom_name": {
+                "text": "アズールの手記 その三",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "初代水守アズールが遺した手記の一冊。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "3 / 7",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1910
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_journal": 3
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

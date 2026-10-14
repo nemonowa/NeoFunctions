@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:written_book_content": {
+                "title": "アズールの手記 その五",
+                "author": "初代水守アズール",
+                "pages": [
+                  {
+                    "text": "天墜を行った。\n\n百の水守が、百の鎖を投げた。星は、抗わなかった。\n星が地に触れたとき、大地が鉢のようにへこみ、すべての黒い水が、星の下に呑まれた。",
+                    "color": "#3B2A1A"
+                  },
+                  {
+                    "text": "朝、鉢の底から、澄んだ水が湧いた。甘い水だった。\n\n人々は泣いて喜んだ。\n私だけが、泣いている理由が違った。",
+                    "color": "#3B2A1A"
+                  }
+                ],
+                "resolved": true
+              },
+              "minecraft:custom_name": {
+                "text": "アズールの手記 その五",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "初代水守アズールが遺した手記の一冊。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "5 / 7",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1912
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_journal": 5
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

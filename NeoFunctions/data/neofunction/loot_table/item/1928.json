@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {"text": "星鉄の原石", "color": "#B08CFF", "bold": true, "italic": false},
+              "minecraft:lore": [
+                {"text": "落ちた星のかけらが地層に溶けこんでできた、紫に光る鉄。", "color": "gray", "italic": false},
+                {"text": "星鍛冶の金床で、道具や防具を鍛える材料になる。", "color": "dark_gray", "italic": false}
+              ],
+              "minecraft:custom_model_data": {"floats": [1928]},
+              "minecraft:custom_data": {"rare": ["2"]}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

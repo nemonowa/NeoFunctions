@@ -6,7 +6,8 @@
 # =/function neofunction:system/adv/tick/fireweapon/.ammocheck/vanilla
 $execute store result score @s temp run clear @s $(id) 0
 $execute if score @s temp matches $(maxammo).. run clear @s $(id) $(maxammo)
-$execute if score @s[nbt={SelectedItem:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}}] temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/mainhand
+function neofunction:system/hand
+$execute if data storage neofunction:hand {item:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}} if score @s temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/mainhand
 $execute if score @s[nbt={Inventory:[],equipment:{offhand:{id:"minecraft:crossbow",components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}}}] temp matches $(maxammo).. run return run function neofunction:system/adv/tick/fireweapon/reload/offhand
 
 #矢が指定数以上ないとき

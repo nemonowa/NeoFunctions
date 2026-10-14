@@ -10,7 +10,28 @@
               "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Inventory:[{id:\"minecraft:stone_hoe\",components:{\"minecraft:custom_model_data\":{floats:[15.0f]},\"minecraft:damage\":0}}],Tags: [\"quest8\"]}"
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:stone_hoe",
+                    "components": {
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          15.0
+                        ]
+                      }
+                    },
+                    "predicates": {
+                      "minecraft:damage": {
+                        "damage": 0
+                      }
+                    }
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "quest8"
+                  ]
+                }
               }
             },
             {

@@ -21,10 +21,10 @@ effect clear @a[distance=..6] minecraft:invisibility
 execute as @a[distance=..8] run title @s actionbar [{"text":"スポナー破壊クレジット：","color":"gold","bold":true},{"score":{"name":"@s","objective":"minedSpawner"}}]
 
 # 25%の確率で壺抽選を実行（特定のアイテムで破壊した時に発動
-execute if entity @a[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1146.0f]}}}},distance=..8] as @s[predicate=neofunction:random_chance/25] at @s run function neofunction:entity/skill/air-pot
+execute if items entity @a[distance=..8] weapon.mainhand *[minecraft:custom_model_data={floats:[1146.0f]}] as @s[predicate=neofunction:random_chance/25] at @s run function neofunction:entity/skill/air-pot
 
 # 100%の確率でEXPOrbをその場に召喚（火器で破壊した場合）
-execute if entity @a[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}},distance=..8] at @s run summon experience_orb ~ ~ ~ {Count:3,Value:12}
+execute if items entity @a[distance=..8] weapon.mainhand *[minecraft:custom_model_data={floats:[995.0f]}] at @s run summon experience_orb ~ ~ ~ {Count:3,Value:12}
 
 
 #削除

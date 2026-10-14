@@ -6,13 +6,13 @@
 
 ## 内容
 #装弾数調整
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <0>","bold":true}}}}] weapon.mainhand neofunction:gun/673/6
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <1>","bold":true}}}}] weapon.mainhand neofunction:gun/673/0
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <2>","bold":true}}}}] weapon.mainhand neofunction:gun/673/1
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <3>","bold":true}}}}] weapon.mainhand neofunction:gun/673/2
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <4>","bold":true}}}}] weapon.mainhand neofunction:gun/673/3
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <5>","bold":true}}}}] weapon.mainhand neofunction:gun/673/4
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_name":{"text":"GUN <6>","bold":true}}}}] weapon.mainhand neofunction:gun/673/5
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <0>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/6
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <1>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/0
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <2>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/1
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <3>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/2
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <4>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/3
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <5>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/4
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_name":{"text":"GUN <6>","bold":true}}}} run item modify entity @s weapon.mainhand neofunction:gun/673/5
 
 
 

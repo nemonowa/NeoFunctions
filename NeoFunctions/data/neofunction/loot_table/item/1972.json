@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "砂漠薔薇のシロップ水",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "砂漠薔薇の花びらを蜜で煮た、甘い香りの飲み物。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1972
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 15764656,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 200
+                  },
+                  {
+                    "id": "minecraft:absorption",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

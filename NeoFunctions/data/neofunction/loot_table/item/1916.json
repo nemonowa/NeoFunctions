@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "水路の栓",
+                "color": "#C98A5A",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "古い青銅の栓。昔の水守が、水路をふさぐのに使ったもの。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "三つの水門の間の、真ん中の穴にはまりそうだ。",
+                  "color": "gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:max_stack_size": 1,
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1916
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "サボテンの実のタルト",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ウチワサボテンの実を煮詰めた、赤い宝石のようなタルト。",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": "「すっぱ……あまい！」",
+                  "color": "#E8B080",
+                  "italic": false,
+                  "bold": true
+                },
+                {
+                  "text": " "
+                },
+                {
+                  "text": "移動速度Ⅰ（00:20）",
+                  "color": "blue",
+                  "italic": false,
+                  "bold": true
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1964
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

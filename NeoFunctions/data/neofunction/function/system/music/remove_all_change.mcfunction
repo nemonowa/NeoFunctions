@@ -22,3 +22,5 @@ tag @s remove ChangeStainedGlassShiningInTheDarkNight
 tag @s remove ChangeKatabasis
 tag @s remove ChangeBattleFun
 tag @s remove ChangeMaouBgmOrchestra16
+tag @s remove Changeharvest3
+tag @s remove Changedramatic5

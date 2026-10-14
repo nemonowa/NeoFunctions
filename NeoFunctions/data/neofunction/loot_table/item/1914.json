@@ -1,0 +1,62 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:written_book_content": {
+                "title": "アズールの手記 その七",
+                "author": "初代水守アズール",
+                "pages": [
+                  {
+                    "text": "私の代では、還せない。\n虚の海は、まだ深すぎる。\n\nだから、私の子へ、その子へ、またその子へ。",
+                    "color": "#3B2A1A"
+                  },
+                  {
+                    "text": "どうか、忘れないでくれ。\n\n私たちは、借りているのだ。",
+                    "color": "#3B2A1A"
+                  }
+                ],
+                "resolved": true
+              },
+              "minecraft:custom_name": {
+                "text": "アズールの手記 その七",
+                "color": "#C9A27E",
+                "bold": true,
+                "italic": false
+              },
+              "minecraft:lore": [
+                {
+                  "text": "初代水守アズールが遺した手記の一冊。",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "7 / 7",
+                  "color": "dark_gray",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1914
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "st"
+                ],
+                "rubra_journal": 7
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

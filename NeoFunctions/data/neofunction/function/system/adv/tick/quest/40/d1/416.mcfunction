@@ -1,5 +1,5 @@
 # 命名：416
-# 説明：【追加：2026-10-08 ルブラ編】星喰い蟲を倒したあと：星の血晶、星の声「ありがとう」、底なしの穴、セレンの背中。最後に欠片の選択を出す
+# 説明：【追加：2026-10-08 ルブラ編】ソウルイーターを倒したあと：星の血晶、星の声「ありがとう」、底なしの穴、セレンの背中。最後に欠片の選択を出す
 # 実行条件：実行位置 蟲が崩れた所。#temp main_story 415
 # >/function neofunction:entity/skill/boss/rubra_worm/dead
 # >/function neofunction:entity/skill/boss/rubra_worm/defeated

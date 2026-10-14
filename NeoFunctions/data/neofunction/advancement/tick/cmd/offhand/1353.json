@@ -8,7 +8,6 @@
           "type": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "minecraft:nbt": "{OnGround:1b}",
             "minecraft:equipment": {
               "offhand": {
                 "components": {
@@ -19,6 +18,9 @@
                   }
                 }
               }
+            },
+            "minecraft:flags": {
+              "is_on_ground": true
             }
           }
         }

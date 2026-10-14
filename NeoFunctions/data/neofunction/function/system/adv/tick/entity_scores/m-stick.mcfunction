@@ -7,7 +7,8 @@
 
 #内容
 scoreboard players reset @s Mstick
-execute unless data entity @s SelectedItem{id:"minecraft:warped_fungus_on_a_stick"} run return 0
+function neofunction:system/hand
+execute unless data storage neofunction:hand item{id:"minecraft:warped_fungus_on_a_stick"} run return 0
 item modify entity @s weapon.mainhand neofunction:set_damage/add/0.02
 summon item_frame ~ ~ ~ {Silent:1b,Invisible:1b,Tags:["del","pheaditem"]}
 item replace entity @e[tag=pheaditem,limit=1] container.0 from entity @s armor.head

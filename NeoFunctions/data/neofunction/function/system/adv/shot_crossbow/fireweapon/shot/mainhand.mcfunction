@@ -12,7 +12,8 @@ summon item_display ~ ~ ~ {view_range:0f,Tags:["temp_display","del"]}
 item replace entity @e[tag=temp_display,limit=1,sort=nearest] container.0 from entity @s weapon.mainhand
 
 #クロスボウの矢を空に
-execute as @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:charged_projectiles" set value []
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:crossbow"}} as @s run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:charged_projectiles" set value []
 # 【変更：2026-09-27 26.3対応】Charged フラグは廃止され、charged_projectiles の中身の有無で自動判定されるため無効化（上の行で空にしている）
 # execute as @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.tag.Charged set value 0b
 
@@ -55,7 +56,8 @@ scoreboard players operation #Calc1 temp += @e[tag=temp_display,limit=1,sort=nea
 #足し合わせたものをcooltimeに代入
 execute store result entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".cooltime int 1 run scoreboard players get #Calc1 temp
 #エンダーアイを持っているとき、inoncooltimeを1bにする
-execute as @s[nbt={SelectedItem:{id:"minecraft:ender_eye"}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 1b
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:ender_eye"}} as @s run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".inoncooltime set value 1b
 
 #アイテムディスプレイからプレイヤーに渡す。
 item replace entity @s weapon.mainhand from entity @e[tag=temp_display,limit=1,sort=nearest] container.0

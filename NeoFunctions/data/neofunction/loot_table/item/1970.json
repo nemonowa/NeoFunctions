@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "冷えたサボテン水",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "ウチワサボテンの汁を、井戸水で割った一杯。",
+                  "color": "#FFC95E",
+                  "italic": false
+                },
+                {
+                  "text": "乾いた喉に、すっと染みる。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1970
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 9427104,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:speed",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

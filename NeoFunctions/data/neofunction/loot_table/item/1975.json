@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "赤砂のスパイスチャイ",
+                "color": "gold",
+                "italic": false,
+                "bold": true
+              },
+              "minecraft:lore": [
+                {
+                  "text": "赤砂獣の乳と香辛料を煮出した、甘くて辛い茶。",
+                  "color": "#FFC95E",
+                  "italic": false
+                }
+              ],
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1975
+                ]
+              },
+              "minecraft:potion_contents": {
+                "custom_color": 13138492,
+                "custom_effects": [
+                  {
+                    "id": "minecraft:resistance",
+                    "amplifier": 0,
+                    "duration": 1200
+                  }
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "2"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

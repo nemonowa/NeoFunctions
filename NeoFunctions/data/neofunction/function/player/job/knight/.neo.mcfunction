@@ -11,12 +11,19 @@
 
 
 # 媒体所持事項
-execute if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword"}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword"}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword"}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword"}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword"}}] run return run function neofunction:player/job/knight/weapon
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword"}}] run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[995.0f]}}}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:wooden_sword"}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:stone_sword"}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:golden_sword"}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:iron_sword"}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:diamond_sword"}} if entity @s run return run function neofunction:player/job/knight/weapon
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{id:"minecraft:netherite_sword"}} if entity @s run function neofunction:player/job/knight/weapon
 
 

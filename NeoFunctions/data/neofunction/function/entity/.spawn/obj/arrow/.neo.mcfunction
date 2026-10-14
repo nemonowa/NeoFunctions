@@ -6,7 +6,8 @@
 
 
 # 内容：弓への個別処理
-execute at @s on origin if entity @s[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[1428.0f]}}}}] as @e[distance=0,tag=!sansa] run function neofunction:entity/.spawn/obj/arrow/sansa
+execute on origin run function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[1428.0f]}}}} at @s on origin if entity @s as @e[distance=0,tag=!sansa] run function neofunction:entity/.spawn/obj/arrow/sansa
 
 # 矢への個別処理
 execute as @s[nbt={item:{components:{"minecraft:potion_contents":{custom_color:16566272}}}}] run function neofunction:entity/.spawn/obj/arrow/torch

@@ -5,7 +5,8 @@
 
 #オフハンドの処理だよ！！
 #メインハンドがリロードしてるときはオフハンドリロードできません！
-execute as @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}}] run return 0
+function neofunction:system/hand
+execute if data storage neofunction:hand {item:{components:{"minecraft:custom_data":{reloading:1b,fireweapon:1b}}}} as @s run return 0
 
 summon item_display ~ ~ ~ {view_range:0f,Tags:["temp_display","del"]}
 

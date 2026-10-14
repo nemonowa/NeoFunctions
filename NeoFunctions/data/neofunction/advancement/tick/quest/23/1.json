@@ -10,7 +10,23 @@
               "type": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "minecraft:nbt": "{Inventory:[{id:\"minecraft:hay_block\",components:{\"minecraft:custom_model_data\":{floats:[1591.0f]}}}],Tags: [\"quest23\"]}"
+                "minecraft:slots": {
+                  "container.*": {
+                    "items": "minecraft:hay_block",
+                    "components": {
+                      "minecraft:custom_model_data": {
+                        "floats": [
+                          1591.0
+                        ]
+                      }
+                    }
+                  }
+                },
+                "minecraft:entity_tags": {
+                  "all_of": [
+                    "quest23"
+                  ]
+                }
               }
             },
             {

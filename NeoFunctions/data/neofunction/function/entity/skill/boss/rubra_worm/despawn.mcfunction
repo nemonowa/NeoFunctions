@@ -1,5 +1,5 @@
 # 命名：despawn
-# 説明：【追加：2026-10-08 ルブラ編】近くに誰もいなくなった（全滅・離脱）：星喰い蟲は地の底へ戻る（片付ける）。進み具合を 414 に戻し、次に大空洞へ来たらすぐ戦いをやり直す
+# 説明：【追加：2026-10-08 ルブラ編】近くに誰もいなくなった（全滅・離脱）：ソウルイーターは地の底へ戻る（片付ける）。進み具合を 414 に戻し、次に大空洞へ来たらすぐ戦いをやり直す
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/despawn

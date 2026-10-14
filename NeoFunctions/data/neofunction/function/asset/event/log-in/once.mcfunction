@@ -24,7 +24,8 @@ execute store result score version world run data get entity @s DataVersion
 function neofunction:system/trigger/.all_trigger_enable
 
 # 称号：未選択
-data modify storage neofunction:name name set value '{"text":"未選択","color":"red","bold":true,"hoverEvent":{"action":"show_text","value":[{"text":"説明：ここをクリックして称号を設定可能"}]}}'
+# 【変更：2026-10-14 26.3 対応】異名は文字ではなく文字の部品（hover_event）で保存する（JSON の文字だと 26.3 では読めず、文字のまま表示される）
+data modify storage neofunction:name name set value {text:"未選択",color:"red",bold:1b,hover_event:{action:"show_text",value:[{text:"説明：ここをクリックして称号を設定可能"}]}}
 function neofunction:asset/name/set
 # 転移
 execute in neodimension:nexus run tp @s 1280.0 128.000 1192.5 899.0 9

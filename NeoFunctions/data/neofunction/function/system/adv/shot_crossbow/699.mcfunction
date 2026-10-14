@@ -10,8 +10,8 @@
 execute at @s run data merge entity @e[type=minecraft:arrow,limit=1,tag=!gun] {Tags:["gun"],life:1140,NoGravity:1b,crit:0b,SoundEvent:"item.shield.break"}
 
 #装弾数調整
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[699.0f]}}}}] weapon.mainhand neofunction:gun
-item modify entity @a[nbt={SelectedItem:{components:{"minecraft:custom_model_data":{floats:[699.0f]}}}}] weapon.offhand neofunction:gun
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[699.0f]}}}} run item modify entity @s weapon.mainhand neofunction:gun
+execute as @a if function neofunction:system/hand if data storage neofunction:hand {item:{components:{"minecraft:custom_model_data":{floats:[699.0f]}}}} run item modify entity @s weapon.offhand neofunction:gun
 
 #リコイル（反動の演出）
 tp @s ~ ~ ~ ~ ~-1.5

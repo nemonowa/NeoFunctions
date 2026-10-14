@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {"text": "紅鉄の原石", "color": "#E0603A", "bold": true, "italic": false},
+              "minecraft:lore": [
+                {"text": "ルブラの赤い地層に眠る、赤い鉄の原石。", "color": "gray", "italic": false},
+                {"text": "星鍛冶の金床で、道具や防具を鍛える材料になる。", "color": "dark_gray", "italic": false}
+              ],
+              "minecraft:custom_model_data": {"floats": [1927]},
+              "minecraft:custom_data": {"rare": ["1"]}
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

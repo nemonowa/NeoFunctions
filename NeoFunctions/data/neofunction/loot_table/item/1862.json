@@ -1,1 +1,42 @@
-{}
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_sword",
+          "modifier": {
+            "type": "minecraft:set_components",
+            "components": {
+              "minecraft:custom_name": {
+                "text": "ガードできる木の剣",
+                "italic": false
+              },
+              "minecraft:blocks_attacks": {
+                "damage_reductions": [
+                  {
+                    "base": 0,
+                    "factor": 0.5
+                  }
+                ],
+                "block_sound": "item.shield.block",
+                "disabled_sound": "item.shield.break"
+              },
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1862
+                ]
+              },
+              "minecraft:custom_data": {
+                "rare": [
+                  "1"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

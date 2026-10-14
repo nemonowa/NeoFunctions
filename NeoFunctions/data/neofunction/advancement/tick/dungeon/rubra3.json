@@ -1,0 +1,37 @@
+{
+  "CommentOut": "【追加：2026-10-09 ルブラ編】零の揺籃（第三章の迷宮）の範囲にいるあいだ 1 秒ごとに発火。範囲は星見の塔の真下（2026-10-09 建築に合わせた：x905〜990・y-60〜40・z3270〜3320。【変更：2026-10-14】球の広間を半径 21 に広げたので z の南を 3320 まで）",
+  "parent": "neofunction:.clock/1s",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 905,
+                  "max": 990
+                },
+                "y": {
+                  "min": -60,
+                  "max": 40
+                },
+                "z": {
+                  "min": 3270,
+                  "max": 3320
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "neofunction:system/adv/tick/dungeon/rubra3"
+  }
+}
