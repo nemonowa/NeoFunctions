@@ -5,5 +5,5 @@
 # =/function neofunction:system/rubra/mine/pick
 
 # 内容
-execute if dimension neodimension:ceresta_festa if biome ~ ~ ~ neodimension:cerestafesta/mesa run return run function neofunction:system/rubra/mine/pick_on
+execute if dimension neodimension:ceresta_festa if biome ~ ~ ~ #neofunction:mesa_all run return run function neofunction:system/rubra/mine/pick_on
 execute if items entity @s weapon.mainhand *[minecraft:can_break] run item modify entity @s weapon.mainhand neofunction:rubra/pick_off

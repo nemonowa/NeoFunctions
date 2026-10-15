@@ -8,6 +8,6 @@
 # 内容
 execute if data entity @s Thrower run return 0
 execute at @s unless dimension neodimension:ceresta_festa run return 0
-execute at @s unless biome ~ ~ ~ neodimension:cerestafesta/mesa run return 0
+execute at @s unless biome ~ ~ ~ #neofunction:mesa_all run return 0
 $execute if data entity @s Item{count:1} at @s align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run function neofunction:system/rubra/mine/mark {b:"$(b)"}
 $loot replace entity @s contents loot neofunction:item/$(m)
