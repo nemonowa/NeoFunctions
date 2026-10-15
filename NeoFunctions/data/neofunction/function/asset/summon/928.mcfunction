@@ -1,6 +1,7 @@
 # 命名：爆ぜ石
 # 説明：【追加：2026-10-15 ルブラ編】メサの自然湧きの置き換え先（クリーパー枠）。赤い岩に化けて近づき、熱を溜めて爆ぜる石の魔物。砕けた体は良い火薬になる。生成は scratchpad の mesa_mob_gen.py
+# 説明：【変更：2026-10-15】体力・攻撃力・速さなどはレベルのタグ（lv）からシステムが決めるので書かない（ユーザーの指示）。大きさ（scale）だけ残す
 # >/function neofunction:entity/.spawn/mob/.dim/ceresta/mesa
 # =/function neofunction:asset/summon/928
 
-summon creeper ~ ~ ~ {Silent:1b,CustomName:{"text":"爆ぜ石","color":"#C8743C","bold":true,"italic":false},Tags:[lv2,rubra_mesa],DeathLootTable:"neofunction:asset/summon/928",attributes:[{id:"minecraft:max_health",base:22.0d},{id:"minecraft:movement_speed",base:0.24d}],Health:22.0f,ExplosionRadius:3b,Fuse:30s}
+summon creeper ~ ~ ~ {Silent:1b,CustomName:{"text":"爆ぜ石","color":"#C8743C","bold":true,"italic":false},Tags:[lv2,rubra_mesa],DeathLootTable:"neofunction:asset/summon/928"}
