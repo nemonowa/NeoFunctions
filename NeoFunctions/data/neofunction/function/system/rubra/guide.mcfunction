@@ -21,8 +21,7 @@ execute as @e[type=villager,tag=rubra_npc] unless items entity @s armor.head min
 execute unless data storage neofunction:rubra {shopv:1} in neodimension:ceresta_festa positioned 921 45 3283 if entity @a[distance=..28] run function neofunction:system/rubra/shops/build
 # 【追加：2026-10-14】終章のボス戦で止めた時の流れを、戦いが無いのに戻し損ねていたら戻す（止まったままだと、時刻の進捗が毎 tick 発火して日没の表示が流れ続ける）
 execute if data storage neofunction:rubra {fin_night:1b} unless entity @e[type=ghast,tag=rubra_void] run function neofunction:entity/skill/boss/rubra_void/day
-# 【追加：2026-10-14】ルブラの採掘：掘った鉱石を、時間が来たらまた生やす（物語の進み具合に関係なく毎秒）
-execute if entity @e[type=marker,tag=rubra_ore,limit=1] run function neofunction:system/rubra/mine/regen_all
+# 【変更：2026-10-15】ルブラの採掘の鉱石の復活は 60 秒ごと（system/clock/60_second）に移した
 # 【追加：2026-10-14】第二章の入口の作り直しを、今のワールドに一度だけ反映する（館の近くにプレイヤーがいるとき）
 execute unless data storage neofunction:rubra {d2v:3} in neodimension:ceresta_festa positioned 957 45 3271 if entity @a[distance=..48] run function neofunction:system/rubra/d2/upgrade_20261014
 execute unless score #temp main_story matches 410..449 run return 0

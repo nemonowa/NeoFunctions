@@ -41,6 +41,9 @@ execute as 00000000-0000-0000-0000-000000000001 as @s[scores={karman=6000..}] ru
 #レベル同期処理　もし有効だった場合
 execute if score levelStatsSync temp matches -1 run function neofunction:system/levelstatssync/load
 
+# 【追加：2026-10-15 ルブラ編】掘った鉱石を、時間が来ていて 64m 以内に人がいなければまた生やす（1 秒ごとに見る必要はないので 60 秒ごと）
+execute if entity @e[type=marker,tag=rubra_ore,limit=1] run function neofunction:system/rubra/mine/regen_all
+
 # del
 kill @e[tag=del60s]
 
