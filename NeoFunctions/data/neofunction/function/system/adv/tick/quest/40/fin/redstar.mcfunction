@@ -1,5 +1,5 @@
 # 命名：redstar
-# 説明：夜空に、新しい赤い星を灯す（結末 A・C）。消えないように、タグは rubra_redstar だけ
+# 説明：夜空に、新しい赤い星を灯す（結末 A・C）。タグは rubra_redstar だけ
 # 実行条件：どこでも（セレスタ次元）
 # >/function neofunction:system/adv/tick/quest/40/fin/449
 # =/function neofunction:system/adv/tick/quest/40/fin/redstar

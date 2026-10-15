@@ -1,5 +1,5 @@
 # 命名：skylantern_start
-# 説明：星還祭：広場から灯籠が夜空へ昇っていく演出を始める。手記を明かしていれば（choice.reveal）たくさん、伏せていればまばらに。すでに昇っている最中なら何もしない（会話の Command は人ごとに動くので）
+# 説明：星還祭：広場から灯籠が夜空へ昇っていく演出を始める。手記を明かしていれば（choice.reveal）たくさん、伏せていればまばらに。すでに昇っている最中なら何もしない
 # 実行条件：セレスタ次元（442 の会話の Command から）
 # >/function neofunction:system/adv/tick/quest/40/fin/442
 # =/function neofunction:system/rubra/fin/skylantern_start

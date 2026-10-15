@@ -16,7 +16,7 @@ function neofunction:system/rubra/journals
 # 塔の床石を閉じ直す（やり直しのとき）
 execute as @e[type=marker,tag=rubra_cradle_hatch,limit=1] at @s run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:polished_deepslate_slab replace minecraft:air
 data modify storage neofunction:rubra d3 set value {hatch:0b,retry:0b,inv:0,pulled:0,broken:0,xt:{s1:0b,s2:0b,s3:0b,p1:0b,p2:0b,p3:0b,m1:0b,pull:{i:0,t:0}}}
-# 結晶の封は近づいたときに置く（xtal/check）。広間の中心は points で新しい位置に置いたので、一度だけの反映（d3v）は済みにする
+# 結晶の封は近づいたときに置く（xtal/check）。一度だけの反映（d3v）は済みにする
 data modify storage neofunction:rubra d3v set value 1
 tellraw @a[gamemode=creative] {"text":"Ready! > neofunction:system/rubra/d3/setup（第三章の目印を置きました）","color":"gray"}
 # ボスを倒したあとの報酬（宝箱・帰還ゲート）を消す

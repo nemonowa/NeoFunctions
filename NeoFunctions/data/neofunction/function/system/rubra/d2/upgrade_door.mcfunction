@@ -5,7 +5,7 @@
 # =/function neofunction:system/rubra/d2/upgrade_door
 
 # 内容
-# 目印と右クリックの所を置き直す（ずれていても拾えるよう、館のまわり 16 マスの分を消す。滝の裏の扉の分は遠いので残る）
+# 目印と右クリックの所を置き直す
 execute in neodimension:ceresta_festa positioned 959.5 45 3268.5 run kill @e[type=marker,tag=rubra_door_gate,distance=..16]
 execute in neodimension:ceresta_festa positioned 959.5 45 3268.5 run kill @e[type=interaction,tag=rubra_gate,distance=..16]
 execute in neodimension:ceresta_festa run summon marker 959.5 45 3268.5 {Tags:["rubra_d2","rubra_door","rubra_door_gate","rubra_door_wall"]}

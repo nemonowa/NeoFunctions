@@ -1,5 +1,5 @@
 # 命名：ink_step
-# 説明：黒い水の上に立っている：乗った瞬間に即時ダメージ I（一度。降りるまで二度目はない）と、ウィザー II 6 秒（乗っているあいだ 0.5 秒ごとに掛け直すので、降りても 6 秒削られる）ウィザー I 2 秒 → II 6 秒
+# 説明：黒い水の上に立っている：乗った瞬間に即時ダメージ I（降りるまで二度目はない）と、ウィザー II 6 秒（乗っているあいだ 0.5 秒ごとに掛け直す）
 # 実行条件：実行者 黒い水の上に立っているプレイヤー
 # >/function neofunction:entity/skill/boss/rubra_void/ink_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ink_step

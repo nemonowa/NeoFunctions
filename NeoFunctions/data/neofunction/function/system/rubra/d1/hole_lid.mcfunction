@@ -1,5 +1,5 @@
 # 命名：hole_lid
-# 説明：大空洞の真ん中の穴（5×5、x810〜814・z3266〜3270、虚の海へ続く）に、床の高さ（y-41）でバリアブロックの蓋をする。戦いのあいだに落ちないように（ソウルイーターは地中を瞬間移動で動くので、蓋があっても出入りできる）
+# 説明：大空洞の真ん中の穴（5×5、x810〜814・z3266〜3270、虚の海へ続く）に、床の高さ（y-41）でバリアブロックの蓋をする。戦いのあいだに落ちないように
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/d1/setup_in
 # >/function neofunction:entity/skill/boss/rubra_worm/pillars_restore

@@ -6,7 +6,7 @@
 
 # 内容
 execute unless data storage neofunction:rubra forge{v:2} run function neofunction:system/rubra/mine/recipes
-# 26.3 では SelectedItem が無いので、メインハンドの物を hand で写してから読む
+# メインハンドの物を hand で写してから読む
 function neofunction:system/rubra/mine/hand
 execute store result storage neofunction:rubra forge.id int 1 run data get storage neofunction:rubra hand.components."minecraft:custom_model_data".floats[0]
 function neofunction:system/rubra/mine/forge_match with storage neofunction:rubra forge

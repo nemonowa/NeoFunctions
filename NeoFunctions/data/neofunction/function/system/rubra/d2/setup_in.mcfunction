@@ -16,7 +16,7 @@ function neofunction:system/rubra/d2/points
 data modify storage neofunction:rubra d2 set value {total:2,lv:{z:0,e:0,w:0,n:2},plug:0b,key:0b,unlock:0b,flushed:0b,gate:0b,kopen:{v1:0,v2:0,v3:0,v4:0},selen:0b,tear:0b,fv:{a:0,b:0},fvmsg:0b}
 # 黒い水の通路の南の口をふさぎ、黒い水を戻す
 function neofunction:system/rubra/d2/seal
-# カシムのそばの焚き火。目印は points で新しい位置に置いたので、一度だけの反映（d2v・d2h）は済みにする
+# カシムのそばの焚き火。一度だけの反映（d2v・d2h）は済みにする
 execute if block 926 44 3267 minecraft:air run setblock 926 44 3267 minecraft:campfire[lit=true,signal_fire=false,facing=west]
 data modify storage neofunction:rubra d2v set value 3
 data modify storage neofunction:rubra d2h set value 1

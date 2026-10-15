@@ -1,6 +1,6 @@
 # 命名：build
 # 説明：討伐の報酬ゾーンを、星還りの空の真ん中（921, 200, 3282）に出す：真ん中に固定の宝箱（中身は後で）、まわり半径 4 に rare3（✯3 Random LootTable、neofunction:chest/3）の宝箱 8 つ、北にアンカー 139「星還りの空」、南に帰還ゲート（塔の一階へ）。アンカーと宝箱のあいだにセレン（再戦・エリートチャレンジの受付、refight/selen）
-# 説明：ボス戦の会場はそのまま場所として残る（舞台は片付けない）。再戦のときは reward/clear で消す（アンカーも）。実体はタグ rubra_reward（rubra_fin を付けないので、終章の片付け tidy_fin では消えない）。最初から check を付けて共通の出現処理を通さない
+# 説明：ボス戦の会場はそのまま場所として残る（舞台は片付けない）。再戦のときは reward/clear で消す（アンカーも）。実体はタグ rubra_reward。最初から check を付けて共通の出現処理を通さない
 # 実行条件：どこでも（449 から。舞台のまわりのチャンクが読み込まれていること）
 # >/function neofunction:system/adv/tick/quest/40/fin/449
 # =/function neofunction:system/rubra/fin/reward/build

@@ -5,13 +5,13 @@
 
 data modify block ~ ~ ~ Items[{components:{"minecraft:custom_model_data":{floats:[1507.0f]}}}].components."minecraft:potion_contents".custom_effects append from block ~ ~ ~ Items[{Slot:3b}].components."minecraft:custom_data".FishEffect[]
 summon text_display ~ ~ ~ {Tags:["del","resolve"],view_range:0,alignment:"center"}
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute if data block ~ ~ ~ Items[{Slot:0b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify entity @e[tag=resolve,limit=1,sort=nearest] text set value [{"text":"","color": "light_purple","italic": false},{"nbt": 'Items[{Slot:3b}].components."minecraft:custom_data".FishPrefix',"block": "~ ~ ~","interpret": true},{"nbt": 'Items[{Slot:0b}].components."minecraft:custom_name"',"block": "~ ~ ~","interpret": true}]
 execute if data block ~ ~ ~ Items[{Slot:0b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_name" set from entity @e[tag=resolve,limit=1,sort=nearest] text
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute if data block ~ ~ ~ Items[{Slot:1b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify entity @e[tag=resolve,limit=1,sort=nearest] text set value [{"text":"","color": "light_purple","italic": false},{"nbt": 'Items[{Slot:3b}].components."minecraft:custom_data".FishPrefix',"block": "~ ~ ~","interpret": true},{"nbt": 'Items[{Slot:1b}].components."minecraft:custom_name"',"block": "~ ~ ~","interpret": true}]
 execute if data block ~ ~ ~ Items[{Slot:1b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify block ~ ~ ~ Items[{Slot:1b}].components."minecraft:custom_name" set from entity @e[tag=resolve,limit=1,sort=nearest] text
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute if data block ~ ~ ~ Items[{Slot:2b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify entity @e[tag=resolve,limit=1,sort=nearest] text set value [{"text":"","color": "light_purple","italic": false},{"nbt": 'Items[{Slot:3b}].components."minecraft:custom_data".FishPrefix',"block": "~ ~ ~","interpret": true},{"nbt": 'Items[{Slot:2b}].components."minecraft:custom_name"',"block": "~ ~ ~","interpret": true}]
 execute if data block ~ ~ ~ Items[{Slot:2b}].components{"minecraft:custom_model_data":{floats:[1507.0f]}} run data modify block ~ ~ ~ Items[{Slot:2b}].components."minecraft:custom_name" set from entity @e[tag=resolve,limit=1,sort=nearest] text
 kill @e[tag=resolve,limit=1,sort=nearest]

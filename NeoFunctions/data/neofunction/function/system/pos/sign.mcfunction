@@ -25,6 +25,6 @@ particle minecraft:enchant ~ ~ ~ 0.2 0.2 0.2 0.1 100 force
 $data merge block ~ ~ ~ {back_text:{color:"black",has_glowing_text:0b,messages:["","","",""]},front_text:{color:"black",has_glowing_text:1b,messages:[{"bold":true,"color":"dark_gray",click_event:{"action":"run_command",command:"/function neofunction:system/pos/sign {pos:$(pos)}"},"italic":false,"text":"⚓AnchorPoint⚓"},{"nbt":"name","storage":"pos:$(pos)","interpret":true},[{"text":"pos:$(pos)","underlined":true,"color":"dark_aqua","italic":false},{"text":" N:"},{"nbt":"x","storage":"pos:$(pos)"},{"text":" W:"},{"nbt":"z","storage":"pos:$(pos)"}],{"bold":true,"color":"dark_gray","italic":false,"text":"۞LINK-of-NEXUS۞"}]},is_waxed:0b,allow_op_features:1b}
 
 # コンパス
-# コンパスの名前と座標を型のまま写すため、登録データを一時ストレージにコピーしてから呼ぶ
+# 登録データを一時ストレージにコピーしてから呼ぶ
 $data modify storage neofunction:pos_compass data set from storage pos:$(pos)
 $function neofunction:system/pos/compass with storage pos:$(pos)

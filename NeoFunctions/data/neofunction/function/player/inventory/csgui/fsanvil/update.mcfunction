@@ -45,12 +45,12 @@ execute as @e[tag=fsanvil,sort=nearest,limit=1] if data entity @s Items[{Slot:10
 execute as @e[tag=fsanvil,sort=nearest,limit=1] if data entity @s Items[{Slot:10b}].components{"minecraft:custom_data":{rare:["9"]}} run item replace entity @s container.14 with minecraft:anvil[minecraft:custom_name={"text":"合成！","color":"green","bold":true},minecraft:lore=[{"text":"COST:金貨60枚","color":"gold"}],minecraft:custom_data={GuiItem:true}]
 
 
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute as @e[tag=fsanvil,sort=nearest,limit=1,tag=short] run data modify entity @s Items[{Slot:14b}].components."minecraft:custom_name" set value {"text":"合成できません","color":"red","bold":true}
 execute as @e[tag=fsanvil,sort=nearest,limit=1,tag=short] run data modify entity @s Items[{Slot:14b}].components."minecraft:lore" set value ['{"text":"研磨度が足りません","color":"aqua"}']
 
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute as @e[tag=fsanvil,sort=nearest,limit=1,tag=nopay] run data modify entity @s Items[{Slot:14b}].components."minecraft:custom_name" set value {"text":"合成できません","color":"red","bold":true}
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 execute as @e[tag=fsanvil,sort=nearest,limit=1,tag=nopay] unless data entity @s Items[{Slot:14b}].components."minecraft:lore"[1] run data modify entity @s Items[{Slot:14b}].components."minecraft:lore" append value {"text":"お金が足りません","color":"aqua"}
 

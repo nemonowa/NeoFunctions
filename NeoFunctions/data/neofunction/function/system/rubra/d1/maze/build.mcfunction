@@ -1832,8 +1832,7 @@ execute in neodimension:ceresta_festa run setblock 842 36 3265 minecraft:spawner
 execute in neodimension:ceresta_festa run setblock 833 36 3252 minecraft:spawner
 execute in neodimension:ceresta_festa run setblock 818 36 3261 minecraft:spawner
 execute in neodimension:ceresta_festa positioned 830 36 3254 run kill @e[type=item,distance=..40]
-# 二の層の古い手がかりの文字を消し、迷路の手がかり 3 つと宝箱の戦利品の表を置く（setup をやり直さなくても済むように。setup でも同じものを置く）
-# （表示エンティティは大きさが 0 なので範囲では選べない。決まった位置ごとに距離で消す）
+# 二の層の古い手がかりの文字を消し、迷路の手がかり 3 つと宝箱の戦利品の表を置く
 execute in neodimension:ceresta_festa positioned 834.5 37.6 3262.7 run kill @e[type=text_display,tag=rubra_d1,distance=..0.6]
 execute in neodimension:ceresta_festa positioned 841.5 37.6 3262.7 run kill @e[type=text_display,tag=rubra_d1,distance=..0.6]
 execute in neodimension:ceresta_festa positioned 834.5 37.6 3266.3 run kill @e[type=text_display,tag=rubra_d1,distance=..0.6]

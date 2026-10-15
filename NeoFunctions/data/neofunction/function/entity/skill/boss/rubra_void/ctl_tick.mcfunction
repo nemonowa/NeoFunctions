@@ -7,7 +7,6 @@
 # 内容
 execute if data storage neofunction:rubra fin{state:"cine"} run return run function neofunction:entity/skill/boss/rubra_void/cine_tick
 execute unless data storage neofunction:rubra fin{state:"fight"} run return 0
-# （時間は止めてあるので、ここでは戻さない）
 execute if entity @e[type=ghast,tag=rubra_void] run return 0
 execute as @e[type=marker,tag=rubra_sky_boss,limit=1] at @s run function neofunction:asset/summon/913
 data modify storage neofunction:rubra fin merge value {c:0,pull:0,rw:0,drag:0}

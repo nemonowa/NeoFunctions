@@ -1,5 +1,5 @@
 # 命名：tidy_all
-# 説明：今の進み具合までに終わった章の後片付けをまとめてする（いまのワールドに散らかっている目印・残骸を消すため）
+# 説明：今の進み具合までに終わった章の後片付けをまとめてする
 # 説明：手で実行：/function neofunction:system/rubra/tidy_all（第一章は 420 から、第二章は 430 から、第三章は 440 から、終章は 449 で片付ける）
 # >/function （手で実行）
 # =/function neofunction:system/rubra/tidy_all

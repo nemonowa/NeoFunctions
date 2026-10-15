@@ -3,7 +3,7 @@
 # > 呼び出し元Functionのパス：neofunction:system/world/ceresta/parkour/restore_ender_loop
 # =/function neofunction:system/world/ceresta/parkour/restore_ender_item
 
-# アイテムを item_display から item replace … from で復元する（マクロ $(id)$(tag) $(Count) は 26.3 のアイテム形式を埋め込めないため）
+# アイテムを item_display から item replace … from で復元する
 execute if data storage neofunction:dungeon_tmp ender[{Slot:0b}] run item replace entity @s enderchest.0 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents
 execute if data storage neofunction:dungeon_tmp ender[{Slot:1b}] run item replace entity @s enderchest.1 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents
 execute if data storage neofunction:dungeon_tmp ender[{Slot:2b}] run item replace entity @s enderchest.2 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents

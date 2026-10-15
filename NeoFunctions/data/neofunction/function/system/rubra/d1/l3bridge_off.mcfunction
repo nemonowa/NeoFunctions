@@ -1,5 +1,5 @@
 # 命名：l3bridge_off
-# 説明：光の橋が消える：橋のガラスを空気に戻し、裂け目の西の壁（x846）のツタを戻す（落ちても登って戻れるように）。ランプとボタンも戻す
+# 説明：光の橋が消える：橋のガラスを空気に戻し、裂け目の西の壁（x846）のツタを戻す。ランプとボタンも戻す
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/d1/l3bridge_tick
 # >/function neofunction:system/rubra/d1/setup_in

@@ -1,5 +1,5 @@
 # 命名：restore_equipment.mcfunction
-# 説明：退避した防具・オフハンド（equipment）を item_display 経由で復元する（26.3 では防具・オフハンドが Inventory ではなく equipment に保存されるため）
+# 説明：退避した防具・オフハンド（equipment）を item_display 経由で復元する
 # > 呼び出し元Functionのパス：neofunction:system/world/ceresta/parkour/restore_do
 # =/function neofunction:system/world/ceresta/parkour/restore_equipment
 

@@ -5,5 +5,5 @@
 
 
 # ST・アイテム
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 data modify entity @s Item.components."minecraft:lore" append value {"text":"Story:","extra":[{"text":"*","extra":[{"text":"*","extra":[{"text":"*","obfuscated":true,"color":"#FFAC34"}],"obfuscated":true,"color":"#FFCC38"}],"obfuscated":true,"color":"#FFE33B"}],"italic":false,"color":"green","bold":true}

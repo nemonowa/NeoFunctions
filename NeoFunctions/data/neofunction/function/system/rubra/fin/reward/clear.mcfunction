@@ -1,6 +1,6 @@
 # 命名：clear
 # 説明：討伐の報酬ゾーンを消す（再戦のとき）：宝箱 9 つ（中身ごと）、アンカー 139、帰還ゲートの見た目と右クリックできる所。落ちたアイテムも消す
-# 説明：アンカーの転移先の記録（storage pos:139）は残す（解析済みの人の転移の本が壊れないように。舞台は場所として残っている）
+# 説明：アンカーの転移先の記録（storage pos:139）は残す
 # 実行条件：どこでも（舞台のまわりのチャンクが読み込まれていること）
 # >/function neofunction:system/rubra/fin/reward/build
 # >/function neofunction:entity/skill/boss/rubra_void/start

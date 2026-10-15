@@ -1,6 +1,6 @@
 # 命名：411
 # 説明：バルドの話のあと：坑道に入る段階。ミラは三の層の坂の下（829, 25, 3287）へ先回りする
-# 実行条件：実行者 プレイヤー（会話の最後の Command。人ごとに動くので 410 のときだけ進める）
+# 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d1/410（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d1/411
 

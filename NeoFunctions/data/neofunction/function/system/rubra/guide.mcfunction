@@ -43,7 +43,7 @@ execute if score #temp main_story matches 430..432 run effect give @e[type=villa
 execute if score #temp main_story matches 441 run effect give @e[type=villager,tag=rubra_ordo] minecraft:glowing 2 0 true
 # カシム（会議の選択のあと）
 execute if score #temp main_story matches 421 if data storage neofunction:rubra choice.council run effect give @e[type=villager,tag=rubra_kasim] minecraft:glowing 2 0 true
-# 洗い場の子ども（星の子 allay にも rubra_child が付いているので村人に限る）
+# 洗い場の子ども（村人だけ）
 execute if score #temp main_story matches 422 run effect give @e[type=villager,tag=rubra_child] minecraft:glowing 2 0 true
 # ヴァルカ（素材を見せる）
 execute if score #temp main_story matches 440 run effect give @e[type=villager,tag=rubra_valka] minecraft:glowing 2 0 true

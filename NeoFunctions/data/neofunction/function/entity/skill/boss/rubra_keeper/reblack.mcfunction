@@ -10,5 +10,5 @@ execute as @e[type=block_display,tag=rubra_keeper_part] run data merge entity @s
 particle minecraft:squid_ink ~ ~3 ~ 1 2 1 0.02 60 normal
 playsound minecraft:block.sculk.spread hostile @a[distance=..48] ~ ~3 ~ 2 0.5
 tellraw @a[distance=..40] {"text":"番人のひび割れから、また黒い水が滲み出した……。","color":"#6E7390","italic":true}
-# 第二段階なら、番人のまわりの黒い水の帯を敷き直す（洗い流したときに全部流しているので、水溜まりがたまっていかない）
+# 第二段階なら、番人のまわりの黒い水の帯を敷き直す
 execute if data storage neofunction:rubra keeper{phase:2} run function neofunction:entity/skill/boss/rubra_keeper/band

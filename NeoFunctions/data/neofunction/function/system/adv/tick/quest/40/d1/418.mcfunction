@@ -1,5 +1,5 @@
 # 命名：418
-# 説明：バルドに知らせる：歌の正体は星の声だった。持ち帰った場合はバルドが欠片を預かる。最後に第一章の終わり（419）
+# 説明：持ち帰った場合はバルドが欠片を預かる。最後に第一章の終わり（419）
 # 実行条件：実行者 バルド（村人 903）。#temp main_story 417
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/903
 # =/function neofunction:system/adv/tick/quest/40/d1/418

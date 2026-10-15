@@ -5,7 +5,7 @@
 
 
 # コモン・アイテム
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 data modify entity @s Item.components."minecraft:lore" append value {"text":"Common:","extra":[{"text":"✯","italic":false,"color":"#FFE33B"}],"italic":false,"color":"white","bold":true}
 
 # 通知

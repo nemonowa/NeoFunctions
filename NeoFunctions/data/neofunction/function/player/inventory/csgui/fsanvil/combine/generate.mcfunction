@@ -41,6 +41,6 @@ data modify storage neofunction:gui Anvil.status.abs set value {}
 data modify storage neofunction:gui Anvil.status.range set value {}
 
 ##適用
-# ストレージからアイテムの属性へ写すアイテム修飾子(copy_nbt)は 26.3 に存在しないため、コンテナのアイテムへ直接 data modify で書き込む（結果は同じ）
+# コンテナのアイテムへ直接 data modify で書き込む（結果は同じ）
 data modify entity @s Items[{Slot:16b}].components."minecraft:attribute_modifiers" set from storage neofunction:gui Anvil.status.attributes
 

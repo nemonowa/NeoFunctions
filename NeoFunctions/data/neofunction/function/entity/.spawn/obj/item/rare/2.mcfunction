@@ -5,7 +5,7 @@
 
 
 # レア・アイテム
-# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 部品の形（引用符なし）に直す
 data modify entity @s Item.components."minecraft:lore" append value {"text":"Rare:","extra":[{"text":"✯","extra":[{"text":"✯","color":"#FFCC38"}],"italic":false,"color":"#FFE33B"}],"italic":false,"color":"aqua","bold":true}
 
 # 通知

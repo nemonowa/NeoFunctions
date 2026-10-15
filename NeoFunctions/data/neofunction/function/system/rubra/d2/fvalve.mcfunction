@@ -1,6 +1,6 @@
 # 命名：fvalve
 # 説明：壁画の間の黒い水の水門（二つ）を右クリックしたとき：その水門を 12 秒開ける（開いている間は上のガラスの柱が濃い青）。両方が同時に開いていると、澄んだ水が黒い水を押し流す（fvalve_tick → flush）
-# 説明：番人の間の水門と同じ見た目・同じ遊び方の練習。開いている時間は「いつまで開いているか」をゲーム内の時刻（gametime）で記録するので、何人いても進み方は同じ
+# 説明：番人の間の水門と同じ見た目・同じ遊び方の練習。何人いても進み方は同じ
 # 実行条件：実行者 プレイヤー（クリックされた interaction にタグ rubra_clicked）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d2/fvalve

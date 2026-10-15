@@ -41,7 +41,7 @@ data remove storage neofunction:rubra ending
 data remove storage neofunction:rubra busy
 data modify storage neofunction:rubra fin set value {state:"none",retry:0b}
 execute in neodimension:ceresta_festa run forceload remove 900 3255 965 3315
-# 目印を置き直す（setup は自分でチャンクを読み込むので、固定を外したあとに呼ぶ）
+# 目印を置き直す
 function neofunction:system/rubra/fin/setup
 scoreboard players set #temp main_story 439
 tellraw @a[gamemode=creative] {"text":"終章をやり直せる状態にしました（進み具合 439）。水守の館のミラに話しかけると始まります","color":"gray"}

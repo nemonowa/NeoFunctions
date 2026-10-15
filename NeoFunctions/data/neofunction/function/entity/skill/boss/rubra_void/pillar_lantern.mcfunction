@@ -1,5 +1,5 @@
 # 命名：pillar_lantern
-# 説明：灯籠の支え：街の広場から灯籠の光が光の柱になって昇り、消えた星灯の柱を 1 本灯す（遠くからでも分かるように派手に）
+# 説明：灯籠の支え：街の広場から灯籠の光が光の柱になって昇り、消えた星灯の柱を 1 本灯す
 # 実行条件：実行者・実行位置 柱の目印
 # >/function neofunction:entity/skill/boss/rubra_void/pillars
 # =/function neofunction:entity/skill/boss/rubra_void/pillar_lantern

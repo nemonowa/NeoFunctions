@@ -3,7 +3,6 @@
 # >/function neofunction:system/adv/tick/cmd/1717/editor/save/.neo
 # =/function neofunction:system/adv/tick/cmd/1717/editor/save/container_check
 
-# バンドルの中身のアイテムも components 形式になるため
 execute store result score #Calc1 temp run data get entity @s item.components."minecraft:bundle_contents"[0].components."minecraft:custom_model_data".floats[0]
 execute if score #Calc1 temp matches ..1717 run function neofunction:system/adv/tick/cmd/1717/editor/save/drop
 execute if score #Calc1 temp matches 1739..1760 run function neofunction:system/adv/tick/cmd/1717/editor/save/drop

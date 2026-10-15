@@ -9,7 +9,7 @@
 tag @e[type=villager,tag=rubra_d1] add del
 tag @e[type=ravager,tag=rubra_d1] add del
 kill @e[type=!villager,type=!ravager,type=!player,tag=rubra_d1]
-# NPC：坑道の入口にバルド、少し奥にミラ（4 マス以内に二人並ぶと話しかけた相手を取り違えるので離す）
+# NPC：坑道の入口にバルド、少し奥にミラ
 execute positioned 885.5 44 3263.5 run function neofunction:asset/summon/903
 execute positioned 875.5 44 3265.5 run function neofunction:asset/summon/902
 tp @e[type=villager,tag=rubra_baldo] 885.5 44 3263.5 -90 0

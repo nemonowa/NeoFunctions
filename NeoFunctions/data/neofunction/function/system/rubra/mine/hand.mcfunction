@@ -1,5 +1,5 @@
 # 命名：hand
-# 説明：メインハンドの物を storage neofunction:rubra hand に写す。26.3 のプレイヤーのデータには SelectedItem が無いので、選んでいる番号（SelectedItemSlot）の持ち物から読む
+# 説明：メインハンドの物を storage neofunction:rubra hand に写す。選んでいる番号（SelectedItemSlot）の持ち物から読む
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/rubra/mine/forge
 # >/function neofunction:system/rubra/mine/forge_apply

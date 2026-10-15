@@ -8,7 +8,7 @@
 tp @s ~ ~-0.6 ~
 particle minecraft:dust{color:[1.0,0.15,0.2],scale:1.2} ~ 200.2 ~ 1.6 0 1.6 0 3 force @a[distance=..96]
 particle minecraft:squid_ink ~ ~ ~ 0.3 0.3 0.3 0.01 2 force @a[distance=..96]
-# 高さで着弾を見る（表示エンティティは当たり判定の大きさが 0 なので、範囲の指定 y=・dy= では選べない）
+# 高さで着弾を見る
 execute store result score #rv_sy temp run data get entity @s Pos[1]
 execute if score #rv_sy temp matches ..201 if score #rv_sy temp matches 150.. positioned ~ 200 ~ run function neofunction:entity/skill/boss/rubra_void/star_hit
 execute if score #rv_sy temp matches ..201 run kill @s

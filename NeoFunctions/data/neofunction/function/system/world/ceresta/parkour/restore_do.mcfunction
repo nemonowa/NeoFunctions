@@ -9,7 +9,7 @@ $data modify storage neofunction:dungeon_tmp ender set from storage neofunction:
 $data modify storage neofunction:dungeon_tmp equip set from storage neofunction:dungeon_backup entries[{uuid:$(UUID)}].equipment
 $data remove storage neofunction:dungeon_backup entries[{uuid:$(UUID)}]
 
-# マクロでアイテムの中身($(tag))を埋め込めなくなったため、一時的な item_display に載せて item replace … from で復元する
+# 一時的な item_display に載せて item replace … from で復元する
 summon item_display ~ ~ ~ {view_range:0f,Tags:["parkour_restore","del"]}
 function neofunction:system/world/ceresta/parkour/restore_inventory_loop
 function neofunction:system/world/ceresta/parkour/restore_ender_loop

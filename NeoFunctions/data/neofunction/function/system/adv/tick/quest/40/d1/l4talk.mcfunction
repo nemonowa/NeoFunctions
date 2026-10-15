@@ -1,6 +1,6 @@
 # 命名：l4talk
 # 説明：星の台の間でミラが古い文字を読む（謎解きの手がかり）。一度だけ
-# 説明：謎解きを「光の色と星の色を合わせて、鐘で決める」形にしたので、説明を合わせた
+# 説明：謎解き（光の色と星の色を合わせて、鐘で決める）の説明
 # 実行条件：実行者 プレイヤー。#temp main_story 412
 # >/function neofunction:system/adv/tick/quest/40/d1/zone
 # =/function neofunction:system/adv/tick/quest/40/d1/l4talk

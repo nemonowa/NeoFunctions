@@ -10,5 +10,5 @@ data modify storage neofunction:rubra keeper.d set value 0
 data merge entity @s {Invulnerable:1b}
 kill @e[type=marker,tag=rubra_whip_t]
 playsound minecraft:entity.iron_golem.death hostile @a[distance=..48] ~ ~3 ~ 2 0.5
-# 洗われているあいだ（像が青く光っている）に倒しきると、光を消す reblack を通らずに倒れるので、ここで消す
+# 像の光を消す
 execute as @e[type=block_display,tag=rubra_keeper_part] run data merge entity @s {Glowing:0b}

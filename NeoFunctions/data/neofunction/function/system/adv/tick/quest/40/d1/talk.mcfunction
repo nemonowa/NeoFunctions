@@ -1,6 +1,6 @@
 # 命名：talk
 # 説明：storage neofunction:rubra talk に入れた会話を、近く（48 マス）のプレイヤー全員に流す。会話中の印 busy を立てる
-# 説明：会話の部品は asset/event/talk（Talks[{Text,Delay,Sound,Command}]）。Command は人ごとに動くので、進み具合を変える関数は二重に動かないよう番号で守る
+# 説明：会話の部品は asset/event/talk（Talks[{Text,Delay,Sound,Command}]）。進み具合を変える関数は二重に動かないよう番号で守る
 # 実行条件：実行位置 会話の場所
 # >/function neofunction:system/adv/tick/quest/40/d1/410
 # >/function neofunction:system/adv/tick/quest/40/d1/412

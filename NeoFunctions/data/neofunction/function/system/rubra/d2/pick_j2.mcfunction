@@ -1,5 +1,5 @@
 # 命名：pick_j2
-# 説明：壁画の間でアズールの手記 その二（1909）を拾う。触れるたびに毎回手に入る（タグ rubra_j2 は結末 C の条件に使うので付けるだけ）
+# 説明：壁画の間でアズールの手記 その二（1909）を拾う。触れるたびに毎回手に入る
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/rubra/d2/pick
 # =/function neofunction:system/rubra/d2/pick_j2

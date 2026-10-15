@@ -7,7 +7,7 @@
 
 
 # 接続失敗
-# HideFlags:0 の「解析済み」印は 26.3 では保存できない（空の tooltip_display は既定値と同じで保存されない）ため、解析時に必ず付く説明文で解析済みを判定する
+# 解析時に必ず付く説明文で解析済みを判定する
 execute if data entity @s Item.components{"minecraft:lore":[{text:"⌖ (Analyzed：解析済み) ⌖"}]} run return run tellraw @a[distance=..8,tag=skill2] {"text":"解析対象はアイテム(解析済み)"}
 # HideFlags の有無は tooltip_display（既定値以外）の有無に相当する
 execute unless data entity @s Item.components."minecraft:tooltip_display" run return run tellraw @a[distance=..8,tag=skill2] {"text":"解析対象はアイテム(隠し効果は否存在)"}
