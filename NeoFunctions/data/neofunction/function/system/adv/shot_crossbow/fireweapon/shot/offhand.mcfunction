@@ -17,8 +17,6 @@ item replace entity @e[tag=temp_display,limit=1,sort=nearest] container.0 from e
 
 #クロスボウの矢を空に
 execute as @s[nbt={Inventory:[],equipment:{offhand:{id:"minecraft:crossbow"}}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:charged_projectiles" set value []
-# 【変更：2026-09-27 26.3対応】Charged フラグは廃止され、charged_projectiles の中身の有無で自動判定されるため無効化（上の行で空にしている）
-# execute as @s[nbt={Inventory:[],equipment:{offhand:{id:"minecraft:crossbow"}}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.tag.Charged set value 0b
 
 #リコイル（反動の演出)
 execute if data entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".recoil run function neofunction:system/adv/shot_crossbow/fireweapon/shot/.recoil with entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data"
@@ -41,7 +39,6 @@ execute if data entity @e[tag=temp_display,limit=1,sort=nearest] item.components
 #nameというカスタムタグを持っていない場合、displaynameをnameに代入
 execute as @e[tag=temp_display,limit=1,sort=nearest] unless data entity @s item.components."minecraft:custom_data".name run data modify entity @s item.components."minecraft:custom_data".name set from entity @s item.components."minecraft:custom_name"
 #テキストディスプレイを召喚(おのれもやん)
-# 【変更：2026-09-28 26.3対応】文章の中で読む NBT の場所が 1.20.4 のままだった（アイテムの独自データは components."minecraft:custom_data"、名前は components."minecraft:custom_name"、頭の防具は equipment.head に変わった）
 summon text_display ~ ~ ~ {view_range:0f,Tags:["temp_text","del"],alignment:"center",text:{"translate":"%1$s%2$s" ,"with":[{"entity": "@e[tag=temp_display,sort=nearest,limit=1]","nbt": 'item.components."minecraft:custom_data".name',"interpret": true},{"translate":"<%1$s>","color":"dark_gray","bold":true,"italic":false,"with": [{"entity": "@e[tag=temp_display,sort=nearest,limit=1]","nbt": 'item.components."minecraft:custom_data".ammo'}]}]}}
 #テキストディスプレイのテキストをアイテムに代入
 data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_name" set from entity @e[tag=temp_text,limit=1,sort=nearest] text

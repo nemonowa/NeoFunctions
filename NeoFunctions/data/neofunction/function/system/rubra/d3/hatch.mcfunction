@@ -1,5 +1,5 @@
 # 命名：hatch
-# 説明：【追加：2026-10-09 ルブラ編】塔の台座の裏の床石をずらす：目印の所の 3×3 の床（磨かれた石のハーフブロック）を消して、下の階段を見せる
+# 説明：塔の台座の裏の床石をずらす：目印の所の 3×3 の床（磨かれた石のハーフブロック）を消して、下の階段を見せる
 # 実行条件：実行者・実行位置 目印 rubra_cradle_hatch（床石の真ん中）
 # >/function neofunction:system/adv/tick/quest/40/d3/433
 # =/function neofunction:system/rubra/d3/hatch

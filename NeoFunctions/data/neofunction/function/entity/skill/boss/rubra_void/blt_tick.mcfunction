@@ -1,5 +1,5 @@
 # 命名：blt_tick
-# 説明：【追加：2026-10-13 ルブラ編】黒い弾 1 つ（毎 tick）：前へ進み、人に当たると 5 ダメージで消える。柱にぶつかるか、舞台の外（真ん中から 34 マス）で消える
+# 説明：黒い弾 1 つ（毎 tick）：前へ進み、人に当たると 5 ダメージで消える。柱にぶつかるか、舞台の外（真ん中から 34 マス）で消える
 # 実行条件：実行者・実行位置 黒い弾
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/blt_tick

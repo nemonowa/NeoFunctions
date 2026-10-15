@@ -4,7 +4,6 @@
 # =/function neofunction:asset/skill/tamer/follow_warp
 
 
-# 【追加：2026-09-12 スニーク召喚された使い魔（ArmorItems[1]にNoFollowフラグ入りレギンス）は
-#   はぐれ防止TPの対象から除外する】
+# スニーク召喚された使い魔（レギンスに NoFollow のフラグ）は、はぐれ防止の TP の対象にしない
 $execute unless entity @s[nbt=!{Owner:$(UUID)},nbt=!{equipment:{feet:{components:{"minecraft:custom_data":{Owner:$(UUID)}}}}}] unless entity @s[nbt={equipment:{legs:{components:{"minecraft:custom_data":{NoFollow:1b}}}}}] unless entity @a[tag=OwnerUUID,limit=1,distance=..10] run tp @a[tag=OwnerUUID,limit=1]
 

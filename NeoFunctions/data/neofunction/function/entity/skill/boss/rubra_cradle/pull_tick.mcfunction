@@ -1,5 +1,5 @@
 # 命名：pull_tick
-# 説明：【追加：2026-10-09 ルブラ編】引き剥がし中（毎 tick）：引き剥がしている人が欠片から 4 マス以内で、攻撃を受けていなければ進む。かかる時間は 60 tick（trust.selen が 1 以上なら 40 tick）
+# 説明：引き剥がし中（毎 tick）：引き剥がしている人が欠片から 4 マス以内で、攻撃を受けていなければ進む。かかる時間は 60 tick（trust.selen が 1 以上なら 40 tick）
 # 説明：離れたり、攻撃を受けたり（HurtTime）、守り石を手から離したら中断
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick

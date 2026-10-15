@@ -1,5 +1,5 @@
 # 命名：clean
-# 説明：【追加：2026-10-09 ルブラ編】ボスの見た目・見張り役・技の目印・星屑・黒い心臓・黒い水を片付ける
+# 説明：ボスの見た目・見張り役・技の目印・星屑・黒い心臓・黒い水を片付ける
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_void/spawn
 # >/function neofunction:entity/skill/boss/rubra_void/despawn
@@ -17,7 +17,7 @@ kill @e[type=item_display,tag=rubra_heart_v]
 kill @e[type=marker,tag=rubra_heart_rot]
 execute as @e[type=marker,tag=rubra_ink] at @s if block ~ ~ ~ minecraft:black_carpet run setblock ~ ~ ~ minecraft:air
 kill @e[type=marker,tag=rubra_ink]
-# 【追加：2026-10-15】第 3 形態の縁の黒いカーペット
+# 第 3 形態の縁の黒いカーペット
 function neofunction:entity/skill/boss/rubra_void/rim_off
 kill @e[type=item_display,tag=rubra_blt]
 kill @e[type=item_display,tag=rubra_ublt]

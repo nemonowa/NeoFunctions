@@ -1,5 +1,5 @@
 # 命名：form2_start
-# 説明：【追加：2026-10-09 ルブラ編】第 2 形態へ（体力 700 以下）：黒い巨影が内側から赤く裂け、半ば呑まれた星「ヴォイド・ゼロ」になって、空高く（10 マス上）へ逃れる。柱は消える
+# 説明：第 2 形態へ（体力 700 以下）：黒い巨影が内側から赤く裂け、半ば呑まれた星「ヴォイド・ゼロ」になって、空高く（10 マス上）へ逃れる。柱は消える
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/form2_start

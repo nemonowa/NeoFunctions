@@ -1,5 +1,5 @@
 # 命名：look_black
-# 説明：【追加：2026-10-09 ルブラ編】第 1 形態の見た目：黒い水の塊 14 個と泣く黒曜石の芯、黒い膜
+# 説明：第 1 形態の見た目：黒い水の塊 14 個と泣く黒曜石の芯、黒い膜
 # 実行条件：実行位置 ボス
 # >/function neofunction:entity/skill/boss/rubra_void/spawn
 # =/function neofunction:entity/skill/boss/rubra_void/look_black

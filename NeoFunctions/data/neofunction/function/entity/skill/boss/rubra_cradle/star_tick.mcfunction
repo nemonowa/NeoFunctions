@@ -1,5 +1,5 @@
 # 命名：star_tick
-# 説明：【追加：2026-10-14 ルブラ編】星の雨の印（毎 tick）：1.5 秒（30 tick）のあいだ足もとに赤い印と、上から落ちてくる光で知らせ、そのあと星が落ちる（半径 2.5 の人に 8 ダメージ）
+# 説明：星の雨の印（毎 tick）：1.5 秒（30 tick）のあいだ足もとに赤い印と、上から落ちてくる光で知らせ、そのあと星が落ちる（半径 2.5 の人に 8 ダメージ）
 # 実行条件：実行者・実行位置 星の雨の印（marker、タグ rubra_star）
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/star_tick

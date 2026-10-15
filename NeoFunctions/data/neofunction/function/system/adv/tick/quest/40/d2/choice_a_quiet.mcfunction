@@ -1,5 +1,5 @@
 # 命名：choice_a_quiet
-# 説明：【追加：2026-10-09 ルブラ編】選択 A「黙っている」：何も変わらない
+# 説明：選択 A「黙っている」：何も変わらない
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_a_quiet

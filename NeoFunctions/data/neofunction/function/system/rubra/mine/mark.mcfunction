@@ -1,5 +1,5 @@
 # 命名：mark
-# 説明：【追加：2026-10-14 ルブラ編】掘った鉱石の場所：掘り跡（テラコッタ）を置き、また生える印（marker、タグ rubra_ore。data.b＝鉱石、data.t＝生える時刻＝今から 15 分後。【変更：2026-10-15】5 分 → 15 分（同じ道をひたすら回るのが定石にならないように））を置く
+# 説明：掘った鉱石の場所：掘り跡（テラコッタ）を置き、また生える印（marker、タグ rubra_ore。data.b＝鉱石、data.t＝生える時刻＝今から 15 分後。5 分 → 15 分（同じ道をひたすら回るのが定石にならないように））を置く
 # 実行条件：実行位置 掘ったブロックの真ん中。引数 b（鉱石のブロック）
 # >/function neofunction:system/rubra/mine/drop
 # =/function neofunction:system/rubra/mine/mark

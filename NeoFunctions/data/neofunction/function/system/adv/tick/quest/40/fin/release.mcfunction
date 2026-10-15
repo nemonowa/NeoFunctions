@@ -1,6 +1,6 @@
 # 命名：release
-# 説明：【追加：2026-10-09 ルブラ編】戦いの後片付け：ボス・黒い滴り・技の目印・黒い水を消し、時の流れを戻す
-# 説明：【変更：2026-10-14】舞台の人を広場へ戻すのをやめた。結末の会話は空の舞台の上で（end_a・end_b・burst_c）、終わると真ん中に報酬が出る（449 → system/rubra/fin/reward/build）。帰りは帰還ゲートかアンカーで
+# 説明：戦いの後片付け：ボス・黒い滴り・技の目印・黒い水を消し、時の流れを戻す
+# 説明：結末の会話は空の舞台の上で（end_a・end_b・burst_c）、終わると真ん中に報酬が出る（449 → system/rubra/fin/reward/build）。帰りは帰還ゲートかアンカーで
 # 実行条件：どこでも
 # >/function neofunction:system/adv/tick/quest/40/fin/end_a
 # >/function neofunction:system/adv/tick/quest/40/fin/end_b

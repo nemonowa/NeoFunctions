@@ -1,5 +1,5 @@
 # 命名：reset
-# 説明：【追加：2026-10-09 ルブラ編】制作用：第三章をやり直せる状態に戻す（目印を置き直し、ボスを片付け、選択を消し、進み具合を 430 に）
+# 説明：制作用：第三章をやり直せる状態に戻す（目印を置き直し、ボスを片付け、選択を消し、進み具合を 430 に）
 # 説明：手で実行：/function neofunction:system/rubra/d3/reset
 # >/function （手で実行）
 # =/function neofunction:system/rubra/d3/reset

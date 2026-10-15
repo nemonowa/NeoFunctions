@@ -1,5 +1,5 @@
 # 命名：ctl_tick
-# 説明：【追加：2026-10-09 ルブラ編】見張り役（目印 rubra_void_ctl）の毎 tick：戦いの途中なのに本体がいない（強い一撃で、形態の切り替えより先に倒れた）とき、その形態を終えたことにして本体を出し直す（第 1→体力 700、第 2→300、第 3→30）。夜も保つ
+# 説明：見張り役（目印 rubra_void_ctl）の毎 tick：戦いの途中なのに本体がいない（強い一撃で、形態の切り替えより先に倒れた）とき、その形態を終えたことにして本体を出し直す（第 1→体力 700、第 2→300、第 3→30）。夜も保つ
 # 実行条件：実行者・実行位置 見張り役
 # >/function neofunction:entity/skill/boss/.neo
 # =/function neofunction:entity/skill/boss/rubra_void/ctl_tick

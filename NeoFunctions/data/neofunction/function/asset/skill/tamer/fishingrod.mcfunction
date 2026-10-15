@@ -12,7 +12,6 @@ execute store result score #sharpLvl temp run data get storage neofunction:hand 
 #   複数のattack_damageモディファイアを付与している武器の場合は、この1行だけでは合算できないので個別に足し込む処理を追加すること。
 #   該当モディファイアが無い(=見つからない)場合はdata getが失敗し、#atkAttrHalfは0のままになる。
 scoreboard players set #atkAttrHalf temp 0
-# 【変更：2026-09-27 26.3対応】属性値のデータ(attribute_modifiers の要素)のキー名は 1.20.5 で Amount→amount に変わった
 function neofunction:system/hand
 execute store result score #atkAttrHalf temp run data get storage neofunction:hand item.components."minecraft:attribute_modifiers"[{type:"minecraft:attack_damage"}].amount 2
 

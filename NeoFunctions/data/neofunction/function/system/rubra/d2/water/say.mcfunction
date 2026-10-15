@@ -1,5 +1,5 @@
 # 命名：say
-# 説明：【追加：2026-10-09 ルブラ編】三つの水門の間の、今の水の分け方を回した人の画面に出す（東・西・北と、合わせての量）
+# 説明：三つの水門の間の、今の水の分け方を回した人の画面に出す（東・西・北と、合わせての量）
 # 実行条件：実行者 プレイヤー（apply のあと：#r2_e・#r2_w・#r2_n temp が入っている）
 # >/function neofunction:system/rubra/d2/water/valve
 # >/function neofunction:system/rubra/d2/water/plug

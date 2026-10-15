@@ -1,5 +1,5 @@
 # 命名：ult_close
-# 説明：【追加：2026-10-13 ルブラ編】閉じていく輪：半径 28・22・16・10・4 の輪に小さな黒星。外の輪から順に（約 0.5 秒ずつ）墜ちて、外から内へ追いこむ
+# 説明：閉じていく輪：半径 28・22・16・10・4 の輪に小さな黒星。外の輪から順に（約 0.5 秒ずつ）墜ちて、外から内へ追いこむ
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_close

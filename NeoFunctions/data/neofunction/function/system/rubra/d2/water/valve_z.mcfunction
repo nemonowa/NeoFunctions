@@ -1,5 +1,5 @@
 # 命名：valve_z
-# 説明：【追加：2026-10-09 ルブラ編】入口の広間の青銅の輪（練習用）：柱の水を 0→1→2→0 と変える。2 で扉が開く
+# 説明：入口の広間の青銅の輪（練習用）：柱の水を 0→1→2→0 と変える。2 で扉が開く
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d2/water/valve_z

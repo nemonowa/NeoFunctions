@@ -1,5 +1,5 @@
 # 命名：洗い場の子ども
-# 説明：【追加：2026-10-09 ルブラ編】洗い場で手まり歌を歌っている子ども
+# 説明：洗い場で手まり歌を歌っている子ども
 # 頭：minecraft-heads.com の 129431（https://minecraft-heads.com/custom-heads/head/129431）。heads.py で付ける
 # >/function neofunction:system/rubra/d2/setup
 # =/function neofunction:asset/summon/906

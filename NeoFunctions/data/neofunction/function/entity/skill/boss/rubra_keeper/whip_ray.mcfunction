@@ -1,5 +1,5 @@
 # 命名：whip_ray
-# 説明：【追加：2026-10-09 ルブラ編】鞭の線を 0.8 ずつ伸ばす。予告のときは黒い粉、打つときは黒い水しぶきと、線の近く（1.3 マス）の人に 8 ダメージ
+# 説明：鞭の線を 0.8 ずつ伸ばす。予告のときは黒い粉、打つときは黒い水しぶきと、線の近く（1.3 マス）の人に 8 ダメージ
 # 実行条件：実行位置と向き 線の先
 # >/function neofunction:entity/skill/boss/rubra_keeper/whip_ray_start
 # =/function neofunction:entity/skill/boss/rubra_keeper/whip_ray

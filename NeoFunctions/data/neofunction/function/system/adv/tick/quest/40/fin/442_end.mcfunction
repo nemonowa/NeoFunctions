@@ -1,5 +1,5 @@
 # 命名：442_end
-# 説明：【追加：2026-10-09 ルブラ編】広場の場面のあと：灯籠の光（明かしたときは多く）、ミラとセレンは塔の一階へ
+# 説明：広場の場面のあと：灯籠の光（明かしたときは多く）、ミラとセレンは塔の一階へ
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/fin/442
 # =/function neofunction:system/adv/tick/quest/40/fin/442_end

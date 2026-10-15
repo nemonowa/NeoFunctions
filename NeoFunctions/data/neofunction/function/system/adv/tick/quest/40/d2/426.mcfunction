@@ -1,5 +1,5 @@
 # 命名：426
-# 説明：【追加：2026-10-09 ルブラ編】壁画の間：空から星を引き下ろす青い衣の人々と、黒い海（秘密 3 の半分）。ミラが先に来ていて、壁画を見ている
+# 説明：壁画の間：空から星を引き下ろす青い衣の人々と、黒い海（秘密 3 の半分）。ミラが先に来ていて、壁画を見ている
 # 実行条件：実行者 プレイヤー。#temp main_story 425
 # >/function neofunction:system/adv/tick/quest/40/d2/zone
 # =/function neofunction:system/adv/tick/quest/40/d2/426

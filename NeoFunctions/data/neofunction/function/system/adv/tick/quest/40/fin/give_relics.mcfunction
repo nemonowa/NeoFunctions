@@ -1,5 +1,5 @@
 # 命名：give_relics
-# 説明：【追加：2026-10-09 ルブラ編】専用の弓「星還しの弓」（1920）と矢を渡す。【変更：2026-10-14】毎回渡す（タグ rubra_relic は付けるだけ。441〜448 はヴァルカに話しかけるたびに受け取れる：fin/valka_bow）。ミラ・オルド・セレンを広場へ。弓は討伐のあともそのまま報酬
+# 説明：専用の弓「星還しの弓」（1920）と矢を渡す。毎回渡す（タグ rubra_relic は付けるだけ。441〜448 はヴァルカに話しかけるたびに受け取れる：fin/valka_bow）。ミラ・オルド・セレンを広場へ。弓は討伐のあともそのまま報酬
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/fin/441
 # =/function neofunction:system/adv/tick/quest/40/fin/give_relics

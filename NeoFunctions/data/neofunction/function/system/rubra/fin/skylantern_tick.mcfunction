@@ -1,5 +1,5 @@
 # 命名：skylantern_tick
-# 説明：【追加：2026-10-13 ルブラ編】昇る灯籠（毎 tick、t を数える）：0〜239 のあいだ広場の灯籠の目印から灯籠を放つ（たくさん＝0.2 秒ごとに 2 つ、まばら＝1 秒ごとに 1 つ）。灯籠はゆっくり回りながら昇り、y150 で消える。全部消えたら終わり
+# 説明：昇る灯籠（毎 tick、t を数える）：0〜239 のあいだ広場の灯籠の目印から灯籠を放つ（たくさん＝0.2 秒ごとに 2 つ、まばら＝1 秒ごとに 1 つ）。灯籠はゆっくり回りながら昇り、y150 で消える。全部消えたら終わり
 # 実行条件：schedule（skylantern_start から、毎 tick）
 # >/function neofunction:system/rubra/fin/skylantern_start
 # =/function neofunction:system/rubra/fin/skylantern_tick

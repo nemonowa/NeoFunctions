@@ -1,5 +1,5 @@
 # 命名：invgo
-# 説明：【追加：2026-10-09 ルブラ編】反転の間：部屋 to の入り口（目印 rubra_inv_spawn_<to>）へ移す。くぐる瞬間に視界がくるりと回る演出（暗闇と音）
+# 説明：反転の間：部屋 to の入り口（目印 rubra_inv_spawn_<to>）へ移す。くぐる瞬間に視界がくるりと回る演出（暗闇と音）
 # 実行条件：実行者 プレイヤー。引数 to＝1〜4（4 は球の広間への通路）
 # >/function neofunction:system/rubra/d3/invdoor
 # =/function neofunction:system/rubra/d3/invgo

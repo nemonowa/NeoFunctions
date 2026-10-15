@@ -1,11 +1,11 @@
 # 命名：start
-# 説明：【追加：2026-10-08 ルブラ編】第一章「紅脈の坑」を始める。迷宮の仕掛けと NPC を置き、進み具合を 410 にする
+# 説明：第一章「紅脈の坑」を始める。迷宮の仕掛けと NPC を置き、進み具合を 410 にする
 # 説明：序章（401〜409）ができるまでの仮の入口。制作者が手で実行する：/function neofunction:system/adv/tick/quest/40/d1/start
 # >/function （手で実行）
 # =/function neofunction:system/adv/tick/quest/40/d1/start
 
 # 内容
-# 【追加：2026-10-14】前に遊んだときの第一章の選択（欠片をどうするか）とボスの記録を消す。残っていると、選択を押しても「もう選んだ」扱いで進まなかった
+# 前に遊んだときの第一章の選択（欠片をどうするか）とボスの記録を消す。残っていると、選択を押しても「もう選んだ」扱いで進まなかった
 data remove storage neofunction:rubra choice.field
 data remove storage neofunction:rubra worm
 function neofunction:system/rubra/d1/setup

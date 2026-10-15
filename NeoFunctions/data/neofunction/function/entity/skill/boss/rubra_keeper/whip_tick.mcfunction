@@ -1,5 +1,5 @@
 # 命名：whip_tick
-# 説明：【追加：2026-10-09 ルブラ編】黒い水の鞭（毎 tick）：予告の線を見せ、数え終わったら線の上を打つ（当たると 8 ダメージ）
+# 説明：黒い水の鞭（毎 tick）：予告の線を見せ、数え終わったら線の上を打つ（当たると 8 ダメージ）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_keeper/tick
 # =/function neofunction:entity/skill/boss/rubra_keeper/whip_tick

@@ -1,6 +1,6 @@
 # 命名：ripple_hurt
-# 説明：【追加：2026-10-13 ルブラ編】黒い水の波が当たった：7 ダメージと少し打ち上げ（一人一度）
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：黒い水の波が当たった：7 ダメージと少し打ち上げ（一人一度）
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者 当たった人
 # >/function neofunction:entity/skill/boss/rubra_void/ripple_ring
 # =/function neofunction:entity/skill/boss/rubra_void/ripple_hurt

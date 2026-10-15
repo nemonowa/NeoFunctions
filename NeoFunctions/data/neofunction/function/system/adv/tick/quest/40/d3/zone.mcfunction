@@ -1,5 +1,5 @@
 # 命名：zone
-# 説明：【追加：2026-10-09 ルブラ編】零の揺籃の中で、場所とミラの近さで物語を進める（1 秒ごと）
+# 説明：零の揺籃の中で、場所とミラの近さで物語を進める（1 秒ごと）
 # 実行条件：実行者 プレイヤー（零の揺籃の範囲の中）
 # >/function neofunction:system/adv/tick/dungeon/rubra3
 # =/function neofunction:system/adv/tick/quest/40/d3/zone
@@ -7,7 +7,7 @@
 # 内容
 function neofunction:system/adv/tick/quest/40/d1/busy_check
 execute if data storage neofunction:rubra {busy:1b} run return 0
-# 【追加：2026-10-14】一つ目の結晶の封のそばで、ミラが守り石の使い方を口にする（一度だけ）
+# 一つ目の結晶の封のそばで、ミラが守り石の使い方を口にする（一度だけ）
 execute if score #temp main_story matches 433..437 unless data storage neofunction:rubra d3.xt{m1:1b} unless data storage neofunction:rubra d3.xt{s1:1b} if entity @e[type=marker,tag=rubra_xseal,tag=rubra_xtal_1,distance=..9] run function neofunction:system/rubra/d3/xtal/hint
 # 433：浮遊の間でミラに追いつく → 434
 execute if score #temp main_story matches 433 if entity @e[type=villager,tag=rubra_mira,distance=..7] run return run function neofunction:system/adv/tick/quest/40/d3/434

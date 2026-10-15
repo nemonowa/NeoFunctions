@@ -1,5 +1,5 @@
 # 命名：rain_start
-# 説明：【追加：2026-10-09 ルブラ編】黒い雨の始まり：舞台のあちこち 10 か所に目印。1.5 秒の予告（黒い粒が降る）のあと、黒い水が弾けて 6 ダメージ、あとに黒い水の溜まり
+# 説明：黒い雨の始まり：舞台のあちこち 10 か所に目印。1.5 秒の予告（黒い粒が降る）のあと、黒い水が弾けて 6 ダメージ、あとに黒い水の溜まり
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack
 # >/function neofunction:entity/skill/boss/rubra_void/attack2

@@ -1,5 +1,5 @@
 # 命名：hit_apply
-# 説明：【追加：2026-10-08 ルブラ編】本体に dmg のダメージ（攻撃した人の攻撃として）
+# 説明：本体に dmg のダメージ（攻撃した人の攻撃として）
 # 実行条件：実行者 攻撃したプレイヤー。引数 dmg
 # >/function neofunction:entity/skill/boss/rubra_worm/hit_dmg
 # =/function neofunction:entity/skill/boss/rubra_worm/hit_apply

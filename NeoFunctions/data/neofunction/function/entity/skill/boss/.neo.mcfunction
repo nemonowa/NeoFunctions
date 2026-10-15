@@ -44,15 +44,15 @@ execute if entity @s[tag=FrogBossDead] at @s run return run function neofunction
 execute if entity @s[tag=larusha] at @s run return run function neofunction:entity/skill/boss/larusha/tick
 
 
-# 【追加：2026-10-08 ルブラ編】ソウルイーター（紅脈の坑のボス）のtick
+# ソウルイーター（紅脈の坑のボス）のtick
 execute if entity @s[tag=rubra_worm] at @s run return run function neofunction:entity/skill/boss/rubra_worm/tick
 
-# 【追加：2026-10-09 ルブラ編】涸れの番人（涸れ泉の聖堂のボス）のtick
+# 涸れの番人（涸れ泉の聖堂のボス）のtick
 execute if entity @s[tag=rubra_keeper] at @s run return run function neofunction:entity/skill/boss/rubra_keeper/tick
 
-# 【追加：2026-10-09 ルブラ編】星喰みのセレン（零の揺籃のボス）のtick
+# 星喰みのセレン（零の揺籃のボス）のtick
 execute if entity @s[tag=rubra_eater] at @s run return run function neofunction:entity/skill/boss/rubra_cradle/tick
-# 【追加：2026-10-09 ルブラ編】ヴォイド・ゼロ・ヴォイド・ゼロ（終章のボス）と、星の子（結末 C）のtick
+# ヴォイド・ゼロ・ヴォイド・ゼロ（終章のボス）と、星の子（結末 C）のtick
 execute if entity @s[tag=rubra_void] at @s run return run function neofunction:entity/skill/boss/rubra_void/tick
 execute if entity @s[tag=rubra_child] at @s run return run function neofunction:entity/skill/boss/rubra_void/child_tick
 execute if entity @s[tag=rubra_void_ctl] at @s run return run function neofunction:entity/skill/boss/rubra_void/ctl_tick

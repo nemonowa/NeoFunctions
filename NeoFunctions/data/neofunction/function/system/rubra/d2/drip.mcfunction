@@ -1,5 +1,5 @@
 # 命名：drip
-# 説明：【追加：2026-10-09 ルブラ編】黒い水が盛り上がって、黒い滴り（907）になる
+# 説明：黒い水が盛り上がって、黒い滴り（907）になる
 # 実行条件：実行位置 黒い水の溜まりの目印、または番人のまわり
 # >/function neofunction:system/adv/tick/dungeon/rubra2/drip
 # >/function neofunction:entity/skill/boss/rubra_keeper/attack_drip

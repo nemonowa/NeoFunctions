@@ -1,5 +1,5 @@
 # 命名：440_end
-# 説明：【追加：2026-10-09 ルブラ編】目標を出す
+# 説明：目標を出す
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/fin/440
 # =/function neofunction:system/adv/tick/quest/40/fin/440_end

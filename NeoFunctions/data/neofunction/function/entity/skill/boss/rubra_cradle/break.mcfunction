@@ -1,5 +1,5 @@
 # 命名：break
-# 説明：【追加：2026-10-09 ルブラ編】欠片 i を砕く：赤い光が弾け、黒い煙が噴き出す。セレンの体力が 40 減る（brk +1）。初めて砕いたときだけミラの声
+# 説明：欠片 i を砕く：赤い光が弾け、黒い煙が噴き出す。セレンの体力が 40 減る（brk +1）。初めて砕いたときだけミラの声
 # 実行条件：引数 i（1〜6）
 # >/function neofunction:entity/skill/boss/rubra_cradle/hit
 # =/function neofunction:entity/skill/boss/rubra_cradle/break

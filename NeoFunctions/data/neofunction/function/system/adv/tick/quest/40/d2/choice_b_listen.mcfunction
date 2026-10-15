@@ -1,5 +1,5 @@
 # 命名：choice_b_listen
-# 説明：【追加：2026-10-09 ルブラ編】選択 B「話を聞く」：黒い海のふたに隙間ができていること、「今度こそ正しいやり方で」、最初の泉の涙のこと、「自分の耳で聞いたものを信じなさい」
+# 説明：選択 B「話を聞く」：黒い海のふたに隙間ができていること、「今度こそ正しいやり方で」、最初の泉の涙のこと、「自分の耳で聞いたものを信じなさい」
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_b
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_b_listen

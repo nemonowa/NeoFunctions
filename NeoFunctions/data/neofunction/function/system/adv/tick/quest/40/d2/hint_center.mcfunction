@@ -1,5 +1,5 @@
 # 命名：hint_center
-# 説明：【追加：2026-10-09 ルブラ編】三つの水門の間に初めて入ったときの説明（一度だけ）：水は合わせて 2 つぶん。どの部屋が、何つぶんで開くか
+# 説明：三つの水門の間に初めて入ったときの説明（一度だけ）：水は合わせて 2 つぶん。どの部屋が、何つぶんで開くか
 # 実行条件：実行者 プレイヤー。#temp main_story 425
 # >/function neofunction:system/adv/tick/quest/40/d2/zone
 # =/function neofunction:system/adv/tick/quest/40/d2/hint_center

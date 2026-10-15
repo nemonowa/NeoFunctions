@@ -1,5 +1,5 @@
 # 命名：906
-# 説明：【追加：2026-10-09 ルブラ編】洗い場の子どもに話しかけたとき。422（カシムの話のあと）で手まり歌。それ以外は鼻歌
+# 説明：洗い場の子どもに話しかけたとき。422（カシムの話のあと）で手まり歌。それ以外は鼻歌
 # 実行条件：実行者・実行位置 洗い場の子ども（村人、DeathLootTable neofunction:asset/summon/906）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager
 # =/function neofunction:system/adv/player_interacted_with_entity/villager/906

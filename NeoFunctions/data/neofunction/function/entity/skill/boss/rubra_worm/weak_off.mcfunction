@@ -1,5 +1,5 @@
 # 命名：weak_off
-# 説明：【追加：2026-10-14 ルブラ編】全節の弱りを戻す（黒い殻に戻し、攻撃を弾く）
+# 説明：全節の弱りを戻す（黒い殻に戻し、攻撃を弾く）
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_worm/stun_end
 # =/function neofunction:entity/skill/boss/rubra_worm/weak_off

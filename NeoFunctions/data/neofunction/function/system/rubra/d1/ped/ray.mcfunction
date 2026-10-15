@@ -1,5 +1,5 @@
 # 命名：ray
-# 説明：【追加：2026-10-08 ルブラ編】光の筋を 0.5 ずつ伸ばす。空気でない所に当たるか、#rubra_ray temp が尽きたら止まる。色は r g b
+# 説明：光の筋を 0.5 ずつ伸ばす。空気でない所に当たるか、#rubra_ray temp が尽きたら止まる。色は r g b
 # 実行条件：実行位置と向き 光の先。引数 r g b
 # >/function neofunction:system/rubra/d1/ped/beam
 # >/function neofunction:system/rubra/d1/ped/beam_wall

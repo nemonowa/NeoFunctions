@@ -1,5 +1,5 @@
 # 命名：ublt_spawn
-# 説明：【追加：2026-10-14 ルブラ編】黒い槍を 1 つ：今の向き（上下も）に飛ぶ（毎 tick 1 マス、ublt_tick）。最初から check を付けて共通の出現処理を通さない
+# 説明：黒い槍を 1 つ：今の向き（上下も）に飛ぶ（毎 tick 1 マス、ublt_tick）。最初から check を付けて共通の出現処理を通さない
 # 実行条件：実行位置と向き 撃ち出す所と向き
 # >/function neofunction:entity/skill/boss/rubra_void/ublt_fan
 # =/function neofunction:entity/skill/boss/rubra_void/ublt_spawn

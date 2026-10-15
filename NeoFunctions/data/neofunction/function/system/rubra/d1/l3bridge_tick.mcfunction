@@ -1,5 +1,5 @@
 # 命名：l3bridge_tick
-# 説明：【追加：2026-10-14 ルブラ編】光の橋（毎 tick、d1.bridge を数える）：残り 8 tick から揺らいで知らせ、0 で消える（l3bridge_off）
+# 説明：光の橋（毎 tick、d1.bridge を数える）：残り 8 tick から揺らいで知らせ、0 で消える（l3bridge_off）
 # 実行条件：schedule
 # >/function neofunction:system/rubra/d1/l3bridge
 # =/function neofunction:system/rubra/d1/l3bridge_tick

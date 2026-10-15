@@ -1,5 +1,5 @@
 # 命名：422
-# 説明：【追加：2026-10-09 ルブラ編】夜の湖のほとり：カシムの棗の湯と、砂嵐で家族を失った話（水を守ることは、誰かを締め出すことでもある）
+# 説明：夜の湖のほとり：カシムの棗の湯と、砂嵐で家族を失った話（水を守ることは、誰かを締め出すことでもある）
 # 実行条件：実行者 カシム（村人 905）。#temp main_story 421（選択 A のあと）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/905
 # =/function neofunction:system/adv/tick/quest/40/d2/422

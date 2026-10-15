@@ -1,5 +1,5 @@
 # 命名：blt_spiral
-# 説明：【追加：2026-10-13 ルブラ編】渦の弾幕 1 回ぶん：回る向きの印を 13 度回し、3 方向（120 度ずつ）に撃つ
+# 説明：渦の弾幕 1 回ぶん：回る向きの印を 13 度回し、3 方向（120 度ずつ）に撃つ
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/blt_spiral

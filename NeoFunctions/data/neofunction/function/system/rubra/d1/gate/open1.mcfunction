@@ -1,5 +1,5 @@
 # 命名：open1
-# 説明：【追加：2026-10-08 ルブラ編】落石の扉 1 を開ける（光が当たって岩が動き、レールがつながる）
+# 説明：落石の扉 1 を開ける（光が当たって岩が動き、レールがつながる）
 # >/function neofunction:system/rubra/d1/ped/apply
 # =/function neofunction:system/rubra/d1/gate/open1
 

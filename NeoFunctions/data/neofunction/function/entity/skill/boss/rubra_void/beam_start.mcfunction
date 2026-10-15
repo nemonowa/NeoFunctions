@@ -1,5 +1,5 @@
 # 命名：beam_start
-# 説明：【追加：2026-10-13 ルブラ編】床を薙ぐ光線の始まり：向きをでたらめに決め、1.5 秒の予告（赤い線）のあと、3 秒かけて 180 度薙ぐ（a＝8）
+# 説明：床を薙ぐ光線の始まり：向きをでたらめに決め、1.5 秒の予告（赤い線）のあと、3 秒かけて 180 度薙ぐ（a＝8）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack2
 # >/function neofunction:entity/skill/boss/rubra_void/attack3

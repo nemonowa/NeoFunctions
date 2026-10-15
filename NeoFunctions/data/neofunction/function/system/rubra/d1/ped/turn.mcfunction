@@ -1,5 +1,5 @@
 # 命名：turn
-# 説明：【追加：2026-10-08 ルブラ編】置いた欠片の光の向きを変える（1→2→3→1）
+# 説明：置いた欠片の光の向きを変える（1→2→3→1）
 # 実行条件：実行者 プレイヤー。引数 p
 # >/function neofunction:system/rubra/d1/ped/click
 # =/function neofunction:system/rubra/d1/ped/turn

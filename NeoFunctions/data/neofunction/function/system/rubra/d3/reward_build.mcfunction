@@ -1,5 +1,5 @@
 # 命名：reward_build
-# 説明：【追加：2026-10-14 ルブラ編】ボスを倒したあと：固定の宝箱「零の揺籃の宝」（949, -44, 3300、中身は後で）と rank3 の宝箱 3 つ（✯3 Random LootTable、neofunction:chest/3）、帰還ゲート（カエルのボスのゲートを写したストラクチャー rubra/tower_gate。中のエンドゲートウェイの出口が塔の一階（917, 48, 3284））を出す
+# 説明：ボスを倒したあと：固定の宝箱「零の揺籃の宝」（949, -44, 3300、中身は後で）と rank3 の宝箱 3 つ（✯3 Random LootTable、neofunction:chest/3）、帰還ゲート（カエルのボスのゲートを写したストラクチャー rubra/tower_gate。中のエンドゲートウェイの出口が塔の一階（917, 48, 3284））を出す
 # 実行条件：どこでも（ボス部屋のチャンクが読み込まれていること）
 # >/function neofunction:entity/skill/boss/rubra_cradle/defeat
 # =/function neofunction:system/rubra/d3/reward_build

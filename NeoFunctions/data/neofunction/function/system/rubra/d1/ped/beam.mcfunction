@@ -1,5 +1,5 @@
 # 命名：beam
-# 説明：【追加：2026-10-08 ルブラ編】光の筋：台の上（y15.5）から扉の真上（y14.5）まで、そこからまっすぐ下へ扉まで。色は r g b
+# 説明：光の筋：台の上（y15.5）から扉の真上（y14.5）まで、そこからまっすぐ下へ扉まで。色は r g b
 # 実行条件：引数 px pz（台）gx gz（扉）r g b（色）
 # >/function neofunction:system/rubra/d1/ped/beams
 # =/function neofunction:system/rubra/d1/ped/beam

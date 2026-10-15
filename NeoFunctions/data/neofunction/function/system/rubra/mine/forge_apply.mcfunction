@@ -1,5 +1,5 @@
 # 命名：forge_apply
-# 説明：【追加：2026-10-14 ルブラ編】素材の数を数え、足りれば使って、メインハンドの道具を強化後の道具に取り替える
+# 説明：素材の数を数え、足りれば使って、メインハンドの道具を強化後の道具に取り替える
 # 実行条件：実行者 プレイヤー。引数 to・m1・n1・m2・n2・need（強化の表の 1 行）
 # >/function neofunction:system/rubra/mine/forge_match
 # =/function neofunction:system/rubra/mine/forge_apply

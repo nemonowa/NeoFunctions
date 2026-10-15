@@ -1,5 +1,5 @@
 # 命名：float
-# 説明：【追加：2026-10-09 ルブラ編】重さが失われる：ゆっくり落ち（落下低速）、高く跳べる（跳躍力 III）。体のまわりに小さな光の粒
+# 説明：重さが失われる：ゆっくり落ち（落下低速）、高く跳べる（跳躍力 III）。体のまわりに小さな光の粒
 # 実行条件：実行者 プレイヤー（浮遊の間・球の広間）
 # >/function neofunction:system/adv/tick/dungeon/rubra3
 # =/function neofunction:system/adv/tick/dungeon/rubra3/float

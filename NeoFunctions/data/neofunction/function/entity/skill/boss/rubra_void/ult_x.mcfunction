@@ -1,5 +1,5 @@
 # 命名：ult_x
-# 説明：【追加：2026-10-13 ルブラ編】小さな黒星を X 字に（斜め 4 方向、真ん中から外へ順に墜ちる）
+# 説明：小さな黒星を X 字に（斜め 4 方向、真ん中から外へ順に墜ちる）
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_x

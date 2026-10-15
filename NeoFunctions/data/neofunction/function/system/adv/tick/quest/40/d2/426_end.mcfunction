@@ -1,5 +1,5 @@
 # 命名：426_end
-# 説明：【追加：2026-10-09 ルブラ編】壁画のあと：手記の台と、黒い水の溜まりの先の案内
+# 説明：壁画のあと：手記の台と、黒い水の溜まりの先の案内
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/426（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d2/426_end

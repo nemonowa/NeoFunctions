@@ -1,5 +1,5 @@
 # 命名：warn_start
-# 説明：【追加：2026-10-08 ルブラ編】飛び出す前の予告を始める（20 tick。【変更：2026-10-14】後半は 15、連続突き上げのあいだは 10）
+# 説明：飛び出す前の予告を始める（20 tick。後半は 15、連続突き上げのあいだは 10）
 # 実行条件：実行者 本体（狙いの真下の地中）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/warn_start

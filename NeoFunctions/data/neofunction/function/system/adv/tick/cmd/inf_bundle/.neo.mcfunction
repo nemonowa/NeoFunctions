@@ -25,7 +25,7 @@ execute if score #Calc1 temp matches 1.. run function neofunction:system/adv/inv
 
 # アイテムを消す
 data modify storage neofunction:inf_bundle Item.components."minecraft:custom_data".Count set value 0
-# 【変更：2026-09-28 26.3対応】名前・説明文・文字表示の中身は 1.21.5 から JSON の文字列ではなく文章の部品として読まれる。文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
 data modify storage neofunction:inf_bundle Item.components."minecraft:lore"[-1] set value {"text":"0/5120","color":"gray","italic":false}
 
 # アイテムを返す

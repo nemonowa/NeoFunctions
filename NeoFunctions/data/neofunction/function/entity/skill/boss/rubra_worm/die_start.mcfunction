@@ -1,5 +1,5 @@
 # 命名：die_start
-# 説明：【追加：2026-10-08 ルブラ編】体力が尽きかけた：動きを止めて、しっぽから黒い砂になって崩れ始める（dying）
+# 説明：体力が尽きかけた：動きを止めて、しっぽから黒い砂になって崩れ始める（dying）
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/die_start

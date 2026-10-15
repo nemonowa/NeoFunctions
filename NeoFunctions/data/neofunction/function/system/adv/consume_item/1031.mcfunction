@@ -5,6 +5,6 @@
 # =/function neofunction:system/adv/consume_item/1031
 
 # 内容
-# 【追加：2026-09-30 ハービット屋台飯の効果実装】
+# ハービット屋台飯の効果実装。
 # 採掘速度上昇（攻撃速度も上がるため攻撃速度UPの代用）
 effect give @s minecraft:haste 180 0

@@ -1,5 +1,5 @@
 # 命名：beam_wall
-# 説明：【追加：2026-10-08 ルブラ編】光の筋：外れの向き（灰色で、広間の壁に当たって消える）
+# 説明：光の筋：外れの向き（灰色で、広間の壁に当たって消える）
 # 実行条件：引数 px pz（台）wx wy wz（壁）
 # >/function neofunction:system/rubra/d1/ped/beams
 # =/function neofunction:system/rubra/d1/ped/beam_wall

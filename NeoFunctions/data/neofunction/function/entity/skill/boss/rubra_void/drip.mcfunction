@@ -1,5 +1,5 @@
 # 命名：drip
-# 説明：【追加：2026-10-09 ルブラ編】黒い滴り（ゾンビ）を呼ぶ：舞台の人のそばに 3 体（あたりに 8 体まで）。歩いた跡に黒い水を垂らす
+# 説明：黒い滴り（ゾンビ）を呼ぶ：舞台の人のそばに 3 体（あたりに 8 体まで）。歩いた跡に黒い水を垂らす
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack
 # >/function neofunction:entity/skill/boss/rubra_void/attack2

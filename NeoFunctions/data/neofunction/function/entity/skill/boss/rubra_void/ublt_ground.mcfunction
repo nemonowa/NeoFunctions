@@ -1,6 +1,6 @@
 # 命名：ublt_ground
-# 説明：【追加：2026-10-14 ルブラ編】黒い槍が床に刺さった：まわり 1.5 マスの人に 4 ダメージ、1 マス上に黒い水を残して消える
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：黒い槍が床に刺さった：まわり 1.5 マスの人に 4 ダメージ、1 マス上に黒い水を残して消える
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者・実行位置 黒い槍（ブロックの中）
 # >/function neofunction:entity/skill/boss/rubra_void/ublt_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ublt_ground

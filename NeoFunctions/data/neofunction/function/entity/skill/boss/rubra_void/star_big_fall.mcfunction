@@ -1,5 +1,5 @@
 # 命名：star_big_fall
-# 説明：【追加：2026-10-13 ルブラ編】巨大な黒星：0.35 マス落ちる（【変更：2026-10-13】0.6 → 0.35、ゆっくりに）。舞台の真ん中に半径 9 の赤い輪の予告。y204 まで来たら着弾（star_big_hit）
+# 説明：巨大な黒星：0.35 マス落ちる（0.6 → 0.35、ゆっくりに）。舞台の真ん中に半径 9 の赤い輪の予告。y204 まで来たら着弾（star_big_hit）
 # 実行条件：実行者・実行位置 巨大な黒星（1 つめ）
 # >/function neofunction:entity/skill/boss/rubra_void/star_tick
 # =/function neofunction:entity/skill/boss/rubra_void/star_big_fall

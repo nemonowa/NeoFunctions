@@ -1,5 +1,5 @@
 # 命名：黒い滴り（終章）
-# 説明：【追加：2026-10-09 ルブラ編】虚の海の黒い水が人の形になったもの（ゾンビ。夜でも昼でも襲ってくる）。歩いた跡に黒い水（黒いカーペット）を垂らす（rubra_void/ink_*）
+# 説明：虚の海の黒い水が人の形になったもの（ゾンビ。夜でも昼でも襲ってくる）。歩いた跡に黒い水（黒いカーペット）を垂らす（rubra_void/ink_*）
 # >/function neofunction:entity/skill/boss/rubra_void/drip
 # >/function neofunction:entity/skill/boss/rubra_void/child_wave
 # =/function neofunction:asset/summon/915

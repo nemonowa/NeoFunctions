@@ -1,5 +1,5 @@
 # 命名：stun_start
-# 説明：【追加：2026-10-14 ルブラ編】スタン：頭が床に落ち、6 秒（後半 5 秒）動かない。全節が弱って赤くひび割れ、攻撃が通る（weak_on）
+# 説明：スタン：頭が床に落ち、6 秒（後半 5 秒）動かない。全節が弱って赤くひび割れ、攻撃が通る（weak_on）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/crash
 # =/function neofunction:entity/skill/boss/rubra_worm/stun_start

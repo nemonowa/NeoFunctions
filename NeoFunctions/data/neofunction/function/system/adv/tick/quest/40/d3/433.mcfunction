@@ -1,5 +1,5 @@
 # 命名：433
-# 説明：【追加：2026-10-09 ルブラ編】夜の星見の塔の一階：台座の裏の床石がずらされている（セレンが先に入った）。オルドが「水守の守り石」を渡し、セレンを連れて帰ってこいと言う
+# 説明：夜の星見の塔の一階：台座の裏の床石がずらされている（セレンが先に入った）。オルドが「水守の守り石」を渡し、セレンを連れて帰ってこいと言う
 # 実行条件：実行者 オルド（村人 904）。#temp main_story 432、第三章の目印が置かれていること
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/904
 # =/function neofunction:system/adv/tick/quest/40/d3/433

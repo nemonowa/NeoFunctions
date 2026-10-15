@@ -1,5 +1,5 @@
 # 命名：421
-# 説明：【追加：2026-10-09 ルブラ編】水守の館の会議：オルド「セレンを捕らえよ」、ミラが言い返す。最後に選択 A（チャット：4211 ミラにつく／4212 オルドにつく／4213 黙る）
+# 説明：水守の館の会議：オルド「セレンを捕らえよ」、ミラが言い返す。最後に選択 A（チャット：4211 ミラにつく／4212 オルドにつく／4213 黙る）
 # 実行条件：実行者 オルド（村人 904）。#temp main_story 420
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/904
 # =/function neofunction:system/adv/tick/quest/40/d2/421

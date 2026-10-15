@@ -1,5 +1,5 @@
 # 命名：phase2
-# 説明：【追加：2026-10-08 ルブラ編】体力が半分（300）を切った。【変更：2026-10-14】ミラの光はやめた。速くなり（plan）、予告が短くなり（warn_start・charge_warn_start）、連続突き上げとのしかかりを使い始める
+# 説明：体力が半分（300）を切った。速くなり（plan）、予告が短くなり（warn_start・charge_warn_start）、連続突き上げとのしかかりを使い始める
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/phase2

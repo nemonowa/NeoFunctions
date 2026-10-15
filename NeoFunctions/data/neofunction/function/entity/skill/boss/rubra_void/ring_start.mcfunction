@@ -1,5 +1,5 @@
 # 命名：ring_start
-# 説明：【追加：2026-10-09 ルブラ編】環状の衝撃波の溜め：1 秒の予告（舞台の真ん中が赤く光る）のあと、真ん中から外へ広がる衝撃波（ring_tick）。地面に立っていると当たる（跳べば避けられる）
+# 説明：環状の衝撃波の溜め：1 秒の予告（舞台の真ん中が赤く光る）のあと、真ん中から外へ広がる衝撃波（ring_tick）。地面に立っていると当たる（跳べば避けられる）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack2
 # >/function neofunction:entity/skill/boss/rubra_void/attack3

@@ -1,5 +1,5 @@
 # 命名：pillars_off
-# 説明：【追加：2026-10-09 ルブラ編】星灯の柱をすべて消す
+# 説明：星灯の柱をすべて消す
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_void/form1
 # >/function neofunction:entity/skill/boss/rubra_void/form2

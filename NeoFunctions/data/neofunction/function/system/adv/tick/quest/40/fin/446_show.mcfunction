@@ -1,5 +1,5 @@
 # 命名：446_show
-# 説明：【追加：2026-10-09 ルブラ編】終わりの選択（チャット）：星を射る（4461、結末 A か C）／ヴォイド・ゼロを射る（4462、結末 B）
+# 説明：終わりの選択（チャット）：星を射る（4461、結末 A か C）／ヴォイド・ゼロを射る（4462、結末 B）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:entity/skill/boss/rubra_void/rise
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902

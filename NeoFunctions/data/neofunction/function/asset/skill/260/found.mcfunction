@@ -1,5 +1,5 @@
 # 命名：found
-# 説明：【追加：2026-10-14 ルブラ編】スキル 260：見つけた鉱石に、光る表示（block_display、タグ skill260_glow）を重ねる。10 秒後に end で消す
+# 説明：スキル 260：見つけた鉱石に、光る表示（block_display、タグ skill260_glow）を重ねる。10 秒後に end で消す
 # >/function neofunction:asset/skill/260/scan_m・scan_v
 # =/function neofunction:asset/skill/260/found
 

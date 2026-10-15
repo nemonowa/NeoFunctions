@@ -1,5 +1,5 @@
 # 命名：drag_start
-# 説明：【追加：2026-10-09 ルブラ編】光の鎖：8 本の柱から光の鎖が伸び、星を舞台へ引きずり下ろし始める（drag を 388 から数え下ろす）
+# 説明：光の鎖：8 本の柱から光の鎖が伸び、星を舞台へ引きずり下ろし始める（drag を 388 から数え下ろす）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form2
 # =/function neofunction:entity/skill/boss/rubra_void/drag_start

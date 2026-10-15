@@ -1,5 +1,5 @@
 # 命名：choice_bury
-# 説明：【追加：2026-10-08 ルブラ編】選択「埋め戻す」：星の信頼が 1 上がる（storage neofunction:rubra trust.star）。星の声が、もう一言だけ聞こえる
+# 説明：選択「埋め戻す」：星の信頼が 1 上がる（storage neofunction:rubra trust.star）。星の声が、もう一言だけ聞こえる
 # 実行条件：実行者 プレイヤー。#temp main_story 416
 # >/function neofunction:system/adv/tick/quest/40/choice
 # =/function neofunction:system/adv/tick/quest/40/d1/choice_bury

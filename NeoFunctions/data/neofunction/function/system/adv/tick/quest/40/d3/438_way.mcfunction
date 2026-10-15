@@ -1,5 +1,5 @@
 # 命名：438_way
-# 説明：【追加：2026-10-09 ルブラ編】戦い方の結果のひとこと：守り石だけで救った（stone）なら「傷ひとつない」、砕いた（break）なら「欠片の抜けた跡が赤く腫れている」
+# 説明：戦い方の結果のひとこと：守り石だけで救った（stone）なら「傷ひとつない」、砕いた（break）なら「欠片の抜けた跡が赤く腫れている」
 # 実行条件：実行者 プレイヤー（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/438（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d3/438_way

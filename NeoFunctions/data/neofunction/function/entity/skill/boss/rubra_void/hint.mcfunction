@@ -1,5 +1,5 @@
 # 命名：hint
-# 説明：【追加：2026-10-13 ルブラ編】目標のひとこと（画面の下、5 秒ごと）：形態ごとに、今なにをすればよいか
+# 説明：目標のひとこと（画面の下、5 秒ごと）：形態ごとに、今なにをすればよいか
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/look
 # =/function neofunction:entity/skill/boss/rubra_void/hint

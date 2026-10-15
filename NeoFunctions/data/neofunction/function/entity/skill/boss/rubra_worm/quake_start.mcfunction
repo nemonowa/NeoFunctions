@@ -1,5 +1,5 @@
 # 命名：quake_start
-# 説明：【追加：2026-10-14 ルブラ編】地響き：潜った所から砂の輪が広がり始める（半径 1 → 10、quake_tick）。跳べば避けられる
+# 説明：地響き：潜った所から砂の輪が広がり始める（半径 1 → 10、quake_tick）。跳べば避けられる
 # 実行条件：実行者・実行位置 本体（潜りきった所）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/quake_start

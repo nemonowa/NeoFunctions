@@ -1,5 +1,5 @@
 # 命名：rim_on
-# 説明：【追加：2026-10-15 ルブラ編】第 3 形態の縁（舞台の真ん中から 22〜30 マス）の床に黒いカーペット（黒い水）を敷く。踏むと黒い水と同じ（ink_step）。見えない縁のダメージ（edge）の代わり。生成は scratchpad の rim_gen
+# 説明：第 3 形態の縁（舞台の真ん中から 22〜30 マス）の床に黒いカーペット（黒い水）を敷く。踏むと黒い水と同じ（ink_step）。見えない縁のダメージ（edge）の代わり。生成は scratchpad の rim_gen
 # 実行条件：どこでも（舞台のまわりのチャンクが読み込まれていること）
 # >/function neofunction:entity/skill/boss/rubra_void/form3_start
 # =/function neofunction:entity/skill/boss/rubra_void/rim_on

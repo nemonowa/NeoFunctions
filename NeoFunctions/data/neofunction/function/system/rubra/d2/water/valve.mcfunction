@@ -1,5 +1,5 @@
 # 命名：valve
-# 説明：【追加：2026-10-09 ルブラ編】三つの水門の間の青銅の輪を回したとき：その部屋（r＝e・w・n）に水を 1 つぶん足す
+# 説明：三つの水門の間の青銅の輪を回したとき：その部屋（r＝e・w・n）に水を 1 つぶん足す
 # 説明：足すと合わせての量（d2.total）をこえるときは、その部屋を 0 に戻す（水が真ん中の溜めに戻る）
 # 実行条件：実行者 プレイヤー。引数 r
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click

@@ -1,5 +1,5 @@
 # 命名：420_go
-# 説明：【追加：2026-10-09 ルブラ編】ミラが水守の館（目印 rubra_mira_kan）へ先に行く
+# 説明：ミラが水守の館（目印 rubra_mira_kan）へ先に行く
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/420（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d2/420_go

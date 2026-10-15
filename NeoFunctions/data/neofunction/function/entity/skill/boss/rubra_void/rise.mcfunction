@@ -1,12 +1,12 @@
 # 命名：rise
-# 説明：【追加：2026-10-09 ルブラ編】とどめの前（体力 30 以下）：顎がほどけ、星が昇ろうとする。戦いを止め（本体は無敵に）、近くの人に終わりの選択を出す。進み具合 446
+# 説明：とどめの前（体力 30 以下）：顎がほどけ、星が昇ろうとする。戦いを止め（本体は無敵に）、近くの人に終わりの選択を出す。進み具合 446
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # >/function neofunction:entity/skill/boss/rubra_void/ctl_tick
 # =/function neofunction:entity/skill/boss/rubra_void/rise
 
 # 内容
-# 【追加：2026-10-14】クリア後の再戦（セレンから）で勝ったときは、結末の選択を出さずに報酬へ
+# クリア後の再戦（セレンから）で勝ったときは、結末の選択を出さずに報酬へ
 execute if data storage neofunction:rubra fin{refight:1b} run return run function neofunction:system/rubra/fin/refight/win
 data modify storage neofunction:rubra fin merge value {state:"rise",vul:0b}
 data merge entity @s {Invulnerable:1b}

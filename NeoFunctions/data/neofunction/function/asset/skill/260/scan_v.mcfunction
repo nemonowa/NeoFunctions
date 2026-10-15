@@ -1,5 +1,5 @@
 # 命名：scan_v
-# 説明：【追加：2026-10-14 ルブラ編】スキル 260：メサの外で探す（バニラの鉱石）。近い順に 7153 か所を調べ、最初に見つけた所で止まる（生成：scratchpad の skill260_gen.py）
+# 説明：スキル 260：メサの外で探す（バニラの鉱石）。近い順に 7153 か所を調べ、最初に見つけた所で止まる（生成：scratchpad の skill260_gen.py）
 # >/function neofunction:asset/skill/260
 # =/function neofunction:asset/skill/260/scan_v
 

@@ -1,5 +1,5 @@
 # 命名：l1gate_open
-# 説明：【追加：2026-10-14 ルブラ編】北の詰所のレバーを引いた：一の層の鉄格子が上がる（一度だけ）
+# 説明：北の詰所のレバーを引いた：一の層の鉄格子が上がる（一度だけ）
 # 実行条件：実行者 プレイヤー（rubra_click の振り分けから）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d1/l1gate_open

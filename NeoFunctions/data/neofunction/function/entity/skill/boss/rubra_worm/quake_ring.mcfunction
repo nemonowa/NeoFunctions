@@ -1,5 +1,5 @@
 # 命名：quake_ring
-# 説明：【追加：2026-10-14 ルブラ編】地響きの輪 1 つ（半径 r）：16 方向に砂の粒。半径 ri〜ro の地面に立っている人に quake_hurt
+# 説明：地響きの輪 1 つ（半径 r）：16 方向に砂の粒。半径 ri〜ro の地面に立っている人に quake_hurt
 # 実行条件：実行位置 地響きの目印。引数 r ri ro（storage neofunction:rubra worm_m）
 # >/function neofunction:entity/skill/boss/rubra_worm/quake_tick
 # =/function neofunction:entity/skill/boss/rubra_worm/quake_ring

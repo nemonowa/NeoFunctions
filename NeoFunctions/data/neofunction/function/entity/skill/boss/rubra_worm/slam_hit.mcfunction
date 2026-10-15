@@ -1,5 +1,5 @@
 # 命名：slam_hit
-# 説明：【追加：2026-10-14 ルブラ編】のしかかりが落ちた：まわり 4 マスの人に 12。そのまま潜る（潜りきると地響き）
+# 説明：のしかかりが落ちた：まわり 4 マスの人に 12。そのまま潜る（潜りきると地響き）
 # 実行条件：実行者・実行位置 本体（床）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/slam_hit

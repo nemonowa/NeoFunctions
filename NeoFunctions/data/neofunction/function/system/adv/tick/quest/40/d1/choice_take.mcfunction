@@ -1,5 +1,5 @@
 # 命名：choice_take
-# 説明：【追加：2026-10-08 ルブラ編】選択「持ち帰る」：鉱夫たちが喜ぶ（あとで採掘の報酬が増える：storage neofunction:rubra choice.field "take"）。星核の欠片を 8 つ手に入れる
+# 説明：選択「持ち帰る」：鉱夫たちが喜ぶ（あとで採掘の報酬が増える：storage neofunction:rubra choice.field "take"）。星核の欠片を 8 つ手に入れる
 # 実行条件：実行者 プレイヤー。#temp main_story 416
 # >/function neofunction:system/adv/tick/quest/40/choice
 # =/function neofunction:system/adv/tick/quest/40/d1/choice_take

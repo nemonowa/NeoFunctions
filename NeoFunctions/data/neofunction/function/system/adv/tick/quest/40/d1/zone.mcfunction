@@ -1,5 +1,5 @@
 # 命名：zone
-# 説明：【追加：2026-10-08 ルブラ編】紅脈の坑の中で、場所とミラの近さで物語を進める（1 秒ごと）
+# 説明：紅脈の坑の中で、場所とミラの近さで物語を進める（1 秒ごと）
 # 実行条件：実行者 プレイヤー（迷宮の範囲の中）
 # >/function neofunction:system/adv/tick/dungeon/rubra1
 # =/function neofunction:system/adv/tick/quest/40/d1/zone

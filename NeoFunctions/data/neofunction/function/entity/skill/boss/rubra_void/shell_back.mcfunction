@@ -1,5 +1,5 @@
 # 命名：shell_back
-# 説明：【追加：2026-10-09 ルブラ編】膜が戻る：柱が消え、黒い膜がまた渦を包む
+# 説明：膜が戻る：柱が消え、黒い膜がまた渦を包む
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form1
 # =/function neofunction:entity/skill/boss/rubra_void/shell_back

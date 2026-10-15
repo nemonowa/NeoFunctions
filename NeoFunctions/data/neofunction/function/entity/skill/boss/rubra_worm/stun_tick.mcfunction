@@ -1,5 +1,5 @@
 # 命名：stun_tick
-# 説明：【追加：2026-10-14 ルブラ編】スタンのあいだ（毎 tick）：頭のまわりに星が回る。数え終わったら起き上がる（stun_end）
+# 説明：スタンのあいだ（毎 tick）：頭のまわりに星が回る。数え終わったら起き上がる（stun_end）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/stun_tick

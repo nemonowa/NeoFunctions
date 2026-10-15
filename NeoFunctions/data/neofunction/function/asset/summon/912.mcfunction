@@ -1,5 +1,5 @@
 # 命名：ヴァルカ
-# 説明：【追加：2026-10-09 ルブラ編】星鉄の鍛冶師。終章で 3 つの素材から星葬弓「終焉」を打ち、星核鎧「超新星」も渡す
+# 説明：星鉄の鍛冶師。終章で 3 つの素材から星葬弓「終焉」を打ち、星核鎧「超新星」も渡す
 # 頭：minecraft-heads.com の 130046（https://minecraft-heads.com/custom-heads/head/130046）。heads.py で付ける
 # >/function neofunction:system/rubra/fin/points
 # =/function neofunction:asset/summon/912

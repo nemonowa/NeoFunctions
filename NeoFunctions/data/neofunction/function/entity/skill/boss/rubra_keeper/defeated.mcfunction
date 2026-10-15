@@ -1,5 +1,5 @@
 # 命名：defeated
-# 説明：【追加：2026-10-09 ルブラ編】戦いの途中なのに本体がいない（倒れる演出を通らずに倒れた）ときの取りこぼし対策：黒い部分と床の黒い水を消し、セレンの場面（428）へ
+# 説明：戦いの途中なのに本体がいない（倒れる演出を通らずに倒れた）ときの取りこぼし対策：黒い部分と床の黒い水を消し、セレンの場面（428）へ
 # 実行条件：実行位置 番人の間の中心
 # >/function neofunction:system/adv/tick/quest/40/d2/zone
 # =/function neofunction:entity/skill/boss/rubra_keeper/defeated

@@ -1,5 +1,5 @@
 # 命名：orbit8
-# 説明：【追加：2026-10-13 ルブラ編】黒い心臓 8 つを回す：顎の真ん中から半径 18 マス、等しい角度で。高さは互い違い
+# 説明：黒い心臓 8 つを回す：顎の真ん中から半径 18 マス、等しい角度で。高さは互い違い
 # 実行条件：実行者・実行位置 回す向きの印
 # >/function neofunction:entity/skill/boss/rubra_void/form3
 # =/function neofunction:entity/skill/boss/rubra_void/orbit8

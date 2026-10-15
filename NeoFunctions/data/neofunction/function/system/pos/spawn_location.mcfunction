@@ -1,6 +1,6 @@
 # 命名：spawn_location
 # 説明：
-# 説明：【変更：2026-10-14 26.3対応】26.3 ではプレイヤーの SpawnX・SpawnY・SpawnZ・SpawnDimension が respawn{dimension,pos:[I;x,y,z]} にまとまった。また転相の共通処理（.macro）が id を使うので、記録を pos:spawn_point に移し、id と名前も入れる
+# 説明：26.3 ではプレイヤーの SpawnX・SpawnY・SpawnZ・SpawnDimension が respawn{dimension,pos:[I;x,y,z]} にまとまった。また転相の共通処理（.macro）が id を使うので、記録を pos:spawn_point に移し、id と名前も入れる
 # 実行条件：imp
 # >/function
 # =/function neofunction:system/pos/spawn_location

@@ -1,5 +1,5 @@
 # 命名：despawn
-# 説明：【追加：2026-10-09 ルブラ編】近くに誰もいなくなった（全滅・離脱）：セレンと欠片を片付け、進み具合を 436 に戻す。次に球の広間へ来たら、すぐ戦いをやり直す
+# 説明：近くに誰もいなくなった（全滅・離脱）：セレンと欠片を片付け、進み具合を 436 に戻す。次に球の広間へ来たら、すぐ戦いをやり直す
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/despawn

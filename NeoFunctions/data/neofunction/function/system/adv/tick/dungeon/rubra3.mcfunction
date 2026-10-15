@@ -1,6 +1,6 @@
 # 命名：rubra3
-# 説明：【追加：2026-10-09 ルブラ編】零の揺籃（第三章の迷宮）の範囲にいるプレイヤーの 1 秒ごとの処理
-# 説明：浮遊の間は重さが失われる（ゆっくり落ち、高く跳べる。【変更：2026-10-14】球の広間は平らな床にしたので外した）。闇の間は光が奪われ、守り石（1917）をオフハンドに持つと身のまわりが見える。影は守り石の光の中でだけ斬れる
+# 説明：零の揺籃（第三章の迷宮）の範囲にいるプレイヤーの 1 秒ごとの処理
+# 説明：浮遊の間は重さが失われる。闇の間は光が奪われ、守り石（1917）をオフハンドに持つと身のまわりが見える。影は守り石の光の中でだけ斬れる
 # 実行条件：実行者 プレイヤー（零の揺籃の範囲の中）
 # >/advancement neofunction:tick/dungeon/rubra3
 # =/function neofunction:system/adv/tick/dungeon/rubra3
@@ -16,7 +16,7 @@ execute if entity @e[type=marker,tag=rubra_float,distance=..16] run function neo
 execute if entity @e[type=marker,tag=rubra_dark,distance=..14] run function neofunction:system/adv/tick/dungeon/rubra3/dark
 # 物語の区切り
 function neofunction:system/adv/tick/quest/40/d3/zone
-# 【追加：2026-10-14】結晶の封（守り石で引き剥がす練習）。セレンを助けたあと（438 から）は置かない
+# 結晶の封（守り石で引き剥がす練習）。セレンを助けたあと（438 から）は置かない
 execute if score #temp main_story matches ..437 run function neofunction:system/rubra/d3/xtal/check
-# 【追加：2026-10-14】球の広間の作り直しを、今のワールドに一度だけ反映する
+# 球の広間の作り直しを、今のワールドに一度だけ反映する
 execute unless data storage neofunction:rubra {d3v:1} positioned 949 -44 3296 if entity @s[distance=..48] run function neofunction:system/rubra/d3/upgrade_20261014

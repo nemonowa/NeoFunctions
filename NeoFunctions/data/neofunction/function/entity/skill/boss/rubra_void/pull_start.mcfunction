@@ -1,5 +1,5 @@
 # 命名：pull_start
-# 説明：【追加：2026-10-09 ルブラ編】零点崩壊の始まり：2 秒の予告（渦が回る）のあと、4 秒のあいだ、近くの人を渦の芯へ引き寄せる（pull_tick）
+# 説明：零点崩壊の始まり：2 秒の予告（渦が回る）のあと、4 秒のあいだ、近くの人を渦の芯へ引き寄せる（pull_tick）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack
 # >/function neofunction:entity/skill/boss/rubra_void/attack3

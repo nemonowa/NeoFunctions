@@ -1,5 +1,5 @@
 # 命名：drip
-# 説明：【追加：2026-10-09 ルブラ編】黒い水の溜まりから黒い滴り（907）が湧く。6 秒に 1 回ぐらい、近くに 3 体まで
+# 説明：黒い水の溜まりから黒い滴り（907）が湧く。6 秒に 1 回ぐらい、近くに 3 体まで
 # 実行条件：実行者 プレイヤー（黒い水の溜まりの近く）
 # >/function neofunction:system/adv/tick/dungeon/rubra2
 # =/function neofunction:system/adv/tick/dungeon/rubra2/drip

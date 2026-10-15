@@ -9,8 +9,8 @@
 
 execute as @e[tag=familiar,distance=..32] run tag @s add beastlordActive
 
-# 【変更：2026-09-12 効果時間をレベル依存に変更。習得Lv40を基準に、5レベル毎に+5秒
-#   （20+((LVL-40)/5切り捨て)×5秒）。effectの秒数はコマンド引数なのでレベル範囲分岐で対応】
+# 効果時間はレベルで決まる：習得 Lv40 で 20 秒、5 レベルごとに +5 秒（20+((LVL-40)/5 切り捨て)×5 秒）。
+# effect の秒数は引数なので、レベルの範囲ごとに分ける
 execute if score @s LVL matches 40..44 as @e[tag=beastlordActive] run effect give @s minecraft:strength 20 3 true
 execute if score @s LVL matches 40..44 as @e[tag=beastlordActive] run effect give @s minecraft:speed 20 2 true
 execute if score @s LVL matches 40..44 as @e[tag=beastlordActive] run effect give @s minecraft:resistance 20 2 true
@@ -50,10 +50,8 @@ execute if score @s LVL matches 95.. as @e[tag=beastlordActive] run effect give 
 
 execute as @e[tag=beastlordActive] at @s if entity @e[tag=enemy,distance=..32] run tp @s ~ ~ ~ facing entity @e[tag=enemy,distance=..32,limit=1,sort=nearest] eyes
 
-# 【変更：2026-09-12 消滅処理をポータルクールダウン式に統一。schedule+killからPortalCooldown上書きに切替。
-#   強化対象は元々232〜235でPortalCooldown≠0を持って召喚済み＝portalcooldownタグ保持済みなので、
-#   計算値へ上書きするだけで共通デスポーン処理（entity/tick）に回収される。
-#   持続時間はeffectと同じ式（20+((LVL-40)/5切り捨て)×5秒）をtemp一時計算値で算出しtickへ変換】
+# 消える時間：強化した使い魔の PortalCooldown を効果時間（20+((LVL-40)/5 切り捨て)×5 秒）の tick に上書きし、
+# 共通のデスポーン処理（entity/tick）で回収させる
 scoreboard players operation #beastlordDur temp = @s LVL
 scoreboard players remove #beastlordDur temp 40
 scoreboard players set #beastlordDiv temp 5

@@ -1,5 +1,5 @@
 # 命名：ult_rain
-# 説明：【追加：2026-10-13 ルブラ編】無差別爆撃 1 回ぶん：舞台のどこか 3 か所に、小さな黒星（【変更：2026-10-13】2 → 3 か所、0.25 秒ごと）
+# 説明：無差別爆撃 1 回ぶん：舞台のどこか 3 か所に、小さな黒星（2 → 3 か所、0.25 秒ごと）
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_rain

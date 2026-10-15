@@ -1,5 +1,5 @@
 # 命名：child_win
-# 説明：【追加：2026-10-09 ルブラ編】60 秒守りきった：滴りが消え、星の子は泉へ。結末 C の会話（end_c）
+# 説明：60 秒守りきった：滴りが消え、星の子は泉へ。結末 C の会話（end_c）
 # 実行条件：実行者・実行位置 星の子
 # >/function neofunction:entity/skill/boss/rubra_void/child_tick
 # =/function neofunction:entity/skill/boss/rubra_void/child_win

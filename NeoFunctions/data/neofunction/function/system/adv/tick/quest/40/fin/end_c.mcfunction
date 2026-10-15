@@ -1,5 +1,5 @@
 # 命名：end_c
-# 説明：【追加：2026-10-09 ルブラ編】結末 C「星と街の約束」：星の子は泉に残り、自分の意思で水を分ける。泉は 7 割ほど残る。毎年の星還祭に赤い流れ星
+# 説明：結末 C「星と街の約束」：星の子は泉に残り、自分の意思で水を分ける。泉は 7 割ほど残る。毎年の星還祭に赤い流れ星
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:entity/skill/boss/rubra_void/child_win
 # =/function neofunction:system/adv/tick/quest/40/fin/end_c

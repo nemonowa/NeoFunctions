@@ -1,5 +1,5 @@
 # 命名：tidy_fin_2
-# 説明：【追加：2026-10-09 ルブラ編】終章「星還りの夜」 の後片付け（本体）：タグ rubra_fin のうち、村人とプレイヤーと残す目印以外を消す。終わったらチャンクの固定を外す
+# 説明：終章「星還りの夜」 の後片付け（本体）：タグ rubra_fin のうち、村人とプレイヤーと残す目印以外を消す。終わったらチャンクの固定を外す
 # 実行条件：schedule
 # >/function neofunction:system/rubra/tidy_fin
 # =/function neofunction:system/rubra/tidy_fin_2

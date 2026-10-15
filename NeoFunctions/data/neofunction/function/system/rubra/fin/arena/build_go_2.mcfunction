@@ -1,5 +1,5 @@
 # 命名：build_go_2
-# 説明：【追加：2026-10-09 ルブラ編】星還りの空を建てて、柱の目印を置き、チャンクの固定を外す
+# 説明：星還りの空を建てて、柱の目印を置き、チャンクの固定を外す
 # 実行条件：schedule
 # >/function neofunction:system/rubra/fin/arena/build_go
 # =/function neofunction:system/rubra/fin/arena/build_go_2

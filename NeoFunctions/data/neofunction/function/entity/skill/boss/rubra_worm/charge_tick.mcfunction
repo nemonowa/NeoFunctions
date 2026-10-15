@@ -1,5 +1,5 @@
 # 命名：charge_tick
-# 説明：【追加：2026-10-14 ルブラ編】突進（毎 tick）：床の高さ（y-40）を向きのまま 1 マス（後半 1.2）進む。当たった人に 10（一度）。頭の先が柱か壁にぶつかったらスタン（crash）。40 マス進んだら潜る
+# 説明：突進（毎 tick）：床の高さ（y-40）を向きのまま 1 マス（後半 1.2）進む。当たった人に 10（一度）。頭の先が柱か壁にぶつかったらスタン（crash）。40 マス進んだら潜る
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/charge_tick

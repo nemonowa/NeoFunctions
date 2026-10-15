@@ -1,5 +1,5 @@
 # 命名：cine_end
-# 説明：【追加：2026-10-09 ルブラ編】空の演出のおわり：結末ごとの続きへ（A end_a、B end_b、C burst_c。どれも release で舞台の人を広場へ戻し、広場で会話）
+# 説明：空の演出のおわり：結末ごとの続きへ（A end_a、B end_b、C burst_c。どれも release で舞台の人を広場へ戻し、広場で会話）
 # 実行条件：実行者 見張り役
 # >/function neofunction:entity/skill/boss/rubra_void/cine_tick
 # =/function neofunction:entity/skill/boss/rubra_void/cine_end

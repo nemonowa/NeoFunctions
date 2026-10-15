@@ -8,7 +8,6 @@
 
 # 内容
 #プレイバージョン(ver)
-# 【変更：2026-09-28 26.3対応】26.3 の SNBT は 0.0.0 を数値として読もうとしてエラーになるため、1.20.4 と同じ文字列 "0.0.0" にする
 data modify storage neofunction:asset ver set value "0.0.0"
 
 #プレイMCバージョン(DataVersion)

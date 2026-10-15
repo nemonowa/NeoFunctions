@@ -1,5 +1,5 @@
 # 命名：heads
-# 説明：【追加：2026-10-14 ルブラ編】ルブラの NPC に頭（minecraft-heads.com のプレイヤーの頭）を付ける。召喚の関数にも同じ頭が入っている。生成は scratchpad の heads.py
+# 説明：ルブラの NPC に頭（minecraft-heads.com のプレイヤーの頭）を付ける。召喚の関数にも同じ頭が入っている。生成は scratchpad の heads.py
 # 実行条件：実行者 頭の無いルブラの NPC（村人のタグ rubra_npc）
 # >/function neofunction:system/rubra/guide
 # =/function neofunction:system/rubra/heads

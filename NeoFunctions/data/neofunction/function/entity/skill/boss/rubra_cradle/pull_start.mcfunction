@@ -1,5 +1,5 @@
 # 命名：pull_start
-# 説明：【追加：2026-10-09 ルブラ編】欠片を右クリック：守り石（1917）を手に持っていれば、その欠片の引き剥がしを始める（同時に 1 つまで）
+# 説明：欠片を右クリック：守り石（1917）を手に持っていれば、その欠片の引き剥がしを始める（同時に 1 つまで）
 # 実行条件：実行者 プレイヤー（クリックされた interaction にタグ rubra_clicked）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:entity/skill/boss/rubra_cradle/pull_start

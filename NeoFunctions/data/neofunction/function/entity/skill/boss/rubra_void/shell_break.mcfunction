@@ -1,5 +1,5 @@
 # 命名：shell_break
-# 説明：【追加：2026-10-09 ルブラ編】8 本の柱が灯った：黒い膜が剥がれ、15 秒（300 tick）攻撃が通る
+# 説明：8 本の柱が灯った：黒い膜が剥がれ、15 秒（300 tick）攻撃が通る
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form1
 # =/function neofunction:entity/skill/boss/rubra_void/shell_break

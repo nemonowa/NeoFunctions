@@ -1,5 +1,5 @@
 # 命名：valka_bow
-# 説明：【追加：2026-10-14 ルブラ編】弓を打ったあと（441〜448）ヴァルカに話しかけた：星還しの弓（1920）と矢を渡す。話しかけるたびに受け取れる
+# 説明：弓を打ったあと（441〜448）ヴァルカに話しかけた：星還しの弓（1920）と矢を渡す。話しかけるたびに受け取れる
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/912
 # =/function neofunction:system/adv/tick/quest/40/fin/valka_bow

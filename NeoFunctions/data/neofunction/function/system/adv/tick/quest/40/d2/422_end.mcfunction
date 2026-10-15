@@ -1,5 +1,5 @@
 # 命名：422_end
-# 説明：【追加：2026-10-09 ルブラ編】カシムの話のあと：ミラは洗い場の近く（目印 rubra_mira_wash：子どもから 6 マス以上離れた所）へ。次は洗い場の子ども
+# 説明：カシムの話のあと：ミラは洗い場の近く（目印 rubra_mira_wash：子どもから 6 マス以上離れた所）へ。次は洗い場の子ども
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/422（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d2/422_end

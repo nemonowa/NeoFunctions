@@ -1,5 +1,5 @@
 # 命名：elite_tick
-# 説明：【追加：2026-10-14 ルブラ編】エリートチャレンジ（毎 tick）：取り巻きの黒い滴りを強くする（まだのものに elite_buff）。特殊行動：6 秒ごとに、本体から一人ひとりへ黒い槍（ult_shot）
+# 説明：エリートチャレンジ（毎 tick）：取り巻きの黒い滴りを強くする（まだのものに elite_buff）。特殊行動：6 秒ごとに、本体から一人ひとりへ黒い槍（ult_shot）
 # 説明：ほかのエリートの変更：ダメージ 1.5 倍（各技の damage の行）、技の間隔 2.5 秒 → 1.7 秒（tick）、必殺技の自機狙いが増える（ult_tick）
 # 実行条件：実行者・実行位置 本体（fin.elite が 1b）
 # >/function neofunction:entity/skill/boss/rubra_void/tick

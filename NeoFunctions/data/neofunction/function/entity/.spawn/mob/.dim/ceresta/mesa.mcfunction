@@ -1,5 +1,5 @@
 # 命名：mesa
-# 説明：【追加：2026-10-15 ルブラ編】メサ（紅鉢の街ルブラのまわり）の自然湧きの置き換え。1 体を 1 体に（乗り物や複数体にはしない）
+# 説明：メサ（紅鉢の街ルブラのまわり）の自然湧きの置き換え。1 体を 1 体に（乗り物や複数体にはしない）
 # >/function neofunction:entity/.spawn/mob/.dim/ceresta
 # =/function neofunction:entity/.spawn/mob/.dim/ceresta/mesa
 

@@ -1,5 +1,5 @@
 # 命名：shadow
-# 説明：【追加：2026-10-09 ルブラ編】闇の中から影（910）が滲み出す
+# 説明：闇の中から影（910）が滲み出す
 # 実行条件：実行位置 影の湧く所（目印 rubra_shadow_spawn、またはボスのまわり）
 # >/function neofunction:system/adv/tick/dungeon/rubra3/dark
 # >/function neofunction:entity/skill/boss/rubra_cradle/attack_shadow

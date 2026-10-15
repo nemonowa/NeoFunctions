@@ -1,5 +1,5 @@
 # 命名：hit
-# 説明：【追加：2026-10-08 ルブラ編】節の当たり判定（interaction）が殴られた。弱っている節（rubra_hot、スタン中）なら攻撃した人の攻撃力の 1.5 倍を本体に与え、そうでなければ弾く。【変更：2026-10-14】光る節の仕組みはやめ、スタン中だけ通る
+# 説明：節の当たり判定（interaction）が殴られた。弱っている節（rubra_hot、スタン中）なら攻撃した人の攻撃力の 1.5 倍を本体に与え、そうでなければ弾く。
 # 実行条件：実行者 殴られた interaction（タグ rubra_hit）
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/hit

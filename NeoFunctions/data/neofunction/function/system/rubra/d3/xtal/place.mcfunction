@@ -1,5 +1,5 @@
 # 命名：place
-# 説明：【追加：2026-10-14 ルブラ編】結晶の封 i を置く：封の目印（marker）と、通路をふさぐ赤いガラス（3×3）、結晶（item_display、セレンの欠片と同じ見た目）と当たり判定。もう抜いたあとなら、目印だけ置いて封を開けておく。3 は回すための向きの印も置く
+# 説明：結晶の封 i を置く：封の目印（marker）と、通路をふさぐ赤いガラス（3×3）、結晶（item_display、セレンの欠片と同じ見た目）と当たり判定。もう抜いたあとなら、目印だけ置いて封を開けておく。3 は回すための向きの印も置く
 # 実行条件：引数 i・mx my mz（封の真ん中）・dx dy dz（結晶）・iy（当たり判定の下の高さ）
 # >/function neofunction:system/rubra/d3/xtal/check
 # =/function neofunction:system/rubra/d3/xtal/place

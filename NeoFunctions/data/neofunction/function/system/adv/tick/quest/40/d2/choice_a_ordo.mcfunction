@@ -1,5 +1,5 @@
 # 命名：choice_a_ordo
-# 説明：【追加：2026-10-09 ルブラ編】選択 A「オルドの言うことも分かる」：trust.ordo +1（第三章で、オルドが手記を早く見せてくれる）
+# 説明：選択 A「オルドの言うことも分かる」：trust.ordo +1（第三章で、オルドが手記を早く見せてくれる）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_a_ordo

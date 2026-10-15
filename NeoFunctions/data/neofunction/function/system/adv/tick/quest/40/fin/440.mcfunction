@@ -1,5 +1,5 @@
 # 命名：440
-# 説明：【追加：2026-10-09 ルブラ編】終章「星還りの夜」のはじまり：館のミラに話しかけると、素材が 3 つそろったことを喜び、ヴァルカの鍛冶場へ。終章の目印を置く
+# 説明：終章「星還りの夜」のはじまり：館のミラに話しかけると、素材が 3 つそろったことを喜び、ヴァルカの鍛冶場へ。終章の目印を置く
 # 実行条件：実行者 ミラ（村人 902）。#temp main_story 439
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902
 # =/function neofunction:system/adv/tick/quest/40/fin/440

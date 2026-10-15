@@ -12,7 +12,7 @@ data modify storage neofunction:tamer OwnerUUID set from entity @s UUID
 execute store result score #Calc2 temp run function neofunction:asset/skill/tamer/count with storage neofunction:tamer
 execute if score #Calc2 temp matches -1 run return -100
 
-# 【変更：2026-09-12 成長段階タグをlv9まで拡張（10レベル刻み）。30..は30..39へ変更し40..90..を追加】
+# 成長段階タグをlv9まで拡張（10レベル刻み）。30..は30..39へ変更し40..90..を追加。
 execute if score @s LVL matches ..19 run summon minecraft:wolf ~ ~ ~ {PortalCooldown:2100,Team:"white",CollarColor:4,DeathLootTable:"empty",Tags:["familiar","wolfFamiliar","ownerPending232"],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:attack_damage",base:6}]}
 execute if score @s LVL matches 20..29 run summon minecraft:wolf ~ ~ ~ {PortalCooldown:2100,Team:"white",CollarColor:4,DeathLootTable:"empty",Tags:["lv2","familiar","wolfFamiliar","ownerPending232"],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:attack_damage",base:6}]}
 execute if score @s LVL matches 30..39 run summon minecraft:wolf ~ ~ ~ {PortalCooldown:2100,Team:"white",CollarColor:4,DeathLootTable:"empty",Tags:["lv3","familiar","wolfFamiliar","ownerPending232"],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:attack_damage",base:6}]}
@@ -24,8 +24,7 @@ execute if score @s LVL matches 80..89 run summon minecraft:wolf ~ ~ ~ {PortalCo
 execute if score @s LVL matches 90.. run summon minecraft:wolf ~ ~ ~ {PortalCooldown:2100,Team:"white",CollarColor:4,DeathLootTable:"empty",Tags:["lv9","familiar","wolfFamiliar","ownerPending232"],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:attack_damage",base:6}]}
 data modify entity @e[tag=ownerPending232,limit=1,sort=nearest] Owner set from entity @s UUID
 
-# 【追加：2026-09-12 スニーク召喚（sneak_time 1以上）時はTPしない使い魔にする。
-#   スコア・ストレージ・タグを増やさず、レギンス(ArmorItems[1])にフラグを仕込む方式】
+# スニーク召喚（sneak_time 1以上）のときは、TP しない使い魔にする（レギンスにフラグを入れる）
 execute if score @s sneak_time matches 1.. run data modify entity @e[tag=ownerPending232,limit=1,sort=nearest] equipment.legs set value {id:"minecraft:leather_leggings",count:1,components:{"minecraft:custom_data":{NoFollow:1b}}}
 
 tag @e[tag=ownerPending232] remove ownerPending232

@@ -1,5 +1,5 @@
 # 命名：choice_a_show
-# 説明：【追加：2026-10-09 ルブラ編】選択 A をチャットに出す：［ミラの味方をする］4211 ／［オルドの言うことも分かる］4212 ／［黙っている］4213
+# 説明：選択 A をチャットに出す：［ミラの味方をする］4211 ／［オルドの言うことも分かる］4212 ／［黙っている］4213
 # 実行条件：実行者 プレイヤー（会話の最後の Command、またはオルドに話しかけたとき）
 # >/function neofunction:system/adv/tick/quest/40/d2/421（会話の Command）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/904

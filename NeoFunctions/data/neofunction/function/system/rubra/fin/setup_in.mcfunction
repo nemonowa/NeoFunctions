@@ -1,5 +1,5 @@
 # 命名：setup_in
-# 説明：【追加：2026-10-09 ルブラ編】終章の目印を置き直す：古いもの（タグ rubra_fin）を消し、目印とヴァルカを置き、記録を初めに戻す
+# 説明：終章の目印を置き直す：古いもの（タグ rubra_fin）を消し、目印とヴァルカを置き、記録を初めに戻す
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/fin/setup_2
 # =/function neofunction:system/rubra/fin/setup_in

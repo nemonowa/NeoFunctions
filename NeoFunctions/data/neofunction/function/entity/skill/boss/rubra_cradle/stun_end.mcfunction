@@ -1,5 +1,5 @@
 # 命名：stun_end
-# 説明：【追加：2026-10-14 ルブラ編】気絶が明けた：セレンがまた浮き上がって守りを取り戻し、欠片が 4 つ生える
+# 説明：気絶が明けた：セレンがまた浮き上がって守りを取り戻し、欠片が 4 つ生える
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/stun_tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/stun_end

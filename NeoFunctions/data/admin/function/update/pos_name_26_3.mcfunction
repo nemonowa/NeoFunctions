@@ -233,7 +233,7 @@ execute if data storage pos:prev {name:'{"text":"ビリーの野営地","obfusca
 tellraw @s [{"text":"ストレージ pos の文章を 26.3 の形に置き換えました（対象 225 個。すでに直っているものは変えていません）","color":"green"}]
 
 
-# 【変更：2026-09-29 26.3対応】各地点に番号(id)を足す（.macro が pos:$(id) から名前をコピーするようにしたため。番号を持っていない地点だけ）
+# 各地点に番号(id)を足す（.macro が pos:$(id) から名前をコピーするようにしたため。番号を持っていない地点だけ）
 scoreboard players set #pos_id temp 0
 data modify storage admin:update pos_id set value {n:0}
 function admin:update/pos_id_loop with storage admin:update pos_id

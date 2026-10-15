@@ -1,6 +1,6 @@
 # 命名：choice_b_stop
-# 説明：【追加：2026-10-09 ルブラ編】選択 B「止める」
-# 説明：【変更：2026-10-14】戦いはやめた（ユーザーの判断）。セレンは「それが、あなたの選択なのね」と受け止め、ほかの選択と同じく最初の泉の話をして去る（428_end）
+# 説明：選択 B「止める」
+# 説明：セレンは「それが、あなたの選択なのね」と受け止め、ほかの選択と同じく最初の泉の話をして去る（428_end）
 # 実行条件：実行者 プレイヤー。#temp main_story 428
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_b
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_b_stop

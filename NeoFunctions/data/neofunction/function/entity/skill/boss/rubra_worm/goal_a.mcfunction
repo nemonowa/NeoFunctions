@@ -1,5 +1,5 @@
 # 命名：goal_a
-# 説明：【追加：2026-10-08 ルブラ編】目標を次の狙いの真下（ax, -46, az）にする
+# 説明：目標を次の狙いの真下（ax, -46, az）にする
 # 実行条件：引数 worm.next
 # >/function neofunction:entity/skill/boss/rubra_worm/plan
 # =/function neofunction:entity/skill/boss/rubra_worm/goal_a

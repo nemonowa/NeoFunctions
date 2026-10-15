@@ -1,5 +1,5 @@
 # 命名：433_end
-# 説明：【追加：2026-10-09 ルブラ編】塔の場面のあと：ミラは揺籃の最初の区画（目印 rubra_mira_c1）へ先に下りる
+# 説明：塔の場面のあと：ミラは揺籃の最初の区画（目印 rubra_mira_c1）へ先に下りる
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/433（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d3/433_end

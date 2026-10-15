@@ -1,5 +1,5 @@
 # 命名：choice_c_hide
-# 説明：【追加：2026-10-09 ルブラ編】選択 C「伏せる」：オルドと三人だけの短い場面。街の人々は何も知らないまま（終章で灯籠の支えが入らない）
+# 説明：選択 C「伏せる」：オルドと三人だけの短い場面。街の人々は何も知らないまま（終章で灯籠の支えが入らない）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d3/choice_c
 # =/function neofunction:system/adv/tick/quest/40/d3/choice_c_hide

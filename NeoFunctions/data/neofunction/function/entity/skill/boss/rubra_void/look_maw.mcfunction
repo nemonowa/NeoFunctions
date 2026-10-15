@@ -1,5 +1,5 @@
 # 命名：look_maw
-# 説明：【追加：2026-10-13 ルブラ編】第 3 形態の見た目：上あご・下あご（黒い板）、牙（泣く黒曜石）、中の赤い星
+# 説明：第 3 形態の見た目：上あご・下あご（黒い板）、牙（泣く黒曜石）、中の赤い星
 # 実行条件：実行位置 顎の真ん中
 # >/function neofunction:entity/skill/boss/rubra_void/form3_start
 # >/function neofunction:entity/skill/boss/rubra_void/ctl_tick

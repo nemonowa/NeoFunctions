@@ -1,5 +1,5 @@
 # 命名：jpick
-# 説明：【追加：2026-10-09 ルブラ編】街に置いた手記を右クリック：その一（1908）・その三（1910）・その四（1911）。人ごとに一度（タグ rubra_j1・rubra_j3・rubra_j4）
+# 説明：街に置いた手記を右クリック：その一（1908）・その三（1910）・その四（1911）。人ごとに一度（タグ rubra_j1・rubra_j3・rubra_j4）
 # 実行条件：実行者 プレイヤー（クリックされた interaction にタグ rubra_clicked）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/jpick

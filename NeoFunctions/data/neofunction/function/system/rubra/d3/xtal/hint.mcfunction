@@ -1,5 +1,5 @@
 # 命名：hint
-# 説明：【追加：2026-10-14 ルブラ編】一つ目の結晶の封に近づいたとき（一度だけ）：ミラが守り石の使い方を口にする
+# 説明：一つ目の結晶の封に近づいたとき（一度だけ）：ミラが守り石の使い方を口にする
 # 実行条件：実行者 プレイヤー（封のそば）
 # >/function neofunction:system/adv/tick/quest/40/d3/zone
 # =/function neofunction:system/rubra/d3/xtal/hint

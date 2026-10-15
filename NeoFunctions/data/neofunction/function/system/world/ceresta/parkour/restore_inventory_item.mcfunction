@@ -3,7 +3,7 @@
 # > 呼び出し元Functionのパス：neofunction:system/world/ceresta/parkour/restore_inventory_loop
 # =/function neofunction:system/world/ceresta/parkour/restore_inventory_item
 
-# 【変更：2026-09-27 26.3対応】アイテムを item_display から item replace … from で復元する（マクロ $(id)$(tag) $(Count) は 26.3 のアイテム形式を埋め込めないため）
+# アイテムを item_display から item replace … from で復元する（マクロ $(id)$(tag) $(Count) は 26.3 のアイテム形式を埋め込めないため）
 execute if data storage neofunction:dungeon_tmp work[{Slot:0b}] run item replace entity @s hotbar.0 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents
 execute if data storage neofunction:dungeon_tmp work[{Slot:1b}] run item replace entity @s hotbar.1 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents
 execute if data storage neofunction:dungeon_tmp work[{Slot:2b}] run item replace entity @s hotbar.2 from entity @e[type=item_display,tag=parkour_restore,limit=1] contents

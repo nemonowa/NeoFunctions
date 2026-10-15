@@ -10,7 +10,7 @@ execute if score @s MusicTimer matches -2147483648..2147483647 run function neof
 execute if entity @s[x=800,y=-64,z=930,dx=200,dy=512,dz=220] run function neofunction:system/music/city_billy/change_to_this
 execute if entity @s[x=750,y=-64,z=1540,dx=300,dy=512,dz=200] run function neofunction:system/music/pastorale3/change_to_this
 execute if entity @s[x=400,y=-64,z=2000,dx=600,dy=512,dz=500] run function neofunction:system/music/city_luxefa/change_to_this
-# 【追加：2026-10-13 ルブラ編】紅鉢の街ルブラ（クレーターの中心 921, 3283・縁は半径 58〜65 → 半径 70 の四角）
+# 紅鉢の街ルブラ（クレーターの中心 921, 3283・縁は半径 58〜65 → 半径 70 の四角）
 execute if entity @s[x=851,y=-64,z=3213,dx=140,dy=512,dz=140] run function neofunction:system/music/harvest3/change_to_this
 
 execute if entity @s[x=800,y=-64,z=930,dx=200,dy=512,dz=220] run title @s title {"text": "ビリーの野営地","color": "green","bold": true,"underlined": true}

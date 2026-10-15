@@ -1,5 +1,5 @@
 # 命名：335
-# 説明：【追加：2026-10-14 ルブラ編】スペルブック:【鉱脈感知】（item 1983）を習得する。スキル 260
+# 説明：スペルブック:【鉱脈感知】（item 1983）を習得する。スキル 260
 # >/function neofunction:system/trigger/code
 # =/function neofunction:system/trigger/code/335
 

@@ -1,5 +1,5 @@
 # 命名：heart_break
-# 説明：【追加：2026-10-13 ルブラ編】黒い心臓が砕ける：消える（数が減るので、form3 が顎を 10 削る）
+# 説明：黒い心臓が砕ける：消える（数が減るので、form3 が顎を 10 削る）
 # 実行条件：実行者 黒い心臓
 # >/function neofunction:entity/skill/boss/rubra_void/heart_check
 # =/function neofunction:entity/skill/boss/rubra_void/heart_break

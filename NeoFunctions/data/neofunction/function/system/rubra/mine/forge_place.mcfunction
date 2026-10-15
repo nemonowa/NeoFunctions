@@ -1,5 +1,5 @@
 # 命名：forge_place
-# 説明：【追加：2026-10-14 ルブラ編】星鍛冶の金床を置く：右クリックの所（interaction）と名札（text_display）。金床などのブロックの位置で実行する（ブロックはそのまま）
+# 説明：星鍛冶の金床を置く：右クリックの所（interaction）と名札（text_display）。金床などのブロックの位置で実行する（ブロックはそのまま）
 # 実行条件：実行位置 金床のブロックの位置（手で /execute positioned … run function で置く）
 # >（手で実行）
 # =/function neofunction:system/rubra/mine/forge_place

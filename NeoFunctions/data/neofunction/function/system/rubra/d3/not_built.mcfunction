@@ -1,5 +1,5 @@
 # 命名：not_built
-# 説明：【追加：2026-10-09 ルブラ編】第三章の建築が入っていないワールド：何も置かず、進み具合を 432 に戻す（塔へ行く前の所）
+# 説明：第三章の建築が入っていないワールド：何も置かず、進み具合を 432 に戻す（塔へ行く前の所）
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/d3/setup_in
 # =/function neofunction:system/rubra/d3/not_built

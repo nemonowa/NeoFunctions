@@ -1,5 +1,5 @@
 # 命名：form3_start
-# 説明：【追加：2026-10-13 ルブラ編】第 3 形態へ（体力 300 以下）：虚の海が星をもう一度呑もうと、巨大な顎になる。黒い心臓が 4 つ（フェーズ 1）。【変更：2026-10-14】心臓を全部砕くと顎が 15 秒開く。開いているあいだに 200 以下 → 心臓 6、100 以下 → 心臓 8、60 以下 → 発狂。削りきれなければ同じ数の心臓がまた浮かぶ。心臓を砕いても体力は削れない。【変更：2026-10-13】入ってすぐ舞台が崩れる（stage_break、遮る柱・小島がなくなる）
+# 説明：第 3 形態へ（体力 300 以下）：虚の海が星をもう一度呑もうと、巨大な顎になる。黒い心臓が 4 つ（フェーズ 1）。心臓を全部砕くと顎が 15 秒開く。開いているあいだに 200 以下 → 心臓 6、100 以下 → 心臓 8、60 以下 → 発狂。削りきれなければ同じ数の心臓がまた浮かぶ。心臓を砕いても体力は削れない。入ってすぐ舞台が崩れる（stage_break、遮る柱・小島がなくなる）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/form3_start
@@ -9,7 +9,7 @@ data modify storage neofunction:rubra fin merge value {form:3,ckpt:3,a:0,c:0,pul
 kill @e[type=marker,tag=rubra_fin_mark]
 kill @e[tag=rubra_fin_shard]
 function neofunction:entity/skill/boss/rubra_void/pillars_off
-# 【追加：2026-10-15】縁（真ん中から 22〜30 マス）に黒いカーペット（黒い水）を敷く
+# 縁（真ん中から 22〜30 マス）に黒いカーペット（黒い水）を敷く
 function neofunction:entity/skill/boss/rubra_void/rim_on
 tp @s 921.5 214 3282.5
 data modify entity @s CustomName set value {"text":"ヴォイド・ゼロ","color":"#6A5ACD","bold":true,"italic":false}

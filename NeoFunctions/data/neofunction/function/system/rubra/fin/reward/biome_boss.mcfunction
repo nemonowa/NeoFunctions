@@ -1,5 +1,5 @@
 # 命名：biome_boss
-# 説明：【追加：2026-10-15 ルブラ編】再戦・やり直しのとき、星還りの空（舞台のまわり）を boss のバイオームに塗り戻す。1 回の fillbiome は 32768 ブロックまでなので 32 の箱に分ける
+# 説明：再戦・やり直しのとき、星還りの空（舞台のまわり）を boss のバイオームに塗り戻す。1 回の fillbiome は 32768 ブロックまでなので 32 の箱に分ける
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/fin/reward/clear
 # =/function neofunction:system/rubra/fin/reward/biome_boss

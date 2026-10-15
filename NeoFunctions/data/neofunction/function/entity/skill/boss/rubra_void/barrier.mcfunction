@@ -1,5 +1,5 @@
 # 命名：barrier
-# 説明：【追加：2026-10-09 ルブラ編】星読みの結界（セレンを守り石だけで救い、セレンの信頼が 1 以上のとき）：近くの人に耐性と再生を少しのあいだ
+# 説明：星読みの結界（セレンを守り石だけで救い、セレンの信頼が 1 以上のとき）：近くの人に耐性と再生を少しのあいだ
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/barrier

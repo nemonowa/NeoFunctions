@@ -1,5 +1,5 @@
 # 命名：413
-# 説明：【追加：2026-10-08 ルブラ編】星の台の謎が解けた。縦穴のレールが一本につながる。ミラは先にトロッコで大空洞へ下りる
+# 説明：星の台の謎が解けた。縦穴のレールが一本につながる。ミラは先にトロッコで大空洞へ下りる
 # 実行条件：実行者 プレイヤー（台を回した人）。三つの扉がすべて開いたとき
 # >/function neofunction:system/rubra/d1/ped/apply
 # =/function neofunction:system/adv/tick/quest/40/d1/413
@@ -7,7 +7,7 @@
 # 内容
 execute if data storage neofunction:rubra d1{solved:1b} run return 0
 data modify storage neofunction:rubra d1.solved set value 1b
-# 【追加：2026-10-14】縦穴のバリアブロックの囲いを外す
+# 縦穴のバリアブロックの囲いを外す
 function neofunction:system/rubra/d1/shaft_open
 execute if score #temp main_story matches 411..412 run scoreboard players set #temp main_story 413
 playsound minecraft:block.beacon.activate block @a[distance=..48] ~ ~ ~ 1 0.8

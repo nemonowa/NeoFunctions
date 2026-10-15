@@ -1,6 +1,6 @@
 # 命名：star_hit
-# 説明：【追加：2026-10-13 ルブラ編】小さな黒星の着弾：まわり 3 マス（【変更：2026-10-13】2.5 → 3）の人に 8 ダメージ。波紋のように、半径 2 と 4 の輪に黒い水を残す
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：小さな黒星の着弾：まわり 3 マス（2.5 → 3）の人に 8 ダメージ。波紋のように、半径 2 と 4 の輪に黒い水を残す
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行位置 着弾した床の上
 # >/function neofunction:entity/skill/boss/rubra_void/star_fall
 # =/function neofunction:entity/skill/boss/rubra_void/star_hit

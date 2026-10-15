@@ -1,5 +1,5 @@
 # 命名：defeated
-# 説明：【追加：2026-10-08 ルブラ編】戦いの途中なのに本体がいない（崩れる演出を通らずに倒れた）ときの取りこぼし対策：残りを片付け、真ん中の穴のそばに星の血晶を落として 416 へ
+# 説明：戦いの途中なのに本体がいない（崩れる演出を通らずに倒れた）ときの取りこぼし対策：残りを片付け、真ん中の穴のそばに星の血晶を落として 416 へ
 # 実行条件：実行者 プレイヤー（大空洞）。#temp main_story 415
 # >/function neofunction:system/adv/tick/quest/40/d1/zone
 # =/function neofunction:entity/skill/boss/rubra_worm/defeated

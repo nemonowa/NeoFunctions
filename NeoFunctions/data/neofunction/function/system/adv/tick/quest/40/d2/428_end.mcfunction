@@ -1,5 +1,5 @@
 # 命名：428_end
-# 説明：【追加：2026-10-09 ルブラ編】セレンが去ったあと：見た目のセレンを消し、最奥の小部屋「最初の泉」の扉を開ける
+# 説明：セレンが去ったあと：見た目のセレンを消し、最奥の小部屋「最初の泉」の扉を開ける
 # 実行条件：実行者 プレイヤー（会話の最後の Command）、またはセレン（逃げたとき）
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_b_listen（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_b_go（会話の Command）

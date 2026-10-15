@@ -1,5 +1,5 @@
 # 命名：build
-# 説明：【追加：2026-10-14 ルブラ編】討伐の報酬ゾーンを、星還りの空の真ん中（921, 200, 3282）に出す：真ん中に固定の宝箱（中身は後で）、まわり半径 4 に rare3（✯3 Random LootTable、neofunction:chest/3）の宝箱 8 つ、北にアンカー 139「星還りの空」、南に帰還ゲート（塔の一階へ）。【追加：2026-10-14】アンカーと宝箱のあいだにセレン（再戦・エリートチャレンジの受付、refight/selen）
+# 説明：討伐の報酬ゾーンを、星還りの空の真ん中（921, 200, 3282）に出す：真ん中に固定の宝箱（中身は後で）、まわり半径 4 に rare3（✯3 Random LootTable、neofunction:chest/3）の宝箱 8 つ、北にアンカー 139「星還りの空」、南に帰還ゲート（塔の一階へ）。アンカーと宝箱のあいだにセレン（再戦・エリートチャレンジの受付、refight/selen）
 # 説明：ボス戦の会場はそのまま場所として残る（舞台は片付けない）。再戦のときは reward/clear で消す（アンカーも）。実体はタグ rubra_reward（rubra_fin を付けないので、終章の片付け tidy_fin では消えない）。最初から check を付けて共通の出現処理を通さない
 # 実行条件：どこでも（449 から。舞台のまわりのチャンクが読み込まれていること）
 # >/function neofunction:system/adv/tick/quest/40/fin/449
@@ -42,10 +42,10 @@ data modify storage pos:139 x set value 921.5d
 data modify storage pos:139 y set value 200.0d
 data modify storage pos:139 z set value 3270.5d
 execute in neodimension:ceresta_festa positioned 921.5 201 3268.5 run particle minecraft:end_rod ~ ~ ~ 0.5 1 0.5 0.1 60 force @a[distance=..128]
-# 帰還ゲート（南、真ん中から 14 マス）：カエルのボスのゲートを写したストラクチャー rubra/tower_gate（中のエンドゲートウェイの出口が塔の一階 917, 48, 3284）。【変更：2026-10-14】表示エンティティの光の門から入れかえた
+# 帰還ゲート（南、真ん中から 14 マス）：カエルのボスのゲートを写したストラクチャー rubra/tower_gate（中のエンドゲートウェイの出口が塔の一階 917, 48, 3284）。表示エンティティの光の門から入れかえた
 execute in neodimension:ceresta_festa run place template neofunction:rubra/tower_gate 919 199 3294
 # セレン（再戦の受付。報酬を消しても残る：タグ rubra_sky_selen。いなければ出す）
 execute in neodimension:ceresta_festa unless entity @e[type=mannequin,tag=rubra_sky_selen] run function neofunction:system/rubra/fin/refight/selen
 data modify storage neofunction:rubra reward set value 1b
-# 【追加：2026-10-15】舞台のまわりを safedungeon のバイオームにする（報酬の場所の音楽）。再戦・やり直しで reward/clear が boss に戻す
+# 舞台のまわりを safedungeon のバイオームにする（報酬の場所の音楽）。再戦・やり直しで reward/clear が boss に戻す
 function neofunction:system/rubra/fin/reward/biome_safe

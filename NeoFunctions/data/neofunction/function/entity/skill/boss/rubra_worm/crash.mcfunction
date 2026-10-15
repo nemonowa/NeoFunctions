@@ -1,5 +1,5 @@
 # 命名：crash
-# 説明：【追加：2026-10-14 ルブラ編】突進の頭が柱か壁にぶつかった：柱なら柱にひび（3 回で崩れる、pillar_hit）。スタンする（stun_start）
+# 説明：突進の頭が柱か壁にぶつかった：柱なら柱にひび（3 回で崩れる、pillar_hit）。スタンする（stun_start）
 # 実行条件：実行者 本体。実行位置 ぶつかった所
 # >/function neofunction:entity/skill/boss/rubra_worm/charge_tick
 # =/function neofunction:entity/skill/boss/rubra_worm/crash

@@ -1,5 +1,5 @@
 # 命名：emerge
-# 説明：【追加：2026-10-08 ルブラ編】床を割って飛び出す：てっぺん（worm.next の p）へ。【変更：2026-10-14】花を食べる・巨人の像を壊すのはやめた
+# 説明：床を割って飛び出す：てっぺん（worm.next の p）へ。
 # 実行条件：実行者・実行位置 本体（地中）
 # >/function neofunction:entity/skill/boss/rubra_worm/warn
 # =/function neofunction:entity/skill/boss/rubra_worm/emerge

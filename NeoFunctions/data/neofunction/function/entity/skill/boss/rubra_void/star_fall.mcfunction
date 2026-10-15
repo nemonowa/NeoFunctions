@@ -1,5 +1,5 @@
 # 命名：star_fall
-# 説明：【追加：2026-10-13 ルブラ編】小さな黒星 1 つ：0.6 マス落ちる（【変更：2026-10-13】1 → 0.6、ゆっくりに）。足もと（y200.2）に半径 3 の赤い輪。y201 まで来たら着弾（star_hit）。舞台の外へ落ちたら消える
+# 説明：小さな黒星 1 つ：0.6 マス落ちる（1 → 0.6、ゆっくりに）。足もと（y200.2）に半径 3 の赤い輪。y201 まで来たら着弾（star_hit）。舞台の外へ落ちたら消える
 # 実行条件：実行者・実行位置 小さな黒星
 # >/function neofunction:entity/skill/boss/rubra_void/star_tick
 # =/function neofunction:entity/skill/boss/rubra_void/star_fall

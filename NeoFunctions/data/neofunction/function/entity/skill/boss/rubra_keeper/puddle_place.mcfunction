@@ -1,5 +1,5 @@
 # 命名：puddle_place
-# 説明：【追加：2026-10-09 ルブラ編】見つけた高さに黒い水溜まりを広げる（5×5 を 1 マスずつ。下が地面のマスだけ。puddle_cell）
+# 説明：見つけた高さに黒い水溜まりを広げる（5×5 を 1 マスずつ。下が地面のマスだけ。puddle_cell）
 # 実行条件：実行位置 地面の上（ブロックの高さにそろえてある）
 # >/function neofunction:entity/skill/boss/rubra_keeper/puddle_down
 # =/function neofunction:entity/skill/boss/rubra_keeper/puddle_place

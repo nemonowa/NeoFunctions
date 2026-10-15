@@ -1,5 +1,5 @@
 # 命名：ink_age
-# 説明：【追加：2026-10-09 ルブラ編】黒い水が古くなる（1 秒ごと）：6 秒たったもの（rubra_ink5）は乾いて消える。ほかは 1 つ古く
+# 説明：黒い水が古くなる（1 秒ごと）：6 秒たったもの（rubra_ink5）は乾いて消える。ほかは 1 つ古く
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ink_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ink_age

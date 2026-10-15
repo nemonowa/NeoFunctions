@@ -1,5 +1,5 @@
 # 命名：form1
-# 説明：【追加：2026-10-09 ルブラ編】第 1 形態「ヴォイド・ゼロ」：黒い膜のあいだは攻撃が通らない（耐性 V）。星灯の柱 8 本を灯すと膜が剥がれ、15 秒攻撃が通る。そのあと柱は消える
+# 説明：第 1 形態「ヴォイド・ゼロ」：黒い膜のあいだは攻撃が通らない（耐性 V）。星灯の柱 8 本を灯すと膜が剥がれ、15 秒攻撃が通る。そのあと柱は消える
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/form1

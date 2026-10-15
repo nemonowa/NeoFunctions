@@ -1,5 +1,5 @@
 # 命名：win
-# 説明：【追加：2026-10-14 ルブラ編】クリア後の再戦で勝った（rise から）：結末の選択は出さず、星が空へ還る光だけを見せて片付け、3 秒後に報酬ゾーンを出し直す。次の再戦は第 1 形態から
+# 説明：クリア後の再戦で勝った（rise から）：結末の選択は出さず、星が空へ還る光だけを見せて片付け、3 秒後に報酬ゾーンを出し直す。次の再戦は第 1 形態から
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/rise
 # =/function neofunction:system/rubra/fin/refight/win

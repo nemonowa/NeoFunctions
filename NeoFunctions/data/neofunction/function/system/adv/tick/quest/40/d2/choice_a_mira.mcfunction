@@ -1,5 +1,5 @@
 # 命名：choice_a_mira
-# 説明：【追加：2026-10-09 ルブラ編】選択 A「ミラの味方をする」：trust.mira +1
+# 説明：選択 A「ミラの味方をする」：trust.mira +1
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_a_mira

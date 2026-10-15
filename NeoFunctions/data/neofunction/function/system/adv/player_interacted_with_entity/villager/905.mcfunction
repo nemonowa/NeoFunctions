@@ -1,5 +1,5 @@
 # 命名：905
-# 説明：【追加：2026-10-09 ルブラ編】カシム（隊商の長）に話しかけたとき。421（選択 A のあと）で夜の湖のほとりの話。それ以外はひとこと
+# 説明：カシム（隊商の長）に話しかけたとき。421（選択 A のあと）で夜の湖のほとりの話。それ以外はひとこと
 # 実行条件：実行者・実行位置 カシム（村人、DeathLootTable neofunction:asset/summon/905）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager
 # =/function neofunction:system/adv/player_interacted_with_entity/villager/905

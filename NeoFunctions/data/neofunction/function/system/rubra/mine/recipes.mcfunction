@@ -1,5 +1,5 @@
 # 命名：recipes
-# 説明：【追加：2026-10-14 ルブラ編】星鍛冶の金床の強化の表（storage neofunction:rubra forge.r）。キーは強化前の道具の custom_model_data の番号（文字列）
+# 説明：星鍛冶の金床の強化の表（storage neofunction:rubra forge.r）。キーは強化前の道具の custom_model_data の番号（文字列）
 # 説明：1 つの行：to（強化後の番号）、m1・n1（素材 1 の番号と数）、m2・n2（素材 2。無いときは 0・0）、need（足りないときに見せる文）
 # 説明：今後の防具・武器も、ここに行を足すだけで同じ金床で強化できる。表を変えたら v を上げる（use の判定も同じ数に）
 # 実行条件：どこでも

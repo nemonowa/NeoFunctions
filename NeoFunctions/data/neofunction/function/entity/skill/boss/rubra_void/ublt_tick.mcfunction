@@ -1,5 +1,5 @@
 # 命名：ublt_tick
-# 説明：【追加：2026-10-14 ルブラ編】黒い槍 1 つ（毎 tick）：向きのまま 1 マス進む。人に当たると 7 ダメージ。床にぶつかると弾けて黒い水を 1 マス残す。舞台の下（y195）や遠く（真ん中から 70 マス）で消える
+# 説明：黒い槍 1 つ（毎 tick）：向きのまま 1 マス進む。人に当たると 7 ダメージ。床にぶつかると弾けて黒い水を 1 マス残す。舞台の下（y195）や遠く（真ん中から 70 マス）で消える
 # 実行条件：実行者・実行位置 黒い槍
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/ublt_tick

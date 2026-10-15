@@ -10,7 +10,7 @@
 execute at @s if biome ~ ~ ~ neodimension:cerestafesta/skull run return run function neofunction:entity/.spawn/mob/.dim/ceresta/skull
 # execute at @s if biome ~ ~ ~ neodimension:cerestafesta/lux run return run function neofunction:entity/.spawn/dim/ceresta/lux
 execute at @s if biome ~ ~ ~ neodimension:cerestafesta/frogarea run return run function neofunction:entity/.spawn/mob/.dim/ceresta/frogarea
-# 【追加：2026-10-15 ルブラ編】メサ（紅鉢の街ルブラのまわり）
+# メサ（紅鉢の街ルブラのまわり）
 execute at @s if biome ~ ~ ~ neodimension:cerestafesta/mesa run return run function neofunction:entity/.spawn/mob/.dim/ceresta/mesa
 # execute at @s if biome ~ ~ ~ neodimension:cerestafesta/rod run return run function neofunction:entity/.spawn/dim/ceresta/rod
 # execute at @s if biome ~ ~ ~ neodimension:cerestafesta/snow run return run function neofunction:entity/.spawn/dim/ceresta/snow

@@ -1,5 +1,5 @@
 # 命名：434
-# 説明：【追加：2026-10-09 ルブラ編】浮遊の間でミラに追いつく：重さが無い。宙に浮いた足場を、青く光る縁をたどって渡る。ミラは闇の間の入口へ先に行く
+# 説明：浮遊の間でミラに追いつく：重さが無い。宙に浮いた足場を、青く光る縁をたどって渡る。ミラは闇の間の入口へ先に行く
 # 実行条件：実行者 プレイヤー。#temp main_story 433
 # >/function neofunction:system/adv/tick/quest/40/d3/zone
 # =/function neofunction:system/adv/tick/quest/40/d3/434

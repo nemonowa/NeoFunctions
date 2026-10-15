@@ -1,5 +1,5 @@
 # 命名：frags
-# 説明：【追加：2026-10-09 ルブラ編】4 つの欠片（見た目と当たり判定）を、向きの印のまわり 2.6 マスに 90 度おきに置く（【変更：2026-10-14】6 つから 4 つに）
+# 説明：4 つの欠片（見た目と当たり判定）を、向きの印のまわり 2.6 マスに 90 度おきに置く（6 つから 4 つに）
 # 実行条件：実行者・実行位置 向きの印（marker、タグ rubra_cradle_rot。本体の 1 マス上）
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/frags

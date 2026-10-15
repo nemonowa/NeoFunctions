@@ -1,5 +1,5 @@
 # 命名：dark_lit
-# 説明：【追加：2026-10-08 ルブラ編】星核の欠片の灯り。暗闇を消して暗視（10 秒を切ると点滅するので 12 秒で上書き）
+# 説明：星核の欠片の灯り。暗闇を消して暗視（10 秒を切ると点滅するので 12 秒で上書き）
 # 実行条件：実行者 プレイヤー（オフハンドに星核の欠片）
 # >/function neofunction:system/adv/tick/dungeon/rubra1/dark
 # =/function neofunction:system/adv/tick/dungeon/rubra1/dark_lit

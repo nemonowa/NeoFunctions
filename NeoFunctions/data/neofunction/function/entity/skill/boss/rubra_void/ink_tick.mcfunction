@@ -1,5 +1,5 @@
 # 命名：ink_tick
-# 説明：【追加：2026-10-09 ルブラ編】黒い水：滴りが歩いた跡に垂らす（4 tick ごと）、1 秒ごとに古くなり 6 秒で乾く、上に立つと削られる（0.5 秒ごと） 【変更：2026-10-13】上に立つと衰弱と、乗った瞬間に即時ダメージ I（ink_step）
+# 説明：黒い水：滴りが歩いた跡に垂らす（4 tick ごと）、1 秒ごとに古くなり 6 秒で乾く、上に立つと削られる（0.5 秒ごと） 上に立つと衰弱と、乗った瞬間に即時ダメージ I（ink_step）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/ink_tick

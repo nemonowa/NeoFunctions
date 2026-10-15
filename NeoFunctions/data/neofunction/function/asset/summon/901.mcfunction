@@ -1,5 +1,5 @@
 # 命名：ソウルイーター
-# 説明：【追加：2026-10-08 ルブラ編】紅脈の坑の大空洞「星の畑」のボス。体力を持つ見えない本体（頭）。体の節は表示エンティティで、entity/skill/boss/rubra_worm が動かす
+# 説明：紅脈の坑の大空洞「星の畑」のボス。体力を持つ見えない本体（頭）。体の節は表示エンティティで、entity/skill/boss/rubra_worm が動かす
 # 説明：DeathLootTable は空。倒したときの演出と星の血晶は rubra_worm/dying で出す
 # >/function neofunction:system/adv/tick/quest/40/d1/boss_start
 # =/function neofunction:asset/summon/901

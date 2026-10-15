@@ -1,5 +1,5 @@
 # 命名：extract
-# 説明：【追加：2026-10-09 ルブラ編】欠片 i を守り石で引き剥がした：欠片はするりと抜けて、青い光に包まれて消える（傷つけない）。stone +1、セレンの体力が 40 減る
+# 説明：欠片 i を守り石で引き剥がした：欠片はするりと抜けて、青い光に包まれて消える（傷つけない）。stone +1、セレンの体力が 40 減る
 # 実行条件：引数 i（cradle.pull）
 # >/function neofunction:entity/skill/boss/rubra_cradle/pull_tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/extract

@@ -1,5 +1,5 @@
 # 命名：seg_hot
-# 説明：【追加：2026-10-08 ルブラ編】i 番目の節を光らせる（マグマブロック・赤い発光）。当たり判定に rubra_hot を付けて攻撃を通す
+# 説明：i 番目の節を光らせる（マグマブロック・赤い発光）。当たり判定に rubra_hot を付けて攻撃を通す
 # 実行条件：引数 i
 # >/function neofunction:entity/skill/boss/rubra_worm/set_glow
 # =/function neofunction:entity/skill/boss/rubra_worm/seg_hot

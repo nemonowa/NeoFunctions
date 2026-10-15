@@ -1,5 +1,5 @@
 # 命名：star_spawn
-# 説明：【追加：2026-10-13 ルブラ編】小さな黒星を 1 つ出す（今の所。高さで落ちる時間がずれる）
+# 説明：小さな黒星を 1 つ出す（今の所。高さで落ちる時間がずれる）
 # 実行条件：実行位置 出す所（舞台の上の空）
 # >/function neofunction:entity/skill/boss/rubra_void/ult_x
 # >/function neofunction:entity/skill/boss/rubra_void/ult_plus

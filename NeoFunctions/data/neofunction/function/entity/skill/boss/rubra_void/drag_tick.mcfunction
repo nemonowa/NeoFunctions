@@ -1,5 +1,5 @@
 # 命名：drag_tick
-# 説明：【追加：2026-10-09 ルブラ編】鎖で下ろされている星（毎 tick、drag を数え下ろす）：388〜341 降りる（24 マス）、340〜49 とどまる（攻撃が通る）、48〜1 鎖を引きちぎって昇る。1 で柱が消える
+# 説明：鎖で下ろされている星（毎 tick、drag を数え下ろす）：388〜341 降りる（24 マス）、340〜49 とどまる（攻撃が通る）、48〜1 鎖を引きちぎって昇る。1 で柱が消える
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form2
 # =/function neofunction:entity/skill/boss/rubra_void/drag_tick

@@ -1,5 +1,5 @@
 # 命名：upgrade_hall
-# 説明：【追加：2026-10-14 ルブラ編】番人の間と壁画の間の作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d2h 1 で済み）。ブロックは region に直接入れた
+# 説明：番人の間と壁画の間の作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d2h 1 で済み）。ブロックは region に直接入れた
 # 説明：番人の間の水門 4 つと中心の目印を新しい位置へ、壁画の間の水門を二つに、まだ黒い水を流していなければ階段の口を黒い水の膜でふさぐ。番人を倒したあとなら報酬を置き直す
 # 実行条件：実行者 プレイヤー（涸れ泉の聖堂の中、壁画の間の近く。tick/dungeon/rubra2 から）
 # >/function neofunction:system/adv/tick/dungeon/rubra2

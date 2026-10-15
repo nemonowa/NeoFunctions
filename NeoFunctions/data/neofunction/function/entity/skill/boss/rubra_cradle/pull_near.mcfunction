@@ -1,5 +1,5 @@
 # 命名：pull_near
-# 説明：【追加：2026-10-09 ルブラ編】引き剥がしている人が欠片 i から 4 マス以内なら #rc_near temp を 1 に。欠片から守り石の人へ青い光の筋
+# 説明：引き剥がしている人が欠片 i から 4 マス以内なら #rc_near temp を 1 に。欠片から守り石の人へ青い光の筋
 # 実行条件：引数 i（cradle.pull）
 # >/function neofunction:entity/skill/boss/rubra_cradle/pull_tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/pull_near

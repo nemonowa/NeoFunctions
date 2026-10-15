@@ -1,5 +1,5 @@
 # 命名：act
-# 説明：【追加：2026-10-09 ルブラ編】技の予告と当たり（毎 tick）：a＝1 黒い水の柱、2 天墜、3 黒い雨、4 環状の衝撃波の溜め。0 になったら当てる
+# 説明：技の予告と当たり（毎 tick）：a＝1 黒い水の柱、2 天墜、3 黒い雨、4 環状の衝撃波の溜め。0 になったら当てる
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/act

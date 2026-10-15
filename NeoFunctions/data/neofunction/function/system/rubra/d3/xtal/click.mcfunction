@@ -1,5 +1,5 @@
 # 命名：click
-# 説明：【追加：2026-10-14 ルブラ編】結晶を右クリック：守り石（1917）を手に持っていれば引き剥がしを始める（同時に 1 つ。あとから始めた人が優先）。三つ目は、始めると影が 1 体滲み出す
+# 説明：結晶を右クリック：守り石（1917）を手に持っていれば引き剥がしを始める（同時に 1 つ。あとから始めた人が優先）。三つ目は、始めると影が 1 体滲み出す
 # 実行条件：実行者 プレイヤー（クリックされた interaction にタグ rubra_clicked）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d3/xtal/click

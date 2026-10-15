@@ -1,5 +1,5 @@
 {
-  "CommentOut": "【追加：2026-10-08 ルブラ編】紅脈の坑（第一章の迷宮）の範囲にいるあいだ 1 秒ごとに発火。範囲は DungeonGen の迷宮の箱（入口の坑道の奥 x879 より西）",
+  "CommentOut": "紅脈の坑（第一章の迷宮）の範囲にいるあいだ 1 秒ごとに発火。範囲は DungeonGen の迷宮の箱（入口の坑道の奥 x879 より西）",
   "parent": "neofunction:.clock/1s",
   "criteria": {
     "1": {
@@ -7,27 +7,27 @@
       "conditions": {
         "player": {
           "type": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:location": {
-                "position": {
-                  "x": {
-                    "min": 770,
-                    "max": 880
-                  },
-                  "y": {
-                    "min": -64,
-                    "max": 49
-                  },
-                  "z": {
-                    "min": 3230,
-                    "max": 3305
-                  }
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "position": {
+                "x": {
+                  "min": 770,
+                  "max": 880
                 },
-                "dimension": "neodimension:ceresta_festa"
-              }
+                "y": {
+                  "min": -64,
+                  "max": 49
+                },
+                "z": {
+                  "min": 3230,
+                  "max": 3305
+                }
+              },
+              "dimension": "neodimension:ceresta_festa"
             }
           }
+        }
       }
     }
   },

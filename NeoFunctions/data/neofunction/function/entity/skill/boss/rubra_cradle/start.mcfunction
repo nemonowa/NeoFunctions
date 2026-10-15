@@ -1,5 +1,5 @@
 # 命名：start
-# 説明：【追加：2026-10-09 ルブラ編】星喰みのセレンとの戦いを始める：球の広間の中心（目印 rubra_arena_center）に出す
+# 説明：星喰みのセレンとの戦いを始める：球の広間の中心（目印 rubra_arena_center）に出す
 # 実行条件：#temp main_story 437（会話の最後の Command、または負けたあとのやり直し）
 # >/function neofunction:system/adv/tick/quest/40/d3/437
 # =/function neofunction:entity/skill/boss/rubra_cradle/start

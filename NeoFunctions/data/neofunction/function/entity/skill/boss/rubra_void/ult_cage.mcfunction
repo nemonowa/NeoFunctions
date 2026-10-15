@@ -1,5 +1,5 @@
 # 命名：ult_cage
-# 説明：【追加：2026-10-14 ルブラ編】檻：舞台の上にいる人それぞれの足もとを、半径 3.5 の 8 つの黒星で囲む（約 1 秒で着弾）。少し遅れて（約 1.7 秒）真ん中にも 1 つ。輪が落ちる前に抜け出さないと挟まれる
+# 説明：檻：舞台の上にいる人それぞれの足もとを、半径 3.5 の 8 つの黒星で囲む（約 1 秒で着弾）。少し遅れて（約 1.7 秒）真ん中にも 1 つ。輪が落ちる前に抜け出さないと挟まれる
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_cage

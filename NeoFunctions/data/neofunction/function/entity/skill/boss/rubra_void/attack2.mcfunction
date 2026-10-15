@@ -1,5 +1,5 @@
 # 命名：attack2
-# 説明：【追加：2026-10-13 ルブラ編】技を選ぶ（第 2 形態）：天墜・環状の衝撃波・渦の弾幕・床を薙ぐ光線・黒い滴り
+# 説明：技を選ぶ（第 2 形態）：天墜・環状の衝撃波・渦の弾幕・床を薙ぐ光線・黒い滴り
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack
 # =/function neofunction:entity/skill/boss/rubra_void/attack2

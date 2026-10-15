@@ -1,5 +1,5 @@
 # 命名：choice_c
-# 説明：【追加：2026-10-09 ルブラ編】選択 C を選んだ：c＝reveal（広場で明かす。trust.town +1。終章で灯籠の支えが入る）・hide（伏せる）
+# 説明：選択 C を選んだ：c＝reveal（広場で明かす。trust.town +1。終章で灯籠の支えが入る）・hide（伏せる）
 # 実行条件：実行者 プレイヤー。#temp main_story 431。引数 c
 # >/function neofunction:system/adv/tick/quest/40/choice
 # =/function neofunction:system/adv/tick/quest/40/d3/choice_c

@@ -1,5 +1,5 @@
 # 命名：points
-# 説明：【追加：2026-10-09 ルブラ編】第三章の NPC の居場所と仕掛けの目印をすべて置く（座標はここだけに書く）
+# 説明：第三章の NPC の居場所と仕掛けの目印をすべて置く（座標はここだけに書く）
 # 説明：生成プログラム Gen3（scratchpad の rubra_build）が、建物と同じ座標で書き出したもの。建物を作り直したら、これも書き出し直す
 # 説明：仕掛けは目印からの相対位置・距離で動く：浮遊の間（rubra_float、半径 16）、闇の間（rubra_dark、半径 14）、影の湧く所（rubra_shadow_spawn）、
 # 説明：反転の間（rubra_inv_spawn_1〜4＝各部屋の入り口、rubra_inv_r<部屋>_d<扉>＝扉の当たり判定）、球の広間（rubra_arena_center）
@@ -32,7 +32,6 @@ summon interaction 976.5 -26 3312.5 {Tags:["rubra_click","rubra_d3","rubra_invdo
 summon interaction 981.5 -26 3312.5 {Tags:["rubra_click","rubra_d3","rubra_invdoor","rubra_inv_r3_d3"],width:1.2f,height:2.0f,response:1b}
 summon marker 976.5 -26 3304.5 {Tags:["rubra_d3","rubra_inv_spawn_3"]}
 summon marker 972.5 -8 3305.5 {Tags:["rubra_d3","rubra_mira_wait","rubra_mira_c3"]}
-# 【変更：2026-10-14】球の広間を中心 (949, -44, 3296)・半径 21 の平らな床に作り直した
 summon marker 949.5 -44 3296.5 {Tags:["rubra_d3","rubra_arena_center"]}
 summon marker 976.5 -44 3296.5 {Tags:["rubra_d3","rubra_inv_spawn_4"]}
 summon marker 973.5 -44 3294.5 {Tags:["rubra_d3","rubra_mira_wait","rubra_mira_c4"]}

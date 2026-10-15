@@ -1,5 +1,5 @@
 # 命名：赤砂の射手
-# 説明：【追加：2026-10-15 ルブラ編】メサの自然湧きの置き換え先（スケルトン枠）。崖の上から旅人を狙う、乾いた骨の射手（砂漠のスケルトン、パーチド）。骨のあいだに星見草が絡まっている。生成は scratchpad の mesa_mob_gen.py
+# 説明：メサの自然湧きの置き換え先（スケルトン枠）。崖の上から旅人を狙う、乾いた骨の射手（砂漠のスケルトン、パーチド）。骨のあいだに星見草が絡まっている。生成は scratchpad の mesa_mob_gen.py
 # >/function neofunction:entity/.spawn/mob/.dim/ceresta/mesa
 # =/function neofunction:asset/summon/927
 

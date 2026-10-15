@@ -1,5 +1,5 @@
 # 命名：l3bridge_place
-# 説明：【追加：2026-10-14 ルブラ編】光の橋のボタンの右クリックの所だけを置く（今のワールドに足すとき用。setup でも points2 で置く）
+# 説明：光の橋のボタンの右クリックの所だけを置く（今のワールドに足すとき用。setup でも points2 で置く）
 # 実行条件：どこでも
 # =/function neofunction:system/rubra/d1/l3bridge_place
 

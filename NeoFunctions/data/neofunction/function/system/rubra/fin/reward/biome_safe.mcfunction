@@ -1,5 +1,5 @@
 # 命名：biome_safe
-# 説明：【追加：2026-10-15 ルブラ編】討伐のあと、星還りの空（舞台のまわり）を safedungeon のバイオームに塗る（報酬の場所の音楽）。1 回の fillbiome は 32768 ブロックまでなので 32 の箱に分ける
+# 説明：討伐のあと、星還りの空（舞台のまわり）を safedungeon のバイオームに塗る（報酬の場所の音楽）。1 回の fillbiome は 32768 ブロックまでなので 32 の箱に分ける
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/fin/reward/build
 # =/function neofunction:system/rubra/fin/reward/biome_safe

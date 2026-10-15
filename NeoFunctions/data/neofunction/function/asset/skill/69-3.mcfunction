@@ -8,7 +8,6 @@ execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] as @e[tag=enemy,distanc
 
 # 最終衝撃波（一番大きく）＋フラッシュで締める
 #execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] run particle sonic_boom ~ ~0.2 ~ 0 0 0 0 3
-# 【変更：2026-09-28 26.3対応】flash パーティクルは 26.3 で色の指定が必須になったため、1.20.4 と同じ白を指定
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] run particle flash{color:[1.0,1.0,1.0,1.0]} ~ ~0.1 ~ 0 0 0 0 1
 
 # 輪：電撃(青白)とカエル色(緑)を交互に16方向へ配置

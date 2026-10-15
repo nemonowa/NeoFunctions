@@ -1,5 +1,5 @@
 # 命名：ult_start
-# 説明：【追加：2026-10-13 ルブラ編】発狂（体力 60）：顎が裂け、虚の海が最後の力で暴れだす。30 マス上へ昇り、黒星を降らせる（ult_tick、u を数える）。この間は攻撃が通らない。【変更：2026-10-13】「――来る」の大きな文字はやめ、語りだけにした
+# 説明：発狂（体力 60）：顎が裂け、虚の海が最後の力で暴れだす。30 マス上へ昇り、黒星を降らせる（ult_tick、u を数える）。この間は攻撃が通らない。
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form3
 # =/function neofunction:entity/skill/boss/rubra_void/ult_start

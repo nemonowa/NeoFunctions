@@ -1,5 +1,5 @@
 # 命名：selen
-# 説明：【追加：2026-10-14 ルブラ編】星還りの空にセレンを立たせる（再戦・エリートチャレンジの受付）。姿は mannequin、話しかける所は interaction（rubra_click の振り分けで refight/talk へ）
+# 説明：星還りの空にセレンを立たせる（再戦・エリートチャレンジの受付）。姿は mannequin、話しかける所は interaction（rubra_click の振り分けで refight/talk へ）
 # 説明：タグ rubra_sky_selen（rubra_reward・rubra_fin を付けないので、報酬を消しても、終章の片付けでも消えない。終章を完全にやり直す reset_2 で消す）
 # 実行条件：セレスタ次元（reward/build から）
 # >/function neofunction:system/rubra/fin/reward/build

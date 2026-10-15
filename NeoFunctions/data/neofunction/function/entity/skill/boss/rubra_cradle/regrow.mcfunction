@@ -1,5 +1,5 @@
 # 命名：regrow
-# 説明：【追加：2026-10-14 ルブラ編】星核の欠片を 4 つ生やす（守りの形）。前の欠片は消す。戦いの始まり（spawn）と、気絶が明けたとき（stun_end）
+# 説明：星核の欠片を 4 つ生やす（守りの形）。前の欠片は消す。戦いの始まり（spawn）と、気絶が明けたとき（stun_end）
 # 実行条件：実行位置 本体の 1 マス上（向きの印の所。欠片は frags で印のまわりを回る）
 # >/function neofunction:entity/skill/boss/rubra_cradle/spawn
 # >/function neofunction:entity/skill/boss/rubra_cradle/stun_end

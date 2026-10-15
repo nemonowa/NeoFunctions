@@ -1,5 +1,5 @@
 # 命名：choice_c_reveal
-# 説明：【追加：2026-10-09 ルブラ編】選択 C「広場で明かす」：星の広場にみんなが集まり、オルドがすべてを話す。ざわめき、「還せば泉が死ぬ、還さなければ星が死ぬ」、バルド「還そうや」、カシム「水を分ければいい」。trust.town +1
+# 説明：選択 C「広場で明かす」：星の広場にみんなが集まり、オルドがすべてを話す。ざわめき、「還せば泉が死ぬ、還さなければ星が死ぬ」、バルド「還そうや」、カシム「水を分ければいい」。trust.town +1
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d3/choice_c
 # =/function neofunction:system/adv/tick/quest/40/d3/choice_c_reveal

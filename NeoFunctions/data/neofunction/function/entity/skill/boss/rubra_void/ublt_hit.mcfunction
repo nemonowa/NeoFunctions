@@ -1,6 +1,6 @@
 # 命名：ublt_hit
-# 説明：【追加：2026-10-14 ルブラ編】黒い槍が人に当たった：7 ダメージ、槍は弾けて消える
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：黒い槍が人に当たった：7 ダメージ、槍は弾けて消える
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者・実行位置 黒い槍
 # >/function neofunction:entity/skill/boss/rubra_void/ublt_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ublt_hit

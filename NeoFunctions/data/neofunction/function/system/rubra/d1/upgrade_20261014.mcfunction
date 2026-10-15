@@ -1,5 +1,5 @@
 # 命名：upgrade_20261014
-# 説明：【追加：2026-10-14 ルブラ編】2026-10-14 の作り直しを、今のワールドに一度だけ反映する（迷宮に入ったとき、rubra1 から。storage neofunction:rubra d1v 6 で済み。【変更】6→7：使わなくなった巨人の像の印（rubra_golem）と砂の亡者の残りを消す。【変更】5→6：ガラン・ルーの札の窪みを撤去。【変更】4→5：迷路の手がかりを 7 割の大きさ・2 行にした（通路の幅に収める）。【変更】3→4：迷路の入口の刻みをやめた（消すだけ）。【変更】2→3：迷路の入口の刻みと、四の層の古い文字の書きかえを足した。手がかりの文字は暗い所でも読めるように明るさ 15）
+# 説明：紅脈の坑の作り直しを、今のワールドに一度だけ反映する（迷宮に入ったとき、rubra1 から。storage neofunction:rubra d1v 7 で済み）。手がかりの文字は暗い所でも読めるように明るさ 15
 # 説明：ブロック（二の層の迷路・縦穴の囲い・穴の蓋）は region に直接入れた。ここではエンティティと宝箱の中身：二の層の手がかり 3 つ（古いものは消す）、宝箱の戦利品の表、三の層の光の橋のボタン。謎が解けていれば縦穴の囲いを外す。砂の亡者を消す
 # 実行条件：実行者 プレイヤー（迷宮の中）
 # >/function neofunction:system/adv/tick/dungeon/rubra1
@@ -22,7 +22,7 @@ execute in neodimension:ceresta_festa positioned 845.5 25.75 3284.25 run kill @e
 execute in neodimension:ceresta_festa run summon interaction 845.5 25.75 3284.25 {Tags:["rubra_click","rubra_d1","rubra_l3bridge"],width:0.7f,height:0.9f,response:1b}
 execute if data storage neofunction:rubra d1{solved:1b} run function neofunction:system/rubra/d1/shaft_open
 execute in neodimension:ceresta_festa run kill @e[type=husk,tag=rubra_sanddead]
-# 迷路の入口の刻みは消す（【変更】4：いらなくなった）。四の層の古い文字は置き直し
+# 迷路の入口の刻みは消す。四の層の古い文字は置き直す
 execute in neodimension:ceresta_festa run kill @e[type=text_display,tag=rubra_l2sign]
 execute in neodimension:ceresta_festa positioned 821.3 15.4 3268.5 run kill @e[type=text_display,tag=rubra_d1,distance=..0.6]
 execute in neodimension:ceresta_festa run summon text_display 821.3 15.4 3268.5 {Tags:["rubra_d1"],Rotation:[-90.0f,0.0f],billboard:"fixed",brightness:{block:15,sky:15},line_width:220,background:1426063360,text:{text:"",extra:[{text:"星読みの古い文字\n\n",color:"#C9A27E",italic:true},{text:"三つの灯の行き先は\n白い層の迷い路の奥に　鉱夫が刻んだ\n\n",color:"white"},{text:"三つの星そろうとき　鐘を鳴らせ",color:"#C9A27E",italic:true}]}}

@@ -123,11 +123,10 @@ scoreboard objectives add traded_with_villager minecraft.custom:minecraft.traded
 # minecraft.mined
 scoreboard objectives add minedSpawner minecraft.mined:minecraft.spawner "スポナー破壊総数"
 
-# 【追加：2026-10-01】神器のエンチャント（neofunction:asset/enchantment。神槍「天墜」・星葬弓「終焉」・零点鎚「崩壊」・星核鎧「超新星」）に使っている
+# 神器のエンチャント（neofunction:asset/enchantment。神槍「天墜」・星葬弓「終焉」・零点鎚「崩壊」・星核鎧「超新星」）に使っている
 #   neo.nk_id＝発動者と、爆心・演出の表示を結び付ける番号（発動者は一度付いたら同じ番号のまま）
 #   neo.nk_st＝発動者の状態（1〜60＝超新星のため、1000＝使用中。2 発目を止め、超新星ではダメージ無効の条件にも使う）
 #   爆心ごとの値（経過 tick・種類・衝撃波の半径・高さ・速さ）は爆心のマーカーの data に、計算用の値は temp の #nk_* に置いている
-# 【変更：2026-10-02】最初は 8 つ作っていたのを 2 つに減らした（スコアボードはなるべく増やさない）
 # 既存のワールドはここを通らないため、asset/enchantment/core/init が使うときにも同じものを作る
 scoreboard objectives add neo.nk_id dummy
 scoreboard objectives add neo.nk_st dummy

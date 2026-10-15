@@ -1,5 +1,5 @@
 # 命名：cancel
-# 説明：【追加：2026-10-14 ルブラ編】引き剥がしの中断（離れた・攻撃を受けた・守り石を手から離した）
+# 説明：引き剥がしの中断（離れた・攻撃を受けた・守り石を手から離した）
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/d3/xtal/pull_tick
 # =/function neofunction:system/rubra/d3/xtal/cancel

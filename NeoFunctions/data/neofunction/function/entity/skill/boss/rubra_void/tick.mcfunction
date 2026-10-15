@@ -1,5 +1,5 @@
 # 命名：tick
-# 説明：【追加：2026-10-13 ルブラ編】ヴォイド・ゼロの毎 tick：落ちた人を拾う、いなくなったときの片付け、体力のスコア（HP）で形態を進める、形態ごとの処理、発狂、黒い水、弾、黒星、星読みの結界、零点崩壊、衝撃波、技
+# 説明：ヴォイド・ゼロの毎 tick：落ちた人を拾う、いなくなったときの片付け、体力のスコア（HP）で形態を進める、形態ごとの処理、発狂、黒い水、弾、黒星、星読みの結界、零点崩壊、衝撃波、技
 # 実行条件：実行者・実行位置 本体（ghast、タグ rubra_void）
 # >/function neofunction:entity/skill/boss/.neo
 # =/function neofunction:entity/skill/boss/rubra_void/tick
@@ -7,18 +7,18 @@
 # 内容
 execute unless data storage neofunction:rubra fin{state:"fight"} unless data storage neofunction:rubra fin{state:"ult"} run return 0
 execute unless entity @a[distance=..160,gamemode=!spectator] run return run function neofunction:entity/skill/boss/rubra_void/despawn
-# 【追加：2026-10-13】舞台のまわりに落ちた黒いカーペット（黒い水）のアイテムを消す
+# 舞台のまわりに落ちた黒いカーペット（黒い水）のアイテムを消す
 kill @e[type=item,x=860,y=150,z=3220,dx=125,dy=70,dz=125,nbt={Item:{id:"minecraft:black_carpet"}}]
-# 【追加：2026-10-14】再戦：共通の出現処理が済んでから、到達した形態の体力に合わせる
+# 再戦：共通の出現処理が済んでから、到達した形態の体力に合わせる
 execute if data storage neofunction:rubra fin{ckp:1b} if entity @s[tag=mob] run function neofunction:entity/skill/boss/rubra_void/spawn_ckpt
 # 舞台から落ちた人（y150〜191）を拾い上げる
 execute positioned 856 150 3216 as @a[dx=130,dy=41,dz=130,gamemode=!spectator] run function neofunction:entity/skill/boss/rubra_void/catch
-# 【追加：2026-10-14】エリートチャレンジ：黒い滴りを強くし、6 秒ごとに黒い槍で狙い撃つ（elite_tick）
+# エリートチャレンジ：黒い滴りを強くし、6 秒ごとに黒い槍で狙い撃つ（elite_tick）
 execute if data storage neofunction:rubra fin{elite:1b} run function neofunction:entity/skill/boss/rubra_void/elite_tick
 # 黒い水・黒い弾・黒星（発狂中も）
 function neofunction:entity/skill/boss/rubra_void/ink_tick
 execute as @e[type=item_display,tag=rubra_blt] at @s run function neofunction:entity/skill/boss/rubra_void/blt_tick
-# 【追加：2026-10-14】必殺技の黒い槍（自機狙いの速い弾）
+# 必殺技の黒い槍（自機狙いの速い弾）
 execute as @e[type=item_display,tag=rubra_ublt] at @s run function neofunction:entity/skill/boss/rubra_void/ublt_tick
 function neofunction:entity/skill/boss/rubra_void/star_tick
 # 発狂中は必殺技だけ
@@ -49,7 +49,7 @@ execute unless data storage neofunction:rubra fin{rw:0} run function neofunction
 # 技（2.5 秒ごと）
 execute store result score #rv_at temp run data get storage neofunction:rubra fin.at
 scoreboard players add #rv_at temp 1
-# 【追加：2026-10-14】エリートは技の間隔を 2.5 秒 → 1.7 秒に
+# エリートは技の間隔を 2.5 秒 → 1.7 秒に
 execute if data storage neofunction:rubra fin{elite:1b} if score #rv_at temp matches 34.. run scoreboard players set #rv_at temp 0
 execute if score #rv_at temp matches 50.. run scoreboard players set #rv_at temp 0
 execute store result storage neofunction:rubra fin.at int 1 run scoreboard players get #rv_at temp

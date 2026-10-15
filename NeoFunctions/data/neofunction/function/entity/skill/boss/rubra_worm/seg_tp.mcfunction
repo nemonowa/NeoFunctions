@@ -1,5 +1,5 @@
 # 命名：seg_tp
-# 説明：【追加：2026-10-08 ルブラ編】i 番目の節の見た目と当たり判定を (x, y, z) へ
+# 説明：i 番目の節の見た目と当たり判定を (x, y, z) へ
 # 実行条件：引数 i x y z（worm.p）
 # >/function neofunction:entity/skill/boss/rubra_worm/seg
 # =/function neofunction:entity/skill/boss/rubra_worm/seg_tp

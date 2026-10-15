@@ -1,5 +1,5 @@
 # 命名：upgrade_20261014
-# 説明：【追加：2026-10-14 ルブラ編】球の広間の作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d3v 1 で済み）。ブロックは region に直接入れた。広間の中心の目印を新しい位置へ。もうセレンを助けたあとなら報酬を置き直す
+# 説明：球の広間の作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d3v 1 で済み）。ブロックは region に直接入れた。広間の中心の目印を新しい位置へ。もうセレンを助けたあとなら報酬を置き直す
 # 説明：結晶の封（守り石の練習）は近づいたときに置くので、ここでは何もしない（xtal/check）
 # 実行条件：実行者 プレイヤー（零の揺籃の中、球の広間の近く。tick/dungeon/rubra3 から）
 # >/function neofunction:system/adv/tick/dungeon/rubra3

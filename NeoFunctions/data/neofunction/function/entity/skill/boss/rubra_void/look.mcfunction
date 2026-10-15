@@ -1,5 +1,5 @@
 # 命名：look
-# 説明：【追加：2026-10-09 ルブラ編】見た目：黒い水の滴りと渦の粒。第 2 形態は赤い光、第 3 形態は顎の黒い粒。目標のひとこと（5 秒ごと）
+# 説明：見た目：黒い水の滴りと渦の粒。第 2 形態は赤い光、第 3 形態は顎の黒い粒。目標のひとこと（5 秒ごと）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/look

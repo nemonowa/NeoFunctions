@@ -21,7 +21,6 @@ execute if data storage neofunction:inf_bundle Item.components."minecraft:custom
 scoreboard players operation #Calc2 temp += #Calc1 temp
 execute if score #Calc2 temp matches 5120.. run data modify storage neofunction:inf_bundle Item.components."minecraft:custom_data".Count set value 5120
 execute unless score #Calc2 temp matches 5120.. store result storage neofunction:inf_bundle Item.components."minecraft:custom_data".Count int 1 run scoreboard players get #Calc2 temp
-# 【変更：2026-09-28 26.3対応】文章の中で読む NBT の場所が 1.20.4 のままだった（アイテムの独自データは components."minecraft:custom_data"、名前は components."minecraft:custom_name"、頭の防具は equipment.head に変わった）
 summon text_display ~ ~ ~ {Tags:["resolveText","del"],text:[{"text": "","color": "gray","italic": false},{"nbt": 'Item.components."minecraft:custom_data".Count',"storage": "neofunction:inf_bundle"},{"text": "/5120"}],alignment:"center",view_range:0}
 data modify storage neofunction:inf_bundle Item.components."minecraft:lore"[-1] set from entity @e[tag=resolveText,limit=1,sort=nearest] text
 kill @e[tag=resolveText]

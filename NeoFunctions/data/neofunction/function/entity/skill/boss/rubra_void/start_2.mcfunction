@@ -1,5 +1,5 @@
 # 命名：start_2
-# 説明：【追加：2026-10-09 ルブラ編】舞台ができたあと：夜で止め、印の付いた人を舞台へ移し、ボスの浮かぶ所にヴォイド・ゼロを出す
+# 説明：舞台ができたあと：夜で止め、印の付いた人を舞台へ移し、ボスの浮かぶ所にヴォイド・ゼロを出す
 # 実行条件：schedule
 # >/function neofunction:entity/skill/boss/rubra_void/start
 # =/function neofunction:entity/skill/boss/rubra_void/start_2

@@ -1,6 +1,6 @@
 # 命名：pillar_hit
-# 説明：【追加：2026-10-09 ルブラ編】黒い水の柱が噴き上がる：まわり 2.5 マスの人に 8 ダメージ。あとに黒い水
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：黒い水の柱が噴き上がる：まわり 2.5 マスの人に 8 ダメージ。あとに黒い水
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者・実行位置 柱の目印
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/pillar_hit

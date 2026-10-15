@@ -1,5 +1,5 @@
 # 命名：child_wave
-# 説明：【追加：2026-10-09 ルブラ編】星の子のまわり（10 マス）の 4 方向から、黒い滴りが滲み出す
+# 説明：星の子のまわり（10 マス）の 4 方向から、黒い滴りが滲み出す
 # 実行条件：実行者・実行位置 星の子
 # >/function neofunction:entity/skill/boss/rubra_void/child_tick
 # =/function neofunction:entity/skill/boss/rubra_void/child_wave

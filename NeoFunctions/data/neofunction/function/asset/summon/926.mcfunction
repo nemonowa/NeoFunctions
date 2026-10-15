@@ -1,5 +1,5 @@
 # 命名：サンドウォーカー
-# 説明：【追加：2026-10-15 ルブラ編】メサの自然湧きの置き換え先（ゾンビ枠）。メサの砂の中から起き上がる、坑道で倒れた鉱夫の亡者。鉱夫のヘルメットをかぶった骸骨の頭（minecraft-heads 3126）。紅鉄のかけらを握っていることがある。生成は scratchpad の mesa_mob_gen.py
+# 説明：メサの自然湧きの置き換え先（ゾンビ枠）。メサの砂の中から起き上がる、坑道で倒れた鉱夫の亡者。鉱夫のヘルメットをかぶった骸骨の頭（minecraft-heads 3126）。紅鉄のかけらを握っていることがある。生成は scratchpad の mesa_mob_gen.py
 # >/function neofunction:entity/.spawn/mob/.dim/ceresta/mesa
 # =/function neofunction:asset/summon/926
 

@@ -1,5 +1,5 @@
 # 命名：meteor_start
-# 説明：【追加：2026-10-09 ルブラ編】天墜の始まり：近くの人の足もと（4 人まで）と、舞台のあちこち 6 か所に星屑の落ちる目印。2 秒の予告のあと落ちる
+# 説明：天墜の始まり：近くの人の足もと（4 人まで）と、舞台のあちこち 6 か所に星屑の落ちる目印。2 秒の予告のあと落ちる
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/attack2
 # >/function neofunction:entity/skill/boss/rubra_void/attack3

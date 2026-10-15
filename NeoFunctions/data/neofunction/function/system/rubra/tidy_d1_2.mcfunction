@@ -1,5 +1,5 @@
 # 命名：tidy_d1_2
-# 説明：【追加：2026-10-09 ルブラ編】第一章「紅脈の坑」 の後片付け（本体）：タグ rubra_d1 のうち、村人とプレイヤーと残す目印以外を消す。終わったらチャンクの固定を外す
+# 説明：第一章「紅脈の坑」 の後片付け（本体）：タグ rubra_d1 のうち、村人とプレイヤーと残す目印以外を消す。終わったらチャンクの固定を外す
 # 実行条件：schedule
 # >/function neofunction:system/rubra/tidy_d1
 # =/function neofunction:system/rubra/tidy_d1_2

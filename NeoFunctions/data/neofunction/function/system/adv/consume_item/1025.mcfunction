@@ -5,7 +5,7 @@
 # =/function neofunction:system/adv/consume_item/1025
 
 # 内容
-# 【追加：2026-09-30 ハービット屋台飯の効果実装】
+# ハービット屋台飯の効果実装。
 # 満腹度回復＋移動速度上昇
 effect give @s minecraft:saturation 1 0 true
 effect give @s minecraft:speed 30 0

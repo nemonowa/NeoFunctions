@@ -1,5 +1,5 @@
 # 命名：points
-# 説明：【追加：2026-10-09 ルブラ編】第二章の NPC と仕掛けの目印をすべて置く（座標はここだけに書く）
+# 説明：第二章の NPC と仕掛けの目印をすべて置く（座標はここだけに書く）
 # 説明：生成プログラム Gen2（scratchpad の rubra_build）が、建物と同じ座標で書き出したもの。建物を作り直したら、これも書き出し直す
 # 説明：仕掛けは目印（marker・interaction）からの相対位置で動く。決まりごとは設計書の ■7
 # 実行条件：セレスタ次元で、チャンクが読み込まれていること
@@ -10,7 +10,7 @@
 execute positioned 959.5 44 3271.5 run function neofunction:asset/summon/904
 tp @e[type=villager,tag=rubra_ordo] 959.5 44 3271.5 90 0
 summon marker 948.5 44 3271.5 {Tags:["rubra_d2","rubra_mira_kan"]}
-# 【変更：2026-10-14】カシムは湖の西岸の石の船着き場（前は館の裏の急な斜面）
+# カシムは湖の西岸の石の船着き場
 execute positioned 925.5 44 3265.5 run function neofunction:asset/summon/905
 tp @e[type=villager,tag=rubra_kasim] 925.5 44 3265.5 -90 0
 execute positioned 941.5 44 3292.5 run function neofunction:asset/summon/906
@@ -19,7 +19,7 @@ summon marker 924.5 45 3272.5 {Tags:["rubra_d2","rubra_mira_lake"]}
 summon marker 935.5 44 3286.5 {Tags:["rubra_d2","rubra_mira_wash"]}
 summon marker 960.5 70 3219.5 {Tags:["rubra_d2","rubra_door","rubra_door_gate","rubra_door_x"]}
 summon interaction 960.5 70 3220.5 {Tags:["rubra_click","rubra_d2","rubra_gate"],width:3.0f,height:3.0f,response:1b}
-# 【追加：2026-10-14】入口を水守の館の北の壁へ（地下の水守の通り道で、最初の広間の東につながる）。開けると滝の裏の扉も開く（外への出口）。館の扉は壁と同じ石の隠し扉（rubra_door_wall。真ん中の水色の模様のタイルが目印）
+# 入口を水守の館の北の壁へ（地下の水守の通り道で、最初の広間の東につながる）。開けると滝の裏の扉も開く（外への出口）。館の扉は壁と同じ石の隠し扉（rubra_door_wall。真ん中の水色の模様のタイルが目印）
 summon marker 959.5 45 3268.5 {Tags:["rubra_d2","rubra_door","rubra_door_gate","rubra_door_wall"]}
 summon interaction 959.5 45 3269.2 {Tags:["rubra_click","rubra_d2","rubra_gate"],width:3.0f,height:3.0f,response:1b}
 summon marker 964.5 60 3195.5 {Tags:["rubra_d2","rubra_gauge","rubra_gauge_0"]}
@@ -40,12 +40,12 @@ summon interaction 984.5 56 3175.5 {Tags:["rubra_click","rubra_d2","rubra_pick",
 summon marker 953.5 55 3175.5 {Tags:["rubra_d2","rubra_door","rubra_door_w","rubra_door_z"]}
 summon interaction 943.5 56 3178.5 {Tags:["rubra_click","rubra_d2","rubra_pick","rubra_pick_plug"],width:1.0f,height:1.2f,response:1b}
 summon interaction 960.5 53 3155.5 {Tags:["rubra_click","rubra_d2","rubra_pick","rubra_pick_j2"],width:1.0f,height:1.2f,response:1b}
-# 【変更：2026-10-14】黒い水の水門は二つ（西の端と東の端）。12 秒のうちに両方を開けると流れる（番人の水門の練習）
+# 黒い水の水門は二つ（西の端と東の端）。12 秒のうちに両方を開けると流れる（番人の水門の練習）
 summon interaction 951.5 52 3161.5 {Tags:["rubra_click","rubra_d2","rubra_fvalve","rubra_fvalve_1"],width:1.0f,height:1.5f,response:1b}
 summon interaction 969.5 52 3161.5 {Tags:["rubra_click","rubra_d2","rubra_fvalve","rubra_fvalve_2"],width:1.0f,height:1.5f,response:1b}
 summon marker 957.5 52 3159.5 {Tags:["rubra_d2","rubra_mira_wait","rubra_mira_w2"]}
 summon marker 974.5 52 3158.5 {Tags:["rubra_d2","rubra_flush"]}
-# 【変更：2026-10-14】番人の間を中心 (950, 40, 3150)・半径 21 に作り直した。水門は壁ぎわの斜め 4 か所の床
+# 水門は壁ぎわの斜め 4 か所の床
 summon interaction 937.5 40 3137.5 {Tags:["rubra_click","rubra_d2","rubra_kvalve","rubra_kvalve_1"],width:1.0f,height:1.5f,response:1b}
 summon interaction 963.5 40 3137.5 {Tags:["rubra_click","rubra_d2","rubra_kvalve","rubra_kvalve_2"],width:1.0f,height:1.5f,response:1b}
 summon interaction 937.5 40 3163.5 {Tags:["rubra_click","rubra_d2","rubra_kvalve","rubra_kvalve_3"],width:1.0f,height:1.5f,response:1b}

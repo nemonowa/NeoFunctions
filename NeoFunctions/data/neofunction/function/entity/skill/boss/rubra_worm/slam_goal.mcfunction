@@ -1,5 +1,5 @@
 # 命名：slam_goal
-# 説明：【追加：2026-10-14 ルブラ編】のしかかりの目標を (ax, y, az) にする（速さ s）
+# 説明：のしかかりの目標を (ax, y, az) にする（速さ s）
 # 実行条件：引数 ax az（worm.next）y s
 # >/function neofunction:entity/skill/boss/rubra_worm/slam_start
 # >/function neofunction:entity/skill/boss/rubra_worm/slam_rise

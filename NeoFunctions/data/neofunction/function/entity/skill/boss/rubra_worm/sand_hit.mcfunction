@@ -1,5 +1,5 @@
 # 命名：sand_hit
-# 説明：【追加：2026-10-14 ルブラ編】砂の弾が人に当たった：5 ダメージと 1 秒の目くらまし
+# 説明：砂の弾が人に当たった：5 ダメージと 1 秒の目くらまし
 # 実行条件：実行者・実行位置 砂の弾
 # >/function neofunction:entity/skill/boss/rubra_worm/sand_tick
 # =/function neofunction:entity/skill/boss/rubra_worm/sand_hit

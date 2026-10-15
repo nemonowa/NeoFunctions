@@ -1,5 +1,5 @@
 # 命名：close3
-# 説明：【追加：2026-10-08 ルブラ編】落石の扉 3 を閉じる（光が外れると岩が戻ってレールをふさぐ）
+# 説明：落石の扉 3 を閉じる（光が外れると岩が戻ってレールをふさぐ）
 # >/function neofunction:system/rubra/d1/ped/apply
 # >/function neofunction:system/rubra/d1/reset
 # =/function neofunction:system/rubra/d1/gate/close3

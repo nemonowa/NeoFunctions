@@ -1,5 +1,5 @@
 # 命名：pillars_restore
-# 説明：【追加：2026-10-14 ルブラ編】大空洞の柱 5 本を元に戻す（ひびを直し、崩れた所を埋める）。目印（rubra_wpillar）も置き直す。戦いを始めるたびに
+# 説明：大空洞の柱 5 本を元に戻す（ひびを直し、崩れた所を埋める）。目印（rubra_wpillar）も置き直す。戦いを始めるたびに
 # 実行条件：セレスタ次元（大空洞のチャンクが読み込まれていること）
 # >/function neofunction:system/adv/tick/quest/40/d1/boss_start
 # =/function neofunction:entity/skill/boss/rubra_worm/pillars_restore

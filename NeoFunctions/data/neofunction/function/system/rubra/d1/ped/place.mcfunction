@@ -1,5 +1,5 @@
 # 命名：place
-# 説明：【追加：2026-10-08 ルブラ編】台に星核の欠片を置く（手に持った欠片を 1 つ使う）
+# 説明：台に星核の欠片を置く（手に持った欠片を 1 つ使う）
 # 実行条件：実行者 プレイヤー。引数 p
 # >/function neofunction:system/rubra/d1/ped/click
 # =/function neofunction:system/rubra/d1/ped/place

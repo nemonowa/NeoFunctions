@@ -1,5 +1,5 @@
 # 命名：go_down
-# 説明：【追加：2026-10-08 ルブラ編】てっぺんに着いた：下りる先（bx, -46, bz）へ
+# 説明：てっぺんに着いた：下りる先（bx, -46, bz）へ
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/go_down

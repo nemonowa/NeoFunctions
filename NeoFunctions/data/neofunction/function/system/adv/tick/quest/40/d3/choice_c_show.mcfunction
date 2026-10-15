@@ -1,5 +1,5 @@
 # 命名：choice_c_show
-# 説明：【追加：2026-10-09 ルブラ編】選択 C をチャットに出す：［広場で、みんなに明かす］4321 ／［今は伏せておく］4322
+# 説明：選択 C をチャットに出す：［広場で、みんなに明かす］4321 ／［今は伏せておく］4322
 # 実行条件：実行者 プレイヤー（会話の最後の Command、またはオルドに話しかけたとき）
 # >/function neofunction:system/adv/tick/quest/40/d3/431（会話の Command）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/904

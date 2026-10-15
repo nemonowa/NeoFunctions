@@ -6,7 +6,6 @@
 
 
 ## 内容
-# 【変更：2026-09-28 26.3対応】flash パーティクルは 26.3 で色の指定が必須になったため、1.20.4 と同じ白を指定
 particle flash{color:[1.0,1.0,1.0,1.0]} ~ ~ ~ 0.3 0.3 0.3 1 5 force @s
 particle minecraft:scrape ~ ~1 ~ 0.3 0.3 0.3 2 5 force @s
 particle minecraft:electric_spark ~ ~1 ~ 0.3 0.3 0.3 2 30 force @s

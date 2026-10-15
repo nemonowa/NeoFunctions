@@ -1,5 +1,5 @@
 # 命名：432_end
-# 説明：【追加：2026-10-09 ルブラ編】選択 C のあと：夜、星見の塔へ。第三章の目印を置き（setup）、オルドとミラは塔の一階へ（目印が置かれる 2 秒後に tp）
+# 説明：選択 C のあと：夜、星見の塔へ。第三章の目印を置き（setup）、オルドとミラは塔の一階へ（目印が置かれる 2 秒後に tp）
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/choice_c_reveal（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/choice_c_hide（会話の Command）

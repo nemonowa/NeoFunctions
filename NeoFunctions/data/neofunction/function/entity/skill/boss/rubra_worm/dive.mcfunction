@@ -1,5 +1,5 @@
 # 命名：dive
-# 説明：【追加：2026-10-14 ルブラ編】今の所から地中へ潜る（真下の y-46 へ。着いたら地響きと次の技）
+# 説明：今の所から地中へ潜る（真下の y-46 へ。着いたら地響きと次の技）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/charge_tick
 # >/function neofunction:entity/skill/boss/rubra_worm/stun_end

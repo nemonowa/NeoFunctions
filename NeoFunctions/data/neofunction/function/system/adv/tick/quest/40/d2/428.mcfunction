@@ -1,5 +1,5 @@
 # 命名：428
-# 説明：【追加：2026-10-09 ルブラ編】番人を倒したあと、セレンと向き合う：星は生きている、ルブラは星の名前、虚の海と星を削ってきた街（秘密 1・2）、星を還すという目的。最後に選択 B（チャット）
+# 説明：番人を倒したあと、セレンと向き合う：星は生きている、ルブラは星の名前、虚の海と星を削ってきた街（秘密 1・2）、星を還すという目的。最後に選択 B（チャット）
 # 実行条件：実行位置 番人の間の中心。#temp main_story 427
 # >/function neofunction:entity/skill/boss/rubra_keeper/dead
 # >/function neofunction:entity/skill/boss/rubra_keeper/defeated

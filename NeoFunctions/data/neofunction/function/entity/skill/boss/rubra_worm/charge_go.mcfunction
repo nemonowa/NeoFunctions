@@ -1,5 +1,5 @@
 # 命名：charge_go
-# 説明：【追加：2026-10-14 ルブラ編】突進の始まり：空洞の縁（真ん中から 20）の 7 か所（縦穴のある真東を除く）のどれかの真下へ、地中を進む
+# 説明：突進の始まり：空洞の縁（真ん中から 20）の 7 か所（縦穴のある真東を除く）のどれかの真下へ、地中を進む
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/plan
 # =/function neofunction:entity/skill/boss/rubra_worm/charge_go

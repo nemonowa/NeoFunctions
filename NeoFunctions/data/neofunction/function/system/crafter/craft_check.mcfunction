@@ -86,55 +86,46 @@ execute if data storage neofunction:crafter Temp.RunningRecipe.recipe[{Slot:20b}
 
 # 完成品スロットにアイテムがある場合
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:6b}] if data block ~ ~-2 ~ Items[{Slot:6b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:6b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:6b}] if data block ~ ~-2 ~ Items[{Slot:6b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:6b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:6b}] if data block ~ ~-2 ~ Items[{Slot:6b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:6b}] if data block ~ ~-2 ~ Items[{Slot:6b}] store result block ~ ~-2 ~ Items[{Slot:6b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:7b}] if data block ~ ~-2 ~ Items[{Slot:7b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:7b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:7b}] if data block ~ ~-2 ~ Items[{Slot:7b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:7b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:7b}] if data block ~ ~-2 ~ Items[{Slot:7b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:7b}] if data block ~ ~-2 ~ Items[{Slot:7b}] store result block ~ ~-2 ~ Items[{Slot:7b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:8b}] if data block ~ ~-2 ~ Items[{Slot:8b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:8b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:8b}] if data block ~ ~-2 ~ Items[{Slot:8b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:8b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:8b}] if data block ~ ~-2 ~ Items[{Slot:8b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:8b}] if data block ~ ~-2 ~ Items[{Slot:8b}] store result block ~ ~-2 ~ Items[{Slot:8b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:15b}] if data block ~ ~-2 ~ Items[{Slot:15b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:15b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:15b}] if data block ~ ~-2 ~ Items[{Slot:15b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:15b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:15b}] if data block ~ ~-2 ~ Items[{Slot:15b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:15b}] if data block ~ ~-2 ~ Items[{Slot:15b}] store result block ~ ~-2 ~ Items[{Slot:15b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:16b}] if data block ~ ~-2 ~ Items[{Slot:16b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:16b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:16b}] if data block ~ ~-2 ~ Items[{Slot:16b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:16b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:16b}] if data block ~ ~-2 ~ Items[{Slot:16b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:16b}] if data block ~ ~-2 ~ Items[{Slot:16b}] store result block ~ ~-2 ~ Items[{Slot:16b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:17b}] if data block ~ ~-2 ~ Items[{Slot:17b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:17b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:17b}] if data block ~ ~-2 ~ Items[{Slot:17b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:17b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:17b}] if data block ~ ~-2 ~ Items[{Slot:17b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:17b}] if data block ~ ~-2 ~ Items[{Slot:17b}] store result block ~ ~-2 ~ Items[{Slot:17b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:24b}] if data block ~ ~-2 ~ Items[{Slot:24b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:24b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:24b}] if data block ~ ~-2 ~ Items[{Slot:24b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:24b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:24b}] if data block ~ ~-2 ~ Items[{Slot:24b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:24b}] if data block ~ ~-2 ~ Items[{Slot:24b}] store result block ~ ~-2 ~ Items[{Slot:24b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:25b}] if data block ~ ~-2 ~ Items[{Slot:25b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:25b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:25b}] if data block ~ ~-2 ~ Items[{Slot:25b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:25b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:25b}] if data block ~ ~-2 ~ Items[{Slot:25b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:25b}] if data block ~ ~-2 ~ Items[{Slot:25b}] store result block ~ ~-2 ~ Items[{Slot:25b}].count byte 1 run scoreboard players get #Calc1 temp
 
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:26b}] if data block ~ ~-2 ~ Items[{Slot:26b}] store result score #Calc1 temp run data get block ~ ~-2 ~ Items[{Slot:26b}].count
-# 【変更：2026-09-28 26.3対応】アイテムの数の項目が 26.3 では Count（byte）から count（int）に変わった
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:26b}] if data block ~ ~-2 ~ Items[{Slot:26b}] store result score #Calc2 temp run data get storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:26b}].count
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:26b}] if data block ~ ~-2 ~ Items[{Slot:26b}] run scoreboard players operation #Calc1 temp += #Calc2 temp
 execute if data storage neofunction:crafter Temp.RunningRecipe.result_item[{Slot:26b}] if data block ~ ~-2 ~ Items[{Slot:26b}] store result block ~ ~-2 ~ Items[{Slot:26b}].count byte 1 run scoreboard players get #Calc1 temp

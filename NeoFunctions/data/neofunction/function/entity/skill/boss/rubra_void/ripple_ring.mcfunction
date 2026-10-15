@@ -1,5 +1,5 @@
 # 命名：ripple_ring
-# 説明：【追加：2026-10-13 ルブラ編】波紋の輪 1 つ（半径 rr）：16 方向に黒い水と粒。輪の上（rr−1〜rr+0.9）で地面に立っている人に 7 ダメージ
+# 説明：波紋の輪 1 つ（半径 rr）：16 方向に黒い水と粒。輪の上（rr−1〜rr+0.9）で地面に立っている人に 7 ダメージ
 # 実行条件：実行位置 舞台の真ん中。引数 rr
 # >/function neofunction:entity/skill/boss/rubra_void/ripple_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ripple_ring

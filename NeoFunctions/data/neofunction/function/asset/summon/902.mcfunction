@@ -1,5 +1,5 @@
 # 命名：ミラ
-# 説明：【追加：2026-10-08 ルブラ編】星読みの見習い。旅人の案内役。迷宮では決まった場所に先回りして待つ
+# 説明：星読みの見習い。旅人の案内役。迷宮では決まった場所に先回りして待つ
 # 頭：minecraft-heads.com の 129803（https://minecraft-heads.com/custom-heads/head/129803）。heads.py で付ける
 # >/function neofunction:system/rubra/d1/setup
 # =/function neofunction:asset/summon/902

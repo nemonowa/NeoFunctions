@@ -1,5 +1,5 @@
 # 命名：show
-# 説明：【追加：2026-10-09 ルブラ編】番人の間にいる人の画面に「開いている水門 n / 4」と、いちばん早く閉じる水門の残り秒数を出す
+# 説明：番人の間にいる人の画面に「開いている水門 n / 4」と、いちばん早く閉じる水門の残り秒数を出す
 # 実行条件：実行者・実行位置 本体（valves_tick のあと：#rk_open・#rk_min temp が入っている）
 # >/function neofunction:entity/skill/boss/rubra_keeper/valves_tick
 # =/function neofunction:entity/skill/boss/rubra_keeper/show

@@ -1,5 +1,5 @@
 # 命名：星喰みのセレン
-# 説明：【追加：2026-10-09 ルブラ編】零の揺籃の球の広間のボス。星核の欠片を取り込みすぎて星の力に呑まれかけたセレン。体は傷つかず、まわりを回る 6 つの欠片を砕くか抜くと体力が減る（entity/skill/boss/rubra_cradle）
+# 説明：零の揺籃の球の広間のボス。星核の欠片を取り込みすぎて星の力に呑まれかけたセレン。体は傷つかず、まわりを回る 6 つの欠片を砕くか抜くと体力が減る（entity/skill/boss/rubra_cradle）
 # >/function neofunction:entity/skill/boss/rubra_cradle/spawn
 # =/function neofunction:asset/summon/911
 

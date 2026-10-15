@@ -1,5 +1,5 @@
 # 命名：pillars
-# 説明：【追加：2026-10-09 ルブラ編】星灯の柱：ランプ（黒いガラス）に矢が当たると灯る。手記を広場で明かしていれば、15 秒ごとに灯籠の光が 1 本灯してくれる（派手に）。灯っている数を #rv_lit に
+# 説明：星灯の柱：ランプ（黒いガラス）に矢が当たると灯る。手記を広場で明かしていれば、15 秒ごとに灯籠の光が 1 本灯してくれる（派手に）。灯っている数を #rv_lit に
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/form1
 # >/function neofunction:entity/skill/boss/rubra_void/form2

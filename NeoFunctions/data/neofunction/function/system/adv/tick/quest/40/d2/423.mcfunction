@@ -1,5 +1,5 @@
 # 命名：423
-# 説明：【追加：2026-10-09 ルブラ編】洗い場の子どもたちの手まり歌。「つづきは、滝のうらのおみずのお家に書いてある」。最後に泉が弱って滝が細くなり、裏の扉が見える（424）
+# 説明：洗い場の子どもたちの手まり歌。「つづきは、滝のうらのおみずのお家に書いてある」。最後に泉が弱って滝が細くなり、裏の扉が見える（424）
 # 実行条件：実行者 洗い場の子ども（村人 906）。#temp main_story 422
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/906
 # =/function neofunction:system/adv/tick/quest/40/d2/423

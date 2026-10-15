@@ -1,5 +1,5 @@
 # 命名：skylantern_put
-# 説明：【追加：2026-10-13 ルブラ編】灯籠の見た目（item_display のランタン、明るさ 15）を出す。火を灯す音と粒
+# 説明：灯籠の見た目（item_display のランタン、明るさ 15）を出す。火を灯す音と粒
 # 実行条件：実行位置 灯籠の目印。引数 x・z（ずれ）、r（向き）
 # >/function neofunction:system/rubra/fin/skylantern_one
 # =/function neofunction:system/rubra/fin/skylantern_put

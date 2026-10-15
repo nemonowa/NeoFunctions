@@ -1,5 +1,5 @@
 # 命名：glow
-# 説明：【追加：2026-10-14 ルブラ編】スキル 260：鉱石の種類に合わせた色で光る表示を置く
+# 説明：スキル 260：鉱石の種類に合わせた色で光る表示を置く
 # >/function neofunction:asset/skill/260/found
 # =/function neofunction:asset/skill/260/glow
 

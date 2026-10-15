@@ -1,5 +1,5 @@
 # 命名：sand_spawn
-# 説明：【追加：2026-10-14 ルブラ編】砂の弾を 1 つ：今の向きに飛ぶ（sand_tick）。最初から check を付けて共通の出現処理を通さない
+# 説明：砂の弾を 1 つ：今の向きに飛ぶ（sand_tick）。最初から check を付けて共通の出現処理を通さない
 # 実行条件：実行位置と向き 撃ち出す所と向き
 # >/function neofunction:entity/skill/boss/rubra_worm/breath
 # =/function neofunction:entity/skill/boss/rubra_worm/sand_spawn

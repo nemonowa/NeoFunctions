@@ -1,5 +1,5 @@
 # 命名：バルド
-# 説明：【追加：2026-10-08 ルブラ編】ルブラの鉱夫頭。坑道の入口にいる
+# 説明：ルブラの鉱夫頭。坑道の入口にいる
 # 頭：minecraft-heads.com の 125728（https://minecraft-heads.com/custom-heads/head/125728）。heads.py で付ける
 # >/function neofunction:system/rubra/d1/setup
 # =/function neofunction:asset/summon/903

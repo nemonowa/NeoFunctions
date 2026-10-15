@@ -1,5 +1,5 @@
 # 命名：blt_ring_b
-# 説明：【追加：2026-10-13 ルブラ編】黒い弾の輪（ずらし）：24 方向（7.5 度ずらす）
+# 説明：黒い弾の輪（ずらし）：24 方向（7.5 度ずらす）
 # 実行条件：実行位置 撃ち出す所
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/blt_ring_b

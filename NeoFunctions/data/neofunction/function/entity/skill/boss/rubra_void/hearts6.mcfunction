@@ -1,5 +1,5 @@
 # 命名：hearts6
-# 説明：【追加：2026-10-13 ルブラ編】黒い心臓を 6 つ出す（見えない小さなガスト＝当たり判定、無敵。見た目は泣く黒曜石）と、回すための向きの印。星還しの矢が近くに来ると砕ける（heart_check）
+# 説明：黒い心臓を 6 つ出す（見えない小さなガスト＝当たり判定、無敵。見た目は泣く黒曜石）と、回すための向きの印。星還しの矢が近くに来ると砕ける（heart_check）
 # 実行条件：実行位置 顎の真ん中
 # >/function neofunction:entity/skill/boss/rubra_void/form3_start
 # >/function neofunction:entity/skill/boss/rubra_void/heart_phase

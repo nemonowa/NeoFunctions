@@ -1,5 +1,5 @@
 # 命名：ult_big
-# 説明：【追加：2026-10-13 ルブラ編】巨大な黒星：ボスと同じくらいの黒星を、舞台の真ん中へ落とす（0.6 マスずつ。足もとに半径 9 の赤い輪の予告）
+# 説明：巨大な黒星：ボスと同じくらいの黒星を、舞台の真ん中へ落とす（0.6 マスずつ。足もとに半径 9 の赤い輪の予告）
 # 実行条件：実行者・実行位置 本体（30 マス上）
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_big

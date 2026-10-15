@@ -28,14 +28,11 @@
 # >/function neofunction:asset/skill/238 実行者server 実行位置positioned ~-2 ~ ~-6（Lv90〜）
 # =/function neofunction:asset/skill/tamer/gehenna_spawn_one
 
-# 【追加：2026-09-12 消滅処理をポータルクールダウン式に統一（238側のウィザー効果を廃止）。
-#   PortalCooldownはスポーン審査(.spawn/.neo)時にしか`portalcooldown`タグが付与されないため、
-#   summon時のNBTに直接持たせる。600tick(30秒)で共通デスポーン処理に回収される】
+# PortalCooldown を召喚の NBT に直接持たせ、600 tick（30 秒）で共通のデスポーン処理に回収させる
+# （portalcooldown のタグはスポーン審査（.spawn/.neo）のときにしか付かないため）
 
-# 【追加：2026-09-12 個体ステータスを専用の弱体化仕様（Health:30固定等）から撤廃し、
-#   232(狼)/233(スノーゴーレム)/234(アイアンゴーレム)の通常召喚個体と完全に同一のNBT
-#   （耐久・攻撃力・レベル成長タグlv2〜lv9）に統一。種族抽選ロジックはそのまま維持し、
-#   抽選後に@sのLVLで該当するレベル帯のステータス/タグを付与する】
+# 個体の NBT は 232（狼）・233（スノーゴーレム）・234（アイアンゴーレム）の通常の召喚と同じ（耐久・攻撃力・成長のタグ lv2〜lv9）。
+# 種族を抽選したあと、@s の LVL に合うレベル帯のステータスとタグを付ける
 
 # LVL15未満：狼のみ確定召喚
 execute if score @s LVL matches ..14 run summon minecraft:wolf ~ ~ ~ {PortalCooldown:600,Team:"white",CollarColor:4,DeathLootTable:"empty",Tags:["familiar","gehennaFamiliar","ownerPending238"],attributes:[{id:"minecraft:max_health",base:20},{id:"minecraft:attack_damage",base:6}]}

@@ -1,5 +1,5 @@
 # 命名：trust
-# 説明：【追加：2026-10-09 ルブラ編】信頼（storage neofunction:rubra trust.<k>）を 1 上げる。k＝star・town・mira・ordo・selen
+# 説明：信頼（storage neofunction:rubra trust.<k>）を 1 上げる。k＝star・town・mira・ordo・selen
 # 説明：画面には数字を出さない（台詞や光の変化でほのめかす）
 # 実行条件：引数 k
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a_mira

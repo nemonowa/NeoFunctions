@@ -39,7 +39,6 @@ tellraw @a[distance=..12,tag=skill2] [{"text":"* 攻略時間 ","color":"yellow"
 function neofunction:asset/nbt/for_in_range {Min:1,Max:513,Function:"neofunction:asset/skill/2/anchor_for"}
 
 # 解析達成率（タイトル／サブタイトル表示）
-# 【追加：2026-09-20】
 # @s はアンカー側なので、解析したプレイヤーのスコアを拾い直す。
 # for_in_range で進捗を配った後なので、今回ぶんを含んだ個数になる。
 scoreboard players set #anchor_now temp 0

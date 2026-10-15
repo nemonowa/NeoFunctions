@@ -1,5 +1,5 @@
 # 命名：430_end
-# 説明：【追加：2026-10-09 ルブラ編】次は水守の館のオルド
+# 説明：次は水守の館のオルド
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/430（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d3/430_end

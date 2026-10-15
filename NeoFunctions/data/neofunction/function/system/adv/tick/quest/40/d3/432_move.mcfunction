@@ -1,5 +1,5 @@
 # 命名：432_move
-# 説明：【追加：2026-10-09 ルブラ編】オルドとミラが星見の塔の一階（目印 rubra_ordo_tower・rubra_mira_tower）へ。目印が無ければ（建築前）動かさない
+# 説明：オルドとミラが星見の塔の一階（目印 rubra_ordo_tower・rubra_mira_tower）へ。目印が無ければ（建築前）動かさない
 # 実行条件：schedule
 # >/function neofunction:system/adv/tick/quest/40/d3/432_end
 # =/function neofunction:system/adv/tick/quest/40/d3/432_move

@@ -1,5 +1,5 @@
 # 命名：stun_tick
-# 説明：【追加：2026-10-14 ルブラ編】気絶のあいだ（毎 tick）：残り時間を減らし、頭の上に光の粒。終わったら stun_end
+# 説明：気絶のあいだ（毎 tick）：残り時間を減らし、頭の上に光の粒。終わったら stun_end
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/stun_tick

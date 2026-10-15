@@ -1,5 +1,5 @@
 # 命名：mira_to_l4
-# 説明：【追加：2026-10-08 ルブラ編】ミラが四の層（星の台の間の東の入口 841, 13, 3266）へ先回りする
+# 説明：ミラが四の層（星の台の間の東の入口 841, 13, 3266）へ先回りする
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d1/412（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d1/mira_to_l4

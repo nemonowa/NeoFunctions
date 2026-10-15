@@ -1,5 +1,5 @@
 # 命名：plan
-# 説明：【追加：2026-10-08 ルブラ編】次の技を選ぶ。【変更：2026-10-14】前半は 3 回に 1 回が突進（charge_go）、ほかは突き上げ（plan_emerge）。後半（phase 2）は 4 回をめぐる：突進・連続突き上げ（3 回）・のしかかり（slam_start）・突き上げ。後半は速くなる
+# 説明：次の技を選ぶ。前半は 3 回に 1 回が突進（charge_go）、ほかは突き上げ（plan_emerge）。後半（phase 2）は 4 回をめぐる：突進・連続突き上げ（3 回）・のしかかり（slam_start）・突き上げ。後半は速くなる
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # >/function neofunction:entity/skill/boss/rubra_worm/spawn

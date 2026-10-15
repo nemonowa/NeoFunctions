@@ -1,5 +1,5 @@
 # 命名：黒い滴り
-# 説明：【追加：2026-10-09 ルブラ編】涸れ泉の聖堂の、黒い水から生まれる敵。澄んだ水を浴びると弱る
+# 説明：涸れ泉の聖堂の、黒い水から生まれる敵。澄んだ水を浴びると弱る
 # >/function neofunction:system/rubra/d2/drip
 # =/function neofunction:asset/summon/907
 

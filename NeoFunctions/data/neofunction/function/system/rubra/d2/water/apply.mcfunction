@@ -1,5 +1,5 @@
 # 命名：apply
-# 説明：【追加：2026-10-09 ルブラ編】記録（storage neofunction:rubra d2.lv）どおりに、水量の柱・扉・浮き橋を合わせる
+# 説明：記録（storage neofunction:rubra d2.lv）どおりに、水量の柱・扉・浮き橋を合わせる
 # 説明：入口の広間：柱 0 が 2 で扉 0 が開く ／ 東：2 以上で浮き橋が上がる ／ 西：ちょうど 1 で扉が開く（2 以上だと水圧で閉じる） ／ 北：0 で、鍵を開けてあれば扉が開く
 # 実行条件：セレスタ次元（目印のエンティティを使う）
 # >/function neofunction:system/rubra/d2/setup_in

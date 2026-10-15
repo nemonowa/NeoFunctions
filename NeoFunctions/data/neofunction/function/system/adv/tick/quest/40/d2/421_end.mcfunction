@@ -1,5 +1,5 @@
 # 命名：421_end
-# 説明：【追加：2026-10-09 ルブラ編】会議の終わり：オルド「下がりなさい、ミラ」。ミラは館を出て湖のほとりへ。次はカシム
+# 説明：会議の終わり：オルド「下がりなさい、ミラ」。ミラは館を出て湖のほとりへ。次はカシム
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a_mira（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_a_ordo（会話の Command）

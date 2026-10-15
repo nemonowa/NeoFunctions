@@ -22,7 +22,6 @@ execute if data entity @s equipment.head.id run scoreboard players add 解析器
 scoreboard players operation @p minedSpawner -= 解析器コスト temp
 
 # 操作
-# 【変更：2026-09-27 26.3対応】HideFlags は tooltip_display に、HandItems[]/ArmorItems[] は部位ごとの equipment に変わったため、部位ごとに tooltip_display を消す（＝すべて表示）
 data remove entity @s equipment.mainhand.components."minecraft:tooltip_display"
 data remove entity @s equipment.offhand.components."minecraft:tooltip_display"
 data remove entity @s equipment.feet.components."minecraft:tooltip_display"

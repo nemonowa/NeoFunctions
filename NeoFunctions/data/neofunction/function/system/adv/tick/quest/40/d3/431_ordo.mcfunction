@@ -1,5 +1,5 @@
 # 命名：431_ordo
-# 説明：【追加：2026-10-09 ルブラ編】trust.ordo が 1 以上（第二章で「オルドの言うことも分かる」を選んだ）なら、オルドが自分の悔いを話す一行
+# 説明：trust.ordo が 1 以上（第二章で「オルドの言うことも分かる」を選んだ）なら、オルドが自分の悔いを話す一行
 # 実行条件：実行者 プレイヤー（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d3/431（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d3/431_ordo

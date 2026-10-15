@@ -1,5 +1,5 @@
 # 命名：talk
-# 説明：【追加：2026-10-14 ルブラ編】星還りの空のセレンに話しかけた：もう一度挑む（4491）か、エリートチャレンジ（4492）かをチャットで選ぶ。星還しの弓と矢を持っていなければ渡す
+# 説明：星還りの空のセレンに話しかけた：もう一度挑む（4491）か、エリートチャレンジ（4492）かをチャットで選ぶ。星還しの弓と矢を持っていなければ渡す
 # 実行条件：実行者 プレイヤー（rubra_click の振り分けから）。ルブラ編を終えている（#temp main_story 449）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/fin/refight/talk

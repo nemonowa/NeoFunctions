@@ -1,5 +1,5 @@
 # 命名：423_end
-# 説明：【追加：2026-10-09 ルブラ編】手まり歌のあと：泉が弱って滝が細くなり（fall_thin）、裏の扉が見える（424）。ミラは聖堂の入口の広間へ先に入る
+# 説明：手まり歌のあと：泉が弱って滝が細くなり（fall_thin）、裏の扉が見える（424）。ミラは聖堂の入口の広間へ先に入る
 # 実行条件：実行者 プレイヤー（会話の最後の Command。423 のときだけ進める）
 # >/function neofunction:system/adv/tick/quest/40/d2/423（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d2/423_end

@@ -1,5 +1,5 @@
 # 命名：charge_warn_start
-# 説明：【追加：2026-10-14 ルブラ編】突進の予告を始める：床（y-40）に頭を出して吠える（1 秒、後半は 0.75 秒）
+# 説明：突進の予告を始める：床（y-40）に頭を出して吠える（1 秒、後半は 0.75 秒）
 # 実行条件：実行者・実行位置 本体（突進の始まりの真下）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/charge_warn_start

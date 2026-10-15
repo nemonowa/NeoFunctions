@@ -1,5 +1,5 @@
 # 命名：425
-# 説明：【追加：2026-10-09 ルブラ編】聖堂の入口の広間：昔の水守の通り道。水で開く扉と、青銅の輪・水量の柱の説明（練習）
+# 説明：聖堂の入口の広間：昔の水守の通り道。水で開く扉と、青銅の輪・水量の柱の説明（練習）
 # 実行条件：実行者 プレイヤー。#temp main_story 424
 # >/function neofunction:system/adv/tick/quest/40/d2/zone
 # =/function neofunction:system/adv/tick/quest/40/d2/425

@@ -1,5 +1,5 @@
 # 命名：影
-# 説明：【追加：2026-10-09 ルブラ編】零の揺籃の影。守り石の光の外ではすり抜けて斬れない（tick/dungeon/rubra3 が無敵を切り替える）
+# 説明：零の揺籃の影。守り石の光の外ではすり抜けて斬れない（tick/dungeon/rubra3 が無敵を切り替える）
 # >/function neofunction:system/rubra/d3/shadow
 # =/function neofunction:asset/summon/910
 

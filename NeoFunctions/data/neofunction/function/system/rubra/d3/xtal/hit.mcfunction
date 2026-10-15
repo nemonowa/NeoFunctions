@@ -1,5 +1,5 @@
 # 命名：hit
-# 説明：【追加：2026-10-14 ルブラ編】結晶が叩かれた：何も起きない（岩に食いこんでいる）。守り石で抜くことを促す
+# 説明：結晶が叩かれた：何も起きない（岩に食いこんでいる）。守り石で抜くことを促す
 # 実行条件：実行者・実行位置 叩かれた interaction（タグ rubra_xtalhit）
 # >/function neofunction:system/rubra/d3/xtal/loop
 # =/function neofunction:system/rubra/d3/xtal/hit

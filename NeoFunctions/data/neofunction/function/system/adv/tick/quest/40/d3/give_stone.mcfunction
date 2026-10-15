@@ -1,5 +1,5 @@
 # 命名：give_stone
-# 説明：【追加：2026-10-09 ルブラ編】水守の守り石（1917）を渡す（持っていない人だけ）
+# 説明：水守の守り石（1917）を渡す（持っていない人だけ）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d3/433（会話の Command）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902

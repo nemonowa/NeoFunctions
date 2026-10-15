@@ -1,6 +1,6 @@
 # 命名：choice_final
-# 説明：【追加：2026-10-09 ルブラ編】終わりの選択を決める（choice.final＝star・void）。矢を放つ光の筋を見せ、空での演出（cine）へ
-# 説明：【変更：2026-10-09】すぐ地上へ戻さず、空で 11 秒の演出をしてから結末へ：void → B、star → C の条件を満たせば C（星の子を守る戦い）、満たさなければ A
+# 説明：終わりの選択を決める（choice.final＝star・void）。矢を放つ光の筋を見せ、空での演出（cine）へ
+# 説明：すぐ地上へ戻さず、空で 11 秒の演出をしてから結末へ：void → B、star → C の条件を満たせば C（星の子を守る戦い）、満たさなければ A
 # 実行条件：実行者 プレイヤー（選んだ人の位置で）。引数 c
 # >/function neofunction:system/adv/tick/quest/40/choice
 # =/function neofunction:system/adv/tick/quest/40/fin/choice_final

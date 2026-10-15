@@ -1,5 +1,5 @@
 # 命名：420
-# 説明：【追加：2026-10-09 ルブラ編】第二章「涸れ泉の聖堂」のはじまり：坑道の入口のミラに話しかけると、水守の伝令の知らせ。NPC と仕掛けを置き、ミラは水守の館へ
+# 説明：第二章「涸れ泉の聖堂」のはじまり：坑道の入口のミラに話しかけると、水守の伝令の知らせ。NPC と仕掛けを置き、ミラは水守の館へ
 # 実行条件：実行者 ミラ（村人 902）。#temp main_story 419
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902
 # =/function neofunction:system/adv/tick/quest/40/d2/420
@@ -7,7 +7,7 @@
 # 内容
 execute unless score #temp main_story matches 419 run return 0
 scoreboard players set #temp main_story 420
-# 【追加：2026-10-14】この章の選択の記録を消す（前の遊びの記録が残っていると、選択肢が出ない）
+# この章の選択の記録を消す（前の遊びの記録が残っていると、選択肢が出ない）
 data remove storage neofunction:rubra choice.council
 data remove storage neofunction:rubra choice.selen
 function neofunction:system/rubra/d2/setup

@@ -13,7 +13,7 @@ function neofunction:asset/name/get
 loot replace entity @e[distance=..3,tag=item,limit=1,sort=nearest] container.0 loot neofunction:item/other/996
 summon text_display ~ ~ ~ {Tags:["del","resolve"],text:"",view_range:0,alignment:"center"}
 #一度テキストディスプレイに入れることでOPがなくても見れるように
-# 【変更：2026-09-27 26.3対応】26.3 では本のページが written_book_content.pages[N].raw に保存される（Filterable形式、要実機確認）
+# 26.3 では本のページが written_book_content.pages[N].raw に保存される（Filterable形式、要実機確認）
 data modify entity @e[tag=resolve,limit=1,sort=nearest,distance=..3] text set from entity @e[tag=item,limit=1,sort=nearest,distance=..3] Item.components."minecraft:written_book_content".pages[0].raw
 data modify entity @e[tag=item,limit=1,sort=nearest,distance=..3] Item.components."minecraft:written_book_content".pages[0].raw set from entity @e[tag=resolve,limit=1,sort=nearest] text
 data modify entity @e[tag=resolve,limit=1,sort=nearest,distance=..3] text set from entity @e[tag=item,limit=1,sort=nearest,distance=..3] Item.components."minecraft:written_book_content".pages[1].raw

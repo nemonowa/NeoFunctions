@@ -1,5 +1,5 @@
 # 命名：mira_to_bottom
-# 説明：【追加：2026-10-08 ルブラ編】ミラが大空洞の下の乗り場のそば（822, -40, 3260）へ先に下りる
+# 説明：ミラが大空洞の下の乗り場のそば（822, -40, 3260）へ先に下りる
 # 実行条件：実行者 プレイヤー（会話の最後の Command）
 # >/function neofunction:system/adv/tick/quest/40/d1/413（会話の Command）
 # =/function neofunction:system/adv/tick/quest/40/d1/mira_to_bottom

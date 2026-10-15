@@ -48,7 +48,7 @@ execute if score #temp main_story matches 43 run return run tellraw @s {"text":"
 execute if score #temp main_story matches 44 run return run tellraw @s {"text":"黄金麦の大聖堂に赴き、司祭フェイスに話しかける。"}
 execute if score #temp main_story matches 45 run return run tellraw @s {"text":"パレスオブセレスタに向かい、黄金穀倉ルクスイーファのセレスティアルクリスタルを納品する。"}
 
-#第四章（【追加：2026-10-14】ルブラ編。進み具合 410〜449）
+# 第四章（ルブラ編。進み具合 410〜449）
 execute if score #temp main_story matches 410..448 run tellraw @s {"text":"紅鉢の街ルブラ (CerestaFesta) 【進行中】"}
 execute if score #temp main_story matches 410 run return run tellraw @s {"text":"坑道の入口にいる鉱夫頭バルドに話を聞く 【進行中】"}
 execute if score #temp main_story matches 411 run return run tellraw @s {"text":"赤い足跡をたどって、坑道の奥（三の層）へ 【進行中】"}

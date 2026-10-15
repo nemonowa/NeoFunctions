@@ -1,5 +1,5 @@
 # 命名：ring_wave
-# 説明：【追加：2026-10-09 ルブラ編】衝撃波の輪 1 tick ぶん：半径 rr の輪に粒を並べ、輪の上（rr−1.5〜rr+0.5）で地面に立っている人に 7 ダメージ
+# 説明：衝撃波の輪 1 tick ぶん：半径 rr の輪に粒を並べ、輪の上（rr−1.5〜rr+0.5）で地面に立っている人に 7 ダメージ
 # 実行条件：実行位置 舞台の真ん中。引数 rr（storage fin から）
 # >/function neofunction:entity/skill/boss/rubra_void/ring_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ring_wave

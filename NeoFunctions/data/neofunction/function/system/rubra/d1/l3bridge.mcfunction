@@ -1,5 +1,5 @@
 # 命名：l3bridge
-# 説明：【追加：2026-10-14 ルブラ編】三の層の裂け目の手前、北の壁のランプ（845, 26, 3283）のボタンを押した：ランプが点き、裂け目（x846〜849）に光の橋が架かる（y24、z3285〜3287）。1.25 秒で消える（l3bridge_tick）。架かっているあいだは押しても何もしない
+# 説明：三の層の裂け目の手前、北の壁のランプ（845, 26, 3283）のボタンを押した：ランプが点き、裂け目（x846〜849）に光の橋が架かる（y24、z3285〜3287）。1.25 秒で消える（l3bridge_tick）。架かっているあいだは押しても何もしない
 # 実行条件：実行者 プレイヤー（rubra_click の振り分けから）
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d1/l3bridge

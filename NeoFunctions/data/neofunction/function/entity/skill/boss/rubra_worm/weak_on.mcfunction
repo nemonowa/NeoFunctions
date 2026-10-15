@@ -1,5 +1,5 @@
 # 命名：weak_on
-# 説明：【追加：2026-10-14 ルブラ編】全節を弱らせる（赤く光らせ、当たり判定に rubra_hot を付けて攻撃を通す）
+# 説明：全節を弱らせる（赤く光らせ、当たり判定に rubra_hot を付けて攻撃を通す）
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_worm/stun_start
 # =/function neofunction:entity/skill/boss/rubra_worm/weak_on

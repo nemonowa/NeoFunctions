@@ -1,5 +1,5 @@
 # 命名：charge_hurt
-# 説明：【追加：2026-10-14 ルブラ編】突進が当たった：10 ダメージと跳ね飛ばし（一度の突進で一人一度）
+# 説明：突進が当たった：10 ダメージと跳ね飛ばし（一度の突進で一人一度）
 # 実行条件：実行者 当たった人
 # >/function neofunction:entity/skill/boss/rubra_worm/charge_tick
 # =/function neofunction:entity/skill/boss/rubra_worm/charge_hurt

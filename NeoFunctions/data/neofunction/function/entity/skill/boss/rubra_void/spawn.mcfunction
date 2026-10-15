@@ -1,5 +1,5 @@
 # 命名：spawn
-# 説明：【追加：2026-10-09 ルブラ編】ヴォイド・ゼロを出す：見えない大きなガスト（当たり判定、体力 1000）と見張り役、黒い水の塊と黒い膜の見た目。記録を初めに
+# 説明：ヴォイド・ゼロを出す：見えない大きなガスト（当たり判定、体力 1000）と見張り役、黒い水の塊と黒い膜の見た目。記録を初めに
 # 実行条件：実行位置 ボスの浮かぶ所（rubra_sky_boss）
 # >/function neofunction:entity/skill/boss/rubra_void/start_2
 # =/function neofunction:entity/skill/boss/rubra_void/spawn
@@ -7,7 +7,7 @@
 # 内容
 function neofunction:entity/skill/boss/rubra_void/clean
 function neofunction:asset/summon/913
-# 【変更：2026-10-14】到達した形態からの再戦は、共通の出現処理（全回復する）が終わってから tick で合わせる（ckp、spawn_ckpt）
+# 到達した形態からの再戦は、共通の出現処理（全回復する）が終わってから tick で合わせる（ckp、spawn_ckpt）
 # 見張り役は最初から check を付けて出し、共通の出現処理を通さない（通すと boss を見て BOSS WARNING が出る・vanilla が付いて毎 tick に回らない）
 summon marker ~ ~ ~ {Tags:["boss","check","nobossbar","rubra_fin","rubra_void_ctl"]}
 function neofunction:entity/skill/boss/rubra_void/look_black

@@ -1,5 +1,5 @@
 # 命名：arrow_start
-# 説明：【追加：2026-10-09 ルブラ編】赤い光の矢の始まり：狙う人の胸の高さに印を置き、0.75 秒（15 tick）のあいだ赤い線で予告する
+# 説明：赤い光の矢の始まり：狙う人の胸の高さに印を置き、0.75 秒（15 tick）のあいだ赤い線で予告する
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/attack
 # =/function neofunction:entity/skill/boss/rubra_cradle/arrow_start

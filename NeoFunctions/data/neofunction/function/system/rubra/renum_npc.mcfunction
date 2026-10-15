@@ -1,5 +1,5 @@
 # 命名：renum_npc
-# 説明：【追加：2026-10-14 ルブラ編】番号の並べ直し（エンティティ 809〜834 → 900〜925）を、ワールドにもう置いてある NPC に反映する：DeathLootTable を新しい番号に（話しかけたときの振り分けがこれを見るため）。済んだらタグ rubra_renum
+# 説明：番号の並べ直し（エンティティ 809〜834 → 900〜925）を、ワールドにもう置いてある NPC に反映する：DeathLootTable を新しい番号に（話しかけたときの振り分けがこれを見るため）。済んだらタグ rubra_renum
 # 実行条件：実行者 ルブラの NPC（村人、タグ rubra_npc）
 # >/function neofunction:system/rubra/guide
 # =/function neofunction:system/rubra/renum_npc

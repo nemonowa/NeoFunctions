@@ -1,5 +1,5 @@
 # 命名：body
-# 説明：【追加：2026-10-08 ルブラ編】頭の位置を動きの記録（hist、新しい順に 37）に足し、頭の見た目と 12 の節を記録の 3・6・…・36 番目の位置に置く
+# 説明：頭の位置を動きの記録（hist、新しい順に 37）に足し、頭の見た目と 12 の節を記録の 3・6・…・36 番目の位置に置く
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/body

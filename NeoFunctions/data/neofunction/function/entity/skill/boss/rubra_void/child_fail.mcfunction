@@ -1,5 +1,5 @@
 # 命名：child_fail
-# 説明：【追加：2026-10-09 ルブラ編】星の子の光が尽きた：滴りを消して、守る戦いを最初からやり直す
+# 説明：星の子の光が尽きた：滴りを消して、守る戦いを最初からやり直す
 # 実行条件：実行者・実行位置 星の子
 # >/function neofunction:entity/skill/boss/rubra_void/child_tick
 # =/function neofunction:entity/skill/boss/rubra_void/child_fail

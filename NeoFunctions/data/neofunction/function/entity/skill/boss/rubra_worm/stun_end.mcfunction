@@ -1,5 +1,5 @@
 # 命名：stun_end
-# 説明：【追加：2026-10-14 ルブラ編】スタンが終わった：殻が閉じて（weak_off）、その場から潜る
+# 説明：スタンが終わった：殻が閉じて（weak_off）、その場から潜る
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/stun_tick
 # =/function neofunction:entity/skill/boss/rubra_worm/stun_end

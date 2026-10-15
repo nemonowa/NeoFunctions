@@ -1,5 +1,5 @@
 # 命名：say_1
-# 説明：【追加：2026-10-14 ルブラ編】結晶 1 を引き剥がしたときのミラのひとこと
+# 説明：結晶 1 を引き剥がしたときのミラのひとこと
 # 実行条件：どこでも
 # >/function neofunction:system/rubra/d3/xtal/done
 # =/function neofunction:system/rubra/d3/xtal/say_1

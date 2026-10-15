@@ -1,5 +1,5 @@
 # 命名：choice_b_show
-# 説明：【追加：2026-10-09 ルブラ編】選択 B をチャットに出す：［セレンを止める］4281 ／［話を聞く］4282 ／［一緒に行くと言う］4283
+# 説明：選択 B をチャットに出す：［セレンを止める］4281 ／［話を聞く］4282 ／［一緒に行くと言う］4283
 # 実行条件：実行者 プレイヤー（会話の最後の Command、またはミラに話しかけたとき）
 # >/function neofunction:system/adv/tick/quest/40/d2/428（会話の Command）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902

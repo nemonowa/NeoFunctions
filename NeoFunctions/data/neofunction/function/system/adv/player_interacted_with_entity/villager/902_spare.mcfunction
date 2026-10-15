@@ -1,5 +1,5 @@
 # 命名：902_spare
-# 説明：【追加：2026-10-08 ルブラ編】星核の欠片を持っていない人に、ミラが予備の欠片を 4 つ渡す
+# 説明：星核の欠片を持っていない人に、ミラが予備の欠片を 4 つ渡す
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/902
 # =/function neofunction:system/adv/player_interacted_with_entity/villager/902_spare

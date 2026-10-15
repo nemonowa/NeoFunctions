@@ -1,5 +1,5 @@
 # 命名：hatch_close
-# 説明：【追加：2026-10-14 ルブラ編】塔の一階の床石（台座の裏の 3×3）を閉じ直す。第三章が終わったら（439）閉じる。開いたままの今のワールドは guide から
+# 説明：塔の一階の床石（台座の裏の 3×3）を閉じ直す。第三章が終わったら（439）閉じる。開いたままの今のワールドは guide から
 # 実行条件：どこでも（塔のチャンクが読み込まれていること）
 # >/function neofunction:system/adv/tick/quest/40/d3/439
 # >/function neofunction:system/rubra/guide

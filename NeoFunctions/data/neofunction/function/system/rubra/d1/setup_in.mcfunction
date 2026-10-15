@@ -1,5 +1,5 @@
 # 命名：setup_in
-# 説明：【追加：2026-10-08 ルブラ編】setup_2 の中身（セレスタ次元で実行）
+# 説明：setup_2 の中身（セレスタ次元で実行）
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/d1/setup_2
 # =/function neofunction:system/rubra/d1/setup_in
@@ -21,12 +21,11 @@ summon interaction 832.5 14 3277.5 {Tags:["rubra_click","rubra_ped_s","rubra_d1"
 summon item_display 832.5 15.35 3259.5 {Tags:["rubra_ped_disp_n","rubra_d1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]},brightness:{block:15,sky:15}}
 summon item_display 823.5 15.35 3268.5 {Tags:["rubra_ped_disp_w","rubra_d1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]},brightness:{block:15,sky:15}}
 summon item_display 832.5 15.35 3277.5 {Tags:["rubra_ped_disp_s","rubra_d1"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.6f,0.6f,0.6f]},brightness:{block:15,sky:15}}
-# 【追加：2026-10-08】鐘（向きをそろえてから鳴らすと判定）と、西の壁の星読みの古い文字（手がかり）
+# 鐘（向きをそろえてから鳴らすと判定）と、西の壁の星読みの古い文字（手がかり）
 setblock 840 13 3268 minecraft:bell[attachment=floor,facing=west,powered=false]
 summon interaction 840.5 13 3268.5 {Tags:["rubra_click","rubra_bell","rubra_d1"],width:1.1f,height:1.2f,response:1b}
 summon text_display 821.3 15.4 3268.5 {Tags:["rubra_d1"],Rotation:[-90.0f,0.0f],billboard:"fixed",brightness:{block:15,sky:15},line_width:220,background:1426063360,text:{text:"",extra:[{text:"星読みの古い文字\n\n",color:"#C9A27E",italic:true},{text:"三つの灯の行き先は\n白い層の迷い路の奥に　鉱夫が刻んだ\n\n",color:"white"},{text:"三つの星そろうとき　鐘を鳴らせ",color:"#C9A27E",italic:true}]}}
-# 【変更：2026-10-14】ガラン・ルーの札の窪みは撤去した（砂の亡者をやめたので）
-# 【追加：2026-10-14 作り直し】一の層の鉄格子とレバー、二の層の手がかり、休み場の札、大空洞の柱の印、宝箱の戦利品の表（Gen1b が書き出し）
+# 一の層の鉄格子とレバー、二の層の手がかり、休み場の札、大空洞の柱の印、宝箱の戦利品の表（Gen1b が書き出し）
 function neofunction:system/rubra/d1/points2
 function neofunction:system/rubra/d1/l1gate_close
 function neofunction:system/rubra/d1/l3bridge_off

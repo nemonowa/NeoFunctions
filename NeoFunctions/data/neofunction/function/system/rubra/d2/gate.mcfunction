@@ -1,5 +1,5 @@
 # 命名：gate
-# 説明：【追加：2026-10-09 ルブラ編】滝の裏の青い石の扉を右クリックしたとき：泉が弱って水が細くなったあと（424 以降）なら開く。それより前は水の向こうに何かがあるだけ
+# 説明：滝の裏の青い石の扉を右クリックしたとき：泉が弱って水が細くなったあと（424 以降）なら開く。
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d2/gate

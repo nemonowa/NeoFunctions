@@ -5,7 +5,7 @@
 
 
 # 内容
-# 【追加：2026-10-14 26.3 対応】装填しておいた矢が飛ぶので、すぐ消す
+# 装填しておいた矢が飛ぶので、すぐ消す
 execute at @s run kill @e[type=arrow,distance=..6,sort=nearest,limit=1]
 particle minecraft:end_rod ~ ~1.5 ~ 0 0 0 0.5 9 normal
 scoreboard players enable @s slotR

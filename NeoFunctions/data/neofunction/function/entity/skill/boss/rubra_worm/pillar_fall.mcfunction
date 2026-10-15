@@ -1,5 +1,5 @@
 # 命名：pillar_fall
-# 説明：【追加：2026-10-14 ルブラ編】柱が崩れ落ちる（床から天井の下まで。崩れた石は消す）
+# 説明：柱が崩れ落ちる（床から天井の下まで。崩れた石は消す）
 # 実行条件：実行者・実行位置 柱の目印
 # >/function neofunction:entity/skill/boss/rubra_worm/pillar_hit
 # =/function neofunction:entity/skill/boss/rubra_worm/pillar_fall

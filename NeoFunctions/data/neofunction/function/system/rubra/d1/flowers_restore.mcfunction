@@ -1,5 +1,5 @@
 # 命名：flowers_restore
-# 説明：【追加：2026-10-08 ルブラ編】大空洞の星核の花（赤いろうそく 260）を、空気になっている所だけ植え直す。座標は DungeonGen の dungeon1_points.txt から
+# 説明：大空洞の星核の花（赤いろうそく 260）を、空気になっている所だけ植え直す。座標は DungeonGen の dungeon1_points.txt から
 # 実行条件：セレスタ次元で、大空洞のチャンクが読み込まれていること
 # >/function neofunction:system/rubra/d1/reset_2
 # =/function neofunction:system/rubra/d1/flowers_restore

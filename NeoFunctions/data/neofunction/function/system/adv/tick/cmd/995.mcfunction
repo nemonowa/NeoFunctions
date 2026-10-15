@@ -4,7 +4,7 @@
 # >
 # =/function neofunction:system/adv/tick/cmd/995
 
-# 【追加：2026-10-14 26.3 対応】1.20.4 は空気を装填して右クリックだけで撃てた。26.3 は空気を装填できない（空＝未装填で、引き絞らないと撃てない）ので、矢を 1 本装填した状態にしておく（撃った矢は shot_crossbow/995 で消す）
+# 26.3 は空気を装填できない（空＝未装填で、引き絞らないと撃てない）ので、矢を 1 本装填した状態にしておく（撃った矢は shot_crossbow/995 で消す）
 execute if items entity @s weapon.mainhand minecraft:crossbow[minecraft:custom_model_data={floats:[995.0f]},minecraft:charged_projectiles=[]] run item modify entity @s weapon.mainhand neofunction:fix/charge_arrow
 
 # 所持時の処理：攻撃時に敵のHPを表示。

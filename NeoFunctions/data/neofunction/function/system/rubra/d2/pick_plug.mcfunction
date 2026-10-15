@@ -1,5 +1,5 @@
 # 命名：pick_plug
-# 説明：【追加：2026-10-09 ルブラ編】西の奥（水車の部屋の先）で水路の栓（1916）を取る（一度だけ）
+# 説明：西の奥（水車の部屋の先）で水路の栓（1916）を取る（一度だけ）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/rubra/d2/pick
 # =/function neofunction:system/rubra/d2/pick_plug

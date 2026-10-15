@@ -1,5 +1,5 @@
 # 命名：plan_emerge
-# 説明：【追加：2026-10-14 ルブラ編】突き上げの狙いを決める（前の plan の中身）：大空洞にいるプレイヤーからひとり選び、その足もと近く（±3）を A、そこから ±12 先を B、真ん中の上をてっぺん P。空洞の中（x790〜824・z3246〜3290）に収める。地中を A へ
+# 説明：突き上げの狙いを決める（前の plan の中身）：大空洞にいるプレイヤーからひとり選び、その足もと近く（±3）を A、そこから ±12 先を B、真ん中の上をてっぺん P。空洞の中（x790〜824・z3246〜3290）に収める。地中を A へ
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/plan
 # =/function neofunction:entity/skill/boss/rubra_worm/plan_emerge

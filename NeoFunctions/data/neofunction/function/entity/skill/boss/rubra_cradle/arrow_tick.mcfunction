@@ -1,5 +1,5 @@
 # 命名：arrow_tick
-# 説明：【追加：2026-10-09 ルブラ編】赤い光の矢（毎 tick）：セレンの胸から狙いへ予告の線を見せ、数え終わったら線の上を射抜く（当たると 7 ダメージ）
+# 説明：赤い光の矢（毎 tick）：セレンの胸から狙いへ予告の線を見せ、数え終わったら線の上を射抜く（当たると 7 ダメージ）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/arrow_tick

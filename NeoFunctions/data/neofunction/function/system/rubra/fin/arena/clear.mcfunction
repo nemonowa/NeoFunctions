@@ -1,5 +1,5 @@
 # 命名：clear
-# 説明：【追加：2026-10-09 ルブラ編】星還りの空を片付ける（チャンクを読み込んで 1.5 秒後に clear_2）
+# 説明：星還りの空を片付ける（チャンクを読み込んで 1.5 秒後に clear_2）
 # 実行条件：どこでも
 # >/function neofunction:system/adv/tick/quest/40/fin/449
 # >/function neofunction:system/rubra/fin/reset_2

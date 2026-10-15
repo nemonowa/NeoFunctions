@@ -1,5 +1,5 @@
 # 命名：stun_start
-# 説明：【追加：2026-10-14 ルブラ編】欠片がすべて無くなった：守り（耐性）が解け、セレンが床に落ちて 8 秒（160 tick）気を失う。そのあいだは攻撃が通り、セレンは攻撃しない
+# 説明：欠片がすべて無くなった：守り（耐性）が解け、セレンが床に落ちて 8 秒（160 tick）気を失う。そのあいだは攻撃が通り、セレンは攻撃しない
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_cradle/lose
 # =/function neofunction:entity/skill/boss/rubra_cradle/stun_start

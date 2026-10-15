@@ -1,5 +1,5 @@
 # 命名：stream
-# 説明：【追加：2026-10-09 ルブラ編】開いた水門から番人へ流れる澄んだ水の筋（2 マスおきに。【変更：2026-10-14】広間を半径 21 に広げ、水門が壁ぎわ（番人から約 18 マス）になったので 18 マス先まで）
+# 説明：開いた水門から番人へ流れる澄んだ水の筋（2 マスおきに。
 # 実行条件：実行位置と向き 水門から番人の方へ
 # >/function neofunction:entity/skill/boss/rubra_keeper/valve_one
 # =/function neofunction:entity/skill/boss/rubra_keeper/stream

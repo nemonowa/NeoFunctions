@@ -1,5 +1,5 @@
 # 命名：442
-# 説明：【追加：2026-10-09 ルブラ編】星還祭の夜、星の広場：オルドが民に頭を下げる。手記を広場で明かしていれば（choice.reveal）、人々は灯籠を掲げて支えてくれる。伏せていれば、人々は何も知らないまま祭りを始める。【変更：2026-10-13】夜だけ始まる（904 で night_time を見る）。灯籠に火がともる語りで、灯籠が夜空へ昇っていく（system/rubra/fin/skylantern_start）
+# 説明：星還祭の夜、星の広場：オルドが民に頭を下げる。手記を広場で明かしていれば（choice.reveal）、人々は灯籠を掲げて支えてくれる。伏せていれば、人々は何も知らないまま祭りを始める。夜だけ始まる（904 で night_time を見る）。灯籠に火がともる語りで、灯籠が夜空へ昇っていく（system/rubra/fin/skylantern_start）
 # 実行条件：実行者 オルド（村人 904）。#temp main_story 441、夜（neofunction:night_time）
 # >/function neofunction:system/adv/player_interacted_with_entity/villager/904
 # =/function neofunction:system/adv/tick/quest/40/fin/442

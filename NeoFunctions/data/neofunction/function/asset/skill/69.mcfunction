@@ -24,7 +24,6 @@ execute at @s run summon marker ~ ~ ~ {Tags:["FrogRippleAnchor"]}
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] as @e[tag=enemy,distance=..1.5] run damage @s 8 lightning_bolt by @a[tag=This,limit=1]
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] as @e[tag=enemy,distance=..1.5] at @s run particle electric_spark ~ ~ ~ 0 3 0 0 100
 
-# 【変更：2026-09-28 26.3対応】flash パーティクルは 26.3 で色の指定が必須になったため、1.20.4 と同じ白を指定
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] run particle flash{color:[1.0,1.0,1.0,1.0]} ~ ~0.1 ~ 0 0 0 0 1
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] run particle electric_spark ~ ~ ~ 0.3 0.3 0.3 0 24
 execute at @e[tag=FrogRippleAnchor,limit=1,sort=nearest] run particle witch ~ ~ ~ 0.4 0.1 0.4 0 6

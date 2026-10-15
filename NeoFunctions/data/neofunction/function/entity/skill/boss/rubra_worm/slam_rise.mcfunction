@@ -1,5 +1,5 @@
 # 命名：slam_rise
-# 説明：【追加：2026-10-14 ルブラ編】のしかかり：床を割って真上へ高く跳ぶ（y-16 まで）
+# 説明：のしかかり：床を割って真上へ高く跳ぶ（y-16 まで）
 # 実行条件：実行者・実行位置 本体（狙いの真下）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/slam_rise

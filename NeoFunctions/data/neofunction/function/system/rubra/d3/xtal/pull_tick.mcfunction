@@ -1,5 +1,5 @@
 # 命名：pull_tick
-# 説明：【追加：2026-10-14 ルブラ編】引き剥がし中（毎 tick）：結晶から 4 マス以内で、攻撃を受けておらず、守り石を手に持っていれば進む。かかる時間はセレン戦と同じ 60 tick（trust.selen が 1 以上なら 40 tick）
+# 説明：引き剥がし中（毎 tick）：結晶から 4 マス以内で、攻撃を受けておらず、守り石を手に持っていれば進む。かかる時間はセレン戦と同じ 60 tick（trust.selen が 1 以上なら 40 tick）
 # 実行条件：実行者・実行位置 引き剥がしている人（タグ rubra_xpuller）
 # >/function neofunction:system/rubra/d3/xtal/loop
 # =/function neofunction:system/rubra/d3/xtal/pull_tick

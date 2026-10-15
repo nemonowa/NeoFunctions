@@ -1,5 +1,5 @@
 # 命名：ult_chase
-# 説明：【追加：2026-10-13 ルブラ編】足もとを追う黒星：舞台の上にいる人それぞれの真上（y222）に小さな黒星。約 1.8 秒で墜ちる（足もとに赤い輪の予告）。止まっていると当たる
+# 説明：足もとを追う黒星：舞台の上にいる人それぞれの真上（y222）に小さな黒星。約 1.8 秒で墜ちる（足もとに赤い輪の予告）。止まっていると当たる
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_chase

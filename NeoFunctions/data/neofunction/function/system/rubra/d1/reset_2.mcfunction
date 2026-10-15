@@ -1,5 +1,5 @@
 # 命名：reset_2
-# 説明：【追加：2026-10-08 ルブラ編】reset の続き：星核の花を植え直し、セレンの横穴の砂利をどける
+# 説明：reset の続き：星核の花を植え直し、セレンの横穴の砂利をどける
 # 実行条件：schedule（setup が読み込んだチャンクが固定されているあいだ：setup_2 の 40t より前）
 # >/function neofunction:system/rubra/d1/reset
 # =/function neofunction:system/rubra/d1/reset_2

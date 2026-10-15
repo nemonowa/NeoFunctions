@@ -1,5 +1,5 @@
 # 命名：cine_tick
-# 説明：【追加：2026-10-09 ルブラ編】とどめのあとの空の演出（毎 tick、見張り役から）：経験値の玉を消し、光の粒を見せ、言葉を出す。220 tick（11 秒）で結末へ（end_a・end_b・burst_c）
+# 説明：とどめのあとの空の演出（毎 tick、見張り役から）：経験値の玉を消し、光の粒を見せ、言葉を出す。220 tick（11 秒）で結末へ（end_a・end_b・burst_c）
 # 実行条件：実行者・実行位置 見張り役（rubra_void_ctl）
 # >/function neofunction:entity/skill/boss/rubra_void/ctl_tick
 # =/function neofunction:entity/skill/boss/rubra_void/cine_tick

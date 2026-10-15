@@ -1,5 +1,5 @@
 # 命名：オルド
-# 説明：【追加：2026-10-09 ルブラ編】水守頭。ルブラを束ねる老人。水守の館にいる
+# 説明：水守頭。ルブラを束ねる老人。水守の館にいる
 # 頭：minecraft-heads.com の 78102（https://minecraft-heads.com/custom-heads/head/78102）。heads.py で付ける
 # >/function neofunction:system/rubra/d2/setup
 # =/function neofunction:asset/summon/904

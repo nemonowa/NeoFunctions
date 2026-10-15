@@ -5,7 +5,7 @@
 # =/function neofunction:system/adv/consume_item/1038
 
 # 内容
-# 【追加：2026-09-30 ハービット屋台飯の効果実装】
+# ハービット屋台飯の効果実装。
 # 満腹度回復＋体力増強（増強後の最大体力で回復量を出すため先に付与）
 effect give @s minecraft:saturation 1 0 true
 effect give @s minecraft:health_boost 300 0

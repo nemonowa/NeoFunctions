@@ -1,5 +1,5 @@
 # 命名：maw_tick
-# 説明：【追加：2026-10-14 ルブラ編】顎が開いているあいだ（毎 tick、ot を数える。15 秒＝300）：体力のスコア（HP）で次のフェーズへ。12 秒からは顎が震えて閉じかける。300 で閉じて、同じフェーズの心臓がまた浮かぶ（maw_close）
+# 説明：顎が開いているあいだ（毎 tick、ot を数える。15 秒＝300）：体力のスコア（HP）で次のフェーズへ。12 秒からは顎が震えて閉じかける。300 で閉じて、同じフェーズの心臓がまた浮かぶ（maw_close）
 # 実行条件：実行者・実行位置 本体（第 3 形態、顎が開いている）
 # >/function neofunction:entity/skill/boss/rubra_void/form3
 # =/function neofunction:entity/skill/boss/rubra_void/maw_tick

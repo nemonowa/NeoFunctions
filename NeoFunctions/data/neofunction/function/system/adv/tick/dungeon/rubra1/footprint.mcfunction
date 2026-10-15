@@ -1,5 +1,5 @@
 # 命名：footprint
-# 説明：【追加：2026-10-08 ルブラ編】欠片泥棒の足跡（星核の粉）。床に赤い粉を点々と出して奥へ導く。座標は DungeonGen の dungeon1_points.txt から
+# 説明：欠片泥棒の足跡（星核の粉）。床に赤い粉を点々と出して奥へ導く。座標は DungeonGen の dungeon1_points.txt から
 # 実行条件：実行者 プレイヤー（第一章 410〜412）
 # >/function neofunction:system/adv/tick/dungeon/rubra1
 # =/function neofunction:system/adv/tick/dungeon/rubra1/footprint
@@ -17,7 +17,7 @@ execute positioned 855.5 44.05 3264.5 if entity @s[distance=..20] run particle m
 execute positioned 853.5 42.05 3264.5 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s
 execute positioned 851.5 40.05 3264.5 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s
 execute positioned 849.5 38.05 3264.5 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s
-# 【変更：2026-10-14】二の層は迷路になったので、迷路の正しい道に沿って（2 部屋ごと。MazeGen が書き出し）
+# MazeGen が書き出し）
 execute positioned 846.0 36.05 3265.0 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s
 execute positioned 846.0 36.05 3271.0 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s
 execute positioned 843.0 36.05 3274.0 if entity @s[distance=..20] run particle minecraft:dust{color:[0.85,0.15,0.1],scale:0.8} ~ ~ ~ 0.2 0 0.2 0 4 normal @s

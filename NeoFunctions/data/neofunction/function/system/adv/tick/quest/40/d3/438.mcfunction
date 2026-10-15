@@ -1,5 +1,5 @@
 # 命名：438
-# 説明：【追加：2026-10-09 ルブラ編】セレンが正気に戻る：「わたし、間違えたのね」。楔の頭を欠いて「天墜の楔」（素材 3）を渡し、眠る。守り石だけで救ったか（stone）、砕いたか（break）で台詞が少し変わる
+# 説明：セレンが正気に戻る：「わたし、間違えたのね」。楔の頭を欠いて「天墜の楔」（素材 3）を渡し、眠る。守り石だけで救ったか（stone）、砕いたか（break）で台詞が少し変わる
 # 実行条件：実行位置 球の広間の中心。#temp main_story 437
 # >/function neofunction:entity/skill/boss/rubra_cradle/defeat
 # >/function neofunction:system/adv/tick/quest/40/d3/zone

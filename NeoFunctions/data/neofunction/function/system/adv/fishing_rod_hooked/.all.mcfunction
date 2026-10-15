@@ -15,7 +15,6 @@ execute if entity @s[advancements={neoadvancement:neoskill/230=true}] run functi
 function neofunction:asset/skill/tamer/fishingrod
 
 playsound minecraft:entity.player.attack.strong record @s ~ ~ ~ 2 1 1
-# 【変更：2026-09-27 26.3対応】サウンドイベント entity.leash_knot.break は 26.3 では item.lead.untied（同じ音）に変わった
 playsound minecraft:item.lead.untied record @s ~ ~ ~ 2 1.1 1
 playsound minecraft:item.lead.untied neutral @s ~ ~ ~ 2 1.6 1
 playsound minecraft:entity.player.attack.crit neutral @s ~ ~ ~ 2 1.8 1

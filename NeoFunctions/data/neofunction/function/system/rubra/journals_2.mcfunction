@@ -1,5 +1,5 @@
 # 命名：journals_2
-# 説明：【追加：2026-10-09 ルブラ編】手記の置き場：古いもの（タグ rubra_jpick）を消して、当たり判定と本の見た目を置く。終わったらチャンクの固定を外す
+# 説明：手記の置き場：古いもの（タグ rubra_jpick）を消して、当たり判定と本の見た目を置く。終わったらチャンクの固定を外す
 # 実行条件：schedule
 # >/function neofunction:system/rubra/journals
 # =/function neofunction:system/rubra/journals_2

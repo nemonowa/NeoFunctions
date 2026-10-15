@@ -30,7 +30,6 @@ execute if data entity @s equipment.head.id run scoreboard players add 修復機
 scoreboard players operation @p minedSpawner -= 修復機コスト temp
 
 # 耐久値回復
-# 【変更：2026-09-27 26.3対応】HandItems[]/ArmorItems[] は部位ごとの equipment に変わったため部位ごとに耐久値を戻す（damage を持つ＝傷んでいる装備のみ）
 execute if data entity @s equipment.mainhand.components."minecraft:damage" run data modify entity @s equipment.mainhand.components."minecraft:damage" set value 0
 execute if data entity @s equipment.offhand.components."minecraft:damage" run data modify entity @s equipment.offhand.components."minecraft:damage" set value 0
 execute if data entity @s equipment.feet.components."minecraft:damage" run data modify entity @s equipment.feet.components."minecraft:damage" set value 0

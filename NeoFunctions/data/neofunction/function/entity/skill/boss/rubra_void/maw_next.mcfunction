@@ -1,5 +1,5 @@
 # 命名：maw_next
-# 説明：【追加：2026-10-14 ルブラ編】開いた顎を削りきった：次のフェーズへ（hp3 を 1 つ増やす）。顎が閉じ、増えた数の黒い心臓が浮かび上がる（maw_close）
+# 説明：開いた顎を削りきった：次のフェーズへ（hp3 を 1 つ増やす）。顎が閉じ、増えた数の黒い心臓が浮かび上がる（maw_close）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/maw_tick
 # =/function neofunction:entity/skill/boss/rubra_void/maw_next

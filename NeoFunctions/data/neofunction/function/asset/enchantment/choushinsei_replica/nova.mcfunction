@@ -1,5 +1,5 @@
 # 命名：nova
-# 説明：【追加：2026-10-09 ルブラ編】小さな超新星（星核鎧の写し）：自分を中心に半径 6 の光が弾ける。敵（タグ enemy）に 10 ダメージ、自分は 2 秒の耐性。10 秒（200 tick）待ち
+# 説明：小さな超新星（星核鎧の写し）：自分を中心に半径 6 の光が弾ける。敵（タグ enemy）に 10 ダメージ、自分は 2 秒の耐性。10 秒（200 tick）待ち
 # 実行条件：実行者・実行位置 写しの鎧を着たプレイヤー
 # >/function neofunction:asset/enchantment/choushinsei_replica/charge
 # =/function neofunction:asset/enchantment/choushinsei_replica/nova

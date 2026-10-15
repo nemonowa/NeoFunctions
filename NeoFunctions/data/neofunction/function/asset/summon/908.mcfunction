@@ -1,5 +1,5 @@
 # 命名：涸れの番人
-# 説明：【追加：2026-10-09 ルブラ編】涸れ泉の聖堂のボス。黒い水に侵された水守の石像。体力を持つ見えない本体で、見た目は entity/skill/boss/rubra_keeper が表示エンティティで組む
+# 説明：涸れ泉の聖堂のボス。黒い水に侵された水守の石像。体力を持つ見えない本体で、見た目は entity/skill/boss/rubra_keeper が表示エンティティで組む
 # >/function neofunction:system/rubra/d2/boss_start
 # =/function neofunction:asset/summon/908
 

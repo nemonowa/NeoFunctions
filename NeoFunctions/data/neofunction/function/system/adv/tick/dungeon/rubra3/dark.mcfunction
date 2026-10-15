@@ -1,6 +1,6 @@
 # 命名：dark
-# 説明：【追加：2026-10-09 ルブラ編】光を食べる闇：守り石が無いと盲目と暗闇。守り石をオフハンドに持つと盲目は消える（身のまわりだけ見える）
-# 説明：影：ときどき湧く（6 秒に 1 回ぐらい、近くに 2 体まで）。【変更：2026-10-14】いつでも斬れる。守り石の光の中では動きが鈍る
+# 説明：光を食べる闇：守り石が無いと盲目と暗闇。守り石をオフハンドに持つと盲目は消える（身のまわりだけ見える）
+# 説明：影：ときどき湧く（6 秒に 1 回ぐらい、近くに 2 体まで）。いつでも斬れる。守り石の光の中では動きが鈍る
 # 実行条件：実行者 プレイヤー（闇の間）
 # >/function neofunction:system/adv/tick/dungeon/rubra3
 # =/function neofunction:system/adv/tick/dungeon/rubra3/dark
@@ -12,7 +12,6 @@ execute if entity @s[tag=rubra_stonelit] run effect clear @s minecraft:blindness
 # 影の無敵の切り替え
 execute as @e[type=vex,tag=rubra_shadow,distance=..24] at @s run function neofunction:system/rubra/d3/shadow_light
 # 影が湧く（4 秒に 1 回ぐらい、近くに 4 体まで）
-# 【変更：2026-10-14】湧くペースと数を減らした（前は 4 秒に 1 回・4 体まで）
 execute store result score #rubra_r temp run random value 1..6
 execute unless score #rubra_r temp matches 1 run return 0
 execute store result score #rubra_n temp if entity @e[type=vex,tag=rubra_shadow,distance=..24]

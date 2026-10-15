@@ -1,5 +1,5 @@
 # 命名：l4
-# 説明：【追加：2026-10-08 ルブラ編】星の台の間：台から出る光の筋と、謎が解けたあとの乗り場のトロッコ
+# 説明：星の台の間：台から出る光の筋と、謎が解けたあとの乗り場のトロッコ
 # 実行条件：実行者 プレイヤー（四の層 y10〜22）
 # >/function neofunction:system/adv/tick/dungeon/rubra1
 # =/function neofunction:system/adv/tick/dungeon/rubra1/l4

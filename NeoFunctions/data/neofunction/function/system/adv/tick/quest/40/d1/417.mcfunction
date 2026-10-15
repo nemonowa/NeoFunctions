@@ -1,5 +1,5 @@
 # 命名：417
-# 説明：【追加：2026-10-08 ルブラ編】選んだあと：地上へ戻る段階。ミラは坑道の入口の少し奥（875, 44, 3265）へ先に戻る
+# 説明：選んだあと：地上へ戻る段階。ミラは坑道の入口の少し奥（875, 44, 3265）へ先に戻る
 # 実行条件：実行者 プレイヤー（会話の最後の Command。416 のときだけ進める）
 # >/function neofunction:system/adv/tick/quest/40/d1/choice_bury（会話の Command）
 # >/function neofunction:system/adv/tick/quest/40/d1/choice_take（会話の Command）

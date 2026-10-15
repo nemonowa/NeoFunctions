@@ -1,5 +1,5 @@
 # 命名：pick_key
-# 説明：【追加：2026-10-09 ルブラ編】東の奥の台から北の鍵（1915）を取る（一度だけ。なくしたら制作用の reset で）
+# 説明：東の奥の台から北の鍵（1915）を取る（一度だけ。なくしたら制作用の reset で）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/rubra/d2/pick
 # =/function neofunction:system/rubra/d2/pick_key

@@ -1,5 +1,5 @@
 # 命名：setup
-# 説明：【追加：2026-10-09 ルブラ編】第二章の NPC と仕掛けを置く準備：チャンクを読み込んだまま固定し、2 秒後に setup_2 で置く
+# 説明：第二章の NPC と仕掛けを置く準備：チャンクを読み込んだまま固定し、2 秒後に setup_2 で置く
 # 説明：手で実行するときは /function neofunction:system/rubra/d2/setup（進み具合は変えない）
 # >/function neofunction:system/adv/tick/quest/40/d2/420
 # >/function neofunction:system/rubra/d2/reset

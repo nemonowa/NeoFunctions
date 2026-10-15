@@ -1,5 +1,5 @@
 # 命名：breath
-# 説明：【追加：2026-10-14 ルブラ編】砂の吐息：てっぺんから、いちばん近い人へ砂の弾を 5 発（扇、8 度ずつ）
+# 説明：砂の吐息：てっぺんから、いちばん近い人へ砂の弾を 5 発（扇、8 度ずつ）
 # 実行条件：実行者・実行位置 本体（てっぺん）
 # >/function neofunction:entity/skill/boss/rubra_worm/arrive
 # =/function neofunction:entity/skill/boss/rubra_worm/breath

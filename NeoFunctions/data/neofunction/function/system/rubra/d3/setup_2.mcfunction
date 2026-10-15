@@ -1,5 +1,5 @@
 # 命名：setup_2
-# 説明：【追加：2026-10-09 ルブラ編】第三章の目印を置く（setup_in をセレスタ次元で）。終わったらチャンクの固定を外す
+# 説明：第三章の目印を置く（setup_in をセレスタ次元で）。終わったらチャンクの固定を外す
 # 実行条件：schedule
 # >/function neofunction:system/rubra/d3/setup
 # =/function neofunction:system/rubra/d3/setup_2

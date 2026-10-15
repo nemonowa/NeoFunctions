@@ -27,14 +27,14 @@ execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/631"}] run return run function neofunction:system/adv/player_interacted_with_entity/villager/631
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/633"}] run return run function neofunction:system/adv/player_interacted_with_entity/villager/633
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/764"}] run return run function neofunction:system/adv/player_interacted_with_entity/villager/764
-# 【追加：2026-10-08 ルブラ編】ミラ（902）・バルド（903）
+# ミラ（902）・バルド（903）
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/902"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/902
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/903"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/903
-# 【追加：2026-10-09 ルブラ編】オルド（904）・カシム（905）・洗い場の子ども（906）
+# オルド（904）・カシム（905）・洗い場の子ども（906）
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/904"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/904
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/905"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/905
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/906"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/906
-# 【追加：2026-10-09 ルブラ編】ヴァルカ（終章）
+# ヴァルカ（終章）
 execute as @e[limit=1,sort=nearest,distance=..4,nbt={DeathLootTable:"neofunction:asset/summon/912"}] at @s run return run function neofunction:system/adv/player_interacted_with_entity/villager/912
 
 

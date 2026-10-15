@@ -1,5 +1,5 @@
 # 命名：despawn
-# 説明：【追加：2026-10-09 ルブラ編】近くに誰もいなくなった（全滅・離脱）：ボスを片付け、時の流れを戻し、進み具合を 443 に。塔のミラに話しかけると、すぐやり直し（舞台は残す）
+# 説明：近くに誰もいなくなった（全滅・離脱）：ボスを片付け、時の流れを戻し、進み具合を 443 に。塔のミラに話しかけると、すぐやり直し（舞台は残す）
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/tick
 # =/function neofunction:entity/skill/boss/rubra_void/despawn

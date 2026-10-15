@@ -1,5 +1,5 @@
 # 命名：reset_2
-# 説明：【追加：2026-10-09 ルブラ編】終章を完全にやり直す：ボス・目印・舞台・星の子・滴り・セレンの姿・赤い星を消し、ミラ（いなければ呼び直す）とオルドを水守の館へ、人のタグと記録を消し、目印を置き直して、進み具合を 439 に
+# 説明：終章を完全にやり直す：ボス・目印・舞台・星の子・滴り・セレンの姿・赤い星を消し、ミラ（いなければ呼び直す）とオルドを水守の館へ、人のタグと記録を消し、目印を置き直して、進み具合を 439 に
 # 実行条件：schedule
 # >/function neofunction:system/rubra/fin/reset
 # =/function neofunction:system/rubra/fin/reset_2
@@ -9,7 +9,7 @@ execute in neodimension:ceresta_festa run kill @e[type=ghast,tag=rubra_void]
 execute in neodimension:ceresta_festa run kill @e[type=marker,tag=rubra_void_ctl]
 execute in neodimension:ceresta_festa run function neofunction:entity/skill/boss/rubra_void/clean
 execute in neodimension:ceresta_festa run kill @e[type=allay,tag=rubra_child]
-# 【追加：2026-10-13】昇る灯籠の片付け
+# 昇る灯籠の片付け
 schedule clear neofunction:system/rubra/fin/skylantern_tick
 data remove storage neofunction:rubra skyl
 execute in neodimension:ceresta_festa run kill @e[type=item_display,tag=rubra_skyl]

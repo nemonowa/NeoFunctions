@@ -1,6 +1,6 @@
 # 命名：beam_hurt
-# 説明：【追加：2026-10-13 ルブラ編】床を薙ぐ光線が当たった：7 ダメージ（一人一度）
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：床を薙ぐ光線が当たった：7 ダメージ（一人一度）
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者 当たった人
 # >/function neofunction:entity/skill/boss/rubra_void/beam_draw
 # =/function neofunction:entity/skill/boss/rubra_void/beam_hurt

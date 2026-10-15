@@ -1,5 +1,5 @@
 # 命名：skylantern_one
-# 説明：【追加：2026-10-13 ルブラ編】灯籠を 1 つ放つ：広場の灯籠の目印のどれかから、少しずらした所に（ずれは random で -4〜4 マス、向きもばらばら）
+# 説明：灯籠を 1 つ放つ：広場の灯籠の目印のどれかから、少しずらした所に（ずれは random で -4〜4 マス、向きもばらばら）
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/fin/skylantern_tick
 # =/function neofunction:system/rubra/fin/skylantern_one

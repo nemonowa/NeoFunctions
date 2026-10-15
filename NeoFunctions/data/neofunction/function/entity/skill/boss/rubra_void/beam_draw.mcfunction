@@ -1,5 +1,5 @@
 # 命名：beam_draw
-# 説明：【追加：2026-10-13 ルブラ編】床を薙ぐ光線（1 tick ぶん）：真ん中から向き bang へ 2〜30 マスに光を並べ、地面に立っている人に当てる（一人一度、beam_hurt）。warn が 1 なら予告だけ
+# 説明：床を薙ぐ光線（1 tick ぶん）：真ん中から向き bang へ 2〜30 マスに光を並べ、地面に立っている人に当てる（一人一度、beam_hurt）。warn が 1 なら予告だけ
 # 実行条件：引数 bang・warn（storage fin から）
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/beam_draw

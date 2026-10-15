@@ -13,7 +13,6 @@ data remove storage admin:btd Passengers[].Motion
 data remove storage admin:btd Passengers[].Invulnerable
 data remove storage admin:btd Passengers[].Air
 data remove storage admin:btd Passengers[].OnGround
-# 【変更：2026-09-27 26.3対応】エンティティの FallDistance は 1.21.5 で fall_distance に変わった
 data remove storage admin:btd Passengers[].fall_distance
 data remove storage admin:btd Passengers[].Pos
 data remove storage admin:btd Passengers[].Fire

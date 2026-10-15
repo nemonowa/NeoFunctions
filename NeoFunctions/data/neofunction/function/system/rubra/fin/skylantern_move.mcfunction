@@ -1,5 +1,5 @@
 # 命名：skylantern_move
-# 説明：【追加：2026-10-13 ルブラ編】灯籠 1 つ：少し回りながら 0.12 マス昇る（向きを 1.5 度ずつ回して前へ 0.02 マス＝ゆるい螺旋）。4 tick ごとに火の粉。y150 より上で消える
+# 説明：灯籠 1 つ：少し回りながら 0.12 マス昇る（向きを 1.5 度ずつ回して前へ 0.02 マス＝ゆるい螺旋）。4 tick ごとに火の粉。y150 より上で消える
 # 実行条件：実行者・実行位置 灯籠（item_display、タグ rubra_skyl）
 # >/function neofunction:system/rubra/fin/skylantern_tick
 # =/function neofunction:system/rubra/fin/skylantern_move

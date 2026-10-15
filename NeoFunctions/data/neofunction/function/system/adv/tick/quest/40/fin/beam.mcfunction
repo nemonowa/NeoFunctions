@@ -1,5 +1,5 @@
 # 命名：beam
-# 説明：【追加：2026-10-09 ルブラ編】矢の光の筋：前へ 1 マスずつ、赤・青・金の粒を置く（60 マスまで）
+# 説明：矢の光の筋：前へ 1 マスずつ、赤・青・金の粒を置く（60 マスまで）
 # 実行条件：実行位置 筋の今の所（向きは的へ）。#rf_n temp に進んだ数
 # >/function neofunction:system/adv/tick/quest/40/fin/choice_final
 # >/function neofunction:system/adv/tick/quest/40/fin/beam

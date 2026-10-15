@@ -1,5 +1,5 @@
 # 命名：slam_wait
-# 説明：【追加：2026-10-14 ルブラ編】のしかかりの予告のあいだ（毎 tick）：真下の床に半径 4 の赤い輪。数え終わったら落ちる（速さ 2）
+# 説明：のしかかりの予告のあいだ（毎 tick）：真下の床に半径 4 の赤い輪。数え終わったら落ちる（速さ 2）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/slam_wait

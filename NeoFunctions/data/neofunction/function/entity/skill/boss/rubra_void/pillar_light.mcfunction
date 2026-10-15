@@ -1,5 +1,5 @@
 # 命名：pillar_light
-# 説明：【追加：2026-10-09 ルブラ編】星灯の柱に矢が当たった：ランプを灯す（海のランタン）
+# 説明：星灯の柱に矢が当たった：ランプを灯す（海のランタン）
 # 実行条件：実行者・実行位置 柱の目印（ランプの真ん中）
 # >/function neofunction:entity/skill/boss/rubra_void/pillars
 # =/function neofunction:entity/skill/boss/rubra_void/pillar_light

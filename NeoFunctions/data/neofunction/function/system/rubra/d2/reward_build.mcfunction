@@ -1,5 +1,5 @@
 # 命名：reward_build
-# 説明：【追加：2026-10-14 ルブラ編】ボスを倒したあと：固定の宝箱「涸れ泉の宝」（950, 40, 3155、中身は後で）と rank3 の宝箱 3 つ（✯3 Random LootTable、neofunction:chest/3）、帰還ゲート（カエルのボスのゲートを写したストラクチャー rubra/d2_gate。中のエンドゲートウェイの出口が水守の館の中（954, 45, 3273））を出す
+# 説明：ボスを倒したあと：固定の宝箱「涸れ泉の宝」（950, 40, 3155、中身は後で）と rank3 の宝箱 3 つ（✯3 Random LootTable、neofunction:chest/3）、帰還ゲート（カエルのボスのゲートを写したストラクチャー rubra/d2_gate。中のエンドゲートウェイの出口が水守の館の中（954, 45, 3273））を出す
 # 実行条件：どこでも（ボス部屋のチャンクが読み込まれていること）
 # >/function neofunction:entity/skill/boss/rubra_keeper/dead
 # =/function neofunction:system/rubra/d2/reward_build

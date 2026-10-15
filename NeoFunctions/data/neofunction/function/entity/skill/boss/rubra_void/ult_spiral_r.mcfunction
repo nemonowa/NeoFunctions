@@ -1,5 +1,5 @@
 # 命名：ult_spiral_r
-# 説明：【追加：2026-10-13 ルブラ編】小さな黒星の渦（4 本、右回り。真ん中から外へ、時間差で墜ちる）
+# 説明：小さな黒星の渦（4 本、右回り。真ん中から外へ、時間差で墜ちる）
 # 実行条件：実行者 本体
 # >/function neofunction:entity/skill/boss/rubra_void/ult_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ult_spiral_r

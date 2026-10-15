@@ -1,5 +1,5 @@
 # 命名：choice_b_go
-# 説明：【追加：2026-10-09 ルブラ編】選択 B「一緒に行くと言う」：セレンは断るが、少しだけ笑う。trust.selen +1（第三章の「守り石だけで救う」が楽になる）
+# 説明：選択 B「一緒に行くと言う」：セレンは断るが、少しだけ笑う。trust.selen +1（第三章の「守り石だけで救う」が楽になる）
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/tick/quest/40/d2/choice_b
 # =/function neofunction:system/adv/tick/quest/40/d2/choice_b_go

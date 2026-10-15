@@ -5,7 +5,7 @@
 # =/function neofunction:system/adv/consume_item/1033
 
 # 内容
-# 【追加：2026-09-30 ハービット屋台飯の効果実装】
+# ハービット屋台飯の効果実装。
 # HP回復：最大体力の10%を heal へ渡す
 execute store result score @s heal run attribute @s minecraft:max_health get 0.1
 

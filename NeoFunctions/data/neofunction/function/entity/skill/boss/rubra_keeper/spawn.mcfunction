@@ -1,5 +1,5 @@
 # 命名：spawn
-# 説明：【追加：2026-10-09 ルブラ編】涸れの番人を出す：見えない本体（908）と、表示エンティティで組んだ像（青い石の体・水晶の杖・黒い水の部分）。記録を初めに
+# 説明：涸れの番人を出す：見えない本体（908）と、表示エンティティで組んだ像（青い石の体・水晶の杖・黒い水の部分）。記録を初めに
 # 実行条件：実行位置 番人の間の中心（床の上）
 # >/function neofunction:entity/skill/boss/rubra_keeper/start
 # =/function neofunction:entity/skill/boss/rubra_keeper/spawn

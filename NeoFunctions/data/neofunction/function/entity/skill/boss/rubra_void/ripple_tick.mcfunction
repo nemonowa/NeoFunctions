@@ -1,6 +1,6 @@
 # 命名：ripple_tick
-# 説明：【追加：2026-10-13 ルブラ編】黒い水の波紋（毎 tick、rp を数える）：半径 rp と rp−7 の 2 重の輪が広がる。輪の上に黒い水を置き、地面に立っている人に 7 ダメージ（一人一度）。半径 34 で終わる
-# 説明：【変更：2026-10-13】変数入りの関数には、必要な値だけの小さな記録（storage neofunction:rubra fin_m）を渡す（fin を丸ごと渡すと、毎 tick とても重くなった）
+# 説明：黒い水の波紋（毎 tick、rp を数える）：半径 rp と rp−7 の 2 重の輪が広がる。輪の上に黒い水を置き、地面に立っている人に 7 ダメージ（一人一度）。半径 34 で終わる
+# 説明：変数入りの関数には、必要な値だけの小さな記録（storage neofunction:rubra fin_m）を渡す（fin を丸ごと渡すと、毎 tick とても重くなった）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/star_tick
 # =/function neofunction:entity/skill/boss/rubra_void/ripple_tick

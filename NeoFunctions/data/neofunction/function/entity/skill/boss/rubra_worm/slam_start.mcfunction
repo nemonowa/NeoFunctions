@@ -1,5 +1,5 @@
 # 命名：slam_start
-# 説明：【追加：2026-10-14 ルブラ編】のしかかりの始まり（後半）：狙った人の足もとの真下へ地中を進む
+# 説明：のしかかりの始まり（後半）：狙った人の足もとの真下へ地中を進む
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_worm/plan
 # =/function neofunction:entity/skill/boss/rubra_worm/slam_start

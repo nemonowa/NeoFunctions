@@ -1,5 +1,5 @@
 # 命名：whip_start
-# 説明：【追加：2026-10-09 ルブラ編】黒い水の鞭の始まり：狙う人の足もとに印を置き、1 秒（20 tick）のあいだ地面に黒い線で予告する
+# 説明：黒い水の鞭の始まり：狙う人の足もとに印を置き、1 秒（20 tick）のあいだ地面に黒い線で予告する
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_keeper/attack
 # =/function neofunction:entity/skill/boss/rubra_keeper/whip_start

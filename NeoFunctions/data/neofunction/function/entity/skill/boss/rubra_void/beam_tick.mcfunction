@@ -1,6 +1,6 @@
 # 命名：beam_tick
-# 説明：【追加：2026-10-13 ルブラ編】床を薙ぐ光線（毎 tick）：予告のあいだは最初の向きに赤い線、薙ぐあいだは向きを 3 度ずつ回して当てる
-# 説明：【変更：2026-10-13】変数入りの関数には、必要な値だけの小さな記録（storage neofunction:rubra fin_m）を渡す（fin を丸ごと渡すと、毎 tick とても重くなった）
+# 説明：床を薙ぐ光線（毎 tick）：予告のあいだは最初の向きに赤い線、薙ぐあいだは向きを 3 度ずつ回して当てる
+# 説明：変数入りの関数には、必要な値だけの小さな記録（storage neofunction:rubra fin_m）を渡す（fin を丸ごと渡すと、毎 tick とても重くなった）
 # 実行条件：実行者・実行位置 本体
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/beam_tick

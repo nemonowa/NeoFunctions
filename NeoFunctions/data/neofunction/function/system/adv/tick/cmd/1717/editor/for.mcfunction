@@ -33,7 +33,7 @@ execute if data storage neofunction:item/1717 Temp{Id:1762} run data modify stor
 execute if data storage neofunction:item/1717 Temp{Id:1763} run data modify storage neofunction:item/1717 Temp.Text set value '{"text":"Mod","color":"#DCDCAA"}'
 
 
-# 【変更：2026-09-28 26.3対応】名前・説明文・文字表示の中身は 1.21.5 から JSON の文字列ではなく文章の部品として読まれる。文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
 execute unless score #Calc1 temp = #Calc2 temp run data modify entity @e[tag=concat,limit=1,sort=nearest] text set value [{"entity": "@e[tag=concat,limit=1,sort=nearest]","nbt": "text","interpret": true},{"storage": "neofunction:item/1717","nbt": "Temp.Text","interpret": true,"bold": true,"hoverEvent": {"action": "show_text","contents": {"translate": "%1$s文字目","with": [{"score": {"name": "#Calc2","objective": "temp"}}]}}}]
-# 【変更：2026-09-28 26.3対応】名前・説明文・文字表示の中身は 1.21.5 から JSON の文字列ではなく文章の部品として読まれる。文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
 execute if score #Calc1 temp = #Calc2 temp run data modify entity @e[tag=concat,limit=1,sort=nearest] text set value [{"entity": "@e[tag=concat,limit=1,sort=nearest]","nbt": "text","interpret": true},{"storage": "neofunction:item/1717","nbt": "Temp.Text","interpret": true,"bold": true,"hoverEvent": {"action": "show_text","contents": {"translate": "%1$s文字目","with": [{"score": {"name": "#Calc2","objective": "temp"}}]}}},{"text": "|"}]

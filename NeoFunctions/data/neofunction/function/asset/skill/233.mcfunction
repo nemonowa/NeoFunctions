@@ -14,8 +14,7 @@ data modify storage neofunction:tamer OwnerUUID set from entity @s UUID
 execute store result score #Calc2 temp run function neofunction:asset/skill/tamer/count with storage neofunction:tamer
 execute if score #Calc2 temp matches -1 run return -100
 
-# 【変更：2026-09-12 成長段階タグをlv9まで拡張。従来LVL31以上でどの条件にも一致せず不発になっていた
-#   バグも修正（既存の..25/26..30の区切りは維持し、31以降を10レベル刻みで追加）】
+# レベルに応じた成長段階のタグ（..25、26..30、31 以降は 10 レベル刻みで lv9 まで）
 execute if entity @s[scores={LVL=..25}] run summon minecraft:snow_golem ~ ~ ~ {PortalCooldown:2100,Team:"white",DeathLootTable:"empty",Tags:["familiar","snowGolemFamiliar","ownerPending233","lv2"]}
 execute if entity @s[scores={LVL=26..30}] run summon minecraft:snow_golem ~ ~ ~ {PortalCooldown:2100,Team:"white",DeathLootTable:"empty",Tags:["familiar","snowGolemFamiliar","ownerPending233","lv3"]}
 execute if entity @s[scores={LVL=31..40}] run summon minecraft:snow_golem ~ ~ ~ {PortalCooldown:2100,Team:"white",DeathLootTable:"empty",Tags:["familiar","snowGolemFamiliar","ownerPending233","lv4"]}
@@ -28,8 +27,7 @@ execute if entity @s[scores={LVL=81..}] run summon minecraft:snow_golem ~ ~ ~ {P
 data modify entity @e[tag=ownerPending233,limit=1,sort=nearest] equipment.feet set value {id:"minecraft:snowball",count:1,components:{}}
 data modify entity @e[tag=ownerPending233,limit=1,sort=nearest] equipment.feet.components."minecraft:custom_data".Owner set from entity @s UUID
 
-# 【追加：2026-09-12 スニーク召喚（sneak_time 1以上）時はTPしない使い魔にする。
-#   スコア・ストレージ・タグを増やさず、レギンス(ArmorItems[1])にフラグを仕込む方式】
+# スニーク召喚（sneak_time 1以上）のときは、TP しない使い魔にする（レギンスにフラグを入れる）
 execute if score @s sneak_time matches 1.. run data modify entity @e[tag=ownerPending233,limit=1,sort=nearest] equipment.legs set value {id:"minecraft:leather_leggings",count:1,components:{"minecraft:custom_data":{NoFollow:1b}}}
 
 tag @e[tag=ownerPending233] remove ownerPending233

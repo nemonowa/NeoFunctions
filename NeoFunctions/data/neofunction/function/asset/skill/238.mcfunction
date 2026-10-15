@@ -28,7 +28,7 @@ execute positioned ~2 ~ ~-2 run function neofunction:asset/skill/tamer/gehenna_s
 execute positioned ~-2 ~ ~2 run function neofunction:asset/skill/tamer/gehenna_spawn_one
 execute positioned ~-2 ~ ~-2 run function neofunction:asset/skill/tamer/gehenna_spawn_one
 
-# 【追加：2026-09-12 召喚数をレベル依存に変更。習得Lv30を基準に、10レベル毎に+2体（外周に追加配置）】
+# 召喚数をレベル依存に変更。習得Lv30を基準に、10レベル毎に+2体（外周に追加配置）。
 execute if score @s LVL matches 40.. positioned ~5 ~ ~ run function neofunction:asset/skill/tamer/gehenna_spawn_one
 execute if score @s LVL matches 40.. positioned ~-5 ~ ~ run function neofunction:asset/skill/tamer/gehenna_spawn_one
 execute if score @s LVL matches 50.. positioned ~ ~ ~5 run function neofunction:asset/skill/tamer/gehenna_spawn_one

@@ -1,5 +1,5 @@
 # 命名：selen_walk
-# 説明：【追加：2026-10-08 ルブラ編】セレンが西の横穴（781, -40, 3268）へ歩いていく（毎 tick 0.2）。着いたら消えて、横穴が崩れる
+# 説明：セレンが西の横穴（781, -40, 3268）へ歩いていく（毎 tick 0.2）。着いたら消えて、横穴が崩れる
 # 実行条件：schedule（実行者なし）
 # >/function neofunction:system/adv/tick/quest/40/d1/selen
 # =/function neofunction:system/adv/tick/quest/40/d1/selen_walk

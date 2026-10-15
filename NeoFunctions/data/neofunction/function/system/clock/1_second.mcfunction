@@ -54,5 +54,5 @@ execute if entity @e[tag=mob,tag=!UUIDchecked] as @e[tag=mob,tag=!UUIDchecked] r
 schedule clear neofunction:system/clock/1_second
 schedule function neofunction:system/clock/1_second 1s
 
-# 【追加：2026-10-14 ルブラ編】次に話しかける相手を光らせる
+# 次に話しかける相手を光らせる
 function neofunction:system/rubra/guide

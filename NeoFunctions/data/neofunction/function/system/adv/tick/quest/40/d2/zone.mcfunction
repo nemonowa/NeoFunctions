@@ -1,5 +1,5 @@
 # 命名：zone
-# 説明：【追加：2026-10-09 ルブラ編】涸れ泉の聖堂の中で、場所で物語を進める（1 秒ごと）
+# 説明：涸れ泉の聖堂の中で、場所で物語を進める（1 秒ごと）
 # 実行条件：実行者 プレイヤー（聖堂の範囲の中）
 # >/function neofunction:system/adv/tick/dungeon/rubra2
 # =/function neofunction:system/adv/tick/quest/40/d2/zone

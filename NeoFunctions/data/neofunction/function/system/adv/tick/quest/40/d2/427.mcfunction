@@ -1,5 +1,5 @@
 # 命名：427
-# 説明：【追加：2026-10-09 ルブラ編】番人の間：黒い水に侵された守り手の像が立ち上がる。会話の最後にボス戦「涸れの番人」を始める
+# 説明：番人の間：黒い水に侵された守り手の像が立ち上がる。会話の最後にボス戦「涸れの番人」を始める
 # 実行条件：実行者 プレイヤー。#temp main_story 426、黒い水を押し流したあと
 # >/function neofunction:system/adv/tick/quest/40/d2/zone
 # =/function neofunction:system/adv/tick/quest/40/d2/427

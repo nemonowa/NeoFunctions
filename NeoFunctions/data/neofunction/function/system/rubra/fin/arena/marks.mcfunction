@@ -1,5 +1,5 @@
 # 命名：marks
-# 説明：【追加：2026-10-09 ルブラ編】星還りの空の目印：真ん中、入る所、ボスの浮かぶ所、星灯の柱 8 本（柱の頂のランプの真ん中、y209）
+# 説明：星還りの空の目印：真ん中、入る所、ボスの浮かぶ所、星灯の柱 8 本（柱の頂のランプの真ん中、y209）
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/fin/arena/build_go_2
 # =/function neofunction:system/rubra/fin/arena/marks

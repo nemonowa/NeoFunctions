@@ -1,5 +1,5 @@
 # 命名：northlock
-# 説明：【追加：2026-10-09 ルブラ編】北の部屋（壁画の間）の扉の鍵穴：北の鍵（1915）を手に持って右クリックで開く。開いたあとは、北の水が 0 のときだけ扉が開く
+# 説明：北の部屋（壁画の間）の扉の鍵穴：北の鍵（1915）を手に持って右クリックで開く。開いたあとは、北の水が 0 のときだけ扉が開く
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d2/water/northlock

@@ -1,5 +1,5 @@
 # 命名：blast
-# 説明：【追加：2026-10-09 ルブラ編】星の欠片が弾ける（星葬弓の写し）：半径 6 の小さな爆発。敵（タグ enemy）だけに、3 マスまで 8、6 マスまで 4 ダメージ。ブロックは壊さない・プレイヤーには当たらない
+# 説明：星の欠片が弾ける（星葬弓の写し）：半径 6 の小さな爆発。敵（タグ enemy）だけに、3 マスまで 8、6 マスまで 4 ダメージ。ブロックは壊さない・プレイヤーには当たらない
 # 実行条件：実行位置 当たった所
 # >/function neofunction:asset/enchantment/shuuen_replica/hit
 # =/function neofunction:asset/enchantment/shuuen_replica/blast

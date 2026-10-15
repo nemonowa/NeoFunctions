@@ -1,5 +1,5 @@
 # 命名：pull_cancel
-# 説明：【追加：2026-10-09 ルブラ編】引き剥がしの中断（離れた・攻撃を受けた・守り石を手から離した・欠片が砕けた）
+# 説明：引き剥がしの中断（離れた・攻撃を受けた・守り石を手から離した・欠片が砕けた）
 # >/function neofunction:entity/skill/boss/rubra_cradle/pull_tick
 # >/function neofunction:entity/skill/boss/rubra_cradle/break
 # =/function neofunction:entity/skill/boss/rubra_cradle/pull_cancel

@@ -1,5 +1,5 @@
 # 命名：arrow_ray
-# 説明：【追加：2026-10-09 ルブラ編】矢の線を 0.7 ずつ伸ばす。予告のときは細い赤い粉、射抜くときは太い赤い光と、線の近く（1.2 マス）の人に 7 ダメージ。壁に当たると止まる
+# 説明：矢の線を 0.7 ずつ伸ばす。予告のときは細い赤い粉、射抜くときは太い赤い光と、線の近く（1.2 マス）の人に 7 ダメージ。壁に当たると止まる
 # 実行条件：実行位置と向き 線の先
 # >/function neofunction:entity/skill/boss/rubra_cradle/arrow_ray_start
 # =/function neofunction:entity/skill/boss/rubra_cradle/arrow_ray

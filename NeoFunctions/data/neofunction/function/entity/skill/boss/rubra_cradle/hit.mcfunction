@@ -1,5 +1,5 @@
 # 命名：hit
-# 説明：【追加：2026-10-09 ルブラ編】欠片の当たり判定が攻撃された：その欠片を砕く（どの欠片かはタグ rubra_fraghit1〜6 で）
+# 説明：欠片の当たり判定が攻撃された：その欠片を砕く（どの欠片かはタグ rubra_fraghit1〜6 で）
 # 実行条件：実行者 攻撃された interaction（タグ rubra_fraghit）
 # >/function neofunction:entity/skill/boss/rubra_cradle/tick
 # =/function neofunction:entity/skill/boss/rubra_cradle/hit

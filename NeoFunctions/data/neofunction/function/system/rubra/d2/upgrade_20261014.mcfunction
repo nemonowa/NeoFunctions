@@ -1,7 +1,7 @@
 # 命名：upgrade_20261014
-# 説明：【追加：2026-10-14 ルブラ編】第二章の館まわりの作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d2v 3 で済み）。館の裏の通路のブロックは region に直接入れた
-# 説明：【変更】2→3：カシムと夜のミラの居場所を湖の西岸の石の船着き場へ（前は館の裏の急な斜面）。焚き火をひとつ。番人の間・壁画の間の分は upgrade_hall（聖堂の中で）
-# 説明：【変更】1→2：館の扉を壁と同じ石の隠し扉にした（upgrade_door）
+# 説明：第二章の館まわりの作り直しを、今のワールドに一度だけ反映する（storage neofunction:rubra d2v 3 で済み）。館の裏の通路のブロックは region に直接入れた
+# 説明：カシムと夜のミラの居場所を湖の西岸の石の船着き場へ移し、焚き火をひとつ置く。番人の間・壁画の間の分は upgrade_hall（聖堂の中で）
+# 説明：館の扉を壁と同じ石の隠し扉にする（upgrade_door）
 # 実行条件：どこでも（館の近くにプレイヤーがいて、チャンクが読み込まれているとき。guide から）
 # >/function neofunction:system/rubra/guide
 # =/function neofunction:system/rubra/d2/upgrade_20261014

@@ -1,5 +1,5 @@
 # 命名：child_tick
-# 説明：【追加：2026-10-09 ルブラ編】星の子を守る戦い（毎 tick）：10 秒ごとに黒い滴りが 4 体、まわりから這い寄る。星の子のそばの滴りが光を削る。光が尽きたらやり直し、60 秒守りきったら結末 C
+# 説明：星の子を守る戦い（毎 tick）：10 秒ごとに黒い滴りが 4 体、まわりから這い寄る。星の子のそばの滴りが光を削る。光が尽きたらやり直し、60 秒守りきったら結末 C
 # 実行条件：実行者・実行位置 星の子（allay、タグ rubra_child）
 # >/function neofunction:entity/skill/boss/.neo
 # =/function neofunction:entity/skill/boss/rubra_void/child_tick

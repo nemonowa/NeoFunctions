@@ -12,7 +12,7 @@ scoreboard players operation %10 temp = @s generaltimer
 scoreboard players operation %10 temp %= $10 const
 
 # 水中以外の速度ブースト
-# 【変更：2026-09-27 26.3対応】属性修飾子は 1.21 で名前(Name)が廃止され id で識別するため、同じ行で付け外ししている id で判定する
+# 属性修飾子は 1.21 で名前(Name)が廃止され id で識別するため、同じ行で付け外ししている id で判定する
 execute unless data entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"neofunction:00000000-0000-0000-0002-000000000000"}] unless predicate neofunction:is_in_water run attribute @s movement_speed modifier add neofunction:00000000-0000-0000-0002-000000000000 1 add_multiplied_total
 execute if data entity @s attributes[{id:"minecraft:movement_speed"}].modifiers[{id:"neofunction:00000000-0000-0000-0002-000000000000"}] if predicate neofunction:is_in_water run attribute @s movement_speed modifier remove neofunction:00000000-0000-0000-0002-000000000000
 

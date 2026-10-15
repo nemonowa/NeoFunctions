@@ -24,6 +24,5 @@ scoreboard players set @s[scores={sneak_time=50..}] sneak_time 0
 # 内容(距離順に配置)(5s旧式処理)
 # execute as @s[scores={sneak_time=40..}] run function neofunction:system/adv/tick/item/compass_sneak
 # execute if entity @e[type=armor_stand,tag=marked,distance=..3] run function neofunction:system/pos/.macro with storage pos:0
-# 【変更：2026-09-28 26.3対応】flash パーティクルは 26.3 で色の指定が必須になったため、1.20.4 と同じ白を指定
 # execute as @e[type=armor_stand,tag=marked,distance=..32] at @s run particle flash{color:[1.0,1.0,1.0,1.0]} ~ ~1 ~ 0 0 0 1 0 force
 # execute as @e[type=armor_stand,tag=marked,distance=..64] run data merge entity @s {equipment:{head:{id:"minecraft:warped_fungus_on_a_stick",count:1,components:{"minecraft:custom_model_data":{floats:[46.0f]}}}}}

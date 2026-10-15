@@ -1,5 +1,5 @@
 # 命名：pick_on
-# 説明：【追加：2026-10-14 ルブラ編】メサにいる：まだ can_break が無ければ、つるはしの段（custom_data tier）に合わせて付ける（1 紅鉄の鉱石、2 ＋星鉄の鉱石、3 ＋星核の鉱石）
+# 説明：メサにいる：まだ can_break が無ければ、つるはしの段（custom_data tier）に合わせて付ける（1 紅鉄の鉱石、2 ＋星鉄の鉱石、3 ＋星核の鉱石）
 # 実行条件：実行者 プレイヤー（メインハンドにルブラのつるはし、メサの中）
 # >/function neofunction:system/rubra/mine/pick
 # =/function neofunction:system/rubra/mine/pick_on

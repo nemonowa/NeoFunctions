@@ -1,5 +1,5 @@
 # 命名：pull_near
-# 説明：【追加：2026-10-14 ルブラ編】引き剥がしている人が結晶 i から 4 マス以内なら #xt_near temp を 1 に。結晶に青い光の粒
+# 説明：引き剥がしている人が結晶 i から 4 マス以内なら #xt_near temp を 1 に。結晶に青い光の粒
 # 実行条件：引数 i（d3.xt.pull）
 # >/function neofunction:system/rubra/d3/xtal/pull_tick
 # =/function neofunction:system/rubra/d3/xtal/pull_near

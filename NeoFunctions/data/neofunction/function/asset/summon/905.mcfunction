@@ -1,5 +1,5 @@
 # 命名：カシム
-# 説明：【追加：2026-10-09 ルブラ編】隊商の長。旅人をルブラへ連れてきた。夜は湖のほとりにいる
+# 説明：隊商の長。旅人をルブラへ連れてきた。夜は湖のほとりにいる
 # 頭：minecraft-heads.com の 111995（https://minecraft-heads.com/custom-heads/head/111995）。heads.py で付ける
 # >/function neofunction:system/rubra/d2/setup
 # =/function neofunction:asset/summon/905

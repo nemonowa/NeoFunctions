@@ -127,7 +127,7 @@ execute as @s[scores={code=325}] run function neofunction:system/trigger/code/32
 execute as @s[scores={code=326}] run function neofunction:system/trigger/code/326
 #スペルブック:【フロッグリップル】
 execute as @s[scores={code=334}] run function neofunction:system/trigger/code/334
-#スペルブック:【鉱脈感知】（【追加：2026-10-14 ルブラ編】）
+# スペルブック:【鉱脈感知】（）
 execute as @s[scores={code=335}] run function neofunction:system/trigger/code/335
 
 # スキル呼び出し（トリガー起動）
@@ -192,7 +192,7 @@ execute as @s[scores={code=1234567890}] run function neofunction:system/trigger/
 # 副長プロマイド
 execute as @s[scores={code=20210516}] run function neofunction:system/trigger/code/20210516
 
-# 【追加：2026-10-08 ルブラ編】チャットの選択肢（4000〜4999。ユーザー了承済み）
+# チャットの選択肢（4000〜4999。ユーザー了承済み）
 execute if score @s code matches 4000..4999 run function neofunction:system/adv/tick/quest/40/choice
 
 # 引き直し

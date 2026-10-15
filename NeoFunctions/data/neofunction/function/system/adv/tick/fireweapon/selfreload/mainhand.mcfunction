@@ -14,8 +14,6 @@ item replace entity @e[tag=temp_display,limit=1,sort=nearest] container.0 from e
 #クロスボウの矢を空に
 function neofunction:system/hand
 execute if data storage neofunction:hand {item:{id:"minecraft:crossbow"}} as @s run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:charged_projectiles" set value []
-# 【変更：2026-09-27 26.3対応】Charged フラグは廃止され、charged_projectiles の中身の有無で自動判定されるため無効化（上の行で空にしている）
-# execute as @s[nbt={SelectedItem:{id:"minecraft:crossbow"}}] run data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.tag.Charged set value 0b
 #maxreloadingtimeをreloadtimeに代入
 data modify entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".reloadingtime set from entity @e[tag=temp_display,limit=1,sort=nearest] item.components."minecraft:custom_data".maxreloadingtime
 #リロード中にする

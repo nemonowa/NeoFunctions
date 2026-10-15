@@ -1,5 +1,5 @@
 # 命名：rim_off
-# 説明：【追加：2026-10-15 ルブラ編】第 3 形態の縁の黒いカーペットを取り除く
+# 説明：第 3 形態の縁の黒いカーペットを取り除く
 # 実行条件：どこでも（舞台のまわりのチャンクが読み込まれていること）
 # >/function neofunction:entity/skill/boss/rubra_void/clean
 # =/function neofunction:entity/skill/boss/rubra_void/rim_off

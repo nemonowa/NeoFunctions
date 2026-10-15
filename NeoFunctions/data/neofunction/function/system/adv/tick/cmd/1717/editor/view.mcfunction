@@ -20,7 +20,7 @@ data modify storage neofunction:item/1717 For.List set from storage neofunction:
 summon text_display ~ ~ ~ {view_range:0,Tags:["concat","del"],alignment:"center",text:{"text": ""}}
 # カーソル位置の準備
 execute store result score #Calc1 temp run data get storage neofunction:item/1717 data.Cursor
-# 【変更：2026-09-28 26.3対応】名前・説明文・文字表示の中身は 1.21.5 から JSON の文字列ではなく文章の部品として読まれる。文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
+# 文字列のままだと {"text":…} がそのまま表示されるため、部品の形（引用符なし）に直す
 execute if score #Calc1 temp matches 0 run data modify entity @e[tag=concat,limit=1,sort=nearest] text set value {"text":"|"}
 scoreboard players set #Calc2 temp 0
 # For文実行

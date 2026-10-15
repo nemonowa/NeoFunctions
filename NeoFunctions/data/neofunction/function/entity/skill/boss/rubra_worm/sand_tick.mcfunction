@@ -1,5 +1,5 @@
 # 命名：sand_tick
-# 説明：【追加：2026-10-14 ルブラ編】砂の弾 1 つ（毎 tick）：前へ 0.7。人に当たると 5 と少しの目くらまし。固いブロックや床の下、本体から遠く（48）で消える
+# 説明：砂の弾 1 つ（毎 tick）：前へ 0.7。人に当たると 5 と少しの目くらまし。固いブロックや床の下、本体から遠く（48）で消える
 # 実行条件：実行者・実行位置 砂の弾
 # >/function neofunction:entity/skill/boss/rubra_worm/tick
 # =/function neofunction:entity/skill/boss/rubra_worm/sand_tick

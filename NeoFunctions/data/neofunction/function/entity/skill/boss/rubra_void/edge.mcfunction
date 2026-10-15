@@ -1,6 +1,6 @@
 # 命名：edge
-# 説明：【追加：2026-10-09 ルブラ編】縁の黒い海：舞台の真ん中から 22 マスより外にいる人が、少し削られる
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：縁の黒い海：舞台の真ん中から 22 マスより外にいる人が、少し削られる
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者・実行位置 縁の人
 # >/function neofunction:entity/skill/boss/rubra_void/form3
 # =/function neofunction:entity/skill/boss/rubra_void/edge

@@ -1,5 +1,5 @@
 # 命名：valve_one
-# 説明：【追加：2026-10-09 ルブラ編】水門 1 つぶん：残り時間を 1 減らし、開いていれば水の筋を見せて #rk_open temp に数える。閉じる 5 秒前から 0.5 秒ごとに音で知らせる
+# 説明：水門 1 つぶん：残り時間を 1 減らし、開いていれば水の筋を見せて #rk_open temp に数える。閉じる 5 秒前から 0.5 秒ごとに音で知らせる
 # 実行条件：実行者・実行位置 本体。引数 v（v1〜v4）i（1〜4）
 # >/function neofunction:entity/skill/boss/rubra_keeper/valves_tick
 # =/function neofunction:entity/skill/boss/rubra_keeper/valve_one
@@ -9,7 +9,7 @@ $execute store result score #rk_v temp run data get storage neofunction:rubra d2
 execute unless score #rk_v temp matches 1.. run return 0
 scoreboard players remove #rk_v temp 1
 $execute store result storage neofunction:rubra d2.kopen.$(v) int 1 run scoreboard players get #rk_v temp
-# 【追加：2026-10-09】閉じた：柱を水色に戻す
+# 閉じた：柱を水色に戻す
 $execute if score #rk_v temp matches 0 as @e[type=interaction,tag=rubra_kvalve_$(i),limit=1] at @s run fill ~ ~1 ~ ~ ~4 ~ minecraft:light_blue_stained_glass replace minecraft:blue_stained_glass
 $execute if score #rk_v temp matches 0 as @e[type=interaction,tag=rubra_kvalve_$(i),limit=1] at @s run playsound minecraft:block.iron_trapdoor.close block @a[distance=..32] ~ ~ ~ 1 0.6
 execute if score #rk_v temp matches 0 run return 0

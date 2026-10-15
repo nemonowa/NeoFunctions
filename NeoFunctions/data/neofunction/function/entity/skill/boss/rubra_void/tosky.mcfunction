@@ -1,5 +1,5 @@
 # 命名：tosky
-# 説明：【追加：2026-10-09 ルブラ編】印（rubra_tosky）の付いた人を、星還りの空の入口へ移す
+# 説明：印（rubra_tosky）の付いた人を、星還りの空の入口へ移す
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_void/start
 # >/function neofunction:entity/skill/boss/rubra_void/start_2

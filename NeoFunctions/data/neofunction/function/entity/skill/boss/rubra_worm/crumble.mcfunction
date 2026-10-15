@@ -1,5 +1,5 @@
 # 命名：crumble
-# 説明：【追加：2026-10-08 ルブラ編】i 番目の節が黒い砂になって崩れる。赤い光に触れた砂は消える
+# 説明：i 番目の節が黒い砂になって崩れる。赤い光に触れた砂は消える
 # 実行条件：引数 i
 # >/function neofunction:entity/skill/boss/rubra_worm/dying
 # =/function neofunction:entity/skill/boss/rubra_worm/crumble

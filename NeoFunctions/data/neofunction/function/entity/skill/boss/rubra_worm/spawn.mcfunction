@@ -1,5 +1,5 @@
 # 命名：spawn
-# 説明：【追加：2026-10-08 ルブラ編】ソウルイーターを出す：本体（901）・頭の見た目・体の節 12・当たり判定 12。動きの記録（hist）を今の位置で埋め、最初の狙いを決める
+# 説明：ソウルイーターを出す：本体（901）・頭の見た目・体の節 12・当たり判定 12。動きの記録（hist）を今の位置で埋め、最初の狙いを決める
 # 実行条件：実行位置 真ん中の穴の下（812.5, -46, 3268.5）
 # >/function neofunction:system/adv/tick/quest/40/d1/boss_start
 # =/function neofunction:entity/skill/boss/rubra_worm/spawn

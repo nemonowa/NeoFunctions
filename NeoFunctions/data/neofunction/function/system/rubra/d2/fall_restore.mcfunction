@@ -1,5 +1,5 @@
 # 命名：fall_restore
-# 説明：【追加：2026-10-09 ルブラ編】滝を元の太さに戻す（堰の凝灰岩を水に戻す）
+# 説明：滝を元の太さに戻す（堰の凝灰岩を水に戻す）
 # >/function neofunction:system/rubra/d2/reset
 # =/function neofunction:system/rubra/d2/fall_restore
 

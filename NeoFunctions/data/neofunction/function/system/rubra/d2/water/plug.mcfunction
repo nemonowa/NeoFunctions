@@ -1,5 +1,5 @@
 # 命名：plug
-# 説明：【追加：2026-10-09 ルブラ編】三つの水門の間の真ん中の穴に、水路の栓（1916）をはめる：漏れていた水が止まり、合わせての量が 3 つぶんになる
+# 説明：三つの水門の間の真ん中の穴に、水路の栓（1916）をはめる：漏れていた水が止まり、合わせての量が 3 つぶんになる
 # 実行条件：実行者 プレイヤー
 # >/function neofunction:system/adv/player_interacted_with_entity/rubra_click
 # =/function neofunction:system/rubra/d2/water/plug

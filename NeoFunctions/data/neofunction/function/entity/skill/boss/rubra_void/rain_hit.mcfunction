@@ -1,6 +1,6 @@
 # 命名：rain_hit
-# 説明：【追加：2026-10-09 ルブラ編】黒い雨が弾ける：まわり 1.8 マスの人に 6 ダメージ。3×3 の黒い水の溜まりが残る
-# 説明：【変更：2026-10-14】エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
+# 説明：黒い雨が弾ける：まわり 1.8 マスの人に 6 ダメージ。3×3 の黒い水の溜まりが残る
+# 説明：エリートチャレンジ（fin.elite）ではダメージ 1.5 倍
 # 実行条件：実行者・実行位置 黒い雨の目印
 # >/function neofunction:entity/skill/boss/rubra_void/act
 # =/function neofunction:entity/skill/boss/rubra_void/rain_hit

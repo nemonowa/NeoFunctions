@@ -1,5 +1,5 @@
 # 命名：clear
-# 説明：【追加：2026-10-14 ルブラ編】店の人（ドルガ・ザイド・サリム・ナディラ・ハミド）と、店の展示・看板（タグ rubra_shopdeco）・星鍛冶の金床の右クリックの所を片付ける（ブロックはそのまま）
+# 説明：店の人（ドルガ・ザイド・サリム・ナディラ・ハミド）と、店の展示・看板（タグ rubra_shopdeco）・星鍛冶の金床の右クリックの所を片付ける（ブロックはそのまま）
 # 実行条件：セレスタ次元
 # >/function neofunction:system/rubra/shops/build
 # =/function neofunction:system/rubra/shops/clear
