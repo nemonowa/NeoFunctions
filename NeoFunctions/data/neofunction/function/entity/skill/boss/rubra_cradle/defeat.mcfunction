@@ -17,5 +17,5 @@ particle minecraft:end_rod ~ ~1.5 ~ 1 1.5 1 0.05 120 normal
 playsound minecraft:block.beacon.deactivate hostile @a[distance=..48] ~ ~ ~ 2 0.8
 tag @s add del
 # 報酬（宝箱・帰還ゲート）を出す
-function neofunction:system/rubra/d3/reward_build
+function neofunction:system/world/ceresta/rubra/d3/reward_build
 function neofunction:system/adv/tick/quest/40/d3/438

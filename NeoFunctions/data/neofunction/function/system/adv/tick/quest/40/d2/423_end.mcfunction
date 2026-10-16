@@ -8,7 +8,7 @@
 data remove storage neofunction:rubra busy
 execute unless score #temp main_story matches 423 run return 0
 scoreboard players set #temp main_story 424
-execute in neodimension:ceresta_festa run function neofunction:system/rubra/d2/fall_thin
+execute in neodimension:ceresta_festa run function neofunction:system/world/ceresta/rubra/d2/fall_thin
 execute as @e[type=marker,tag=rubra_mira_w1,limit=1] at @s run tp @e[type=villager,tag=rubra_mira] ~ ~ ~ ~ ~
 tellraw @a[distance=..48] {"text":"館のいちばん奥の北の壁。空色の帯の真ん中に、一枚だけ水の流れのような模様のタイルがある。耳を当てると、かすかに水の音がする――滝の裏へ続いているのかもしれない。","color":"#7FD8FF","italic":true}
 tellraw @a[distance=..48] [{"text":"新しい目標","color":"gold","bold":true,"italic":false},{"text":"：","bold":true,"italic":false,"underlined":false},{"text":"水守の館の北の壁の模様のタイルから、地下の通り道を通って聖堂へ","color":"white","bold":true,"italic":false,"underlined":false}]

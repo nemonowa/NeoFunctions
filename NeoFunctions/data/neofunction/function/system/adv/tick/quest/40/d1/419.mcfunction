@@ -9,4 +9,4 @@ execute unless score #temp main_story matches 418 run return 0
 scoreboard players set #temp main_story 419
 data remove storage neofunction:rubra busy
 # この章で使い終わった目印・残骸を片付ける
-function neofunction:system/rubra/tidy_d1
+function neofunction:system/world/ceresta/rubra/tidy_d1

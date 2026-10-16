@@ -51,4 +51,4 @@ summon marker 805.5 -40 3280.5 {Tags:["rubra_d1","rubra_wpillar","rubra_wp2"]}
 summon marker 798.5 -40 3268.5 {Tags:["rubra_d1","rubra_wpillar","rubra_wp3"]}
 summon marker 805.5 -40 3256.5 {Tags:["rubra_d1","rubra_wpillar","rubra_wp4"]}
 summon marker 819.5 -40 3256.5 {Tags:["rubra_d1","rubra_wpillar","rubra_wp5"]}
-function neofunction:system/rubra/d1/hole_lid
+function neofunction:system/world/ceresta/rubra/d1/hole_lid

@@ -5,5 +5,5 @@
 # =/function neofunction:system/adv/tick/quest/40/fin/water_2
 
 # 内容
-execute in neodimension:ceresta_festa run function neofunction:system/rubra/d2/fall_restore
+execute in neodimension:ceresta_festa run function neofunction:system/world/ceresta/rubra/d2/fall_restore
 execute in neodimension:ceresta_festa run forceload remove 960 3205 980 3220

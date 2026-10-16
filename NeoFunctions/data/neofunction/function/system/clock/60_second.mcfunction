@@ -42,7 +42,7 @@ execute as 00000000-0000-0000-0000-000000000001 as @s[scores={karman=6000..}] ru
 execute if score levelStatsSync temp matches -1 run function neofunction:system/levelstatssync/load
 
 #掘った鉱石を、時間が来ていて 64m 以内に人がいなければまた生やす
-execute if entity @e[type=marker,tag=rubra_ore,limit=1] run function neofunction:system/rubra/mine/regen_all
+execute if entity @e[type=marker,tag=rubra_ore,limit=1] run function neofunction:system/world/ceresta/rubra/mine/regen_all
 
 # del
 kill @e[tag=del60s]

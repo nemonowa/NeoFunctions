@@ -17,6 +17,6 @@ tag @a remove rubra_up
 execute as @e[type=marker,tag=rubra_mira_kan,limit=1] at @s run tp @e[type=villager,tag=rubra_mira] ~ ~ ~ ~ ~
 execute as @e[type=marker,tag=rubra_ordo_tower,limit=1] at @s run tp @e[type=villager,tag=rubra_ordo] 959.5 44 3271.5 90 0
 # この章で使い終わった目印・残骸を片付ける
-function neofunction:system/rubra/tidy_d3
+function neofunction:system/world/ceresta/rubra/tidy_d3
 # 塔の一階の床石を閉じ直す（第三章はここで終わり。開いたままにしない）
-function neofunction:system/rubra/d3/hatch_close
+function neofunction:system/world/ceresta/rubra/d3/hatch_close

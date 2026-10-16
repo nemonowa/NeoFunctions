@@ -16,5 +16,5 @@ tag @s add del
 execute in neodimension:ceresta_festa run tp @e[type=villager,tag=rubra_mira] 822.5 -40 3260.5 135 0
 execute in neodimension:ceresta_festa run particle minecraft:end_rod 822.5 -39 3260.5 0.4 0.8 0.4 0.05 30 normal
 # 報酬（宝箱・帰還ゲート）を出す
-function neofunction:system/rubra/d1/reward_build
+function neofunction:system/world/ceresta/rubra/d1/reward_build
 function neofunction:system/adv/tick/quest/40/d1/416

@@ -55,4 +55,4 @@ schedule clear neofunction:system/clock/1_second
 schedule function neofunction:system/clock/1_second 1s
 
 # 次に話しかける相手を光らせる
-function neofunction:system/rubra/guide
+function neofunction:system/world/ceresta/rubra/guide

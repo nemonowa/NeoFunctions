@@ -25,5 +25,5 @@ execute if score @s code matches 4322 run return run function neofunction:system
 execute if score @s code matches 4461 at @s run return run function neofunction:system/adv/tick/quest/40/fin/choice_final {c:"star"}
 execute if score @s code matches 4462 at @s run return run function neofunction:system/adv/tick/quest/40/fin/choice_final {c:"void"}
 # クリア後：星還りの空のセレン　4491 もう一度挑む／ 4492 エリートチャレンジ
-execute if score @s code matches 4491 at @s run return run function neofunction:system/rubra/fin/refight/start {e:"0b"}
-execute if score @s code matches 4492 at @s run return run function neofunction:system/rubra/fin/refight/start {e:"1b"}
+execute if score @s code matches 4491 at @s run return run function neofunction:system/world/ceresta/rubra/fin/refight/start {e:"0b"}
+execute if score @s code matches 4492 at @s run return run function neofunction:system/world/ceresta/rubra/fin/refight/start {e:"1b"}

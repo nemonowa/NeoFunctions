@@ -3,7 +3,7 @@
 # 実行条件：どこでも
 # >/function neofunction:entity/skill/boss/rubra_void/despawn
 # >/function neofunction:system/adv/tick/quest/40/fin/release
-# >/function neofunction:system/rubra/fin/reset_2
+# >/function neofunction:system/world/ceresta/rubra/fin/reset_2
 # =/function neofunction:entity/skill/boss/rubra_void/day
 
 # 内容

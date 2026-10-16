@@ -11,4 +11,4 @@ data remove storage neofunction:rubra busy
 # ミラは館の前（桟橋）へ戻る（第三章は、ミラに話しかけて始まる）
 execute as @e[type=marker,tag=rubra_mira_kan,limit=1] at @s run tp @e[type=villager,tag=rubra_mira] ~ ~ ~ ~ ~
 # この章で使い終わった目印・残骸を片付ける
-function neofunction:system/rubra/tidy_d2
+function neofunction:system/world/ceresta/rubra/tidy_d2

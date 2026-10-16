@@ -29,5 +29,5 @@ execute unless data storage neofunction:rubra cradle{arrow:0} run function neofu
 # 星の雨の印
 execute as @e[type=marker,tag=rubra_star] at @s run function neofunction:entity/skill/boss/rubra_cradle/star_tick
 # 影（広間の中も、守り石の光の中でだけ斬れる）
-execute as @e[type=vex,tag=rubra_shadow,distance=..24] at @s run function neofunction:system/rubra/d3/shadow_light
+execute as @e[type=vex,tag=rubra_shadow,distance=..24] at @s run function neofunction:system/world/ceresta/rubra/d3/shadow_light
 particle minecraft:dust{color:[0.1,0.05,0.1],scale:1.4} ~ ~1.5 ~ 0.5 1 0.5 0 2 normal

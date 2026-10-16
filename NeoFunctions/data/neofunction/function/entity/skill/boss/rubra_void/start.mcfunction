@@ -16,7 +16,7 @@ scoreboard players set #temp main_story 444
 data modify storage neofunction:rubra fin merge value {elite:0b,refight:0b}
 data modify storage neofunction:rubra fin.state set value "build"
 # 再戦のときは討伐の報酬（宝箱・アンカー 139・帰還ゲート）を消してから舞台を建てる
-function neofunction:system/rubra/fin/reward/clear
-function neofunction:system/rubra/fin/arena/build_go
+function neofunction:system/world/ceresta/rubra/fin/reward/clear
+function neofunction:system/world/ceresta/rubra/fin/arena/build_go
 schedule function neofunction:entity/skill/boss/rubra_void/start_2 50t replace
 tellraw @a[tag=rubra_tosky] {"text":"星の光の階段が、夜空へのびていく……","color":"#B8D8FF","italic":true}

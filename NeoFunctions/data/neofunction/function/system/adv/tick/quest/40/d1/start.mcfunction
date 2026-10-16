@@ -8,7 +8,7 @@
 # 前に遊んだときの第一章の選択（欠片をどうするか）とボスの記録を消す。残っていると、選択を押しても「もう選んだ」扱いで進まなかった
 data remove storage neofunction:rubra choice.field
 data remove storage neofunction:rubra worm
-function neofunction:system/rubra/d1/setup
+function neofunction:system/world/ceresta/rubra/d1/setup
 scoreboard players set #temp main_story 410
 data remove storage neofunction:rubra busy
 tellraw @a [{"text":"＊","color":"#D8DE2A","italic":true},{"text":"メインクエスト：","color":"#FFD700","bold":true,"italic":false},{"text":"紅脈の坑","color":"#D7263D","bold":true,"italic":false},{"text":" が始まった","color":"#FFD700","bold":true,"italic":false}]

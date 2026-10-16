@@ -7,7 +7,7 @@
 
 # 内容
 # クリア後の再戦（セレンから）で勝ったときは、結末の選択を出さずに報酬へ
-execute if data storage neofunction:rubra fin{refight:1b} run return run function neofunction:system/rubra/fin/refight/win
+execute if data storage neofunction:rubra fin{refight:1b} run return run function neofunction:system/world/ceresta/rubra/fin/refight/win
 data modify storage neofunction:rubra fin merge value {state:"rise",vul:0b}
 data merge entity @s {Invulnerable:1b}
 kill @e[type=marker,tag=rubra_fin_mark]

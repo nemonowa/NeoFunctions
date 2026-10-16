@@ -9,5 +9,5 @@ execute store result score #rubra_n temp if entity @e[type=drowned,tag=rubra_dri
 # 呼ぶペースを落とした：1 回に 1 体、近くに 3 体まで
 execute if score #rubra_n temp matches 2.. run return run function neofunction:entity/skill/boss/rubra_keeper/puddle
 execute store result score #rubra_r temp run random value 0..1
-execute if score #rubra_r temp matches 0 positioned ~3 ~ ~2 run return run function neofunction:system/rubra/d2/drip
-execute positioned ~-3 ~ ~2 run function neofunction:system/rubra/d2/drip
+execute if score #rubra_r temp matches 0 positioned ~3 ~ ~2 run return run function neofunction:system/world/ceresta/rubra/d2/drip
+execute positioned ~-3 ~ ~2 run function neofunction:system/world/ceresta/rubra/d2/drip

@@ -13,5 +13,5 @@ data modify storage neofunction:rubra d2.selen set value 1b
 execute as @e[type=mannequin,tag=rubra_selen] at @s run particle minecraft:end_rod ~ ~1 ~ 0.4 1 0.4 0.05 60 normal
 execute as @e[type=mannequin,tag=rubra_selen] at @s run tellraw @a[distance=..40] {"text":"セレンの足もとの黒い水が、ざわりと波立った。……次の瞬間、そこに彼女の姿はなかった。","color":"gray","italic":true}
 kill @e[type=mannequin,tag=rubra_selen]
-execute as @e[type=marker,tag=rubra_door_spring] at @s run function neofunction:system/rubra/d2/door/open
+execute as @e[type=marker,tag=rubra_door_spring] at @s run function neofunction:system/world/ceresta/rubra/d2/door/open
 tellraw @a[distance=..48] [{"text":"新しい目標","color":"gold","bold":true,"italic":false},{"text":"：","bold":true,"italic":false,"underlined":false},{"text":"祠の奥、最初の泉へ","color":"white","bold":true,"italic":false,"underlined":false}]

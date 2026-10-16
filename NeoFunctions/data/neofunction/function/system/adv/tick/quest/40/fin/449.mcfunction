@@ -15,7 +15,7 @@ execute as @e[type=marker,tag=rubra_mira_kan,limit=1] at @s run tp @e[type=villa
 tp @e[type=villager,tag=rubra_ordo] 959.5 44 3271.5 90 0
 kill @e[type=mannequin,tag=rubra_fin_selenv]
 # 舞台は片付けず、場所として残す。真ん中に討伐の報酬（宝箱・アンカー 139・帰還ゲート）を出す
-function neofunction:system/rubra/fin/reward/build
+function neofunction:system/world/ceresta/rubra/fin/reward/build
 execute unless data storage neofunction:rubra {ending:"B"} run function neofunction:system/adv/tick/quest/40/fin/redstar
 execute unless data storage neofunction:rubra {ending:"A"} run function neofunction:system/adv/tick/quest/40/fin/water
 execute if data storage neofunction:rubra {ending:"C"} as @a[distance=..96,tag=rubra_j1,tag=rubra_j2,tag=rubra_j3,tag=rubra_j4,tag=rubra_j567,tag=!rubra_j8] run loot give @s loot neofunction:item/1919
@@ -27,4 +27,4 @@ execute if data storage neofunction:rubra {ending:"C"} as @a[distance=..96] at @
 execute as @a[distance=..96] at @s run title @s title {"text":"メインクエストを達成した","color":"dark_green","bold":true}
 execute as @a[distance=..96] at @s run playsound minecraft:ui.toast.challenge_complete record @s ~ ~ ~ 1.0 1.0
 # 終章の目印・残骸を片付ける（舞台の片付けが終わったあとに）
-schedule function neofunction:system/rubra/tidy_fin 80t replace
+schedule function neofunction:system/world/ceresta/rubra/tidy_fin 80t replace
